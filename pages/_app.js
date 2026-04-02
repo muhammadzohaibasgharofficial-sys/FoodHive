@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { useEffect } from 'react'
 import { Toaster } from 'react-hot-toast'
+import Head from 'next/head'   // ✅ Add this import
 
 export default function App({ Component, pageProps }) {
   // Scroll animations observer
@@ -45,7 +46,14 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
+      {/* ✅ Add Meta Tags Here */}
+      <Head>
+        <meta name="p:domain_verify" content="1d63911b7470eb41682db1de8494ea76" />
+        <meta name="google-site-verification" content="lXP5sc3qG2JLdVI76G9k_gfvngqMg3nnBq2ERHq0prQ" />
+      </Head>
+
       <Component {...pageProps} />
+
       <Toaster
         position="bottom-right"
         toastOptions={{
