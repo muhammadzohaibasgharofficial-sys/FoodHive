@@ -1,4 +1,4 @@
-// FoodHive World — Homepage — Exact design image clone
+// FoodHive World — Homepage — Clean: Hero + Countries + Categories + Latest Recipes
 import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -31,10 +31,8 @@ function RecipeCard({ recipe }) {
   )
 }
 
-export default function HomePage({ latestRecipes, recipesByCountry }) {
-  const [searchQ, setSearchQ] = useState('')
+export default function HomePage({ latestRecipes }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const handleSearch = e => { e.preventDefault(); if(searchQ.trim()) window.location.href=`/search?q=${encodeURIComponent(searchQ)}` }
   const heroImg = latestRecipes[0]?.image1||'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800'
 
   return (<>
@@ -56,7 +54,6 @@ export default function HomePage({ latestRecipes, recipesByCountry }) {
           <Link href="/#countries" className="nav-link" onClick={()=>setMobileMenuOpen(false)}>Countries</Link>
           <Link href="/#categories" className="nav-link" onClick={()=>setMobileMenuOpen(false)}>Categories</Link>
           <Link href="/recipes" className="nav-link" onClick={()=>setMobileMenuOpen(false)}>Recipes</Link>
-          <Link href="/recipes" className="nav-link" onClick={()=>setMobileMenuOpen(false)}>Stories ▾</Link>
         </div>
         <div className="navbar-right">
           <button className="nav-icon-btn" aria-label="Search">🔍</button>
@@ -92,72 +89,6 @@ export default function HomePage({ latestRecipes, recipesByCountry }) {
           {[{label:'🍽️ Popular',href:'/recipes'},{label:'⚡ Quick',href:'/categories/lunch'},{label:'🌾 Breakfast',href:'/categories/breakfast'},{label:'🍰 Desserts',href:'/categories/desserts'}].map((f,i)=>(
             <Link key={i} href={f.href} className={`hero-filter-tab${i===1?' active':''}`}>{f.label}</Link>
           ))}
-        </div>
-      </div>
-    </section>
-
-    {/* 4-COLUMN FEATURE CARDS */}
-    <section className="features-section">
-      <div className="container">
-        <div className="features-grid">
-          {[
-            {img:'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=400',title:'You reacted in your taste',sub:'600+ Asian Recipes',tags:['Glorious noodles','Campfire recipes'],accent:'#FFF3E8'},
-            {img:'https://images.pexels.com/photos/1639557/pexels-photo-1639557.jpeg?auto=compress&cs=tinysrgb&w=400',title:'Quick deals and offers!',sub:'Top Rated Picks',tags:['Campfire recipes','Campfire recipes'],accent:'#FFF3E8'},
-            {img:'https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=400',title:'What have you craved?',sub:'World Kitchen Feast',tags:['Top bonus recipes','Campfire classics'],accent:'#EDF7EF'},
-            {img:'https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?auto=compress&cs=tinysrgb&w=400',title:'Cooking builds happiness?',sub:'Daily Meal Plans',tags:['Campfire recipes'],accent:'#EDF7EF'},
-          ].map((card,i)=>(
-            <div key={i} className="feature-card" style={{background:card.accent}}>
-              <div className="feature-card-img"><img src={card.img} alt={card.title} loading="lazy"/></div>
-              <div className="feature-card-body">
-                <h3 className="feature-card-title">{card.title}</h3>
-                <p className="feature-card-sub">{card.sub}</p>
-                <ul className="feature-card-list">{card.tags.map((t,j)=><li key={j}>🔴 {t}</li>)}</ul>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    {/* 3 PROMO CARDS (Teal) */}
-    <section className="promo-section">
-      <div className="container">
-        <div className="promo-grid">
-          {[
-            {emoji:'🌸',title:'Fight Bags',sub:'Save 8',desc:'Discover the best curated food bags packed with authentic flavors from around the world.', btn:'View more'},
-            {emoji:'🫐',title:'Midy Curds',sub:'Save 8',desc:'Creamy, tangy, and packed with nutrition. Explore our top curd and dairy recipes today.', btn:'Explore deals'},
-            {emoji:'🍊',title:'Burgers',sub:'Save 8',desc:'Juicy, layered, and unforgettable. Browse our handpicked burger recipes from every cuisine.', btn:'Browse today'},
-          ].map((p,i)=>(
-            <div key={i} className="promo-card">
-              <div className="promo-emoji">{p.emoji}</div>
-              <h3 className="promo-title">{p.title}</h3>
-              <p className="promo-sub">{p.sub}</p>
-              <p className="promo-desc">{p.desc}</p>
-              <Link href="/recipes" className="promo-btn">{p.btn}</Link>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-
-    {/* 2-COL BANNER */}
-    <section className="banner-section">
-      <div className="container">
-        <div className="banner-grid">
-          <div className="banner-card banner-left">
-            <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Banner 1"/>
-            <div className="banner-overlay">
-              <span className="banner-badge">Authentic</span>
-              <h3 className="banner-title">Effer mariante de a negracs</h3>
-              <p className="banner-desc">Cillum do exercitation, consectetur proident exercitation magna nostrud.</p>
-            </div>
-          </div>
-          <div className="banner-card banner-right">
-            <img src="https://images.pexels.com/photos/2347311/pexels-photo-2347311.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Banner 2"/>
-            <div className="banner-overlay banner-overlay-right">
-              <h3 className="banner-title-hand">Whts nell,<br/>shill nugls!!</h3>
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -213,41 +144,6 @@ export default function HomePage({ latestRecipes, recipesByCountry }) {
       </div>
     </section>
 
-    {/* LEAP SECTION */}
-    <section className="leap-section">
-      <div className="container">
-        <div className="leap-inner">
-          <div className="leap-left">
-            <div className="section-eyebrow">New recipes every 30 mins!</div>
-            <h2 className="leap-title">Leap/Yeco</h2>
-            <p className="leap-desc">Explore world cuisines crafted fresh daily. From spicy Asian bowls to Italian classics, find your next favorite meal right here.</p>
-            <div className="leap-btns">
-              <Link href="/recipes" className="btn-primary">🍳 Find Recipes</Link>
-              <Link href="/recipes" className="btn-outline-teal">▶ See Examples</Link>
-            </div>
-          </div>
-          <div className="leap-right">
-            <img src="https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Food" className="leap-img"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    {/* RED CTA BANNER */}
-    <section className="cta-banner">
-      <div className="cta-banner-inner">
-        <div className="cta-banner-left">
-          <p className="cta-banner-eyebrow">Tnrld na! Chebrca In it</p>
-          <h3 className="cta-banner-title">To But Chebrca In it</h3>
-        </div>
-        <div className="cta-banner-right">
-          <Link href="/recipes" className="cta-btn-white">🌿 Organic</Link>
-          <Link href="/recipes" className="cta-btn-green">🥗 Subscribe</Link>
-          <Link href="/recipes" className="cta-btn-outline-w">☰ 3 styles</Link>
-        </div>
-      </div>
-    </section>
-
     {/* LATEST RECIPES */}
     <section className="section" style={{background:'var(--cream2)'}}>
       <div className="container">
@@ -296,7 +192,5 @@ export default function HomePage({ latestRecipes, recipesByCountry }) {
 export async function getStaticProps() {
   const all = getAllRecipes()
   const latest = all.length>0 ? all.slice(0,12) : Array(6).fill(SAMPLE_RECIPE)
-  const byCountry = {}
-  for (const r of all) { if(!byCountry[r.country]) byCountry[r.country]=[]; byCountry[r.country].push(r) }
-  return { props:{ latestRecipes:latest, recipesByCountry:byCountry }, revalidate:60 }
+  return { props:{ latestRecipes:latest }, revalidate:60 }
 }
