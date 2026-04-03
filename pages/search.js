@@ -1,55 +1,66 @@
 // ============================================================
-// FoodHive World — pages/search.js
+// FoodHive World — pages/search.js (FIXED)
+// Fix: Use getServerSideProps so URL query params work properly
+// Fix: Read query from router instead of window.location
 // ============================================================
 
 import { useState, useEffect } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import { getAllRecipes } from '../lib/data'
 
 function RecipeCard({ recipe }) {
   return (
     <Link href={`/recipes/${recipe.slug}`}>
-      <div className="recipe-card scale-in">
-        <div className="recipe-card-image">
+      <div className="recipe-card">
+        <div className="recipe-card-top">
           <img src={recipe.image1} alt={recipe.title} loading="lazy" />
-          <div className="recipe-badge">{recipe.categoryIcon} {recipe.categoryName}</div>
-          <div className="recipe-country-badge">{recipe.countryFlag} {recipe.countryName}</div>
+          <div className="recipe-card-top-overlay" />
+          <div className="recipe-card-badges">
+            <span className="recipe-badge-cat">{recipe.categoryIcon} {recipe.categoryName}</span>
+            <span className="recipe-badge-country">{recipe.countryFlag} {recipe.countryName}</span>
+          </div>
+        </div>
+        <div className="recipe-card-circle">
+          <img className="recipe-card-circle-img" src={recipe.image2 || recipe.image1} alt={recipe.title} loading="lazy" />
         </div>
         <div className="recipe-card-body">
-          <h3 className="recipe-title">{recipe.title}</h3>
-          <p className="recipe-desc">{recipe.description}</p>
-          <div className="recipe-meta">
-            <span>⏱️ {recipe.totalTime}</span>
+          <h3 className="recipe-card-title">{recipe.title}</h3>
+          <p className="recipe-card-desc">{recipe.description}</p>
+          <div className="recipe-card-meta">
+            <span>⏱ {recipe.totalTime}</span>
             <span>⭐ {recipe.rating}</span>
           </div>
-          <span className="recipe-cta">View Recipe →</span>
+          <div className="recipe-card-footer">
+            <div className="recipe-rating">⭐ {recipe.rating}</div>
+            <span className="recipe-view-btn">View →</span>
+          </div>
         </div>
       </div>
     </Link>
   )
 }
 
-export default function SearchPage({ allRecipes }) {
-  const [query, setQuery] = useState('')
-  const [results, setResults] = useState([])
-  const [searched, setSearched] = useState(false)
+export default function SearchPage({ allRecipes, initialQuery, initialResults }) {
+  const router = useRouter()
+  const [query, setQuery] = useState(initialQuery || '')
+  const [results, setResults] = useState(initialResults || [])
+  const [searched, setSearched] = useState(!!initialQuery)
 
+  // If user navigates to /search?q=something, update results
   useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const params = new URLSearchParams(window.location.search)
-      const q = params.get('q') || ''
-      if (q) {
-        setQuery(q)
-        doSearch(q, allRecipes)
-      }
+    const q = router.query.q || ''
+    if (q && q !== query) {
+      setQuery(q)
+      doSearch(q)
     }
-  }, [])
+  }, [router.query.q])
 
-  const doSearch = (q, recipes) => {
+  const doSearch = (q) => {
     const term = q.toLowerCase().trim()
     if (!term) { setResults([]); setSearched(false); return }
-    const found = recipes.filter(r =>
+    const found = allRecipes.filter(r =>
       r.title?.toLowerCase().includes(term) ||
       r.countryName?.toLowerCase().includes(term) ||
       r.categoryName?.toLowerCase().includes(term) ||
@@ -64,64 +75,68 @@ export default function SearchPage({ allRecipes }) {
   const handleSearch = (e) => {
     e.preventDefault()
     if (query.trim()) {
-      window.history.pushState({}, '', `/search?q=${encodeURIComponent(query)}`)
-      doSearch(query, allRecipes)
+      router.push(`/search?q=${encodeURIComponent(query.trim())}`, undefined, { shallow: true })
+      doSearch(query.trim())
     }
   }
 
   return (
     <>
       <Head>
-        <title>{query ? `"${query}" — Search Results` : 'Search Recipes'} | FoodHive World</title>
-        <meta name="description" content={`Search results for ${query} — Find authentic world recipes on FoodHive.`} />
+        <title>{query ? `"${query}" — Search` : 'Search Recipes'} | FoodHive World</title>
+        <meta name="description" content={`Search results for ${query} — Authentic world recipes on FoodHive.`} />
         <meta name="robots" content="noindex" />
       </Head>
 
       <nav className="navbar">
         <div className="navbar-inner">
           <Link href="/" className="logo">
-            <div className="logo-icon">🍽️</div>
-            <span>FoodHive <span style={{ color: 'var(--orange)', fontSize: '12px' }}>WORLD</span></span>
+            🍽️ FoodHive <span className="logo-badge">WORLD</span>
           </Link>
-          <Link href="/#countries" className="nav-link">Countries</Link>
+          <div className="nav-links">
+            <Link href="/#countries" className="nav-link">Countries</Link>
+            <Link href="/#categories" className="nav-link">Categories</Link>
+            <Link href="/recipes" className="nav-link">All Recipes</Link>
+          </div>
           <Link href="/recipes" className="btn-primary" style={{ padding: '10px 20px', fontSize: '14px' }}>All Recipes</Link>
         </div>
       </nav>
 
-      <section style={{ background: 'linear-gradient(135deg, #FFF8E7, #FFE4CC)', padding: '80px 0 60px' }}>
+      <section style={{ background: 'var(--cream)', padding: '120px 0 60px' }}>
         <div className="container" style={{ textAlign: 'center' }}>
-          <h1 style={{ fontFamily: 'var(--font-display)', fontSize: '48px', fontWeight: '900', marginBottom: '32px', color: 'var(--black)' }}>
-            🔍 Search Recipes
-          </h1>
-          <form onSubmit={handleSearch} style={{ display: 'flex', gap: '12px', maxWidth: '600px', margin: '0 auto' }}>
-            <input
-              type="text"
-              value={query}
-              onChange={e => setQuery(e.target.value)}
-              placeholder="Search by dish, country, category..."
-              style={{
-                flex: 1, padding: '18px 24px', borderRadius: 'var(--r-full)',
-                border: '2px solid #eee', fontSize: '16px', outline: 'none',
-                boxShadow: 'var(--shadow-soft)'
-              }}
-              autoFocus
-            />
-            <button type="submit" className="btn-primary" style={{ padding: '18px 32px' }}>Search</button>
+          <div className="section-eyebrow">Search</div>
+          <h1 className="section-title">Find Your <em>Recipe</em></h1>
+          <p className="section-desc">Search across 10 world cuisines and 12 categories</p>
+
+          <form onSubmit={handleSearch} style={{ display: 'flex', gap: '12px', maxWidth: '600px', margin: '40px auto 0' }}>
+            <div className="nav-search" style={{ flex: 1, width: 'auto', borderRadius: 'var(--r-full)' }}>
+              <span style={{ fontSize: '16px', opacity: 0.5 }}>🔍</span>
+              <input
+                type="text"
+                value={query}
+                onChange={e => setQuery(e.target.value)}
+                placeholder="Search by dish, country, category..."
+                style={{ width: '100%' }}
+                autoFocus
+              />
+            </div>
+            <button type="submit" className="btn-primary" style={{ padding: '14px 28px' }}>Search</button>
           </form>
         </div>
       </section>
 
-      <section className="section">
+      <section className="section" style={{ background: 'var(--cream-dark)' }}>
         <div className="container">
           {searched && (
             <div className="section-header" style={{ marginBottom: '40px' }}>
               <h2 className="section-title">
                 {results.length > 0
-                  ? `${results.length} results for "${query}"`
-                  : `No results for "${query}"`}
+                  ? <>{results.length} results for <em>"{query}"</em></>
+                  : <>No results for <em>"{query}"</em></>
+                }
               </h2>
               {results.length === 0 && (
-                <p style={{ color: 'var(--gray)', marginTop: '12px' }}>
+                <p className="section-desc" style={{ marginTop: '12px' }}>
                   Try searching for a country (Asian, Indian), category (breakfast, desserts), or dish name.
                 </p>
               )}
@@ -130,23 +145,59 @@ export default function SearchPage({ allRecipes }) {
 
           {results.length > 0 && (
             <div className="recipes-grid">
-              {results.map((r, i) => <RecipeCard key={r.slug || i} recipe={r} />)}
+              {results.map((r, i) => (
+                <div key={r.slug || i} className="fade-up" style={{ animationDelay: `${i * 50}ms` }}>
+                  <RecipeCard recipe={r} />
+                </div>
+              ))}
             </div>
           )}
 
           {!searched && (
-            <div style={{ textAlign: 'center', padding: '60px 0', color: 'var(--gray)' }}>
-              <div style={{ fontSize: '64px', marginBottom: '16px' }}>🌍</div>
-              <p style={{ fontSize: '18px' }}>Search across 10 world cuisines and 12 categories</p>
+            <div style={{ textAlign: 'center', padding: '80px 0', color: 'var(--text-muted)' }}>
+              <div style={{ fontSize: '72px', marginBottom: '20px' }}>🌍</div>
+              <p style={{ fontSize: '18px', fontFamily: 'var(--font-display)' }}>
+                Search across 10 world cuisines and 12 categories
+              </p>
             </div>
           )}
         </div>
       </section>
+
+      <footer className="footer">
+        <div className="container">
+          <div className="footer-bottom">
+            <Link href="/" style={{ color: 'var(--gold-light)', textDecoration: 'none' }}>🍽️ FoodHive World</Link>
+            <span>© 2026 FoodHive World</span>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }
 
-export async function getStaticProps() {
+// FIXED: Use getServerSideProps so query params are available on server
+export async function getServerSideProps({ query }) {
   const allRecipes = getAllRecipes()
-  return { props: { allRecipes }, revalidate: 60 }
+  const q = (query.q || '').toLowerCase().trim()
+
+  let initialResults = []
+  if (q) {
+    initialResults = allRecipes.filter(r =>
+      r.title?.toLowerCase().includes(q) ||
+      r.countryName?.toLowerCase().includes(q) ||
+      r.categoryName?.toLowerCase().includes(q) ||
+      r.cuisine?.toLowerCase().includes(q) ||
+      r.description?.toLowerCase().includes(q) ||
+      r.tags?.some(t => t.toLowerCase().includes(q))
+    )
+  }
+
+  return {
+    props: {
+      allRecipes,
+      initialQuery: query.q || '',
+      initialResults
+    }
+  }
 }
