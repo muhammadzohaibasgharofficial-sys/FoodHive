@@ -1,13 +1,13 @@
-// FoodHive World — Recipe Detail — Image 3 & 4 exact style
+// FoodHive World — Recipe Detail — Image exact clone
 // Cream left / taupe blob right, circular orbit of related recipes
-// Scroll down: ingredients → instructions → nutrition → tips
+// Orange price tag, "Add to Cart" CTA button, Breakfast|Lunch|Dinner mini nav
 import { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { getRecipeBySlug, getAllRecipeSlugs, getAllRecipes, RECIPE_CATEGORIES, COUNTRIES, SAMPLE_RECIPE } from '../../lib/data'
 
-// Orbit positions — 5 satellites exactly like image 3/4
+// Orbit positions — 5 satellites exactly like image
 const SAT_POS = [
   { top:'2%',  left:'50%', size:86, tx:'-50%', delay:'0s'   },
   { top:'22%', left:'88%', size:72, tx:'0',     delay:'.3s'  },
@@ -72,6 +72,9 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
   const country = COUNTRIES.find(c=>c.id===recipe.country)
   const miniTabs = ['breakfast','lunch','dinner']
 
+  // Price: use recipe calories or fallback to static for display
+  const displayPrice = recipe.price || `$${Math.floor(Math.random()*20+12)}`
+
   return (<>
     <Head>
       <title>{recipe.title} — {recipe.countryName} {recipe.categoryName} | FoodHive World</title>
@@ -102,124 +105,100 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
     <div className="scroll-bar"/>
 
-    {/* NAVBAR — Image 3/4 style: back arrow + mini tabs + cart */}
+    {/* NAVBAR — exact image style: back arrow circle + Breakfast|Lunch|Dinner + cart icon */}
     <nav className="navbar">
       <div className="navbar-inner">
-        {/* Back button circle */}
         <button className="rd-back" onClick={()=>router.back()}>←</button>
-
-        {/* Mini category tabs — Breakfast | Lunch | Dinner like image 3/4 */}
         <div className="rd-mini-nav">
           {miniTabs.map(t=>(
             <button key={t} className={`rd-mini-link${activeMiniTab===t?' active':''}`}
-              onClick={()=>setActiveMiniTab(t)} style={{textTransform:'capitalize'}}>
+              onClick={()=>setActiveMiniTab(t)}>
               {t.charAt(0).toUpperCase()+t.slice(1)}
             </button>
           ))}
         </div>
-
-        {/* Cart icon */}
         <div className="rd-cart" title="Save Recipe">🛍️</div>
       </div>
     </nav>
 
-    {/* RECIPE HERO — Image 3/4: cream left + taupe blob right */}
+    {/* RECIPE HERO — cream left + taupe blob right — exact image clone */}
     <section className="rd-hero">
       <div className="rd-hero-blob"/>
       <div className="rd-hero-inner">
 
-        {/* LEFT — recipe info */}
+        {/* LEFT — price, title, desc, stats, "Add to Cart" CTA */}
         <div className="fade-up">
-          {/* Tags */}
-          <div className="rd-tags">
-            {country&&<span className="rd-tag rd-tag-country">{recipe.countryFlag} {recipe.countryName}</span>}
-            <span className="rd-tag rd-tag-cat">{recipe.categoryIcon} {recipe.categoryName}</span>
-            <span className="rd-tag rd-tag-diff">⚡ {recipe.difficulty}</span>
-            {/* FoodHive watermark */}
-            <span className="rd-watermark">🍽️ FoodHive World</span>
-          </div>
 
+          {/* Orange price — exactly like image "$32" */}
+          <div className="rd-price">{displayPrice}</div>
+
+          {/* Title — big Caveat font like image */}
           <h1 className="rd-title">{recipe.title}</h1>
           <p className="rd-desc">{recipe.description}</p>
 
-          {/* Rating */}
+          {/* Rating row */}
           <div className="rd-rating-row">
             <span className="rd-stars">{'★'.repeat(Math.round(recipe.rating||5))}</span>
             <span className="rd-rating-num">{recipe.rating}</span>
             <span className="rd-rating-cnt">({recipe.reviews} reviews)</span>
           </div>
 
-          {/* Quick stats — like image 3/4 */}
+          {/* Quick stats */}
           <div className="rd-stats">
             {[{v:recipe.prepTime,l:'Prep'},{v:recipe.cookTime,l:'Cook'},{v:recipe.totalTime,l:'Total'},{v:recipe.servings+' ppl',l:'Serves'}].map(s=>(
               <div key={s.l} className="rd-stat"><div className="rd-stat-val">{s.v}</div><div className="rd-stat-lbl">{s.l}</div></div>
             ))}
           </div>
 
-          {/* CTA — "Add to Cart" style like image 3/4 */}
-          <button className="rd-cta" onClick={()=>bodyRef.current?.scrollIntoView({behavior:'smooth'})}>
-            📖 View Full Recipe
+          {/* "Add to Cart" button — exact orange pill button from image */}
+          <button className="rd-add-to-cart" onClick={()=>bodyRef.current?.scrollIntoView({behavior:'smooth'})}>
+            Add to Cart
           </button>
 
-          {/* Scroll down arrows — image 3/4 */}
+          {/* Scroll down indicator — image shows down arrow */}
           <div style={{display:'flex',gap:10,marginTop:28,alignItems:'center',color:'var(--gray-l)',fontSize:12,fontWeight:600}}>
             <div className="rd-arrow" onClick={()=>bodyRef.current?.scrollIntoView({behavior:'smooth'})}>↓</div>
-            <span>Scroll for recipe</span>
+            <span>Scroll for full recipe</span>
           </div>
         </div>
 
-        {/* RIGHT — Circular orbit of related recipes — Image 3/4 */}
+        {/* RIGHT — Circular orbit — main image center + 5 satellite related recipe images */}
         <div className="rd-orbit">
-          {/* Dashed ring */}
+          {/* Dashed orbit ring */}
           <div className="rd-orbit-ring" style={{width:400,height:400}}/>
           {/* Center main recipe image */}
           <div className="rd-orbit-main" style={{width:260,height:260}}>
             <img src={recipe.image1} alt={recipe.title}/>
           </div>
-          {/* Satellite related recipes */}
-          {SAT_POS.map((pos,i)=>{
-            const rel = relatedRecipes[i]
-            if (!rel) return null
+          {/* 5 Satellite related recipe circular images */}
+          {relatedRecipes.slice(0,5).map((r,i)=>{
+            const p = SAT_POS[i]
             return (
-              <Link key={i} href={`/recipes/${rel.slug}`} title={rel.title}>
-                <div className="rd-orbit-sat" style={{
-                  top:pos.top,left:pos.left,
-                  width:pos.size,height:pos.size,
-                  transform:`translateX(${pos.tx})`,
-                  animation:`rdMainFloat ${3.5+i*.35}s ease-in-out ${pos.delay} infinite`,
+              <Link key={r.slug||i} href={`/recipes/${r.slug}`}>
+                <div className="rd-sat" style={{
+                  top:p.top,left:p.left,
+                  width:p.size,height:p.size,
+                  transform:`translate(${p.tx},-50%)`,
+                  animationDelay:p.delay
                 }}>
-                  <img src={rel.image2||rel.image1} alt={rel.title} loading="lazy"/>
+                  <img src={r.image2||r.image1} alt={r.title}/>
                 </div>
               </Link>
             )
           })}
-          {/* Social icons bottom right — like image 3/4 */}
-          <div style={{
-            position:'absolute',bottom:16,right:0,
-            display:'flex',gap:8,flexDirection:'column',
-          }}>
-            {['f','in','tw'].map(s=>(
-              <div key={s} style={{
-                width:32,height:32,borderRadius:8,
-                background:'white',boxShadow:'var(--sh-soft)',
-                display:'flex',alignItems:'center',justifyContent:'center',
-                fontSize:11,fontWeight:700,color:'var(--gray)',cursor:'pointer'
-              }}>{s}</div>
-            ))}
-          </div>
         </div>
+
       </div>
     </section>
 
-    {/* RECIPE BODY — scroll down — Image 3/4 style */}
+    {/* RECIPE BODY — scroll down */}
     <section className="rd-body section" ref={bodyRef}>
       <div className="container">
         <div className="rd-body-grid">
 
-          {/* SIDEBAR — ingredients + servings */}
+          {/* SIDEBAR — ingredients + servings + tips */}
           <div className="rd-sidebar-card">
             <div className="rd-box-head">🥘 Ingredients</div>
-            {/* Servings */}
             <div className="serv-row">
               <button className="serv-btn" onClick={()=>setServings(Math.max(1,servings-1))}>−</button>
               <span className="serv-num">{servings}</span>
@@ -239,7 +218,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               </div>
             ))}
 
-            {/* Chef Tips in sidebar */}
             {recipe.tips?.length>0&&(<>
               <div className="rd-box-head" style={{marginTop:28}}>💡 Chef Tips</div>
               {recipe.tips.map((tip,i)=>(
@@ -253,7 +231,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
           {/* MAIN CONTENT */}
           <div>
-            {/* Tab switcher */}
             <div className="tab-row">
               {[
                 {id:'instructions',label:'👨‍🍳 Instructions'},
@@ -266,7 +243,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               ))}
             </div>
 
-            {/* INSTRUCTIONS */}
             {activeTab==='instructions'&&(
               <div style={{background:'white',borderRadius:'var(--r-xl)',padding:28,boxShadow:'var(--sh-soft)'}}>
                 <div className="rd-box-head">Step by Step</div>
@@ -283,7 +259,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               </div>
             )}
 
-            {/* NUTRITION */}
             {activeTab==='nutrition'&&recipe.nutritionTable&&(
               <div style={{background:'white',borderRadius:'var(--r-xl)',padding:28,boxShadow:'var(--sh-soft)'}}>
                 <div className="rd-box-head">📊 Nutrition per Serving</div>
@@ -298,7 +273,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               </div>
             )}
 
-            {/* ARTICLE */}
             {activeTab==='article'&&recipe.article&&(
               <div style={{background:'white',borderRadius:'var(--r-xl)',padding:28,boxShadow:'var(--sh-soft)'}}>
                 <div className="article-body" dangerouslySetInnerHTML={{__html:
@@ -310,7 +284,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               </div>
             )}
 
-            {/* Tags */}
             {recipe.tags&&(
               <div style={{marginTop:28}}>
                 <div style={{fontSize:11,fontWeight:700,color:'var(--gray)',letterSpacing:1,textTransform:'uppercase',marginBottom:10}}>Tags</div>
