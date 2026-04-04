@@ -1,11 +1,12 @@
 // ============================================================
-// FoodHive World — Dynamic Sitemap
+// FoodHive World — Dynamic Sitemap (Fixed BASE_URL)
 // Covers: homepage, countries, categories, all recipe pages
 // ============================================================
 
 import { COUNTRIES, RECIPE_CATEGORIES, getAllRecipeSlugs } from '../lib/data'
 
-const BASE_URL = 'https://foodhive.vercel.app'
+// ✅ FIXED: Use actual website domain
+const BASE_URL = 'https://food-hive-one.vercel.app'
 
 function generateSitemap(slugs) {
   const today = new Date().toISOString().split('T')[0]
