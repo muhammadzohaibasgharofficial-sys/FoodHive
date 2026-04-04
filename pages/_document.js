@@ -7,10 +7,6 @@ export default function Document() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-        {/* ✅ ADDED LINE */}
-        <meta name="google-site-verification" content="lXP5sc3qG2JLdVI76G9k_gfvngqMg3nnBq2ERHq0prQ" />
-
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta property="og:site_name" content="FoodHive World" />
