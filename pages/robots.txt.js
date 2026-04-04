@@ -1,5 +1,5 @@
 // ============================================================
-// FoodHive World — robots.txt
+// FoodHive World — robots.txt (Fixed BASE_URL)
 // ============================================================
 
 export default function Robots() { return null }
@@ -9,7 +9,7 @@ export async function getServerSideProps({ res }) {
 Allow: /
 
 # Sitemaps
-Sitemap: https://foodhive.vercel.app/sitemap.xml
+Sitemap: https://food-hive-one.vercel.app/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1
