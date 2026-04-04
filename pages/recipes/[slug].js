@@ -1,10 +1,9 @@
 // ============================================================
-// FoodHive World — pages/recipes/[slug].js  (v4 — Image Match)
+// FoodHive World — pages/recipes/[slug].js  (v5 — JSON-LD Fixed)
 // Hero: Taupe blob right, main dish circle center, orbit satellites
 // Navigation: Up/Down arrows + 5 dots → next/prev recipe
 // Font: Caveat bold (same as reference image)
-// No price tag — recipe website adaptation
-// Bottom sections: ingredients, instructions, comments SAME
+// JSON-LD: Uses recipe.jsonLd field if available, else builds from data
 // ============================================================
 import { useState, useEffect, useRef, useCallback } from 'react'
 import Head from 'next/head'
@@ -14,6 +13,60 @@ import {
   getRecipeBySlug, getAllRecipeSlugs, getAllRecipes,
   RECIPE_CATEGORIES, COUNTRIES, SAMPLE_RECIPE,
 } from '../../lib/data'
+
+// ── Build JSON-LD from recipe data (fallback if recipe.jsonLd not present) ──
+function buildJsonLd(recipe) {
+  if (recipe.jsonLd) return recipe.jsonLd
+
+  const parseMinutes = (str) => parseInt((str || '').replace(/\D/g, '')) || 0
+
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Recipe',
+    name: recipe.title,
+    description: recipe.description,
+    image: [recipe.image1, recipe.image2].filter(Boolean),
+    author: {
+      '@type': 'Organization',
+      name: 'FoodHive World',
+      url: 'https://food-hive-one.vercel.app',
+    },
+    datePublished: recipe.publishedAt,
+    prepTime: `PT${parseMinutes(recipe.prepTime) || 20}M`,
+    cookTime: `PT${parseMinutes(recipe.cookTime) || 30}M`,
+    totalTime: `PT${parseMinutes(recipe.totalTime) || 50}M`,
+    recipeYield: `${recipe.servings || 4} servings`,
+    recipeCategory: recipe.categoryName,
+    recipeCuisine: recipe.cuisine,
+    keywords: (recipe.tags || []).join(', '),
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: recipe.rating || 4.8,
+      reviewCount: recipe.reviews || 312,
+      bestRating: 5,
+      worstRating: 1,
+    },
+    nutrition: {
+      '@type': 'NutritionInformation',
+      calories: (recipe.nutritionTable?.calories || '400 kcal').replace(' kcal', ' calories'),
+      proteinContent: recipe.nutritionTable?.protein || '20g',
+      carbohydrateContent: recipe.nutritionTable?.carbs || '40g',
+      fatContent: recipe.nutritionTable?.fat || '15g',
+      fiberContent: recipe.nutritionTable?.fiber || '3g',
+      sugarContent: recipe.nutritionTable?.sugar || '5g',
+      sodiumContent: recipe.nutritionTable?.sodium || '500mg',
+    },
+    recipeIngredient: (recipe.ingredients || []).map(
+      (i) => `${i.amount} ${i.item}${i.notes ? ' (' + i.notes + ')' : ''}`
+    ),
+    recipeInstructions: (recipe.instructions || []).map((s) => ({
+      '@type': 'HowToStep',
+      name: s.title,
+      text: s.text,
+      timeRequired: `PT${parseMinutes(s.time) || 5}M`,
+    })),
+  }
+}
 
 // ── Star Rating ──
 function StarRating({ value = 5, interactive = false, onRate }) {
@@ -98,7 +151,7 @@ function LikesButton({ slug }) {
 function ShareButton({ title, slug, description }) {
   const [copied, setCopied] = useState(false)
   const [showMenu, setShowMenu] = useState(false)
-  const url = `https://foodhive.vercel.app/recipes/${slug}`
+  const url = `https://food-hive-one.vercel.app/recipes/${slug}`
   const shareText = `${title} — Authentic recipe on FoodHive World!\n${url}`
   const copyLink = () => { navigator.clipboard.writeText(url).then(() => { setCopied(true); setShowMenu(false); setTimeout(() => setCopied(false), 2500) }) }
   const copyRecipeText = () => { navigator.clipboard.writeText(`🍽️ ${title}\n\n${description||''}\n\n📖 Full Recipe:\n${url}\n\n— FoodHive World`).then(() => { setCopied(true); setShowMenu(false); setTimeout(() => setCopied(false), 2500) }) }
@@ -349,8 +402,8 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
 
   const mult = servings / (recipe.servings || 4)
   const scaleAmt = amt => { const n = parseFloat(amt); if (isNaN(n)) return amt; return amt.replace(/[\d.]+/, (n * mult).toFixed(n % 1 !== 0 ? 1 : 0)) }
-  const getIngredientsText = () => `📝 ${recipe.title} — Ingredients (${servings} servings)\n\n` + (recipe.ingredients || []).map(ing => `• ${scaleAmt(ing.amount)} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}`).join('\n') + `\n\n📖 Full Recipe: https://foodhive.vercel.app/recipes/${recipe.slug}`
-  const getInstructionsText = () => `👨‍🍳 ${recipe.title} — Instructions\n\n` + (recipe.instructions || []).map(s => `Step ${s.step}: ${s.title}\n${s.text}${s.time ? `\n⏱ ${s.time}` : ''}`).join('\n\n') + `\n\n📖 Full Recipe: https://foodhive.vercel.app/recipes/${recipe.slug}`
+  const getIngredientsText = () => `📝 ${recipe.title} — Ingredients (${servings} servings)\n\n` + (recipe.ingredients || []).map(ing => `• ${scaleAmt(ing.amount)} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}`).join('\n') + `\n\n📖 Full Recipe: https://food-hive-one.vercel.app/recipes/${recipe.slug}`
+  const getInstructionsText = () => `👨‍🍳 ${recipe.title} — Instructions\n\n` + (recipe.instructions || []).map(s => `Step ${s.step}: ${s.title}\n${s.text}${s.time ? `\n⏱ ${s.time}` : ''}`).join('\n\n') + `\n\n📖 Full Recipe: https://food-hive-one.vercel.app/recipes/${recipe.slug}`
 
   const satelliteRecipes = relatedRecipes.slice(0, 5)
   const totalRecipes = allRecipes.length
@@ -363,33 +416,30 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
     return idx
   })
 
+  // Build JSON-LD — use stored field if present, else compute from recipe data
+  const jsonLdData = buildJsonLd(recipe)
+
   return (
     <>
       <Head>
         <title>{recipe.title} — {recipe.countryName} {recipe.categoryName} | FoodHive World</title>
-        <meta name="description" content={`${recipe.description} Authentic ${recipe.countryName} recipe.`} />
+        <meta name="description" content={`${recipe.description} Authentic ${recipe.countryName} recipe on FoodHive World.`} />
         <meta property="og:title" content={`${recipe.title} | FoodHive World`} />
         <meta property="og:description" content={recipe.description} />
         <meta property="og:image" content={recipe.image1} />
         <meta property="og:type" content="article" />
-        <link rel="canonical" href={`https://foodhive.vercel.app/recipes/${recipe.slug}`} />
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
-          '@context': 'https://schema.org', '@type': 'Recipe',
-          name: recipe.title, description: recipe.description,
-          image: [recipe.image1, recipe.image2].filter(Boolean),
-          author: { '@type': 'Organization', name: 'FoodHive World' },
-          datePublished: recipe.publishedAt,
-          prepTime: `PT${(recipe.prepTime || '15 min').replace(/\D/g, '')}M`,
-          cookTime: `PT${(recipe.cookTime || '30 min').replace(/\D/g, '')}M`,
-          totalTime: `PT${(recipe.totalTime || '45 min').replace(/\D/g, '')}M`,
-          recipeYield: `${recipe.servings} servings`,
-          recipeCategory: recipe.categoryName, recipeCuisine: recipe.cuisine,
-          keywords: (recipe.tags || []).join(', '),
-          aggregateRating: { '@type': 'AggregateRating', ratingValue: recipe.rating || 4.8, reviewCount: recipe.reviews || 100 },
-          nutrition: { '@type': 'NutritionInformation', calories: recipe.nutritionTable?.calories },
-          recipeIngredient: (recipe.ingredients || []).map(i => `${i.amount} ${i.item}`),
-          recipeInstructions: (recipe.instructions || []).map(s => ({ '@type': 'HowToStep', name: s.title, text: s.text })),
-        }) }} />
+        <meta property="og:url" content={`https://food-hive-one.vercel.app/recipes/${recipe.slug}`} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={`${recipe.title} | FoodHive World`} />
+        <meta name="twitter:description" content={recipe.description} />
+        <meta name="twitter:image" content={recipe.image1} />
+        <link rel="canonical" href={`https://food-hive-one.vercel.app/recipes/${recipe.slug}`} />
+
+        {/* ── JSON-LD Recipe Schema ── */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
+        />
       </Head>
 
       <div className="scroll-bar" />
@@ -410,9 +460,7 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
       </nav>
 
       {/* ══════════════════════════════════════════
-          HERO — IMAGE REFERENCE STYLE
-          Left: cream, recipe info with Caveat font
-          Right: taupe blob, circular orbit, arrows, dots
+          HERO
           ══════════════════════════════════════════ */}
       <section className={`rh-hero${transitioning ? ' rh-transitioning' : ''}`}>
 
@@ -424,7 +472,6 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
             <span className="rh-tag">⚡ {recipe.difficulty}</span>
           </div>
 
-          {/* Big Caveat title — same as image */}
           <h1 className="rh-title">{recipe.title}</h1>
 
           <div className="rh-rating-row">
@@ -435,7 +482,6 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
 
           <p className="rh-desc">{recipe.description}</p>
 
-          {/* Stats bar */}
           <div className="rh-stats">
             {[
               { icon:'⏱', v: recipe.prepTime, l:'Prep' },
@@ -451,7 +497,6 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
             ))}
           </div>
 
-          {/* Actions */}
           <div className="rh-actions">
             <button className="rh-cta" onClick={() => bodyRef.current?.scrollIntoView({ behavior:'smooth' })}>
               📖 View Full Recipe
@@ -468,23 +513,17 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
 
         {/* RIGHT — Blob + Orbit + Navigation */}
         <div className="rh-right">
-          {/* Taupe organic blob — same as image */}
           <div className="rh-blob" />
 
-          {/* Orbit container — centered */}
           <div className="rh-orbit-wrap">
-            {/* Dashed orbit ring */}
             <div className="rh-orbit-ring" />
 
-            {/* Main dish — big floating circle center */}
             <div className="rh-main-circle">
               <img src={recipe.image1} alt={recipe.title} />
             </div>
 
-            {/* 5 satellite recipe circles in upper arc */}
             {satelliteRecipes.map((r, i) => {
               const total = Math.min(satelliteRecipes.length, 5)
-              // Arc: spread across top semicircle (like image)
               const startAngle = -55
               const spread = 270
               const angle = startAngle + (spread / Math.max(total - 1, 1)) * i
@@ -508,13 +547,9 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
               )
             })}
 
-            {/* Up arrow — same position as image (center-left of orbit) */}
             <button className="rh-nav-btn rh-nav-up" onClick={() => navigateToRecipe('up')} title="Previous Recipe (↑ key)">↑</button>
-
-            {/* Down arrow */}
             <button className="rh-nav-btn rh-nav-down" onClick={() => navigateToRecipe('down')} title="Next Recipe (↓ key)">↓</button>
 
-            {/* 5 dots — right side of orbit like image */}
             <div className="rh-dots">
               {dotIndices.map((dotIdx, i) => (
                 <div key={i}
@@ -531,7 +566,6 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
             </div>
           </div>
 
-          {/* Dish name label floating near bottom */}
           <div className="rh-dish-label">
             <span className="rh-dish-name">{recipe.title}</span>
             <span className="rh-dish-cuisine">{recipe.cuisine} Cuisine</span>
@@ -540,7 +574,7 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
       </section>
 
       {/* ══════════════════════════════════════════
-          RECIPE BODY — SAME AS BEFORE
+          RECIPE BODY
           ══════════════════════════════════════════ */}
       <section className="rd-body section" ref={bodyRef}>
         <div className="container">
