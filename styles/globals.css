@@ -936,4 +936,93 @@ button{font-family:inherit;cursor:pointer;border:none;outline:none}
   .cat-grid{grid-template-columns:repeat(2,1fr)}
   .hero-title{font-size:52px}
   .leap-title{font-size:44px}
+/* ══════════════════════════════════════════
+   TYPOGRAPHY FIX - Apply homepage fonts EVERYWHERE
+   ══════════════════════════════════════════ */
+
+/* 1️⃣ CATEGORY PAGE - Match homepage exactly */
+.cp-hero-title,
+.cp-featured-title,
+.cp-mini-title {
+  font-family: 'Caveat', cursive !important;
+}
+
+/* 2️⃣ COUNTRY PAGE - Match homepage */
+.rd-title,
+.leap-title,
+.banner-title-hand {
+  font-family: 'Caveat', cursive !important;
+}
+
+/* 3️⃣ ALL SECTION TITLES */
+.section-title,
+h1, h2, h3 {
+  font-family: 'Caveat', cursive;
+  font-weight: 700;
+}
+
+/* 4️⃣ RECIPE CARD TITLES */
+.rc-title,
+.recipe-card-title,
+.cc-name,
+.cat-name,
+.feature-card-title,
+.promo-title {
+  font-family: 'Caveat', cursive !important;
+  font-weight: 700;
+}
+
+/* 5️⃣ BODY TEXT - Consistent Nunito */
+body, p, .hero-desc, .section-desc,
+.rc-desc, .recipe-card-desc,
+.footer-desc, .feature-card-sub,
+.promo-desc, .banner-desc {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* ══════════════════════════════════════════
+   PRICE REMOVAL - Recipe Detail Page
+   ══════════════════════════════════════════ */
+
+/* Hide price tag completely */
+.rd-price {
+  display: none !important;
+}
+
+/* If price in any other element */
+[class*="price"],
+[id*="price"] {
+  display: none !important;
+}
+
+/* ══════════════════════════════════════════
+   ADDITIONAL PROFESSIONAL IMPROVEMENTS
+   ══════════════════════════════════════════ */
+
+/* Better letter spacing */
+.hero-title,
+.section-title,
+.rd-title {
+  letter-spacing: -0.5px;
+}
+
+/* Consistent line heights */
+h1, h2, h3 {
+  line-height: 1.1;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/* Smoother transitions */
+* {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Better focus states */
+button:focus,
+a:focus {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
 }
