@@ -1,200 +1,125 @@
 // ============================================================
-// FoodHive World — pages/recipes/[slug].js  (v5 — JSON-LD Fixed)
-// Hero: Taupe blob right, main dish circle center, orbit satellites
-// Navigation: Up/Down arrows + 5 dots → next/prev recipe
-// Font: Caveat bold (same as reference image)
-// JSON-LD: Uses recipe.jsonLd field if available, else builds from data
+// FoodHive World — pages/recipes/[slug].js
+// Clean, simple UI — Likes + Comments + Share (English)
 // ============================================================
-import { useState, useEffect, useRef, useCallback } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import {
-  getRecipeBySlug, getAllRecipeSlugs, getAllRecipes,
-  RECIPE_CATEGORIES, COUNTRIES, SAMPLE_RECIPE,
+  getRecipeBySlug,
+  getAllRecipeSlugs,
+  getAllRecipes,
+  RECIPE_CATEGORIES,
+  COUNTRIES,
+  SAMPLE_RECIPE,
 } from '../../lib/data'
 
-// ── Build JSON-LD from recipe data (fallback if recipe.jsonLd not present) ──
-function buildJsonLd(recipe) {
-  if (recipe.jsonLd) return recipe.jsonLd
-
-  const parseMinutes = (str) => parseInt((str || '').replace(/\D/g, '')) || 0
-
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'Recipe',
-    name: recipe.title,
-    description: recipe.description,
-    image: [recipe.image1, recipe.image2].filter(Boolean),
-    author: {
-      '@type': 'Organization',
-      name: 'FoodHive World',
-      url: 'https://food-hive-one.vercel.app',
-    },
-    datePublished: recipe.publishedAt,
-    prepTime: `PT${parseMinutes(recipe.prepTime) || 20}M`,
-    cookTime: `PT${parseMinutes(recipe.cookTime) || 30}M`,
-    totalTime: `PT${parseMinutes(recipe.totalTime) || 50}M`,
-    recipeYield: `${recipe.servings || 4} servings`,
-    recipeCategory: recipe.categoryName,
-    recipeCuisine: recipe.cuisine,
-    keywords: (recipe.tags || []).join(', '),
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: recipe.rating || 4.8,
-      reviewCount: recipe.reviews || 312,
-      bestRating: 5,
-      worstRating: 1,
-    },
-    nutrition: {
-      '@type': 'NutritionInformation',
-      calories: (recipe.nutritionTable?.calories || '400 kcal').replace(' kcal', ' calories'),
-      proteinContent: recipe.nutritionTable?.protein || '20g',
-      carbohydrateContent: recipe.nutritionTable?.carbs || '40g',
-      fatContent: recipe.nutritionTable?.fat || '15g',
-      fiberContent: recipe.nutritionTable?.fiber || '3g',
-      sugarContent: recipe.nutritionTable?.sugar || '5g',
-      sodiumContent: recipe.nutritionTable?.sodium || '500mg',
-    },
-    recipeIngredient: (recipe.ingredients || []).map(
-      (i) => `${i.amount} ${i.item}${i.notes ? ' (' + i.notes + ')' : ''}`
-    ),
-    recipeInstructions: (recipe.instructions || []).map((s) => ({
-      '@type': 'HowToStep',
-      name: s.title,
-      text: s.text,
-      timeRequired: `PT${parseMinutes(s.time) || 5}M`,
-    })),
-  }
-}
+const SAT_POS = [
+  { top: '2%',  left: '50%', size: 86, tx: '-50%', delay: '0s'   },
+  { top: '22%', left: '88%', size: 72, tx: '0',    delay: '.3s'  },
+  { top: '68%', left: '82%', size: 78, tx: '0',    delay: '.6s'  },
+  { top: '72%', left: '14%', size: 72, tx: '0',    delay: '.9s'  },
+  { top: '22%', left: '4%',  size: 80, tx: '0',    delay: '1.2s' },
+]
 
 // ── Star Rating ──
 function StarRating({ value = 5, interactive = false, onRate }) {
   const [hover, setHover] = useState(0)
-  const [selected, setSelected] = useState(value)
-  const [burst, setBurst] = useState(0)
-  const display = hover || selected
-  const handleRate = (s) => { setSelected(s); setBurst(s); setTimeout(() => setBurst(0), 600); onRate?.(s) }
+  const display = hover || value
   return (
-    <div style={{ display: 'flex', gap: interactive ? 5 : 3 }}>
-      {[1,2,3,4,5].map(s => (
-        <span key={s} style={{
-          fontSize: interactive ? 28 : 16,
-          color: s <= display ? '#E8873A' : '#D4BFA0',
-          cursor: interactive ? 'pointer' : 'default',
-          transition: 'color .15s, transform .2s',
-          display: 'inline-block',
-          transform: interactive && hover === s ? 'scale(1.35) rotate(-8deg)' : burst === s ? 'scale(1.5)' : 'scale(1)',
-          filter: s <= display ? 'drop-shadow(0 2px 4px rgba(232,135,58,.4))' : 'none',
-          userSelect: 'none',
-        }}
+    <div style={{ display: 'flex', gap: 2, cursor: interactive ? 'pointer' : 'default' }}>
+      {[1, 2, 3, 4, 5].map(s => (
+        <span
+          key={s}
+          style={{ fontSize: interactive ? 22 : 15, color: s <= display ? '#f59e0b' : '#d1d5db', lineHeight: 1 }}
           onMouseEnter={() => interactive && setHover(s)}
           onMouseLeave={() => interactive && setHover(0)}
-          onClick={() => interactive && handleRate(s)}>★</span>
+          onClick={() => interactive && onRate?.(s)}
+        >★</span>
       ))}
     </div>
   )
 }
 
-// ── Likes Button ──
-function LikesButton({ slug }) {
+// ── Like Button — simple style ──
+function LikeButton({ slug }) {
   const [count, setCount] = useState(0)
   const [liked, setLiked] = useState(false)
-  const [animating, setAnimating] = useState(false)
-  const [particles, setParticles] = useState([])
+
   useEffect(() => {
-    fetch(`/api/likes?slug=${slug}`).then(r => r.json()).then(d => setCount(d.count || 0)).catch(() => {})
-    const ls = JSON.parse(localStorage.getItem('fh_liked') || '[]')
-    setLiked(ls.includes(slug))
+    fetch(`/api/sb-likes?slug=${slug}`)
+      .then(r => r.json()).then(d => setCount(d.count || 0)).catch(() => {})
+    const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
+    setLiked(likedSet.includes(slug))
   }, [slug])
-  const spawnParticles = () => {
-    const emojis = ['❤️','✨','💖','🌟','💕']
-    setParticles(Array.from({length:6}, (_, i) => ({ id: Date.now()+i, emoji: emojis[i%emojis.length], x: (Math.random()-.5)*80, y: -(30+Math.random()*50) })))
-    setTimeout(() => setParticles([]), 900)
-  }
-  const toggleLike = async () => {
+
+  const handleLike = async () => {
     if (liked) return
-    setAnimating(true); spawnParticles()
-    const ls = JSON.parse(localStorage.getItem('fh_liked') || '[]')
-    ls.push(slug); localStorage.setItem('fh_liked', JSON.stringify(ls)); setLiked(true)
+    const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
+    likedSet.push(slug)
+    localStorage.setItem('fh_liked', JSON.stringify(likedSet))
+    setLiked(true)
     try {
-      const r = await fetch('/api/likes', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug }) })
-      const d = await r.json(); setCount(d.count || count + 1)
+      const r = await fetch('/api/sb-likes', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug }) })
+      const d = await r.json()
+      setCount(d.count || count + 1)
     } catch { setCount(c => c + 1) }
-    setTimeout(() => setAnimating(false), 700)
   }
+
   return (
-    <div style={{ position: 'relative', display: 'inline-flex' }}>
-      {particles.map(p => (
-        <span key={p.id} style={{ position:'absolute', left:'50%', top:0, fontSize:16, pointerEvents:'none', zIndex:100, animation:'particleFly .8s ease-out forwards', '--px': p.x+'px', '--py': p.y+'px' }}>{p.emoji}</span>
-      ))}
-      <button onClick={toggleLike} style={{
-        display:'inline-flex', alignItems:'center', gap:7,
-        background: liked ? '#FFF0F4' : 'rgba(255,255,255,0.9)',
-        border: `2px solid ${liked ? '#E8526A' : 'rgba(255,255,255,0.6)'}`,
-        color: liked ? '#E8526A' : '#5C3A1E',
-        fontSize:13, fontWeight:700, padding:'10px 18px', borderRadius:9999,
-        cursor: liked ? 'default' : 'pointer',
-        transition:'all .3s cubic-bezier(.34,1.56,.64,1)',
-        boxShadow:'0 4px 16px rgba(44,24,16,.12)',
-        transform: animating ? 'scale(1.12)' : 'scale(1)',
-        fontFamily:'Nunito, sans-serif', backdropFilter:'blur(8px)',
-      }}>
-        <span style={{ fontSize:20, display:'inline-block', transition:'transform .4s cubic-bezier(.34,1.56,.64,1)', transform: animating ? 'scale(1.6) rotate(-20deg)' : 'scale(1)' }}>{liked ? '❤️' : '🤍'}</span>
-        <span style={{ fontFamily:'Caveat, cursive', fontSize:20, fontWeight:700 }}>{count}</span>
-      </button>
-    </div>
+    <button onClick={handleLike} className={`action-btn${liked ? ' action-btn-active' : ''}`}>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill={liked ? 'currentColor' : 'none'} stroke="currentColor" strokeWidth="2">
+        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+      </svg>
+      {liked ? 'Liked' : 'Like'} {count > 0 && <span className="action-count">{count}</span>}
+    </button>
   )
 }
 
-// ── Share Button ──
+// ── Share Button — simple dropdown ──
 function ShareButton({ title, slug, description }) {
+  const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
-  const [showMenu, setShowMenu] = useState(false)
   const url = `https://food-hive-one.vercel.app/recipes/${slug}`
-  const shareText = `${title} — Authentic recipe on FoodHive World!\n${url}`
-  const copyLink = () => { navigator.clipboard.writeText(url).then(() => { setCopied(true); setShowMenu(false); setTimeout(() => setCopied(false), 2500) }) }
-  const copyRecipeText = () => { navigator.clipboard.writeText(`🍽️ ${title}\n\n${description||''}\n\n📖 Full Recipe:\n${url}\n\n— FoodHive World`).then(() => { setCopied(true); setShowMenu(false); setTimeout(() => setCopied(false), 2500) }) }
-  const shareWhatsApp = () => { window.open(`https://wa.me/?text=${encodeURIComponent(shareText)}`, '_blank'); setShowMenu(false) }
-  const shareTwitter = () => { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}&hashtags=FoodHive,Recipe`, '_blank'); setShowMenu(false) }
-  const shareFacebook = () => { window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank'); setShowMenu(false) }
-  const handleMainClick = () => { if (navigator.share) { navigator.share({ title, text: shareText, url }).catch(() => {}) } else setShowMenu(p => !p) }
+
+  const copy = () => {
+    navigator.clipboard.writeText(url).then(() => { setCopied(true); setOpen(false); setTimeout(() => setCopied(false), 2000) })
+  }
+  const copyText = () => {
+    navigator.clipboard.writeText(`${title}\n\n${description || ''}\n\n${url}`).then(() => { setCopied(true); setOpen(false); setTimeout(() => setCopied(false), 2000) })
+  }
+  const whatsapp = () => { window.open(`https://wa.me/?text=${encodeURIComponent(title + '\n' + url)}`, '_blank'); setOpen(false) }
+  const twitter  = () => { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank'); setOpen(false) }
+  const facebook = () => { window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank'); setOpen(false) }
+
   useEffect(() => {
-    if (!showMenu) return
-    const close = () => setShowMenu(false)
+    if (!open) return
+    const close = () => setOpen(false)
     document.addEventListener('click', close, { once: true })
     return () => document.removeEventListener('click', close)
-  }, [showMenu])
-  const menuItems = [
-    { icon:'🔗', label:'Link Copy', action:copyLink, color:'#3D9E8C' },
-    { icon:'📋', label:'Recipe Text Copy', action:copyRecipeText, color:'#8B9E6B' },
-    { icon:'💬', label:'WhatsApp', action:shareWhatsApp, color:'#25D366' },
-    { icon:'🐦', label:'Twitter / X', action:shareTwitter, color:'#1DA1F2' },
-    { icon:'📘', label:'Facebook', action:shareFacebook, color:'#1877F2' },
-  ]
+  }, [open])
+
   return (
-    <div style={{ position:'relative', display:'inline-flex' }} onClick={e => e.stopPropagation()}>
-      <button onClick={handleMainClick} style={{
-        display:'inline-flex', alignItems:'center', gap:7,
-        background: copied ? 'rgba(61,158,140,0.15)' : 'rgba(255,255,255,0.9)',
-        border: `2px solid ${copied ? '#3D9E8C' : 'rgba(255,255,255,0.6)'}`,
-        color: copied ? '#3D9E8C' : '#5C3A1E',
-        fontSize:13, fontWeight:700, padding:'10px 18px', borderRadius:9999,
-        cursor:'pointer', transition:'all .25s',
-        boxShadow:'0 4px 16px rgba(44,24,16,.12)',
-        fontFamily:'Nunito, sans-serif', backdropFilter:'blur(8px)',
-      }}>
-        <span style={{ fontSize:16 }}>{copied ? '✅' : '🔗'}</span>
+    <div style={{ position: 'relative' }} onClick={e => e.stopPropagation()}>
+      <button onClick={() => setOpen(p => !p)} className="action-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+          <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+        </svg>
         {copied ? 'Copied!' : 'Share'}
       </button>
-      {showMenu && (
-        <div style={{ position:'absolute', top:'calc(100% + 10px)', left:0, background:'white', borderRadius:20, boxShadow:'0 12px 50px rgba(44,24,16,.18)', padding:8, minWidth:200, zIndex:300, border:'1px solid #F0E8D6', animation:'menuSlideIn .22s cubic-bezier(.34,1.56,.64,1)' }}>
-          {menuItems.map(item => (
-            <button key={item.label} onClick={item.action} style={{ display:'flex', alignItems:'center', gap:10, width:'100%', padding:'10px 14px', border:'none', background:'none', cursor:'pointer', borderRadius:12, fontSize:13, fontWeight:600, color:'#2C1810', fontFamily:'Nunito, sans-serif', transition:'all .15s', textAlign:'left' }}
-              onMouseEnter={e => { e.currentTarget.style.background = '#FAF6EE'; e.currentTarget.style.transform = 'translateX(4px)' }}
-              onMouseLeave={e => { e.currentTarget.style.background = 'none'; e.currentTarget.style.transform = 'none' }}>
-              <span style={{ width:32, height:32, borderRadius:9, background:item.color+'18', display:'flex', alignItems:'center', justifyContent:'center', fontSize:16, flexShrink:0 }}>{item.icon}</span>
-              {item.label}
+      {open && (
+        <div className="share-menu">
+          {[
+            { label: 'Copy link', icon: '🔗', fn: copy },
+            { label: 'Copy recipe text', icon: '📋', fn: copyText },
+            { label: 'WhatsApp', icon: '💬', fn: whatsapp },
+            { label: 'Twitter / X', icon: '𝕏', fn: twitter },
+            { label: 'Facebook', icon: 'f', fn: facebook },
+          ].map(item => (
+            <button key={item.label} onClick={item.fn} className="share-menu-item">
+              <span className="share-menu-icon">{item.icon}</span> {item.label}
             </button>
           ))}
         </div>
@@ -203,130 +128,94 @@ function ShareButton({ title, slug, description }) {
   )
 }
 
-// ── Copy Button ──
-function CopyBtn({ getText, label = 'Copy' }) {
-  const [state, setState] = useState('idle')
-  const handleCopy = async () => {
-    setState('copying')
-    try { await navigator.clipboard.writeText(getText()); setState('done'); setTimeout(() => setState('idle'), 2000) }
-    catch { setState('idle') }
-  }
-  const icons = { idle:'📋', copying:'⏳', done:'✅' }
-  const labels = { idle:label, copying:'...', done:'Copied!' }
-  const colors = { idle:'#7A6A5A', copying:'#8B9E6B', done:'#3D9E8C' }
-  return (
-    <button onClick={handleCopy} style={{
-      display:'inline-flex', alignItems:'center', gap:5,
-      background: state === 'done' ? '#E8F5F3' : '#FAF6EE',
-      border: `1.5px solid ${state === 'done' ? '#3D9E8C' : '#E8D5BA'}`,
-      color: colors[state], fontSize:11, fontWeight:700,
-      padding:'5px 12px', borderRadius:9999,
-      cursor:'pointer', transition:'all .25s cubic-bezier(.34,1.56,.64,1)',
-      fontFamily:'Nunito, sans-serif',
-      transform: state === 'done' ? 'scale(1.06)' : 'scale(1)',
-    }}>
-      <span style={{ fontSize:13 }}>{icons[state]}</span>
-      {labels[state]}
-    </button>
-  )
-}
-
-// ── Comments Section ──
+// ── Comments Section — clean ──
 function CommentsSection({ slug }) {
   const [comments, setComments] = useState([])
   const [loading, setLoading] = useState(true)
   const [submitting, setSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
-  const [form, setForm] = useState({ name:'', comment:'', rating:5 })
+  const [form, setForm] = useState({ name: '', email: '', comment: '', rating: 5 })
+
   useEffect(() => {
-    fetch(`/api/comments?slug=${slug}`).then(r => r.json()).then(d => { setComments(d.comments || []); setLoading(false) }).catch(() => setLoading(false))
+    fetch(`/api/sb-comments?slug=${slug}`)
+      .then(r => r.json())
+      .then(d => { setComments(d.comments || []); setLoading(false) })
+      .catch(() => setLoading(false))
   }, [slug])
+
   const submit = async e => {
     e.preventDefault()
-    if (!form.name.trim() || !form.comment.trim()) { setError('Naam aur comment dono required hain.'); return }
+    if (!form.name.trim() || !form.comment.trim()) { setError('Name and comment are required.'); return }
     setSubmitting(true); setError('')
     try {
-      const r = await fetch('/api/comments', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ slug, ...form }) })
+      const r = await fetch('/api/sb-comments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug, ...form }) })
       const d = await r.json()
       if (!r.ok) throw new Error(d.error || 'Failed')
       setSubmitted(true)
-      setComments(prev => [{ id:d.id, name:form.name, comment:form.comment, rating:form.rating, date: new Date().toISOString() }, ...prev])
-      setForm({ name:'', comment:'', rating:5 })
+      setComments(prev => [{ id: d.id, name: form.name, comment: form.comment, rating: form.rating, date: new Date().toISOString() }, ...prev])
+      setForm({ name: '', email: '', comment: '', rating: 5 })
     } catch (err) { setError(err.message) }
     setSubmitting(false)
   }
-  const ratingLabels = { 1:'Kharab 😞', 2:'Theek Hai 😐', 3:'Acha Hai 🙂', 4:'Bahut Acha 😊', 5:'Zabardast! 🤩' }
+
   return (
-    <section style={{ background:'var(--cream)', padding:'80px 0', borderTop:'1px solid var(--cream2)' }}>
+    <section className="comments-wrap">
       <div className="container">
-        <div style={{ marginBottom:48 }}>
-          <div className="section-eyebrow">💬 Community</div>
-          <h2 style={{ fontFamily:'Caveat, cursive', fontSize:'clamp(28px,3.5vw,44px)', fontWeight:700, color:'var(--dark)', marginBottom:8 }}>Reviews & Comments</h2>
-          <p style={{ fontSize:14, color:'var(--gray)' }}>{comments.length} review{comments.length !== 1 ? 's' : ''} — Apna experience share karein! ✍️</p>
-        </div>
+        <h2 className="comments-heading">Reviews <span className="comments-count">({comments.length})</span></h2>
+
+        {/* Form */}
         {!submitted ? (
-          <form onSubmit={submit} style={{ background:'white', borderRadius:28, padding:36, boxShadow:'0 8px 40px rgba(44,24,16,.10)', borderTop:'4px solid var(--teal)', marginBottom:48 }}>
-            <h3 style={{ fontFamily:'Caveat, cursive', fontSize:26, fontWeight:700, color:'var(--dark)', marginBottom:24 }}>Apna Review Dein</h3>
-            <div style={{ display:'flex', alignItems:'center', gap:14, background:'var(--cream)', borderRadius:16, padding:'14px 20px', marginBottom:22, width:'fit-content' }}>
-              <span style={{ fontSize:13, fontWeight:700, color:'var(--gray)' }}>Rating:</span>
-              <StarRating value={form.rating} interactive onRate={v => setForm(p => ({ ...p, rating:v }))} />
-              {form.rating > 0 && <span style={{ fontSize:13, fontWeight:700, color:'var(--teal)' }}>{ratingLabels[form.rating]}</span>}
+          <form className="comment-form" onSubmit={submit}>
+            <div className="cf-rating-row">
+              <span className="cf-label">Your rating</span>
+              <StarRating value={form.rating} interactive onRate={v => setForm(p => ({ ...p, rating: v }))} />
             </div>
-            <div style={{ marginBottom:16 }}>
-              <label style={{ fontSize:11, fontWeight:700, color:'var(--gray)', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:6 }}>Naam *</label>
-              <input value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} placeholder="Aapka naam likhein" maxLength={100} required
-                style={{ width:'100%', maxWidth:360, border:'2px solid var(--cream2)', borderRadius:14, padding:'12px 16px', fontSize:14, fontFamily:'Nunito, sans-serif', color:'var(--dark)', background:'var(--cream)', outline:'none', transition:'border-color .2s' }}
-                onFocus={e => { e.target.style.borderColor = 'var(--teal)'; e.target.style.boxShadow = '0 0 0 3px rgba(61,158,140,.12)' }}
-                onBlur={e => { e.target.style.borderColor = 'var(--cream2)'; e.target.style.boxShadow = 'none' }} />
+            <div className="cf-grid">
+              <div className="cf-field">
+                <label className="cf-label">Name *</label>
+                <input value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} placeholder="Your name" maxLength={100} required />
+              </div>
+              <div className="cf-field">
+                <label className="cf-label">Email <span className="cf-optional">(optional)</span></label>
+                <input type="email" value={form.email} onChange={e => setForm(p => ({ ...p, email: e.target.value }))} placeholder="your@email.com" />
+              </div>
             </div>
-            <div style={{ marginBottom:20 }}>
-              <label style={{ fontSize:11, fontWeight:700, color:'var(--gray)', textTransform:'uppercase', letterSpacing:'.5px', display:'block', marginBottom:6 }}>Comment *</label>
-              <textarea value={form.comment} onChange={e => setForm(p => ({ ...p, comment: e.target.value }))} placeholder="Is recipe ke baare mein apna experience share karein..." rows={4} maxLength={1000} required
-                style={{ width:'100%', border:'2px solid var(--cream2)', borderRadius:14, padding:'12px 16px', fontSize:14, fontFamily:'Nunito, sans-serif', color:'var(--dark)', background:'var(--cream)', outline:'none', resize:'vertical', transition:'border-color .2s' }}
-                onFocus={e => { e.target.style.borderColor = 'var(--teal)'; e.target.style.boxShadow = '0 0 0 3px rgba(61,158,140,.12)' }}
-                onBlur={e => { e.target.style.borderColor = 'var(--cream2)'; e.target.style.boxShadow = 'none' }} />
-              <div style={{ fontSize:11, color:'var(--gray-l)', textAlign:'right', marginTop:4 }}>{form.comment.length}/1000</div>
+            <div className="cf-field">
+              <label className="cf-label">Comment *</label>
+              <textarea value={form.comment} onChange={e => setForm(p => ({ ...p, comment: e.target.value }))} placeholder="Share your experience with this recipe..." rows={4} maxLength={1000} required />
+              <span className="cf-char">{form.comment.length}/1000</span>
             </div>
-            {error && <div style={{ background:'#FFF0F0', color:'#C0392B', border:'1px solid #FDC', borderRadius:12, padding:'10px 16px', fontSize:13, marginBottom:14 }}>⚠️ {error}</div>}
-            <button type="submit" disabled={submitting} style={{ background: submitting ? 'var(--gray-l)' : 'var(--teal)', color:'white', fontSize:14, fontWeight:700, padding:'14px 36px', borderRadius:9999, border:'none', cursor: submitting ? 'not-allowed' : 'pointer', fontFamily:'Nunito, sans-serif', transition:'all .3s', boxShadow: submitting ? 'none' : '0 6px 20px rgba(61,158,140,.4)' }}
-              onMouseEnter={e => !submitting && (e.target.style.transform = 'translateY(-2px) scale(1.02)')}
-              onMouseLeave={e => (e.target.style.transform = 'none')}>
-              {submitting ? '⏳ Post ho raha hai...' : '✉️ Review Submit Karein'}
+            {error && <p className="cf-error">{error}</p>}
+            <button type="submit" className="cf-btn" disabled={submitting}>
+              {submitting ? 'Posting...' : 'Post Review'}
             </button>
           </form>
         ) : (
-          <div style={{ background:'white', borderRadius:28, padding:'48px 36px', textAlign:'center', boxShadow:'0 8px 40px rgba(44,24,16,.10)', borderTop:'4px solid var(--teal)', marginBottom:48 }}>
-            <div style={{ fontSize:56, marginBottom:12 }}>🎉</div>
-            <h3 style={{ fontFamily:'Caveat, cursive', fontSize:28, fontWeight:700, color:'var(--dark)', marginBottom:8 }}>Shukriya!</h3>
-            <p style={{ color:'var(--gray)', fontSize:14, marginBottom:20 }}>Aapka review successfully post ho gaya.</p>
-            <button onClick={() => setSubmitted(false)} style={{ background:'var(--teal)', color:'white', fontSize:13, fontWeight:700, padding:'12px 28px', borderRadius:9999, border:'none', cursor:'pointer', fontFamily:'Nunito, sans-serif', boxShadow:'0 4px 16px rgba(61,158,140,.35)' }}>Aur Review Likhein</button>
+          <div className="cf-success">
+            <p>✓ Your review was posted successfully.</p>
+            <button onClick={() => setSubmitted(false)} className="cf-btn-ghost">Write another</button>
           </div>
         )}
+
+        {/* List */}
         {loading ? (
-          <div style={{ textAlign:'center', padding:48, color:'var(--gray)', background:'white', borderRadius:24, boxShadow:'0 4px 20px rgba(44,24,16,.08)' }}>
-            <div style={{ fontSize:32, marginBottom:8 }}>⏳</div>Reviews load ho rahe hain...
-          </div>
+          <p className="comments-empty">Loading reviews...</p>
         ) : comments.length === 0 ? (
-          <div style={{ textAlign:'center', padding:48, background:'white', borderRadius:24, boxShadow:'0 4px 20px rgba(44,24,16,.08)' }}>
-            <div style={{ fontSize:48, marginBottom:10 }}>✍️</div>
-            <p style={{ color:'var(--gray)', fontSize:14 }}>Abhi tak koi review nahi. Pehle aap likhein!</p>
-          </div>
+          <p className="comments-empty">No reviews yet. Be the first!</p>
         ) : (
-          <div style={{ display:'flex', flexDirection:'column', gap:16 }}>
+          <div className="comments-list">
             {comments.map((c, i) => (
-              <div key={c.id || i} style={{ background:'white', borderRadius:20, padding:'22px 26px', boxShadow:'0 4px 20px rgba(44,24,16,.08)', borderLeft:'4px solid var(--olive-l)', transition:'transform .2s, box-shadow .2s' }}
-                onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 8px 32px rgba(44,24,16,.14)' }}
-                onMouseLeave={e => { e.currentTarget.style.transform = 'none'; e.currentTarget.style.boxShadow = '0 4px 20px rgba(44,24,16,.08)' }}>
-                <div style={{ display:'flex', alignItems:'center', gap:14, marginBottom:12 }}>
-                  <div style={{ width:44, height:44, borderRadius:'50%', background:'linear-gradient(135deg, var(--olive), var(--teal))', color:'white', fontFamily:'Caveat, cursive', fontSize:22, fontWeight:700, display:'flex', alignItems:'center', justifyContent:'center', flexShrink:0 }}>{(c.name || 'A')[0].toUpperCase()}</div>
-                  <div style={{ flex:1 }}>
-                    <div style={{ fontWeight:700, fontSize:15, color:'var(--dark)' }}>{c.name}</div>
-                    <div style={{ fontSize:12, color:'var(--gray-l)', marginTop:2 }}>{new Date(c.date).toLocaleDateString('en-PK', { year:'numeric', month:'long', day:'numeric' })}</div>
+              <div key={c.id || i} className="comment-item">
+                <div className="comment-meta">
+                  <div className="comment-avatar">{(c.name || 'A')[0].toUpperCase()}</div>
+                  <div>
+                    <p className="comment-name">{c.name}</p>
+                    <p className="comment-date">{new Date(c.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
                   </div>
-                  <StarRating value={c.rating || 5} />
+                  <div style={{ marginLeft: 'auto' }}><StarRating value={c.rating || 5} /></div>
                 </div>
-                <p style={{ fontSize:14, color:'var(--gray)', lineHeight:1.8, margin:0 }}>{c.comment}</p>
+                <p className="comment-text">{c.comment}</p>
               </div>
             ))}
           </div>
@@ -336,33 +225,35 @@ function CommentsSection({ slug }) {
   )
 }
 
-// ── Mini Recipe Card ──
+// ── Small Recipe Card ──
 function RecipeCard({ recipe }) {
   return (
     <Link href={`/recipes/${recipe.slug}`}>
       <div className="recipe-card">
-        <div className="rc-img-wrap"><div className="rc-circle"><img src={recipe.image2 || recipe.image1} alt={recipe.title} loading="lazy" /></div><span className="rc-tag-cat">{recipe.categoryIcon}</span></div>
-        <div className="rc-body"><h3 className="rc-title">{recipe.title}</h3><div className="rc-meta"><span className="rc-stars">{'★'.repeat(Math.round(recipe.rating || 5))}</span><span className="rc-time">⏱ {recipe.totalTime}</span></div><div className="rc-btn">View →</div></div>
+        <div className="rc-img-wrap">
+          <div className="rc-circle"><img src={recipe.image2 || recipe.image1} alt={recipe.title} loading="lazy" /></div>
+          <span className="rc-tag-cat">{recipe.categoryIcon}</span>
+        </div>
+        <div className="rc-body">
+          <h3 className="rc-title">{recipe.title}</h3>
+          <div className="rc-meta">
+            <span className="rc-stars">{'★'.repeat(Math.round(recipe.rating || 5))}</span>
+            <span className="rc-time">⏱ {recipe.totalTime}</span>
+          </div>
+          <div className="rc-btn">View →</div>
+        </div>
       </div>
     </Link>
   )
 }
 
-// ══════════════════════════════════════════════
-// MAIN PAGE
-// ══════════════════════════════════════════════
-export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
+// ── Main Page ──
+export default function RecipeDetail({ recipe, relatedRecipes }) {
   const [servings, setServings] = useState(recipe?.servings || 4)
   const [activeTab, setActiveTab] = useState('instructions')
-  const [currentIdx, setCurrentIdx] = useState(0)
-  const [transitioning, setTransitioning] = useState(false)
+  const [activeMiniTab, setActiveMiniTab] = useState(recipe?.category || 'breakfast')
   const bodyRef = useRef(null)
   const router = useRouter()
-
-  useEffect(() => {
-    const idx = allRecipes.findIndex(r => r.slug === recipe?.slug)
-    setCurrentIdx(idx >= 0 ? idx : 0)
-  }, [recipe?.slug, allRecipes])
 
   useEffect(() => { window.scrollTo(0, 0) }, [recipe?.slug])
 
@@ -374,72 +265,49 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
     return () => window.removeEventListener('scroll', fn)
   }, [])
 
-  const navigateToRecipe = useCallback((direction) => {
-    if (transitioning || allRecipes.length === 0) return
-    setTransitioning(true)
-    const newIdx = direction === 'up'
-      ? (currentIdx - 1 + allRecipes.length) % allRecipes.length
-      : (currentIdx + 1) % allRecipes.length
-    setTimeout(() => { router.push(`/recipes/${allRecipes[newIdx].slug}`); setTransitioning(false) }, 300)
-  }, [currentIdx, allRecipes, router, transitioning])
-
-  useEffect(() => {
-    const handler = (e) => {
-      if (e.key === 'ArrowUp') navigateToRecipe('up')
-      if (e.key === 'ArrowDown') navigateToRecipe('down')
-    }
-    window.addEventListener('keydown', handler)
-    return () => window.removeEventListener('keydown', handler)
-  }, [navigateToRecipe])
-
   if (!recipe) return (
-    <div style={{ padding:'100px 24px', textAlign:'center', minHeight:'100vh', background:'var(--cream)' }}>
-      <div style={{ fontSize:64, marginBottom:16 }}>🍽️</div>
-      <h1 style={{ fontFamily:'Caveat, cursive', fontSize:48, marginBottom:16 }}>Recipe Not Found</h1>
+    <div style={{ padding: '100px 24px', textAlign: 'center', minHeight: '100vh' }}>
+      <h1 style={{ fontFamily: 'var(--font-title)', fontSize: 48, marginBottom: 16 }}>Recipe Not Found</h1>
       <Link href="/recipes" className="btn-primary">← Browse All Recipes</Link>
     </div>
   )
 
   const mult = servings / (recipe.servings || 4)
-  const scaleAmt = amt => { const n = parseFloat(amt); if (isNaN(n)) return amt; return amt.replace(/[\d.]+/, (n * mult).toFixed(n % 1 !== 0 ? 1 : 0)) }
-  const getIngredientsText = () => `📝 ${recipe.title} — Ingredients (${servings} servings)\n\n` + (recipe.ingredients || []).map(ing => `• ${scaleAmt(ing.amount)} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}`).join('\n') + `\n\n📖 Full Recipe: https://food-hive-one.vercel.app/recipes/${recipe.slug}`
-  const getInstructionsText = () => `👨‍🍳 ${recipe.title} — Instructions\n\n` + (recipe.instructions || []).map(s => `Step ${s.step}: ${s.title}\n${s.text}${s.time ? `\n⏱ ${s.time}` : ''}`).join('\n\n') + `\n\n📖 Full Recipe: https://food-hive-one.vercel.app/recipes/${recipe.slug}`
+  const scaleAmt = amt => {
+    const n = parseFloat(amt)
+    if (isNaN(n)) return amt
+    return amt.replace(/[\d.]+/, (n * mult).toFixed(n % 1 !== 0 ? 1 : 0))
+  }
 
-  const satelliteRecipes = relatedRecipes.slice(0, 5)
-  const totalRecipes = allRecipes.length
-  const dotCount = Math.min(5, totalRecipes)
-  const halfDot = Math.floor(dotCount / 2)
-  const dotIndices = Array.from({ length: dotCount }, (_, i) => {
-    let idx = currentIdx - halfDot + i
-    if (idx < 0) idx += totalRecipes
-    if (idx >= totalRecipes) idx -= totalRecipes
-    return idx
-  })
-
-  // Build JSON-LD — use stored field if present, else compute from recipe data
-  const jsonLdData = buildJsonLd(recipe)
+  const miniTabs = ['breakfast', 'lunch', 'dinner']
 
   return (
     <>
       <Head>
         <title>{recipe.title} — {recipe.countryName} {recipe.categoryName} | FoodHive World</title>
-        <meta name="description" content={`${recipe.description} Authentic ${recipe.countryName} recipe on FoodHive World.`} />
+        <meta name="description" content={`${recipe.description} Authentic ${recipe.countryName} recipe.`} />
         <meta property="og:title" content={`${recipe.title} | FoodHive World`} />
         <meta property="og:description" content={recipe.description} />
         <meta property="og:image" content={recipe.image1} />
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`https://food-hive-one.vercel.app/recipes/${recipe.slug}`} />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${recipe.title} | FoodHive World`} />
-        <meta name="twitter:description" content={recipe.description} />
-        <meta name="twitter:image" content={recipe.image1} />
         <link rel="canonical" href={`https://food-hive-one.vercel.app/recipes/${recipe.slug}`} />
-
-        {/* ── JSON-LD Recipe Schema ── */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdData) }}
-        />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          '@context': 'https://schema.org', '@type': 'Recipe',
+          name: recipe.title, description: recipe.description,
+          image: [recipe.image1, recipe.image2].filter(Boolean),
+          author: { '@type': 'Organization', name: 'FoodHive World' },
+          datePublished: recipe.publishedAt,
+          prepTime: `PT${(recipe.prepTime || '15 min').replace(/\D/g, '')}M`,
+          cookTime: `PT${(recipe.cookTime || '30 min').replace(/\D/g, '')}M`,
+          totalTime: `PT${(recipe.totalTime || '45 min').replace(/\D/g, '')}M`,
+          recipeYield: `${recipe.servings} servings`,
+          recipeCategory: recipe.categoryName, recipeCuisine: recipe.cuisine,
+          keywords: (recipe.tags || []).join(', '),
+          aggregateRating: { '@type': 'AggregateRating', ratingValue: recipe.rating || 4.8, reviewCount: recipe.reviews || 100 },
+          nutrition: { '@type': 'NutritionInformation', calories: recipe.nutritionTable?.calories, proteinContent: recipe.nutritionTable?.protein, carbohydrateContent: recipe.nutritionTable?.carbs, fatContent: recipe.nutritionTable?.fat },
+          recipeIngredient: (recipe.ingredients || []).map(i => `${i.amount} ${i.item}`),
+          recipeInstructions: (recipe.instructions || []).map(s => ({ '@type': 'HowToStep', name: s.title, text: s.text })),
+        })}} />
       </Head>
 
       <div className="scroll-bar" />
@@ -447,155 +315,106 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
       {/* NAVBAR */}
       <nav className="navbar">
         <div className="navbar-inner">
-          <button className="rd-back" onClick={() => router.back()}>←</button>
-          <Link href="/" className="logo">
-            <span className="logo-icon">🍽️</span>
-            <span style={{ fontFamily:'Caveat, cursive', fontWeight:700, fontSize:22 }}>FoodHive</span>
-          </Link>
-          <div className="nav-links">
-            <Link href="/#categories" className="nav-link">Categories</Link>
-            <Link href="/recipes" className="nav-link">All Recipes</Link>
+          <button className="rd-back" onClick={() => router.back()} aria-label="Go back">←</button>
+          <div className="rd-mini-nav">
+            {miniTabs.map(t => (
+              <button key={t} className={`rd-mini-link${activeMiniTab === t ? ' active' : ''}`} onClick={() => setActiveMiniTab(t)}>
+                {t.charAt(0).toUpperCase() + t.slice(1)}
+              </button>
+            ))}
           </div>
+          <Link href="/" className="logo" style={{ fontSize: 18 }}>
+            <span>🍽️</span>
+            <span style={{ fontFamily: 'var(--font-title)', fontWeight: 700 }}>FoodHive</span>
+          </Link>
         </div>
       </nav>
 
-      {/* ══════════════════════════════════════════
-          HERO
-          ══════════════════════════════════════════ */}
-      <section className={`rh-hero${transitioning ? ' rh-transitioning' : ''}`}>
+      {/* HERO */}
+      <section className="rd-hero">
+        <div className="rd-hero-blob" />
+        <div className="rd-hero-inner">
 
-        {/* LEFT — Recipe Info */}
-        <div className="rh-left fade-up">
-          <div className="rh-tags">
-            <span className="rh-tag">{recipe.countryFlag} {recipe.countryName}</span>
-            <span className="rh-tag rh-tag-orange">{recipe.categoryIcon} {recipe.categoryName}</span>
-            <span className="rh-tag">⚡ {recipe.difficulty}</span>
-          </div>
-
-          <h1 className="rh-title">{recipe.title}</h1>
-
-          <div className="rh-rating-row">
-            <StarRating value={Math.round(recipe.rating || 5)} />
-            <span className="rh-rating-num">{recipe.rating}</span>
-            <span className="rh-rating-cnt">({recipe.reviews} reviews)</span>
-          </div>
-
-          <p className="rh-desc">{recipe.description}</p>
-
-          <div className="rh-stats">
-            {[
-              { icon:'⏱', v: recipe.prepTime, l:'Prep' },
-              { icon:'🔥', v: recipe.cookTime, l:'Cook' },
-              { icon:'⏰', v: recipe.totalTime, l:'Total' },
-              { icon:'👥', v: (recipe.servings || 4) + ' ppl', l:'Serves' },
-            ].map(s => (
-              <div key={s.l} className="rh-stat">
-                <span className="rh-stat-icon">{s.icon}</span>
-                <span className="rh-stat-val">{s.v}</span>
-                <span className="rh-stat-lbl">{s.l}</span>
-              </div>
-            ))}
-          </div>
-
-          <div className="rh-actions">
-            <button className="rh-cta" onClick={() => bodyRef.current?.scrollIntoView({ behavior:'smooth' })}>
-              📖 View Full Recipe
-            </button>
-            <LikesButton slug={recipe.slug} />
-            <ShareButton title={recipe.title} slug={recipe.slug} description={recipe.description} />
-          </div>
-
-          <div className="rh-scroll-hint" onClick={() => bodyRef.current?.scrollIntoView({ behavior:'smooth' })}>
-            <span className="rh-scroll-dot" />
-            <span style={{ fontSize:12, color:'var(--gray-l)', fontWeight:600 }}>Scroll for full recipe</span>
-          </div>
-        </div>
-
-        {/* RIGHT — Blob + Orbit + Navigation */}
-        <div className="rh-right">
-          <div className="rh-blob" />
-
-          <div className="rh-orbit-wrap">
-            <div className="rh-orbit-ring" />
-
-            <div className="rh-main-circle">
-              <img src={recipe.image1} alt={recipe.title} />
+          {/* LEFT */}
+          <div className="fade-up">
+            <div className="rd-tags">
+              <span className="rd-tag rd-tag-country">{recipe.countryFlag} {recipe.countryName}</span>
+              <span className="rd-tag rd-tag-cat">{recipe.categoryIcon} {recipe.categoryName}</span>
+              <span className="rd-tag rd-tag-diff">⚡ {recipe.difficulty}</span>
             </div>
 
-            {satelliteRecipes.map((r, i) => {
-              const total = Math.min(satelliteRecipes.length, 5)
-              const startAngle = -55
-              const spread = 270
-              const angle = startAngle + (spread / Math.max(total - 1, 1)) * i
-              const rad = (angle * Math.PI) / 180
-              const orbitRadius = 185
-              const x = Math.sin(rad) * orbitRadius
-              const y = -Math.cos(rad) * orbitRadius
-              const sizes = [72, 64, 80, 68, 76]
-              const sz = sizes[i % sizes.length]
+            <h1 className="rd-title">{recipe.title}</h1>
+            <p className="rd-desc">{recipe.description}</p>
+
+            {/* Rating — simple */}
+            <div className="rd-rating-row">
+              <StarRating value={Math.round(recipe.rating || 5)} />
+              <span style={{ fontSize: 14, color: 'var(--gray)', marginLeft: 6 }}>{recipe.rating} ({recipe.reviews} reviews)</span>
+            </div>
+
+            <div className="rd-stats">
+              {[
+                { v: recipe.prepTime, l: 'Prep' },
+                { v: recipe.cookTime, l: 'Cook' },
+                { v: recipe.totalTime, l: 'Total' },
+                { v: (recipe.servings || 4) + ' ppl', l: 'Serves' },
+              ].map(s => (
+                <div key={s.l} className="rd-stat">
+                  <div className="rd-stat-val">{s.v}</div>
+                  <div className="rd-stat-lbl">{s.l}</div>
+                </div>
+              ))}
+            </div>
+
+            {/* Action row — clean simple buttons */}
+            <div className="rd-action-row">
+              <button className="rd-cta" onClick={() => bodyRef.current?.scrollIntoView({ behavior: 'smooth' })}>
+                View Recipe
+              </button>
+              <LikeButton slug={recipe.slug} />
+              <ShareButton title={recipe.title} slug={recipe.slug} description={recipe.description} />
+            </div>
+          </div>
+
+          {/* RIGHT — Orbit */}
+          <div className="rd-orbit">
+            <div className="rd-orbit-ring" style={{ width: 400, height: 400 }} />
+            <div className="rd-orbit-main" style={{ width: 260, height: 260 }}>
+              <img src={recipe.image1} alt={recipe.title} />
+            </div>
+            {relatedRecipes.slice(0, 5).map((r, i) => {
+              const p = SAT_POS[i]
               return (
-                <Link key={r.slug || i} href={`/recipes/${r.slug}`} title={r.title}>
-                  <div className="rh-satellite" style={{
-                    width: sz, height: sz,
-                    transform: `translate(calc(-50% + ${x}px), calc(-50% + ${y}px))`,
-                    animationDelay: `${i * 0.35}s`,
-                  }}>
+                <Link key={r.slug || i} href={`/recipes/${r.slug}`}>
+                  <div className="rd-sat" style={{ top: p.top, left: p.left, width: p.size, height: p.size, transform: `translate(${p.tx},-50%)`, animationDelay: p.delay }}>
                     <img src={r.image2 || r.image1} alt={r.title} />
-                    <div className="rh-sat-tooltip">{r.title}</div>
                   </div>
                 </Link>
               )
             })}
-
-            <button className="rh-nav-btn rh-nav-up" onClick={() => navigateToRecipe('up')} title="Previous Recipe (↑ key)">↑</button>
-            <button className="rh-nav-btn rh-nav-down" onClick={() => navigateToRecipe('down')} title="Next Recipe (↓ key)">↓</button>
-
-            <div className="rh-dots">
-              {dotIndices.map((dotIdx, i) => (
-                <div key={i}
-                  className={`rh-dot${dotIdx === currentIdx ? ' rh-dot-active' : ''}`}
-                  onClick={() => {
-                    if (dotIdx !== currentIdx && !transitioning) {
-                      setTransitioning(true)
-                      setTimeout(() => { router.push(`/recipes/${allRecipes[dotIdx].slug}`); setTransitioning(false) }, 300)
-                    }
-                  }}
-                  title={allRecipes[dotIdx]?.title || ''}
-                />
-              ))}
-            </div>
-          </div>
-
-          <div className="rh-dish-label">
-            <span className="rh-dish-name">{recipe.title}</span>
-            <span className="rh-dish-cuisine">{recipe.cuisine} Cuisine</span>
           </div>
         </div>
       </section>
 
-      {/* ══════════════════════════════════════════
-          RECIPE BODY
-          ══════════════════════════════════════════ */}
+      {/* BODY */}
       <section className="rd-body section" ref={bodyRef}>
         <div className="container">
           <div className="rd-body-grid">
+
             {/* SIDEBAR */}
             <div className="rd-sidebar-card">
-              <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:18 }}>
-                <div className="rd-box-head" style={{ marginBottom:0 }}>🥘 Ingredients</div>
-                <CopyBtn getText={getIngredientsText} label="Copy" />
-              </div>
+              <div className="rd-box-head">🥘 Ingredients</div>
               <div className="serv-row">
                 <button className="serv-btn" onClick={() => setServings(Math.max(1, servings - 1))}>−</button>
                 <span className="serv-num">{servings}</span>
                 <button className="serv-btn" onClick={() => setServings(servings + 1)}>+</button>
-                <span style={{ fontSize:12, color:'var(--gray)', marginLeft:4 }}>servings</span>
+                <span style={{ fontSize: 12, color: 'var(--gray)', marginLeft: 4 }}>servings</span>
               </div>
               {(recipe.ingredients || []).map((ing, i) => (
                 <div key={i} className="ing-row">
                   <div className="ing-dot" />
-                  <div style={{ flex:1 }}>
-                    <div style={{ display:'flex', gap:8, alignItems:'baseline' }}>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ display: 'flex', gap: 8, alignItems: 'baseline' }}>
                       <span className="ing-amt">{scaleAmt(ing.amount)}</span>
                       <span className="ing-name">{ing.item}</span>
                     </div>
@@ -605,20 +424,23 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
               ))}
               {recipe.tips?.length > 0 && (
                 <>
-                  <div className="rd-box-head" style={{ marginTop:28 }}>💡 Chef Tips</div>
+                  <div className="rd-box-head" style={{ marginTop: 28 }}>💡 Tips</div>
                   {recipe.tips.map((tip, i) => (
-                    <div key={i} className="tip-row"><span className="tip-icon">✨</span><span className="tip-text">{tip}</span></div>
+                    <div key={i} className="tip-row">
+                      <span className="tip-icon">✓</span>
+                      <span className="tip-text">{tip}</span>
+                    </div>
                   ))}
                 </>
               )}
               {recipe.nutritionTable && (
-                <div style={{ marginTop:28 }}>
+                <div style={{ marginTop: 28 }}>
                   <div className="rd-box-head">📊 Nutrition</div>
-                  <div style={{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8 }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
                     {Object.entries(recipe.nutritionTable).slice(0, 6).map(([k, v]) => (
-                      <div key={k} style={{ background:'var(--cream)', borderRadius:12, padding:'10px 12px', border:'1px solid var(--cream2)' }}>
-                        <div style={{ fontFamily:'Caveat, cursive', fontSize:17, fontWeight:700, color:'var(--orange)' }}>{v}</div>
-                        <div style={{ fontSize:10, color:'var(--gray)', fontWeight:700, textTransform:'uppercase', letterSpacing:.5 }}>{k}</div>
+                      <div key={k} style={{ background: 'var(--cream)', borderRadius: 10, padding: '8px 12px', border: '1px solid var(--cream2)' }}>
+                        <div style={{ fontFamily: 'var(--font-title)', fontSize: 16, fontWeight: 700, color: 'var(--orange)' }}>{v}</div>
+                        <div style={{ fontSize: 10, color: 'var(--gray)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: .5 }}>{k}</div>
                       </div>
                     ))}
                   </div>
@@ -629,20 +451,24 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
             {/* MAIN */}
             <div>
               <div className="tab-row">
-                {[{ id:'instructions', label:'👨‍🍳 Instructions' }, { id:'nutrition', label:'📊 Full Nutrition' }, { id:'article', label:'📖 About' }].map(t => (
-                  <button key={t.id} className={`tab-btn${activeTab === t.id ? ' active' : ''}`} onClick={() => setActiveTab(t.id)}>{t.label}</button>
+                {[
+                  { id: 'instructions', label: 'Instructions' },
+                  { id: 'nutrition', label: 'Nutrition' },
+                  { id: 'article', label: 'About' },
+                ].map(t => (
+                  <button key={t.id} className={`tab-btn${activeTab === t.id ? ' active' : ''}`} onClick={() => setActiveTab(t.id)}>
+                    {t.label}
+                  </button>
                 ))}
               </div>
+
               {activeTab === 'instructions' && (
-                <div style={{ background:'white', borderRadius:'var(--r-xl)', padding:28, boxShadow:'var(--sh-soft)' }}>
-                  <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', marginBottom:18 }}>
-                    <div className="rd-box-head" style={{ marginBottom:0 }}>Step by Step</div>
-                    <CopyBtn getText={getInstructionsText} label="Copy Steps" />
-                  </div>
+                <div style={{ background: 'white', borderRadius: 'var(--r-xl)', padding: 28, boxShadow: 'var(--sh-soft)' }}>
+                  <div className="rd-box-head">Step by Step</div>
                   {(recipe.instructions || []).map((step, i) => (
                     <div key={i} className="step-row">
                       <div className="step-num-circle">{step.step}</div>
-                      <div style={{ flex:1 }}>
+                      <div style={{ flex: 1 }}>
                         <div className="step-title">{step.title}</div>
                         <div className="step-text">{step.text}</div>
                         {step.time && <div className="step-time">⏱ {step.time}</div>}
@@ -651,27 +477,38 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
                   ))}
                 </div>
               )}
+
               {activeTab === 'nutrition' && recipe.nutritionTable && (
-                <div style={{ background:'white', borderRadius:'var(--r-xl)', padding:28, boxShadow:'var(--sh-soft)' }}>
-                  <div className="rd-box-head">📊 Full Nutrition per Serving</div>
+                <div style={{ background: 'white', borderRadius: 'var(--r-xl)', padding: 28, boxShadow: 'var(--sh-soft)' }}>
+                  <div className="rd-box-head">📊 Nutrition per Serving</div>
                   <div className="nutr-grid">
                     {Object.entries(recipe.nutritionTable).map(([k, v]) => (
-                      <div key={k} className="nutr-cell"><div className="nutr-val">{v}</div><div className="nutr-lbl">{k}</div></div>
+                      <div key={k} className="nutr-cell">
+                        <div className="nutr-val">{v}</div>
+                        <div className="nutr-lbl">{k}</div>
+                      </div>
                     ))}
                   </div>
                 </div>
               )}
+
               {activeTab === 'article' && recipe.article && (
-                <div style={{ background:'white', borderRadius:'var(--r-xl)', padding:28, boxShadow:'var(--sh-soft)' }}>
-                  <div className="article-body" dangerouslySetInnerHTML={{ __html: recipe.article.replace(/## (.+)/g, '<h2>$1</h2>').replace(/\n\n/g, '</p><p>').replace(/^/, '<p>').replace(/$/, '</p>') }} />
+                <div style={{ background: 'white', borderRadius: 'var(--r-xl)', padding: 28, boxShadow: 'var(--sh-soft)' }}>
+                  <div className="article-body" dangerouslySetInnerHTML={{ __html:
+                    recipe.article
+                      .replace(/## (.+)/g, '<h2>$1</h2>')
+                      .replace(/\n\n/g, '</p><p>')
+                      .replace(/^/, '<p>').replace(/$/, '</p>')
+                  }} />
                 </div>
               )}
+
               {recipe.tags && (
-                <div style={{ marginTop:28 }}>
-                  <div style={{ fontSize:11, fontWeight:700, color:'var(--gray)', letterSpacing:1, textTransform:'uppercase', marginBottom:10 }}>Tags</div>
-                  <div style={{ display:'flex', gap:8, flexWrap:'wrap' }}>
+                <div style={{ marginTop: 24 }}>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--gray)', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 8 }}>Tags</div>
+                  <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                     {recipe.tags.map(t => (
-                      <span key={t} style={{ background:'var(--cream2)', color:'var(--gray)', fontSize:12, fontWeight:600, padding:'6px 14px', borderRadius:'var(--r-full)', border:'1px solid var(--cream3)' }}>{t}</span>
+                      <span key={t} style={{ background: 'var(--cream2)', color: 'var(--gray)', fontSize: 12, fontWeight: 600, padding: '4px 12px', borderRadius: 'var(--r-full)', border: '1px solid var(--cream3)' }}>{t}</span>
                     ))}
                   </div>
                 </div>
@@ -681,17 +518,17 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
         </div>
       </section>
 
-      {/* Related */}
+      {/* RELATED */}
       {relatedRecipes.length > 0 && (
-        <section className="section" style={{ background:'var(--cream2)' }}>
+        <section className="section" style={{ background: 'var(--cream2)' }}>
           <div className="container">
-            <div style={{ marginBottom:48 }}>
+            <div style={{ marginBottom: 40 }} className="fade-up">
               <div className="section-eyebrow">{recipe.countryFlag} More {recipe.countryName}</div>
               <h2 className="section-title">You Might Also Like</h2>
             </div>
             <div className="recipes-grid">
               {relatedRecipes.slice(0, 3).map((r, i) => (
-                <div key={r.slug || i} className="fade-up" style={{ animationDelay:`${i * 80}ms` }}>
+                <div key={r.slug || i} className="fade-up" style={{ animationDelay: `${i * 80}ms` }}>
                   <RecipeCard recipe={r} />
                 </div>
               ))}
@@ -700,117 +537,141 @@ export default function RecipeDetail({ recipe, relatedRecipes, allRecipes }) {
         </section>
       )}
 
+      {/* COMMENTS */}
       <CommentsSection slug={recipe.slug} />
 
-      {/* Footer */}
+      {/* FOOTER */}
       <footer className="footer">
         <div className="container">
           <div className="footer-grid">
-            <div><div className="footer-logo-txt">🍽️ FoodHive World</div><p className="footer-desc">Authentic recipes from 10 world cuisines, auto-published every 30 minutes.</p></div>
-            <div><div className="footer-col-title">Countries</div>{COUNTRIES.slice(0, 5).map(c => <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>)}</div>
-            <div><div className="footer-col-title">More</div>{COUNTRIES.slice(5).map(c => <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>)}</div>
-            <div><div className="footer-col-title">Categories</div>{RECIPE_CATEGORIES.slice(0, 6).map(c => <Link key={c.id} href={`/categories/${c.id}`} className="footer-link">{c.icon} {c.name}</Link>)}</div>
+            <div>
+              <div className="footer-logo-txt">🍽️ FoodHive World</div>
+              <p className="footer-desc">Authentic recipes from 10 world cuisines, auto-published every 30 minutes.</p>
+            </div>
+            <div>
+              <div className="footer-col-title">Countries</div>
+              {COUNTRIES.slice(0, 5).map(c => <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>)}
+            </div>
+            <div>
+              <div className="footer-col-title">More</div>
+              {COUNTRIES.slice(5).map(c => <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>)}
+            </div>
+            <div>
+              <div className="footer-col-title">Categories</div>
+              {RECIPE_CATEGORIES.slice(0, 6).map(c => <Link key={c.id} href={`/categories/${c.id}`} className="footer-link">{c.icon} {c.name}</Link>)}
+            </div>
           </div>
-          <div className="footer-bottom"><span>© 2026 FoodHive World</span><span>10 Countries · 12 Categories · Updated Every 30 Min</span></div>
+          <div className="footer-bottom">
+            <span>© 2026 FoodHive World</span>
+            <span>10 Countries · 12 Categories · Updated Every 30 Min</span>
+          </div>
         </div>
       </footer>
 
-      {/* Global keyframes */}
-      <style jsx global>{`
-        @keyframes particleFly { 0% { opacity:1; transform:translate(0,0) scale(1) } 100% { opacity:0; transform:translate(var(--px),var(--py)) scale(.4) } }
-        @keyframes menuSlideIn { from { opacity:0; transform:translateY(-8px) scale(.97) } to { opacity:1; transform:translateY(0) scale(1) } }
-        @keyframes rhFloat { 0%,100% { transform:translateY(0px) } 50% { transform:translateY(-14px) } }
-        @keyframes dotPulse { 0%,100% { transform:scale(1) } 50% { transform:scale(1.3) } }
-        @keyframes blobPulse { 0%,100% { border-radius:58% 0 0 58% / 46% 0 0 52% } 50% { border-radius:62% 0 0 54% / 50% 0 0 48% } }
-        @keyframes fadeUp { from { opacity:0; transform:translateY(28px) } to { opacity:1; transform:translateY(0) } }
-      `}</style>
-
-      {/* Hero component styles */}
       <style jsx>{`
-        /* ── HERO ── */
-        .rh-hero { min-height:100vh; padding-top:68px; background:#FAF6EE; display:grid; grid-template-columns:1fr 1fr; align-items:center; position:relative; overflow:hidden; transition:opacity .3s }
-        .rh-hero.rh-transitioning { opacity:0.35; pointer-events:none }
-
-        /* LEFT */
-        .rh-left { padding:60px 48px 60px 60px; position:relative; z-index:2 }
-        .rh-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:18px }
-        .rh-tag { font-size:11px; font-weight:700; padding:5px 14px; border-radius:9999px; background:#F0E8D6; color:#6B7A52; text-transform:uppercase; letter-spacing:.5px }
-        .rh-tag-orange { background:rgba(232,135,58,.12); color:#C96B20 }
-        .rh-title { font-family:'Caveat',cursive; font-size:clamp(42px,5.5vw,78px); font-weight:700; color:#2C1810; line-height:1.0; letter-spacing:-0.5px; margin-bottom:14px }
-        .rh-rating-row { display:flex; align-items:center; gap:10px; margin-bottom:16px }
-        .rh-rating-num { font-family:'Caveat',cursive; font-size:22px; font-weight:700; color:#E8873A }
-        .rh-rating-cnt { font-size:13px; color:#7A6A5A }
-        .rh-desc { font-size:14px; color:#7A6A5A; line-height:1.85; max-width:420px; margin-bottom:28px }
-        .rh-stats { display:flex; gap:0; background:white; border-radius:20px; padding:16px 24px; box-shadow:0 4px 20px rgba(44,24,16,.08); margin-bottom:28px; border:1px solid rgba(139,158,107,.15); width:fit-content }
-        .rh-stat { display:flex; flex-direction:column; align-items:center; padding:0 18px; border-right:1px solid #F0E8D6; gap:2px }
-        .rh-stat:last-child { border-right:none }
-        .rh-stat-icon { font-size:16px }
-        .rh-stat-val { font-family:'Caveat',cursive; font-size:20px; font-weight:700; color:#E8873A; white-space:nowrap }
-        .rh-stat-lbl { font-size:9px; color:#7A6A5A; font-weight:700; text-transform:uppercase; letter-spacing:.5px }
-        .rh-actions { display:flex; gap:10px; align-items:center; flex-wrap:wrap; margin-bottom:24px }
-        .rh-cta { display:inline-flex; align-items:center; gap:8px; background:#E8873A; color:white; font-size:14px; font-weight:700; padding:13px 28px; border-radius:9999px; border:none; cursor:pointer; box-shadow:0 6px 20px rgba(232,135,58,.4); transition:all .3s cubic-bezier(.34,1.56,.64,1); font-family:'Nunito',sans-serif }
-        .rh-cta:hover { transform:translateY(-2px) scale(1.02); background:#C96B20 }
-        .rh-scroll-hint { display:flex; align-items:center; gap:8px; cursor:pointer; opacity:0.6; transition:opacity .2s }
-        .rh-scroll-hint:hover { opacity:1 }
-        .rh-scroll-dot { width:8px; height:8px; border-radius:50%; background:#7A6A5A; animation:dotPulse 2s ease-in-out infinite }
-
-        /* RIGHT */
-        .rh-right { position:relative; height:100vh; min-height:600px; display:flex; align-items:center; justify-content:center }
-        .rh-blob { position:absolute; inset:0; background:radial-gradient(ellipse at 70% 50%,#EBD9C0 0%,#D4BFA0 40%,#C4A882 100%); border-radius:58% 0 0 58% / 46% 0 0 52%; animation:blobPulse 8s ease-in-out infinite; z-index:0 }
-        .rh-orbit-wrap { position:relative; z-index:2; width:420px; height:420px; display:flex; align-items:center; justify-content:center }
-        .rh-orbit-ring { position:absolute; width:380px; height:380px; border-radius:50%; border:1.5px dashed rgba(92,58,30,.2); pointer-events:none }
-        .rh-main-circle { position:absolute; width:220px; height:220px; border-radius:50%; overflow:hidden; border:6px solid rgba(255,255,255,.95); box-shadow:0 20px 60px rgba(44,24,16,.25); z-index:10; animation:rhFloat 4s ease-in-out infinite; background:#F0E8D6 }
-        .rh-main-circle img { width:100%; height:100%; object-fit:cover }
-        .rh-satellite { position:absolute; top:50%; left:50%; border-radius:50%; overflow:hidden; border:3px solid rgba(255,255,255,.9); box-shadow:0 6px 20px rgba(44,24,16,.18); cursor:pointer; z-index:5; transition:transform .3s cubic-bezier(.34,1.56,.64,1),box-shadow .3s; animation:rhFloat 3s ease-in-out infinite; background:#F0E8D6 }
-        .rh-satellite:hover { box-shadow:0 12px 36px rgba(44,24,16,.3); z-index:20 }
-        .rh-satellite img { width:100%; height:100%; object-fit:cover; display:block }
-        .rh-sat-tooltip { position:absolute; bottom:calc(100% + 8px); left:50%; transform:translateX(-50%); background:rgba(44,24,16,.85); color:white; font-size:10px; font-weight:700; padding:4px 10px; border-radius:8px; white-space:nowrap; opacity:0; pointer-events:none; transition:opacity .2s; font-family:'Nunito',sans-serif }
-        .rh-satellite:hover .rh-sat-tooltip { opacity:1 }
-        .rh-nav-btn { position:absolute; width:42px; height:42px; border-radius:50%; background:rgba(255,255,255,.9); border:2px solid rgba(255,255,255,.7); color:#5C3A1E; font-size:18px; font-weight:700; cursor:pointer; display:flex; align-items:center; justify-content:center; box-shadow:0 4px 16px rgba(44,24,16,.15); transition:all .2s cubic-bezier(.34,1.56,.64,1); z-index:15; backdrop-filter:blur(8px) }
-        .rh-nav-btn:hover { background:white; box-shadow:0 8px 24px rgba(44,24,16,.22) }
-        .rh-nav-btn:active { transform:scale(0.9) !important }
-        .rh-nav-up { left:50%; top:18%; transform:translateX(-50%) }
-        .rh-nav-up:hover { transform:translateX(-50%) scale(1.12) }
-        .rh-nav-down { left:50%; bottom:18%; transform:translateX(-50%) }
-        .rh-nav-down:hover { transform:translateX(-50%) scale(1.12) }
-        .rh-dots { position:absolute; right:-28px; top:50%; transform:translateY(-50%); display:flex; flex-direction:column; gap:10px; z-index:15 }
-        .rh-dot { width:8px; height:8px; border-radius:50%; background:rgba(92,58,30,.25); cursor:pointer; transition:all .3s cubic-bezier(.34,1.56,.64,1); border:1.5px solid rgba(255,255,255,.6) }
-        .rh-dot:hover { background:rgba(92,58,30,.5); transform:scale(1.3) }
-        .rh-dot-active { background:#E8873A; width:10px; height:10px; border:2px solid white; box-shadow:0 2px 8px rgba(232,135,58,.5); animation:dotPulse 2s ease-in-out infinite }
-        .rh-dish-label { position:absolute; bottom:60px; left:50%; transform:translateX(-55%); text-align:center; z-index:5 }
-        .rh-dish-name { display:block; font-family:'Caveat',cursive; font-size:22px; font-weight:700; color:#2C1810; text-shadow:0 1px 3px rgba(255,255,255,.8) }
-        .rh-dish-cuisine { display:block; font-size:11px; font-weight:700; color:#7A6A5A; text-transform:uppercase; letter-spacing:1px; margin-top:3px }
-
-        /* RESPONSIVE */
-        @media(max-width:1100px) {
-          .rh-hero { grid-template-columns:1fr; min-height:auto }
-          .rh-left { padding:100px 24px 40px; text-align:center }
-          .rh-tags { justify-content:center }
-          .rh-desc { margin:0 auto 28px }
-          .rh-stats { margin:0 auto 28px }
-          .rh-actions { justify-content:center }
-          .rh-right { height:500px }
-          .rh-blob { border-radius:50% 50% 0 0 / 30% 30% 0 0 }
-          .rh-orbit-wrap { width:340px; height:340px }
-          .rh-orbit-ring { width:300px; height:300px }
-          .rh-main-circle { width:180px; height:180px }
-          .rh-dots { right:-18px }
-          .rh-dish-label { bottom:20px }
+        /* ── Action buttons — simple clean style ── */
+        .rd-action-row {
+          display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 24px;
         }
-        @media(max-width:640px) {
-          .rh-left { padding:90px 20px 30px }
-          .rh-title { font-size:clamp(36px,10vw,56px) }
-          .rh-stats { flex-wrap:wrap; gap:12px; padding:14px 16px }
-          .rh-stat { border-right:none; padding:0 10px }
-          .rh-right { height:420px }
-          .rh-orbit-wrap { width:280px; height:280px }
-          .rh-orbit-ring { width:250px; height:250px }
-          .rh-main-circle { width:150px; height:150px; border-width:4px }
-          .rh-nav-btn { width:36px; height:36px; font-size:15px }
-          .rh-dots { right:-14px; gap:8px }
-          .rh-dot { width:6px; height:6px }
-          .rh-dot-active { width:8px; height:8px }
-          .rh-dish-label { display:none }
+        .action-btn {
+          display: inline-flex; align-items: center; gap: 6px;
+          background: white; border: 1.5px solid #e5e7eb;
+          color: #6b7280; font-size: 13px; font-weight: 600;
+          padding: 8px 16px; border-radius: 8px;
+          cursor: pointer; transition: all .2s; font-family: var(--font-body);
+        }
+        .action-btn:hover { border-color: #9ca3af; color: #374151; background: #f9fafb; }
+        .action-btn-active { border-color: #fca5a5 !important; color: #ef4444 !important; background: #fef2f2 !important; }
+        .action-count { font-size: 12px; color: #9ca3af; margin-left: 2px; }
+
+        /* ── Share menu ── */
+        .share-menu {
+          position: absolute; top: calc(100% + 6px); left: 0;
+          background: white; border: 1px solid #e5e7eb; border-radius: 10px;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+          padding: 4px; min-width: 190px; z-index: 200;
+        }
+        .share-menu-item {
+          display: flex; align-items: center; gap: 10px;
+          width: 100%; padding: 9px 12px; border: none;
+          background: none; cursor: pointer; border-radius: 7px;
+          font-size: 13px; font-weight: 500; color: #374151;
+          font-family: var(--font-body); text-align: left; transition: background .15s;
+        }
+        .share-menu-item:hover { background: #f3f4f6; }
+        .share-menu-icon { font-size: 14px; width: 20px; text-align: center; font-style: normal; }
+
+        /* ── Orbit satellites ── */
+        .rd-sat {
+          position: absolute; border-radius: 50%; overflow: hidden;
+          border: 3px solid white; box-shadow: var(--sh-card);
+          cursor: pointer; z-index: 5;
+          transition: transform .3s cubic-bezier(.34,1.56,.64,1), box-shadow .3s;
+          animation: rdSatFloat 3s ease-in-out infinite;
+        }
+        .rd-sat:hover { transform: scale(1.15) !important; box-shadow: var(--sh-float); z-index: 20; }
+        .rd-sat img { width: 100%; height: 100%; object-fit: cover; }
+        @keyframes rdSatFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+
+        /* ── Comments section — clean ── */
+        .comments-wrap { background: #f9fafb; padding: 64px 0; border-top: 1px solid #e5e7eb; }
+        .comments-heading { font-family: var(--font-title); font-size: 28px; font-weight: 700; color: var(--dark); margin-bottom: 32px; }
+        .comments-count { font-size: 18px; color: var(--gray); font-weight: 400; }
+
+        .comment-form {
+          background: white; border-radius: 12px; padding: 28px;
+          border: 1px solid #e5e7eb; margin-bottom: 40px;
+        }
+        .cf-label { font-size: 12px; font-weight: 600; color: #6b7280; text-transform: uppercase; letter-spacing: .5px; display: block; margin-bottom: 6px; }
+        .cf-optional { font-weight: 400; text-transform: none; letter-spacing: 0; color: #9ca3af; }
+        .cf-rating-row { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+        .cf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+        .cf-field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
+        .cf-field input, .cf-field textarea {
+          border: 1.5px solid #e5e7eb; border-radius: 8px;
+          padding: 10px 14px; font-size: 14px; font-family: var(--font-body);
+          color: var(--dark); background: white; outline: none;
+          transition: border-color .2s; resize: vertical;
+        }
+        .cf-field input:focus, .cf-field textarea:focus { border-color: var(--teal); }
+        .cf-char { font-size: 11px; color: #9ca3af; float: right; margin-top: 4px; }
+        .cf-error { color: #dc2626; font-size: 13px; margin-bottom: 12px; }
+        .cf-btn {
+          background: var(--teal); color: white; font-size: 13px; font-weight: 600;
+          padding: 10px 24px; border-radius: 8px; border: none; cursor: pointer;
+          font-family: var(--font-body); transition: background .2s;
+        }
+        .cf-btn:hover { background: var(--teal-d); }
+        .cf-btn:disabled { opacity: .6; cursor: not-allowed; }
+        .cf-btn-ghost {
+          background: none; border: 1.5px solid #e5e7eb; color: var(--gray);
+          font-size: 13px; font-weight: 600; padding: 8px 20px; border-radius: 8px;
+          cursor: pointer; font-family: var(--font-body); margin-top: 10px; transition: all .2s;
+        }
+        .cf-btn-ghost:hover { border-color: #9ca3af; color: var(--dark); }
+        .cf-success { padding: 24px; background: white; border: 1px solid #e5e7eb; border-radius: 12px; margin-bottom: 40px; color: var(--gray); font-size: 14px; }
+
+        .comments-empty { color: #9ca3af; font-size: 14px; padding: 32px 0; }
+        .comments-list { display: flex; flex-direction: column; gap: 16px; }
+        .comment-item {
+          background: white; border-radius: 10px; padding: 20px 24px;
+          border: 1px solid #e5e7eb;
+        }
+        .comment-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
+        .comment-avatar {
+          width: 38px; height: 38px; border-radius: 50%;
+          background: var(--olive); color: white;
+          font-size: 16px; font-weight: 700;
+          display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+        }
+        .comment-name { font-weight: 600; font-size: 14px; color: var(--dark); margin: 0; }
+        .comment-date { font-size: 12px; color: #9ca3af; margin: 2px 0 0; }
+        .comment-text { font-size: 14px; color: #4b5563; line-height: 1.7; margin: 0; }
+
+        @media (max-width: 640px) {
+          .cf-grid { grid-template-columns: 1fr; }
+          .rd-action-row { gap: 8px; }
+          .share-menu { min-width: 170px; }
         }
       `}</style>
     </>
@@ -826,5 +687,5 @@ export async function getStaticProps({ params }) {
   if (!recipe) recipe = SAMPLE_RECIPE
   const all = getAllRecipes()
   const related = all.filter(r => r.slug !== recipe.slug && r.country === recipe.country).slice(0, 5)
-  return { props: { recipe, relatedRecipes: related, allRecipes: all }, revalidate: 60 }
+  return { props: { recipe, relatedRecipes: related }, revalidate: 60 }
 }
