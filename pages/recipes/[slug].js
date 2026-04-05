@@ -1,11 +1,6 @@
 // ============================================================
 // FoodHive World — pages/recipes/[slug].js
-// ✅ Same original design kept
-// ✅ English only
-// ✅ Professional like button with subtle animation
-// ✅ Rating with score + bar breakdown (AllRecipes style)
-// ✅ Clean share dropdown
-// ✅ Supabase likes + comments
+// FIXED: API calls /api/likes and /api/comments (was sb-likes/sb-comments)
 // ============================================================
 import { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
@@ -28,7 +23,6 @@ const SAT_POS = [
   { top: '22%', left: '4%',  size: 80, tx: '0',    delay: '1.2s' },
 ]
 
-// ── Star Rating — display only ──
 function StarRating({ value = 5, size = 15 }) {
   return (
     <div style={{ display: 'flex', gap: 1 }}>
@@ -39,7 +33,6 @@ function StarRating({ value = 5, size = 15 }) {
   )
 }
 
-// ── Interactive Star Rating — for form ──
 function StarRatingInput({ value = 5, onRate }) {
   const [hover, setHover] = useState(0)
   const display = hover || value
@@ -58,7 +51,6 @@ function StarRatingInput({ value = 5, onRate }) {
   )
 }
 
-// ── Rating Display — AllRecipes style with score + bars ──
 function RatingDisplay({ rating = 4.8, reviews = 0 }) {
   const bars = [
     { star: 5, pct: 75 },
@@ -69,15 +61,12 @@ function RatingDisplay({ rating = 4.8, reviews = 0 }) {
   ]
   return (
     <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap', margin: '0 0 28px' }}>
-      {/* Big score */}
       <div style={{ textAlign: 'center' }}>
         <div style={{ fontSize: 42, fontWeight: 700, color: 'var(--dark)', lineHeight: 1, fontFamily: 'var(--font-serif)' }}>{rating}</div>
         <StarRating value={rating} size={13} />
         <div style={{ fontSize: 11, color: 'var(--gray)', marginTop: 3 }}>{reviews} ratings</div>
       </div>
-      {/* Divider */}
       <div style={{ width: 1, height: 60, background: 'var(--cream2)' }} />
-      {/* Bars */}
       <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
         {bars.map(b => (
           <div key={b.star} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -93,29 +82,33 @@ function RatingDisplay({ rating = 4.8, reviews = 0 }) {
   )
 }
 
-// ── Like Button — professional with subtle animation ──
+// ── FIXED: was /api/sb-likes, now /api/likes ──
 function LikeButton({ slug }) {
   const [count, setCount] = useState(0)
   const [liked, setLiked] = useState(false)
   const [pop, setPop] = useState(false)
 
   useEffect(() => {
-    fetch(`/api/sb-likes?slug=${slug}`)
+    fetch(`/api/likes?slug=${slug}`)
       .then(r => r.json()).then(d => setCount(d.count || 0)).catch(() => {})
-    const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
-    setLiked(likedSet.includes(slug))
+    try {
+      const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
+      setLiked(likedSet.includes(slug))
+    } catch {}
   }, [slug])
 
   const handleLike = async () => {
     if (liked) return
     setPop(true)
     setTimeout(() => setPop(false), 400)
-    const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
-    likedSet.push(slug)
-    localStorage.setItem('fh_liked', JSON.stringify(likedSet))
+    try {
+      const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
+      likedSet.push(slug)
+      localStorage.setItem('fh_liked', JSON.stringify(likedSet))
+    } catch {}
     setLiked(true)
     try {
-      const r = await fetch('/api/sb-likes', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug }) })
+      const r = await fetch('/api/likes', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug }) })
       const d = await r.json()
       setCount(d.count || count + 1)
     } catch { setCount(c => c + 1) }
@@ -147,10 +140,7 @@ function LikeButton({ slug }) {
           fontFamily: 'var(--font-body)',
         }}
       >
-        <span
-          className={pop ? 'like-icon-pop' : ''}
-          style={{ display: 'inline-flex', lineHeight: 1 }}
-        >
+        <span className={pop ? 'like-icon-pop' : ''} style={{ display: 'inline-flex', lineHeight: 1 }}>
           <svg width="15" height="15" viewBox="0 0 24 24"
             fill={liked ? '#dc2626' : 'none'}
             stroke={liked ? '#dc2626' : 'currentColor'}
@@ -166,7 +156,6 @@ function LikeButton({ slug }) {
             color: liked ? '#7f1d1d' : 'var(--gray)',
             fontSize: 11, fontWeight: 600,
             padding: '1px 7px', borderRadius: 20,
-            transition: 'all .2s',
           }}>{count}</span>
         )}
       </button>
@@ -174,17 +163,14 @@ function LikeButton({ slug }) {
   )
 }
 
-// ── Share Button — clean dropdown ──
 function ShareButton({ title, slug, description }) {
   const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
   const url = `https://food-hive-one.vercel.app/recipes/${slug}`
 
   const copy = () => { navigator.clipboard.writeText(url).then(() => { setCopied(true); setOpen(false); setTimeout(() => setCopied(false), 2000) }) }
-  const copyText = () => { navigator.clipboard.writeText(`${title}\n\n${description || ''}\n\n${url}`).then(() => { setCopied(true); setOpen(false); setTimeout(() => setCopied(false), 2000) }) }
   const whatsapp = () => { window.open(`https://wa.me/?text=${encodeURIComponent(title + '\n' + url)}`, '_blank'); setOpen(false) }
-  const twitter  = () => { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}&hashtags=FoodHive,Recipe`, '_blank'); setOpen(false) }
-  const facebook = () => { window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank'); setOpen(false) }
+  const twitter  = () => { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank'); setOpen(false) }
 
   useEffect(() => {
     if (!open) return
@@ -192,14 +178,6 @@ function ShareButton({ title, slug, description }) {
     document.addEventListener('click', close, { once: true })
     return () => document.removeEventListener('click', close)
   }, [open])
-
-  const menuItems = [
-    { icon: '🔗', label: 'Copy link',         fn: copy      },
-    { icon: '📋', label: 'Copy recipe text',   fn: copyText  },
-    { icon: '💬', label: 'Share on WhatsApp',  fn: whatsapp  },
-    { icon: '𝕏',  label: 'Share on Twitter',   fn: twitter   },
-    { icon: '📘', label: 'Share on Facebook',  fn: facebook  },
-  ]
 
   return (
     <div style={{ position: 'relative' }} onClick={e => e.stopPropagation()}>
@@ -209,9 +187,8 @@ function ShareButton({ title, slug, description }) {
           display: 'inline-flex', alignItems: 'center', gap: 7,
           background: 'white', border: '1.5px solid var(--cream3)',
           color: 'var(--gray)', fontSize: 13, fontWeight: 600,
-          padding: '9px 18px', borderRadius: 8,
-          cursor: 'pointer', fontFamily: 'var(--font-body)',
-          transition: 'border-color .2s, color .2s',
+          padding: '9px 18px', borderRadius: 8, cursor: 'pointer',
+          fontFamily: 'var(--font-body)', transition: 'border-color .2s, color .2s',
         }}
         onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--olive)'; e.currentTarget.style.color = 'var(--dark)' }}
         onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--cream3)'; e.currentTarget.style.color = 'var(--gray)' }}
@@ -229,19 +206,22 @@ function ShareButton({ title, slug, description }) {
           borderRadius: 10, boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
           padding: 4, minWidth: 190, zIndex: 200,
         }}>
-          {menuItems.map(item => (
+          {[
+            { icon: '🔗', label: 'Copy link', fn: copy },
+            { icon: '💬', label: 'Share on WhatsApp', fn: whatsapp },
+            { icon: '𝕏',  label: 'Share on Twitter', fn: twitter },
+          ].map(item => (
             <button key={item.label} onClick={item.fn} style={{
               display: 'flex', alignItems: 'center', gap: 10,
               width: '100%', padding: '8px 12px', border: 'none',
               background: 'none', cursor: 'pointer', borderRadius: 7,
               fontSize: 13, fontWeight: 500, color: 'var(--dark)',
               fontFamily: 'var(--font-body)', textAlign: 'left',
-              transition: 'background .15s',
             }}
               onMouseEnter={e => e.currentTarget.style.background = 'var(--cream)'}
               onMouseLeave={e => e.currentTarget.style.background = 'none'}
             >
-              <span style={{ fontSize: 14, width: 20, textAlign: 'center', fontStyle: 'normal' }}>{item.icon}</span>
+              <span style={{ fontSize: 14, width: 20, textAlign: 'center' }}>{item.icon}</span>
               {item.label}
             </button>
           ))}
@@ -251,7 +231,7 @@ function ShareButton({ title, slug, description }) {
   )
 }
 
-// ── Comments Section — clean English ──
+// ── FIXED: was /api/sb-comments, now /api/comments ──
 function CommentsSection({ slug }) {
   const [comments, setComments] = useState([])
   const [loading, setLoading] = useState(true)
@@ -261,7 +241,7 @@ function CommentsSection({ slug }) {
   const [form, setForm] = useState({ name: '', email: '', comment: '', rating: 5 })
 
   useEffect(() => {
-    fetch(`/api/sb-comments?slug=${slug}`)
+    fetch(`/api/comments?slug=${slug}`)
       .then(r => r.json())
       .then(d => { setComments(d.comments || []); setLoading(false) })
       .catch(() => setLoading(false))
@@ -272,7 +252,7 @@ function CommentsSection({ slug }) {
     if (!form.name.trim() || !form.comment.trim()) { setError('Name and comment are required.'); return }
     setSubmitting(true); setError('')
     try {
-      const r = await fetch('/api/sb-comments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug, ...form }) })
+      const r = await fetch('/api/comments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug, ...form }) })
       const d = await r.json()
       if (!r.ok) throw new Error(d.error || 'Something went wrong')
       setSubmitted(true)
@@ -290,7 +270,6 @@ function CommentsSection({ slug }) {
           <span className="comments-badge">{comments.length}</span>
         </h2>
 
-        {/* Write a Review form */}
         {!submitted ? (
           <form className="comment-form" onSubmit={submit}>
             <h3 className="cf-heading">Write a Review</h3>
@@ -301,31 +280,16 @@ function CommentsSection({ slug }) {
             <div className="cf-row">
               <div className="cf-field">
                 <label className="cf-label">Name *</label>
-                <input
-                  value={form.name}
-                  onChange={e => setForm(p => ({ ...p, name: e.target.value }))}
-                  placeholder="Your name"
-                  maxLength={100} required
-                />
+                <input value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} placeholder="Your name" maxLength={100} required />
               </div>
               <div className="cf-field">
-                <label className="cf-label">Email <span className="cf-optional">(optional, not shown)</span></label>
-                <input
-                  type="email"
-                  value={form.email}
-                  onChange={e => setForm(p => ({ ...p, email: e.target.value }))}
-                  placeholder="your@email.com"
-                />
+                <label className="cf-label">Email <span className="cf-optional">(optional)</span></label>
+                <input type="email" value={form.email} onChange={e => setForm(p => ({ ...p, email: e.target.value }))} placeholder="your@email.com" />
               </div>
             </div>
             <div className="cf-field">
               <label className="cf-label">Comment *</label>
-              <textarea
-                value={form.comment}
-                onChange={e => setForm(p => ({ ...p, comment: e.target.value }))}
-                placeholder="Did you try this recipe? Share your experience..."
-                rows={4} maxLength={1000} required
-              />
+              <textarea value={form.comment} onChange={e => setForm(p => ({ ...p, comment: e.target.value }))} placeholder="Share your experience..." rows={4} maxLength={1000} required />
               <span className="cf-char">{form.comment.length} / 1000</span>
             </div>
             {error && <p className="cf-error">⚠ {error}</p>}
@@ -344,13 +308,12 @@ function CommentsSection({ slug }) {
           </div>
         )}
 
-        {/* Reviews list */}
         {loading ? (
           <p className="comments-empty">Loading reviews...</p>
         ) : comments.length === 0 ? (
           <div className="comments-empty-box">
             <p className="comments-empty-title">No reviews yet</p>
-            <p className="comments-empty-sub">Be the first to share your experience with this recipe!</p>
+            <p className="comments-empty-sub">Be the first to share your experience!</p>
           </div>
         ) : (
           <div className="comments-list">
@@ -375,101 +338,44 @@ function CommentsSection({ slug }) {
 
       <style jsx>{`
         .comments-section { background: #f9fafb; padding: 72px 0; border-top: 1px solid var(--cream2); }
-        .comments-title {
-          font-family: var(--font-title); font-size: clamp(26px, 3vw, 38px);
-          font-weight: 700; color: var(--dark); margin-bottom: 36px;
-          display: flex; align-items: center; gap: 12px;
-        }
-        .comments-badge {
-          background: var(--olive); color: white; font-size: 14px; font-weight: 700;
-          padding: 2px 10px; border-radius: 20px; font-family: var(--font-body);
-        }
-        .comment-form {
-          background: white; border-radius: 14px; padding: 28px 32px;
-          border: 1px solid var(--cream2); margin-bottom: 44px;
-        }
-        .cf-heading {
-          font-family: var(--font-title); font-size: 22px; font-weight: 700;
-          color: var(--dark); margin-bottom: 20px;
-        }
-        .cf-rating-row {
-          display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
-          padding: 12px 16px; background: var(--cream); border-radius: 8px;
-          width: fit-content;
-        }
-        .cf-label {
-          font-size: 11px; font-weight: 700; color: var(--gray);
-          text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px;
-        }
+        .comments-title { font-family: var(--font-title); font-size: clamp(26px,3vw,38px); font-weight: 700; color: var(--dark); margin-bottom: 36px; display: flex; align-items: center; gap: 12px; }
+        .comments-badge { background: var(--olive); color: white; font-size: 14px; font-weight: 700; padding: 2px 10px; border-radius: 20px; font-family: var(--font-body); }
+        .comment-form { background: white; border-radius: 14px; padding: 28px 32px; border: 1px solid var(--cream2); margin-bottom: 44px; }
+        .cf-heading { font-family: var(--font-title); font-size: 22px; font-weight: 700; color: var(--dark); margin-bottom: 20px; }
+        .cf-rating-row { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; padding: 12px 16px; background: var(--cream); border-radius: 8px; width: fit-content; }
+        .cf-label { font-size: 11px; font-weight: 700; color: var(--gray); text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px; }
         .cf-optional { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--gray-l); }
         .cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
         .cf-field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
-        .cf-field input, .cf-field textarea {
-          border: 1.5px solid var(--cream2); border-radius: 8px;
-          padding: 10px 14px; font-size: 14px; font-family: var(--font-body);
-          color: var(--dark); background: var(--cream); outline: none;
-          transition: border-color .2s; resize: vertical;
-        }
+        .cf-field input, .cf-field textarea { border: 1.5px solid var(--cream2); border-radius: 8px; padding: 10px 14px; font-size: 14px; font-family: var(--font-body); color: var(--dark); background: var(--cream); outline: none; transition: border-color .2s; resize: vertical; }
         .cf-field input:focus, .cf-field textarea:focus { border-color: var(--teal); background: white; }
         .cf-char { font-size: 11px; color: var(--gray-l); float: right; margin-top: 4px; }
         .cf-error { color: #dc2626; font-size: 13px; margin-bottom: 12px; }
-        .cf-submit {
-          background: var(--teal); color: white; font-size: 13px; font-weight: 700;
-          padding: 11px 28px; border-radius: 8px; border: none; cursor: pointer;
-          font-family: var(--font-body); transition: background .2s, transform .15s;
-        }
+        .cf-submit { background: var(--teal); color: white; font-size: 13px; font-weight: 700; padding: 11px 28px; border-radius: 8px; border: none; cursor: pointer; font-family: var(--font-body); transition: background .2s, transform .15s; }
         .cf-submit:hover { background: var(--teal-d); transform: translateY(-1px); }
         .cf-submit:disabled { opacity: .6; cursor: not-allowed; transform: none; }
-        .cf-success {
-          background: white; border: 1px solid #d1fae5; border-radius: 12px;
-          padding: 20px 24px; margin-bottom: 44px;
-          display: flex; align-items: center; gap: 14px;
-        }
-        .cf-check {
-          width: 36px; height: 36px; border-radius: 50%; background: #d1fae5;
-          color: #065f46; font-size: 18px; font-weight: 700;
-          display: flex; align-items: center; justify-content: center; flex-shrink: 0;
-        }
+        .cf-success { background: white; border: 1px solid #d1fae5; border-radius: 12px; padding: 20px 24px; margin-bottom: 44px; display: flex; align-items: center; gap: 14px; }
+        .cf-check { width: 36px; height: 36px; border-radius: 50%; background: #d1fae5; color: #065f46; font-size: 18px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
         .cf-success-title { font-size: 15px; font-weight: 700; color: var(--dark); margin: 0 0 2px; }
         .cf-success-sub { font-size: 13px; color: var(--gray); margin: 0; }
-        .cf-link-btn {
-          margin-left: auto; background: none; border: none; color: var(--teal);
-          font-size: 13px; font-weight: 600; cursor: pointer; font-family: var(--font-body);
-          text-decoration: underline; flex-shrink: 0;
-        }
+        .cf-link-btn { margin-left: auto; background: none; border: none; color: var(--teal); font-size: 13px; font-weight: 600; cursor: pointer; font-family: var(--font-body); text-decoration: underline; flex-shrink: 0; }
         .comments-empty { color: var(--gray-l); font-size: 14px; padding: 24px 0; }
-        .comments-empty-box {
-          background: white; border: 1px solid var(--cream2); border-radius: 12px;
-          padding: 40px; text-align: center; margin-bottom: 32px;
-        }
+        .comments-empty-box { background: white; border: 1px solid var(--cream2); border-radius: 12px; padding: 40px; text-align: center; margin-bottom: 32px; }
         .comments-empty-title { font-family: var(--font-title); font-size: 22px; color: var(--dark); margin-bottom: 6px; font-weight: 700; }
         .comments-empty-sub { font-size: 14px; color: var(--gray); margin: 0; }
         .comments-list { display: flex; flex-direction: column; gap: 14px; }
-        .comment-card {
-          background: white; border-radius: 12px; padding: 20px 24px;
-          border: 1px solid var(--cream2); transition: border-color .2s;
-        }
-        .comment-card:hover { border-color: var(--cream3); }
+        .comment-card { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid var(--cream2); }
         .comment-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
-        .comment-avatar {
-          width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0;
-          background: var(--olive); color: white;
-          font-family: var(--font-title); font-size: 17px; font-weight: 700;
-          display: flex; align-items: center; justify-content: center;
-        }
+        .comment-avatar { width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0; background: var(--olive); color: white; font-family: var(--font-title); font-size: 17px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
         .comment-name { font-weight: 700; font-size: 14px; color: var(--dark); margin: 0 0 2px; }
         .comment-date { font-size: 12px; color: var(--gray-l); margin: 0; }
         .comment-text { font-size: 14px; color: #4b5563; line-height: 1.75; margin: 0; }
-        @media (max-width: 640px) {
-          .cf-row { grid-template-columns: 1fr; }
-          .comment-form { padding: 20px; }
-        }
+        @media (max-width: 640px) { .cf-row { grid-template-columns: 1fr; } .comment-form { padding: 20px; } }
       `}</style>
     </section>
   )
 }
 
-// ── Small Recipe Card ──
 function RecipeCard({ recipe }) {
   return (
     <Link href={`/recipes/${recipe.slug}`}>
@@ -491,9 +397,6 @@ function RecipeCard({ recipe }) {
   )
 }
 
-// ══════════════════════════
-// MAIN PAGE
-// ══════════════════════════
 export default function RecipeDetail({ recipe, relatedRecipes }) {
   const [servings, setServings] = useState(recipe?.servings || 4)
   const [activeTab, setActiveTab] = useState('instructions')
@@ -559,7 +462,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
       <div className="scroll-bar" />
 
-      {/* NAVBAR */}
       <nav className="navbar">
         <div className="navbar-inner">
           <button className="rd-back" onClick={() => router.back()} aria-label="Go back">←</button>
@@ -577,25 +479,18 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         </div>
       </nav>
 
-      {/* HERO — same original design */}
       <section className="rd-hero">
         <div className="rd-hero-blob" />
         <div className="rd-hero-inner">
-
-          {/* LEFT */}
           <div className="fade-up">
             <div className="rd-tags">
               <span className="rd-tag rd-tag-country">{recipe.countryFlag} {recipe.countryName}</span>
               <span className="rd-tag rd-tag-cat">{recipe.categoryIcon} {recipe.categoryName}</span>
               <span className="rd-tag rd-tag-diff">⚡ {recipe.difficulty}</span>
             </div>
-
             <h1 className="rd-title">{recipe.title}</h1>
             <p className="rd-desc">{recipe.description}</p>
-
-            {/* Rating — professional AllRecipes style */}
             <RatingDisplay rating={recipe.rating || 4.8} reviews={recipe.reviews || 0} />
-
             <div className="rd-stats">
               {[
                 { v: recipe.prepTime, l: 'Prep' },
@@ -609,8 +504,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
                 </div>
               ))}
             </div>
-
-            {/* Action row */}
             <div className="rd-action-row">
               <button className="rd-cta" onClick={() => bodyRef.current?.scrollIntoView({ behavior: 'smooth' })}>
                 View Full Recipe
@@ -618,14 +511,12 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               <LikeButton slug={recipe.slug} />
               <ShareButton title={recipe.title} slug={recipe.slug} description={recipe.description} />
             </div>
-
             <div style={{ display: 'flex', gap: 10, marginTop: 24, alignItems: 'center', color: 'var(--gray-l)', fontSize: 12, fontWeight: 600 }}>
               <div className="rd-arrow" onClick={() => bodyRef.current?.scrollIntoView({ behavior: 'smooth' })}>↓</div>
               <span>Scroll for full recipe</span>
             </div>
           </div>
 
-          {/* RIGHT — orbit same as original */}
           <div className="rd-orbit">
             <div className="rd-orbit-ring" style={{ width: 400, height: 400 }} />
             <div className="rd-orbit-main" style={{ width: 260, height: 260 }}>
@@ -645,12 +536,9 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         </div>
       </section>
 
-      {/* BODY */}
       <section className="rd-body section" ref={bodyRef}>
         <div className="container">
           <div className="rd-body-grid">
-
-            {/* SIDEBAR */}
             <div className="rd-sidebar-card">
               <div className="rd-box-head">🥘 Ingredients</div>
               <div className="serv-row">
@@ -697,7 +585,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               )}
             </div>
 
-            {/* MAIN */}
             <div>
               <div className="tab-row">
                 {[
@@ -767,7 +654,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         </div>
       </section>
 
-      {/* RELATED */}
       {relatedRecipes.length > 0 && (
         <section className="section" style={{ background: 'var(--cream2)' }}>
           <div className="container">
@@ -786,10 +672,8 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         </section>
       )}
 
-      {/* COMMENTS */}
       <CommentsSection slug={recipe.slug} />
 
-      {/* FOOTER */}
       <footer className="footer">
         <div className="container">
           <div className="footer-grid">
@@ -819,7 +703,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
       <style jsx>{`
         .rd-action-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 24px; }
-
         .rd-sat {
           position: absolute; border-radius: 50%; overflow: hidden;
           border: 3px solid white; box-shadow: var(--sh-card);
