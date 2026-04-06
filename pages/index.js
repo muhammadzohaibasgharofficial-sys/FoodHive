@@ -24,32 +24,31 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
   return (
     <>
       <Head>
-        <title>FoodHive — Order your favorite food here</title>
-        <meta name="description" content="Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients. Explore authentic recipes from 10 world cuisines." />
+        <title>FoodHive — Authentic Recipes from 10 World Cuisines</title>
+        <meta name="description" content="Explore authentic step-by-step recipes from 10 world cuisines. Discover Pakistani, Turkish, Chinese, Indian, Korean, Mexican and more — crafted with traditional ingredients and techniques." />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
 
       {/* ─────────────────────────────────
-          NAVBAR — exact Image 1 style
+          NAVBAR
       ───────────────────────────────── */}
       <nav className="nav">
         <div className="nav-inner">
-          {/* Logo — "FoodHive." orange color, bold */}
+          {/* Logo */}
           <Link href="/" className="nav-logo">Food<span>Hive</span>.</Link>
 
-          {/* Nav links */}
+          {/* Nav links — recipe website ke according */}
           <div className="nav-links">
             <Link href="/" className="nav-link">Home</Link>
-            <Link href="#explore" className="nav-link">Menu</Link>
+            <Link href="#explore" className="nav-link">Recipes</Link>
             <Link href="#countries" className="nav-link">Cuisines</Link>
-            <Link href="/recipes" className="nav-link">Contact us</Link>
+            <Link href="/recipes" className="nav-link">About</Link>
           </div>
 
-          {/* Right side — search icon only (no login, no cart per requirement) */}
+          {/* Right side */}
           <div className="nav-right">
-            {/* Search icon — same style as Image 1 */}
             <button className="nav-icon-btn" onClick={() => router.push('/search')} aria-label="Search">
               <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8"/>
@@ -61,38 +60,37 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
       </nav>
 
       {/* ─────────────────────────────────
-          HERO — exact Image 1 style
-          Full-width orange rounded banner
-          White text left, food image right
+          HERO — recipe website ke liye
       ───────────────────────────────── */}
       <section className="hero-wrap">
         <div className="hero-banner">
-          {/* Decorative orange slice top-left */}
+          {/* Decorative circle top-left */}
           <div className="hero-deco-tl">
             <div className="hero-deco-half-circle" />
           </div>
 
           {/* LEFT — text content */}
           <div className="hero-content">
+            <p className="hero-eyebrow">Authentic World Recipes</p>
             <h1 className="hero-title">
-              Order your<br />
-              favorite food<br />
-              here
+              Discover &amp;<br />
+              Cook Amazing<br />
+              Recipes
             </h1>
             <p className="hero-desc">
-              Choose from a diverse menu featuring a delectable array of dishes crafted with
-              the finest ingredients and culinary expertise. Our mission is to satisfy your cravings
-              and elevate your dining experience, one delicious meal at a time.
+              Explore authentic step-by-step recipes from 10 world cuisines — Pakistani, Turkish,
+              Chinese, Korean, Indian and more. Each recipe crafted with traditional ingredients
+              and time-tested techniques.
             </p>
-            <Link href="#explore" className="hero-btn">View Menu</Link>
+            <Link href="#explore" className="hero-btn">Browse Recipes</Link>
           </div>
 
-          {/* RIGHT — food image (circular plate) */}
+          {/* RIGHT — food image (circular) */}
           <div className="hero-img-area">
             <div className="hero-plate-wrap">
               <img
                 src={heroImg}
-                alt="Delicious food"
+                alt="Authentic world cuisine"
                 className="hero-plate-img"
               />
             </div>
@@ -111,24 +109,21 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
       </section>
 
       {/* ─────────────────────────────────
-          EXPLORE — Image 2 style
-          Countries as circles (not categories)
-          Click → orange ring + expand categories
+          EXPLORE — World Cuisines
       ───────────────────────────────── */}
       <section id="explore" className="explore-section">
         <div className="page-container">
 
           {/* Header */}
           <div className="explore-head">
-            <h2 className="explore-title">Explore our menu</h2>
+            <h2 className="explore-title">Explore World Cuisines</h2>
             <p className="explore-desc">
-              Choose from a diverse menu featuring a delectable array of dishes. Our
-              mission is to satisfy your cravings and elevate your dining experience,
-              one delicious meal at a time.
+              Discover authentic recipes from 10 countries around the world. Click any cuisine
+              below to browse its full recipe collection — from breakfast to desserts.
             </p>
           </div>
 
-          {/* Country circles — Image 2 style with real food images */}
+          {/* Country circles */}
           <div className="country-circles-row">
             {COUNTRIES.map((country, i) => (
               <div
@@ -140,7 +135,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
                   <div className="country-circle-img">
                     <img src={country.image} alt={country.name} loading="lazy" />
                   </div>
-                  {/* Orange animated ring when active */}
                   {activeCountry === country.id && (
                     <div className="country-circle-ring" />
                   )}
@@ -157,7 +151,7 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
               <div className="country-cats-expand">
                 <div className="cats-expand-header">
                   <span className="cats-expand-flag">{country.flag}</span>
-                  <span className="cats-expand-name">{country.name} — Choose Category</span>
+                  <span className="cats-expand-name">{country.name} — Choose a Recipe Category</span>
                 </div>
                 <div className="cats-expand-grid">
                   {RECIPE_CATEGORIES.map((cat, i) => (
@@ -186,8 +180,8 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           {/* Divider */}
           <div className="explore-divider" />
 
-          {/* "Top dishes near you" heading */}
-          <h2 id="countries" className="top-dishes-title">Top dishes near you</h2>
+          {/* Popular Recipes heading */}
+          <h2 id="countries" className="top-dishes-title">Popular Recipes to Try</h2>
           <p className="top-dishes-desc">Click any cuisine above to explore its full recipe collection</p>
 
         </div>
@@ -201,7 +195,7 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           <div className="footer-grid">
             <div>
               <div className="footer-logo">Food<span>Hive</span>.</div>
-              <p className="footer-desc">Authentic recipes from 10 world cuisines, auto-published daily.</p>
+              <p className="footer-desc">Authentic step-by-step recipes from 10 world cuisines, published daily.</p>
             </div>
             <div>
               <div className="footer-col-title">Categories</div>
@@ -259,7 +253,7 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
         }
 
         /* ══════════════════════════
-           NAVBAR — Image 1 exact
+           NAVBAR
         ══════════════════════════ */
         .nav {
           position: sticky;
@@ -278,8 +272,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           align-items: center;
           gap: 32px;
         }
-
-        /* Logo — exact "Tomato." style but "FoodHive." */
         .nav-logo {
           font-family: 'Nunito', sans-serif;
           font-size: 24px;
@@ -289,7 +281,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           flex-shrink: 0;
         }
         .nav-logo span { color: var(--orange); }
-
         .nav-links {
           display: flex;
           align-items: center;
@@ -305,15 +296,12 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           transition: background 0.15s;
         }
         .nav-link:hover { background: #f5f5f5; }
-
         .nav-right {
           margin-left: auto;
           display: flex;
           align-items: center;
           gap: 12px;
         }
-
-        /* Search icon button — exact Image 1 style */
         .nav-icon-btn {
           width: 38px; height: 38px;
           border-radius: 50%;
@@ -327,15 +315,13 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
         .nav-icon-btn:hover { background: #f0f0f0; }
 
         /* ══════════════════════════
-           HERO — Image 1 exact
-           Orange full-width rounded banner
+           HERO — recipe website
         ══════════════════════════ */
         .hero-wrap {
           padding: 20px 48px 40px;
           max-width: 1200px;
           margin: 0 auto;
         }
-
         .hero-banner {
           background: var(--orange);
           border-radius: 20px;
@@ -347,8 +333,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           padding: 40px 50px;
           gap: 0;
         }
-
-        /* Decorative half-circle top-left (orange slice) */
         .hero-deco-tl {
           position: absolute;
           top: -20px; left: -20px;
@@ -368,15 +352,20 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           border-radius: 50%;
           background: rgba(255,255,255,0.08);
         }
-
-        /* LEFT text */
         .hero-content {
           flex: 1;
           position: relative;
           z-index: 2;
           max-width: 420px;
         }
-
+        .hero-eyebrow {
+          font-size: 12px;
+          font-weight: 700;
+          color: rgba(255,255,255,0.80);
+          letter-spacing: 1.5px;
+          text-transform: uppercase;
+          margin-bottom: 10px;
+        }
         .hero-title {
           font-family: 'Nunito', sans-serif;
           font-size: clamp(32px, 4vw, 54px);
@@ -386,7 +375,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           margin-bottom: 16px;
           letter-spacing: -0.5px;
         }
-
         .hero-desc {
           font-size: 13px;
           color: rgba(255,255,255,0.85);
@@ -395,8 +383,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           max-width: 340px;
           font-weight: 500;
         }
-
-        /* "View Menu" button — white rounded, exact Image 1 */
         .hero-btn {
           display: inline-block;
           background: #ffffff;
@@ -413,8 +399,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           transform: translateY(-1px);
           box-shadow: 0 6px 20px rgba(0,0,0,0.18);
         }
-
-        /* RIGHT image area */
         .hero-img-area {
           position: absolute;
           right: 0;
@@ -426,7 +410,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           justify-content: center;
           z-index: 1;
         }
-
         .hero-plate-wrap {
           width: 320px;
           height: 320px;
@@ -440,8 +423,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           height: 100%;
           object-fit: cover;
         }
-
-        /* Fork decoration */
         .hero-fork {
           position: absolute;
           right: 36px;
@@ -451,15 +432,13 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
         }
 
         /* ══════════════════════════
-           EXPLORE SECTION — Image 2
+           EXPLORE SECTION
         ══════════════════════════ */
         .explore-section {
           padding: 60px 0 40px;
           background: #fff;
         }
-
         .explore-head { margin-bottom: 36px; }
-
         .explore-title {
           font-family: 'Nunito', sans-serif;
           font-size: 22px;
@@ -467,16 +446,15 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           color: var(--dark);
           margin-bottom: 12px;
         }
-
         .explore-desc {
           font-size: 14px;
           color: var(--gray);
           line-height: 1.75;
-          max-width: 420px;
+          max-width: 480px;
           font-weight: 500;
         }
 
-        /* Country circles row — Image 2 exact spacing */
+        /* Country circles */
         .country-circles-row {
           display: flex;
           gap: 32px;
@@ -484,7 +462,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           flex-wrap: wrap;
           padding-bottom: 8px;
         }
-
         .country-circle-item {
           display: flex;
           flex-direction: column;
@@ -494,12 +471,10 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           user-select: none;
         }
         .country-circle-item:hover { opacity: 0.9; }
-
         .country-circle-img-wrap {
           position: relative;
           width: 80px; height: 80px;
         }
-
         .country-circle-img {
           width: 80px; height: 80px;
           border-radius: 50%;
@@ -516,8 +491,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           width: 100%; height: 100%;
           object-fit: cover;
         }
-
-        /* Orange animated ring — appears on active */
         .country-circle-ring {
           position: absolute;
           inset: -5px;
@@ -530,7 +503,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           50%  { transform: scale(1.1); opacity: 0.5; }
           100% { transform: scale(1);    opacity: 1; }
         }
-
         .country-circle-label {
           font-size: 13px;
           font-weight: 700;
@@ -542,7 +514,7 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           color: var(--orange);
         }
 
-        /* ── Expanded categories column ── */
+        /* Expanded categories */
         .country-cats-expand {
           margin-top: 32px;
           background: #fff9f5;
@@ -555,7 +527,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           from { opacity: 0; transform: translateY(-12px) scale(0.97); }
           to   { opacity: 1; transform: translateY(0) scale(1); }
         }
-
         .cats-expand-header {
           display: flex;
           align-items: center;
@@ -568,14 +539,12 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           font-weight: 800;
           color: var(--dark);
         }
-
         .cats-expand-grid {
           display: flex;
           gap: 24px;
           flex-wrap: wrap;
           margin-bottom: 8px;
         }
-
         .cat-expand-item {
           display: flex;
           flex-direction: column;
@@ -590,7 +559,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           to   { opacity: 1; transform: scale(1) rotate(0deg); }
         }
         .cat-expand-item:hover { transform: translateY(-5px) scale(1.06); }
-
         .cat-expand-circle {
           width: 64px; height: 64px;
           border-radius: 50%;
@@ -621,7 +589,6 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           color: var(--dark);
           text-align: center;
         }
-
         .view-country-btn {
           display: inline-block;
           background: var(--orange);
@@ -645,7 +612,7 @@ export default function HomePage({ latestRecipes, heroRecipe }) {
           margin: 44px 0 36px;
         }
 
-        /* "Top dishes near you" */
+        /* Popular Recipes */
         .top-dishes-title {
           font-family: 'Nunito', sans-serif;
           font-size: clamp(22px, 3vw, 30px);
