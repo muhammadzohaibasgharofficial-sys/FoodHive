@@ -1,319 +1,167 @@
 // ============================================================
-// FoodHive World — pages/recipes/[slug].js
-// FIXED: API calls /api/likes and /api/comments (was sb-likes/sb-comments)
+// FoodHive World — pages/recipes/[slug].js  REDESIGNED
+// Clean hero: one big image + info side by side
+// Font: DM Serif Display + DM Sans
+// Zero orbit, zero satellites, zero animations
+// Image appears ONLY in hero — not repeated below
 // ============================================================
 import { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import {
-  getRecipeBySlug,
-  getAllRecipeSlugs,
-  getAllRecipes,
-  RECIPE_CATEGORIES,
-  COUNTRIES,
-  SAMPLE_RECIPE,
+  getRecipeBySlug, getAllRecipeSlugs, getAllRecipes,
+  RECIPE_CATEGORIES, COUNTRIES, SAMPLE_RECIPE,
 } from '../../lib/data'
 
-const SAT_POS = [
-  { top: '2%',  left: '50%', size: 86, tx: '-50%', delay: '0s'   },
-  { top: '22%', left: '88%', size: 72, tx: '0',    delay: '.3s'  },
-  { top: '68%', left: '82%', size: 78, tx: '0',    delay: '.6s'  },
-  { top: '72%', left: '14%', size: 72, tx: '0',    delay: '.9s'  },
-  { top: '22%', left: '4%',  size: 80, tx: '0',    delay: '1.2s' },
-]
-
-function StarRating({ value = 5, size = 15 }) {
-  return (
-    <div style={{ display: 'flex', gap: 1 }}>
-      {[1, 2, 3, 4, 5].map(s => (
-        <span key={s} style={{ fontSize: size, color: s <= Math.round(value) ? '#f59e0b' : '#d1d5db', lineHeight: 1 }}>★</span>
-      ))}
-    </div>
-  )
-}
-
-function StarRatingInput({ value = 5, onRate }) {
+// ── Star Rating ──
+function StarRating({ value = 5, interactive = false, onRate }) {
   const [hover, setHover] = useState(0)
-  const display = hover || value
+  const [selected, setSelected] = useState(value)
+  const display = hover || selected
+  const handleRate = (s) => { setSelected(s); onRate?.(s) }
   return (
-    <div style={{ display: 'flex', gap: 3, cursor: 'pointer' }}>
-      {[1, 2, 3, 4, 5].map(s => (
-        <span
-          key={s}
-          style={{ fontSize: 22, color: s <= display ? '#f59e0b' : '#d1d5db', lineHeight: 1, transition: 'color .1s' }}
-          onMouseEnter={() => setHover(s)}
-          onMouseLeave={() => setHover(0)}
-          onClick={() => onRate?.(s)}
-        >★</span>
+    <div style={{ display: 'flex', gap: interactive ? 6 : 3, alignItems: 'center' }}>
+      {[1,2,3,4,5].map(s => (
+        <span key={s} style={{
+          fontSize: interactive ? 26 : 15,
+          color: s <= display ? '#E07B39' : '#DDD0C0',
+          cursor: interactive ? 'pointer' : 'default',
+          transition: 'color .15s',
+          userSelect: 'none',
+        }}
+          onMouseEnter={() => interactive && setHover(s)}
+          onMouseLeave={() => interactive && setHover(0)}
+          onClick={() => interactive && handleRate(s)}>★</span>
       ))}
     </div>
   )
 }
 
-function RatingDisplay({ rating = 4.8, reviews = 0 }) {
-  const bars = [
-    { star: 5, pct: 75 },
-    { star: 4, pct: 15 },
-    { star: 3, pct: 6 },
-    { star: 2, pct: 2 },
-    { star: 1, pct: 2 },
-  ]
-  return (
-    <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexWrap: 'wrap', margin: '0 0 28px' }}>
-      <div style={{ textAlign: 'center' }}>
-        <div style={{ fontSize: 42, fontWeight: 700, color: 'var(--dark)', lineHeight: 1, fontFamily: 'var(--font-serif)' }}>{rating}</div>
-        <StarRating value={rating} size={13} />
-        <div style={{ fontSize: 11, color: 'var(--gray)', marginTop: 3 }}>{reviews} ratings</div>
-      </div>
-      <div style={{ width: 1, height: 60, background: 'var(--cream2)' }} />
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        {bars.map(b => (
-          <div key={b.star} style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-            <span style={{ fontSize: 11, color: 'var(--gray)', width: 8, textAlign: 'right' }}>{b.star}</span>
-            <span style={{ fontSize: 11, color: '#f59e0b' }}>★</span>
-            <div style={{ width: 80, height: 6, background: 'var(--cream2)', borderRadius: 3, overflow: 'hidden' }}>
-              <div style={{ width: b.pct + '%', height: '100%', background: '#f59e0b', borderRadius: 3 }} />
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
-
-// ── FIXED: was /api/sb-likes, now /api/likes ──
-function LikeButton({ slug }) {
+// ── Likes Button ──
+function LikesButton({ slug }) {
   const [count, setCount] = useState(0)
   const [liked, setLiked] = useState(false)
-  const [pop, setPop] = useState(false)
-
   useEffect(() => {
-    fetch(`/api/likes?slug=${slug}`)
-      .then(r => r.json()).then(d => setCount(d.count || 0)).catch(() => {})
-    try {
-      const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
-      setLiked(likedSet.includes(slug))
-    } catch {}
+    fetch(`/api/likes?slug=${slug}`).then(r => r.json()).then(d => setCount(d.count || 0)).catch(() => {})
+    const ls = JSON.parse(localStorage.getItem('fh_liked') || '[]')
+    setLiked(ls.includes(slug))
   }, [slug])
-
-  const handleLike = async () => {
+  const toggleLike = async () => {
     if (liked) return
-    setPop(true)
-    setTimeout(() => setPop(false), 400)
-    try {
-      const likedSet = JSON.parse(localStorage.getItem('fh_liked') || '[]')
-      likedSet.push(slug)
-      localStorage.setItem('fh_liked', JSON.stringify(likedSet))
-    } catch {}
-    setLiked(true)
+    const ls = JSON.parse(localStorage.getItem('fh_liked') || '[]')
+    ls.push(slug); localStorage.setItem('fh_liked', JSON.stringify(ls)); setLiked(true)
     try {
       const r = await fetch('/api/likes', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug }) })
-      const d = await r.json()
-      setCount(d.count || count + 1)
+      const d = await r.json(); setCount(d.count || count + 1)
     } catch { setCount(c => c + 1) }
   }
-
   return (
-    <>
-      <style>{`
-        @keyframes heartPop {
-          0%   { transform: scale(1); }
-          40%  { transform: scale(1.35); }
-          70%  { transform: scale(0.9); }
-          100% { transform: scale(1); }
-        }
-        .like-icon-pop { animation: heartPop 0.4s cubic-bezier(.36,.07,.19,.97) both; }
-      `}</style>
-      <button
-        onClick={handleLike}
-        disabled={liked}
-        style={{
-          display: 'inline-flex', alignItems: 'center', gap: 7,
-          background: liked ? '#fff5f5' : 'white',
-          border: liked ? '1.5px solid #fca5a5' : '1.5px solid var(--cream3)',
-          color: liked ? '#dc2626' : 'var(--gray)',
-          fontSize: 13, fontWeight: 600,
-          padding: '9px 18px', borderRadius: 8,
-          cursor: liked ? 'default' : 'pointer',
-          transition: 'border-color .2s, color .2s, background .2s',
-          fontFamily: 'var(--font-body)',
-        }}
-      >
-        <span className={pop ? 'like-icon-pop' : ''} style={{ display: 'inline-flex', lineHeight: 1 }}>
-          <svg width="15" height="15" viewBox="0 0 24 24"
-            fill={liked ? '#dc2626' : 'none'}
-            stroke={liked ? '#dc2626' : 'currentColor'}
-            strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"
-          >
-            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
-          </svg>
-        </span>
-        <span>{liked ? 'Liked' : 'Like'}</span>
-        {count > 0 && (
-          <span style={{
-            background: liked ? '#fca5a5' : 'var(--cream2)',
-            color: liked ? '#7f1d1d' : 'var(--gray)',
-            fontSize: 11, fontWeight: 600,
-            padding: '1px 7px', borderRadius: 20,
-          }}>{count}</span>
-        )}
-      </button>
-    </>
+    <button onClick={toggleLike} className={`action-btn ${liked ? 'liked' : ''}`}>
+      <span>{liked ? '❤️' : '🤍'}</span>
+      <span>{count}</span>
+    </button>
   )
 }
 
+// ── Share Button ──
 function ShareButton({ title, slug, description }) {
-  const [open, setOpen] = useState(false)
   const [copied, setCopied] = useState(false)
   const url = `https://food-hive-one.vercel.app/recipes/${slug}`
-
-  const copy = () => { navigator.clipboard.writeText(url).then(() => { setCopied(true); setOpen(false); setTimeout(() => setCopied(false), 2000) }) }
-  const whatsapp = () => { window.open(`https://wa.me/?text=${encodeURIComponent(title + '\n' + url)}`, '_blank'); setOpen(false) }
-  const twitter  = () => { window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`, '_blank'); setOpen(false) }
-
-  useEffect(() => {
-    if (!open) return
-    const close = () => setOpen(false)
-    document.addEventListener('click', close, { once: true })
-    return () => document.removeEventListener('click', close)
-  }, [open])
-
+  const handleShare = () => {
+    if (navigator.share) {
+      navigator.share({ title, text: description, url }).catch(() => {})
+    } else {
+      navigator.clipboard.writeText(url).then(() => { setCopied(true); setTimeout(() => setCopied(false), 2000) })
+    }
+  }
   return (
-    <div style={{ position: 'relative' }} onClick={e => e.stopPropagation()}>
-      <button
-        onClick={() => { if (navigator.share) { navigator.share({ title, url }).catch(() => {}) } else { setOpen(p => !p) } }}
-        style={{
-          display: 'inline-flex', alignItems: 'center', gap: 7,
-          background: 'white', border: '1.5px solid var(--cream3)',
-          color: 'var(--gray)', fontSize: 13, fontWeight: 600,
-          padding: '9px 18px', borderRadius: 8, cursor: 'pointer',
-          fontFamily: 'var(--font-body)', transition: 'border-color .2s, color .2s',
-        }}
-        onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--olive)'; e.currentTarget.style.color = 'var(--dark)' }}
-        onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--cream3)'; e.currentTarget.style.color = 'var(--gray)' }}
-      >
-        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-          <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-        </svg>
-        {copied ? 'Copied!' : 'Share'}
-      </button>
-      {open && (
-        <div style={{
-          position: 'absolute', top: 'calc(100% + 6px)', left: 0,
-          background: 'white', border: '1px solid var(--cream2)',
-          borderRadius: 10, boxShadow: '0 4px 20px rgba(0,0,0,0.1)',
-          padding: 4, minWidth: 190, zIndex: 200,
-        }}>
-          {[
-            { icon: '🔗', label: 'Copy link', fn: copy },
-            { icon: '💬', label: 'Share on WhatsApp', fn: whatsapp },
-            { icon: '𝕏',  label: 'Share on Twitter', fn: twitter },
-          ].map(item => (
-            <button key={item.label} onClick={item.fn} style={{
-              display: 'flex', alignItems: 'center', gap: 10,
-              width: '100%', padding: '8px 12px', border: 'none',
-              background: 'none', cursor: 'pointer', borderRadius: 7,
-              fontSize: 13, fontWeight: 500, color: 'var(--dark)',
-              fontFamily: 'var(--font-body)', textAlign: 'left',
-            }}
-              onMouseEnter={e => e.currentTarget.style.background = 'var(--cream)'}
-              onMouseLeave={e => e.currentTarget.style.background = 'none'}
-            >
-              <span style={{ fontSize: 14, width: 20, textAlign: 'center' }}>{item.icon}</span>
-              {item.label}
-            </button>
-          ))}
-        </div>
-      )}
-    </div>
+    <button onClick={handleShare} className={`action-btn ${copied ? 'copied' : ''}`}>
+      <span>{copied ? '✅' : '🔗'}</span>
+      <span>{copied ? 'Copied!' : 'Share'}</span>
+    </button>
   )
 }
 
-// ── FIXED: was /api/sb-comments, now /api/comments ──
+// ── Copy Button ──
+function CopyBtn({ getText, label = 'Copy' }) {
+  const [done, setDone] = useState(false)
+  return (
+    <button onClick={async () => {
+      try { await navigator.clipboard.writeText(getText()); setDone(true); setTimeout(() => setDone(false), 2000) } catch {}
+    }} className="copy-btn">
+      {done ? '✅ Copied' : `📋 ${label}`}
+    </button>
+  )
+}
+
+// ── Comments ──
 function CommentsSection({ slug }) {
   const [comments, setComments] = useState([])
   const [loading, setLoading] = useState(true)
   const [submitting, setSubmitting] = useState(false)
   const [submitted, setSubmitted] = useState(false)
   const [error, setError] = useState('')
-  const [form, setForm] = useState({ name: '', email: '', comment: '', rating: 5 })
-
+  const [form, setForm] = useState({ name: '', comment: '', rating: 5 })
   useEffect(() => {
-    fetch(`/api/comments?slug=${slug}`)
-      .then(r => r.json())
-      .then(d => { setComments(d.comments || []); setLoading(false) })
-      .catch(() => setLoading(false))
+    fetch(`/api/comments?slug=${slug}`).then(r => r.json()).then(d => { setComments(d.comments || []); setLoading(false) }).catch(() => setLoading(false))
   }, [slug])
-
   const submit = async e => {
     e.preventDefault()
-    if (!form.name.trim() || !form.comment.trim()) { setError('Name and comment are required.'); return }
+    if (!form.name.trim() || !form.comment.trim()) { setError('Name aur comment dono required hain.'); return }
     setSubmitting(true); setError('')
     try {
       const r = await fetch('/api/comments', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug, ...form }) })
       const d = await r.json()
-      if (!r.ok) throw new Error(d.error || 'Something went wrong')
+      if (!r.ok) throw new Error(d.error || 'Failed')
       setSubmitted(true)
       setComments(prev => [{ id: d.id, name: form.name, comment: form.comment, rating: form.rating, date: new Date().toISOString() }, ...prev])
-      setForm({ name: '', email: '', comment: '', rating: 5 })
+      setForm({ name: '', comment: '', rating: 5 })
     } catch (err) { setError(err.message) }
     setSubmitting(false)
   }
-
   return (
     <section className="comments-section">
       <div className="container">
-        <h2 className="comments-title">
-          Reviews &amp; Comments
-          <span className="comments-badge">{comments.length}</span>
-        </h2>
+        <div className="section-label">💬 Community Reviews</div>
+        <h2 className="comments-title">What People Are Saying</h2>
+        <p className="comments-sub">{comments.length} review{comments.length !== 1 ? 's' : ''}</p>
 
         {!submitted ? (
-          <form className="comment-form" onSubmit={submit}>
-            <h3 className="cf-heading">Write a Review</h3>
-            <div className="cf-rating-row">
-              <span className="cf-label">Your Rating</span>
-              <StarRatingInput value={form.rating} onRate={v => setForm(p => ({ ...p, rating: v }))} />
+          <form onSubmit={submit} className="comment-form">
+            <h3>Leave a Review</h3>
+            <div className="rating-row">
+              <span>Your Rating:</span>
+              <StarRating value={form.rating} interactive onRate={v => setForm(p => ({ ...p, rating: v }))} />
             </div>
-            <div className="cf-row">
-              <div className="cf-field">
-                <label className="cf-label">Name *</label>
-                <input value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} placeholder="Your name" maxLength={100} required />
-              </div>
-              <div className="cf-field">
-                <label className="cf-label">Email <span className="cf-optional">(optional)</span></label>
-                <input type="email" value={form.email} onChange={e => setForm(p => ({ ...p, email: e.target.value }))} placeholder="your@email.com" />
-              </div>
+            <div className="form-row">
+              <label>Name *</label>
+              <input value={form.name} onChange={e => setForm(p => ({ ...p, name: e.target.value }))} placeholder="Your name" maxLength={100} required className="form-input" />
             </div>
-            <div className="cf-field">
-              <label className="cf-label">Comment *</label>
-              <textarea value={form.comment} onChange={e => setForm(p => ({ ...p, comment: e.target.value }))} placeholder="Share your experience..." rows={4} maxLength={1000} required />
-              <span className="cf-char">{form.comment.length} / 1000</span>
+            <div className="form-row">
+              <label>Comment *</label>
+              <textarea value={form.comment} onChange={e => setForm(p => ({ ...p, comment: e.target.value }))} placeholder="Share your experience with this recipe..." rows={4} maxLength={1000} required className="form-textarea" />
+              <div className="char-count">{form.comment.length}/1000</div>
             </div>
-            {error && <p className="cf-error">⚠ {error}</p>}
-            <button type="submit" className="cf-submit" disabled={submitting}>
-              {submitting ? 'Posting...' : 'Post Review'}
+            {error && <div className="form-error">⚠️ {error}</div>}
+            <button type="submit" disabled={submitting} className="submit-btn">
+              {submitting ? 'Posting...' : 'Submit Review'}
             </button>
           </form>
         ) : (
-          <div className="cf-success">
-            <span className="cf-check">✓</span>
-            <div>
-              <p className="cf-success-title">Review posted!</p>
-              <p className="cf-success-sub">Thank you for sharing your experience.</p>
-            </div>
-            <button onClick={() => setSubmitted(false)} className="cf-link-btn">Write another</button>
+          <div className="comment-success">
+            <div style={{ fontSize: 48 }}>🎉</div>
+            <h3>Thank you for your review!</h3>
+            <button onClick={() => setSubmitted(false)} className="submit-btn" style={{ marginTop: 16 }}>Write Another</button>
           </div>
         )}
 
         {loading ? (
-          <p className="comments-empty">Loading reviews...</p>
+          <div className="comments-loading">Loading reviews...</div>
         ) : comments.length === 0 ? (
-          <div className="comments-empty-box">
-            <p className="comments-empty-title">No reviews yet</p>
-            <p className="comments-empty-sub">Be the first to share your experience!</p>
+          <div className="comments-empty">
+            <div style={{ fontSize: 40, marginBottom: 8 }}>✍️</div>
+            <p>Be the first to review this recipe!</p>
           </div>
         ) : (
           <div className="comments-list">
@@ -321,13 +169,11 @@ function CommentsSection({ slug }) {
               <div key={c.id || i} className="comment-card">
                 <div className="comment-header">
                   <div className="comment-avatar">{(c.name || 'A')[0].toUpperCase()}</div>
-                  <div style={{ flex: 1 }}>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8, flexWrap: 'wrap' }}>
-                      <p className="comment-name">{c.name}</p>
-                      <StarRating value={c.rating || 5} size={13} />
-                    </div>
-                    <p className="comment-date">{new Date(c.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                  <div>
+                    <div className="comment-name">{c.name}</div>
+                    <div className="comment-date">{new Date(c.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</div>
                   </div>
+                  <div style={{ marginLeft: 'auto' }}><StarRating value={c.rating || 5} /></div>
                 </div>
                 <p className="comment-text">{c.comment}</p>
               </div>
@@ -335,72 +181,16 @@ function CommentsSection({ slug }) {
           </div>
         )}
       </div>
-
-      <style jsx>{`
-        .comments-section { background: #f9fafb; padding: 72px 0; border-top: 1px solid var(--cream2); }
-        .comments-title { font-family: var(--font-title); font-size: clamp(26px,3vw,38px); font-weight: 700; color: var(--dark); margin-bottom: 36px; display: flex; align-items: center; gap: 12px; }
-        .comments-badge { background: var(--olive); color: white; font-size: 14px; font-weight: 700; padding: 2px 10px; border-radius: 20px; font-family: var(--font-body); }
-        .comment-form { background: white; border-radius: 14px; padding: 28px 32px; border: 1px solid var(--cream2); margin-bottom: 44px; }
-        .cf-heading { font-family: var(--font-title); font-size: 22px; font-weight: 700; color: var(--dark); margin-bottom: 20px; }
-        .cf-rating-row { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; padding: 12px 16px; background: var(--cream); border-radius: 8px; width: fit-content; }
-        .cf-label { font-size: 11px; font-weight: 700; color: var(--gray); text-transform: uppercase; letter-spacing: 0.5px; display: block; margin-bottom: 6px; }
-        .cf-optional { font-weight: 400; text-transform: none; letter-spacing: 0; color: var(--gray-l); }
-        .cf-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
-        .cf-field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
-        .cf-field input, .cf-field textarea { border: 1.5px solid var(--cream2); border-radius: 8px; padding: 10px 14px; font-size: 14px; font-family: var(--font-body); color: var(--dark); background: var(--cream); outline: none; transition: border-color .2s; resize: vertical; }
-        .cf-field input:focus, .cf-field textarea:focus { border-color: var(--teal); background: white; }
-        .cf-char { font-size: 11px; color: var(--gray-l); float: right; margin-top: 4px; }
-        .cf-error { color: #dc2626; font-size: 13px; margin-bottom: 12px; }
-        .cf-submit { background: var(--teal); color: white; font-size: 13px; font-weight: 700; padding: 11px 28px; border-radius: 8px; border: none; cursor: pointer; font-family: var(--font-body); transition: background .2s, transform .15s; }
-        .cf-submit:hover { background: var(--teal-d); transform: translateY(-1px); }
-        .cf-submit:disabled { opacity: .6; cursor: not-allowed; transform: none; }
-        .cf-success { background: white; border: 1px solid #d1fae5; border-radius: 12px; padding: 20px 24px; margin-bottom: 44px; display: flex; align-items: center; gap: 14px; }
-        .cf-check { width: 36px; height: 36px; border-radius: 50%; background: #d1fae5; color: #065f46; font-size: 18px; font-weight: 700; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-        .cf-success-title { font-size: 15px; font-weight: 700; color: var(--dark); margin: 0 0 2px; }
-        .cf-success-sub { font-size: 13px; color: var(--gray); margin: 0; }
-        .cf-link-btn { margin-left: auto; background: none; border: none; color: var(--teal); font-size: 13px; font-weight: 600; cursor: pointer; font-family: var(--font-body); text-decoration: underline; flex-shrink: 0; }
-        .comments-empty { color: var(--gray-l); font-size: 14px; padding: 24px 0; }
-        .comments-empty-box { background: white; border: 1px solid var(--cream2); border-radius: 12px; padding: 40px; text-align: center; margin-bottom: 32px; }
-        .comments-empty-title { font-family: var(--font-title); font-size: 22px; color: var(--dark); margin-bottom: 6px; font-weight: 700; }
-        .comments-empty-sub { font-size: 14px; color: var(--gray); margin: 0; }
-        .comments-list { display: flex; flex-direction: column; gap: 14px; }
-        .comment-card { background: white; border-radius: 12px; padding: 20px 24px; border: 1px solid var(--cream2); }
-        .comment-header { display: flex; align-items: flex-start; gap: 12px; margin-bottom: 10px; }
-        .comment-avatar { width: 38px; height: 38px; border-radius: 50%; flex-shrink: 0; background: var(--olive); color: white; font-family: var(--font-title); font-size: 17px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
-        .comment-name { font-weight: 700; font-size: 14px; color: var(--dark); margin: 0 0 2px; }
-        .comment-date { font-size: 12px; color: var(--gray-l); margin: 0; }
-        .comment-text { font-size: 14px; color: #4b5563; line-height: 1.75; margin: 0; }
-        @media (max-width: 640px) { .cf-row { grid-template-columns: 1fr; } .comment-form { padding: 20px; } }
-      `}</style>
     </section>
   )
 }
 
-function RecipeCard({ recipe }) {
-  return (
-    <Link href={`/recipes/${recipe.slug}`}>
-      <div className="recipe-card">
-        <div className="rc-img-wrap">
-          <div className="rc-circle"><img src={recipe.image2 || recipe.image1} alt={recipe.title} loading="lazy" /></div>
-          <span className="rc-tag-cat">{recipe.categoryIcon}</span>
-        </div>
-        <div className="rc-body">
-          <h3 className="rc-title">{recipe.title}</h3>
-          <div className="rc-meta">
-            <span className="rc-stars">{'★'.repeat(Math.round(recipe.rating || 5))}</span>
-            <span className="rc-time">⏱ {recipe.totalTime}</span>
-          </div>
-          <div className="rc-btn">View →</div>
-        </div>
-      </div>
-    </Link>
-  )
-}
-
+// ══════════════════════════════════════════════
+// MAIN PAGE
+// ══════════════════════════════════════════════
 export default function RecipeDetail({ recipe, relatedRecipes }) {
   const [servings, setServings] = useState(recipe?.servings || 4)
   const [activeTab, setActiveTab] = useState('instructions')
-  const [activeMiniTab, setActiveMiniTab] = useState(recipe?.category || 'breakfast')
   const bodyRef = useRef(null)
   const router = useRouter()
 
@@ -415,9 +205,9 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
   }, [])
 
   if (!recipe) return (
-    <div style={{ padding: '100px 24px', textAlign: 'center', minHeight: '100vh', background: 'var(--cream)' }}>
+    <div className="not-found">
       <div style={{ fontSize: 64, marginBottom: 16 }}>🍽️</div>
-      <h1 style={{ fontFamily: 'var(--font-title)', fontSize: 48, marginBottom: 16 }}>Recipe Not Found</h1>
+      <h1>Recipe Not Found</h1>
       <Link href="/recipes" className="btn-primary">← Browse All Recipes</Link>
     </div>
   )
@@ -428,183 +218,235 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
     if (isNaN(n)) return amt
     return amt.replace(/[\d.]+/, (n * mult).toFixed(n % 1 !== 0 ? 1 : 0))
   }
-
-  const miniTabs = ['breakfast', 'lunch', 'dinner']
+  const getIngredientsText = () =>
+    `${recipe.title} — Ingredients (${servings} servings)\n\n` +
+    (recipe.ingredients || []).map(ing => `• ${scaleAmt(ing.amount)} ${ing.item}${ing.notes ? ` (${ing.notes})` : ''}`).join('\n') +
+    `\n\nFull Recipe: https://food-hive-one.vercel.app/recipes/${recipe.slug}`
+  const getInstructionsText = () =>
+    `${recipe.title} — Instructions\n\n` +
+    (recipe.instructions || []).map(s => `Step ${s.step}: ${s.title}\n${s.text}${s.time ? `\n⏱ ${s.time}` : ''}`).join('\n\n') +
+    `\n\nFull Recipe: https://food-hive-one.vercel.app/recipes/${recipe.slug}`
 
   return (
     <>
       <Head>
         <title>{recipe.title} — {recipe.countryName} {recipe.categoryName} | FoodHive World</title>
-        <meta name="description" content={`${recipe.description} Authentic ${recipe.countryName} recipe.`} />
+        <meta name="description" content={recipe.description} />
         <meta property="og:title" content={`${recipe.title} | FoodHive World`} />
         <meta property="og:description" content={recipe.description} />
         <meta property="og:image" content={recipe.image1} />
         <meta property="og:type" content="article" />
         <link rel="canonical" href={`https://food-hive-one.vercel.app/recipes/${recipe.slug}`} />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet" />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           '@context': 'https://schema.org', '@type': 'Recipe',
           name: recipe.title, description: recipe.description,
-          image: [recipe.image1, recipe.image2].filter(Boolean),
+          image: [recipe.image1].filter(Boolean),
           author: { '@type': 'Organization', name: 'FoodHive World' },
           datePublished: recipe.publishedAt,
-          prepTime: `PT${(recipe.prepTime || '15 min').replace(/\D/g, '')}M`,
-          cookTime: `PT${(recipe.cookTime || '30 min').replace(/\D/g, '')}M`,
-          totalTime: `PT${(recipe.totalTime || '45 min').replace(/\D/g, '')}M`,
           recipeYield: `${recipe.servings} servings`,
-          recipeCategory: recipe.categoryName, recipeCuisine: recipe.cuisine,
-          keywords: (recipe.tags || []).join(', '),
+          recipeCategory: recipe.categoryName,
+          recipeCuisine: recipe.cuisine,
           aggregateRating: { '@type': 'AggregateRating', ratingValue: recipe.rating || 4.8, reviewCount: recipe.reviews || 100 },
-          nutrition: { '@type': 'NutritionInformation', calories: recipe.nutritionTable?.calories, proteinContent: recipe.nutritionTable?.protein, carbohydrateContent: recipe.nutritionTable?.carbs, fatContent: recipe.nutritionTable?.fat },
+          nutrition: { '@type': 'NutritionInformation', calories: recipe.nutritionTable?.calories },
           recipeIngredient: (recipe.ingredients || []).map(i => `${i.amount} ${i.item}`),
           recipeInstructions: (recipe.instructions || []).map(s => ({ '@type': 'HowToStep', name: s.title, text: s.text })),
-        })}} />
+        }) }} />
       </Head>
 
       <div className="scroll-bar" />
 
-      <nav className="navbar">
-        <div className="navbar-inner">
-          <button className="rd-back" onClick={() => router.back()} aria-label="Go back">←</button>
-          <div className="rd-mini-nav">
-            {miniTabs.map(t => (
-              <button key={t} className={`rd-mini-link${activeMiniTab === t ? ' active' : ''}`} onClick={() => setActiveMiniTab(t)}>
-                {t.charAt(0).toUpperCase() + t.slice(1)}
-              </button>
-            ))}
+      {/* ── NAVBAR ── */}
+      <nav className="rd-navbar">
+        <div className="rd-navbar-inner">
+          <button className="rd-back-btn" onClick={() => router.back()}>←</button>
+          <Link href="/" className="rd-logo">🍽️ FoodHive</Link>
+          <div className="rd-nav-links">
+            <Link href="/#categories" className="rd-nav-link">Categories</Link>
+            <Link href="/recipes" className="rd-nav-link">All Recipes</Link>
           </div>
-          <Link href="/" className="logo" style={{ fontSize: 18 }}>
-            <span>🍽️</span>
-            <span style={{ fontFamily: 'var(--font-title)', fontWeight: 700 }}>FoodHive</span>
-          </Link>
         </div>
       </nav>
 
+      {/* ══════════════════════════════════════════
+          HERO — Left: info | Right: one big image
+          ══════════════════════════════════════════ */}
       <section className="rd-hero">
-        <div className="rd-hero-blob" />
-        <div className="rd-hero-inner">
-          <div className="fade-up">
-            <div className="rd-tags">
-              <span className="rd-tag rd-tag-country">{recipe.countryFlag} {recipe.countryName}</span>
-              <span className="rd-tag rd-tag-cat">{recipe.categoryIcon} {recipe.categoryName}</span>
-              <span className="rd-tag rd-tag-diff">⚡ {recipe.difficulty}</span>
+        {/* LEFT — Recipe Info */}
+        <div className="rd-hero-left">
+
+          {/* Breadcrumb tags */}
+          <div className="rd-tags">
+            <Link href={`/countries/${recipe.country}`} className="rd-tag">
+              {recipe.countryFlag} {recipe.countryName}
+            </Link>
+            <Link href={`/categories/${recipe.category}`} className="rd-tag rd-tag-accent">
+              {recipe.categoryIcon} {recipe.categoryName}
+            </Link>
+            <span className="rd-tag">{recipe.difficulty}</span>
+          </div>
+
+          {/* Title */}
+          <h1 className="rd-title">{recipe.title}</h1>
+
+          {/* Rating */}
+          <div className="rd-rating-row">
+            <StarRating value={Math.round(recipe.rating || 5)} />
+            <span className="rd-rating-num">{recipe.rating}</span>
+            <span className="rd-rating-cnt">({recipe.reviews} reviews)</span>
+          </div>
+
+          {/* Description */}
+          <p className="rd-desc">{recipe.description}</p>
+
+          {/* Stats */}
+          <div className="rd-stats-grid">
+            <div className="rd-stat-item">
+              <span className="rd-stat-icon">⏱</span>
+              <span className="rd-stat-val">{recipe.prepTime}</span>
+              <span className="rd-stat-lbl">Prep</span>
             </div>
-            <h1 className="rd-title">{recipe.title}</h1>
-            <p className="rd-desc">{recipe.description}</p>
-            <RatingDisplay rating={recipe.rating || 4.8} reviews={recipe.reviews || 0} />
-            <div className="rd-stats">
-              {[
-                { v: recipe.prepTime, l: 'Prep' },
-                { v: recipe.cookTime, l: 'Cook' },
-                { v: recipe.totalTime, l: 'Total' },
-                { v: (recipe.servings || 4) + ' ppl', l: 'Serves' },
-              ].map(s => (
-                <div key={s.l} className="rd-stat">
-                  <div className="rd-stat-val">{s.v}</div>
-                  <div className="rd-stat-lbl">{s.l}</div>
-                </div>
-              ))}
+            <div className="rd-stat-divider" />
+            <div className="rd-stat-item">
+              <span className="rd-stat-icon">🔥</span>
+              <span className="rd-stat-val">{recipe.cookTime}</span>
+              <span className="rd-stat-lbl">Cook</span>
             </div>
-            <div className="rd-action-row">
-              <button className="rd-cta" onClick={() => bodyRef.current?.scrollIntoView({ behavior: 'smooth' })}>
-                View Full Recipe
-              </button>
-              <LikeButton slug={recipe.slug} />
-              <ShareButton title={recipe.title} slug={recipe.slug} description={recipe.description} />
+            <div className="rd-stat-divider" />
+            <div className="rd-stat-item">
+              <span className="rd-stat-icon">⏰</span>
+              <span className="rd-stat-val">{recipe.totalTime}</span>
+              <span className="rd-stat-lbl">Total</span>
             </div>
-            <div style={{ display: 'flex', gap: 10, marginTop: 24, alignItems: 'center', color: 'var(--gray-l)', fontSize: 12, fontWeight: 600 }}>
-              <div className="rd-arrow" onClick={() => bodyRef.current?.scrollIntoView({ behavior: 'smooth' })}>↓</div>
-              <span>Scroll for full recipe</span>
+            <div className="rd-stat-divider" />
+            <div className="rd-stat-item">
+              <span className="rd-stat-icon">👥</span>
+              <span className="rd-stat-val">{recipe.servings}</span>
+              <span className="rd-stat-lbl">Serves</span>
             </div>
           </div>
 
-          <div className="rd-orbit">
-            <div className="rd-orbit-ring" style={{ width: 400, height: 400 }} />
-            <div className="rd-orbit-main" style={{ width: 260, height: 260 }}>
-              <img src={recipe.image1} alt={recipe.title} />
+          {/* Action buttons */}
+          <div className="rd-actions">
+            <button className="rd-cta-btn" onClick={() => bodyRef.current?.scrollIntoView({ behavior: 'smooth' })}>
+              📖 View Recipe
+            </button>
+            <LikesButton slug={recipe.slug} />
+            <ShareButton title={recipe.title} slug={recipe.slug} description={recipe.description} />
+          </div>
+        </div>
+
+        {/* RIGHT — Single Big Image */}
+        <div className="rd-hero-right">
+          <div className="rd-image-frame">
+            <img
+              src={recipe.image1}
+              alt={recipe.title}
+              className="rd-hero-image"
+              loading="eager"
+            />
+            {/* Cuisine badge overlay */}
+            <div className="rd-image-badge">
+              <span className="rd-badge-flag">{recipe.countryFlag}</span>
+              <div>
+                <div className="rd-badge-cuisine">{recipe.cuisine}</div>
+                <div className="rd-badge-cat">{recipe.categoryIcon} {recipe.categoryName}</div>
+              </div>
             </div>
-            {relatedRecipes.slice(0, 5).map((r, i) => {
-              const p = SAT_POS[i]
-              return (
-                <Link key={r.slug || i} href={`/recipes/${r.slug}`}>
-                  <div className="rd-sat" style={{ top: p.top, left: p.left, width: p.size, height: p.size, transform: `translate(${p.tx},-50%)`, animationDelay: p.delay }}>
-                    <img src={r.image2 || r.image1} alt={r.title} />
-                  </div>
-                </Link>
-              )
-            })}
           </div>
         </div>
       </section>
 
-      <section className="rd-body section" ref={bodyRef}>
+      {/* ══════════════════════════════════════════
+          RECIPE BODY
+          ══════════════════════════════════════════ */}
+      <section className="rd-body" ref={bodyRef}>
         <div className="container">
           <div className="rd-body-grid">
-            <div className="rd-sidebar-card">
-              <div className="rd-box-head">🥘 Ingredients</div>
-              <div className="serv-row">
-                <button className="serv-btn" onClick={() => setServings(Math.max(1, servings - 1))}>−</button>
-                <span className="serv-num">{servings}</span>
-                <button className="serv-btn" onClick={() => setServings(servings + 1)}>+</button>
-                <span style={{ fontSize: 12, color: 'var(--gray)', marginLeft: 4 }}>servings</span>
-              </div>
-              {(recipe.ingredients || []).map((ing, i) => (
-                <div key={i} className="ing-row">
-                  <div className="ing-dot" />
-                  <div style={{ flex: 1 }}>
-                    <div style={{ display: 'flex', gap: 8, alignItems: 'baseline' }}>
-                      <span className="ing-amt">{scaleAmt(ing.amount)}</span>
-                      <span className="ing-name">{ing.item}</span>
-                    </div>
-                    {ing.notes && <div className="ing-note">{ing.notes}</div>}
-                  </div>
+
+            {/* ── SIDEBAR ── */}
+            <aside className="rd-sidebar">
+              {/* Ingredients */}
+              <div className="rd-card">
+                <div className="rd-card-header">
+                  <span className="rd-card-title">🥘 Ingredients</span>
+                  <CopyBtn getText={getIngredientsText} label="Copy" />
                 </div>
-              ))}
+                <div className="serv-row">
+                  <button className="serv-btn" onClick={() => setServings(Math.max(1, servings - 1))}>−</button>
+                  <span className="serv-num">{servings}</span>
+                  <button className="serv-btn" onClick={() => setServings(servings + 1)}>+</button>
+                  <span className="serv-label">servings</span>
+                </div>
+                {(recipe.ingredients || []).map((ing, i) => (
+                  <div key={i} className="ing-row">
+                    <div className="ing-dot" />
+                    <div>
+                      <div className="ing-line">
+                        <span className="ing-amt">{scaleAmt(ing.amount)}</span>
+                        <span className="ing-name">{ing.item}</span>
+                      </div>
+                      {ing.notes && <div className="ing-note">{ing.notes}</div>}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Tips */}
               {recipe.tips?.length > 0 && (
-                <>
-                  <div className="rd-box-head" style={{ marginTop: 28 }}>💡 Chef Tips</div>
+                <div className="rd-card" style={{ marginTop: 20 }}>
+                  <div className="rd-card-title">💡 Chef Tips</div>
                   {recipe.tips.map((tip, i) => (
                     <div key={i} className="tip-row">
-                      <span className="tip-icon">✨</span>
+                      <span className="tip-dot">✦</span>
                       <span className="tip-text">{tip}</span>
                     </div>
                   ))}
-                </>
+                </div>
               )}
+
+              {/* Nutrition */}
               {recipe.nutritionTable && (
-                <div style={{ marginTop: 28 }}>
-                  <div className="rd-box-head">📊 Nutrition</div>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 }}>
+                <div className="rd-card" style={{ marginTop: 20 }}>
+                  <div className="rd-card-title">📊 Nutrition</div>
+                  <div className="nutr-grid">
                     {Object.entries(recipe.nutritionTable).slice(0, 6).map(([k, v]) => (
-                      <div key={k} style={{ background: 'var(--cream)', borderRadius: 12, padding: '10px 12px', border: '1px solid var(--cream2)' }}>
-                        <div style={{ fontFamily: 'var(--font-title)', fontSize: 17, fontWeight: 700, color: 'var(--orange)' }}>{v}</div>
-                        <div style={{ fontSize: 10, color: 'var(--gray)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: .5 }}>{k}</div>
+                      <div key={k} className="nutr-cell">
+                        <div className="nutr-val">{v}</div>
+                        <div className="nutr-lbl">{k}</div>
                       </div>
                     ))}
                   </div>
                 </div>
               )}
-            </div>
+            </aside>
 
-            <div>
+            {/* ── MAIN CONTENT ── */}
+            <main>
               <div className="tab-row">
                 {[
                   { id: 'instructions', label: '👨‍🍳 Instructions' },
-                  { id: 'nutrition',    label: '📊 Full Nutrition' },
-                  { id: 'article',      label: '📖 About' },
+                  { id: 'nutrition', label: '📊 Full Nutrition' },
+                  { id: 'article', label: '📖 About' },
                 ].map(t => (
-                  <button key={t.id} className={`tab-btn${activeTab === t.id ? ' active' : ''}`} onClick={() => setActiveTab(t.id)}>
+                  <button key={t.id} className={`tab-btn ${activeTab === t.id ? 'active' : ''}`} onClick={() => setActiveTab(t.id)}>
                     {t.label}
                   </button>
                 ))}
               </div>
 
               {activeTab === 'instructions' && (
-                <div style={{ background: 'white', borderRadius: 'var(--r-xl)', padding: 28, boxShadow: 'var(--sh-soft)' }}>
-                  <div className="rd-box-head">Step by Step</div>
+                <div className="rd-card">
+                  <div className="rd-card-header">
+                    <span className="rd-card-title">Step by Step</span>
+                    <CopyBtn getText={getInstructionsText} label="Copy Steps" />
+                  </div>
                   {(recipe.instructions || []).map((step, i) => (
                     <div key={i} className="step-row">
-                      <div className="step-num-circle">{step.step}</div>
-                      <div style={{ flex: 1 }}>
+                      <div className="step-num">{step.step}</div>
+                      <div>
                         <div className="step-title">{step.title}</div>
                         <div className="step-text">{step.text}</div>
                         {step.time && <div className="step-time">⏱ {step.time}</div>}
@@ -615,9 +457,9 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               )}
 
               {activeTab === 'nutrition' && recipe.nutritionTable && (
-                <div style={{ background: 'white', borderRadius: 'var(--r-xl)', padding: 28, boxShadow: 'var(--sh-soft)' }}>
-                  <div className="rd-box-head">📊 Full Nutrition per Serving</div>
-                  <div className="nutr-grid">
+                <div className="rd-card">
+                  <div className="rd-card-title">📊 Full Nutrition per Serving</div>
+                  <div className="nutr-grid-full">
                     {Object.entries(recipe.nutritionTable).map(([k, v]) => (
                       <div key={k} className="nutr-cell">
                         <div className="nutr-val">{v}</div>
@@ -629,43 +471,46 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
               )}
 
               {activeTab === 'article' && recipe.article && (
-                <div style={{ background: 'white', borderRadius: 'var(--r-xl)', padding: 28, boxShadow: 'var(--sh-soft)' }}>
-                  <div className="article-body" dangerouslySetInnerHTML={{ __html:
-                    recipe.article
-                      .replace(/## (.+)/g, '<h2>$1</h2>')
-                      .replace(/\n\n/g, '</p><p>')
-                      .replace(/^/, '<p>').replace(/$/, '</p>')
-                  }} />
+                <div className="rd-card">
+                  <div className="article-body" dangerouslySetInnerHTML={{ __html: recipe.article
+                    .replace(/## (.+)/g, '<h2>$1</h2>')
+                    .replace(/\n\n/g, '</p><p>')
+                    .replace(/^/, '<p>').replace(/$/, '</p>') }} />
                 </div>
               )}
 
+              {/* Tags */}
               {recipe.tags && (
-                <div style={{ marginTop: 28 }}>
-                  <div style={{ fontSize: 11, fontWeight: 700, color: 'var(--gray)', letterSpacing: 1, textTransform: 'uppercase', marginBottom: 10 }}>Tags</div>
-                  <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-                    {recipe.tags.map(t => (
-                      <span key={t} style={{ background: 'var(--cream2)', color: 'var(--gray)', fontSize: 12, fontWeight: 600, padding: '6px 14px', borderRadius: 'var(--r-full)', border: '1px solid var(--cream3)' }}>{t}</span>
-                    ))}
+                <div className="tags-section">
+                  <div className="tags-label">Tags</div>
+                  <div className="tags-wrap">
+                    {recipe.tags.map(t => <span key={t} className="tag-pill">{t}</span>)}
                   </div>
                 </div>
               )}
-            </div>
+            </main>
           </div>
         </div>
       </section>
 
+      {/* Related Recipes */}
       {relatedRecipes.length > 0 && (
-        <section className="section" style={{ background: 'var(--cream2)' }}>
+        <section className="related-section">
           <div className="container">
-            <div style={{ marginBottom: 48 }} className="fade-up">
-              <div className="section-eyebrow">{recipe.countryFlag} More {recipe.countryName}</div>
-              <h2 className="section-title">You Might Also Like</h2>
-            </div>
-            <div className="recipes-grid">
+            <div className="section-label">{recipe.countryFlag} More from {recipe.countryName}</div>
+            <h2 className="related-title">You Might Also Like</h2>
+            <div className="related-grid">
               {relatedRecipes.slice(0, 3).map((r, i) => (
-                <div key={r.slug || i} className="fade-up" style={{ animationDelay: `${i * 80}ms` }}>
-                  <RecipeCard recipe={r} />
-                </div>
+                <Link key={r.slug || i} href={`/recipes/${r.slug}`} className="related-card">
+                  <div className="related-img-wrap">
+                    <img src={r.image1} alt={r.title} className="related-img" loading="lazy" />
+                  </div>
+                  <div className="related-body">
+                    <div className="related-cat">{r.categoryIcon} {r.categoryName}</div>
+                    <div className="related-name">{r.title}</div>
+                    <div className="related-meta">⏱ {r.totalTime} · ⭐ {r.rating}</div>
+                  </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -674,45 +519,504 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
       <CommentsSection slug={recipe.slug} />
 
-      <footer className="footer">
+      {/* Footer */}
+      <footer className="rd-footer">
         <div className="container">
-          <div className="footer-grid">
-            <div>
-              <div className="footer-logo-txt">🍽️ FoodHive World</div>
-              <p className="footer-desc">Authentic recipes from 10 world cuisines, auto-published every 30 minutes.</p>
-            </div>
-            <div>
-              <div className="footer-col-title">Countries</div>
-              {COUNTRIES.slice(0, 5).map(c => <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>)}
-            </div>
-            <div>
-              <div className="footer-col-title">More</div>
-              {COUNTRIES.slice(5).map(c => <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>)}
-            </div>
-            <div>
-              <div className="footer-col-title">Categories</div>
-              {RECIPE_CATEGORIES.slice(0, 6).map(c => <Link key={c.id} href={`/categories/${c.id}`} className="footer-link">{c.icon} {c.name}</Link>)}
-            </div>
-          </div>
-          <div className="footer-bottom">
-            <span>© 2026 FoodHive World</span>
-            <span>10 Countries · 12 Categories · Updated Every 30 Min</span>
+          <div className="rd-footer-inner">
+            <Link href="/" className="rd-footer-logo">🍽️ FoodHive World</Link>
+            <span className="rd-footer-copy">10 Countries · 12 Categories · Updated Every 30 Min</span>
           </div>
         </div>
       </footer>
 
-      <style jsx>{`
-        .rd-action-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 24px; }
-        .rd-sat {
-          position: absolute; border-radius: 50%; overflow: hidden;
-          border: 3px solid white; box-shadow: var(--sh-card);
-          cursor: pointer; z-index: 5;
-          transition: transform .3s cubic-bezier(.34,1.56,.64,1), box-shadow .3s;
-          animation: rdSatFloat 3s ease-in-out infinite;
+      {/* ══════════════════════════════════════════
+          ALL STYLES
+          ══════════════════════════════════════════ */}
+      <style jsx global>{`
+        /* ── Base Font Override for Recipe Page ── */
+        .rd-hero, .rd-body, .rd-navbar, .related-section, .comments-section, .rd-footer {
+          font-family: 'DM Sans', sans-serif;
         }
-        .rd-sat:hover { transform: scale(1.18) !important; box-shadow: var(--sh-float); z-index: 20; }
-        .rd-sat img { width: 100%; height: 100%; object-fit: cover; }
-        @keyframes rdSatFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+        .rd-title, .related-title, .comments-title {
+          font-family: 'DM Serif Display', serif;
+        }
+
+        /* ── Scroll Bar ── */
+        .scroll-bar {
+          position: fixed; top: 68px; left: 0; height: 3px;
+          background: linear-gradient(90deg, #E07B39, #C9563B);
+          z-index: 999; transition: width .1s linear; width: 0;
+        }
+
+        /* ── Not Found ── */
+        .not-found {
+          padding: 120px 24px; text-align: center;
+          min-height: 100vh; background: #FAF6EE;
+          font-family: 'DM Sans', sans-serif;
+        }
+        .not-found h1 {
+          font-family: 'DM Serif Display', serif;
+          font-size: 42px; margin-bottom: 20px;
+        }
+
+        /* ══════════ NAVBAR ══════════ */
+        .rd-navbar {
+          position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+          height: 64px; background: rgba(250,246,238,0.97);
+          backdrop-filter: blur(16px);
+          border-bottom: 1px solid rgba(224,123,57,0.12);
+        }
+        .rd-navbar-inner {
+          max-width: 1300px; margin: 0 auto; padding: 0 32px;
+          height: 100%; display: flex; align-items: center; gap: 16px;
+        }
+        .rd-back-btn {
+          width: 40px; height: 40px; border-radius: 50%;
+          border: 1.5px solid #E8DCC8; background: white;
+          font-size: 18px; cursor: pointer; display: flex;
+          align-items: center; justify-content: center;
+          color: #2C1810; transition: border-color .2s;
+        }
+        .rd-back-btn:hover { border-color: #E07B39; color: #E07B39; }
+        .rd-logo {
+          font-family: 'DM Serif Display', serif;
+          font-size: 20px; font-weight: 400; color: #2C1810;
+          text-decoration: none; margin-right: auto;
+        }
+        .rd-nav-links { display: flex; gap: 4px; }
+        .rd-nav-link {
+          font-size: 14px; font-weight: 500; color: #7A6A5A;
+          padding: 7px 16px; border-radius: 999px; text-decoration: none;
+          transition: all .2s;
+        }
+        .rd-nav-link:hover { background: #F0E8D6; color: #2C1810; }
+
+        /* ══════════ HERO ══════════ */
+        .rd-hero {
+          min-height: 100vh;
+          padding-top: 64px;
+          background: #FAF6EE;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          align-items: center;
+          gap: 0;
+          overflow: hidden;
+        }
+
+        /* LEFT */
+        .rd-hero-left {
+          padding: 60px 48px 60px 60px;
+          display: flex;
+          flex-direction: column;
+          gap: 0;
+        }
+        .rd-tags {
+          display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px;
+        }
+        .rd-tag {
+          font-size: 11px; font-weight: 600; padding: 5px 14px;
+          border-radius: 999px; background: #F0E8D6; color: #6B5744;
+          text-transform: uppercase; letter-spacing: .6px;
+          text-decoration: none; transition: background .2s;
+        }
+        .rd-tag:hover { background: #E8DCC8; }
+        .rd-tag-accent { background: rgba(224,123,57,.12); color: #C25A1E; }
+        .rd-tag-accent:hover { background: rgba(224,123,57,.2); }
+
+        .rd-title {
+          font-family: 'DM Serif Display', serif;
+          font-size: clamp(34px, 4.5vw, 64px);
+          font-weight: 400;
+          color: #1A0F08;
+          line-height: 1.08;
+          letter-spacing: -.5px;
+          margin: 0 0 16px;
+        }
+        .rd-rating-row {
+          display: flex; align-items: center; gap: 10px; margin-bottom: 18px;
+        }
+        .rd-rating-num {
+          font-family: 'DM Serif Display', serif;
+          font-size: 22px; color: #E07B39;
+        }
+        .rd-rating-cnt { font-size: 13px; color: #9A8878; }
+
+        .rd-desc {
+          font-size: 15px; color: #6B5744;
+          line-height: 1.75; margin-bottom: 28px;
+          max-width: 460px;
+        }
+
+        /* Stats */
+        .rd-stats-grid {
+          display: flex; align-items: stretch;
+          background: white; border-radius: 16px;
+          padding: 16px 24px; gap: 0;
+          box-shadow: 0 2px 16px rgba(44,24,16,.07);
+          border: 1px solid #F0E8D6;
+          margin-bottom: 28px;
+          width: fit-content;
+        }
+        .rd-stat-item {
+          display: flex; flex-direction: column; align-items: center;
+          padding: 0 20px; gap: 4px;
+        }
+        .rd-stat-divider {
+          width: 1px; background: #F0E8D6; align-self: stretch;
+        }
+        .rd-stat-icon { font-size: 18px; }
+        .rd-stat-val {
+          font-family: 'DM Serif Display', serif;
+          font-size: 18px; color: #E07B39; font-weight: 400;
+          white-space: nowrap;
+        }
+        .rd-stat-lbl {
+          font-size: 10px; color: #9A8878; font-weight: 600;
+          text-transform: uppercase; letter-spacing: .8px;
+        }
+
+        /* Actions */
+        .rd-actions { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+        .rd-cta-btn {
+          display: inline-flex; align-items: center; gap: 8px;
+          background: #E07B39; color: white;
+          font-size: 14px; font-weight: 600;
+          padding: 13px 28px; border-radius: 999px; border: none;
+          cursor: pointer; font-family: 'DM Sans', sans-serif;
+          transition: background .2s, transform .2s;
+          box-shadow: 0 4px 16px rgba(224,123,57,.35);
+        }
+        .rd-cta-btn:hover { background: #C25A1E; transform: translateY(-1px); }
+        .action-btn {
+          display: inline-flex; align-items: center; gap: 7px;
+          background: white; border: 1.5px solid #E8DCC8;
+          color: #4A3728; font-size: 13px; font-weight: 600;
+          padding: 10px 18px; border-radius: 999px; cursor: pointer;
+          font-family: 'DM Sans', sans-serif; transition: all .2s;
+        }
+        .action-btn:hover { border-color: #E07B39; }
+        .action-btn.liked { border-color: #E8526A; color: #E8526A; background: #FFF0F4; }
+        .action-btn.copied { border-color: #3D9E8C; color: #3D9E8C; background: #E8F5F3; }
+
+        /* RIGHT — IMAGE */
+        .rd-hero-right {
+          height: 100vh;
+          min-height: 640px;
+          position: relative;
+          background: #EFE4D4;
+        }
+        .rd-image-frame {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          overflow: hidden;
+        }
+        .rd-hero-image {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+          display: block;
+        }
+        /* Gradient overlay — bottom fade */
+        .rd-image-frame::after {
+          content: '';
+          position: absolute;
+          bottom: 0; left: 0; right: 0;
+          height: 35%;
+          background: linear-gradient(to top, rgba(26,15,8,.45) 0%, transparent 100%);
+          pointer-events: none;
+        }
+        /* Badge bottom-left */
+        .rd-image-badge {
+          position: absolute;
+          bottom: 28px; left: 28px;
+          background: rgba(255,255,255,.92);
+          backdrop-filter: blur(12px);
+          border-radius: 14px;
+          padding: 12px 18px;
+          display: flex; align-items: center; gap: 12px;
+          z-index: 2;
+          box-shadow: 0 4px 20px rgba(0,0,0,.15);
+        }
+        .rd-badge-flag { font-size: 28px; }
+        .rd-badge-cuisine {
+          font-family: 'DM Serif Display', serif;
+          font-size: 15px; color: #1A0F08; font-weight: 400;
+        }
+        .rd-badge-cat { font-size: 12px; color: #7A6A5A; margin-top: 2px; }
+
+        /* ══════════ RECIPE BODY ══════════ */
+        .rd-body { background: #FAF6EE; padding: 72px 0; }
+        .container { max-width: 1300px; margin: 0 auto; padding: 0 40px; }
+        .rd-body-grid {
+          display: grid;
+          grid-template-columns: 340px 1fr;
+          gap: 36px;
+          align-items: start;
+        }
+
+        /* Sidebar */
+        .rd-sidebar { position: sticky; top: 84px; }
+        .rd-card {
+          background: white; border-radius: 20px;
+          padding: 28px; box-shadow: 0 2px 16px rgba(44,24,16,.07);
+          border: 1px solid #F0E8D6;
+        }
+        .rd-card-header {
+          display: flex; align-items: center;
+          justify-content: space-between; margin-bottom: 20px;
+        }
+        .rd-card-title {
+          font-family: 'DM Serif Display', serif;
+          font-size: 20px; color: #1A0F08; font-weight: 400;
+          margin-bottom: 18px; display: block;
+        }
+        .rd-card-header .rd-card-title { margin-bottom: 0; }
+
+        /* Servings */
+        .serv-row {
+          display: flex; align-items: center; gap: 10px;
+          margin-bottom: 20px; background: #FAF6EE;
+          border-radius: 999px; padding: 8px 16px;
+          border: 1px solid #F0E8D6; width: fit-content;
+        }
+        .serv-btn {
+          width: 30px; height: 30px; border-radius: 50%;
+          border: 1.5px solid #E8DCC8; background: white;
+          font-size: 16px; font-weight: 700; color: #E07B39;
+          cursor: pointer; display: flex; align-items: center; justify-content: center;
+          transition: all .2s;
+        }
+        .serv-btn:hover { background: #E07B39; color: white; border-color: #E07B39; }
+        .serv-num {
+          font-family: 'DM Serif Display', serif;
+          font-size: 22px; color: #1A0F08; min-width: 28px; text-align: center;
+        }
+        .serv-label { font-size: 12px; color: #9A8878; }
+
+        /* Ingredients */
+        .ing-row {
+          display: flex; gap: 12px; padding: 9px 0;
+          border-bottom: 1px dashed #F0E8D6; align-items: flex-start;
+        }
+        .ing-row:last-child { border-bottom: none; }
+        .ing-dot {
+          width: 7px; height: 7px; border-radius: 50%;
+          background: #E07B39; margin-top: 7px; flex-shrink: 0;
+        }
+        .ing-line { display: flex; gap: 8px; align-items: baseline; }
+        .ing-amt { font-size: 13px; font-weight: 700; color: #E07B39; min-width: 58px; }
+        .ing-name { font-size: 13px; color: #2C1810; }
+        .ing-note { font-size: 11px; color: #9A8878; font-style: italic; margin-top: 2px; }
+
+        /* Tips */
+        .tip-row { display: flex; gap: 10px; padding: 9px 0; border-bottom: 1px dashed #F0E8D6; }
+        .tip-row:last-child { border-bottom: none; }
+        .tip-dot { color: #E07B39; font-size: 12px; margin-top: 2px; flex-shrink: 0; }
+        .tip-text { font-size: 13px; color: #5A4A3A; line-height: 1.65; }
+
+        /* Nutrition */
+        .nutr-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+        .nutr-grid-full { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+        .nutr-cell {
+          background: #FAF6EE; border-radius: 12px; padding: 12px 14px;
+          border: 1px solid #F0E8D6;
+        }
+        .nutr-val {
+          font-family: 'DM Serif Display', serif;
+          font-size: 18px; color: #E07B39;
+        }
+        .nutr-lbl { font-size: 10px; color: #9A8878; font-weight: 600; text-transform: uppercase; letter-spacing: .5px; }
+
+        /* Copy button */
+        .copy-btn {
+          font-size: 11px; font-weight: 600; padding: 5px 12px;
+          border-radius: 999px; border: 1.5px solid #E8DCC8;
+          background: #FAF6EE; color: #7A6A5A; cursor: pointer;
+          font-family: 'DM Sans', sans-serif; transition: all .2s;
+        }
+        .copy-btn:hover { border-color: #E07B39; color: #E07B39; }
+
+        /* Tabs */
+        .tab-row { display: flex; gap: 8px; margin-bottom: 24px; flex-wrap: wrap; }
+        .tab-btn {
+          padding: 9px 22px; border-radius: 999px;
+          font-size: 13px; font-weight: 600; cursor: pointer;
+          border: 1.5px solid #E8DCC8; background: transparent;
+          color: #7A6A5A; transition: all .2s;
+          font-family: 'DM Sans', sans-serif;
+        }
+        .tab-btn:hover { border-color: #E07B39; color: #2C1810; }
+        .tab-btn.active { background: #E07B39; color: white; border-color: #E07B39; }
+
+        /* Steps */
+        .step-row {
+          display: flex; gap: 18px; padding: 20px 0;
+          border-bottom: 1px solid #F0E8D6;
+        }
+        .step-row:last-child { border-bottom: none; }
+        .step-num {
+          width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0;
+          background: #1A0F08; color: white;
+          font-family: 'DM Serif Display', serif; font-size: 18px;
+          display: flex; align-items: center; justify-content: center;
+        }
+        .step-title {
+          font-family: 'DM Serif Display', serif;
+          font-size: 18px; color: #1A0F08; margin-bottom: 6px;
+        }
+        .step-text { font-size: 13px; color: #6B5744; line-height: 1.8; }
+        .step-time { font-size: 11px; color: #E07B39; font-weight: 600; margin-top: 6px; }
+
+        /* Article */
+        .article-body h2 {
+          font-family: 'DM Serif Display', serif;
+          font-size: 24px; color: #1A0F08;
+          margin: 28px 0 12px;
+        }
+        .article-body p { font-size: 14px; color: #6B5744; line-height: 1.9; margin-bottom: 14px; }
+
+        /* Tags */
+        .tags-section { margin-top: 28px; }
+        .tags-label { font-size: 11px; font-weight: 700; color: #9A8878; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px; }
+        .tags-wrap { display: flex; gap: 8px; flex-wrap: wrap; }
+        .tag-pill {
+          background: #F0E8D6; color: #6B5744;
+          font-size: 12px; font-weight: 500;
+          padding: 5px 14px; border-radius: 999px;
+          border: 1px solid #E8DCC8;
+        }
+
+        /* ══════════ RELATED RECIPES ══════════ */
+        .related-section { background: #F0E8D6; padding: 80px 0; }
+        .section-label {
+          font-size: 11px; font-weight: 700; color: #E07B39;
+          text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px;
+        }
+        .related-title {
+          font-family: 'DM Serif Display', serif;
+          font-size: 36px; color: #1A0F08; margin-bottom: 36px;
+        }
+        .related-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .related-card {
+          background: white; border-radius: 16px; overflow: hidden;
+          text-decoration: none; border: 1px solid #F0E8D6;
+          transition: transform .2s, box-shadow .2s;
+        }
+        .related-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(44,24,16,.12); }
+        .related-img-wrap { height: 180px; overflow: hidden; }
+        .related-img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .3s; }
+        .related-card:hover .related-img { transform: scale(1.04); }
+        .related-body { padding: 16px 18px 20px; }
+        .related-cat { font-size: 11px; color: #E07B39; font-weight: 600; text-transform: uppercase; letter-spacing: .6px; margin-bottom: 6px; }
+        .related-name {
+          font-family: 'DM Serif Display', serif;
+          font-size: 18px; color: #1A0F08; line-height: 1.2; margin-bottom: 8px;
+        }
+        .related-meta { font-size: 12px; color: #9A8878; }
+
+        /* ══════════ COMMENTS ══════════ */
+        .comments-section { background: #FAF6EE; padding: 80px 0; border-top: 1px solid #F0E8D6; }
+        .comments-title {
+          font-family: 'DM Serif Display', serif;
+          font-size: 36px; color: #1A0F08; margin-bottom: 4px;
+        }
+        .comments-sub { font-size: 14px; color: #9A8878; margin-bottom: 36px; }
+        .comment-form {
+          background: white; border-radius: 20px; padding: 32px;
+          box-shadow: 0 2px 16px rgba(44,24,16,.07);
+          border-top: 3px solid #E07B39; margin-bottom: 40px;
+        }
+        .comment-form h3 {
+          font-family: 'DM Serif Display', serif;
+          font-size: 24px; color: #1A0F08; margin-bottom: 20px;
+        }
+        .rating-row { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; font-size: 13px; color: #7A6A5A; }
+        .form-row { margin-bottom: 16px; }
+        .form-row label { font-size: 11px; font-weight: 700; color: #9A8878; text-transform: uppercase; letter-spacing: .5px; display: block; margin-bottom: 6px; }
+        .form-input, .form-textarea {
+          width: 100%; border: 1.5px solid #E8DCC8; border-radius: 12px;
+          padding: 12px 16px; font-size: 14px; font-family: 'DM Sans', sans-serif;
+          color: #1A0F08; background: #FAF6EE; outline: none; transition: border-color .2s;
+        }
+        .form-input:focus, .form-textarea:focus { border-color: #E07B39; background: white; }
+        .form-textarea { resize: vertical; }
+        .char-count { font-size: 11px; color: #B5A898; text-align: right; margin-top: 4px; }
+        .form-error { background: #FFF0F0; color: #C0392B; border: 1px solid #FCC; border-radius: 10px; padding: 10px 16px; font-size: 13px; margin-bottom: 14px; }
+        .submit-btn {
+          background: #1A0F08; color: white; font-size: 14px; font-weight: 600;
+          padding: 14px 32px; border-radius: 999px; border: none; cursor: pointer;
+          font-family: 'DM Sans', sans-serif; transition: background .2s;
+        }
+        .submit-btn:hover { background: #E07B39; }
+        .submit-btn:disabled { background: #C0B0A0; cursor: not-allowed; }
+        .comment-success {
+          background: white; border-radius: 20px; padding: 48px 32px;
+          text-align: center; margin-bottom: 40px;
+          box-shadow: 0 2px 16px rgba(44,24,16,.07);
+        }
+        .comment-success h3 { font-family: 'DM Serif Display', serif; font-size: 24px; color: #1A0F08; margin-top: 12px; }
+        .comments-loading, .comments-empty { text-align: center; padding: 48px; color: #9A8878; }
+        .comments-list { display: flex; flex-direction: column; gap: 16px; }
+        .comment-card {
+          background: white; border-radius: 16px; padding: 22px 26px;
+          box-shadow: 0 2px 12px rgba(44,24,16,.06); border-left: 3px solid #E07B39;
+        }
+        .comment-header { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+        .comment-avatar {
+          width: 42px; height: 42px; border-radius: 50%;
+          background: linear-gradient(135deg, #E07B39, #C25A1E);
+          color: white; font-family: 'DM Serif Display', serif;
+          font-size: 20px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+        }
+        .comment-name { font-weight: 700; font-size: 15px; color: #1A0F08; }
+        .comment-date { font-size: 12px; color: #B5A898; margin-top: 2px; }
+        .comment-text { font-size: 14px; color: #6B5744; line-height: 1.75; }
+
+        /* ══════════ FOOTER ══════════ */
+        .rd-footer { background: #1A0F08; padding: 32px 0; }
+        .rd-footer-inner { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+        .rd-footer-logo {
+          font-family: 'DM Serif Display', serif;
+          font-size: 20px; color: white; text-decoration: none;
+        }
+        .rd-footer-copy { font-size: 12px; color: rgba(255,255,255,.4); }
+
+        /* ══════════ RESPONSIVE ══════════ */
+        @media (max-width: 1100px) {
+          .rd-hero { grid-template-columns: 1fr; min-height: auto; }
+          .rd-hero-left { padding: 90px 24px 40px; }
+          .rd-hero-right { height: 55vw; min-height: 320px; }
+          .rd-body-grid { grid-template-columns: 1fr; }
+          .rd-sidebar { position: static; }
+          .related-grid { grid-template-columns: 1fr 1fr; }
+          .nutr-grid-full { grid-template-columns: repeat(3, 1fr); }
+        }
+        @media (max-width: 768px) {
+          .container { padding: 0 20px; }
+          .rd-navbar-inner { padding: 0 20px; }
+          .rd-nav-links { display: none; }
+          .rd-title { font-size: clamp(28px, 8vw, 48px); }
+          .rd-stats-grid { flex-wrap: wrap; gap: 12px; padding: 14px 16px; }
+          .rd-stat-divider { display: none; }
+          .rd-stat-item { padding: 0 12px; }
+          .related-grid { grid-template-columns: 1fr; }
+          .nutr-grid-full { grid-template-columns: repeat(2, 1fr); }
+          .rd-hero-right { height: 70vw; }
+        }
+        @media (max-width: 480px) {
+          .rd-hero-right { height: 80vw; }
+          .rd-title { font-size: 28px; }
+        }
+
+        /* ── btn-primary for not-found ── */
+        .btn-primary {
+          display: inline-flex; align-items: center; gap: 8px;
+          background: #E07B39; color: white; font-size: 14px; font-weight: 600;
+          padding: 13px 28px; border-radius: 999px; text-decoration: none;
+          font-family: 'DM Sans', sans-serif;
+        }
       `}</style>
     </>
   )
@@ -726,6 +1030,6 @@ export async function getStaticProps({ params }) {
   let recipe = getRecipeBySlug(params.slug)
   if (!recipe) recipe = SAMPLE_RECIPE
   const all = getAllRecipes()
-  const related = all.filter(r => r.slug !== recipe.slug && r.country === recipe.country).slice(0, 5)
+  const related = all.filter(r => r.slug !== recipe.slug && r.country === recipe.country).slice(0, 3)
   return { props: { recipe, relatedRecipes: related }, revalidate: 60 }
 }
