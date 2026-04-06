@@ -1,277 +1,240 @@
-// FoodHive World — New Homepage
-// Hero: Image 1 style (white left + orange right blob, circular food image)
-// Below: Image 2 style (explore menu with orange-bordered circles)
-// Countries: with animated orange circle on click, expanding categories
-
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { COUNTRIES, RECIPE_CATEGORIES, getAllRecipes, SAMPLE_RECIPE } from '../lib/data'
 
-// ── Country Card with inline accordion categories ──
-function CountryCard({ country, isOpen, onToggle }) {
-  return (
-    <div className={`country-accord${isOpen ? ' open' : ''}`}>
-      <div className="ca-header" onClick={onToggle}>
-        <div className="ca-img-wrap">
-          <img src={country.image} alt={country.name} loading="lazy" />
-          <div className="ca-img-overlay">
-            <span className="ca-flag">{country.flag}</span>
-            <span className="ca-name-overlay">{country.name}</span>
-          </div>
-        </div>
-        <div className="ca-body">
-          <div className="ca-country-name">{country.flag} {country.name}</div>
-          <p className="ca-desc">{country.desc}</p>
-          <div className="ca-footer">
-            <span className="ca-browse" style={{ color: country.color }}>
-              {isOpen ? 'Close ▲' : 'Browse →'}
-            </span>
-          </div>
-        </div>
-      </div>
-
-      {isOpen && (
-        <div className="ca-expand">
-          <div className="ca-expand-title">Choose a Category</div>
-          <div className="ca-cats-grid">
-            {RECIPE_CATEGORIES.map((cat, i) => (
-              <Link key={cat.id} href={`/countries/${country.id}?cat=${cat.id}`}>
-                <div className="ca-cat-item" style={{ animationDelay: `${i * 35}ms` }}>
-                  <div className="ca-cat-circle-orange">
-                    <span className="ca-cat-emoji">{cat.icon}</span>
-                  </div>
-                  <span className="ca-cat-label">{cat.name.split(' ')[0]}</span>
-                </div>
-              </Link>
-            ))}
-          </div>
-          <div style={{ textAlign: 'center', marginTop: 20 }}>
-            <Link href={`/countries/${country.id}`}>
-              <span className="ca-view-all">View All {country.name} Recipes →</span>
-            </Link>
-          </div>
-        </div>
-      )}
-    </div>
-  )
-}
-
-export default function HomePage({ latestRecipes }) {
+export default function HomePage({ latestRecipes, heroRecipe }) {
   const router = useRouter()
-  const [activeCategory, setActiveCategory] = useState(null)
-  const [openCountry, setOpenCountry] = useState(null)
+  const [activeCountry, setActiveCountry] = useState(null)
+  const [searchVal, setSearchVal] = useState('')
 
-  const heroImg = latestRecipes[0]?.image1 ||
-    'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800'
+  const handleSearch = (e) => {
+    e.preventDefault()
+    if (searchVal.trim()) router.push(`/search?q=${encodeURIComponent(searchVal.trim())}`)
+  }
 
   const toggleCountry = (id) => {
-    setOpenCountry(prev => prev === id ? null : id)
+    setActiveCountry(prev => prev === id ? null : id)
   }
+
+  const heroImg = heroRecipe?.image1 ||
+    'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=900'
 
   return (
     <>
       <Head>
         <title>FoodHive — Order your favorite food here</title>
-        <meta name="description" content="Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients. Explore recipes from 10 world cuisines." />
-        <link rel="canonical" href="https://food-hive-one.vercel.app" />
+        <meta name="description" content="Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients. Explore authentic recipes from 10 world cuisines." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
       </Head>
 
-      {/* ══════════════════════════════
-          NAVBAR
-      ══════════════════════════════ */}
-      <nav className="fh-nav">
-        <div className="fh-nav-inner">
-          <Link href="/" className="fh-logo">
-            Food<span>Hive</span>.
-          </Link>
-          <div className="fh-nav-links">
-            <Link href="/" className="fh-nav-link">Home</Link>
-            <Link href="#menu" className="fh-nav-link">Menu</Link>
-            <Link href="#countries" className="fh-nav-link">Cuisines</Link>
-            <Link href="/recipes" className="fh-nav-link">Recipes</Link>
+      {/* ─────────────────────────────────
+          NAVBAR — exact Image 1 style
+      ───────────────────────────────── */}
+      <nav className="nav">
+        <div className="nav-inner">
+          {/* Logo — "FoodHive." orange color, bold */}
+          <Link href="/" className="nav-logo">Food<span>Hive</span>.</Link>
+
+          {/* Nav links */}
+          <div className="nav-links">
+            <Link href="/" className="nav-link">Home</Link>
+            <Link href="#explore" className="nav-link">Menu</Link>
+            <Link href="#countries" className="nav-link">Cuisines</Link>
+            <Link href="/recipes" className="nav-link">Contact us</Link>
           </div>
-          <div className="fh-nav-right">
-            <button className="fh-search-btn" aria-label="search" onClick={() => router.push('/search')}>
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+
+          {/* Right side — search icon only (no login, no cart per requirement) */}
+          <div className="nav-right">
+            {/* Search icon — same style as Image 1 */}
+            <button className="nav-icon-btn" onClick={() => router.push('/search')} aria-label="Search">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
               </svg>
             </button>
           </div>
         </div>
       </nav>
 
-      {/* ══════════════════════════════
-          HERO — Image 1 style
-          White left + Orange right blob
-          Circular food image center-right
-      ══════════════════════════════ */}
-      <section className="fh-hero">
-        {/* Orange organic blob — right side */}
-        <div className="fh-hero-blob" />
+      {/* ─────────────────────────────────
+          HERO — exact Image 1 style
+          Full-width orange rounded banner
+          White text left, food image right
+      ───────────────────────────────── */}
+      <section className="hero-wrap">
+        <div className="hero-banner">
+          {/* Decorative orange slice top-left */}
+          <div className="hero-deco-tl">
+            <div className="hero-deco-half-circle" />
+          </div>
 
-        <div className="fh-hero-inner">
-          {/* LEFT TEXT */}
-          <div className="fh-hero-left">
-            <h1 className="fh-hero-title">
+          {/* LEFT — text content */}
+          <div className="hero-content">
+            <h1 className="hero-title">
               Order your<br />
-              <em>favorite food</em><br />
+              favorite food<br />
               here
             </h1>
-            <p className="fh-hero-desc">
+            <p className="hero-desc">
               Choose from a diverse menu featuring a delectable array of dishes crafted with
               the finest ingredients and culinary expertise. Our mission is to satisfy your cravings
               and elevate your dining experience, one delicious meal at a time.
             </p>
-            <Link href="#menu" className="fh-view-menu-btn">View Menu</Link>
+            <Link href="#explore" className="hero-btn">View Menu</Link>
           </div>
 
-          {/* RIGHT — circular food image (positioned over the orange blob) */}
-          <div className="fh-hero-right">
-            <div className="fh-hero-img-ring">
-              <div className="fh-hero-img-circle">
-                <img src={heroImg} alt="Delicious food" />
-              </div>
+          {/* RIGHT — food image (circular plate) */}
+          <div className="hero-img-area">
+            <div className="hero-plate-wrap">
+              <img
+                src={heroImg}
+                alt="Delicious food"
+                className="hero-plate-img"
+              />
             </div>
-            {/* Decorative fork icon */}
-            <div className="fh-fork-deco">🍴</div>
+            {/* Fork decoration */}
+            <div className="hero-fork">
+              <svg viewBox="0 0 40 200" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="140">
+                <rect x="18" y="0" width="4" height="200" rx="2" fill="rgba(255,255,255,0.55)"/>
+                <rect x="8" y="0" width="3" height="80" rx="1.5" fill="rgba(255,255,255,0.55)"/>
+                <rect x="29" y="0" width="3" height="80" rx="1.5" fill="rgba(255,255,255,0.55)"/>
+                <rect x="13" y="0" width="2.5" height="80" rx="1.25" fill="rgba(255,255,255,0.55)"/>
+                <rect x="24.5" y="0" width="2.5" height="80" rx="1.25" fill="rgba(255,255,255,0.55)"/>
+              </svg>
+            </div>
           </div>
         </div>
-
-        {/* Decorative orange slice top-left */}
-        <div className="fh-deco-orange-slice">🍊</div>
       </section>
 
-      {/* ══════════════════════════════
-          EXPLORE MENU — Image 2 style
-          Orange-bordered circles for categories
-      ══════════════════════════════ */}
-      <section id="menu" className="fh-menu-section">
-        <div className="fh-container">
-          <div className="fh-menu-head">
-            <h2 className="fh-section-title">Explore our menu</h2>
-            <p className="fh-section-desc">
+      {/* ─────────────────────────────────
+          EXPLORE — Image 2 style
+          Countries as circles (not categories)
+          Click → orange ring + expand categories
+      ───────────────────────────────── */}
+      <section id="explore" className="explore-section">
+        <div className="page-container">
+
+          {/* Header */}
+          <div className="explore-head">
+            <h2 className="explore-title">Explore our menu</h2>
+            <p className="explore-desc">
               Choose from a diverse menu featuring a delectable array of dishes. Our
               mission is to satisfy your cravings and elevate your dining experience,
               one delicious meal at a time.
             </p>
           </div>
 
-          {/* Category circles — Image 2 exact style */}
-          <div className="fh-cat-circles">
-            {RECIPE_CATEGORIES.map((cat, i) => (
+          {/* Country circles — Image 2 style with real food images */}
+          <div className="country-circles-row">
+            {COUNTRIES.map((country, i) => (
               <div
-                key={cat.id}
-                className={`fh-cat-item${activeCategory === cat.id ? ' fh-cat-active' : ''}`}
-                onClick={() => setActiveCategory(prev => prev === cat.id ? null : cat.id)}
+                key={country.id}
+                className={`country-circle-item${activeCountry === country.id ? ' active' : ''}`}
+                onClick={() => toggleCountry(country.id)}
               >
-                <div className="fh-cat-circle">
-                  <span className="fh-cat-emoji">{cat.icon}</span>
+                <div className="country-circle-img-wrap">
+                  <div className="country-circle-img">
+                    <img src={country.image} alt={country.name} loading="lazy" />
+                  </div>
+                  {/* Orange animated ring when active */}
+                  {activeCountry === country.id && (
+                    <div className="country-circle-ring" />
+                  )}
                 </div>
-                <span className="fh-cat-name">{cat.name.split(' ')[0]}</span>
+                <span className="country-circle-label">{country.flag} {country.name}</span>
               </div>
             ))}
           </div>
+
+          {/* Expanded categories for selected country */}
+          {activeCountry && (() => {
+            const country = COUNTRIES.find(c => c.id === activeCountry)
+            return (
+              <div className="country-cats-expand">
+                <div className="cats-expand-header">
+                  <span className="cats-expand-flag">{country.flag}</span>
+                  <span className="cats-expand-name">{country.name} — Choose Category</span>
+                </div>
+                <div className="cats-expand-grid">
+                  {RECIPE_CATEGORIES.map((cat, i) => (
+                    <Link
+                      key={cat.id}
+                      href={`/countries/${activeCountry}?cat=${cat.id}`}
+                      className="cat-expand-item"
+                      style={{ animationDelay: `${i * 40}ms` }}
+                    >
+                      <div className="cat-expand-circle">
+                        <span className="cat-expand-emoji">{cat.icon}</span>
+                      </div>
+                      <span className="cat-expand-label">{cat.name.split(' ')[0]}</span>
+                    </Link>
+                  ))}
+                </div>
+                <div style={{ textAlign: 'center', marginTop: 24 }}>
+                  <Link href={`/countries/${activeCountry}`} className="view-country-btn">
+                    View All {country.name} Recipes →
+                  </Link>
+                </div>
+              </div>
+            )
+          })()}
 
           {/* Divider */}
-          <div className="fh-divider" />
+          <div className="explore-divider" />
 
-          {/* Active category link */}
-          {activeCategory && (
-            <div className="fh-cat-cta">
-              <span className="fh-cat-cta-label">
-                {RECIPE_CATEGORIES.find(c => c.id === activeCategory)?.icon}&nbsp;
-                {RECIPE_CATEGORIES.find(c => c.id === activeCategory)?.name}
-              </span>
-              <Link href={`/categories/${activeCategory}`} className="fh-cat-cta-btn">
-                View All Recipes →
-              </Link>
-            </div>
-          )}
+          {/* "Top dishes near you" heading */}
+          <h2 id="countries" className="top-dishes-title">Top dishes near you</h2>
+          <p className="top-dishes-desc">Click any cuisine above to explore its full recipe collection</p>
+
         </div>
       </section>
 
-      {/* ══════════════════════════════
-          COUNTRIES SECTION
-          Cards + animated orange circle expand
-      ══════════════════════════════ */}
-      <section id="countries" className="fh-countries-section">
-        <div className="fh-container">
-          <div className="fh-menu-head">
-            <h2 className="fh-section-title">Top dishes near you</h2>
-            <p className="fh-section-desc">
-              Explore authentic recipes from 10 world cuisines. Click any cuisine to browse all 12 recipe categories.
-            </p>
-          </div>
-
-          <div className="fh-countries-grid">
-            {COUNTRIES.map((country, i) => (
-              <div key={country.id} className="fh-country-wrap" style={{ animationDelay: `${i * 55}ms` }}>
-                <CountryCard
-                  country={country}
-                  isOpen={openCountry === country.id}
-                  onToggle={() => toggleCountry(country.id)}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ══════════════════════════════
+      {/* ─────────────────────────────────
           FOOTER
-      ══════════════════════════════ */}
+      ───────────────────────────────── */}
       <footer className="fh-footer">
-        <div className="fh-container">
-          <div className="fh-footer-grid">
+        <div className="page-container">
+          <div className="footer-grid">
             <div>
-              <div className="fh-footer-logo">FoodHive.</div>
-              <p className="fh-footer-desc">
-                Authentic recipes from 10 world cuisines, auto-published by AI.
-              </p>
+              <div className="footer-logo">Food<span>Hive</span>.</div>
+              <p className="footer-desc">Authentic recipes from 10 world cuisines, auto-published daily.</p>
             </div>
             <div>
-              <div className="fh-footer-col-title">Categories</div>
+              <div className="footer-col-title">Categories</div>
               {RECIPE_CATEGORIES.slice(0, 6).map(c => (
-                <Link key={c.id} href={`/categories/${c.id}`} className="fh-footer-link">
-                  {c.icon} {c.name}
-                </Link>
+                <Link key={c.id} href={`/categories/${c.id}`} className="footer-link">{c.icon} {c.name}</Link>
               ))}
             </div>
             <div>
-              <div className="fh-footer-col-title">More</div>
+              <div className="footer-col-title">More</div>
               {RECIPE_CATEGORIES.slice(6).map(c => (
-                <Link key={c.id} href={`/categories/${c.id}`} className="fh-footer-link">
-                  {c.icon} {c.name}
-                </Link>
+                <Link key={c.id} href={`/categories/${c.id}`} className="footer-link">{c.icon} {c.name}</Link>
               ))}
             </div>
             <div>
-              <div className="fh-footer-col-title">Cuisines</div>
-              {COUNTRIES.slice(0, 5).map(c => (
-                <Link key={c.id} href={`/countries/${c.id}`} className="fh-footer-link">
-                  {c.flag} {c.name}
-                </Link>
+              <div className="footer-col-title">Cuisines</div>
+              {COUNTRIES.slice(0, 6).map(c => (
+                <Link key={c.id} href={`/countries/${c.id}`} className="footer-link">{c.flag} {c.name}</Link>
               ))}
             </div>
           </div>
-          <div className="fh-footer-bottom">
-            <span>© 2026 FoodHive World</span>
-            <span>10 Cuisines · 12 Categories · Updated Every 30 Min</span>
+          <div className="footer-bottom">
+            <span>© 2026 FoodHive</span>
+            <span>10 Cuisines · 12 Categories · Updated Daily</span>
           </div>
         </div>
       </footer>
 
       <style jsx global>{`
-        /* ─── GOOGLE FONTS ─── */
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=DM+Sans:wght@400;500;600;700&display=swap');
-
-        /* ─── RESET & BASE ─── */
+        /* ── RESET ── */
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; }
         body {
-          font-family: 'DM Sans', sans-serif;
+          font-family: 'Nunito', -apple-system, sans-serif;
           background: #fff;
           color: #1a1a1a;
           overflow-x: hidden;
@@ -279,578 +242,390 @@ export default function HomePage({ latestRecipes }) {
         a { text-decoration: none; color: inherit; }
         img { display: block; max-width: 100%; }
 
-        /* ─── TOKENS ─── */
+        /* ── TOKENS ── */
         :root {
           --orange: #E8873A;
-          --orange-d: #C96B20;
-          --orange-light: #FFF0E6;
+          --orange-dark: #C96B20;
           --dark: #1a1a1a;
           --gray: #6b6b6b;
-          --gray-light: #9b9b9b;
-          --cream: #FFF8F3;
+          --light-gray: #f5f5f5;
           --white: #ffffff;
         }
 
-        /* ─── CONTAINER ─── */
-        .fh-container {
-          max-width: 1260px;
+        .page-container {
+          max-width: 1200px;
           margin: 0 auto;
           padding: 0 48px;
         }
 
-        /* ══════════════════════════════
-           NAVBAR
-        ══════════════════════════════ */
-        .fh-nav {
-          position: fixed;
-          top: 0; left: 0; right: 0;
-          z-index: 1000;
-          background: rgba(255,255,255,0.95);
-          backdrop-filter: blur(12px);
-          height: 72px;
+        /* ══════════════════════════
+           NAVBAR — Image 1 exact
+        ══════════════════════════ */
+        .nav {
+          position: sticky;
+          top: 0;
+          z-index: 100;
+          background: #fff;
           border-bottom: 1px solid rgba(0,0,0,0.06);
+          height: 64px;
         }
-        .fh-nav-inner {
-          max-width: 1260px;
+        .nav-inner {
+          max-width: 1200px;
           margin: 0 auto;
           padding: 0 48px;
           height: 100%;
           display: flex;
           align-items: center;
-          gap: 40px;
+          gap: 32px;
         }
-        .fh-logo {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: 26px;
+
+        /* Logo — exact "Tomato." style but "FoodHive." */
+        .nav-logo {
+          font-family: 'Nunito', sans-serif;
+          font-size: 24px;
           font-weight: 900;
-          color: var(--dark);
-          letter-spacing: -0.5px;
+          color: var(--orange);
+          letter-spacing: -0.3px;
           flex-shrink: 0;
         }
-        .fh-logo span { color: var(--orange); }
+        .nav-logo span { color: var(--orange); }
 
-        .fh-nav-links {
+        .nav-links {
           display: flex;
-          gap: 6px;
           align-items: center;
-          margin-left: 20px;
+          gap: 2px;
+          margin-left: 12px;
         }
-        .fh-nav-link {
-          font-size: 15px;
-          font-weight: 500;
-          color: #444;
-          padding: 8px 18px;
-          border-radius: 100px;
-          transition: all 0.2s;
+        .nav-link {
+          font-size: 14px;
+          font-weight: 600;
+          color: #333;
+          padding: 7px 16px;
+          border-radius: 8px;
+          transition: background 0.15s;
         }
-        .fh-nav-link:hover { color: var(--dark); background: #f5f5f5; }
+        .nav-link:hover { background: #f5f5f5; }
 
-        .fh-nav-right {
+        .nav-right {
           margin-left: auto;
           display: flex;
           align-items: center;
-          gap: 14px;
+          gap: 12px;
         }
-        .fh-search-btn {
-          width: 42px; height: 42px;
+
+        /* Search icon button — exact Image 1 style */
+        .nav-icon-btn {
+          width: 38px; height: 38px;
           border-radius: 50%;
           background: transparent;
-          border: 1.5px solid #e0e0e0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          border: none;
+          display: flex; align-items: center; justify-content: center;
           cursor: pointer;
-          color: #555;
-          transition: all 0.2s;
+          color: #333;
+          transition: background 0.15s;
         }
-        .fh-search-btn:hover { background: #f5f5f5; border-color: #ccc; }
+        .nav-icon-btn:hover { background: #f0f0f0; }
 
-        /* ══════════════════════════════
-           HERO — Image 1 Style
-        ══════════════════════════════ */
-        .fh-hero {
-          min-height: 100vh;
-          padding-top: 72px;
-          background: #ffffff;
-          position: relative;
-          overflow: hidden;
-          display: flex;
-          align-items: center;
-        }
-
-        /* Orange blob — right half, organic shape */
-        .fh-hero-blob {
-          position: absolute;
-          top: 0; right: 0;
-          width: 52%;
-          height: 100%;
-          background: linear-gradient(145deg, #F5A060 0%, #E8873A 35%, #D4711F 70%, #C26010 100%);
-          border-radius: 52% 0 0 48% / 45% 0 0 55%;
-          z-index: 0;
-          /* slight texture overlay */
-          background-image:
-            radial-gradient(circle at 30% 30%, rgba(255,255,255,0.08) 0%, transparent 50%),
-            radial-gradient(circle at 70% 70%, rgba(0,0,0,0.06) 0%, transparent 50%),
-            linear-gradient(145deg, #F5A060 0%, #E8873A 35%, #D4711F 70%, #C26010 100%);
-        }
-
-        /* Decorative elements */
-        .fh-deco-orange-slice {
-          position: absolute;
-          top: 80px;
-          left: 32px;
-          font-size: 80px;
-          opacity: 0.18;
-          z-index: 1;
-          animation: decoSpin 20s linear infinite;
-          filter: hue-rotate(0deg);
-        }
-        @keyframes decoSpin {
-          from { transform: rotate(0deg); }
-          to { transform: rotate(360deg); }
-        }
-
-        .fh-hero-inner {
-          position: relative;
-          z-index: 1;
-          max-width: 1260px;
+        /* ══════════════════════════
+           HERO — Image 1 exact
+           Orange full-width rounded banner
+        ══════════════════════════ */
+        .hero-wrap {
+          padding: 20px 48px 40px;
+          max-width: 1200px;
           margin: 0 auto;
-          padding: 60px 48px;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          gap: 0;
-          align-items: center;
-          width: 100%;
-          min-height: calc(100vh - 72px);
         }
 
-        /* LEFT TEXT */
-        .fh-hero-left {
-          padding-right: 40px;
-          z-index: 2;
-          animation: heroFadeUp 0.8s ease both;
-        }
-        @keyframes heroFadeUp {
-          from { opacity: 0; transform: translateY(32px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-
-        .fh-hero-title {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: clamp(48px, 5.5vw, 80px);
-          font-weight: 900;
-          color: var(--dark);
-          line-height: 1.05;
-          margin-bottom: 24px;
-          letter-spacing: -1.5px;
-        }
-        .fh-hero-title em {
-          color: var(--orange);
-          font-style: italic;
-        }
-
-        .fh-hero-desc {
-          font-size: 15px;
-          color: var(--gray);
-          line-height: 1.85;
-          max-width: 420px;
-          margin-bottom: 36px;
-        }
-
-        .fh-view-menu-btn {
-          display: inline-block;
-          background: white;
-          color: var(--dark);
-          font-size: 15px;
-          font-weight: 600;
-          padding: 15px 40px;
-          border-radius: 100px;
-          border: 2px solid rgba(0,0,0,0.12);
-          box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-          transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-          letter-spacing: 0.2px;
-        }
-        .fh-view-menu-btn:hover {
-          transform: translateY(-2px);
-          box-shadow: 0 8px 28px rgba(0,0,0,0.14);
-          background: #fafafa;
-        }
-
-        /* RIGHT — Circular image */
-        .fh-hero-right {
+        .hero-banner {
+          background: var(--orange);
+          border-radius: 20px;
           position: relative;
+          overflow: hidden;
           display: flex;
           align-items: center;
-          justify-content: center;
-          z-index: 2;
-          animation: heroScaleIn 0.9s ease 0.2s both;
-        }
-        @keyframes heroScaleIn {
-          from { opacity: 0; transform: scale(0.88); }
-          to { opacity: 1; transform: scale(1); }
+          min-height: 340px;
+          padding: 40px 50px;
+          gap: 0;
         }
 
-        .fh-hero-img-ring {
-          width: 420px;
-          height: 420px;
+        /* Decorative half-circle top-left (orange slice) */
+        .hero-deco-tl {
+          position: absolute;
+          top: -20px; left: -20px;
+          z-index: 1;
+        }
+        .hero-deco-half-circle {
+          width: 90px; height: 90px;
           border-radius: 50%;
-          background: rgba(255,255,255,0.15);
+          background: rgba(255,255,255,0.12);
+          position: relative;
+        }
+        .hero-deco-half-circle::after {
+          content: '';
+          position: absolute;
+          top: 10px; left: 10px;
+          width: 70px; height: 70px;
+          border-radius: 50%;
+          background: rgba(255,255,255,0.08);
+        }
+
+        /* LEFT text */
+        .hero-content {
+          flex: 1;
+          position: relative;
+          z-index: 2;
+          max-width: 420px;
+        }
+
+        .hero-title {
+          font-family: 'Nunito', sans-serif;
+          font-size: clamp(32px, 4vw, 54px);
+          font-weight: 900;
+          color: #ffffff;
+          line-height: 1.1;
+          margin-bottom: 16px;
+          letter-spacing: -0.5px;
+        }
+
+        .hero-desc {
+          font-size: 13px;
+          color: rgba(255,255,255,0.85);
+          line-height: 1.75;
+          margin-bottom: 28px;
+          max-width: 340px;
+          font-weight: 500;
+        }
+
+        /* "View Menu" button — white rounded, exact Image 1 */
+        .hero-btn {
+          display: inline-block;
+          background: #ffffff;
+          color: var(--dark);
+          font-size: 14px;
+          font-weight: 700;
+          font-family: 'Nunito', sans-serif;
+          padding: 12px 32px;
+          border-radius: 100px;
+          transition: all 0.2s;
+          box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+        }
+        .hero-btn:hover {
+          transform: translateY(-1px);
+          box-shadow: 0 6px 20px rgba(0,0,0,0.18);
+        }
+
+        /* RIGHT image area */
+        .hero-img-area {
+          position: absolute;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          width: 55%;
           display: flex;
           align-items: center;
           justify-content: center;
-          animation: heroFloat 4s ease-in-out infinite;
-        }
-        @keyframes heroFloat {
-          0%, 100% { transform: translateY(0); }
-          50% { transform: translateY(-18px); }
+          z-index: 1;
         }
 
-        .fh-hero-img-circle {
-          width: 380px;
-          height: 380px;
+        .hero-plate-wrap {
+          width: 320px;
+          height: 320px;
           border-radius: 50%;
           overflow: hidden;
-          border: 8px solid rgba(255,255,255,0.85);
-          box-shadow:
-            0 30px 80px rgba(0,0,0,0.25),
-            0 0 0 12px rgba(255,255,255,0.08);
+          position: relative;
+          margin-right: 60px;
         }
-        .fh-hero-img-circle img {
+        .hero-plate-img {
           width: 100%;
           height: 100%;
           object-fit: cover;
         }
 
-        /* Decorative fork */
-        .fh-fork-deco {
+        /* Fork decoration */
+        .hero-fork {
           position: absolute;
-          right: -20px;
-          bottom: 20px;
-          font-size: 64px;
-          opacity: 0.35;
-          transform: rotate(20deg);
-          animation: forkWiggle 5s ease-in-out infinite;
-        }
-        @keyframes forkWiggle {
-          0%, 100% { transform: rotate(20deg); }
-          50% { transform: rotate(15deg) scale(1.05); }
+          right: 36px;
+          top: 50%;
+          transform: translateY(-50%);
+          opacity: 0.7;
         }
 
-        /* ══════════════════════════════
-           EXPLORE MENU — Image 2 Style
-        ══════════════════════════════ */
-        .fh-menu-section {
-          padding: 80px 0 70px;
-          background: #ffffff;
+        /* ══════════════════════════
+           EXPLORE SECTION — Image 2
+        ══════════════════════════ */
+        .explore-section {
+          padding: 60px 0 40px;
+          background: #fff;
         }
 
-        .fh-menu-head {
-          margin-bottom: 44px;
-        }
-        .fh-section-title {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: clamp(26px, 3vw, 38px);
-          font-weight: 700;
+        .explore-head { margin-bottom: 36px; }
+
+        .explore-title {
+          font-family: 'Nunito', sans-serif;
+          font-size: 22px;
+          font-weight: 800;
           color: var(--dark);
-          margin-bottom: 14px;
-          letter-spacing: -0.5px;
+          margin-bottom: 12px;
         }
-        .fh-section-desc {
+
+        .explore-desc {
           font-size: 14px;
           color: var(--gray);
-          max-width: 480px;
-          line-height: 1.8;
+          line-height: 1.75;
+          max-width: 420px;
+          font-weight: 500;
         }
 
-        /* Category circles — Image 2 exact */
-        .fh-cat-circles {
+        /* Country circles row — Image 2 exact spacing */
+        .country-circles-row {
           display: flex;
-          gap: 28px;
+          gap: 32px;
           align-items: flex-start;
           flex-wrap: wrap;
           padding-bottom: 8px;
         }
 
-        .fh-cat-item {
+        .country-circle-item {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 12px;
+          gap: 10px;
           cursor: pointer;
-          transition: transform 0.2s;
+          user-select: none;
         }
-        .fh-cat-item:hover { transform: translateY(-4px); }
+        .country-circle-item:hover { opacity: 0.9; }
 
-        .fh-cat-circle {
-          width: 88px;
-          height: 88px;
-          border-radius: 50%;
-          background: #f4f4f4;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          border: 3px solid transparent;
-          box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-          transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
-          /* food image style using emoji */
-          font-size: 36px;
-          overflow: hidden;
+        .country-circle-img-wrap {
           position: relative;
+          width: 80px; height: 80px;
         }
-        .fh-cat-item:hover .fh-cat-circle {
-          transform: scale(1.1);
-          box-shadow: 0 8px 24px rgba(232,135,58,0.25);
+
+        .country-circle-img {
+          width: 80px; height: 80px;
+          border-radius: 50%;
+          overflow: hidden;
+          border: 3px solid transparent;
+          transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+          background: #f0f0f0;
+        }
+        .country-circle-item.active .country-circle-img {
           border-color: var(--orange);
-        }
-        /* Active — orange border ring like Image 2 */
-        .fh-cat-active .fh-cat-circle {
-          border: 3.5px solid var(--orange);
-          box-shadow:
-            0 0 0 3px rgba(232,135,58,0.15),
-            0 8px 24px rgba(232,135,58,0.3);
           transform: scale(1.08);
-          background: var(--orange-light);
+        }
+        .country-circle-img img {
+          width: 100%; height: 100%;
+          object-fit: cover;
         }
 
-        .fh-cat-emoji {
-          font-size: 38px;
-          line-height: 1;
-          display: block;
+        /* Orange animated ring — appears on active */
+        .country-circle-ring {
+          position: absolute;
+          inset: -5px;
+          border-radius: 50%;
+          border: 2.5px solid var(--orange);
+          animation: ringPulse 1.4s ease-in-out infinite;
+        }
+        @keyframes ringPulse {
+          0%   { transform: scale(1);    opacity: 1; }
+          50%  { transform: scale(1.1); opacity: 0.5; }
+          100% { transform: scale(1);    opacity: 1; }
         }
 
-        .fh-cat-name {
+        .country-circle-label {
           font-size: 13px;
-          font-weight: 600;
+          font-weight: 700;
           color: var(--dark);
           text-align: center;
           white-space: nowrap;
         }
-        .fh-cat-active .fh-cat-name {
+        .country-circle-item.active .country-circle-label {
           color: var(--orange);
-          font-weight: 700;
         }
 
-        /* Divider — thin line like Image 2 */
-        .fh-divider {
-          height: 1px;
-          background: #ebebeb;
-          margin: 40px 0 36px;
-        }
-
-        /* Active category CTA */
-        .fh-cat-cta {
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          background: var(--orange-light);
+        /* ── Expanded categories column ── */
+        .country-cats-expand {
+          margin-top: 32px;
+          background: #fff9f5;
+          border: 1.5px solid rgba(232,135,58,0.2);
           border-radius: 16px;
-          padding: 18px 28px;
-          animation: fadeIn 0.3s ease;
+          padding: 28px 32px 24px;
+          animation: expandDown 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
-        @keyframes fadeIn {
-          from { opacity: 0; transform: translateY(8px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .fh-cat-cta-label {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: 20px;
-          font-weight: 700;
-          color: var(--dark);
-        }
-        .fh-cat-cta-btn {
-          background: var(--orange);
-          color: white;
-          font-size: 13px;
-          font-weight: 700;
-          padding: 12px 28px;
-          border-radius: 100px;
-          transition: all 0.2s;
-          box-shadow: 0 4px 14px rgba(232,135,58,0.35);
-        }
-        .fh-cat-cta-btn:hover {
-          background: var(--orange-d);
-          transform: translateY(-1px);
+        @keyframes expandDown {
+          from { opacity: 0; transform: translateY(-12px) scale(0.97); }
+          to   { opacity: 1; transform: translateY(0) scale(1); }
         }
 
-        /* ══════════════════════════════
-           COUNTRIES SECTION
-        ══════════════════════════════ */
-        .fh-countries-section {
-          padding: 80px 0;
-          background: #fafafa;
-        }
-
-        .fh-countries-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-          gap: 20px;
-        }
-        .fh-country-wrap {
-          animation: fadeUp 0.5s ease both;
-        }
-        @keyframes fadeUp {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-
-        /* Country Accordion Card */
-        .country-accord {
-          background: white;
-          border-radius: 20px;
-          overflow: hidden;
-          box-shadow: 0 2px 16px rgba(0,0,0,0.07);
-          transition: box-shadow 0.3s;
-        }
-        .country-accord.open {
-          grid-column: 1 / -1;
-          box-shadow: 0 8px 40px rgba(0,0,0,0.12);
-        }
-        .ca-header {
-          cursor: pointer;
-        }
-        .ca-header:hover { opacity: 0.95; }
-
-        .ca-img-wrap {
-          position: relative;
-          height: 160px;
-          overflow: hidden;
-        }
-        .ca-img-wrap img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-          transition: transform 0.4s;
-        }
-        .country-accord:hover .ca-img-wrap img {
-          transform: scale(1.05);
-        }
-        .ca-img-overlay {
-          position: absolute;
-          inset: 0;
-          background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, transparent 55%);
+        .cats-expand-header {
           display: flex;
-          flex-direction: column;
           align-items: center;
-          justify-content: flex-end;
-          padding: 16px;
-        }
-        .ca-flag { font-size: 28px; margin-bottom: 4px; }
-        .ca-name-overlay {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: 20px;
-          font-weight: 700;
-          color: white;
-          text-shadow: 0 2px 8px rgba(0,0,0,0.3);
-        }
-
-        .ca-body {
-          padding: 14px 18px 18px;
-        }
-        .ca-country-name {
-          font-size: 11px;
-          font-weight: 700;
-          color: #999;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          margin-bottom: 6px;
-        }
-        .ca-desc {
-          font-size: 12px;
-          color: var(--gray);
-          line-height: 1.65;
-          margin-bottom: 12px;
-        }
-        .ca-footer { display: flex; justify-content: flex-end; }
-        .ca-browse {
-          font-size: 13px;
-          font-weight: 700;
-        }
-
-        /* Expanded panel */
-        .ca-expand {
-          background: #fdf6ef;
-          border-top: 1px solid #f0e8de;
-          padding: 24px 24px 20px;
-          animation: expandIn 0.3s ease;
-        }
-        @keyframes expandIn {
-          from { opacity: 0; transform: translateY(-8px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .ca-expand-title {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: 20px;
-          font-weight: 700;
-          color: var(--dark);
+          gap: 10px;
           margin-bottom: 20px;
         }
-
-        /* Category circles inside expanded — orange ring animated */
-        .ca-cats-grid {
-          display: grid;
-          grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-          gap: 16px;
-          margin-bottom: 16px;
+        .cats-expand-flag { font-size: 24px; }
+        .cats-expand-name {
+          font-size: 16px;
+          font-weight: 800;
+          color: var(--dark);
         }
-        .ca-cat-item {
+
+        .cats-expand-grid {
+          display: flex;
+          gap: 24px;
+          flex-wrap: wrap;
+          margin-bottom: 8px;
+        }
+
+        .cat-expand-item {
           display: flex;
           flex-direction: column;
           align-items: center;
           gap: 8px;
           cursor: pointer;
-          animation: catPop 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+          transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+          animation: catPopIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
         }
-        @keyframes catPop {
-          from { opacity: 0; transform: scale(0.6) rotate(-10deg); }
-          to { opacity: 1; transform: scale(1) rotate(0deg); }
+        @keyframes catPopIn {
+          from { opacity: 0; transform: scale(0.5) rotate(-15deg); }
+          to   { opacity: 1; transform: scale(1) rotate(0deg); }
         }
-        .ca-cat-item:hover { transform: translateY(-5px); }
+        .cat-expand-item:hover { transform: translateY(-5px) scale(1.06); }
 
-        /* Orange animated circle */
-        .ca-cat-circle-orange {
-          width: 68px;
-          height: 68px;
+        .cat-expand-circle {
+          width: 64px; height: 64px;
           border-radius: 50%;
-          background: white;
-          border: 3px solid var(--orange);
+          background: #fff;
+          border: 2.5px solid var(--orange);
           display: flex;
           align-items: center;
           justify-content: center;
-          box-shadow:
-            0 0 0 0 rgba(232,135,58,0.3),
-            0 4px 14px rgba(232,135,58,0.2);
-          transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
-          animation: orangePulse 2.5s ease-in-out infinite;
+          box-shadow: 0 3px 12px rgba(232,135,58,0.2);
+          transition: all 0.25s;
         }
-        @keyframes orangePulse {
-          0%, 100% {
-            box-shadow: 0 0 0 0 rgba(232,135,58,0.3), 0 4px 14px rgba(232,135,58,0.2);
-          }
-          50% {
-            box-shadow: 0 0 0 6px rgba(232,135,58,0.12), 0 4px 14px rgba(232,135,58,0.2);
-          }
+        .cat-expand-item:hover .cat-expand-circle {
+          background: var(--orange);
+          box-shadow: 0 6px 20px rgba(232,135,58,0.4);
         }
-        .ca-cat-item:hover .ca-cat-circle-orange {
-          background: var(--orange-light);
-          transform: scale(1.12);
-          box-shadow: 0 0 0 8px rgba(232,135,58,0.15), 0 8px 24px rgba(232,135,58,0.3);
-        }
-        .ca-cat-emoji {
-          font-size: 28px;
+        .cat-expand-emoji {
+          font-size: 26px;
           line-height: 1;
+          transition: transform 0.2s;
         }
-        .ca-cat-label {
-          font-size: 11px;
-          font-weight: 600;
+        .cat-expand-item:hover .cat-expand-emoji {
+          transform: scale(1.15);
+          filter: brightness(0) invert(1);
+        }
+        .cat-expand-label {
+          font-size: 12px;
+          font-weight: 700;
           color: var(--dark);
           text-align: center;
-          line-height: 1.3;
         }
 
-        .ca-view-all {
+        .view-country-btn {
           display: inline-block;
           background: var(--orange);
-          color: white;
+          color: #fff;
           font-size: 13px;
           font-weight: 700;
           padding: 11px 26px;
@@ -858,57 +633,83 @@ export default function HomePage({ latestRecipes }) {
           transition: all 0.2s;
           box-shadow: 0 4px 14px rgba(232,135,58,0.35);
         }
-        .ca-view-all:hover {
-          background: var(--orange-d);
+        .view-country-btn:hover {
+          background: var(--orange-dark);
           transform: translateY(-1px);
         }
 
-        /* ══════════════════════════════
-           FOOTER
-        ══════════════════════════════ */
-        .fh-footer {
-          background: #1a1a1a;
-          color: rgba(255,255,255,0.5);
-          padding: 64px 0 32px;
+        /* Divider */
+        .explore-divider {
+          height: 1px;
+          background: #ebebeb;
+          margin: 44px 0 36px;
         }
-        .fh-footer-grid {
+
+        /* "Top dishes near you" */
+        .top-dishes-title {
+          font-family: 'Nunito', sans-serif;
+          font-size: clamp(22px, 3vw, 30px);
+          font-weight: 900;
+          color: var(--dark);
+          margin-bottom: 8px;
+          letter-spacing: -0.3px;
+        }
+        .top-dishes-desc {
+          font-size: 14px;
+          color: #999;
+          font-weight: 500;
+          margin-bottom: 48px;
+        }
+
+        /* ══════════════════════════
+           FOOTER
+        ══════════════════════════ */
+        .fh-footer {
+          background: #111;
+          color: rgba(255,255,255,0.45);
+          padding: 60px 0 28px;
+          margin-top: 80px;
+        }
+        .footer-grid {
           display: grid;
           grid-template-columns: 2fr 1fr 1fr 1fr;
           gap: 40px;
-          margin-bottom: 48px;
+          margin-bottom: 44px;
         }
-        .fh-footer-logo {
-          font-family: 'Playfair Display', Georgia, serif;
-          font-size: 26px;
+        .footer-logo {
+          font-family: 'Nunito', sans-serif;
+          font-size: 22px;
           font-weight: 900;
-          color: white;
-          margin-bottom: 12px;
+          color: var(--orange);
+          margin-bottom: 10px;
         }
-        .fh-footer-desc {
+        .footer-logo span { color: var(--orange); }
+        .footer-desc {
           font-size: 13px;
           line-height: 1.8;
-          color: rgba(255,255,255,0.35);
+          color: rgba(255,255,255,0.3);
           max-width: 220px;
         }
-        .fh-footer-col-title {
+        .footer-col-title {
           font-size: 11px;
           font-weight: 700;
           text-transform: uppercase;
-          letter-spacing: 2px;
+          letter-spacing: 1.5px;
           color: rgba(255,255,255,0.4);
-          margin-bottom: 16px;
+          margin-bottom: 14px;
         }
-        .fh-footer-link {
+        .footer-link {
           display: block;
           font-size: 13px;
           color: rgba(255,255,255,0.35);
-          margin-bottom: 10px;
-          transition: color 0.2s;
+          margin-bottom: 9px;
+          transition: color 0.15s;
+          font-weight: 500;
         }
-        .fh-footer-link:hover { color: var(--orange); }
-        .fh-footer-bottom {
-          border-top: 1px solid rgba(255,255,255,0.08);
-          padding-top: 24px;
+        .footer-link:hover { color: var(--orange); }
+        .footer-bottom {
+          border-top: 1px solid rgba(255,255,255,0.07);
+          padding-top: 22px;
           font-size: 12px;
           display: flex;
           justify-content: space-between;
@@ -916,35 +717,28 @@ export default function HomePage({ latestRecipes }) {
           gap: 8px;
         }
 
-        /* ══════════════════════════════
+        /* ══════════════════════════
            RESPONSIVE
-        ══════════════════════════════ */
-        @media (max-width: 1024px) {
-          .fh-hero-inner { grid-template-columns: 1fr; padding: 60px 32px; text-align: center; }
-          .fh-hero-left { padding-right: 0; }
-          .fh-hero-right { order: -1; }
-          .fh-hero-img-ring, .fh-hero-img-circle { width: 280px; height: 280px; }
-          .fh-hero-desc { margin: 0 auto 32px; }
-          .fh-hero-blob { width: 100%; height: 60%; top: auto; bottom: 0; border-radius: 55% 55% 0 0 / 40% 40% 0 0; }
-          .fh-footer-grid { grid-template-columns: 1fr 1fr; }
+        ══════════════════════════ */
+        @media (max-width: 900px) {
+          .hero-wrap { padding: 16px 20px 32px; }
+          .hero-banner { flex-direction: column; min-height: auto; padding: 36px 28px 260px; }
+          .hero-img-area { width: 100%; height: 220px; position: absolute; bottom: 0; right: 0; }
+          .hero-plate-wrap { width: 200px; height: 200px; margin-right: 40px; }
+          .hero-fork { right: 12px; }
+          .nav-links { display: none; }
+          .page-container { padding: 0 20px; }
+          .footer-grid { grid-template-columns: 1fr 1fr; }
+          .country-circles-row { gap: 20px; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 12px; }
+          .country-circle-item { flex-shrink: 0; }
         }
-        @media (max-width: 768px) {
-          .fh-container { padding: 0 20px; }
-          .fh-nav-inner { padding: 0 20px; }
-          .fh-nav-links { display: none; }
-          .fh-cat-circles { gap: 16px; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 12px; scroll-snap-type: x mandatory; }
-          .fh-cat-item { flex-shrink: 0; scroll-snap-align: start; }
-          .fh-cat-circle { width: 72px; height: 72px; }
-          .fh-cat-emoji { font-size: 30px; }
-          .fh-countries-grid { grid-template-columns: 1fr; }
-          .ca-cats-grid { grid-template-columns: repeat(4, 1fr); }
-          .fh-footer-grid { grid-template-columns: 1fr; }
-          .fh-menu-section, .fh-countries-section { padding: 56px 0; }
-        }
-        @media (max-width: 480px) {
-          .fh-hero-title { font-size: 48px; letter-spacing: -1px; }
-          .fh-hero-img-ring, .fh-hero-img-circle { width: 240px; height: 240px; }
-          .ca-cats-grid { grid-template-columns: repeat(3, 1fr); }
+        @media (max-width: 600px) {
+          .hero-title { font-size: 32px; }
+          .hero-banner { padding: 30px 24px 240px; }
+          .cats-expand-grid { gap: 16px; }
+          .footer-grid { grid-template-columns: 1fr; }
+          .cat-expand-circle { width: 52px; height: 52px; }
+          .cat-expand-emoji { font-size: 22px; }
         }
       `}</style>
     </>
@@ -953,6 +747,9 @@ export default function HomePage({ latestRecipes }) {
 
 export async function getStaticProps() {
   const all = getAllRecipes()
-  const latest = all.length > 0 ? all.slice(0, 6) : [SAMPLE_RECIPE]
-  return { props: { latestRecipes: latest }, revalidate: 60 }
+  const heroRecipe = all.length > 0 ? all[0] : SAMPLE_RECIPE
+  return {
+    props: { latestRecipes: all.slice(0, 6), heroRecipe },
+    revalidate: 60
+  }
 }
