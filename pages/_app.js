@@ -1,5 +1,7 @@
 import '../styles/globals.css'
 import Head from 'next/head'
+import Script from 'next/script'
+
 export default function App({ Component, pageProps }) {
   return (<>
     <Head>
@@ -10,6 +12,18 @@ export default function App({ Component, pageProps }) {
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&family=Caveat:wght@600;700&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
       <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>"/>
     </Head>
+    <Script
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZMLLG4LD6D"
+      strategy="afterInteractive"
+    />
+    <Script id="google-analytics" strategy="afterInteractive">
+      {`
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-ZMLLG4LD6D');
+      `}
+    </Script>
     <Component {...pageProps}/>
   </>)
 }
