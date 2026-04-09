@@ -7,84 +7,130 @@
   "category": "beverages",
   "categoryName": "Beverages",
   "categoryIcon": "🥤",
-  "prepTime": "5 min",
-  "cookTime": "20 min",
-  "totalTime": "25 min",
+  "seo": {
+    "title": "Authentic Turkish Black Tea (Cay) Recipe - Easy Guide",
+    "metaDescription": "Discover how to brew authentic Turkish Black Tea (Cay) at home with our easy, step-by-step recipe. Enjoy the rich flavor and tradition of Turkey's beloved beverage.",
+    "urlSlug": "turkey-beverages-turkish-cay-black-tea",
+    "mainKeyword": "Turkish Black Tea",
+    "longTailKeywords": [
+      "how to make Turkish Black Tea",
+      "authentic Turkish Cay recipe",
+      "easy Turkish Black Tea brewing",
+      "Turkish tea preparation method",
+      "best Turkish Cay at home"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Turkish Cay recipe",
+      "traditional Turkish tea pot brewing",
+      "Turkish Rize tea recipe",
+      "double teapot Turkish tea"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Turkish Black Tea (Cay) Recipe",
+    "h2Headings": [
+      "What is Turkish Black Tea (Cay)?",
+      "Ingredients for Authentic Turkish Cay",
+      "Step-by-Step Turkish Tea Brewing Instructions",
+      "Tips for the Perfect Turkish Black Tea",
+      "Serving Your Turkish Cay",
+      "Variations and Pairings"
+    ],
+    "imageFilename": "turkey-beverages-turkish-cay-black-tea.jpg",
+    "imageAlt": "A traditional Turkish black tea (Cay) setup with a double teapot (çaydanlık) and small tulip-shaped glasses.",
+    "imageCaption": "Experience the rich tradition of Turkish hospitality by brewing your own authentic Turkish Black Tea (Cay) at home.",
+    "internalLinks": [
+      {
+        "anchor": "More Beverage Recipes",
+        "url": "/categories/beverages"
+      },
+      {
+        "anchor": "Explore Turkish Cuisine",
+        "url": "/countries/turkey"
+      },
+      {
+        "anchor": "Hot Drinks Recipes",
+        "url": "/categories/hot-drinks"
+      }
+    ]
+  },
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "cuisine": "Turkish",
-  "image1": "https://images.pexels.com/photos/36595886/pexels-photo-36595886.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/35549594/pexels-photo-35549594.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Turkish Cay Black Tea is more than just a beverage; it's a cornerstone of Turkish hospitality and daily life, offering a robust, full-bodied flavor with a distinctive reddish hue. Brewed meticulously in a traditional double-pot system, it delivers a deeply comforting warmth and a rich aroma that invites conversation and connection in every sip. It's the quintessential drink for any gathering, from breakfast to late-night chats.",
+  "image1": "https://images.unsplash.com/photo-1751449432789-b6511775bb92?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwQ2F5JTIwYmV2ZXJhZ2VzJTIwZm9vZCUyMGNsb3NldXB8ZW58MHwwfHx8MTc3NTc0MzIxN3ww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1615478439492-434f70dfe613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwQ2F5JTIwYmV2ZXJhZ2VzJTIwZm9vZCUyMGNsb3NldXB8ZW58MHwwfHx8MTc3NTc0MzIxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Turkish Cay is not just a drink; it is a symbol of hospitality and daily life in Turkey. This robust black tea, typically brewed in a double teapot, offers a unique strength and aroma that delights the senses. Enjoy its comforting warmth and rich flavor, often served in small, tulip-shaped glasses.",
   "ingredients": [
     {
-      "item": "Turkish Black Tea (e.g., Çaykur Rize Tea)",
+      "item": "Turkish black tea leaves",
       "amount": "4 tablespoons",
-      "notes": "Adjust to desired strength"
+      "notes": "Rize tea recommended"
     },
     {
-      "item": "Fresh Cold Water",
-      "amount": "6 cups",
-      "notes": "For the lower pot (çaydanlık)"
+      "item": "Fresh water",
+      "amount": "1 liter",
+      "notes": "for the bottom teapot"
     },
     {
-      "item": "Fresh Cold Water",
-      "amount": "2 cups",
-      "notes": "For the upper pot (demlik)"
+      "item": "Fresh water",
+      "amount": "250 ml",
+      "notes": "for the top teapot"
     },
     {
-      "item": "Sugar cubes",
+      "item": "Sugar",
       "amount": "to taste",
-      "notes": "Optional, served separately"
+      "notes": "optional"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Çaydanlık (Double Teapot)",
-      "text": "Begin by filling the larger, lower pot (çaydanlık) with approximately 6 cups of fresh, cold water. Place it on your stovetop over medium-high heat. Ensure your teapots are clean and free of any previous flavors.",
-      "time": "2 min"
-    },
-    {
-      "step": 2,
-      "title": "Add Tea Leaves to Demlik",
-      "text": "While the water in the lower pot is heating, place 4 tablespoons of good quality Turkish black tea leaves into the smaller, upper teapot (demlik). The amount can be adjusted based on your preference for tea strength. Do not add water to the demlik yet.",
-      "time": "1 min"
-    },
-    {
-      "step": 3,
-      "title": "Heat Water to a Rolling Boil",
-      "text": "Bring the water in the lower çaydanlık to a vigorous, rolling boil. This ensures the water is hot enough to properly extract the tea's flavor and initiate the brewing process effectively.",
+      "title": "Prepare the Teapot",
+      "text": "Rinse your double teapot (çaydanlık) thoroughly. Fill the bottom, larger pot with 1 liter of fresh, cold water. Place it on the stove over high heat.",
       "time": "5 min"
     },
     {
+      "step": 2,
+      "title": "Add Tea Leaves",
+      "text": "While the water in the bottom pot is heating, place 4 tablespoons of good quality Turkish black tea leaves into the top, smaller teapot. Do not add water to the tea leaves yet.",
+      "time": "2 min"
+    },
+    {
+      "step": 3,
+      "title": "Heat the Tea Leaves",
+      "text": "Once the water in the bottom pot comes to a rolling boil, pour about 250 ml of this boiling water over the tea leaves in the top teapot.",
+      "time": "3 min"
+    },
+    {
       "step": 4,
-      "title": "Brew the Concentrate",
-      "text": "Once the water in the lower pot is boiling, carefully pour about 2 cups of this boiling water directly over the tea leaves in the upper demlik. Place the demlik back on top of the çaydanlık, ensuring it sits securely.",
-      "time": "1 min"
+      "title": "Steep the Tea",
+      "text": "Place the top teapot with the tea leaves and hot water back onto the bottom teapot. Reduce the heat to low and allow the tea to steep gently for at least 15-20 minutes. This slow steeping process over simmering water is crucial for the perfect brew.",
+      "time": "20 min"
     },
     {
       "step": 5,
-      "title": "Steep the Tea",
-      "text": "Reduce the heat to low, allowing the water in the lower pot to gently simmer. This will keep the tea concentrate in the upper demlik warm and allow it to steep slowly and evenly for about 15-20 minutes. This gentle steaming process develops its rich color and full flavor without becoming bitter.",
-      "time": "15-20 min"
+      "title": "Serve the Tea Concentrate",
+      "text": "To serve, carefully remove the top teapot. Pour the concentrated tea from the top pot into small, tulip-shaped tea glasses, filling them about one-third to one-half full, depending on desired strength.",
+      "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Serve the Çay",
-      "text": "To serve, pour the strong tea concentrate from the demlik into small, traditional Turkish tea glasses (ince belli bardak) until it fills about one-third to one-half of the glass. Then, top it off with hot water from the lower çaydanlık, adjusting the strength to your preference. Serve immediately with optional sugar cubes on the side.",
-      "time": "1 min"
+      "title": "Dilute and Enjoy",
+      "text": "Top up each glass with hot water from the bottom teapot to achieve your desired strength. Turkish tea is traditionally served strong (koyu) or light (açık). Offer sugar cubes on the side, as Turkish tea is often enjoyed with sugar, but never with milk.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
-    "calories": "20 kcal",
-    "protein": "0.4g",
-    "carbs": "2g",
-    "fat": "0g",
-    "fiber": "0g",
-    "sugar": "0g",
-    "sodium": "20mg",
-    "cholesterol": "0mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Turkey",
@@ -92,17 +138,86 @@
     "authentic",
     "traditional",
     "beverages",
-    "tea",
-    "cay"
+    "Turkish Black Tea",
+    "Cay",
+    "çay"
   ],
   "tips": [
-    "Always use fresh, cold water for the best flavor. Filtered water is ideal.",
-    "Invest in quality Turkish black tea, preferably from the Rize region, for an authentic taste.",
-    "Before serving, warm your tea glasses by rinsing them with hot water; this keeps your çay hotter for longer.",
-    "Never add milk or lemon to traditional Turkish black tea; it's always served black, with sugar optional."
+    "Always use fresh, cold water for brewing to get the best flavor from your tea leaves; filtered water is ideal.",
+    "For an authentic taste, use Turkish Rize tea leaves, known for their strong aroma and color, available at specialty stores.",
+    "Never boil the tea leaves directly; they should steep gently over simmering water in the double teapot to prevent bitterness and extract maximum flavor."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Turkish Cay Black Tea\n\nTurkish tea, or çay, holds a profound place in the nation's heart, a story that truly began in the early 20th century. Despite coffee being the dominant beverage for centuries, the collapse of the Ottoman Empire and the subsequent economic challenges made coffee expensive. Mustafa Kemal Atatürk, the founder of the Republic of Turkey, championed tea cultivation in the fertile Rize region along the Black Sea coast in the 1930s. He encouraged Turks to embrace domestic tea production, turning it into a symbol of national pride and self-sufficiency. This strategic move, coupled with its natural fit into daily social rituals, transformed tea from a niche drink into the undisputed national beverage, deeply woven into the fabric of Turkish hospitality and culture.\n\n## Why This Recipe Works\n\nThe unique double-pot brewing method, using a çaydanlık (lower pot) and a demlik (upper pot), is the secret to perfect Turkish tea. The lower pot keeps water boiling, creating steam that gently brews the tea leaves in the upper demlik. This indirect heat prevents the tea from burning or becoming overly bitter, allowing the full spectrum of its rich, robust flavors to slowly unfurl. The continuous warmth ensures the tea concentrate remains at an optimal temperature for serving, while the hot water from the lower pot allows each individual to dilute their tea to their preferred strength, guaranteeing a consistently smooth and deeply satisfying cup every time.\n\n## Chef Tips for Perfection\n\nFor the most authentic Turkish çay, always start with fresh, cold, good-quality water. Tap water can work, but filtered water will yield a cleaner taste. Use genuine Turkish black tea leaves, preferably from the Rize region, known for their distinct aroma and strength. Ensure your demlik is clean and free of any residual flavors. When steeping, resist the urge to stir the tea leaves; let them settle naturally. Before serving, warm your traditional \"ince belli\" tea glasses by rinsing them with hot water from the çaydanlık; this helps maintain the tea's temperature and enhances the drinking experience.\n\n## Serving Suggestions\n\nTurkish çay is traditionally served in small, tulip-shaped glasses known as \"ince belli bardak,\" which beautifully showcase the tea's vibrant reddish hue and allow it to cool to a comfortable drinking temperature. Always offer sugar cubes on the side, allowing guests to sweeten their tea to their personal preference; milk or lemon are never added to authentic Turkish black tea. Pair your çay with classic Turkish treats such as lokum (Turkish delight), small biscuits, or savory pastries (poğaça) for a truly immersive experience. It's the perfect accompaniment to breakfast, afternoon breaks, or as a warm welcome to guests.",
-  "publishedAt": "2026-04-04T15:07:59.766Z"
+  "article": "Turkish Cay Black Tea is a beloved Turkish Beverages dish enjoyed across Turkey. This authentic recipe brings traditional flavors to your kitchen.",
+  "jsonLdSchema": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Turkish Cay Black Tea",
+    "description": "Discover how to brew authentic Turkish Black Tea (Cay) at home with our easy, step-by-step recipe. Enjoy the rich flavor and tradition of Turkey's beloved beverage.",
+    "image": [
+      "https://images.unsplash.com/photo-1751449432789-b6511775bb92?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwQ2F5JTIwYmV2ZXJhZ2VzJTIwZm9vZCUyMGNsb3NldXB8ZW58MHwwfHx8MTc3NTc0MzIxN3ww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1615478439492-434f70dfe613?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwQ2F5JTIwYmV2ZXJhZ2VzJTIwZm9vZCUyMGNsb3NldXB8ZW58MHwwfHx8MTc3NTc0MzIxN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "FoodHive World"
+    },
+    "datePublished": "2026-04-09T22:00:42.367Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeCategory": "Beverages",
+    "recipeCuisine": "Turkish",
+    "keywords": "Turkish Black Tea, how to make Turkish Black Tea, authentic Turkish Cay recipe, easy Turkish Black Tea brewing, Turkish tea preparation method, best Turkish Cay at home",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "312"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "380 kcal"
+    },
+    "recipeIngredient": [
+      "4 tablespoons Turkish black tea leaves",
+      "1 liter Fresh water",
+      "250 ml Fresh water",
+      "to taste Sugar"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Prepare the Teapot",
+        "text": "Rinse your double teapot (çaydanlık) thoroughly. Fill the bottom, larger pot with 1 liter of fresh, cold water. Place it on the stove over high heat."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Add Tea Leaves",
+        "text": "While the water in the bottom pot is heating, place 4 tablespoons of good quality Turkish black tea leaves into the top, smaller teapot. Do not add water to the tea leaves yet."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Heat the Tea Leaves",
+        "text": "Once the water in the bottom pot comes to a rolling boil, pour about 250 ml of this boiling water over the tea leaves in the top teapot."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Steep the Tea",
+        "text": "Place the top teapot with the tea leaves and hot water back onto the bottom teapot. Reduce the heat to low and allow the tea to steep gently for at least 15-20 minutes. This slow steeping process over simmering water is crucial for the perfect brew."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Serve the Tea Concentrate",
+        "text": "To serve, carefully remove the top teapot. Pour the concentrated tea from the top pot into small, tulip-shaped tea glasses, filling them about one-third to one-half full, depending on desired strength."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Dilute and Enjoy",
+        "text": "Top up each glass with hot water from the bottom teapot to achieve your desired strength. Turkish tea is traditionally served strong (koyu) or light (açık). Offer sugar cubes on the side, as Turkish tea is often enjoyed with sugar, but never with milk."
+      }
+    ]
+  },
+  "publishedAt": "2026-04-09T22:00:42.399Z"
 }
