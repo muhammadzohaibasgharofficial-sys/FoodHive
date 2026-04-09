@@ -560,9 +560,11 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         }
 
         /* ══════════ NAVBAR ══════════ */
+        /* Override globals.css .navbar fixed positioning for this page */
+        .navbar { display: none !important; }
         .rd-navbar {
           position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-          height: 64px; background: rgba(250,246,238,0.97);
+          height: 68px; background: rgba(250,246,238,0.97);
           backdrop-filter: blur(16px);
           border-bottom: 1px solid rgba(224,123,57,0.12);
         }
@@ -593,8 +595,7 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
         /* ══════════ HERO ══════════ */
         .rd-hero {
-          min-height: 100vh;
-          padding-top: 64px;
+          min-height: calc(100vh - 68px);
           background: #FAF6EE;
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -700,8 +701,8 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
         /* RIGHT — IMAGE */
         .rd-hero-right {
-          height: 100vh;
-          min-height: 640px;
+          height: calc(100vh - 68px);
+          min-height: 580px;
           position: relative;
           background: #EFE4D4;
         }
@@ -986,7 +987,7 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         /* ══════════ RESPONSIVE ══════════ */
         @media (max-width: 1100px) {
           .rd-hero { grid-template-columns: 1fr; min-height: auto; }
-          .rd-hero-left { padding: 90px 24px 40px; }
+          .rd-hero-left { padding: 96px 24px 40px; }
           .rd-hero-right { height: 55vw; min-height: 320px; }
           .rd-body-grid { grid-template-columns: 1fr; }
           .rd-sidebar { position: static; }
