@@ -491,6 +491,7 @@ export default function AboutPage() {
               <Link href="/recipes" className="footer-link">📖 All Recipes</Link>
               <Link href="/about"   className="footer-link">ℹ️ About</Link>
               <Link href="/search"  className="footer-link">🔍 Search</Link>
+              <Link href="/privacy" className="footer-link">🔒 Privacy Policy</Link>
             </div>
           </div>
           <div className="footer-bottom">
