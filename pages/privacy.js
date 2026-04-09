@@ -374,6 +374,10 @@ export default function PrivacyPage() {
 
         *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+        /* Fix: globals.css sets navbar to position:fixed, so we need padding-top on body 
+           to prevent hero section from going behind navbar */
+        body { padding-top: 68px !important; }
+
         :root {
           --orange:   #E8873A;
           --orange-d: #C96B20;
@@ -394,11 +398,12 @@ export default function PrivacyPage() {
 
         /* ── NAVBAR ── */
         .navbar {
-          position: sticky; top: 0; z-index: 200;
-          background: rgba(250,246,238,0.92);
+          position: sticky !important; top: 0 !important; z-index: 200;
+          background: rgba(250,246,238,0.92) !important;
           backdrop-filter: blur(12px);
           border-bottom: 1px solid var(--cream2);
-          height: 64px;
+          height: 64px !important;
+          left: auto !important; right: auto !important;
         }
         .navbar-inner {
           max-width: 1200px; margin: 0 auto;
