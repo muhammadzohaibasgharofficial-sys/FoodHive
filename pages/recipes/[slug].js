@@ -560,8 +560,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
         }
 
         /* ══════════ NAVBAR ══════════ */
-        /* Override globals.css .navbar fixed positioning for this page */
-        .navbar { display: none !important; }
         .rd-navbar {
           position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
           height: 68px; background: rgba(250,246,238,0.97);
