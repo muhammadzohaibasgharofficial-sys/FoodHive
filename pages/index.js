@@ -92,7 +92,7 @@ export default function HomePage({ latestRecipes, heroRecipe, allRecipes }) {
             <Link href="/" className="nav-link">Home</Link>
             <Link href="#explore" className="nav-link">Recipes</Link>
             <Link href="#countries" className="nav-link">Cuisines</Link>
-            <Link href="/recipes" className="nav-link">About</Link>
+            <Link href="/about" className="nav-link">About</Link>
           </div>
           <div className="nav-right">
             <button className="nav-icon-btn" onClick={() => router.push('/search')} aria-label="Search">
