@@ -381,6 +381,7 @@ export default function HomePage({ latestRecipes, heroRecipe, allRecipes }) {
           <div className="footer-bottom">
             <span>© 2026 FoodHive</span>
             <span>10 Cuisines · 12 Categories · Updated Daily</span>
+            <Link href="/privacy" className="footer-link" style={{display:'inline', marginBottom:0}}>🔒 Privacy Policy</Link>
           </div>
         </div>
       </footer>
