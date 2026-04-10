@@ -532,7 +532,7 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
       {/* ══════════════════════════════════════════
           ALL STYLES
           ══════════════════════════════════════════ */}
-      <style jsx global>{`
+      <style>{`
         /* ── Base Font Override for Recipe Page ── */
         .rd-hero, .rd-body, .rd-navbar, .related-section, .comments-section, .rd-footer {
           font-family: 'DM Sans', sans-serif;
@@ -597,9 +597,8 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
           background: #FAF6EE;
           display: grid;
           grid-template-columns: 1fr 1fr;
-          align-items: center;
+          align-items: stretch;
           gap: 0;
-          overflow: hidden;
         }
 
         /* LEFT */
