@@ -7,149 +7,197 @@
   "category": "lunch",
   "categoryName": "Lunch Recipes",
   "categoryIcon": "🥗",
+  "seo": {
+    "title": "How to Make Kung Pao Chicken — Easy Chinese Recipe",
+    "metaDescription": "Learn how to make authentic Kung Pao Chicken. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "chinese-lunch-kung-pao-chicken",
+    "mainKeyword": "Kung Pao Chicken",
+    "longTailKeywords": [
+      "how to make Kung Pao Chicken",
+      "easy Kung Pao Chicken recipe",
+      "authentic Chinese Kung Pao Chicken"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Kung Pao Chicken",
+      "Chinese Kung Pao Chicken recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Kung Pao Chicken Recipe",
+    "h2Headings": [
+      "What is Kung Pao Chicken?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "chinese-lunch-kung-pao-chicken.jpg",
+    "imageAlt": "Authentic Chinese Kung Pao Chicken recipe",
+    "imageCaption": "Delicious homemade Kung Pao Chicken — a beloved Chinese classic",
+    "internalLinks": [
+      {
+        "anchor": "Lunch Recipes",
+        "url": "/categories/lunch"
+      },
+      {
+        "anchor": "Chinese Recipes",
+        "url": "/countries/chinese"
+      }
+    ]
+  },
   "prepTime": "20 min",
-  "cookTime": "15 min",
-  "totalTime": "35 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.pexels.com/photos/28674536/pexels-photo-28674536.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/10206002/pexels-photo-10206002.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "This authentic Kung Pao Chicken offers a delightful balance of savory, sweet, sour, and the signature numbing-spicy 'mala' flavor of Sichuan cuisine. Tender velveted chicken, crunchy peanuts, and fragrant dried chilies create a complex and utterly satisfying texture and taste experience, making it a beloved classic for any meal.",
+  "image1": "https://images.unsplash.com/photo-1605704922285-e82455dba38b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBLdW5nJTIwUGFvJTIwQ2hpY2tlbiUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3NTc4MjgxNnww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1709111642691-ebc144470744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxDaGluZXNlJTIwbHVuY2glMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3NTc4MjgxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Experience the vibrant flavors of Sichuan with this classic Kung Pao Chicken. Tender chicken pieces are stir-fried with crunchy peanuts, aromatic vegetables, and a tantalizing sweet, sour, and spicy sauce, creating a truly unforgettable meal. Perfect for a quick and satisfying lunch that brings the taste of China to your home.",
   "ingredients": [
     {
-      "item": "Boneless, skinless chicken thighs",
-      "amount": "1 lb (450g)",
-      "notes": "Cut into 3/4-inch cubes"
+      "item": "Chicken breast",
+      "amount": "1 lb",
+      "notes": "cut into 1-inch cubes"
     },
     {
-      "item": "Shaoxing wine",
-      "amount": "2 tbsp",
-      "notes": "Divided (1 tbsp for marinade, 1 tbsp for sauce)"
-    },
-    {
-      "item": "Light soy sauce",
-      "amount": "3 tbsp",
-      "notes": "Divided (1 tbsp for marinade, 2 tbsp for sauce)"
-    },
-    {
-      "item": "Cornstarch",
-      "amount": "2 tsp",
-      "notes": "Divided (1 tsp for marinade, 1 tsp for sauce)"
-    },
-    {
-      "item": "Sesame oil",
-      "amount": "1 tsp",
-      "notes": "For marinade"
-    },
-    {
-      "item": "White pepper",
-      "amount": "Pinch",
-      "notes": "For marinade"
-    },
-    {
-      "item": "Dark soy sauce",
-      "amount": "1 tbsp",
-      "notes": "For sauce"
-    },
-    {
-      "item": "Chinkiang vinegar",
-      "amount": "2 tbsp",
-      "notes": "For sauce"
-    },
-    {
-      "item": "Granulated sugar",
-      "amount": "1.5 tbsp",
-      "notes": "For sauce"
-    },
-    {
-      "item": "Chicken stock or water",
-      "amount": "3 tbsp",
-      "notes": "For sauce"
-    },
-    {
-      "item": "Unsalted roasted peanuts",
+      "item": "Roasted peanuts",
       "amount": "1/2 cup",
-      "notes": "For finishing"
+      "notes": "unsalted"
     },
     {
       "item": "Dried red chilies",
       "amount": "10-15",
-      "notes": "Sichuan Tianying or facing heaven, cut into 1-inch pieces, seeds shaken out (adjust to taste)"
+      "notes": "whole, stems removed"
     },
     {
       "item": "Sichuan peppercorns",
       "amount": "1 tsp",
-      "notes": "Whole"
+      "notes": ""
     },
     {
-      "item": "Vegetable oil",
-      "amount": "3 tbsp",
-      "notes": "Divided (2 tbsp for chicken, 1 tbsp for stir-fry)"
+      "item": "Garlic",
+      "amount": "3 cloves",
+      "notes": "minced"
     },
     {
       "item": "Fresh ginger",
       "amount": "1 tbsp",
-      "notes": "Finely minced"
-    },
-    {
-      "item": "Garlic",
-      "amount": "2 cloves",
-      "notes": "Finely minced"
+      "notes": "minced"
     },
     {
       "item": "Scallions",
-      "amount": "2",
-      "notes": "White and light green parts only, cut into 1/2-inch sections"
+      "amount": "3 stalks",
+      "notes": "sliced into 1-inch pieces, white and green parts separated"
+    },
+    {
+      "item": "Red bell pepper",
+      "amount": "1/2",
+      "notes": "diced"
+    },
+    {
+      "item": "Green bell pepper",
+      "amount": "1/2",
+      "notes": "diced"
+    },
+    {
+      "item": "Cooking oil",
+      "amount": "3 tbsp",
+      "notes": "for stir-frying"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": "2 tbsp",
+      "notes": "for marinade"
+    },
+    {
+      "item": "Shaoxing wine",
+      "amount": "1 tbsp",
+      "notes": "for marinade"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "1 tbsp",
+      "notes": "for marinade"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": "2 tbsp",
+      "notes": "for sauce"
+    },
+    {
+      "item": "Rice vinegar",
+      "amount": "2 tbsp",
+      "notes": "for sauce"
+    },
+    {
+      "item": "Sugar",
+      "amount": "1.5 tbsp",
+      "notes": "for sauce"
+    },
+    {
+      "item": "Shaoxing wine",
+      "amount": "1 tbsp",
+      "notes": "for sauce"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": "1 tsp",
+      "notes": "for sauce"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "1 tsp",
+      "notes": "for sauce, mixed with 2 tbsp water"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Marinate the Chicken",
-      "text": "Cut the chicken thighs into 3/4-inch cubes. In a medium bowl, combine the chicken with 1 tbsp Shaoxing wine, 1 tbsp light soy sauce, 1 tsp cornstarch, 1 tsp sesame oil, and a pinch of white pepper. Mix thoroughly until the chicken is well coated. Let it marinate at room temperature for at least 15 minutes, or refrigerate for up to 30 minutes. This velveting step is crucial for tender chicken.",
+      "text": "In a medium bowl, combine the cubed chicken with 2 tablespoons of soy sauce, 1 tablespoon of Shaoxing wine, and 1 tablespoon of cornstarch. Mix well to coat the chicken evenly. Set aside to marinate for at least 15 minutes while you prepare other ingredients.",
       "time": "15 min"
     },
     {
       "step": 2,
       "title": "Prepare the Kung Pao Sauce",
-      "text": "In a small bowl, whisk together the remaining 1 tbsp Shaoxing wine, 2 tbsp light soy sauce, 1 tbsp dark soy sauce, 2 tbsp Chinkiang vinegar, 1.5 tbsp granulated sugar, the remaining 1 tsp cornstarch, and 3 tbsp chicken stock or water. Mix until the sugar is dissolved and the cornstarch is fully incorporated. Set aside.",
+      "text": "In a small bowl, whisk together the sauce ingredients: 2 tablespoons soy sauce, 2 tablespoons rice vinegar, 1.5 tablespoons sugar, 1 tablespoon Shaoxing wine, and 1 teaspoon sesame oil. In a separate tiny bowl, mix 1 teaspoon cornstarch with 2 tablespoons water to create a slurry. Set both aside.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Prepare Aromatics and Chilies",
-      "text": "Gather and prepare all your aromatics: cut dried red chilies into 1-inch pieces (shaking out most of the seeds for less heat), measure out Sichuan peppercorns, mince ginger and garlic, and slice scallions. Ensure everything is ready and within easy reach, as the stir-frying process is very fast.",
-      "time": "5 min"
+      "title": "Stir-fry Aromatics and Chilies",
+      "text": "Heat 2 tablespoons of cooking oil in a large wok or skillet over medium-high heat. Add the dried red chilies and Sichuan peppercorns. Stir-fry for about 30 seconds until fragrant, being careful not to burn the chilies. Remove them from the wok and set aside, leaving the oil in the wok.",
+      "time": "2 min"
     },
     {
       "step": 4,
       "title": "Cook the Chicken",
-      "text": "Heat 2 tbsp of vegetable oil in a well-seasoned wok or large heavy-bottomed skillet over medium-high heat until shimmering. Add the marinated chicken cubes in a single layer (cook in two batches if necessary to avoid overcrowding, which will steam the chicken instead of searing it). Stir-fry for 2-3 minutes until the chicken is just cooked through and lightly browned. Remove the chicken from the wok and set aside.",
+      "text": "Increase the heat to high. Add the marinated chicken to the hot wok in a single layer and stir-fry for 3-4 minutes until the chicken is cooked through and lightly browned on all sides. Remove the chicken from the wok and set aside with the chilies and peppercorns.",
       "time": "4 min"
     },
     {
       "step": 5,
-      "title": "Infuse Aromatics and Spices",
-      "text": "Add another 1 tbsp of vegetable oil to the wok (if needed). Reduce the heat to medium. Add the dried red chilies and Sichuan peppercorns. Stir-fry for about 30 seconds to 1 minute until fragrant and the chilies turn a darker red, being careful not to burn them (which can make them bitter). Immediately add the minced ginger and garlic, stir-frying for another 30 seconds until fragrant.",
-      "time": "2 min"
+      "title": "Saute Vegetables and Aromatics",
+      "text": "Add the remaining 1 tablespoon of cooking oil to the wok. Add the minced garlic, minced ginger, and the white parts of the scallions. Stir-fry for 1 minute until fragrant. Add the diced red and green bell peppers and stir-fry for another 2-3 minutes until slightly tender-crisp.",
+      "time": "4 min"
     },
     {
       "step": 6,
       "title": "Combine and Finish",
-      "text": "Return the cooked chicken to the wok. Add the sliced scallions and the unsalted roasted peanuts. Give the prepared Kung Pao sauce a quick re-whisk (as cornstarch tends to settle) and pour it evenly over the ingredients in the wok. Increase the heat to high and stir-fry continuously for 1-2 minutes until the sauce thickens and coats all the ingredients, creating a glossy, enticing finish. Serve immediately with steamed rice.",
-      "time": "3 min"
+      "text": "Return the cooked chicken, dried chilies, and Sichuan peppercorns to the wok. Pour in the prepared Kung Pao sauce and stir quickly to coat everything. Add the cornstarch slurry and stir constantly until the sauce thickens to your desired consistency. Finally, stir in the roasted peanuts and the green parts of the scallions. Serve immediately.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
-    "calories": "450 kcal",
-    "protein": "35g",
-    "carbs": "25g",
-    "fat": "25g",
+    "calories": "380 kcal",
+    "protein": "32g",
+    "carbs": "30g",
+    "fat": "16g",
     "fiber": "3g",
-    "sugar": "10g",
-    "sodium": "800mg",
-    "cholesterol": "90mg"
+    "sugar": "12g",
+    "sodium": "980mg",
+    "cholesterol": "80mg"
   },
   "tags": [
     "Chinese",
@@ -157,19 +205,102 @@
     "authentic",
     "traditional",
     "lunch",
-    "stir-fry",
+    "Kung Pao Chicken",
     "spicy",
-    "chicken"
+    "chicken",
+    "stir-fry"
   ],
   "tips": [
-    "**Mise en Place is Key:** Have all your ingredients prepped and ready before you start cooking, as stir-frying moves very quickly.",
-    "**Wok Heat:** Ensure your wok is properly heated before adding oil and ingredients to achieve the characteristic 'wok hei' (breath of the wok) flavor.",
-    "**Don't Burn Chilies:** Keep a close eye on the dried chilies and Sichuan peppercorns; they can burn quickly and turn bitter. Adjust heat as necessary.",
-    "**Velveting:** The cornstarch in the marinade is essential for tender chicken. Don't skip this step!",
-    "**Fresh Peanuts:** For best flavor and crunch, use freshly roasted, unsalted peanuts. If using raw, roast them gently in a dry pan until fragrant before adding."
+    "For authentic flavor, do not skip the Sichuan peppercorns; their unique numbing sensation is key to Kung Pao. Toast them lightly before adding to release their aroma.",
+    "Adjust the amount of dried chilies to your preferred spice level. For a milder dish, use fewer chilies or remove the seeds. For more heat, add more.",
+    "Serve Kung Pao Chicken immediately over steamed white rice to best enjoy the contrasting textures and hot, fresh flavors."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Kung Pao Chicken\n\nKung Pao Chicken, known as Gong Bao Ji Ding (宫保鸡丁) in Chinese, is a quintessential dish from the Sichuan province, famed for its bold and complex flavors. The dish is named after Ding Baozhen (1820–1886), a late Qing Dynasty official who served as the governor of Sichuan. His official title was 'Gong Bao,' meaning 'Palace Guardian.' Legend has it that the dish was either invented by him personally or by his household cook, featuring the distinctive numbing-spicy (mala), savory, sweet, and sour profile that defines Sichuan cuisine. It quickly gained popularity and has since become a global icon of Chinese cooking, evolving slightly in different regions but always maintaining its core components of diced chicken, dried chilies, and peanuts.\n\n## Why This Recipe Works\n\nThis recipe for Kung Pao Chicken truly captures the authentic essence of the dish through a meticulous balance of traditional flavors and cooking techniques. The chicken is 'velveted' using a cornstarch and Shaoxing wine marinade, which ensures it remains incredibly tender and moist, even after rapid stir-frying. The sauce, a harmonious blend of light and dark soy sauce, Chinkiang vinegar, sugar, and Shaoxing wine, delivers the complex savory, sweet, and sour notes crucial to the dish's identity. Furthermore, the initial stir-frying of dried chilies and Sichuan peppercorns in oil infuses the entire dish with the signature 'mala' (numbing-spicy) sensation, creating a truly addictive and authentic experience that tantalizes the palate with every bite.\n\n## Chef Tips for Perfection\n\nFor the most authentic and delicious Kung Pao Chicken, always opt for boneless, skinless chicken thighs; their higher fat content ensures a juicier and more tender result than breast meat. Achieving 'wok hei' (the 'breath of the wok') is paramount for stir-frying; ensure your wok is smoking hot before adding any oil or ingredients. Prepare all your ingredients (mise en place) before you begin cooking, as the stir-frying process is incredibly fast and requires your full attention. When stir-frying the dried chilies and Sichuan peppercorns, maintain a medium heat to prevent them from burning, which can introduce an undesirable bitter taste. Lastly, always give your prepared sauce a quick whisk right before adding it to the wok, as cornstarch tends to settle at the bottom.\n\n## Serving Suggestions\n\nKung Pao Chicken is traditionally served immediately, piping hot, over a generous portion of freshly steamed white rice. The rich, glossy sauce perfectly coats the rice, making for a satisfying and complete meal. To create a more elaborate Chinese feast, consider pairing it with complementary dishes such as stir-fried seasonal greens like garlicky bok choy or gai lan, a light and comforting clear egg drop soup, or a simple vegetable stir-fry. It also pairs wonderfully with plain noodles or a side of savory pan-fried dumplings. The bold, complex flavors of Kung Pao Chicken make it a versatile and deeply comforting main course for any lunch or dinner occasion.",
-  "publishedAt": "2026-04-04T16:30:27.426Z"
+  "article": "Kung Pao Chicken: Your Ultimate Guide to a Classic Chinese Lunch Recipe\n\nFew dishes capture the vibrant essence of Chinese cuisine quite like Kung Pao Chicken. This iconic dish, with its tantalizing blend of spicy, sweet, and savory flavors, has transcended borders to become a global favorite. Perfect for a quick yet satisfying Chinese lunch, Kung Pao Chicken offers a delightful culinary adventure right in your own kitchen. If you've ever wanted to recreate that authentic restaurant taste at home, you've come to the right place. We'll guide you through every step to master this incredibly flavorful and surprisingly approachable recipe.\n\n## What is Kung Pao Chicken?\n\nKung Pao Chicken (Gong Bao Ji Ding) is a classic Szechuan (Sichuan) dish renowned for its bold flavors and distinctive texture. Originating from the Sichuan province in southwestern China, a region famous for its fiery and numbing spices, this dish perfectly embodies the characteristics of Szechuan cuisine. It typically features diced chicken stir-fried with peanuts, vegetables (often bell peppers, zucchini, or water chestnuts), and a generous amount of dried chilies and Sichuan peppercorns. The combination of chili heat, the unique citrusy-peppery tingle of Sichuan peppercorns, and a rich, slightly sweet, and tangy sauce creates a complex flavor profile that is utterly addictive. It's not just about the spice; it's about a harmonious balance that makes each bite of Kung Pao Chicken an experience. Despite its complex taste, it's a remarkably quick dish to prepare, making it an ideal choice for a homemade Chinese lunch.\n\n## Ingredients You Need\n\nTo create an authentic and delicious Kung Pao Chicken, you'll need to gather a few key components for the chicken, the sauce, and the stir-fry itself.\n\nFor the Chicken Marinade:\n*   1 lb boneless, skinless chicken breasts or thighs, diced into 1-inch cubes\n*   1 tablespoon soy sauce (light)\n*   1 tablespoon Shaoxing wine (or dry sherry)\n*   1 teaspoon cornstarch\n*   1 teaspoon sesame oil\n*   A pinch of white pepper\n\nFor the Kung Pao Sauce:\n*   2 tablespoons soy sauce (light)\n*   1 tablespoon dark soy sauce (for color, optional)\n*   *Correction: 1 tablespoon rice vinegar (not included in original list, but essential)*\n*   2 tablespoons rice vinegar\n*   1 tablespoon Shaoxing wine\n*   2 tablespoons sugar\n*   1 teaspoon cornstarch\n*   1/4 cup chicken broth or water\n*   1/2 teaspoon sesame oil\n\nFor the Stir-fry:\n*   2-3 tablespoons vegetable oil (or peanut oil)\n*   10-15 dried red chilies (Sichuan chilies preferred, stems removed, cut in half if desired)\n*   1 teaspoon Sichuan peppercorns\n*   3-4 cloves garlic, minced\n*   1-inch ginger, grated or minced\n*   1/2 cup roasted peanuts (unsalted is best)\n*   1/2 cup diced bell peppers (red or green)\n*   1/2 cup diced zucchini or cucumber (optional)\n*   1/4 cup chopped green onions (for garnish)\n\n## Step-by-Step Instructions\n\nPreparing Kung Pao Chicken at home is a rewarding experience. Follow these steps for a perfect Chinese lunch:\n\n1.  **Marinate the Chicken:** In a medium bowl, combine the diced chicken with soy sauce, Shaoxing wine, cornstarch, sesame oil, and white pepper. Mix well and let it marinate for at least 15-20 minutes at room temperature, or up to 30 minutes in the refrigerator. This tenderizes the chicken and ensures it's flavorful.\n\n2.  **Prepare the Sauce:** In a small bowl, whisk together all the Kung Pao sauce ingredients: light soy sauce, dark soy sauce (if using), rice vinegar, Shaoxing wine, sugar, cornstarch, chicken broth, and sesame oil. Set aside.\n\n3.  **Prepare Aromatics and Vegetables:** Have your minced garlic, ginger, dried chilies, Sichuan peppercorns, diced bell peppers, and zucchini (if using) ready and within arm's reach. This is crucial for stir-frying.\n\n4.  **Stir-fry the Chicken:** Heat 1-2 tablespoons of vegetable oil in a wok or large skillet over high heat until shimmering. Add the marinated chicken in a single layer and stir-fry for 2-3 minutes until it's mostly cooked through and lightly browned. Remove the chicken from the wok and set aside.\n\n5.  **Aromatics and Chilies:** Add another tablespoon of oil to the wok if needed. Reduce heat to medium-high. Add the dried red chilies and Sichuan peppercorns. Stir-fry for 30 seconds to 1 minute until fragrant and the chilies have darkened slightly (be careful not to burn them).\n\n6.  **Add Ginger and Garlic:** Add the minced ginger and garlic to the wok. Stir-fry for another 15-20 seconds until fragrant.\n\n7.  **Add Vegetables:** Add the diced bell peppers and zucchini (if using) to the wok. Stir-fry for 2-3 minutes until they are slightly tender-crisp.\n\n8.  **Combine and Sauce:** Return the cooked chicken to the wok. Give the prepared Kung Pao sauce a quick whisk (as cornstarch tends to settle) and pour it over the chicken and vegetables. Stir constantly for 1-2 minutes until the sauce thickens and coats everything beautifully.\n\n9.  **Finish with Peanuts:** Remove the wok from the heat and stir in the roasted peanuts.\n\n10. **Serve:** Garnish with chopped green onions and serve immediately with steamed white rice.\n\n## Pro Tips for the Best Results\n\nAchieving restaurant-quality Kung Pao Chicken at home involves a few key techniques:\n\n*   **Wok Hei:** If you have a wok, use it! High heat is essential for stir-frying. Get your wok smoking hot before adding ingredients. If using a skillet, ensure it's large enough to prevent overcrowding, which steams rather than fries the ingredients. Cook in batches if necessary.\n*   **Mise en Place:** Have all your ingredients prepped and ready before you start cooking. Stir-frying is fast, and you won't have time to chop or measure once the heat is on.\n*   **Velveting Chicken:** The cornstarch in the marinade helps \"velvet\" the chicken, giving it a tender, silky texture. Don't skip this step!\n*   **Fresh Ingredients:** Use fresh garlic and ginger for the best flavor.\n*   **Adjusting Spice:** For less heat, use fewer dried chilies or remove the seeds. For more heat, add extra chilies or a dash of chili oil at the end. The Sichuan peppercorns provide a unique numbing sensation; adjust to your preference.\n*   **Roast Your Own Peanuts:** While pre-roasted peanuts work, gently toasting raw peanuts in a dry pan for a few minutes before adding them to the dish can enhance their flavor and crunch.\n\n## Serving Suggestions\n\nKung Pao Chicken is a meal in itself, but it truly shines when paired with simple accompaniments that allow its complex flavors to stand out. The classic pairing is, of course, freshly steamed white rice. The rice soaks up the delicious sauce, providing a perfect counterpoint to the spice and richness of the chicken.\n\nOther excellent serving suggestions include:\n*   **Brown Rice:** A healthier alternative that still complements the flavors.\n*   **Noodles:** Serve it over plain lo mein or thin rice noodles for a heartier meal.\n*   **Steamed Vegetables:** A side of blanched or steamed broccoli, bok choy, or green beans can add freshness and balance to your Chinese lunch.\n*   **Egg Drop Soup:** A light, comforting soup makes for a great appetizer.\n\n## Variations and Substitutions\n\nWhile the classic Kung Pao Chicken recipe is fantastic, it's also quite adaptable to different preferences and dietary needs.\n\n*   **Protein Alternatives:** Not a fan of chicken? You can easily substitute it with other proteins. Try diced pork tenderloin, shrimp, firm tofu (pressed and diced), or even beef (flank steak cut against the grain). Adjust cooking times accordingly.\n*   **Vegetable Additions:** Feel free to experiment with other vegetables. Water chestnuts, bamboo shoots, mushrooms (shiitake or cremini), or snow peas can all make delicious additions.\n*   **Nut-Free Version:** If you have a peanut allergy, simply omit the peanuts. You can replace them with toasted cashews or almonds for a similar crunch, or skip nuts entirely.\n*   **Gluten-Free:** Use tamari instead of regular soy sauce, and ensure your Shaoxing wine is gluten-free (some brands contain wheat). Cornstarch is naturally gluten-free.\n*   **Vegetarian/Vegan:** Use firm tofu or tempeh as the protein base. Ensure your chicken broth is replaced with vegetable broth, and omit any fish sauce if used in other variations.\n*   **Spice Level:** Adjust the number of dried chilies and Sichuan peppercorns to suit your palate. For a milder version, use fewer chilies and toast them briefly. For extra heat, add a dash of chili oil at the end.\n\nKung Pao Chicken is more than just a dish; it's a celebration of flavors and textures that represent the heart of Szechuan cuisine. By following these instructions and tips, you can bring the excitement of an authentic Chinese lunch right into your home kitchen. Enjoy the process, savor the aromas, and delight in creating a meal that's sure to impress!",
+  "jsonLdSchema": {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    "name": "Kung Pao Chicken",
+    "description": "Learn how to make authentic Kung Pao Chicken. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
+    "image": [
+      "https://images.unsplash.com/photo-1605704922285-e82455dba38b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBLdW5nJTIwUGFvJTIwQ2hpY2tlbiUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3NTc4MjgxNnww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1709111642691-ebc144470744?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxDaGluZXNlJTIwbHVuY2glMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3NTc4MjgxN3ww&ixlib=rb-4.1.0&q=80&w=1080"
+    ],
+    "author": {
+      "@type": "Organization",
+      "name": "FoodHive World"
+    },
+    "datePublished": "2026-04-10T11:30:51.452Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
+    "recipeCategory": "Lunch Recipes",
+    "recipeCuisine": "Chinese",
+    "keywords": "Kung Pao Chicken, how to make Kung Pao Chicken, easy Kung Pao Chicken recipe, authentic Chinese Kung Pao Chicken",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "312"
+    },
+    "nutrition": {
+      "@type": "NutritionInformation",
+      "calories": "380 kcal"
+    },
+    "recipeIngredient": [
+      "1 lb Chicken breast",
+      "1/2 cup Roasted peanuts",
+      "10-15 Dried red chilies",
+      "1 tsp Sichuan peppercorns",
+      "3 cloves Garlic",
+      "1 tbsp Fresh ginger",
+      "3 stalks Scallions",
+      "1/2 Red bell pepper",
+      "1/2 Green bell pepper",
+      "3 tbsp Cooking oil",
+      "2 tbsp Soy sauce",
+      "1 tbsp Shaoxing wine",
+      "1 tbsp Cornstarch",
+      "2 tbsp Soy sauce",
+      "2 tbsp Rice vinegar",
+      "1.5 tbsp Sugar",
+      "1 tbsp Shaoxing wine",
+      "1 tsp Sesame oil",
+      "1 tsp Cornstarch"
+    ],
+    "recipeInstructions": [
+      {
+        "@type": "HowToStep",
+        "name": "Marinate the Chicken",
+        "text": "In a medium bowl, combine the cubed chicken with 2 tablespoons of soy sauce, 1 tablespoon of Shaoxing wine, and 1 tablespoon of cornstarch. Mix well to coat the chicken evenly. Set aside to marinate for at least 15 minutes while you prepare other ingredients."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Prepare the Kung Pao Sauce",
+        "text": "In a small bowl, whisk together the sauce ingredients: 2 tablespoons soy sauce, 2 tablespoons rice vinegar, 1.5 tablespoons sugar, 1 tablespoon Shaoxing wine, and 1 teaspoon sesame oil. In a separate tiny bowl, mix 1 teaspoon cornstarch with 2 tablespoons water to create a slurry. Set both aside."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Stir-fry Aromatics and Chilies",
+        "text": "Heat 2 tablespoons of cooking oil in a large wok or skillet over medium-high heat. Add the dried red chilies and Sichuan peppercorns. Stir-fry for about 30 seconds until fragrant, being careful not to burn the chilies. Remove them from the wok and set aside, leaving the oil in the wok."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Cook the Chicken",
+        "text": "Increase the heat to high. Add the marinated chicken to the hot wok in a single layer and stir-fry for 3-4 minutes until the chicken is cooked through and lightly browned on all sides. Remove the chicken from the wok and set aside with the chilies and peppercorns."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Saute Vegetables and Aromatics",
+        "text": "Add the remaining 1 tablespoon of cooking oil to the wok. Add the minced garlic, minced ginger, and the white parts of the scallions. Stir-fry for 1 minute until fragrant. Add the diced red and green bell peppers and stir-fry for another 2-3 minutes until slightly tender-crisp."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Combine and Finish",
+        "text": "Return the cooked chicken, dried chilies, and Sichuan peppercorns to the wok. Pour in the prepared Kung Pao sauce and stir quickly to coat everything. Add the cornstarch slurry and stir constantly until the sauce thickens to your desired consistency. Finally, stir in the roasted peanuts and the green parts of the scallions. Serve immediately."
+      }
+    ]
+  },
+  "publishedAt": "2026-04-10T11:30:51.484Z"
 }
