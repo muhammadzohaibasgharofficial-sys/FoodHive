@@ -191,10 +191,18 @@ function CommentsSection({ slug }) {
 export default function RecipeDetail({ recipe, relatedRecipes }) {
   const [servings, setServings] = useState(recipe?.servings || 4)
   const [activeTab, setActiveTab] = useState('instructions')
+  const [isMobile, setIsMobile] = useState(false)
   const bodyRef = useRef(null)
   const router = useRouter()
 
   useEffect(() => { window.scrollTo(0, 0) }, [recipe?.slug])
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth <= 1100)
+    check()
+    window.addEventListener('resize', check)
+    return () => window.removeEventListener('resize', check)
+  }, [])
 
   useEffect(() => {
     const bar = document.querySelector('.scroll-bar')
@@ -272,13 +280,26 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
       {/* ══════════════════════════════════════════
           HERO — Left: info | Right: one big image
+          INLINE STYLES — override-proof
           ══════════════════════════════════════════ */}
-      <section className="rd-hero">
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr',
+        minHeight: 'calc(100vh - 68px)',
+        background: '#FAF6EE',
+        marginTop: '68px',
+      }}>
         {/* LEFT — Recipe Info */}
-        <div className="rd-hero-left">
+        <div style={{
+          padding: isMobile ? '40px 24px' : '60px 48px 60px 60px',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'center',
+          gap: 0,
+        }}>
 
           {/* Breadcrumb tags */}
-          <div className="rd-tags">
+          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', marginBottom: 20 }}>
             <Link href={`/countries/${recipe.country}`} className="rd-tag">
               {recipe.countryFlag} {recipe.countryName}
             </Link>
@@ -338,26 +359,61 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
           </div>
         </div>
 
-        {/* RIGHT — Single Big Image */}
-        <div className="rd-hero-right">
-          <div className="rd-image-frame">
-            <img
-              src={recipe.image1}
-              alt={recipe.title}
-              className="rd-hero-image"
-              loading="eager"
-            />
-            {/* Cuisine badge overlay */}
-            <div className="rd-image-badge">
-              <span className="rd-badge-flag">{recipe.countryFlag}</span>
-              <div>
-                <div className="rd-badge-cuisine">{recipe.cuisine}</div>
-                <div className="rd-badge-cat">{recipe.categoryIcon} {recipe.categoryName}</div>
+        {/* RIGHT — Single Big Image — fully inline, nothing can override this */}
+        <div style={{
+          position: 'relative',
+          minHeight: isMobile ? '60vw' : 'calc(100vh - 68px)',
+          background: '#EFE4D4',
+          overflow: 'hidden',
+        }}>
+          <img
+            src={recipe.image1}
+            alt={recipe.title}
+            style={{
+              position: 'absolute',
+              inset: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              objectPosition: 'center',
+              display: 'block',
+            }}
+            loading="eager"
+          />
+          {/* Dark gradient at bottom */}
+          <div style={{
+            position: 'absolute',
+            bottom: 0, left: 0, right: 0,
+            height: '35%',
+            background: 'linear-gradient(to top, rgba(26,15,8,0.5) 0%, transparent 100%)',
+            pointerEvents: 'none',
+          }} />
+          {/* Cuisine badge */}
+          <div style={{
+            position: 'absolute',
+            bottom: 28, left: 28,
+            background: 'rgba(255,255,255,0.92)',
+            backdropFilter: 'blur(12px)',
+            borderRadius: 14,
+            padding: '12px 18px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: 12,
+            zIndex: 2,
+            boxShadow: '0 4px 20px rgba(0,0,0,0.15)',
+          }}>
+            <span style={{ fontSize: 28 }}>{recipe.countryFlag}</span>
+            <div>
+              <div style={{ fontFamily: "'DM Serif Display', serif", fontSize: 15, color: '#1A0F08' }}>
+                {recipe.cuisine}
+              </div>
+              <div style={{ fontSize: 12, color: '#7A6A5A', marginTop: 2 }}>
+                {recipe.categoryIcon} {recipe.categoryName}
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
 
       {/* ══════════════════════════════════════════
           RECIPE BODY
@@ -597,8 +653,9 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
           background: #FAF6EE;
           display: grid;
           grid-template-columns: 1fr 1fr;
-          align-items: stretch;
+          align-items: center;
           gap: 0;
+          overflow: hidden;
         }
 
         /* LEFT */
@@ -983,9 +1040,6 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
 
         /* ══════════ RESPONSIVE ══════════ */
         @media (max-width: 1100px) {
-          .rd-hero { grid-template-columns: 1fr; min-height: auto; }
-          .rd-hero-left { padding: 96px 24px 40px; }
-          .rd-hero-right { height: 55vw; min-height: 320px; }
           .rd-body-grid { grid-template-columns: 1fr; }
           .rd-sidebar { position: static; }
           .related-grid { grid-template-columns: 1fr 1fr; }
@@ -1001,10 +1055,8 @@ export default function RecipeDetail({ recipe, relatedRecipes }) {
           .rd-stat-item { padding: 0 12px; }
           .related-grid { grid-template-columns: 1fr; }
           .nutr-grid-full { grid-template-columns: repeat(2, 1fr); }
-          .rd-hero-right { height: 70vw; }
         }
         @media (max-width: 480px) {
-          .rd-hero-right { height: 80vw; }
           .rd-title { font-size: 28px; }
         }
 
