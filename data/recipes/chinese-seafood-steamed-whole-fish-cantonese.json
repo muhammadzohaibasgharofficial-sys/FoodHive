@@ -7,108 +7,147 @@
   "category": "seafood",
   "categoryName": "Seafood",
   "categoryIcon": "🦞",
+  "seo": {
+    "title": "How to Make Steamed Whole Fish Cantonese — Easy Chinese Recipe",
+    "metaDescription": "Learn how to make authentic Steamed Whole Fish Cantonese. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "chinese-seafood-steamed-whole-fish-cantonese",
+    "mainKeyword": "Steamed Whole Fish Cantonese",
+    "longTailKeywords": [
+      "how to make Steamed Whole Fish Cantonese",
+      "easy Steamed Whole Fish Cantonese recipe",
+      "authentic Chinese Steamed Whole Fish Cantonese"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Steamed Whole Fish Cantonese",
+      "Chinese Steamed Whole Fish Cantonese recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Steamed Whole Fish Cantonese Recipe",
+    "h2Headings": [
+      "What is Steamed Whole Fish Cantonese?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "chinese-seafood-steamed-whole-fish-cantonese.jpg",
+    "imageAlt": "Authentic Chinese Steamed Whole Fish Cantonese recipe",
+    "imageCaption": "Delicious homemade Steamed Whole Fish Cantonese — a beloved Chinese classic",
+    "internalLinks": [
+      {
+        "anchor": "Seafood",
+        "url": "/categories/seafood"
+      },
+      {
+        "anchor": "Chinese Recipes",
+        "url": "/countries/chinese"
+      }
+    ]
+  },
   "prepTime": "20 min",
   "cookTime": "15 min",
   "totalTime": "35 min",
   "servings": 4,
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.pexels.com/photos/36090555/pexels-photo-36090555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/6880539/pexels-photo-6880539.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "This quintessential Cantonese dish celebrates the pristine freshness of whole fish, steamed to tender perfection. It's renowned for its delicate, savory flavors, silky texture, and the aromatic burst created by hot oil poured over fresh ginger and scallions, making it a beloved centerpiece at any Chinese table.",
+  "image1": "https://images.unsplash.com/photo-1589897623340-903fb346410d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTdGVhbWVkJTIwV2hvbGUlMjBGaXNoJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MzEyMDEwfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1603662953513-5d74185ffb75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTdGVhbWVkJTIwV2hvbGUlMjBGaXNoJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MzEyMDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Steamed Whole Fish Cantonese is a classic dish revered for its delicate flavors and tender texture. This traditional recipe highlights the freshness of the fish, complemented by aromatic ginger, scallions, and a savory soy sauce dressing. It's a simple yet elegant preparation that embodies the essence of Cantonese home cooking.",
   "ingredients": [
     {
-      "item": "Whole Fresh Fish (e.g., Seabass, Grouper, Red Snapper)",
-      "amount": "1.5 - 2 lbs",
-      "notes": "Scaled, gutted, gills removed, with head and tail intact"
+      "item": "Whole white fish (e.g., snapper, branzino, striped bass)",
+      "amount": "1.5-2 lb",
+      "notes": "scaled, gutted, cleaned"
     },
     {
-      "item": "Fresh Ginger",
-      "amount": "4-inch piece",
-      "notes": "Half sliced, half julienned"
+      "item": "Fresh ginger",
+      "amount": "4 inches",
+      "notes": "half sliced, half julienned"
     },
     {
-      "item": "Scallions (Green Onions)",
+      "item": "Green onions (scallions)",
       "amount": "6-8 stalks",
-      "notes": "Half cut into 2-inch sections, half julienned for garnish"
+      "notes": "half cut into 2-inch sections, half julienned"
     },
     {
-      "item": "Shaoxing Wine",
-      "amount": "1 tablespoon",
-      "notes": "Optional, for marination"
+      "item": "Light soy sauce",
+      "amount": "3 tbsp",
+      "notes": "for dressing"
     },
     {
-      "item": "White Pepper",
-      "amount": "Pinch",
-      "notes": "Optional, for marination"
+      "item": "Sesame oil",
+      "amount": "1 tsp",
+      "notes": "for dressing"
     },
     {
-      "item": "Light Soy Sauce (生抽 - Sang Chau)",
-      "amount": "4 tablespoons",
-      "notes": "Or to taste"
+      "item": "Sugar",
+      "amount": "1/2 tsp",
+      "notes": "for dressing"
     },
     {
-      "item": "Peanut Oil (or other neutral high smoke point oil)",
-      "amount": "3 tablespoons"
+      "item": "White pepper",
+      "amount": "pinch",
+      "notes": "optional, for dressing"
     },
     {
-      "item": "Sesame Oil",
-      "amount": "1 teaspoon",
-      "notes": "For drizzling"
+      "item": "Cooking oil (e.g., peanut or vegetable oil)",
+      "amount": "2 tbsp",
+      "notes": "for heating"
     },
     {
-      "item": "Fresh Cilantro",
-      "amount": "Small bunch",
-      "notes": "For garnish, roughly chopped"
+      "item": "Fresh cilantro",
+      "amount": "1/4 cup",
+      "notes": "roughly chopped, for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Fish",
-      "text": "Ensure the fish is thoroughly cleaned, scaled, and gutted. Pat the fish completely dry with paper towels. Make two or three diagonal slits on both sides of the fish, about 1/2 inch deep, to allow for even cooking. Place a few slices of ginger and 2-inch sections of scallions inside the fish cavity and on top of the fish. If using, lightly sprinkle with Shaoxing wine and a pinch of white pepper.",
+      "text": "Rinse the cleaned fish thoroughly under cold water. Pat it completely dry with paper towels. Make two or three diagonal slashes on both sides of the fish, about 1/2 inch deep. This helps the fish cook evenly and absorb flavors. Place the fish on a heatproof plate that fits inside your steamer.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Prepare Steaming Setup",
-      "text": "Fill a wok or large pot with about 2-3 inches of water. Place a steaming rack or trivet inside. Bring the water to a rolling boil over high heat. While the water heats, prepare a heat-proof platter large enough to comfortably hold the fish.",
-      "time": "5 min"
+      "title": "Arrange Steaming Aromatics",
+      "text": "Place the ginger slices and the 2-inch sections of green onions into the fish cavity and scatter some over and under the fish on the plate. These aromatics will infuse flavor into the fish as it steams and help to remove any fishy odor.",
+      "time": "3 min"
     },
     {
       "step": 3,
       "title": "Steam the Fish",
-      "text": "Carefully place the prepared fish onto the heat-proof platter. Once the water is boiling vigorously, place the platter with the fish onto the steaming rack. Cover the wok/pot tightly with a lid and steam for 8-12 minutes, depending on the thickness of the fish. A 1.5-2 lb fish usually takes about 10-12 minutes. The fish is cooked when the flesh near the bone turns opaque and flakes easily with a fork.",
+      "text": "Bring a large pot or wok with about 2-3 inches of water to a rolling boil. Carefully place the plate with the fish onto a steaming rack inside the pot, ensuring the water does not touch the plate. Cover tightly and steam for 8-12 minutes, depending on the fish's thickness. The fish is done when the flesh turns opaque and flakes easily with a fork.",
       "time": "12 min"
     },
     {
       "step": 4,
-      "title": "Remove and Discard Aromatics",
-      "text": "Once cooked, carefully remove the platter from the steamer. Discard the ginger slices and scallion sections that were steamed with the fish, as they will have absorbed any fishy odors. Gently drain any accumulated liquid from the platter, as this can dilute the final sauce.",
-      "time": "2 min"
-    },
-    {
-      "step": 5,
-      "title": "Garnish and Heat Oil",
-      "text": "Arrange the fresh julienned ginger and julienned scallions evenly over the top of the steamed fish. Heat the peanut oil in a small saucepan over high heat until it just begins to smoke lightly. This ensures the oil is hot enough to 'blanch' the aromatics.",
+      "title": "Prepare the Dressing",
+      "text": "While the fish is steaming, combine the light soy sauce, sesame oil, sugar, and a pinch of white pepper in a small bowl. Stir until the sugar is dissolved. Set aside.",
       "time": "3 min"
     },
     {
+      "step": 5,
+      "title": "Finish the Fish",
+      "text": "Once steamed, carefully remove the fish plate from the steamer. Discard the cooked ginger slices and green onion sections from the fish and the plate. They have served their purpose. Carefully drain any accumulated liquid from the plate; this liquid can be fishy.",
+      "time": "2 min"
+    },
+    {
       "step": 6,
-      "title": "Dress and Serve",
-      "text": "Carefully pour the hot, smoking peanut oil directly over the julienned ginger and scallions on the fish. You will hear a satisfying sizzle as the aromatics release their fragrance. Immediately pour the light soy sauce evenly over the fish, then drizzle with sesame oil. Garnish with fresh cilantro and serve immediately, ideally with steamed jasmine rice.",
-      "time": "1 min"
+      "title": "Garnish and Serve",
+      "text": "Arrange the fresh julienned ginger and green onions evenly over the top of the steamed fish. Sprinkle with fresh cilantro. Heat the cooking oil in a small pan until it's very hot and just begins to smoke. Carefully pour the hot oil over the julienned aromatics on the fish; you should hear a sizzling sound. Immediately pour the prepared soy sauce dressing around the fish (not directly on top of the crispy aromatics). Serve immediately with steamed white rice.",
+      "time": "10 min"
     }
   ],
   "nutritionTable": {
     "calories": "380 kcal",
-    "protein": "35g",
-    "carbs": "5g",
-    "fat": "25g",
+    "protein": "45g",
+    "carbs": "10g",
+    "fat": "18g",
     "fiber": "1g",
-    "sugar": "1g",
-    "sodium": "750mg",
-    "cholesterol": "70mg"
+    "sugar": "3g",
+    "sodium": "850mg",
+    "cholesterol": "120mg"
   },
   "tags": [
     "Chinese",
@@ -116,106 +155,91 @@
     "authentic",
     "traditional",
     "seafood",
-    "steamed fish",
-    "healthy"
+    "Steamed Whole Fish Cantonese",
+    "fish",
+    "steamed"
   ],
   "tips": [
-    "**Freshness is Key:** The success of this dish hinges on the absolute freshness of the fish. Look for clear, bulging eyes, bright red gills, and firm, shiny flesh.",
-    "**Don't Overcook:** Steaming time is crucial. Overcooked fish will be dry and tough. Start checking at 8 minutes; the fish should be just opaque and flaky.",
-    "**Proper Drainage:** Draining the initial steaming liquid is vital. This liquid can be fishy and dilute the clean flavors of the final sauce.",
-    "**Hot Oil Sizzle:** Ensure the oil is smoking hot before pouring. This instant burst of heat 'cooks' the fresh aromatics, releasing their full fragrance and creating a delightful sizzle and aroma."
+    "Always use the freshest possible whole fish for steaming. Its delicate flavor is the star of this dish.",
+    "Do not overcook the fish; it should be just cooked through and still moist. A thicker fish might need an extra minute or two, while a thinner one will cook faster.",
+    "The hot oil sizzles the fresh aromatics, releasing their fragrance and adding a crucial layer of flavor and aroma to the final dish."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Steamed Whole Fish Cantonese\n\nSteamed whole fish holds a revered place in Cantonese cuisine, embodying the region's culinary philosophy of showcasing the natural flavors and freshness of ingredients with minimal intervention. This preparation method is believed to have ancient roots, evolving from simple cooking techniques that utilized readily available fresh seafood from the Pearl River Delta. In Cantonese culture, a whole fish symbolizes prosperity and good fortune, making it a staple at celebratory banquets, Lunar New Year feasts, and family gatherings. The elegance of steamed fish lies in its simplicity, where the chef's skill is measured by their ability to achieve a perfectly tender texture and highlight the fish's inherent sweetness through precise steaming and a light, aromatic dressing.\n\n## Why This Recipe Works\n\nThis recipe works by adhering to the core principles of Cantonese cooking: freshness, balance, and delicate technique. Steaming is the gentlest cooking method, preserving the fish's natural moisture and delicate texture without introducing harsh flavors. The initial ginger and scallions placed with the fish during steaming help to neutralize any subtle 'fishy' odors. The magic truly happens with the final dressing: the intensely hot oil poured over fresh, vibrant julienned ginger and scallions creates an immediate aromatic explosion, releasing their essential oils and infusing the fish with an irresistible fragrance. This hot aromatic oil, combined with a light, savory soy sauce and a hint of sesame oil, forms a perfectly balanced, umami-rich dressing that complements, rather than overwhelms, the sweet flavor of the fish.\n\n## Chef Tips for Perfection\n\nTo achieve Cantonese steamed fish perfection, start with the freshest possible fish; this is non-negotiable. When scoring the fish, make shallow cuts to avoid cutting too deep into the bone, which can dry out the flesh. Always pat the fish thoroughly dry before steaming to ensure a clean flavor. Pre-boil the water in your steamer vigorously before adding the fish; this ensures a consistent high-heat environment crucial for quick, even cooking. Do not overcrowd your steamer, as this can reduce steam circulation and lead to uneven cooking. Finally, the hot oil must be smoking hot to achieve that characteristic aromatic sizzle when poured over the fresh garnishes; this step is essential for the dish's signature fragrance and taste.\n\n## Serving Suggestions\n\nSteamed Whole Fish Cantonese is best enjoyed immediately after preparation, while the fish is still warm and the aromatics are at their peak fragrance. It is traditionally served as a centerpiece dish alongside a bowl of fluffy, steamed jasmine rice, which perfectly soaks up the delicious, savory sauce. To complete a balanced Chinese meal, consider pairing it with a simple stir-fried green vegetable, such as Gai Lan (Chinese broccoli) with oyster sauce, or Choy Sum. A light, clear soup, like a simple egg drop soup or a winter melon soup, would also complement the delicate flavors of the fish beautifully, creating a harmonious and authentic dining experience.",
-  "publishedAt": "2026-04-04T19:30:25.456Z",
-  "jsonLd": {
+  "article": "Steamed Whole Fish Cantonese is a beloved Chinese Seafood dish enjoyed across Chinese. This authentic recipe brings traditional flavors to your kitchen.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Steamed Whole Fish Cantonese",
-    "description": "This quintessential Cantonese dish celebrates the pristine freshness of whole fish, steamed to tender perfection. It's renowned for its delicate, savory flavors, silky texture, and the aromatic burst created by hot oil poured over fresh ginger and scallions, making it a beloved centerpiece at any Chinese table.",
+    "description": "Learn how to make authentic Steamed Whole Fish Cantonese. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/36090555/pexels-photo-36090555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/6880539/pexels-photo-6880539.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1589897623340-903fb346410d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTdGVhbWVkJTIwV2hvbGUlMjBGaXNoJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MzEyMDEwfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1603662953513-5d74185ffb75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTdGVhbWVkJTIwV2hvbGUlMjBGaXNoJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MzEyMDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-04T19:30:25.456Z",
+    "datePublished": "2026-04-16T04:30:18.796Z",
     "prepTime": "PT20M",
     "cookTime": "PT15M",
     "totalTime": "PT35M",
     "recipeYield": "4 servings",
     "recipeCategory": "Seafood",
     "recipeCuisine": "Chinese",
-    "keywords": "Chinese, Chinese, authentic, traditional, seafood, Chinese, Cantonese, authentic, traditional, seafood, steamed fish, healthy",
+    "keywords": "Steamed Whole Fish Cantonese, how to make Steamed Whole Fish Cantonese, easy Steamed Whole Fish Cantonese recipe, authentic Chinese Steamed Whole Fish Cantonese",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 calories",
-      "proteinContent": "35g",
-      "carbohydrateContent": "5g",
-      "fatContent": "25g",
-      "fiberContent": "1g",
-      "sugarContent": "1g",
-      "sodiumContent": "750mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1.5 - 2 lbs Whole Fresh Fish (e.g., Seabass, Grouper, Red Snapper) (Scaled, gutted, gills removed, with head and tail intact)",
-      "4-inch piece Fresh Ginger (Half sliced, half julienned)",
-      "6-8 stalks Scallions (Green Onions) (Half cut into 2-inch sections, half julienned for garnish)",
-      "1 tablespoon Shaoxing Wine (Optional, for marination)",
-      "Pinch White Pepper (Optional, for marination)",
-      "4 tablespoons Light Soy Sauce (生抽 - Sang Chau) (Or to taste)",
-      "3 tablespoons Peanut Oil (or other neutral high smoke point oil)",
-      "1 teaspoon Sesame Oil (For drizzling)",
-      "Small bunch Fresh Cilantro (For garnish, roughly chopped)"
+      "1.5-2 lb Whole white fish (e.g., snapper, branzino, striped bass)",
+      "4 inches Fresh ginger",
+      "6-8 stalks Green onions (scallions)",
+      "3 tbsp Light soy sauce",
+      "1 tsp Sesame oil",
+      "1/2 tsp Sugar",
+      "pinch White pepper",
+      "2 tbsp Cooking oil (e.g., peanut or vegetable oil)",
+      "1/4 cup Fresh cilantro"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Fish",
-        "text": "Ensure the fish is thoroughly cleaned, scaled, and gutted. Pat the fish completely dry with paper towels. Make two or three diagonal slits on both sides of the fish, about 1/2 inch deep, to allow for even cooking. Place a few slices of ginger and 2-inch sections of scallions inside the fish cavity and on top of the fish. If using, lightly sprinkle with Shaoxing wine and a pinch of white pepper.",
-        "timeRequired": "PT5M"
+        "text": "Rinse the cleaned fish thoroughly under cold water. Pat it completely dry with paper towels. Make two or three diagonal slashes on both sides of the fish, about 1/2 inch deep. This helps the fish cook evenly and absorb flavors. Place the fish on a heatproof plate that fits inside your steamer."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Steaming Setup",
-        "text": "Fill a wok or large pot with about 2-3 inches of water. Place a steaming rack or trivet inside. Bring the water to a rolling boil over high heat. While the water heats, prepare a heat-proof platter large enough to comfortably hold the fish.",
-        "timeRequired": "PT5M"
+        "name": "Arrange Steaming Aromatics",
+        "text": "Place the ginger slices and the 2-inch sections of green onions into the fish cavity and scatter some over and under the fish on the plate. These aromatics will infuse flavor into the fish as it steams and help to remove any fishy odor."
       },
       {
         "@type": "HowToStep",
         "name": "Steam the Fish",
-        "text": "Carefully place the prepared fish onto the heat-proof platter. Once the water is boiling vigorously, place the platter with the fish onto the steaming rack. Cover the wok/pot tightly with a lid and steam for 8-12 minutes, depending on the thickness of the fish. A 1.5-2 lb fish usually takes about 10-12 minutes. The fish is cooked when the flesh near the bone turns opaque and flakes easily with a fork.",
-        "timeRequired": "PT12M"
+        "text": "Bring a large pot or wok with about 2-3 inches of water to a rolling boil. Carefully place the plate with the fish onto a steaming rack inside the pot, ensuring the water does not touch the plate. Cover tightly and steam for 8-12 minutes, depending on the fish's thickness. The fish is done when the flesh turns opaque and flakes easily with a fork."
       },
       {
         "@type": "HowToStep",
-        "name": "Remove and Discard Aromatics",
-        "text": "Once cooked, carefully remove the platter from the steamer. Discard the ginger slices and scallion sections that were steamed with the fish, as they will have absorbed any fishy odors. Gently drain any accumulated liquid from the platter, as this can dilute the final sauce.",
-        "timeRequired": "PT2M"
+        "name": "Prepare the Dressing",
+        "text": "While the fish is steaming, combine the light soy sauce, sesame oil, sugar, and a pinch of white pepper in a small bowl. Stir until the sugar is dissolved. Set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Garnish and Heat Oil",
-        "text": "Arrange the fresh julienned ginger and julienned scallions evenly over the top of the steamed fish. Heat the peanut oil in a small saucepan over high heat until it just begins to smoke lightly. This ensures the oil is hot enough to 'blanch' the aromatics.",
-        "timeRequired": "PT3M"
+        "name": "Finish the Fish",
+        "text": "Once steamed, carefully remove the fish plate from the steamer. Discard the cooked ginger slices and green onion sections from the fish and the plate. They have served their purpose. Carefully drain any accumulated liquid from the plate; this liquid can be fishy."
       },
       {
         "@type": "HowToStep",
-        "name": "Dress and Serve",
-        "text": "Carefully pour the hot, smoking peanut oil directly over the julienned ginger and scallions on the fish. You will hear a satisfying sizzle as the aromatics release their fragrance. Immediately pour the light soy sauce evenly over the fish, then drizzle with sesame oil. Garnish with fresh cilantro and serve immediately, ideally with steamed jasmine rice.",
-        "timeRequired": "PT1M"
+        "name": "Garnish and Serve",
+        "text": "Arrange the fresh julienned ginger and green onions evenly over the top of the steamed fish. Sprinkle with fresh cilantro. Heat the cooking oil in a small pan until it's very hot and just begins to smoke. Carefully pour the hot oil over the julienned aromatics on the fish; you should hear a sizzling sound. Immediately pour the prepared soy sauce dressing around the fish (not directly on top of the crispy aromatics). Serve immediately with steamed white rice."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-04-16T04:30:18.824Z"
 }
