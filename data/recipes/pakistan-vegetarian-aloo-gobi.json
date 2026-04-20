@@ -51,9 +51,9 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Pakistani",
-  "image1": "https://images.unsplash.com/photo-1680529669043-9a7777b798bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MTc1MjExfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1644677859434-21ccfcdd3eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MTc1MjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Aloo Gobi is a classic Pakistani vegetarian dish featuring potatoes and cauliflower cooked with aromatic spices. This hearty and flavorful curry is a staple in many Pakistani homes, offering a comforting and wholesome meal. It is perfect served with roti, naan, or rice for a truly authentic experience.",
+  "image1": "https://images.unsplash.com/photo-1680529669043-9a7777b798bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2NjY0ODEzfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1644677859434-21ccfcdd3eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2NjY0ODEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Aloo Gobi is a classic Pakistani vegetarian dish featuring tender potatoes and cauliflower florets cooked in a fragrant blend of spices. This comforting and wholesome curry is a staple in many Pakistani homes, perfect for a hearty meal. Enjoy its rich flavors and simple preparation.",
   "ingredients": [
     {
       "item": "Potatoes",
@@ -67,17 +67,22 @@
     },
     {
       "item": "Onion",
-      "amount": "1 large",
+      "amount": "1 medium",
       "notes": "finely chopped"
     },
     {
       "item": "Tomatoes",
       "amount": "2 medium",
-      "notes": "pureed or finely chopped"
+      "notes": "finely chopped"
     },
     {
-      "item": "Ginger-garlic paste",
-      "amount": "1 tablespoon",
+      "item": "Ginger paste",
+      "amount": "1 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Garlic paste",
+      "amount": "1 tbsp",
       "notes": ""
     },
     {
@@ -86,43 +91,43 @@
       "notes": "slit lengthwise"
     },
     {
+      "item": "Oil",
+      "amount": "4 tbsp",
+      "notes": "vegetable or canola"
+    },
+    {
       "item": "Turmeric powder",
-      "amount": "1/2 teaspoon",
+      "amount": "1/2 tsp",
       "notes": ""
     },
     {
       "item": "Red chili powder",
-      "amount": "1 teaspoon",
+      "amount": "1 tsp",
       "notes": "or to taste"
     },
     {
       "item": "Coriander powder",
-      "amount": "1.5 teaspoons",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
       "item": "Cumin powder",
-      "amount": "1 teaspoon",
-      "notes": ""
-    },
-    {
-      "item": "Garam masala",
-      "amount": "1/2 teaspoon",
-      "notes": ""
-    },
-    {
-      "item": "Oil",
-      "amount": "3 tablespoons",
+      "amount": "1/2 tsp",
       "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "to taste",
+      "amount": "1 tsp",
+      "notes": "or to taste"
+    },
+    {
+      "item": "Garam masala",
+      "amount": "1/2 tsp",
       "notes": ""
     },
     {
       "item": "Fresh coriander",
-      "amount": "1/4 cup",
+      "amount": "2 tbsp",
       "notes": "chopped, for garnish"
     }
   ],
@@ -130,44 +135,38 @@
     {
       "step": 1,
       "title": "Prepare Vegetables",
-      "text": "Heat oil in a large pot or karahi over medium heat. Add the chopped onion and fry until translucent and lightly golden, about 5-7 minutes.",
-      "time": "7 min"
+      "text": "Wash and chop the potatoes into 1-inch cubes. Cut the cauliflower into medium-sized florets. Keep them separate as they cook at different rates. Chop the onion and tomatoes finely, and prepare ginger and garlic pastes.",
+      "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Sauté Aromatics",
-      "text": "Add the ginger-garlic paste and green chilies. Sauté for another minute until fragrant, being careful not to burn the garlic.",
-      "time": "1 min"
+      "title": "Saute Aromatics",
+      "text": "Heat oil in a large pot or karahi over medium heat. Add the chopped onion and saute until it turns light golden brown, about 5-7 minutes. Add ginger paste and garlic paste, and cook for another minute until fragrant.",
+      "time": "8 min"
     },
     {
       "step": 3,
       "title": "Add Spices and Tomatoes",
-      "text": "Stir in the pureed tomatoes, turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Cook the masala on medium-low heat, stirring occasionally, until the oil separates from the mixture (bhunai), which takes about 8-10 minutes.",
-      "time": "10 min"
+      "text": "Stir in the chopped tomatoes and green chilies. Cook until the tomatoes soften and the oil starts to separate from the masala, about 5 minutes. Now add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well and cook for 2-3 minutes, adding a splash of water if the masala sticks.",
+      "time": "8 min"
     },
     {
       "step": 4,
-      "title": "Incorporate Potatoes and Cauliflower",
-      "text": "Add the cubed potatoes to the masala and mix well. Cook for 5 minutes, then add the cauliflower florets. Gently mix everything together, ensuring the vegetables are coated with the spice mixture.",
-      "time": "5 min"
+      "title": "Cook Potatoes",
+      "text": "Add the cubed potatoes to the masala. Mix thoroughly to coat the potatoes with the spices. Add about 1/2 cup of water, cover the pot, and let the potatoes cook on low heat for 10 minutes, or until they are halfway tender.",
+      "time": "10 min"
     },
     {
       "step": 5,
-      "title": "Simmer to Perfection",
-      "text": "Add about half a cup of water, cover the pot, and reduce the heat to low. Let it simmer for 15-20 minutes, or until the potatoes and cauliflower are tender. Stir occasionally to prevent sticking and check for doneness.",
-      "time": "20 min"
+      "title": "Incorporate Cauliflower",
+      "text": "Now add the cauliflower florets to the pot. Gently mix them with the potatoes and masala. Cover the pot again and continue to cook on low heat for another 10-15 minutes, or until both the potatoes and cauliflower are fully tender. Stir occasionally to prevent sticking.",
+      "time": "15 min"
     },
     {
       "step": 6,
-      "title": "Finishing Touches",
-      "text": "Once the vegetables are tender, uncover the pot and increase heat to medium-high for a few minutes if there is excess water, allowing it to evaporate. Sprinkle with garam masala and fresh chopped coriander.",
-      "time": "2 min"
-    },
-    {
-      "step": 7,
-      "title": "Serve Hot",
-      "text": "Give it a final gentle stir. Serve the Aloo Gobi hot with fresh roti, naan, paratha, or steamed rice for a complete meal.",
-      "time": "0 min"
+      "title": "Finish and Garnish",
+      "text": "Once the vegetables are tender, uncover the pot. Increase heat slightly if there is excess water to dry it out. Stir in the garam masala. Garnish with fresh chopped coriander. Serve hot with roti, naan, or rice.",
+      "time": "4 min"
     }
   ],
   "nutritionTable": {
@@ -186,12 +185,15 @@
     "authentic",
     "traditional",
     "vegetarian",
-    "Aloo Gobi"
+    "Aloo Gobi",
+    "curry",
+    "potatoes",
+    "cauliflower"
   ],
   "tips": [
-    "For best results, cook Aloo Gobi on low heat after adding vegetables to allow them to cook in their own steam and absorb the flavors fully, rather than boiling them.",
-    "To prevent cauliflower from becoming mushy, add it a few minutes after the potatoes, as potatoes take longer to cook. Alternatively, parboil cauliflower briefly before adding.",
-    "Always adjust the level of green chilies and red chili powder according to your spice preference. A sprinkle of dried fenugreek leaves (kasuri methi) at the end adds a wonderful aroma."
+    "To ensure even cooking, try to cut your potatoes and cauliflower florets into similar sizes. You can par-boil the potatoes slightly before adding them to speed up cooking and ensure they dont break apart.",
+    "For a richer flavor, toast the whole cumin seeds in a dry pan before grinding them into powder. This technique enhances the aroma significantly.",
+    "Aloo Gobi tastes even better the next day as the flavors meld together. Store leftovers in an airtight container in the refrigerator for up to 3 days."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -202,14 +204,14 @@
     "name": "Aloo Gobi",
     "description": "Learn how to make authentic Aloo Gobi. This easy Pakistani recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1680529669043-9a7777b798bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MTc1MjExfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1644677859434-21ccfcdd3eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2MTc1MjExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1680529669043-9a7777b798bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2NjY0ODEzfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1644677859434-21ccfcdd3eab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBBbG9vJTIwR29iaSUyMFBha2lzdGFuaSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc2NjY0ODEzfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-14T20:00:30.400Z",
+    "datePublished": "2026-04-20T06:30:24.467Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -229,56 +231,52 @@
     "recipeIngredient": [
       "2 large Potatoes",
       "1 medium head Cauliflower",
-      "1 large Onion",
+      "1 medium Onion",
       "2 medium Tomatoes",
-      "1 tablespoon Ginger-garlic paste",
+      "1 tbsp Ginger paste",
+      "1 tbsp Garlic paste",
       "2-3 Green chilies",
-      "1/2 teaspoon Turmeric powder",
-      "1 teaspoon Red chili powder",
-      "1.5 teaspoons Coriander powder",
-      "1 teaspoon Cumin powder",
-      "1/2 teaspoon Garam masala",
-      "3 tablespoons Oil",
-      "to taste Salt",
-      "1/4 cup Fresh coriander"
+      "4 tbsp Oil",
+      "1/2 tsp Turmeric powder",
+      "1 tsp Red chili powder",
+      "1 tsp Coriander powder",
+      "1/2 tsp Cumin powder",
+      "1 tsp Salt",
+      "1/2 tsp Garam masala",
+      "2 tbsp Fresh coriander"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare Vegetables",
-        "text": "Heat oil in a large pot or karahi over medium heat. Add the chopped onion and fry until translucent and lightly golden, about 5-7 minutes."
+        "text": "Wash and chop the potatoes into 1-inch cubes. Cut the cauliflower into medium-sized florets. Keep them separate as they cook at different rates. Chop the onion and tomatoes finely, and prepare ginger and garlic pastes."
       },
       {
         "@type": "HowToStep",
-        "name": "Sauté Aromatics",
-        "text": "Add the ginger-garlic paste and green chilies. Sauté for another minute until fragrant, being careful not to burn the garlic."
+        "name": "Saute Aromatics",
+        "text": "Heat oil in a large pot or karahi over medium heat. Add the chopped onion and saute until it turns light golden brown, about 5-7 minutes. Add ginger paste and garlic paste, and cook for another minute until fragrant."
       },
       {
         "@type": "HowToStep",
         "name": "Add Spices and Tomatoes",
-        "text": "Stir in the pureed tomatoes, turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Cook the masala on medium-low heat, stirring occasionally, until the oil separates from the mixture (bhunai), which takes about 8-10 minutes."
+        "text": "Stir in the chopped tomatoes and green chilies. Cook until the tomatoes soften and the oil starts to separate from the masala, about 5 minutes. Now add turmeric powder, red chili powder, coriander powder, cumin powder, and salt. Mix well and cook for 2-3 minutes, adding a splash of water if the masala sticks."
       },
       {
         "@type": "HowToStep",
-        "name": "Incorporate Potatoes and Cauliflower",
-        "text": "Add the cubed potatoes to the masala and mix well. Cook for 5 minutes, then add the cauliflower florets. Gently mix everything together, ensuring the vegetables are coated with the spice mixture."
+        "name": "Cook Potatoes",
+        "text": "Add the cubed potatoes to the masala. Mix thoroughly to coat the potatoes with the spices. Add about 1/2 cup of water, cover the pot, and let the potatoes cook on low heat for 10 minutes, or until they are halfway tender."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer to Perfection",
-        "text": "Add about half a cup of water, cover the pot, and reduce the heat to low. Let it simmer for 15-20 minutes, or until the potatoes and cauliflower are tender. Stir occasionally to prevent sticking and check for doneness."
+        "name": "Incorporate Cauliflower",
+        "text": "Now add the cauliflower florets to the pot. Gently mix them with the potatoes and masala. Cover the pot again and continue to cook on low heat for another 10-15 minutes, or until both the potatoes and cauliflower are fully tender. Stir occasionally to prevent sticking."
       },
       {
         "@type": "HowToStep",
-        "name": "Finishing Touches",
-        "text": "Once the vegetables are tender, uncover the pot and increase heat to medium-high for a few minutes if there is excess water, allowing it to evaporate. Sprinkle with garam masala and fresh chopped coriander."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Serve Hot",
-        "text": "Give it a final gentle stir. Serve the Aloo Gobi hot with fresh roti, naan, paratha, or steamed rice for a complete meal."
+        "name": "Finish and Garnish",
+        "text": "Once the vegetables are tender, uncover the pot. Increase heat slightly if there is excess water to dry it out. Stir in the garam masala. Garnish with fresh chopped coriander. Serve hot with roti, naan, or rice."
       }
     ]
   },
-  "publishedAt": "2026-04-14T20:00:30.439Z"
+  "publishedAt": "2026-04-20T06:30:24.508Z"
 }
