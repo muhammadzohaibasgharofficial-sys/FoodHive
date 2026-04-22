@@ -7,210 +7,232 @@
   "category": "desserts",
   "categoryName": "Desserts",
   "categoryIcon": "🍰",
-  "prepTime": "45 min",
-  "cookTime": "15 min",
-  "totalTime": "1 hour",
+  "seo": {
+    "title": "How to Make Tang Yuan Glutinous Rice Balls — Easy Chinese Recipe",
+    "metaDescription": "Learn how to make authentic Tang Yuan Glutinous Rice Balls. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "chinese-desserts-tang-yuan-glutinous-rice-balls",
+    "mainKeyword": "Tang Yuan Glutinous Rice Balls",
+    "longTailKeywords": [
+      "how to make Tang Yuan Glutinous Rice Balls",
+      "easy Tang Yuan Glutinous Rice Balls recipe",
+      "authentic Chinese Tang Yuan Glutinous Rice Balls"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Tang Yuan Glutinous Rice Balls",
+      "Chinese Tang Yuan Glutinous Rice Balls recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Tang Yuan Glutinous Rice Balls Recipe",
+    "h2Headings": [
+      "What is Tang Yuan Glutinous Rice Balls?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "chinese-desserts-tang-yuan-glutinous-rice-balls.jpg",
+    "imageAlt": "Authentic Chinese Tang Yuan Glutinous Rice Balls recipe",
+    "imageCaption": "Delicious homemade Tang Yuan Glutinous Rice Balls — a beloved Chinese classic",
+    "internalLinks": [
+      {
+        "anchor": "Desserts",
+        "url": "/categories/desserts"
+      },
+      {
+        "anchor": "Chinese Recipes",
+        "url": "/countries/chinese"
+      }
+    ]
+  },
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.pexels.com/photos/8093881/pexels-photo-8093881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/3938743/pexels-photo-3938743.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Tang Yuan, these delicate glutinous rice balls, are a quintessential Chinese dessert, cherished for their smooth, chewy texture and rich, sweet fillings. Often enjoyed during festive occasions like the Lantern Festival and Winter Solstice, they symbolize reunion and completeness. This recipe guides you to create perfectly soft, tender spheres bursting with a luscious black sesame paste, served in a comforting ginger-infused syrup.",
+  "image1": "https://images.unsplash.com/photo-1614235183711-7a4f4f339265?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW5nJTIwWXVhbiUyMEdsdXRpbm91cyUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3Njg0NDgyOXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1545217431-172646ec8de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW5nJTIwWXVhbiUyMEdsdXRpbm91cyUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3Njg0NDgyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Tang Yuan are soft, chewy glutinous rice balls, often served in a sweet ginger soup. This traditional Chinese dessert symbolizes togetherness and completeness, making it a beloved dish for festivals and family gatherings. Enjoy these delightful spheres, often filled with sweet black sesame paste, for a truly comforting treat.",
   "ingredients": [
     {
-      "item": "Black sesame seeds",
-      "amount": "1/2 cup",
-      "notes": "roasted, for filling"
-    },
-    {
-      "item": "Granulated sugar",
-      "amount": "1/4 cup",
-      "notes": "for filling"
-    },
-    {
-      "item": "Lard",
-      "amount": "2 tbsp",
-      "notes": "melted, or unsalted butter/coconut oil, for filling"
-    },
-    {
       "item": "Glutinous rice flour",
-      "amount": "2 cups",
-      "notes": "approx. 250g, for dough"
+      "amount": "200g",
+      "notes": "for the dough"
     },
     {
       "item": "Warm water",
-      "amount": "3/4 cup",
-      "notes": "approx. 180ml, adjust as needed, for dough"
+      "amount": "160ml",
+      "notes": "approximately, for the dough"
     },
     {
-      "item": "Fresh ginger",
-      "amount": "4-5 slices",
-      "notes": "smashed, for syrup"
+      "item": "Black sesame seeds",
+      "amount": "50g",
+      "notes": "roasted and ground"
     },
     {
-      "item": "Rock sugar",
-      "amount": "1/2 cup",
-      "notes": "or granulated sugar, to taste, for syrup"
+      "item": "Granulated sugar",
+      "amount": "30g",
+      "notes": "for the filling"
+    },
+    {
+      "item": "Lard or vegetable oil",
+      "amount": "20g",
+      "notes": "softened, for the filling"
     },
     {
       "item": "Water",
-      "amount": "4 cups",
-      "notes": "for syrup"
+      "amount": "6 cups",
+      "notes": "for the soup"
+    },
+    {
+      "item": "Rock sugar",
+      "amount": "50g",
+      "notes": "or to taste, for the soup"
+    },
+    {
+      "item": "Fresh ginger",
+      "amount": "3-4 slices",
+      "notes": "for the soup"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Black Sesame Filling",
-      "text": "If not pre-roasted, toast black sesame seeds in a dry pan over medium-low heat until fragrant, about 3-5 minutes. Let cool completely. Grind the roasted sesame seeds with granulated sugar in a food processor or spice grinder until a fine powder forms. Add the melted lard (or butter/coconut oil) and process until it forms a thick, cohesive paste. Transfer to a bowl, cover, and chill in the refrigerator for at least 30 minutes to firm up. Once firm, roll the paste into small balls, about 1/2-inch (1.25 cm) in diameter. You should yield about 25-30 balls.",
-      "time": "15 min"
+      "title": "Prepare the Sesame Filling",
+      "text": "In a bowl, combine the ground black sesame seeds, granulated sugar, and softened lard or vegetable oil. Mix well until a thick paste forms. Divide the paste into small balls, about 1 teaspoon each. Place them on a plate and chill in the refrigerator for 10 minutes to firm up.",
+      "time": "10 min"
     },
     {
       "step": 2,
       "title": "Make the Glutinous Rice Dough",
-      "text": "In a large mixing bowl, gradually add warm water to the glutinous rice flour, mixing with chopsticks or your hands. Continue adding water a little at a time until a soft, pliable, and non-sticky dough forms. The dough should be smooth and easy to handle. If it's too dry, add a tiny bit more water; if too wet, add a little more flour. Knead for 2-3 minutes until uniform.",
-      "time": "10 min"
+      "text": "In a large mixing bowl, gradually add the warm water to the glutinous rice flour while mixing with your hands. Knead the mixture until it forms a smooth, soft, and pliable dough. It should not be too sticky or too dry. Adjust water or flour as needed.",
+      "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Assemble the Tang Yuan",
-      "text": "Divide the dough into small, equal portions, about 1-inch (2.5 cm) in diameter. Flatten each portion into a round disc, creating a slightly thicker edge and a thinner center. Place one chilled black sesame filling ball in the center of the dough disc. Gently gather the edges of the dough around the filling and pinch them together to seal completely. Roll the filled dough between your palms to form a smooth, round ball. Place the finished Tang Yuan on a lightly floured plate to prevent sticking. Repeat with the remaining dough and filling.",
-      "time": "20 min"
+      "title": "Form the Tang Yuan Balls",
+      "text": "Take a small piece of dough, about 1 tablespoon, and flatten it into a disc in your palm. Place one chilled sesame filling ball in the center of the dough disc. Carefully wrap the dough around the filling, pinching the edges to seal completely. Roll it gently between your palms to form a smooth, round ball. Repeat with the remaining dough and filling.",
+      "time": "15 min"
     },
     {
       "step": 4,
-      "title": "Prepare the Ginger Syrup",
-      "text": "In a medium saucepan, combine 4 cups of water, smashed ginger slices, and rock sugar. Bring to a boil over medium-high heat, then reduce heat to low and simmer for 10-15 minutes, allowing the ginger flavor to infuse and the sugar to dissolve completely. Taste and adjust sweetness if desired. Keep warm.",
-      "time": "10 min"
+      "title": "Cook the Tang Yuan",
+      "text": "Bring a large pot of water to a rolling boil. Gently drop the Tang Yuan balls into the boiling water, stirring lightly to prevent them from sticking to the bottom. Once they float to the surface, reduce the heat to medium-low and continue to cook for another 2-3 minutes until they are thoroughly cooked through and appear translucent.",
+      "time": "8 min"
     },
     {
       "step": 5,
-      "title": "Cook the Tang Yuan",
-      "text": "Bring a large pot of water to a rolling boil. Carefully drop the Tang Yuan into the boiling water, one by one, ensuring not to overcrowd the pot. Gently stir occasionally to prevent them from sticking to the bottom. Once the Tang Yuan float to the surface, continue to cook for another 1-2 minutes until they appear plump and translucent.",
-      "time": "5 min"
+      "title": "Prepare the Ginger Soup",
+      "text": "While the Tang Yuan are cooking, in a separate small saucepan, combine 6 cups of water, rock sugar, and ginger slices. Bring to a boil, then reduce heat and simmer for 5-10 minutes, allowing the flavors to meld and the rock sugar to dissolve. Adjust sweetness to your preference.",
+      "time": "10 min"
     },
     {
       "step": 6,
       "title": "Serve Immediately",
-      "text": "Using a slotted spoon, carefully transfer the cooked Tang Yuan directly into individual serving bowls. Ladle the warm ginger syrup over the Tang Yuan, ensuring each bowl gets a few slices of ginger. Serve immediately while warm to enjoy their optimal soft and chewy texture.",
+      "text": "Once the Tang Yuan are cooked, use a slotted spoon to transfer them directly into bowls of the hot ginger soup. Serve immediately while warm. For an extra touch, you can garnish with a sprinkle of toasted sesame seeds.",
       "time": "2 min"
     }
   ],
   "nutritionTable": {
     "calories": "380 kcal",
-    "protein": "6g",
-    "carbs": "65g",
-    "fat": "12g",
-    "fiber": "3g",
-    "sugar": "25g",
-    "sodium": "8mg",
-    "cholesterol": "8mg"
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Chinese",
     "dessert",
-    "tang yuan",
-    "glutinous rice balls",
-    "black sesame",
+    "authentic",
     "traditional",
-    "sweet",
-    "reunion"
+    "glutinous rice",
+    "sweet soup",
+    "sesame"
   ],
   "tips": [
-    "For perfectly smooth Tang Yuan, ensure your dough is well-kneaded and pliable. If it cracks during shaping, it's too dry; add a few drops of water.",
-    "Chilling the black sesame filling is crucial. It makes the paste firm enough to roll into balls, preventing it from oozing out during shaping.",
-    "When cooking, do not overcrowd the pot. Cook in batches if necessary to maintain water temperature and prevent sticking, ensuring even cooking."
+    "Use warm water when kneading the glutinous rice flour to achieve a more pliable and easier-to-work-with dough, which helps prevent cracking when forming the balls.",
+    "Adjust the amount of sugar in both the sesame filling and the ginger soup according to your personal sweetness preference. You can also experiment with other fillings like peanut paste or red bean paste.",
+    "Tang Yuan are best served immediately after cooking. If preparing ahead, you can freeze uncooked Tang Yuan on a tray until solid, then transfer to a freezer bag for up to one month. Cook directly from frozen in boiling water."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Tang Yuan Glutinous Rice Balls\n\nTang Yuan (湯圓) literally means \"soup balls\" and is a traditional Chinese dessert made from glutinous rice flour. Its round shape symbolizes completeness and reunion (團圓, tuányuán), making it a significant dish during family gatherings, especially the Lantern Festival (元宵節, Yuánxiāojié) and Winter Solstice (冬至, Dōngzhì). While often associated with sweet fillings like black sesame, red bean, or peanut, savory versions also exist in some regions. The practice of eating Tang Yuan dates back to the Song Dynasty, evolving into a beloved custom celebrating togetherness and good fortune.\n\n## Why This Recipe Works\n\nThis recipe masterfully balances texture and flavor. The use of warm water for the glutinous rice flour creates a dough that is incredibly soft, pliable, and yields a delightfully chewy Tang Yuan when cooked, without being overly sticky. The black sesame filling, enriched with a touch of lard (or butter), offers a deeply aromatic, nutty, and subtly sweet contrast to the mild rice dough. The simple yet fragrant ginger syrup cuts through the richness, adding a refreshing warmth that elevates the entire dessert, ensuring each bite is a harmonious blend of chewiness, sweetness, and warmth.\n\n## Chef Tips for Perfection\n\nAchieving perfect Tang Yuan requires attention to detail. For the filling, ensure black sesame seeds are freshly roasted and finely ground for maximum aroma. Chilling the filling thoroughly before rolling into balls is essential for easy handling and preventing leakage during shaping. When making the dough, add water gradually; the ideal consistency is soft and pliable, not sticky. If the dough cracks, it's too dry; if it's too soft to hold its shape, add a little more flour. When sealing, pinch firmly to avoid the filling escaping during cooking. Lastly, serve immediately after cooking to enjoy their optimal soft and chewy texture.\n\n## Serving Suggestions\n\nTang Yuan is traditionally served warm in the ginger-infused syrup. For an added layer of flavor and texture, you can garnish with a sprinkle of toasted shredded coconut, a few goji berries, or even a touch of osmanthus flowers. While perfect on its own, a small bowl of Tang Yuan makes an excellent conclusion to a hearty Chinese meal, especially during colder months or festive celebrations. It can also be served alongside a light tea for a comforting afternoon treat.",
-  "publishedAt": "2026-04-04T16:37:04.629Z",
-  "jsonLd": {
+  "article": "Tang Yuan Glutinous Rice Balls is a beloved Chinese Desserts dish enjoyed across Chinese. This authentic recipe brings traditional flavors to your kitchen.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Tang Yuan Glutinous Rice Balls",
-    "description": "Tang Yuan, these delicate glutinous rice balls, are a quintessential Chinese dessert, cherished for their smooth, chewy texture and rich, sweet fillings. Often enjoyed during festive occasions like the Lantern Festival and Winter Solstice, they symbolize reunion and completeness. This recipe guides you to create perfectly soft, tender spheres bursting with a luscious black sesame paste, served in a comforting ginger-infused syrup.",
+    "description": "Learn how to make authentic Tang Yuan Glutinous Rice Balls. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/8093881/pexels-photo-8093881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/3938743/pexels-photo-3938743.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1614235183711-7a4f4f339265?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW5nJTIwWXVhbiUyMEdsdXRpbm91cyUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3Njg0NDgyOXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1545217431-172646ec8de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW5nJTIwWXVhbiUyMEdsdXRpbm91cyUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3Njg0NDgyOXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-04T16:37:04.629Z",
-    "prepTime": "PT45M",
-    "cookTime": "PT15M",
-    "totalTime": "PT1M",
+    "datePublished": "2026-04-22T09:33:30.665Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Desserts",
     "recipeCuisine": "Chinese",
-    "keywords": "Chinese, Chinese, authentic, traditional, desserts, Chinese, dessert, tang yuan, glutinous rice balls, black sesame, traditional, sweet, reunion",
+    "keywords": "Tang Yuan Glutinous Rice Balls, how to make Tang Yuan Glutinous Rice Balls, easy Tang Yuan Glutinous Rice Balls recipe, authentic Chinese Tang Yuan Glutinous Rice Balls",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 calories",
-      "proteinContent": "6g",
-      "carbohydrateContent": "65g",
-      "fatContent": "12g",
-      "fiberContent": "3g",
-      "sugarContent": "25g",
-      "sodiumContent": "8mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1/2 cup Black sesame seeds (roasted, for filling)",
-      "1/4 cup Granulated sugar (for filling)",
-      "2 tbsp Lard (melted, or unsalted butter/coconut oil, for filling)",
-      "2 cups Glutinous rice flour (approx. 250g, for dough)",
-      "3/4 cup Warm water (approx. 180ml, adjust as needed, for dough)",
-      "4-5 slices Fresh ginger (smashed, for syrup)",
-      "1/2 cup Rock sugar (or granulated sugar, to taste, for syrup)",
-      "4 cups Water (for syrup)"
+      "200g Glutinous rice flour",
+      "160ml Warm water",
+      "50g Black sesame seeds",
+      "30g Granulated sugar",
+      "20g Lard or vegetable oil",
+      "6 cups Water",
+      "50g Rock sugar",
+      "3-4 slices Fresh ginger"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Black Sesame Filling",
-        "text": "If not pre-roasted, toast black sesame seeds in a dry pan over medium-low heat until fragrant, about 3-5 minutes. Let cool completely. Grind the roasted sesame seeds with granulated sugar in a food processor or spice grinder until a fine powder forms. Add the melted lard (or butter/coconut oil) and process until it forms a thick, cohesive paste. Transfer to a bowl, cover, and chill in the refrigerator for at least 30 minutes to firm up. Once firm, roll the paste into small balls, about 1/2-inch (1.25 cm) in diameter. You should yield about 25-30 balls.",
-        "timeRequired": "PT15M"
+        "name": "Prepare the Sesame Filling",
+        "text": "In a bowl, combine the ground black sesame seeds, granulated sugar, and softened lard or vegetable oil. Mix well until a thick paste forms. Divide the paste into small balls, about 1 teaspoon each. Place them on a plate and chill in the refrigerator for 10 minutes to firm up."
       },
       {
         "@type": "HowToStep",
         "name": "Make the Glutinous Rice Dough",
-        "text": "In a large mixing bowl, gradually add warm water to the glutinous rice flour, mixing with chopsticks or your hands. Continue adding water a little at a time until a soft, pliable, and non-sticky dough forms. The dough should be smooth and easy to handle. If it's too dry, add a tiny bit more water; if too wet, add a little more flour. Knead for 2-3 minutes until uniform.",
-        "timeRequired": "PT10M"
+        "text": "In a large mixing bowl, gradually add the warm water to the glutinous rice flour while mixing with your hands. Knead the mixture until it forms a smooth, soft, and pliable dough. It should not be too sticky or too dry. Adjust water or flour as needed."
       },
       {
         "@type": "HowToStep",
-        "name": "Assemble the Tang Yuan",
-        "text": "Divide the dough into small, equal portions, about 1-inch (2.5 cm) in diameter. Flatten each portion into a round disc, creating a slightly thicker edge and a thinner center. Place one chilled black sesame filling ball in the center of the dough disc. Gently gather the edges of the dough around the filling and pinch them together to seal completely. Roll the filled dough between your palms to form a smooth, round ball. Place the finished Tang Yuan on a lightly floured plate to prevent sticking. Repeat with the remaining dough and filling.",
-        "timeRequired": "PT20M"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Prepare the Ginger Syrup",
-        "text": "In a medium saucepan, combine 4 cups of water, smashed ginger slices, and rock sugar. Bring to a boil over medium-high heat, then reduce heat to low and simmer for 10-15 minutes, allowing the ginger flavor to infuse and the sugar to dissolve completely. Taste and adjust sweetness if desired. Keep warm.",
-        "timeRequired": "PT10M"
+        "name": "Form the Tang Yuan Balls",
+        "text": "Take a small piece of dough, about 1 tablespoon, and flatten it into a disc in your palm. Place one chilled sesame filling ball in the center of the dough disc. Carefully wrap the dough around the filling, pinching the edges to seal completely. Roll it gently between your palms to form a smooth, round ball. Repeat with the remaining dough and filling."
       },
       {
         "@type": "HowToStep",
         "name": "Cook the Tang Yuan",
-        "text": "Bring a large pot of water to a rolling boil. Carefully drop the Tang Yuan into the boiling water, one by one, ensuring not to overcrowd the pot. Gently stir occasionally to prevent them from sticking to the bottom. Once the Tang Yuan float to the surface, continue to cook for another 1-2 minutes until they appear plump and translucent.",
-        "timeRequired": "PT5M"
+        "text": "Bring a large pot of water to a rolling boil. Gently drop the Tang Yuan balls into the boiling water, stirring lightly to prevent them from sticking to the bottom. Once they float to the surface, reduce the heat to medium-low and continue to cook for another 2-3 minutes until they are thoroughly cooked through and appear translucent."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Prepare the Ginger Soup",
+        "text": "While the Tang Yuan are cooking, in a separate small saucepan, combine 6 cups of water, rock sugar, and ginger slices. Bring to a boil, then reduce heat and simmer for 5-10 minutes, allowing the flavors to meld and the rock sugar to dissolve. Adjust sweetness to your preference."
       },
       {
         "@type": "HowToStep",
         "name": "Serve Immediately",
-        "text": "Using a slotted spoon, carefully transfer the cooked Tang Yuan directly into individual serving bowls. Ladle the warm ginger syrup over the Tang Yuan, ensuring each bowl gets a few slices of ginger. Serve immediately while warm to enjoy their optimal soft and chewy texture.",
-        "timeRequired": "PT2M"
+        "text": "Once the Tang Yuan are cooked, use a slotted spoon to transfer them directly into bowls of the hot ginger soup. Serve immediately while warm. For an extra touch, you can garnish with a sprinkle of toasted sesame seeds."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-04-22T09:33:30.715Z"
 }
