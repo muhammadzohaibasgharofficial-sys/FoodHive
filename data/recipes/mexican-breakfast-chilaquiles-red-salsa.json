@@ -7,30 +7,72 @@
   "category": "breakfast",
   "categoryName": "Breakfast Recipes",
   "categoryIcon": "🍳",
-  "prepTime": "25 min",
+  "seo": {
+    "title": "Authentic Chilaquiles Red Salsa Recipe | Mexican Breakfast",
+    "metaDescription": "Learn how to make authentic Chilaquiles Red Salsa with this easy recipe. Perfect for a hearty Mexican breakfast, featuring crispy tortillas and a rich red sauce.",
+    "urlSlug": "mexican-breakfast-chilaquiles-red-salsa",
+    "mainKeyword": "Chilaquiles Red Salsa",
+    "longTailKeywords": [
+      "how to make Chilaquiles Red Salsa",
+      "easy Chilaquiles Red Salsa recipe",
+      "authentic Mexican Chilaquiles Red Salsa",
+      "Chilaquiles Red Salsa step by step",
+      "best Chilaquiles Red Salsa at home",
+      "homemade Chilaquiles Red Salsa"
+    ],
+    "lowCompetitionKeywords": [
+      "Mexican breakfast Chilaquiles Red Salsa",
+      "traditional Chilaquiles Red Salsa recipe",
+      "spicy Chilaquiles Red Salsa"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Chilaquiles Red Salsa Recipe",
+    "h2Headings": [
+      "What is Chilaquiles Red Salsa?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "mexican-breakfast-chilaquiles-red-salsa.jpg",
+    "imageAlt": "Authentic Chilaquiles Red Salsa with a fried egg, crema, and cilantro, perfect for a Mexican breakfast.",
+    "imageCaption": "Savor the vibrant flavors of homemade Chilaquiles Red Salsa, a classic Mexican breakfast dish that's easy to make!",
+    "internalLinks": [
+      {
+        "anchor": "More Breakfast Recipes",
+        "url": "/categories/breakfast"
+      },
+      {
+        "anchor": "Explore Mexican Recipes",
+        "url": "/countries/mexican"
+      }
+    ]
+  },
+  "prepTime": "20 min",
   "cookTime": "35 min",
-  "totalTime": "60 min",
+  "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.pexels.com/photos/17429149/pexels-photo-17429149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/31843919/pexels-photo-31843919.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Chilaquiles Rojos are a quintessential Mexican breakfast, a symphony of textures and flavors. Crispy corn tortilla pieces are simmered in a vibrant, smoky red salsa made from dried chiles and ripe tomatoes, softening to a delightful chewiness. Topped with fresh crema, crumbly queso fresco, and cilantro, it's a comforting and robust dish that awakens the senses.",
+  "image1": "https://images.unsplash.com/photo-1599789197514-47270cd526b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDaGlsYXF1aWxlcyUyMFJlZCUyMFNhbHNhJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTAyMjEzfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1599789197271-8f29a4b9fa4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDaGlsYXF1aWxlcyUyMFJlZCUyMFNhbHNhJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTAyMjEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Savor the vibrant flavors of homemade Chilaquiles Red Salsa, a classic Mexican breakfast dish that's easy to make! This hearty meal features crispy tortilla chips generously coated in a rich, spicy red sauce, topped with fresh crema, cheese, and a fried egg. Perfect for a satisfying start to your day, bringing a taste of Mexico right to your table.",
   "ingredients": [
     {
-      "item": "Guajillo chiles, dried",
-      "amount": "8-10",
-      "notes": "stemmed and seeded"
-    },
-    {
-      "item": "Chile de Árbol, dried",
-      "amount": "4-6",
-      "notes": "stemmed, optional for heat"
+      "item": "Corn tortillas",
+      "amount": "12",
+      "notes": "cut into quarters, or 1 bag of good quality tortilla chips"
     },
     {
       "item": "Roma tomatoes",
-      "amount": "4 large",
+      "amount": "6-8",
       "notes": "roughly chopped"
+    },
+    {
+      "item": "Chiles de árbol",
+      "amount": "2-3",
+      "notes": "or 1-2 serrano peppers, stems removed"
     },
     {
       "item": "White onion",
@@ -43,227 +85,193 @@
       "notes": "peeled"
     },
     {
-      "item": "Chicken broth or water",
-      "amount": "4 cups"
+      "item": "Chicken broth",
+      "amount": "3 cups",
+      "notes": "or vegetable broth"
     },
     {
       "item": "Vegetable oil",
-      "amount": "1 tbsp",
-      "notes": "plus more for frying tortillas"
+      "amount": "2 tablespoons",
+      "notes": "plus more for frying tortillas if making from scratch"
     },
     {
-      "item": "Ground cumin",
-      "amount": "1/2 tsp"
+      "item": "Dried oregano",
+      "amount": "1/2 teaspoon",
+      "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "to taste"
+      "amount": "to taste",
+      "notes": ""
     },
     {
-      "item": "Corn tortillas, day-old",
-      "amount": "12-15",
-      "notes": "cut into quarters or triangles"
+      "item": "Mexican crema or sour cream",
+      "amount": "for serving",
+      "notes": ""
     },
     {
-      "item": "Mexican crema",
-      "amount": "for serving"
-    },
-    {
-      "item": "Queso fresco",
-      "amount": "crumbled, for serving"
+      "item": "Queso fresco or cotija cheese",
+      "amount": "for serving",
+      "notes": "crumbled"
     },
     {
       "item": "Fresh cilantro",
-      "amount": "chopped, for garnish"
+      "amount": "for serving",
+      "notes": "chopped"
     },
     {
-      "item": "White onion",
-      "amount": "1/4",
-      "notes": "finely diced, for garnish (optional)"
+      "item": "Red onion",
+      "amount": "for serving",
+      "notes": "thinly sliced"
+    },
+    {
+      "item": "Fried eggs",
+      "amount": "optional",
+      "notes": "for serving"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Chiles",
-      "text": "Heat a dry comal or skillet over medium heat. Toast the guajillo and chile de árbol (if using) for 30-60 seconds per side, until fragrant but not burnt. Remove from heat, place in a bowl, and cover with hot water. Let them rehydrate for 15-20 minutes until soft.",
-      "time": "20 min"
+      "title": "Prepare the Tortilla Chips",
+      "text": "If using fresh tortillas, heat about 1 inch of vegetable oil in a large skillet over medium-high heat. Fry tortilla quarters in batches until golden and crisp, about 2-3 minutes per batch. Remove with a slotted spoon and drain on paper towels. Season lightly with salt. If using store-bought chips, skip this step.",
+      "time": "15 min"
     },
     {
       "step": 2,
-      "title": "Cook the Aromatics",
-      "text": "While chiles rehydrate, in the same comal or skillet, lightly char the Roma tomatoes, quarter white onion, and garlic cloves over medium-high heat. This step adds a smoky depth to the salsa. Alternatively, you can boil them in water until softened.",
-      "time": "5 min"
+      "title": "Roast Vegetables for Salsa",
+      "text": "On a comal or dry skillet over medium-high heat, roast the tomatoes, chiles, onion, and garlic until softened and slightly charred, turning occasionally. This usually takes 10-15 minutes.",
+      "time": "15 min"
     },
     {
       "step": 3,
       "title": "Blend the Salsa",
-      "text": "Drain the rehydrated chiles, reserving about 1/2 cup of the soaking water. Transfer the chiles, charred tomatoes, onion, garlic, cumin, and 3 cups of chicken broth (or water) to a blender. Blend until completely smooth. If needed, add a little of the reserved chile water to achieve a smooth consistency.",
+      "text": "Transfer the roasted vegetables to a blender. Add the chicken broth, dried oregano, and a pinch of salt. Blend until smooth. For a finer salsa, you can strain it through a fine-mesh sieve, though many prefer it unstrained for more body.",
       "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Strain the Salsa (Optional)",
-      "text": "For a smoother salsa with a more refined texture, pass the blended mixture through a fine-mesh sieve into a bowl, pressing down on the solids with a spoon to extract all the liquid. Discard the remaining pulp. This step is highly recommended for restaurant-quality results.",
-      "time": "5 min"
+      "title": "Cook the Red Salsa",
+      "text": "Heat 2 tablespoons of vegetable oil in a large saucepan or pot over medium heat. Carefully pour the blended salsa into the hot oil. Bring to a simmer, then reduce heat to low and cook for 10-15 minutes, stirring occasionally, until the salsa thickens slightly and deepens in color. Taste and adjust salt if needed.",
+      "time": "15 min"
     },
     {
       "step": 5,
-      "title": "Fry the Totopos (Tortilla Chips)",
-      "text": "Heat about 1 inch of vegetable oil in a large, heavy-bottomed skillet or Dutch oven over medium-high heat. Fry the corn tortilla triangles in batches until golden brown and crispy, about 2-3 minutes per batch. Remove with a slotted spoon and place on a wire rack lined with paper towels to drain excess oil. Season lightly with salt.",
-      "time": "10 min"
+      "title": "Combine Chips and Salsa",
+      "text": "Just before serving, add the crispy tortilla chips to the simmering red salsa. Gently toss to coat the chips evenly. Cook for 1-2 minutes, allowing the chips to soften slightly but still retain some texture. Do not overcook, or the chips will become soggy.",
+      "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Simmer the Salsa",
-      "text": "In a separate large pot or deep skillet, heat 1 tablespoon of vegetable oil over medium heat. Pour in the strained salsa. Bring to a simmer, then reduce heat to low and cook for 15-20 minutes, stirring occasionally, until the salsa has thickened slightly and the flavors have melded. If the salsa becomes too thick, add the remaining 1 cup of chicken broth. Season generously with salt.",
-      "time": "20 min"
-    },
-    {
-      "step": 7,
-      "title": "Combine and Serve",
-      "text": "Just before serving, add the fried totopos to the simmering salsa. Gently stir to coat all the chips. Cook for 1-2 minutes, or until the chips are softened but still have a slight bite (adjust cooking time to your preferred texture).",
+      "title": "Serve Chilaquiles",
+      "text": "Immediately transfer the chilaquiles to individual plates. Drizzle generously with Mexican crema or sour cream, sprinkle with crumbled queso fresco or cotija cheese, and garnish with fresh cilantro and thinly sliced red onion. For a heartier meal, top with a freshly fried egg.",
       "time": "2 min"
-    },
-    {
-      "step": 8,
-      "title": "Garnish and Enjoy",
-      "text": "Immediately transfer the chilaquiles to individual plates. Drizzle generously with Mexican crema, sprinkle with crumbled queso fresco, and garnish with chopped fresh cilantro and finely diced white onion (if using). Serve hot and enjoy this authentic Mexican breakfast!",
-      "time": "1 min"
     }
   ],
   "nutritionTable": {
-    "calories": "450 kcal",
-    "protein": "25g",
-    "carbs": "40g",
-    "fat": "15g",
-    "fiber": "5g",
-    "sugar": "8g",
-    "sodium": "600mg",
-    "cholesterol": "80mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
+    "Mexican",
     "Mexican",
     "authentic",
     "traditional",
     "breakfast",
-    "chilaquiles",
-    "salsa roja"
+    "Chilaquiles Red Salsa"
   ],
   "tips": [
-    "Always toast your dried chiles lightly before rehydrating to enhance their smoky flavor.",
-    "For the best texture, fry your own totopos from day-old corn tortillas; they absorb less oil.",
-    "Add the totopos to the salsa just before serving to prevent them from becoming too soggy.",
-    "Serve with a fried egg on top for a richer, more complete breakfast experience."
+    "For the best flavor, always roast your vegetables for the salsa. This brings out their sweetness and adds a smoky depth that makes all the difference.",
+    "Adjust the spiciness by increasing or decreasing the number of chiles. For a milder version, remove the seeds from the chiles de árbol before roasting.",
+    "Serve your chilaquiles immediately after combining with the salsa to prevent the chips from becoming overly soggy. A warm plate helps keep everything perfect."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Chilaquiles Red Salsa\n\nChilaquiles, pronounced chee-lah-KEE-lehs, are a dish steeped in Mexican culinary tradition, with roots tracing back to the Aztec civilization. The name itself comes from the Nahuatl word \"chil-a-quilitl,\" meaning \"chiles and greens.\" Originally, it was a practical way to use leftover tortillas, transforming them into a hearty and flavorful meal. While the specific form of chilaquiles we know today likely evolved during the colonial era with the introduction of new ingredients and cooking methods, the core concept of simmering corn tortillas in a chile-based sauce remains ancient. It's a testament to Mexican ingenuity, turning humble ingredients into a beloved staple, particularly as a comforting breakfast or brunch.\n\n## Why This Recipe Works\n\nThis recipe excels due to its authentic approach to flavor building. Toasting the dried chiles before rehydrating them unlocks their deep, smoky notes and complex fruitiness, which are then further enhanced by the charring of the tomatoes, onion, and garlic. Blending and then simmering the salsa allows the flavors to fully meld and deepen, creating a rich, robust base. Frying the tortilla chips separately ensures they develop a crispy texture that, when introduced to the salsa, softens perfectly without becoming mushy too quickly. The combination of savory salsa, textural chips, and cooling, tangy toppings creates a harmonious and satisfying dish that embodies the soul of Mexican breakfast.\n\n## Chef Tips for Perfection\n\nFor the best flavor, always toast your dried chiles lightly before rehydrating; this brings out their essential oils and deepens their taste. Don't rush the simmering of the salsa; allow it to cook down for at least 15-20 minutes to thicken and intensify its flavors. When frying your totopos, use day-old corn tortillas as they contain less moisture and will crisp up better. And crucially, add the totopos to the salsa *just before serving* to control their texture – some prefer them softer, others with a bit more bite. Always serve immediately to enjoy the perfect balance of textures.\n\n## Serving Suggestions\n\nChilaquiles Red Salsa is a complete meal on its own, but it truly shines when paired with traditional Mexican accompaniments. A fried egg, sunny-side up, is a classic addition, allowing its runny yolk to enrich the salsa. For a heartier breakfast, serve alongside refried beans or a side of thinly sliced carne asada. A sprinkle of crumbled cotija cheese can replace queso fresco for a saltier, sharper note. Don't forget a side of fresh avocado slices or a simple pico de gallo to add a refreshing counterpoint to the rich salsa. A glass of agua fresca or strong Mexican coffee completes the experience.",
-  "publishedAt": "2026-04-06T05:30:30.998Z",
-  "jsonLd": {
+  "article": "Unlocking the authentic flavors of Mexican breakfast begins with one iconic dish: Chilaquiles. And at the heart of any truly spectacular chilaquiles experience lies the vibrant, robust, and utterly irresistible Chilaquiles Red Salsa. This isn't just a sauce; it's a foundational element, transforming humble fried tortilla chips into a symphony of savory, spicy, and tangy notes, often crowned with a fried egg, a sprinkle of cheese, and a dollop of crema. If you've ever dreamt of recreating that perfect brunch from your favorite Mexican restaurant or simply want to elevate your morning routine, mastering the art of homemade Chilaquiles Red Salsa is your gateway to culinary bliss.\n\n## What is Chilaquiles Red Salsa?\n\nThe heart of any great chilaquiles dish, and arguably its most defining feature, is the vibrant Chilaquiles Red Salsa itself. Originating from indigenous Mesoamerican cuisine, chilaquiles have evolved over centuries, becoming a beloved breakfast and brunch staple across Mexico and beyond. The red salsa, or \"salsa roja,\" is typically a cooked sauce, distinct from a fresh pico de gallo. It boasts a rich, deep flavor profile derived primarily from dried red chilies and ripe tomatoes, often complemented by onion, garlic, and a touch of broth.\n\nUnlike its green counterpart (salsa verde, often made with tomatillos), Chilaquiles Red Salsa offers a deeper, earthier, and sometimes smokier taste, depending on the types of chilies used. Common chilies include guajillo, arbol, and sometimes pasilla or ancho for added complexity and mild heat. The process of making this salsa involves rehydrating dried chilies, roasting or boiling tomatoes, then blending everything into a smooth puree before simmering it to perfection. This cooking process allows the flavors to meld beautifully, creating a thick, glossy sauce that clings perfectly to crispy tortilla chips, softening them just enough without making them soggy. It's the ultimate comfort food, providing a warming, satisfying start to any day.\n\n## Ingredients You Need\n\nCrafting an exceptional Chilaquiles Red Salsa requires a few key ingredients, each playing a crucial role in building its layered flavor profile. Here's what you'll need:\n\n*   **Dried Guajillo Chilies (5-7):** These are the backbone of many red salsas, offering a mild heat, fruity notes, and a beautiful deep red color.\n*   **Dried Chile de Arbol (3-5, optional):** For an added kick! These small, slender chilies provide a more pronounced heat. Adjust quantity based on your spice preference.\n*   **Roma Tomatoes (3-4 medium):** Ripe Roma tomatoes contribute acidity, sweetness, and body to the salsa.\n*   **White Onion (1/2 medium):** Adds a foundational savory note.\n*   **Garlic Cloves (3-4):** Essential for a pungent, aromatic base.\n*   **Chicken or Vegetable Broth (1-1.5 cups):** Used for blending and thinning the salsa to the desired consistency, adding depth of flavor.\n*   **Salt (to taste):** Crucial for balancing and enhancing all the flavors.\n*   **Vegetable Oil (1-2 tablespoons):** For sautéing the aromatics and simmering the salsa.\n*   **Optional: Pinch of Sugar:** To balance acidity if your tomatoes are particularly tart.\n*   **Optional: Epazote (1 sprig):** A traditional Mexican herb that adds a unique, earthy, slightly anise-like flavor.\n\n## Step-by-Step Instructions\n\nMaking a delicious Chilaquiles Red Salsa from scratch is a rewarding culinary experience. Follow these steps for a perfect batch:\n\n1.  **Prepare the Chilies:** First, remove the stems from the guajillo and chile de arbol chilies. For a milder salsa, you can also slit them open and remove the seeds. Place them in a heatproof bowl. Boil water and pour it over the chilies, ensuring they are fully submerged. Let them rehydrate for 15-20 minutes until softened.\n2.  **Roast the Vegetables (Optional but Recommended):** While the chilies rehydrate, preheat your broiler or a comal/cast iron skillet. Place the tomatoes, onion half, and garlic cloves on a baking sheet or directly on the comal. Roast or char them, turning occasionally, until they are softened and slightly blackened in spots. This process adds a wonderful smoky depth to the salsa.\n3.  **Blend the Salsa:** Drain the rehydrated chilies (reserving a little of the soaking liquid if desired for blending). Transfer the chilies, roasted tomatoes, onion, and garlic to a blender. Add 1 cup of chicken or vegetable broth and a teaspoon of salt. Blend until completely smooth. If the mixture is too thick, add more broth a little at a time until you reach your desired consistency. For an extra smooth salsa, you can pass it through a fine-mesh sieve at this stage, pressing down on the solids.\n4.  **Simmer the Salsa:** Heat 1-2 tablespoons of vegetable oil in a medium saucepan or skillet over medium heat. Once hot, carefully pour the blended salsa into the pan. Be cautious as it might splatter. Bring the salsa to a simmer, then reduce the heat to low. Let it cook for 15-20 minutes, stirring occasionally, allowing the flavors to meld and deepen. The salsa will thicken slightly and darken in color.\n5.  **Season and Serve:** Taste the salsa and adjust seasoning as needed, adding more salt or a pinch of sugar if it tastes too acidic. If using epazote, add it during the last 5 minutes of simmering. Your Chilaquiles Red Salsa is now ready to be the star of your breakfast!\n\n## Pro Tips for the Best Results\n\nTo truly elevate your Chilaquiles Red Salsa from good to unforgettable, consider these expert tips:\n\n*   **Charring is Key:** Don't skip roasting or charring your tomatoes, onion, and garlic. The smoky notes developed during this process add an incredible depth of flavor that raw ingredients simply can't replicate. It brings out the natural sweetness and complexity.\n*   **Toast Dried Chilies (Carefully):** Before rehydrating, you can lightly toast the dried chilies in a dry skillet for 30 seconds per side until fragrant. This awakens their essential oils and deepens their flavor. Be careful not to burn them, as they will become bitter.\n*   **Adjust Consistency:** The ideal Chilaquiles Red Salsa should be thick enough to coat the tortilla chips without being watery. If it's too thin after simmering, let it reduce further. If it's too thick, add a splash more broth or water.\n*   **Don't Rush the Simmer:** The simmering stage is crucial. It allows the raw flavors of the chilies and vegetables to cook out and for the entire sauce to meld into a harmonious blend. A longer, slow simmer yields a richer, more developed taste.\n*   **Make Ahead:** Chilaquiles Red Salsa actually tastes even better the next day! Prepare a larger batch and store it in an airtight container in the refrigerator for up to 5 days, or freeze for up to 3 months. This makes breakfast prep a breeze.\n*   **Balance Acidity:** If your salsa tastes a bit too tart, a tiny pinch of sugar can work wonders to balance the acidity without making it sweet.\n\n## Serving Suggestions\n\nWhile the primary use for this incredible Chilaquiles Red Salsa is, naturally, chilaquiles, its versatility extends far beyond just breakfast chips. Once you master this salsa, you'll find countless ways to enjoy it:\n\n*   **Classic Chilaquiles:** The star application! Gently warm your salsa, then add freshly fried or baked tortilla chips, tossing to coat. Serve immediately, topped with crumbled cotija cheese, Mexican crema or sour cream, chopped white onion, cilantro, and a fried egg.\n*   **Huevos Rancheros:** Spoon a generous amount of warm Chilaquiles Red Salsa over fried eggs served on warm corn tortillas.\n*   **Breakfast Burritos:** Add a spoonful inside your breakfast burrito alongside scrambled eggs, potatoes, and cheese for a burst of flavor.\n*   **Enchiladas:** While traditionally made with a specific enchilada sauce, this red salsa can be a delicious alternative for a quick batch of chicken or cheese enchiladas.\n*   **Tacos and Tostadas:** Use it as a vibrant topping for breakfast tacos or a base for hearty tostadas.\n*   **Savory Sauce for Meats:** It can also serve as a flavorful sauce for grilled chicken, pork, or even a simple steak.\n*   **Side Dip:** Serve it warm or at room temperature alongside tortilla chips as a robust and satisfying dip.\n\n## Variations and Substitutions\n\nThe beauty of homemade Chilaquiles Red Salsa lies in its adaptability. Don't be afraid to experiment and tailor it to your personal taste:\n\n*   **Chili Variations:** For a smokier flavor, add one or two dried ancho or pasilla chilies to your guajillos. If you prefer less heat, omit the chile de arbol entirely or use fewer. For more heat, increase the arbol chilies or add a small amount of habanero or serrano.\n*   **Tomato Alternatives:** While Roma tomatoes are standard, you can use canned fire-roasted tomatoes for an even deeper smoky flavor and convenience. Just be sure to drain them well.\n*   **Aromatics:** Feel free to adjust the amount of onion and garlic. Some recipes call for a bay leaf during simmering for an additional layer of herbaceousness.\n*   **Herbs:** Epazote is a traditional addition that imparts a unique, slightly anise-like flavor. If you can find it fresh, it's a fantastic authentic touch. Cilantro can also be blended in or added as a garnish.\n*   **Vegan Option:** Simply ensure you use vegetable broth instead of chicken broth. The rest of the ingredients are naturally plant-based.\n*   **Sweetness and Acidity:** If your salsa tastes too flat, a squeeze of lime juice at the end can brighten it up. Conversely, if it's too acidic, a small pinch of sugar can balance it out.\n*   **Texture:** If you prefer a thinner salsa, add more broth during blending. For a chunkier, more rustic salsa, blend for a shorter period or use an immersion blender to control the texture.\n\nEmbrace the journey of making your own Chilaquiles Red Salsa. This rich, flavorful sauce is a testament to the vibrant and comforting world of Mexican cuisine, ready to transform your breakfast into an extraordinary experience. Enjoy the process, savor the aroma, and delight in the incredible taste!",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Chilaquiles Red Salsa",
-    "description": "Chilaquiles Rojos are a quintessential Mexican breakfast, a symphony of textures and flavors. Crispy corn tortilla pieces are simmered in a vibrant, smoky red salsa made from dried chiles and ripe tomatoes, softening to a delightful chewiness. Topped with fresh crema, crumbly queso fresco, and cilantro, it's a comforting and robust dish that awakens the senses.",
+    "description": "Learn how to make authentic Chilaquiles Red Salsa with this easy recipe. Perfect for a hearty Mexican breakfast, featuring crispy tortillas and a rich red sauce.",
     "image": [
-      "https://images.pexels.com/photos/17429149/pexels-photo-17429149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/31843919/pexels-photo-31843919.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1599789197514-47270cd526b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDaGlsYXF1aWxlcyUyMFJlZCUyMFNhbHNhJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTAyMjEzfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1599789197271-8f29a4b9fa4d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDaGlsYXF1aWxlcyUyMFJlZCUyMFNhbHNhJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTAyMjEzfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-06T05:30:30.998Z",
-    "prepTime": "PT25M",
+    "datePublished": "2026-04-25T07:30:45.644Z",
+    "prepTime": "PT20M",
     "cookTime": "PT35M",
-    "totalTime": "PT60M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Breakfast Recipes",
     "recipeCuisine": "Mexican",
-    "keywords": "Mexican, Mexican, authentic, traditional, breakfast, Mexican, authentic, traditional, breakfast, chilaquiles, salsa roja",
+    "keywords": "Chilaquiles Red Salsa, how to make Chilaquiles Red Salsa, easy Chilaquiles Red Salsa recipe, authentic Mexican Chilaquiles Red Salsa, Chilaquiles Red Salsa step by step, best Chilaquiles Red Salsa at home, homemade Chilaquiles Red Salsa",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "450 calories",
-      "proteinContent": "25g",
-      "carbohydrateContent": "40g",
-      "fatContent": "15g",
-      "fiberContent": "5g",
-      "sugarContent": "8g",
-      "sodiumContent": "600mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "8-10 Guajillo chiles, dried (stemmed and seeded)",
-      "4-6 Chile de Árbol, dried (stemmed, optional for heat)",
-      "4 large Roma tomatoes (roughly chopped)",
-      "1/4 White onion (roughly chopped)",
-      "2 Garlic cloves (peeled)",
-      "4 cups Chicken broth or water",
-      "1 tbsp Vegetable oil (plus more for frying tortillas)",
-      "1/2 tsp Ground cumin",
+      "12 Corn tortillas",
+      "6-8 Roma tomatoes",
+      "2-3 Chiles de árbol",
+      "1/4 White onion",
+      "2 Garlic cloves",
+      "3 cups Chicken broth",
+      "2 tablespoons Vegetable oil",
+      "1/2 teaspoon Dried oregano",
       "to taste Salt",
-      "12-15 Corn tortillas, day-old (cut into quarters or triangles)",
-      "for serving Mexican crema",
-      "crumbled, for serving Queso fresco",
-      "chopped, for garnish Fresh cilantro",
-      "1/4 White onion (finely diced, for garnish (optional))"
+      "for serving Mexican crema or sour cream",
+      "for serving Queso fresco or cotija cheese",
+      "for serving Fresh cilantro",
+      "for serving Red onion",
+      "optional Fried eggs"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Chiles",
-        "text": "Heat a dry comal or skillet over medium heat. Toast the guajillo and chile de árbol (if using) for 30-60 seconds per side, until fragrant but not burnt. Remove from heat, place in a bowl, and cover with hot water. Let them rehydrate for 15-20 minutes until soft.",
-        "timeRequired": "PT20M"
+        "name": "Prepare the Tortilla Chips",
+        "text": "If using fresh tortillas, heat about 1 inch of vegetable oil in a large skillet over medium-high heat. Fry tortilla quarters in batches until golden and crisp, about 2-3 minutes per batch. Remove with a slotted spoon and drain on paper towels. Season lightly with salt. If using store-bought chips, skip this step."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook the Aromatics",
-        "text": "While chiles rehydrate, in the same comal or skillet, lightly char the Roma tomatoes, quarter white onion, and garlic cloves over medium-high heat. This step adds a smoky depth to the salsa. Alternatively, you can boil them in water until softened.",
-        "timeRequired": "PT5M"
+        "name": "Roast Vegetables for Salsa",
+        "text": "On a comal or dry skillet over medium-high heat, roast the tomatoes, chiles, onion, and garlic until softened and slightly charred, turning occasionally. This usually takes 10-15 minutes."
       },
       {
         "@type": "HowToStep",
         "name": "Blend the Salsa",
-        "text": "Drain the rehydrated chiles, reserving about 1/2 cup of the soaking water. Transfer the chiles, charred tomatoes, onion, garlic, cumin, and 3 cups of chicken broth (or water) to a blender. Blend until completely smooth. If needed, add a little of the reserved chile water to achieve a smooth consistency.",
-        "timeRequired": "PT5M"
+        "text": "Transfer the roasted vegetables to a blender. Add the chicken broth, dried oregano, and a pinch of salt. Blend until smooth. For a finer salsa, you can strain it through a fine-mesh sieve, though many prefer it unstrained for more body."
       },
       {
         "@type": "HowToStep",
-        "name": "Strain the Salsa (Optional)",
-        "text": "For a smoother salsa with a more refined texture, pass the blended mixture through a fine-mesh sieve into a bowl, pressing down on the solids with a spoon to extract all the liquid. Discard the remaining pulp. This step is highly recommended for restaurant-quality results.",
-        "timeRequired": "PT5M"
+        "name": "Cook the Red Salsa",
+        "text": "Heat 2 tablespoons of vegetable oil in a large saucepan or pot over medium heat. Carefully pour the blended salsa into the hot oil. Bring to a simmer, then reduce heat to low and cook for 10-15 minutes, stirring occasionally, until the salsa thickens slightly and deepens in color. Taste and adjust salt if needed."
       },
       {
         "@type": "HowToStep",
-        "name": "Fry the Totopos (Tortilla Chips)",
-        "text": "Heat about 1 inch of vegetable oil in a large, heavy-bottomed skillet or Dutch oven over medium-high heat. Fry the corn tortilla triangles in batches until golden brown and crispy, about 2-3 minutes per batch. Remove with a slotted spoon and place on a wire rack lined with paper towels to drain excess oil. Season lightly with salt.",
-        "timeRequired": "PT10M"
+        "name": "Combine Chips and Salsa",
+        "text": "Just before serving, add the crispy tortilla chips to the simmering red salsa. Gently toss to coat the chips evenly. Cook for 1-2 minutes, allowing the chips to soften slightly but still retain some texture. Do not overcook, or the chips will become soggy."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Salsa",
-        "text": "In a separate large pot or deep skillet, heat 1 tablespoon of vegetable oil over medium heat. Pour in the strained salsa. Bring to a simmer, then reduce heat to low and cook for 15-20 minutes, stirring occasionally, until the salsa has thickened slightly and the flavors have melded. If the salsa becomes too thick, add the remaining 1 cup of chicken broth. Season generously with salt.",
-        "timeRequired": "PT20M"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Combine and Serve",
-        "text": "Just before serving, add the fried totopos to the simmering salsa. Gently stir to coat all the chips. Cook for 1-2 minutes, or until the chips are softened but still have a slight bite (adjust cooking time to your preferred texture).",
-        "timeRequired": "PT2M"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Garnish and Enjoy",
-        "text": "Immediately transfer the chilaquiles to individual plates. Drizzle generously with Mexican crema, sprinkle with crumbled queso fresco, and garnish with chopped fresh cilantro and finely diced white onion (if using). Serve hot and enjoy this authentic Mexican breakfast!",
-        "timeRequired": "PT1M"
+        "name": "Serve Chilaquiles",
+        "text": "Immediately transfer the chilaquiles to individual plates. Drizzle generously with Mexican crema or sour cream, sprinkle with crumbled queso fresco or cotija cheese, and garnish with fresh cilantro and thinly sliced red onion. For a heartier meal, top with a freshly fried egg."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-04-25T07:30:45.694Z"
 }
