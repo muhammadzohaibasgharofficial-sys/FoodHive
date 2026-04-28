@@ -51,12 +51,12 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.unsplash.com/photo-1768886834131-a8b64e0109dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc2OTIwNDEwfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1738573519644-93b700f3adf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc2OTIwNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Patbingsu is a beloved Korean shaved ice dessert, perfect for cooling down on a hot day. This refreshing treat features a mountain of finely shaved ice, generously topped with sweet red beans and a delightful array of colorful additions. It offers a wonderful balance of textures and flavors, making it a truly iconic Korean dessert.",
+  "image1": "https://images.unsplash.com/photo-1768886834131-a8b64e0109dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc3MzUwNjA1fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1738573519644-93b700f3adf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc3MzUwNjA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Patbingsu is a refreshing and iconic Korean shaved ice dessert, perfect for cooling down on a hot day. This delightful treat features finely shaved ice, often made from frozen milk, topped generously with sweet red bean paste and a variety of colorful toppings. It's a harmonious blend of textures and flavors that captivates the palate.",
   "ingredients": [
     {
-      "item": "Dried red beans (pat)",
+      "item": "Dried red beans (adzuki beans)",
       "amount": "1 cup",
       "notes": "soaked overnight"
     },
@@ -68,17 +68,17 @@
     {
       "item": "Salt",
       "amount": "1/4 teaspoon",
-      "notes": "for red beans"
+      "notes": ""
     },
     {
-      "item": "Milk",
+      "item": "Whole milk",
       "amount": "4 cups",
-      "notes": "full fat, frozen into cubes"
+      "notes": "or 3 cups milk + 1 cup sweetened condensed milk"
     },
     {
       "item": "Sweetened condensed milk",
-      "amount": "1/2 cup",
-      "notes": "for drizzling"
+      "amount": "1/4 cup",
+      "notes": "for drizzling, optional"
     },
     {
       "item": "Injeolmi (rice cake)",
@@ -88,55 +88,55 @@
     {
       "item": "Fresh fruit",
       "amount": "1 cup",
-      "notes": "such as strawberries, mango, or banana, diced"
+      "notes": "e.g., strawberries, blueberries, mango, sliced"
     },
     {
-      "item": "Mini mochi",
-      "amount": "1/4 cup",
+      "item": "Vanilla ice cream",
+      "amount": "4 scoops",
       "notes": "optional"
     },
     {
-      "item": "Roasted peanut powder",
-      "amount": "2 tablespoons",
-      "notes": "optional"
+      "item": "Mochi",
+      "amount": "8 pieces",
+      "notes": "small, optional"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Sweet Red Beans (Pat)",
-      "text": "Drain the pre-soaked red beans. In a pot, cover the beans with fresh water and bring to a boil. Boil for 10 minutes, then drain and rinse. Return beans to the pot with 4 cups of fresh water. Bring to a boil, then reduce heat and simmer for 40-50 minutes, or until very tender. Most water should be absorbed.",
-      "time": "35 min"
+      "title": "Prepare the Red Beans",
+      "text": "Rinse the pre-soaked red beans thoroughly. In a large pot, cover the beans with fresh water and bring to a boil. Boil for 10 minutes, then drain the water. This step helps remove bitterness. Cover the beans with fresh water again (about 4-5 cups) and bring to a boil.",
+      "time": "15 min"
     },
     {
       "step": 2,
-      "title": "Sweeten the Red Beans",
-      "text": "Once the red beans are tender, add the sugar and salt to the pot. Stir well to dissolve the sugar. Continue to cook over low heat for another 5-10 minutes, stirring occasionally, until the beans are thick and syrupy. Mash some of the beans with a spoon or potato masher for a creamier texture, leaving some whole for texture. Let cool completely.",
-      "time": "10 min"
+      "title": "Cook the Red Beans",
+      "text": "Reduce heat to low, cover, and simmer the red beans for 30-45 minutes, or until the beans are very tender and easily mashable. Check occasionally and add more hot water if needed to keep them submerged. The beans should be soft but still hold their shape.",
+      "time": "45 min"
     },
     {
       "step": 3,
-      "title": "Prepare the Shaved Ice",
-      "text": "If using an ice shaver, place the frozen milk cubes into the machine and shave into fine, fluffy ice. If you do not have an ice shaver, you can blend the frozen milk cubes in a powerful blender until it forms a fine, snow-like consistency. Work quickly to prevent melting.",
-      "time": "5 min"
+      "title": "Make the Sweet Red Bean Paste (Pat)",
+      "text": "Drain most of the cooking liquid from the beans, leaving about 1/4 cup. Add sugar and salt to the pot. Using a potato masher or the back of a spoon, mash the beans to your desired consistency. For a smoother paste, you can blend a portion of the beans. Cook on low heat for another 5-10 minutes, stirring constantly, until the paste thickens. Let it cool completely.",
+      "time": "15 min"
     },
     {
       "step": 4,
-      "title": "Assemble the Base",
-      "text": "Divide the shaved ice evenly among 4 serving bowls. Gently mound the ice in the center of each bowl, creating a small peak. This forms the canvas for your delicious toppings.",
-      "time": "2 min"
+      "title": "Prepare the Milk Ice Base",
+      "text": "If using, mix 3 cups of whole milk with 1 cup of sweetened condensed milk. Pour the milk mixture into a shallow freezer-safe pan or ice cube trays. Freeze overnight or for at least 8 hours until completely solid. This creates a creamy, flavorful ice base.",
+      "time": "10 min (active)"
     },
     {
       "step": 5,
-      "title": "Add the Toppings",
-      "text": "Generously spoon the cooled sweet red beans over the shaved ice in each bowl. Arrange the cut injeolmi rice cakes and fresh fruit around the red beans. If desired, add mini mochi and a sprinkle of roasted peanut powder for extra flavor and texture.",
-      "time": "2 min"
+      "title": "Shave the Milk Ice",
+      "text": "Once the milk is frozen solid, remove it from the freezer. Break the frozen milk into smaller chunks if necessary. Use a bingsu machine to shave the ice into fine, fluffy flakes. If you don't have a bingsu machine, you can use a food processor to pulse the ice until it reaches a finely crushed consistency, though it won't be as fine as traditional bingsu.",
+      "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Finish and Serve",
-      "text": "Drizzle each serving with a generous amount of sweetened condensed milk. Serve immediately with a spoon, encouraging diners to mix the toppings and ice together as they eat. Enjoy this refreshing Korean dessert!",
-      "time": "1 min"
+      "title": "Assemble Patbingsu",
+      "text": "Divide the shaved milk ice into serving bowls, mounding it high. Generously top each bowl with the prepared sweet red bean paste. Arrange the injeolmi rice cake cubes and fresh fruit around the red bean paste. Drizzle with additional sweetened condensed milk if desired, and add a scoop of vanilla ice cream or mochi for extra indulgence. Serve immediately and enjoy!",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
@@ -151,19 +151,17 @@
   },
   "tags": [
     "Korean",
-    "Korean",
+    "dessert",
     "authentic",
     "traditional",
-    "desserts",
     "Patbingsu Red Bean Shaved Ice",
     "shaved ice",
-    "summer treat",
     "red bean"
   ],
   "tips": [
-    "For the fluffiest shaved ice, ensure your milk is completely frozen solid. You can also add a touch of sugar to the milk before freezing for a slightly sweeter ice.",
-    "Adjust the sweetness of the red beans to your preference. Some prefer a less sweet pat, while others like it very rich. Taste and adjust sugar as it cooks.",
-    "Patbingsu is best enjoyed immediately after assembly to prevent the ice from melting. Prepare all toppings in advance so you can quickly put it together."
+    "For the smoothest and fluffiest shaved ice, freeze the milk in a shallow pan and use a dedicated bingsu machine. A food processor can work in a pinch for a coarser texture.",
+    "Making your own red bean paste allows you to control the sweetness. Adjust the sugar content to your preference. You can also add a pinch of cinnamon or vanilla for a subtle flavor twist.",
+    "Patbingsu is highly customizable! Experiment with various toppings like corn flakes for crunch, various syrups, different types of mochi, or even green tea powder for a unique twist."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -174,14 +172,14 @@
     "name": "Patbingsu Red Bean Shaved Ice",
     "description": "Learn how to make authentic Patbingsu Red Bean Shaved Ice. This easy Korean recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1768886834131-a8b64e0109dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc2OTIwNDEwfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1738573519644-93b700f3adf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc2OTIwNDEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1768886834131-a8b64e0109dc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc3MzUwNjA1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1738573519644-93b700f3adf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBkZXNzZXJ0cyUyMGZvb2QlMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc3MzUwNjA1fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-23T08:31:13.527Z",
+    "datePublished": "2026-04-28T05:00:36.099Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -199,48 +197,48 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1 cup Dried red beans (pat)",
+      "1 cup Dried red beans (adzuki beans)",
       "1/2 cup Sugar",
       "1/4 teaspoon Salt",
-      "4 cups Milk",
-      "1/2 cup Sweetened condensed milk",
+      "4 cups Whole milk",
+      "1/4 cup Sweetened condensed milk",
       "1/2 cup Injeolmi (rice cake)",
       "1 cup Fresh fruit",
-      "1/4 cup Mini mochi",
-      "2 tablespoons Roasted peanut powder"
+      "4 scoops Vanilla ice cream",
+      "8 pieces Mochi"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Sweet Red Beans (Pat)",
-        "text": "Drain the pre-soaked red beans. In a pot, cover the beans with fresh water and bring to a boil. Boil for 10 minutes, then drain and rinse. Return beans to the pot with 4 cups of fresh water. Bring to a boil, then reduce heat and simmer for 40-50 minutes, or until very tender. Most water should be absorbed."
+        "name": "Prepare the Red Beans",
+        "text": "Rinse the pre-soaked red beans thoroughly. In a large pot, cover the beans with fresh water and bring to a boil. Boil for 10 minutes, then drain the water. This step helps remove bitterness. Cover the beans with fresh water again (about 4-5 cups) and bring to a boil."
       },
       {
         "@type": "HowToStep",
-        "name": "Sweeten the Red Beans",
-        "text": "Once the red beans are tender, add the sugar and salt to the pot. Stir well to dissolve the sugar. Continue to cook over low heat for another 5-10 minutes, stirring occasionally, until the beans are thick and syrupy. Mash some of the beans with a spoon or potato masher for a creamier texture, leaving some whole for texture. Let cool completely."
+        "name": "Cook the Red Beans",
+        "text": "Reduce heat to low, cover, and simmer the red beans for 30-45 minutes, or until the beans are very tender and easily mashable. Check occasionally and add more hot water if needed to keep them submerged. The beans should be soft but still hold their shape."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Shaved Ice",
-        "text": "If using an ice shaver, place the frozen milk cubes into the machine and shave into fine, fluffy ice. If you do not have an ice shaver, you can blend the frozen milk cubes in a powerful blender until it forms a fine, snow-like consistency. Work quickly to prevent melting."
+        "name": "Make the Sweet Red Bean Paste (Pat)",
+        "text": "Drain most of the cooking liquid from the beans, leaving about 1/4 cup. Add sugar and salt to the pot. Using a potato masher or the back of a spoon, mash the beans to your desired consistency. For a smoother paste, you can blend a portion of the beans. Cook on low heat for another 5-10 minutes, stirring constantly, until the paste thickens. Let it cool completely."
       },
       {
         "@type": "HowToStep",
-        "name": "Assemble the Base",
-        "text": "Divide the shaved ice evenly among 4 serving bowls. Gently mound the ice in the center of each bowl, creating a small peak. This forms the canvas for your delicious toppings."
+        "name": "Prepare the Milk Ice Base",
+        "text": "If using, mix 3 cups of whole milk with 1 cup of sweetened condensed milk. Pour the milk mixture into a shallow freezer-safe pan or ice cube trays. Freeze overnight or for at least 8 hours until completely solid. This creates a creamy, flavorful ice base."
       },
       {
         "@type": "HowToStep",
-        "name": "Add the Toppings",
-        "text": "Generously spoon the cooled sweet red beans over the shaved ice in each bowl. Arrange the cut injeolmi rice cakes and fresh fruit around the red beans. If desired, add mini mochi and a sprinkle of roasted peanut powder for extra flavor and texture."
+        "name": "Shave the Milk Ice",
+        "text": "Once the milk is frozen solid, remove it from the freezer. Break the frozen milk into smaller chunks if necessary. Use a bingsu machine to shave the ice into fine, fluffy flakes. If you don't have a bingsu machine, you can use a food processor to pulse the ice until it reaches a finely crushed consistency, though it won't be as fine as traditional bingsu."
       },
       {
         "@type": "HowToStep",
-        "name": "Finish and Serve",
-        "text": "Drizzle each serving with a generous amount of sweetened condensed milk. Serve immediately with a spoon, encouraging diners to mix the toppings and ice together as they eat. Enjoy this refreshing Korean dessert!"
+        "name": "Assemble Patbingsu",
+        "text": "Divide the shaved milk ice into serving bowls, mounding it high. Generously top each bowl with the prepared sweet red bean paste. Arrange the injeolmi rice cake cubes and fresh fruit around the red bean paste. Drizzle with additional sweetened condensed milk if desired, and add a scoop of vanilla ice cream or mochi for extra indulgence. Serve immediately and enjoy!"
       }
     ]
   },
-  "publishedAt": "2026-04-23T08:31:13.549Z"
+  "publishedAt": "2026-04-28T05:00:36.124Z"
 }
