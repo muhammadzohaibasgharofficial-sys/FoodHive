@@ -7,221 +7,243 @@
   "category": "baking",
   "categoryName": "Baking",
   "categoryIcon": "🥖",
-  "prepTime": "45 min",
-  "cookTime": "15 min",
-  "totalTime": "1 hr",
-  "servings": 6,
+  "seo": {
+    "title": "How to Make Garlic Naan Tandoor Bread — Easy Indian Recipe",
+    "metaDescription": "Learn how to make authentic Garlic Naan Tandoor Bread. This easy Indian recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "indian-baking-garlic-naan-tandoor-bread",
+    "mainKeyword": "Garlic Naan Tandoor Bread",
+    "longTailKeywords": [
+      "how to make Garlic Naan Tandoor Bread",
+      "easy Garlic Naan Tandoor Bread recipe",
+      "authentic Indian Garlic Naan Tandoor Bread"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Garlic Naan Tandoor Bread",
+      "Indian Garlic Naan Tandoor Bread recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Garlic Naan Tandoor Bread Recipe",
+    "h2Headings": [
+      "What is Garlic Naan Tandoor Bread?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "indian-baking-garlic-naan-tandoor-bread.jpg",
+    "imageAlt": "Authentic Indian Garlic Naan Tandoor Bread recipe",
+    "imageCaption": "Delicious homemade Garlic Naan Tandoor Bread — a beloved Indian classic",
+    "internalLinks": [
+      {
+        "anchor": "Baking",
+        "url": "/categories/baking"
+      },
+      {
+        "anchor": "Indian Recipes",
+        "url": "/countries/indian"
+      }
+    ]
+  },
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
+  "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Indian",
-  "image1": "https://images.pexels.com/photos/1051399/pexels-photo-1051399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/166654/pexels-photo-166654.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Savor the irresistible aroma and soft, pillowy texture of authentic Garlic Naan, baked traditionally in a tandoor. Each bite offers a harmonious blend of pungent garlic, fresh coriander, and the slight tang of yogurt-leavened dough, creating a truly beloved Indian bread. It's perfect for scooping up rich curries or enjoying on its own.",
+  "image1": "https://images.unsplash.com/photo-1677175264773-4ec570eb7f8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBHYXJsaWMlMjBOYWFuJTIwVGFuZG9vciUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTA1NDA0fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1724116382212-2d18c7272318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBHYXJsaWMlMjBOYWFuJTIwVGFuZG9vciUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTA1NDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Garlic Naan Tandoor Bread is a quintessential Indian flatbread, soft and chewy with a delightful garlicky flavor. Traditionally baked in a tandoor oven, this recipe brings the authentic taste of India to your kitchen. Perfect for scooping up curries or enjoying on its own.",
   "ingredients": [
     {
-      "item": "All-purpose flour (Maida)",
-      "amount": "3 cups"
-    },
-    {
-      "item": "Warm water",
-      "amount": "3/4 cup",
-      "notes": "(105-115°F / 40-46°C)"
+      "item": "All-purpose flour",
+      "amount": "2 cups",
+      "notes": "plus more for dusting"
     },
     {
       "item": "Active dry yeast",
-      "amount": "1.5 tsp"
+      "amount": "1 teaspoon",
+      "notes": ""
     },
     {
       "item": "Granulated sugar",
-      "amount": "1 tbsp"
+      "amount": "1 teaspoon",
+      "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "1 tsp"
+      "amount": "1/2 teaspoon",
+      "notes": ""
     },
     {
-      "item": "Plain full-fat yogurt",
-      "amount": "1/2 cup",
+      "item": "Plain yogurt",
+      "amount": "1/4 cup",
       "notes": "at room temperature"
     },
     {
+      "item": "Warm water",
+      "amount": "1/2 cup",
+      "notes": "105-115°F (40-46°C)"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": "1 tablespoon",
+      "notes": ""
+    },
+    {
+      "item": "Garlic",
+      "amount": "3-4 cloves",
+      "notes": "minced"
+    },
+    {
+      "item": "Fresh cilantro",
+      "amount": "2 tablespoons",
+      "notes": "chopped"
+    },
+    {
       "item": "Ghee or unsalted butter",
-      "amount": "4 tbsp",
+      "amount": "2 tablespoons",
       "notes": "melted, for brushing"
-    },
-    {
-      "item": "Fresh garlic",
-      "amount": "4-5 cloves",
-      "notes": "finely minced"
-    },
-    {
-      "item": "Fresh coriander (cilantro)",
-      "amount": "1/4 cup",
-      "notes": "finely chopped"
-    },
-    {
-      "item": "Kalonji (Nigella seeds)",
-      "amount": "1 tsp",
-      "notes": "optional, for topping"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Activate the Yeast",
-      "text": "In a small bowl, combine the warm water, granulated sugar, and active dry yeast. Stir gently and let it sit for 5-10 minutes until the mixture becomes frothy and bubbly, indicating the yeast is active. This is crucial for a well-risen naan.",
-      "time": "10 min"
+      "text": "In a small bowl, combine warm water, granulated sugar, and active dry yeast. Stir gently and let it sit for 5 minutes until foamy, indicating the yeast is active.",
+      "time": "5 min"
     },
     {
       "step": 2,
       "title": "Prepare the Dough",
-      "text": "In a large mixing bowl, combine the all-purpose flour and salt. Make a well in the center and pour in the activated yeast mixture, plain yogurt, and 1 tablespoon of the melted ghee. Mix with a spoon or your hands until a shaggy dough forms.",
-      "time": "5 min"
-    },
-    {
-      "step": 3,
-      "title": "Knead and First Proof",
-      "text": "Transfer the dough to a lightly floured surface and knead for 8-10 minutes until it becomes smooth, elastic, and no longer sticky. Form the dough into a ball, lightly grease the bowl with a little ghee, place the dough ball in it, and turn to coat. Cover the bowl with a clean kitchen towel or plastic wrap and let it rise in a warm place for 1.5 to 2 hours, or until doubled in size.",
-      "time": "2 hr"
-    },
-    {
-      "step": 4,
-      "title": "Prepare Garlic-Coriander Topping",
-      "text": "While the dough is proofing, in a small bowl, combine the finely minced fresh garlic and finely chopped fresh coriander. Set aside. Prepare your tandoor or high-heat oven (with a pizza stone or cast iron pan) by preheating it to its highest setting (around 500-550°F / 260-290°C).",
-      "time": "5 min"
-    },
-    {
-      "step": 5,
-      "title": "Shape the Naan and Apply Topping",
-      "text": "Gently punch down the risen dough and divide it into 6 equal portions. On a lightly floured surface, take one portion and roll it out into an oval or tear-drop shape, about 6-8 inches long and 1/4 inch thick. Sprinkle a generous amount of the garlic-coriander mixture over one side of the naan, pressing it gently into the dough. If using, sprinkle a few kalonji seeds as well.",
+      "text": "In a large mixing bowl, combine all-purpose flour and salt. Add the plain yogurt, vegetable oil, and the activated yeast mixture. Mix until a shaggy dough forms, then turn it out onto a lightly floured surface and knead for 5-7 minutes until smooth and elastic.",
       "time": "10 min"
     },
     {
+      "step": 3,
+      "title": "First Rise and Rest",
+      "text": "Lightly grease the mixing bowl with a little oil. Place the dough in the bowl, turning once to coat. Cover the bowl with a clean kitchen towel or plastic wrap and let it rest in a warm place for 20 minutes. The dough should become slightly puffy.",
+      "time": "20 min"
+    },
+    {
+      "step": 4,
+      "title": "Shape the Naan",
+      "text": "Divide the dough into 4 equal portions. On a lightly floured surface, take one portion and roll it into an oval or teardrop shape, about 6-8 inches long and 1/4 inch thick. In a small bowl, mix the minced garlic and chopped fresh cilantro. Sprinkle some of this mixture onto one side of the rolled naan.",
+      "time": "10 min"
+    },
+    {
+      "step": 5,
+      "title": "Cook the Naan",
+      "text": "Heat a heavy-bottomed skillet or cast-iron tawa over high heat until very hot. Carefully place a naan, garlic-side down, onto the hot skillet. Cook for 1-2 minutes until bubbles appear on the surface. Flip the naan and cook for another 1-2 minutes until golden brown spots appear. Repeat with remaining dough.",
+      "time": "8 min"
+    },
+    {
       "step": 6,
-      "title": "Cook in Tandoor and Finish",
-      "text": "Carefully lift the naan. Moisten the plain side (without the garlic topping) with a little water – this helps it stick to the tandoor wall. Slap the moistened side onto the inside wall of the preheated tandoor. Cook for 2-3 minutes, or until bubbles appear on the surface and the naan is lightly charred in spots. Using tongs or a tandoor hook, carefully remove the naan. Brush immediately with melted ghee or butter. Repeat with the remaining dough portions. Serve hot.",
-      "time": "15 min"
+      "title": "Brush and Serve",
+      "text": "As each naan finishes cooking, immediately brush it generously with melted ghee or unsalted butter. Stack the cooked naans on a plate and cover with a clean towel to keep them warm and soft. Serve hot with your favorite Indian curries or dishes.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
     "calories": "380 kcal",
-    "protein": "12g",
-    "carbs": "60g",
-    "fat": "10g",
-    "fiber": "3g",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
     "sugar": "5g",
-    "sodium": "450mg",
-    "cholesterol": "20mg"
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Indian",
-    "Naan",
-    "Garlic Naan",
-    "Tandoor",
-    "Baking",
-    "Authentic Indian",
-    "Traditional",
-    "Bread",
-    "Yeast Bread"
+    "Indian",
+    "authentic",
+    "traditional",
+    "baking",
+    "Garlic Naan Tandoor Bread"
   ],
   "tips": [
-    "**Dough Consistency is Key:** The dough should be soft and pliable, not stiff. Adjust water or flour slightly if needed. Over-kneading can make it tough, under-kneading won't develop gluten.",
-    "**High Heat is Essential:** For that authentic tandoor-like puff and char, your cooking surface (tandoor, oven stone, or cast iron pan) must be extremely hot. Preheat thoroughly.",
-    "**The Water Trick:** Brushing water on the back of the naan before placing it in the tandoor helps it stick and cook evenly.",
-    "**Fresh Ingredients:** Always use fresh garlic and coriander for the best flavor and aroma.",
-    "**Serve Immediately:** Naan is best enjoyed fresh off the tandoor, brushed with ghee, to experience its soft texture and rich flavor."
+    "For an authentic tandoor-like experience, you can use a very hot cast-iron skillet or even bake the naan directly on the floor of a preheated oven at its highest temperature.",
+    "Adding a touch of kalonji (nigella seeds) to the dough or sprinkled on top with the garlic and cilantro will enhance the authentic Indian flavor.",
+    "If you have leftover naan, store it in an airtight container at room temperature for up to 2 days. Reheat gently in a dry skillet or microwave until soft."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Garlic Naan Tandoor Bread\n\nNaan, an iconic leavened flatbread, traces its origins back to ancient Persia and Central Asia, eventually making its way to India with the arrival of the Mughals. It quickly became a staple in royal kitchens, cooked in the intense heat of clay ovens known as tandoors. Originally, naan was a luxurious bread, consumed by royalty and the elite, made with maida (refined flour), yeast, and often enriched with milk or yogurt. Over centuries, its popularity spread, becoming a beloved accompaniment to meals across India. The addition of garlic is a more contemporary, yet universally cherished, innovation that elevates the classic naan, infusing it with a pungent, aromatic flavor that perfectly complements the rich and diverse gravies of Indian cuisine. Garlic Naan represents a delightful evolution of a timeless culinary tradition.\n\n## Why This Recipe Works\n\nThis recipe for Garlic Naan is a testament to the power of traditional Indian baking techniques combined with simple, quality ingredients. The inclusion of yogurt in the dough not only adds a characteristic tang but also contributes to the naan's incredibly soft and tender texture, thanks to its lactic acid content. Yeast provides the essential leavening, creating those desirable air pockets and a slight chewiness. Cooking in a tandoor, or a high-heat home oven simulation, ensures rapid cooking at extreme temperatures. This intense heat causes the dough to puff up dramatically, resulting in a light, airy interior and a beautifully charred, crispy exterior. The fresh minced garlic and coriander, pressed into the surface, infuse every bite with an aromatic burst, making it an irresistible culinary experience.\n\n## Chef Tips for Perfection\n\nAchieving perfect Garlic Naan requires attention to detail. Firstly, ensure your yeast is active; a frothy mixture after 5-10 minutes is a good sign. The dough should be soft and slightly sticky after initial kneading, becoming smooth and elastic after 8-10 minutes of dedicated kneading. Do not rush the proofing process; a full 1.5-2 hours allows for proper flavor development and rise. When shaping, avoid using too much flour, which can dry out the naan. Most importantly, the cooking surface must be scorching hot. If using a home oven, preheat your pizza stone or cast iron pan for at least 30-45 minutes at the highest temperature. The quick, high-heat bake is what gives naan its characteristic texture and subtle char. Finally, generously brush with melted ghee immediately after cooking for a luscious finish.\n\n## Serving Suggestions\n\nGarlic Naan is incredibly versatile and pairs wonderfully with a vast array of Indian dishes. Its soft texture and robust flavor make it an ideal accompaniment for rich, creamy curries like Paneer Butter Masala, Chicken Tikka Masala, or Dal Makhani. It's also fantastic for scooping up hearty lentil stews (dals) or soaking up the gravies of vegetable preparations. For a lighter meal, serve it alongside a fresh raita (yogurt dip) or a tangy pickle. It can even be enjoyed simply with a smear of extra ghee and a sprinkle of chaat masala. Consider tearing it into pieces and using it to mop up the last delicious drops of a flavorful sauce – a truly authentic Indian dining experience.",
-  "publishedAt": "2026-04-06T04:30:21.581Z",
-  "jsonLd": {
+  "article": "Garlic Naan Tandoor Bread is a beloved Indian Baking dish enjoyed across Indian. This authentic recipe brings traditional flavors to your kitchen.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Garlic Naan Tandoor Bread",
-    "description": "Savor the irresistible aroma and soft, pillowy texture of authentic Garlic Naan, baked traditionally in a tandoor. Each bite offers a harmonious blend of pungent garlic, fresh coriander, and the slight tang of yogurt-leavened dough, creating a truly beloved Indian bread. It's perfect for scooping up rich curries or enjoying on its own.",
+    "description": "Learn how to make authentic Garlic Naan Tandoor Bread. This easy Indian recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/1051399/pexels-photo-1051399.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/166654/pexels-photo-166654.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1677175264773-4ec570eb7f8b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBHYXJsaWMlMjBOYWFuJTIwVGFuZG9vciUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTA1NDA0fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1724116382212-2d18c7272318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBHYXJsaWMlMjBOYWFuJTIwVGFuZG9vciUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTA1NDA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-06T04:30:21.581Z",
-    "prepTime": "PT45M",
-    "cookTime": "PT15M",
-    "totalTime": "PT1M",
-    "recipeYield": "6 servings",
+    "datePublished": "2026-04-30T00:01:22.151Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
     "recipeCategory": "Baking",
     "recipeCuisine": "Indian",
-    "keywords": "Indian, Indian, authentic, traditional, baking, Indian, Naan, Garlic Naan, Tandoor, Baking, Authentic Indian, Traditional, Bread, Yeast Bread",
+    "keywords": "Garlic Naan Tandoor Bread, how to make Garlic Naan Tandoor Bread, easy Garlic Naan Tandoor Bread recipe, authentic Indian Garlic Naan Tandoor Bread",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 calories",
-      "proteinContent": "12g",
-      "carbohydrateContent": "60g",
-      "fatContent": "10g",
-      "fiberContent": "3g",
-      "sugarContent": "5g",
-      "sodiumContent": "450mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "3 cups All-purpose flour (Maida)",
-      "3/4 cup Warm water ((105-115°F / 40-46°C))",
-      "1.5 tsp Active dry yeast",
-      "1 tbsp Granulated sugar",
-      "1 tsp Salt",
-      "1/2 cup Plain full-fat yogurt (at room temperature)",
-      "4 tbsp Ghee or unsalted butter (melted, for brushing)",
-      "4-5 cloves Fresh garlic (finely minced)",
-      "1/4 cup Fresh coriander (cilantro) (finely chopped)",
-      "1 tsp Kalonji (Nigella seeds) (optional, for topping)"
+      "2 cups All-purpose flour",
+      "1 teaspoon Active dry yeast",
+      "1 teaspoon Granulated sugar",
+      "1/2 teaspoon Salt",
+      "1/4 cup Plain yogurt",
+      "1/2 cup Warm water",
+      "1 tablespoon Vegetable oil",
+      "3-4 cloves Garlic",
+      "2 tablespoons Fresh cilantro",
+      "2 tablespoons Ghee or unsalted butter"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Activate the Yeast",
-        "text": "In a small bowl, combine the warm water, granulated sugar, and active dry yeast. Stir gently and let it sit for 5-10 minutes until the mixture becomes frothy and bubbly, indicating the yeast is active. This is crucial for a well-risen naan.",
-        "timeRequired": "PT10M"
+        "text": "In a small bowl, combine warm water, granulated sugar, and active dry yeast. Stir gently and let it sit for 5 minutes until foamy, indicating the yeast is active."
       },
       {
         "@type": "HowToStep",
         "name": "Prepare the Dough",
-        "text": "In a large mixing bowl, combine the all-purpose flour and salt. Make a well in the center and pour in the activated yeast mixture, plain yogurt, and 1 tablespoon of the melted ghee. Mix with a spoon or your hands until a shaggy dough forms.",
-        "timeRequired": "PT5M"
+        "text": "In a large mixing bowl, combine all-purpose flour and salt. Add the plain yogurt, vegetable oil, and the activated yeast mixture. Mix until a shaggy dough forms, then turn it out onto a lightly floured surface and knead for 5-7 minutes until smooth and elastic."
       },
       {
         "@type": "HowToStep",
-        "name": "Knead and First Proof",
-        "text": "Transfer the dough to a lightly floured surface and knead for 8-10 minutes until it becomes smooth, elastic, and no longer sticky. Form the dough into a ball, lightly grease the bowl with a little ghee, place the dough ball in it, and turn to coat. Cover the bowl with a clean kitchen towel or plastic wrap and let it rise in a warm place for 1.5 to 2 hours, or until doubled in size.",
-        "timeRequired": "PT2M"
+        "name": "First Rise and Rest",
+        "text": "Lightly grease the mixing bowl with a little oil. Place the dough in the bowl, turning once to coat. Cover the bowl with a clean kitchen towel or plastic wrap and let it rest in a warm place for 20 minutes. The dough should become slightly puffy."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Garlic-Coriander Topping",
-        "text": "While the dough is proofing, in a small bowl, combine the finely minced fresh garlic and finely chopped fresh coriander. Set aside. Prepare your tandoor or high-heat oven (with a pizza stone or cast iron pan) by preheating it to its highest setting (around 500-550°F / 260-290°C).",
-        "timeRequired": "PT5M"
+        "name": "Shape the Naan",
+        "text": "Divide the dough into 4 equal portions. On a lightly floured surface, take one portion and roll it into an oval or teardrop shape, about 6-8 inches long and 1/4 inch thick. In a small bowl, mix the minced garlic and chopped fresh cilantro. Sprinkle some of this mixture onto one side of the rolled naan."
       },
       {
         "@type": "HowToStep",
-        "name": "Shape the Naan and Apply Topping",
-        "text": "Gently punch down the risen dough and divide it into 6 equal portions. On a lightly floured surface, take one portion and roll it out into an oval or tear-drop shape, about 6-8 inches long and 1/4 inch thick. Sprinkle a generous amount of the garlic-coriander mixture over one side of the naan, pressing it gently into the dough. If using, sprinkle a few kalonji seeds as well.",
-        "timeRequired": "PT10M"
+        "name": "Cook the Naan",
+        "text": "Heat a heavy-bottomed skillet or cast-iron tawa over high heat until very hot. Carefully place a naan, garlic-side down, onto the hot skillet. Cook for 1-2 minutes until bubbles appear on the surface. Flip the naan and cook for another 1-2 minutes until golden brown spots appear. Repeat with remaining dough."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook in Tandoor and Finish",
-        "text": "Carefully lift the naan. Moisten the plain side (without the garlic topping) with a little water – this helps it stick to the tandoor wall. Slap the moistened side onto the inside wall of the preheated tandoor. Cook for 2-3 minutes, or until bubbles appear on the surface and the naan is lightly charred in spots. Using tongs or a tandoor hook, carefully remove the naan. Brush immediately with melted ghee or butter. Repeat with the remaining dough portions. Serve hot.",
-        "timeRequired": "PT15M"
+        "name": "Brush and Serve",
+        "text": "As each naan finishes cooking, immediately brush it generously with melted ghee or unsalted butter. Stack the cooked naans on a plate and cover with a clean towel to keep them warm and soft. Serve hot with your favorite Indian curries or dishes."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-04-30T00:01:22.194Z"
 }
