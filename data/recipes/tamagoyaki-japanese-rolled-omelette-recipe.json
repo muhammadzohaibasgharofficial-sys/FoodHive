@@ -8,43 +8,46 @@
   "categoryName": "Breakfast Recipes",
   "categoryIcon": "🍳",
   "seo": {
-    "title": "Tamagoyaki Recipe: Easy Japanese Rolled Omelette",
-    "metaDescription": "Learn how to make perfect Tamagoyaki, the fluffy Japanese rolled omelette, with our easy step-by-step recipe. Ideal for breakfast or bento boxes!",
+    "title": "Tamagoyaki: Easy Japanese Rolled Omelette Recipe",
+    "metaDescription": "Learn to make authentic Tamagoyaki, the fluffy Japanese rolled omelette! This easy recipe brings a taste of Japan to your breakfast or bento box. Get the secret to perfect layers!",
     "urlSlug": "tamagoyaki-japanese-rolled-omelette-recipe",
     "mainKeyword": "Tamagoyaki",
     "longTailKeywords": [
       "how to make Tamagoyaki",
       "easy Tamagoyaki recipe",
       "authentic Japanese Tamagoyaki recipe",
-      "Tamagoyaki step by step",
-      "best Tamagoyaki at home"
+      "Tamagoyaki step by step guide",
+      "best Tamagoyaki recipe at home",
+      "Tamagoyaki for bento box"
     ],
     "lowCompetitionKeywords": [
-      "homemade Tamagoyaki recipe",
       "Japanese breakfast omelette recipe",
-      "Tamagoyaki bento box"
+      "sweet Tamagoyaki recipe",
+      "dashi Tamagoyaki recipe",
+      "Tamagoyaki without special pan",
+      "healthy Tamagoyaki recipe"
     ],
     "searchIntent": "informational",
-    "h1": "Authentic Tamagoyaki: Easy Japanese Rolled Omelette Recipe",
+    "h1": "Authentic Tamagoyaki: Japanese Rolled Omelette Recipe",
     "h2Headings": [
       "What is Tamagoyaki?",
       "Ingredients for Tamagoyaki",
-      "How to Make Tamagoyaki (Step-by-Step)",
+      "Step-by-Step Guide to Making Tamagoyaki",
       "Tips for Perfect Tamagoyaki",
-      "Serving Suggestions for Japanese Omelette",
+      "Serving Suggestions for Tamagoyaki",
       "Tamagoyaki Variations & Substitutions"
     ],
     "imageFilename": "tamagoyaki-japanese-rolled-omelette-recipe.jpg",
-    "imageAlt": "Freshly made Tamagoyaki, a fluffy Japanese rolled omelette, sliced and ready to serve.",
-    "imageCaption": "Master the art of making delicious Tamagoyaki, the iconic Japanese rolled omelette, perfect for any meal.",
+    "imageAlt": "Freshly made Tamagoyaki Japanese rolled omelette on a cutting board",
+    "imageCaption": "Master the art of Tamagoyaki, a delicious and visually appealing Japanese rolled omelette perfect for any meal.",
     "internalLinks": [
       {
-        "anchor": "Japanese Breakfast Recipes",
-        "url": "/categories/japanese-breakfast"
+        "anchor": "More Breakfast Recipes",
+        "url": "/categories/breakfast"
       },
       {
-        "anchor": "Traditional Japanese Recipes",
-        "url": "/countries/japanese"
+        "anchor": "Explore Japanese Cuisine",
+        "url": "/cuisine/japanese"
       }
     ]
   },
@@ -54,88 +57,94 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Japanese",
-  "image1": "https://images.unsplash.com/photo-1721310880354-3a61b570399e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTIzODEyfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1751094783613-da309b6e9c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTIzODEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Tamagoyaki is a delightful Japanese rolled omelette, known for its sweet and savory flavor and distinct layered texture. This culinary art involves skillfully rolling thin layers of seasoned egg mixture in a special rectangular pan. It is a staple in Japanese breakfasts, bento boxes, and sushi, offering a comforting and visually appealing dish.",
+  "image1": "https://images.unsplash.com/photo-1721310880354-3a61b570399e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTk3MjQ1fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1751094783613-da309b6e9c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTk3MjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Tamagoyaki is a beloved Japanese rolled omelette, known for its distinct sweet and savory flavor and beautiful layered appearance. This delicate egg dish is a staple in bento boxes and a popular breakfast item, offering a fluffy texture and comforting taste. Mastering the rolling technique brings a touch of authentic Japanese culinary artistry to your kitchen.",
   "ingredients": [
     {
       "item": "Large eggs",
-      "amount": "4",
-      "notes": ""
+      "amount": "6",
+      "notes": "at room temperature"
     },
     {
       "item": "Dashi stock",
-      "amount": "4 tablespoons",
-      "notes": "(or water)"
-    },
-    {
-      "item": "Mirin",
-      "amount": "1 tablespoon",
-      "notes": ""
+      "amount": "4 tbsp",
+      "notes": "or water"
     },
     {
       "item": "Soy sauce",
-      "amount": "1 teaspoon",
+      "amount": "1 tbsp",
       "notes": ""
     },
     {
-      "item": "Granulated sugar",
-      "amount": "1 tablespoon",
+      "item": "Mirin",
+      "amount": "1 tbsp",
       "notes": ""
+    },
+    {
+      "item": "Sugar",
+      "amount": "1 tsp",
+      "notes": "or to taste"
     },
     {
       "item": "Salt",
-      "amount": "1 pinch",
+      "amount": "a pinch",
       "notes": ""
     },
     {
       "item": "Vegetable oil",
-      "amount": "as needed",
-      "notes": "for greasing the pan"
+      "amount": "1 tbsp",
+      "notes": "for cooking"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Egg Mixture",
-      "text": "In a medium bowl, gently whisk the eggs until just combined. Be careful not to incorporate too much air, which can create bubbles. Add the dashi stock, mirin, soy sauce, sugar, and salt. Whisk until the sugar and salt are fully dissolved. Strain the mixture through a fine-mesh sieve to remove any chalazae or bits of egg for a smoother omelette.",
+      "text": "In a medium bowl, gently whisk the eggs until just combined, being careful not to create too many bubbles. Strain the mixture through a fine-mesh sieve to ensure a smooth omelette.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Heat and Grease the Pan",
-      "text": "Place a rectangular tamagoyaki pan (or a small non-stick frying pan) over medium-low heat. Lightly coat the pan with a thin layer of vegetable oil using a paper towel dipped in oil. Ensure the entire cooking surface is evenly greased.",
-      "time": "2 min"
+      "title": "Make the Dashi Seasoning",
+      "text": "In a separate small bowl, combine the dashi stock, soy sauce, mirin, sugar, and a pinch of salt. Stir until the sugar and salt are fully dissolved.",
+      "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Pour the First Layer",
-      "text": "Pour about one-quarter of the egg mixture into the hot pan, tilting the pan to spread the mixture evenly into a thin layer. Cook for about 30 seconds to 1 minute, until the edges are set and the top is still slightly wet but not runny.",
+      "title": "Combine and Season",
+      "text": "Add the dashi seasoning mixture to the strained eggs. Gently whisk again until just combined. Taste a tiny bit and adjust sweetness or saltiness if desired.",
       "time": "2 min"
     },
     {
       "step": 4,
-      "title": "Roll the First Omelette Layer",
-      "text": "Using chopsticks or a spatula, carefully roll the cooked egg layer from one end of the pan to the other. If using a rectangular pan, roll from the far end towards you. Leave the rolled omelette at one end of the pan.",
+      "title": "Heat the Pan",
+      "text": "Heat a rectangular tamagoyaki pan (or a small non-stick frying pan) over medium-low heat. Lightly coat the pan with a thin layer of vegetable oil using a paper towel.",
       "time": "3 min"
     },
     {
       "step": 5,
-      "title": "Add Subsequent Layers and Roll",
-      "text": "Re-grease the empty part of the pan with oil. Lift the rolled omelette slightly and pour another quarter of the egg mixture underneath it and into the empty space. Ensure the new egg mixture connects with the previously rolled omelette. Cook until set, then roll the entire omelette, incorporating the new layer. Repeat this process two more times, until all the egg mixture is used, creating a multi-layered omelette.",
-      "time": "10 min"
-    },
-    {
-      "step": 6,
-      "title": "Shape and Rest the Omelette",
-      "text": "Once all layers are rolled, gently press the omelette with your spatula or chopsticks to shape it into a neat rectangle. Cook for another minute or two, rotating occasionally, to ensure all sides are lightly browned and cooked through. Remove the tamagoyaki from the pan and place it on a bamboo rolling mat or cutting board.",
+      "title": "Pour the First Layer",
+      "text": "Pour about one-quarter of the egg mixture into the hot pan, tilting the pan to evenly coat the bottom. As the edges set and the top is still slightly wet, gently push the cooked egg towards one end of the pan to form a roll.",
       "time": "5 min"
     },
     {
+      "step": 6,
+      "title": "Roll and Repeat",
+      "text": "Re-oil the pan if necessary. Pour another one-quarter of the egg mixture, lifting the previously rolled omelette slightly to allow the new egg to flow underneath. Once set, roll the new layer over the previous one, continuing until all egg mixture is used and a thick, multi-layered omelette is formed.",
+      "time": "10 min"
+    },
+    {
       "step": 7,
-      "title": "Slice and Serve",
-      "text": "While still warm, use the bamboo mat to gently press and shape the tamagoyaki for a few minutes to ensure it holds its form. Once slightly cooled, slice the tamagoyaki into 1-inch thick pieces. Serve immediately as part of a Japanese breakfast, in a bento box, or as a side dish.",
+      "title": "Shape and Slice",
+      "text": "Once all the egg mixture is cooked and rolled, gently press the tamagoyaki with a spatula to shape it into a neat rectangle. Transfer to a cutting board and let it cool slightly before slicing into 1-inch thick pieces.",
       "time": "3 min"
+    },
+    {
+      "step": 8,
+      "title": "Serve Warm or Cold",
+      "text": "Serve your Tamagoyaki immediately as part of a Japanese breakfast, or allow it to cool completely before packing into bento boxes. It is delicious both warm and cold.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
@@ -150,41 +159,41 @@
   },
   "tags": [
     "Japanese",
-    "Japanese",
-    "authentic",
-    "traditional",
+    "egg",
+    "omelette",
     "breakfast",
+    "traditional",
     "Tamagoyaki"
   ],
   "tips": [
-    "For a truly authentic texture, use a special rectangular tamagoyaki pan. If unavailable, a small non-stick round pan can work with careful shaping.",
-    "Adjust the sweetness and saltiness of the dashi mixture to your preference. Some prefer it sweeter for breakfast, while others like it more savory for bento.",
-    "To achieve perfectly even rolls, ensure your heat is consistent medium-low. If the pan gets too hot, lift it off the heat briefly before pouring the next layer."
+    "For perfectly smooth Tamagoyaki, always strain your egg mixture through a fine-mesh sieve to remove any chalazae or bits of membrane.",
+    "If you do not have a rectangular tamagoyaki pan, a small round non-stick frying pan can be used. Just try to shape the layers as rectangularly as possible as you roll.",
+    "Tamagoyaki can be enjoyed warm, at room temperature, or chilled. It is a versatile dish that pairs well with rice, miso soup, or as a side in a bento box."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Embrace the delicate artistry and comforting flavors of a true Japanese culinary staple: Tamagoyaki. More than just an omelette, Tamagoyaki is a testament to the simplicity and elegance found in Japanese home cooking, gracing breakfast tables, bento boxes, and sushi platters across the nation. This fluffy, slightly sweet or savory rolled egg dish is a beloved component of Japanese breakfast recipes, offering a unique texture and flavor that sets it apart from Western omelettes. If you've ever dreamt of recreating that authentic Japanese breakfast experience, mastering Tamagoyaki is your delicious first step. Let's dive into the world of this iconic rolled omelette and discover how to bring its magic into your kitchen.\n\n## What is Tamagoyaki?\n\nTamagoyaki literally translates to \"grilled egg\" or \"fried egg,\" but it's much more descriptive to call it a Japanese rolled omelette. It's characterized by its distinct multi-layered appearance, achieved by carefully pouring thin layers of beaten egg mixture into a rectangular pan and rolling them into a log. The result is a light, airy, and often slightly sweet or savory omelette with a bouncy, custard-like texture. Unlike a Western omelette which is typically folded once, Tamagoyaki is built layer by layer, creating a fascinating visual and textural experience. It's a cornerstone of Japanese breakfast, known for its mild flavor that complements rice, miso soup, and grilled fish perfectly. Beyond breakfast, it's a popular item in bento lunch boxes, providing a nutritious and appealing protein, and can even be found as a topping for nigiri sushi (tamago sushi).\n\n## Ingredients for Tamagoyaki\n\nThe beauty of Tamagoyaki lies in its relatively simple ingredient list, though the quality of each component shines through. Here's what you'll typically need to create this delightful Japanese rolled omelette:\n\n*   **Eggs:** The star of the show! Fresh, large eggs are essential for a good texture and vibrant color.\n*   **Dashi (Japanese Soup Stock):** This is the secret to Tamagoyaki's depth of flavor and moistness. Dashi, made from kombu (kelp) and katsuobushi (bonito flakes), provides a subtle umami kick. If dashi is unavailable, a pinch of dashi powder dissolved in water can be a quick substitute.\n*   **Soy Sauce:** A dash of light soy sauce adds a savory note and a hint of saltiness, balancing the sweetness.\n*   **Mirin (Sweet Rice Wine):** Mirin is crucial for adding a distinctive sweetness and a beautiful sheen to the Tamagoyaki. It also helps tenderize the eggs.\n*   **Sugar:** Depending on preference, a little extra sugar can be added to enhance the sweetness, especially for a classic Tokyo-style Tamagoyaki.\n*   **Salt:** Just a pinch to bring out the flavors.\n*   **Oil:** A neutral oil like vegetable oil or canola oil is needed for greasing the pan, preventing sticking and ensuring a smooth roll.\n\nThese core ingredients, when combined in the right proportions, create the quintessential flavor profile of this beloved Japanese dish.\n\n## How to Make Tamagoyaki (Step-by-Step)\n\nMaking Tamagoyaki requires a bit of practice and patience, but the technique is surprisingly straightforward once you get the hang of it.\n\n1.  **Prepare the Egg Mixture:** Crack your eggs into a bowl. Add the dashi, soy sauce, mirin, sugar, and salt. Whisk gently until just combined. Be careful not to over-whisk, as incorporating too much air can make the omelette bubbly and less smooth. You can strain the mixture through a fine-mesh sieve to remove any chalazae (the white stringy bits in egg whites) or unincorporated egg white, ensuring an even smoother texture.\n2.  **Heat the Pan:** The ideal pan for Tamagoyaki is a rectangular Tamagoyaki pan (tamagoyaki-ki). If you don't have one, a small non-stick frying pan will work, though the shape will be slightly different. Heat the pan over medium-low heat.\n3.  **Grease the Pan:** Lightly oil the pan using a paper towel dipped in oil. Make sure the entire surface is coated.\n4.  **Pour the First Layer:** Pour a thin layer of the egg mixture into the hot, oiled pan, just enough to thinly coat the bottom. Swirl the pan to ensure an even coating.\n5.  **Cook and Roll:** As the edges begin to set but the top is still slightly wet, carefully use chopsticks or a spatula to roll the egg mixture from one end of the pan to the other. Roll it tightly to create a log.\n6.  **Repeat the Process:** Push the rolled egg to one side of the pan. Re-oil the empty space in the pan. Pour another thin layer of egg mixture, lifting the previously rolled egg slightly to allow some of the new mixture to flow underneath.\n7.  **Continue Rolling:** Once the new layer begins to set, roll the entire log back over the fresh egg mixture, incorporating the new layer into the existing roll.\n8.  **Finish and Shape:** Continue this process until all the egg mixture is used. With each roll, you'll create a thicker, multi-layered omelette. Once finished, you can gently press the Tamagoyaki with a bamboo mat (makisu) or a clean kitchen towel to give it a neat, rectangular shape while it's still warm.\n9.  **Slice and Serve:** Allow the Tamagoyaki to cool slightly before slicing it into desired portions, typically 1-inch thick pieces.\n\n## Tips for Perfect Tamagoyaki\n\nAchieving that beautifully layered and perfectly cooked Tamagoyaki is an art that can be mastered with a few key tips:\n\n*   **The Right Pan:** While not strictly essential, a dedicated rectangular Tamagoyaki pan makes the rolling process significantly easier and helps achieve the classic shape.\n*   **Consistent Heat:** Maintain a consistent medium-low heat throughout the cooking process. Too high, and the eggs will brown too quickly; too low, and they won't set properly.\n*   **Thin Layers:** Each layer of egg mixture should be thin. This allows for quick cooking and creates more distinct layers in the final product.\n*   **Don't Overcook:** Remove the pan from the heat briefly if it gets too hot, or lift the egg roll to prevent overcooking. The aim is for a soft, custardy interior.\n*   **Practice Rolling:** The rolling technique is the most challenging part. Don't be discouraged if your first few attempts aren't perfect. Practice makes perfect, and even imperfect Tamagoyaki tastes delicious!\n*   **Re-oil Between Layers:** Always re-oil the pan between each new layer of egg mixture to prevent sticking and ensure a smooth release.\n\n## Serving Suggestions for Japanese Omelette\n\nThe versatility of Tamagoyaki is one of its most appealing qualities. While it’s a quintessential part of a traditional Japanese breakfast, its uses extend far beyond the morning meal.\n\n*   **Japanese Breakfast:** Serve slices alongside steamed rice, miso soup, grilled fish (like salmon or mackerel), and pickled vegetables (tsukemono) for a complete and authentic Japanese breakfast experience.\n*   **Bento Boxes:** Tamagoyaki is a staple in bento boxes, adding a touch of color, protein, and mild flavor that children and adults alike adore. Its sturdy yet soft texture makes it perfect for packing.\n*   **Sushi:** \"Tamago nigiri\" is a popular type of sushi where a slice of sweet Tamagoyaki is placed atop a small bed of sushi rice and often wrapped with a strip of nori (seaweed).\n*   **Side Dish:** It can be served as a simple side dish for any meal, offering a comforting and flavorful accompaniment.\n*   **Snack:** Enjoyed on its own, it makes for a light and satisfying snack.\n\n## Tamagoyaki Variations & Substitutions\n\nWhile the classic dashi-based Tamagoyaki is beloved, there are numerous ways to customize this Japanese rolled omelette to suit different tastes and dietary needs.\n\n*   **Sweet Tamagoyaki (Atsuyaki Tamago):** This style emphasizes the sweetness, often found in sushi restaurants. Increase the sugar and mirin for a dessert-like omelette.\n*   **Savory Tamagoyaki (Dashimaki Tamago):** This variation focuses more on the umami of the dashi, with less sugar and sometimes a bit more soy sauce.\n*   **Cheese Tamagoyaki:** Incorporate a sprinkle of grated cheese (like mozzarella or cheddar) into one of the layers for a Western-inspired twist.\n*   **Nori (Seaweed) Tamagoyaki:** Lay a sheet of nori over a partially cooked layer before rolling for an extra layer of flavor and visual appeal.\n*   **Vegetable Additions:** Finely chopped scallions, spinach, carrots, or mushrooms can be mixed into the egg batter for added nutrition and texture. Ensure vegetables are very finely chopped or pre-cooked to ensure even cooking.\n*   **Vegan/Vegetarian Substitutions:** For those avoiding dashi made with bonito flakes, use kombu dashi (made solely from kelp) for a vegetarian version. Vegan versions using chickpea flour or plant-based egg substitutes can also be attempted, though the texture will differ.\n*   **Soy Sauce Alternatives:** If you're avoiding soy, you can use a pinch more salt and a tiny splash of tamari or coconut aminos for a similar savory depth.\n\nWhether you're a seasoned chef or a home cook looking to explore Japanese cuisine, making Tamagoyaki is a rewarding experience. Its delicate flavors and unique preparation method make it a truly special dish. So gather your ingredients, heat up your pan, and embark on a delicious journey to create your very own authentic Japanese rolled omelette. It's more than just food; it's a taste of Japanese culinary tradition, right in your kitchen.",
+  "article": "Tamagoyaki Japanese Rolled Omelette is a beloved Japanese Breakfast Recipes dish enjoyed across Japanese. This authentic recipe brings traditional flavors to your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Tamagoyaki Japanese Rolled Omelette",
-    "description": "Learn how to make perfect Tamagoyaki, the fluffy Japanese rolled omelette, with our easy step-by-step recipe. Ideal for breakfast or bento boxes!",
+    "description": "Learn to make authentic Tamagoyaki, the fluffy Japanese rolled omelette! This easy recipe brings a taste of Japan to your breakfast or bento box. Get the secret to perfect layers!",
     "image": [
-      "https://images.unsplash.com/photo-1721310880354-3a61b570399e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTIzODEyfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1751094783613-da309b6e9c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3MTIzODEyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1721310880354-3a61b570399e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTk3MjQ1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1751094783613-da309b6e9c52?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW1hZ295YWtpJTIwSmFwYW5lc2UlMjBSb2xsZWQlMjBKYXBhbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc3NTk3MjQ1fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-25T13:30:50.686Z",
+    "datePublished": "2026-05-01T01:30:33.914Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Breakfast Recipes",
     "recipeCuisine": "Japanese",
-    "keywords": "Tamagoyaki, how to make Tamagoyaki, easy Tamagoyaki recipe, authentic Japanese Tamagoyaki recipe, Tamagoyaki step by step, best Tamagoyaki at home",
+    "keywords": "Tamagoyaki, how to make Tamagoyaki, easy Tamagoyaki recipe, authentic Japanese Tamagoyaki recipe, Tamagoyaki step by step guide, best Tamagoyaki recipe at home, Tamagoyaki for bento box",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
@@ -195,51 +204,56 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "4 Large eggs",
-      "4 tablespoons Dashi stock",
-      "1 tablespoon Mirin",
-      "1 teaspoon Soy sauce",
-      "1 tablespoon Granulated sugar",
-      "1 pinch Salt",
-      "as needed Vegetable oil"
+      "6 Large eggs",
+      "4 tbsp Dashi stock",
+      "1 tbsp Soy sauce",
+      "1 tbsp Mirin",
+      "1 tsp Sugar",
+      "a pinch Salt",
+      "1 tbsp Vegetable oil"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Egg Mixture",
-        "text": "In a medium bowl, gently whisk the eggs until just combined. Be careful not to incorporate too much air, which can create bubbles. Add the dashi stock, mirin, soy sauce, sugar, and salt. Whisk until the sugar and salt are fully dissolved. Strain the mixture through a fine-mesh sieve to remove any chalazae or bits of egg for a smoother omelette."
+        "text": "In a medium bowl, gently whisk the eggs until just combined, being careful not to create too many bubbles. Strain the mixture through a fine-mesh sieve to ensure a smooth omelette."
       },
       {
         "@type": "HowToStep",
-        "name": "Heat and Grease the Pan",
-        "text": "Place a rectangular tamagoyaki pan (or a small non-stick frying pan) over medium-low heat. Lightly coat the pan with a thin layer of vegetable oil using a paper towel dipped in oil. Ensure the entire cooking surface is evenly greased."
+        "name": "Make the Dashi Seasoning",
+        "text": "In a separate small bowl, combine the dashi stock, soy sauce, mirin, sugar, and a pinch of salt. Stir until the sugar and salt are fully dissolved."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Combine and Season",
+        "text": "Add the dashi seasoning mixture to the strained eggs. Gently whisk again until just combined. Taste a tiny bit and adjust sweetness or saltiness if desired."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Heat the Pan",
+        "text": "Heat a rectangular tamagoyaki pan (or a small non-stick frying pan) over medium-low heat. Lightly coat the pan with a thin layer of vegetable oil using a paper towel."
       },
       {
         "@type": "HowToStep",
         "name": "Pour the First Layer",
-        "text": "Pour about one-quarter of the egg mixture into the hot pan, tilting the pan to spread the mixture evenly into a thin layer. Cook for about 30 seconds to 1 minute, until the edges are set and the top is still slightly wet but not runny."
+        "text": "Pour about one-quarter of the egg mixture into the hot pan, tilting the pan to evenly coat the bottom. As the edges set and the top is still slightly wet, gently push the cooked egg towards one end of the pan to form a roll."
       },
       {
         "@type": "HowToStep",
-        "name": "Roll the First Omelette Layer",
-        "text": "Using chopsticks or a spatula, carefully roll the cooked egg layer from one end of the pan to the other. If using a rectangular pan, roll from the far end towards you. Leave the rolled omelette at one end of the pan."
+        "name": "Roll and Repeat",
+        "text": "Re-oil the pan if necessary. Pour another one-quarter of the egg mixture, lifting the previously rolled omelette slightly to allow the new egg to flow underneath. Once set, roll the new layer over the previous one, continuing until all egg mixture is used and a thick, multi-layered omelette is formed."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Subsequent Layers and Roll",
-        "text": "Re-grease the empty part of the pan with oil. Lift the rolled omelette slightly and pour another quarter of the egg mixture underneath it and into the empty space. Ensure the new egg mixture connects with the previously rolled omelette. Cook until set, then roll the entire omelette, incorporating the new layer. Repeat this process two more times, until all the egg mixture is used, creating a multi-layered omelette."
+        "name": "Shape and Slice",
+        "text": "Once all the egg mixture is cooked and rolled, gently press the tamagoyaki with a spatula to shape it into a neat rectangle. Transfer to a cutting board and let it cool slightly before slicing into 1-inch thick pieces."
       },
       {
         "@type": "HowToStep",
-        "name": "Shape and Rest the Omelette",
-        "text": "Once all layers are rolled, gently press the omelette with your spatula or chopsticks to shape it into a neat rectangle. Cook for another minute or two, rotating occasionally, to ensure all sides are lightly browned and cooked through. Remove the tamagoyaki from the pan and place it on a bamboo rolling mat or cutting board."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Slice and Serve",
-        "text": "While still warm, use the bamboo mat to gently press and shape the tamagoyaki for a few minutes to ensure it holds its form. Once slightly cooled, slice the tamagoyaki into 1-inch thick pieces. Serve immediately as part of a Japanese breakfast, in a bento box, or as a side dish."
+        "name": "Serve Warm or Cold",
+        "text": "Serve your Tamagoyaki immediately as part of a Japanese breakfast, or allow it to cool completely before packing into bento boxes. It is delicious both warm and cold."
       }
     ]
   },
-  "publishedAt": "2026-04-25T13:30:50.719Z"
+  "publishedAt": "2026-05-01T01:30:33.971Z"
 }
