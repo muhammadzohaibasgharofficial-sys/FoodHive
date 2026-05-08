@@ -7,20 +7,58 @@
   "category": "breakfast",
   "categoryName": "Breakfast Recipes",
   "categoryIcon": "🍳",
+  "seo": {
+    "title": "How to Make Gyeran Mari Korean Rolled Omelette — Easy Korean Recipe",
+    "metaDescription": "Learn how to make authentic Gyeran Mari Korean Rolled Omelette. This easy Korean recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "korean-breakfast-gyeran-mari-korean-rolled-omelette",
+    "mainKeyword": "Gyeran Mari Korean Rolled Omelette",
+    "longTailKeywords": [
+      "how to make Gyeran Mari Korean Rolled Omelette",
+      "easy Gyeran Mari Korean Rolled Omelette recipe",
+      "authentic Korean Gyeran Mari Korean Rolled Omelette"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Gyeran Mari Korean Rolled Omelette",
+      "Korean Gyeran Mari Korean Rolled Omelette recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Gyeran Mari Korean Rolled Omelette Recipe",
+    "h2Headings": [
+      "What is Gyeran Mari Korean Rolled Omelette?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "korean-breakfast-gyeran-mari-korean-rolled-omelette.jpg",
+    "imageAlt": "Authentic Korean Gyeran Mari Korean Rolled Omelette recipe",
+    "imageCaption": "Delicious homemade Gyeran Mari Korean Rolled Omelette — a beloved Korean classic",
+    "internalLinks": [
+      {
+        "anchor": "Breakfast Recipes",
+        "url": "/categories/breakfast"
+      },
+      {
+        "anchor": "Korean Recipes",
+        "url": "/countries/korean"
+      }
+    ]
+  },
   "prepTime": "20 min",
-  "cookTime": "15 min",
-  "totalTime": "35 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.pexels.com/photos/36865958/pexels-photo-36865958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/31056754/pexels-photo-31056754.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Gyeran Mari, or Korean rolled omelette, is a beloved banchan (side dish) and breakfast staple, celebrated for its tender, fluffy layers and subtly savory flavor. Finely diced vegetables add vibrant color and a delicate crunch, making each slice a delightful bite. It's a comforting and versatile dish, perfect for a balanced Korean meal or a light morning start.",
+  "image1": "https://images.unsplash.com/photo-1645530654351-d14ae8ac75fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxHeWVyYW4lMjBNYXJpJTIwS29yZWFuJTIwS29yZWFuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzgyMzA4MjV8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1604573714289-312a6972f67c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxHeWVyYW4lMjBNYXJpJTIwS29yZWFuJTIwS29yZWFuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzgyMzA4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Gyeran Mari is a beloved Korean rolled omelette, known for its soft, fluffy texture and visually appealing layers. Often seasoned simply with salt and finely chopped vegetables, it's a popular breakfast or side dish that brings a comforting touch to any meal. Its delicate flavor makes it a versatile addition, perfect for lunchboxes or a light snack.",
   "ingredients": [
     {
       "item": "Large Eggs",
       "amount": "8",
-      "notes": "at room temperature for best texture"
+      "notes": "room temperature"
     },
     {
       "item": "Carrot",
@@ -28,184 +66,190 @@
       "notes": "finely diced"
     },
     {
-      "item": "Green Onion (Scallion)",
-      "amount": "2 tablespoons",
+      "item": "Green Onion",
+      "amount": "2 tbsp",
       "notes": "finely chopped"
     },
     {
-      "item": "Fine Sea Salt",
-      "amount": "1/2 teaspoon",
+      "item": "Salt",
+      "amount": "1/2 tsp",
       "notes": "or to taste"
     },
     {
       "item": "Sugar",
-      "amount": "1/4 teaspoon",
-      "notes": "a pinch to balance flavors"
+      "amount": "1/4 tsp",
+      "notes": "optional, for a hint of sweetness"
     },
     {
       "item": "Water or Milk",
-      "amount": "2 tablespoons",
-      "notes": "for a softer, more pliable omelette"
+      "amount": "1 tbsp",
+      "notes": "optional, for a softer texture"
     },
     {
       "item": "Cooking Oil",
-      "amount": "1 tablespoon",
-      "notes": "such as vegetable or grapeseed oil"
+      "amount": "1 tbsp",
+      "notes": "for pan frying"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Ingredients",
-      "text": "Finely dice the carrot and finely chop the green onion. The key is to make the pieces very small and uniform, so they integrate well into the egg mixture and don't tear the omelette during rolling. Set aside.",
+      "title": "Prepare Egg Mixture",
+      "text": "Crack the eggs into a large bowl. Add the finely diced carrot, chopped green onion, salt, and optional sugar and water/milk. Whisk thoroughly until all ingredients are well combined and the mixture is smooth, but do not over-whisk to avoid too many air bubbles.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Whisk Egg Mixture",
-      "text": "Crack the 8 large eggs into a large bowl. Add the fine sea salt and sugar. Pour in the 2 tablespoons of water or milk. Whisk thoroughly until the yolks and whites are completely combined and there are no streaks. Do not over-whisk to avoid too many air bubbles. Gently fold in the finely diced carrots and chopped green onions.",
-      "time": "5 min"
-    },
-    {
-      "step": 3,
-      "title": "Heat Pan and First Layer",
-      "text": "Heat a non-stick frying pan (a rectangular omelette pan is ideal, but a round one works) over medium-low heat. Lightly brush the pan with a thin layer of cooking oil. Once hot, pour about 1/4 to 1/3 of the egg mixture into the pan, tilting it to spread the egg evenly into a thin layer. Allow the egg to cook until the edges are set and the top is mostly set but still slightly moist.",
-      "time": "3 min"
-    },
-    {
-      "step": 4,
-      "title": "Begin Rolling",
-      "text": "Once the first layer is mostly set, use a spatula (or two, for easier handling) to gently fold about 1/3 of the omelette from one end towards the center. Then, continue rolling this folded section until it reaches about 1/3 to 1/2 of the way across the pan. Leave the unrolled portion in the pan.",
+      "title": "Heat and Oil Pan",
+      "text": "Heat a non-stick rectangular or round pan (about 8-10 inches) over medium-low heat. Lightly brush or wipe the pan with a thin layer of cooking oil. Too much oil will prevent the omelette from sticking together.",
       "time": "2 min"
     },
     {
+      "step": 3,
+      "title": "Pour First Layer",
+      "text": "Pour about 1/4 to 1/5 of the egg mixture into the hot pan, tilting the pan to spread it evenly into a thin layer that covers the entire bottom. Let it cook for about 1-2 minutes until the edges are set but the top is still slightly wet.",
+      "time": "2 min"
+    },
+    {
+      "step": 4,
+      "title": "First Roll",
+      "text": "Using a spatula or chopsticks, gently start rolling the omelette from one end towards the center. Roll it about halfway across the pan, leaving the other half of the pan empty.",
+      "time": "3 min"
+    },
+    {
       "step": 5,
-      "title": "Add Subsequent Layers",
-      "text": "Push the rolled omelette to one side of the pan. Lightly re-oil the empty space in the pan if needed. Pour another 1/4 to 1/3 of the egg mixture into the pan, making sure some of it seeps underneath the rolled omelette to help the layers adhere. Let this new layer cook until mostly set, then continue rolling the existing omelette over the fresh egg layer, incorporating it into the growing roll. Repeat this process until all the egg mixture is used, creating a multi-layered roll.",
-      "time": "10 min"
+      "title": "Add Second Layer",
+      "text": "Push the partially rolled omelette to one side of the pan. Lightly re-oil the empty part of the pan if needed. Pour another 1/4 to 1/5 of the egg mixture into the empty space, making sure some of the new mixture goes underneath the rolled omelette. This helps the layers stick together.",
+      "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Shape and Slice",
-      "text": "Once all the egg mixture is rolled, continue to cook the entire Gyeran Mari on all sides for another 1-2 minutes, gently pressing it with the spatula to ensure it's cooked through and holds its shape. Transfer the finished Gyeran Mari to a cutting board. Allow it to cool for a few minutes before slicing into 1/2 to 3/4 inch thick pieces. Serve warm or at room temperature.",
-      "time": "5 min"
+      "title": "Continue Rolling and Layering",
+      "text": "Allow the new layer to cook until the edges are set but the top is still slightly wet. Then, continue rolling the existing omelette over the new layer. Repeat steps 4 and 5 until all the egg mixture is used, creating a multi-layered roll.",
+      "time": "15 min"
+    },
+    {
+      "step": 7,
+      "title": "Final Cooking and Shaping",
+      "text": "Once all the egg mixture is rolled, continue to cook the entire Gyeran Mari for another 1-2 minutes, gently pressing it down with the spatula on all sides to ensure it's cooked through and maintains its shape. Remove from the pan and place on a cutting board.",
+      "time": "3 min"
+    },
+    {
+      "step": 8,
+      "title": "Slice and Serve",
+      "text": "Let the Gyeran Mari cool slightly for a few minutes before slicing. This helps it hold its shape better. Slice into 1-inch thick pieces and arrange on a plate. Serve warm as a breakfast item, side dish, or packed in a lunchbox.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
-    "calories": "280 kcal",
-    "protein": "20g",
+    "calories": "180 kcal",
+    "protein": "14g",
     "carbs": "5g",
-    "fat": "20g",
+    "fat": "12g",
     "fiber": "1g",
     "sugar": "2g",
     "sodium": "350mg",
-    "cholesterol": "400mg"
+    "cholesterol": "370mg"
   },
   "tags": [
     "Korean",
+    "omelette",
     "authentic",
     "traditional",
     "breakfast",
-    "omelette",
-    "egg",
-    "banchan"
+    "Gyeran Mari",
+    "egg roll",
+    "side dish"
   ],
   "tips": [
-    "**Low Heat is Key:** Always cook Gyeran Mari over low to medium-low heat. This prevents the egg from browning too quickly and makes it easier to roll without breaking.",
-    "**Thin Layers:** Pour thin layers of egg mixture. Thicker layers are harder to roll neatly and can result in an unevenly cooked omelette.",
-    "**Slightly Moist Top:** When rolling, the top of the egg layer should still be slightly moist. This helps the new layer adhere seamlessly to the previous one.",
-    "**Use a Rectangular Pan:** While a round pan works, a rectangular or square pan makes the rolling process significantly easier and helps achieve a more uniform shape.",
-    "**Cool Before Slicing:** Allowing the rolled omelette to cool for a few minutes on a cutting board before slicing helps it firm up, preventing it from falling apart and ensuring clean cuts."
+    "For perfectly even layers, use a square or rectangular pan. If using a round pan, try to shape the egg mixture into a rectangle as it cooks.",
+    "Do not over-whisk the eggs; too much air can cause the omelette to tear easily. A little bit of water or milk can make the omelette softer.",
+    "Control the heat carefully. Medium-low heat is ideal to cook the omelette slowly without browning it too much, allowing for better rolling and a softer texture. Wipe the pan clean and re-oil lightly between layers if residue builds up."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Gyeran Mari Korean Rolled Omelette\n\nGyeran Mari, meaning 'egg roll' in Korean, is a humble yet ubiquitous dish found across Korean households and restaurants. Its origins are deeply rooted in the everyday practicalities of Korean home cooking, where eggs have always been an affordable and versatile protein source. While the exact historical inception is not documented, Gyeran Mari evolved as a simple, nutritious way to prepare eggs, often utilizing leftover bits of vegetables to minimize waste and add flavor. It's a prime example of banchan (side dish) culture, designed to complement a larger meal, providing a soft, savory counterpoint to rice and other more strongly flavored dishes. Over generations, it has become a cherished comfort food, evoking memories of home-cooked meals and school lunchboxes.\n\n## Why This Recipe Works\n\nThis Gyeran Mari recipe excels due to its balance of simplicity and technique, yielding a perfectly tender and flavorful rolled omelette. The addition of a small amount of water or milk to the egg mixture is crucial; it creates steam during cooking, resulting in a softer, more pliable egg that is less prone to tearing and easier to roll into distinct, fluffy layers. The finely diced vegetables, particularly carrots and green onions, are chosen for their mild flavors and ability to soften quickly without releasing too much moisture, maintaining the omelette's structural integrity. A pinch of sugar alongside salt beautifully balances the savory notes, enhancing the overall taste without making it sweet. The gradual, multi-layer rolling technique ensures even cooking and a delightful texture that is both firm enough to hold its shape and wonderfully soft to bite into.\n\n## Chef Tips for Perfection\n\nTo achieve Gyeran Mari perfection, start with room-temperature eggs, as they whisk more easily and cook more evenly. When whisking, aim for a smooth, uniform consistency, but avoid over-whisking, which incorporates too much air and can lead to a tougher texture. The heat control is paramount: maintain a consistent low to medium-low heat throughout the cooking process. This prevents the egg from browning too quickly and allows for gentle, controlled rolling. When pouring new layers of egg mixture, ensure a small amount seeps under the previously rolled section; this acts as a 'glue' for seamless adhesion. Don't be afraid to use two spatulas for easier rolling, especially if you're new to the technique. Finally, resist the urge to slice immediately after cooking. Letting the Gyeran Mari rest for a few minutes allows it to firm up, resulting in cleaner, more aesthetically pleasing cuts.\n\n## Serving Suggestions\n\nGyeran Mari is incredibly versatile and can be served in numerous ways within a Korean meal. Most commonly, it's presented as a banchan (side dish) alongside a bowl of freshly steamed white rice, kimchi, and a main dish like bulgogi or bibimbap. Its mild flavor and soft texture make it an excellent palate cleanser and a comforting addition to any Korean spread. For a light breakfast, it can be enjoyed simply with rice and a cup of warm barley tea. It's also a popular addition to dosirak (Korean lunchboxes), providing a nutritious and visually appealing component. For an enhanced flavor experience, a light dipping sauce made from soy sauce, a touch of sesame oil, and a sprinkle of sesame seeds can be offered on the side, though Gyeran Mari is perfectly delicious on its own.",
-  "publishedAt": "2026-04-04T21:30:23.167Z",
-  "jsonLd": {
+  "article": "Discover the delightful world of Korean breakfast with a dish that’s as beautiful to look at as it is delicious to eat: Gyeran Mari, the Korean Rolled Omelette. More than just a simple egg dish, Gyeran Mari is a staple in Korean cuisine, cherished for its soft, fluffy texture and its vibrant layers often studded with finely chopped vegetables. It’s a testament to the fact that even the most basic ingredients can be transformed into something truly special with a little technique and care.\n\nOften found gracing the tables of Korean homes for breakfast, packed into lunchboxes (dosirak), or served as a delightful side dish (banchan) with any meal, Gyeran Mari is incredibly versatile and universally loved. Its mild, savory flavor makes it a perfect accompaniment to spicier Korean dishes, providing a comforting contrast. If you're looking to expand your culinary horizons and bring a taste of Korea into your kitchen, mastering the Gyeran Mari Korean Rolled Omelette is an excellent place to start. It’s comforting, nutritious, and surprisingly fun to make!\n\n## What is Gyeran Mari Korean Rolled Omelette?\n\nGyeran Mari, directly translating to \"egg roll,\" is a popular Korean side dish made from eggs beaten and cooked in thin layers, then rolled up tightly to form a cylindrical shape. Unlike a Western omelette that is typically folded once, Gyeran Mari is characterized by its multiple, delicate layers, creating a wonderfully soft and airy texture. While the simplest version uses just eggs and a pinch of salt, it often incorporates finely diced vegetables like carrots, green onions, and bell peppers, or even additions like ham or seaweed, adding bursts of color and flavor. The art of making Gyeran Mari lies in the careful rolling technique, which results in a neatly packed, uniform log that, once sliced, reveals beautiful concentric patterns. It's a comforting, protein-rich dish that's a cornerstone of Korean breakfast recipes and a beloved banchan.\n\n## Ingredients You Need\n\nMaking a delicious Gyeran Mari Korean Rolled Omelette doesn't require a long list of exotic ingredients. In fact, you likely have most of them in your pantry already! The key is fresh eggs and a few simple seasonings, plus your choice of colorful additions.\n\n*   **Eggs:** 5-6 large eggs are typically sufficient for a good-sized roll. Fresh eggs yield the best flavor and texture.\n*   **Milk or Water (optional):** 1-2 tablespoons. A splash of milk or water can make the omelette even fluffier and easier to roll, though it's not strictly necessary.\n*   **Salt:** 1/4 teaspoon, or to taste. Essential for seasoning the eggs.\n*   **Sugar (optional):** A pinch (1/4 teaspoon). Some prefer a tiny bit of sugar to balance the savory notes and enhance the flavor.\n*   **Finely Diced Vegetables:** 2-3 tablespoons total. Common choices include:\n    *   **Carrots:** Adds sweetness and a vibrant orange color.\n    *   **Green Onions (Scallions):** Provides a mild oniony flavor and green flecks.\n    *   **Bell Peppers:** Red or yellow bell peppers add a sweet crunch and color.\n*   **Other Optional Additions (finely chopped):**\n    *   **Ham or Bacon:** Adds a smoky, savory depth.\n    *   **Seaweed (Gim):** Thin strips of roasted seaweed can be incorporated for an umami boost.\n    *   **Cheese:** A sprinkle of shredded cheese can be melted between layers for a gooey surprise.\n*   **Cooking Oil:** A light-flavored oil like vegetable, canola, or grapeseed oil for cooking.\n\nThe secret to beautiful layers is ensuring all your additions are very finely diced. This prevents them from tearing the delicate egg layers during rolling.\n\n## Step-by-Step Instructions\n\nCreating the perfect Gyeran Mari Korean Rolled Omelette is a process that requires a little patience and a gentle touch, but the results are incredibly rewarding. Follow these steps for a beautifully layered omelette:\n\n1.  **Prepare Your Ingredients:** Crack the eggs into a medium-sized bowl. Add the salt, optional sugar, and optional milk or water. Whisk everything together thoroughly until the yolks and whites are fully combined and the mixture is slightly frothy. Do not over-whisk, as too much air can cause bubbles in the final product. Stir in your finely diced vegetables and any other optional additions.\n2.  **Heat Your Pan:** Choose a non-stick pan, preferably a square or rectangular one, about 8-10 inches in size, though a round pan works perfectly fine too. Heat the pan over low to medium-low heat. This low heat is crucial for cooking the egg slowly and preventing it from browning too quickly, which can make it difficult to roll.\n3.  **Lightly Oil the Pan:** Lightly coat the bottom of the pan with a small amount of cooking oil. You can use a paper towel to evenly spread the oil and wipe off any excess, ensuring just a thin film remains.\n4.  **Pour the First Layer:** Pour about one-quarter to one-third of the egg mixture into the hot pan, tilting the pan to spread it into a thin, even layer that covers the entire bottom.\n5.  **Cook and Roll the First Segment:** Let the egg cook until it is mostly set, but still slightly wet on top. This takes about 1-2 minutes. When it’s ready, use a spatula (a wide, flat metal or silicone spatula works best) to gently start rolling the egg from one end of the pan towards the center, or about two-thirds of the way across. Don't roll it all the way yet. Leave the unrolled portion attached to the rolled segment.\n6.  **Add the Second Layer:** Push the partially rolled egg to one side of the pan. Lightly re-oil the empty space in the pan if needed. Pour another portion of the egg mixture into the empty space, making sure some of the new egg mixture flows underneath the already rolled egg segment. This helps bind the layers together.\n7.  **Continue Rolling:** Let the new layer cook until it's mostly set. Then, continue rolling the existing egg roll over the newly added, cooked egg layer. Repeat this process – pushing the roll to one side, adding more egg mixture, and rolling – until all the egg mixture is used up and you have a single, tightly packed log.\n8.  **Finish Cooking:** Once the entire roll is formed, gently cook it for another minute or two, rotating it carefully to ensure all sides are lightly golden and fully cooked through.\n9.  **Slice and Serve:** Carefully transfer the Gyeran Mari to a cutting board. Let it cool for a minute or two, as this makes it easier to slice neatly. Using a sharp knife, trim off the ends (optional, for aesthetics) and slice the roll into 1-inch thick pieces. Serve immediately.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect, fluffy, and beautifully layered Gyeran Mari Korean Rolled Omelette takes a little practice, but these pro tips will set you up for success:\n\n*   **Low and Slow is Key:** Always cook Gyeran Mari over low to medium-low heat. High heat will cook the egg too quickly, making it tough, rubbery, and prone to tearing when you try to roll it. Patience is a virtue here!\n*   **Finely Dice Everything:** Any vegetables or additions must be very, very finely chopped. Larger pieces will create bumps and holes, making it harder to roll a tight, even omelette.\n*   **Don't Overfill:** While it's tempting to add lots of fillings, too many additions can make the egg mixture too thick or heavy, leading to a less cohesive roll. Stick to a moderate amount.\n*   **Non-Stick Pan is Your Best Friend:** A good quality non-stick pan is essential to prevent the egg from sticking and tearing. A square or rectangular pan can make the initial rolling a bit easier, but a round one works perfectly well.\n*   **Lightly Oil Between Layers:** A very thin film of oil ensures that each new layer of egg doesn't stick and helps the layers adhere smoothly. Use a paper towel to wipe the pan clean and re-oil lightly each time.\n*   **Moist but Not Wet:** When rolling, the egg layer should be mostly set but still slightly moist on top. If it’s too wet, it will break; if it’s too dry, it won’t stick to the next layer.\n*   **Roll Tightly and Gently:** Use your spatula to press down gently as you roll, ensuring the layers are tight. Don't press too hard, or you might flatten the omelette. The goal is a firm, even cylinder.\n*   **Sharp Knife for Clean Cuts:** A sharp, non-serrated knife will give you clean, beautiful slices without tearing or squishing the omelette. Allow the Gyeran Mari to cool slightly before slicing for the cleanest cuts.\n\n## Serving Suggestions\n\nThe versatility of Gyeran Mari Korean Rolled Omelette is one of its most appealing qualities. While it’s a star in many Korean breakfast recipes, it can be enjoyed in numerous ways:\n\n*   **Classic Korean Breakfast:** Serve Gyeran Mari alongside a bowl of steamed rice, a warm soup (like a clear seaweed soup or soybean paste soup), and an assortment of other banchan (side dishes) like kimchi, pickled radishes, or seasoned spinach.\n*   **Lunchbox Favorite (Dosirak):** Its neat, rollable form makes it perfect for packing into a lunchbox. It holds up well at room temperature and provides a delicious, protein-packed component.\n*   **Snack for All Ages:** Cut into smaller, bite-sized pieces, Gyeran Mari makes an excellent healthy snack for children and adults alike. It's soft, easy to chew, and satisfying.\n*   **Side Dish for Any Meal:** It pairs wonderfully with almost any Korean main course, from spicy stews like Kimchi Jjigae to grilled meats like Bulgogi. Its mild flavor provides a pleasant contrast to richer or spicier dishes.\n*   **Garnish or Topping:** Thin strips of Gyeran Mari can be used as a colorful and flavorful garnish for dishes like bibimbap (mixed rice with vegetables and meat) or various noodle soups.\n*   **Dipping Sauce:** While delicious on its own, you can serve it with a simple dipping sauce of soy sauce mixed with a touch of rice vinegar and sesame oil, or even a sprinkle of gochugaru (Korean chili flakes) for a little kick.\n\n## Variations and Substitutions\n\nThe basic Gyeran Mari Korean Rolled Omelette is a blank canvas, inviting endless creativity. Once you've mastered the basic technique, feel free to experiment with these delicious variations and substitutions:\n\n*   **Cheese Gyeran Mari:** For a gooey twist, sprinkle a layer of shredded cheese (cheddar, mozzarella, or even a Korean mild cheese blend) over the partially cooked egg layer before rolling. The residual heat will melt it beautifully.\n*   **Seaweed (Gim) Layer:** Before rolling the egg, lay a sheet of roasted seaweed (gim) over the partially set egg layer. This adds a fantastic umami flavor and a slightly different texture.\n*   **Ham or Bacon:** Finely chopped ham, bacon bits, or even imitation crab meat can be mixed into the egg batter for an extra savory punch.\n*   **Different Vegetables:** Don't limit yourself to carrots and green onions! Experiment with finely diced zucchini, mushrooms, spinach (sautéed and squeezed dry), or even corn kernels for different flavors and textures.\n*   **Spicy Kick:** Add a tiny pinch of gochugaru (Korean chili flakes) or a dash of finely minced fresh chili to the egg mixture for a subtle heat.\n*   **Ketchup or Sriracha Swirl:** For kids or those who enjoy a bit of tang, drizzle a thin line of ketchup or sriracha over the partially set egg before rolling.\n*   **Vegan/Plant-Based:** While traditionally made with eggs, you can explore plant-based egg substitutes available on the market. However, be aware that the texture and rolling might differ slightly.\n*   **No Fillings (Plain Gyeran Mari):** Sometimes, simplicity is best. A plain Gyeran Mari, seasoned only with salt and perhaps a pinch of sugar, is wonderfully comforting and allows the natural flavor of the egg to shine.\n\nGyeran Mari is more than just a dish; it's an experience. It’s a gentle introduction to the warmth and artistry of Korean home cooking, perfect for any meal of the day. So, roll up your sleeves, gather your ingredients, and embark on a delicious journey to create your very own, perfect Gyeran Mari. Enjoy the process, savor the flavors, and delight in sharing this beloved Korean classic with your loved ones. Happy cooking!",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Gyeran Mari Korean Rolled Omelette",
-    "description": "Gyeran Mari, or Korean rolled omelette, is a beloved banchan (side dish) and breakfast staple, celebrated for its tender, fluffy layers and subtly savory flavor. Finely diced vegetables add vibrant color and a delicate crunch, making each slice a delightful bite. It's a comforting and versatile dish, perfect for a balanced Korean meal or a light morning start.",
+    "description": "Learn how to make authentic Gyeran Mari Korean Rolled Omelette. This easy Korean recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/36865958/pexels-photo-36865958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/31056754/pexels-photo-31056754.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1645530654351-d14ae8ac75fd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxHeWVyYW4lMjBNYXJpJTIwS29yZWFuJTIwS29yZWFuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzgyMzA4MjV8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1604573714289-312a6972f67c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxHeWVyYW4lMjBNYXJpJTIwS29yZWFuJTIwS29yZWFuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzgyMzA4MjV8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-04T21:30:23.167Z",
+    "datePublished": "2026-05-08T09:01:11.236Z",
     "prepTime": "PT20M",
-    "cookTime": "PT15M",
-    "totalTime": "PT35M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Breakfast Recipes",
     "recipeCuisine": "Korean",
-    "keywords": "Korean, Korean, authentic, traditional, breakfast, Korean, authentic, traditional, breakfast, omelette, egg, banchan",
+    "keywords": "Gyeran Mari Korean Rolled Omelette, how to make Gyeran Mari Korean Rolled Omelette, easy Gyeran Mari Korean Rolled Omelette recipe, authentic Korean Gyeran Mari Korean Rolled Omelette",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "280 calories",
-      "proteinContent": "20g",
-      "carbohydrateContent": "5g",
-      "fatContent": "20g",
-      "fiberContent": "1g",
-      "sugarContent": "2g",
-      "sodiumContent": "350mg"
+      "calories": "180 kcal"
     },
     "recipeIngredient": [
-      "8 Large Eggs (at room temperature for best texture)",
-      "1/4 cup Carrot (finely diced)",
-      "2 tablespoons Green Onion (Scallion) (finely chopped)",
-      "1/2 teaspoon Fine Sea Salt (or to taste)",
-      "1/4 teaspoon Sugar (a pinch to balance flavors)",
-      "2 tablespoons Water or Milk (for a softer, more pliable omelette)",
-      "1 tablespoon Cooking Oil (such as vegetable or grapeseed oil)"
+      "8 Large Eggs",
+      "1/4 cup Carrot",
+      "2 tbsp Green Onion",
+      "1/2 tsp Salt",
+      "1/4 tsp Sugar",
+      "1 tbsp Water or Milk",
+      "1 tbsp Cooking Oil"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Ingredients",
-        "text": "Finely dice the carrot and finely chop the green onion. The key is to make the pieces very small and uniform, so they integrate well into the egg mixture and don't tear the omelette during rolling. Set aside.",
-        "timeRequired": "PT5M"
+        "name": "Prepare Egg Mixture",
+        "text": "Crack the eggs into a large bowl. Add the finely diced carrot, chopped green onion, salt, and optional sugar and water/milk. Whisk thoroughly until all ingredients are well combined and the mixture is smooth, but do not over-whisk to avoid too many air bubbles."
       },
       {
         "@type": "HowToStep",
-        "name": "Whisk Egg Mixture",
-        "text": "Crack the 8 large eggs into a large bowl. Add the fine sea salt and sugar. Pour in the 2 tablespoons of water or milk. Whisk thoroughly until the yolks and whites are completely combined and there are no streaks. Do not over-whisk to avoid too many air bubbles. Gently fold in the finely diced carrots and chopped green onions.",
-        "timeRequired": "PT5M"
+        "name": "Heat and Oil Pan",
+        "text": "Heat a non-stick rectangular or round pan (about 8-10 inches) over medium-low heat. Lightly brush or wipe the pan with a thin layer of cooking oil. Too much oil will prevent the omelette from sticking together."
       },
       {
         "@type": "HowToStep",
-        "name": "Heat Pan and First Layer",
-        "text": "Heat a non-stick frying pan (a rectangular omelette pan is ideal, but a round one works) over medium-low heat. Lightly brush the pan with a thin layer of cooking oil. Once hot, pour about 1/4 to 1/3 of the egg mixture into the pan, tilting it to spread the egg evenly into a thin layer. Allow the egg to cook until the edges are set and the top is mostly set but still slightly moist.",
-        "timeRequired": "PT3M"
+        "name": "Pour First Layer",
+        "text": "Pour about 1/4 to 1/5 of the egg mixture into the hot pan, tilting the pan to spread it evenly into a thin layer that covers the entire bottom. Let it cook for about 1-2 minutes until the edges are set but the top is still slightly wet."
       },
       {
         "@type": "HowToStep",
-        "name": "Begin Rolling",
-        "text": "Once the first layer is mostly set, use a spatula (or two, for easier handling) to gently fold about 1/3 of the omelette from one end towards the center. Then, continue rolling this folded section until it reaches about 1/3 to 1/2 of the way across the pan. Leave the unrolled portion in the pan.",
-        "timeRequired": "PT2M"
+        "name": "First Roll",
+        "text": "Using a spatula or chopsticks, gently start rolling the omelette from one end towards the center. Roll it about halfway across the pan, leaving the other half of the pan empty."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Subsequent Layers",
-        "text": "Push the rolled omelette to one side of the pan. Lightly re-oil the empty space in the pan if needed. Pour another 1/4 to 1/3 of the egg mixture into the pan, making sure some of it seeps underneath the rolled omelette to help the layers adhere. Let this new layer cook until mostly set, then continue rolling the existing omelette over the fresh egg layer, incorporating it into the growing roll. Repeat this process until all the egg mixture is used, creating a multi-layered roll.",
-        "timeRequired": "PT10M"
+        "name": "Add Second Layer",
+        "text": "Push the partially rolled omelette to one side of the pan. Lightly re-oil the empty part of the pan if needed. Pour another 1/4 to 1/5 of the egg mixture into the empty space, making sure some of the new mixture goes underneath the rolled omelette. This helps the layers stick together."
       },
       {
         "@type": "HowToStep",
-        "name": "Shape and Slice",
-        "text": "Once all the egg mixture is rolled, continue to cook the entire Gyeran Mari on all sides for another 1-2 minutes, gently pressing it with the spatula to ensure it's cooked through and holds its shape. Transfer the finished Gyeran Mari to a cutting board. Allow it to cool for a few minutes before slicing into 1/2 to 3/4 inch thick pieces. Serve warm or at room temperature.",
-        "timeRequired": "PT5M"
+        "name": "Continue Rolling and Layering",
+        "text": "Allow the new layer to cook until the edges are set but the top is still slightly wet. Then, continue rolling the existing omelette over the new layer. Repeat steps 4 and 5 until all the egg mixture is used, creating a multi-layered roll."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Final Cooking and Shaping",
+        "text": "Once all the egg mixture is rolled, continue to cook the entire Gyeran Mari for another 1-2 minutes, gently pressing it down with the spatula on all sides to ensure it's cooked through and maintains its shape. Remove from the pan and place on a cutting board."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Slice and Serve",
+        "text": "Let the Gyeran Mari cool slightly for a few minutes before slicing. This helps it hold its shape better. Slice into 1-inch thick pieces and arrange on a plate. Serve warm as a breakfast item, side dish, or packed in a lunchbox."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-05-08T09:01:11.261Z"
 }
