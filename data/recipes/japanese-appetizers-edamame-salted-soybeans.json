@@ -45,73 +45,68 @@
       }
     ]
   },
-  "prepTime": "5 min",
-  "cookTime": "5 min",
-  "totalTime": "10 min",
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Easy",
   "cuisine": "Japanese",
-  "image1": "https://images.unsplash.com/photo-1719388392020-9e7c73ee7bb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3NzEzMTAyMXww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1719388392035-5a63a4bd3fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3NzEzMTAyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Edamame Salted Soybeans are a classic Japanese appetizer, offering a delightful combination of fresh, tender soybeans and a hint of sea salt. These vibrant green pods are simply boiled to perfection, making them a healthy and irresistible snack. Perfect for sharing, they are a staple at izakayas and a beloved treat in homes across Japan.",
+  "image1": "https://images.unsplash.com/photo-1719388392020-9e7c73ee7bb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU3Mjg3OHww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1719388392035-5a63a4bd3fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU3Mjg3OHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Edamame Salted Soybeans are a quintessential Japanese appetizer, offering a delightful combination of fresh, tender soybeans and a savory hint of sea salt. These vibrant green pods are not only delicious but also packed with nutrients, making them a perfect healthy snack or starter. Enjoy the simple pleasure of popping the beans from their pods, a truly authentic taste of Japan.",
   "ingredients": [
     {
-      "item": "Edamame",
-      "amount": "500g",
-      "notes": "in pods, frozen or fresh"
+      "item": "Frozen edamame in pods",
+      "amount": "500 grams",
+      "notes": "thawed or unthawed"
     },
     {
       "item": "Water",
-      "amount": "2 liters",
+      "amount": "4 cups",
       "notes": "for boiling"
     },
     {
-      "item": "Sea Salt",
-      "amount": "1 tablespoon",
-      "notes": "for boiling"
-    },
-    {
-      "item": "Sea Salt",
-      "amount": "1/2 teaspoon",
-      "notes": "for seasoning, or to taste"
+      "item": "Sea salt",
+      "amount": "1-2 tablespoons",
+      "notes": "plus more for serving"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Pot",
-      "text": "Fill a large pot with approximately 2 liters of water. Place it on high heat and bring the water to a rolling boil.",
+      "title": "Prepare the Edamame",
+      "text": "If using frozen edamame, rinse them under cold running water to remove any ice crystals. You do not need to fully thaw them.",
       "time": "2 min"
     },
     {
       "step": 2,
-      "title": "Add Salt to Water",
-      "text": "Once the water is boiling vigorously, add 1 tablespoon of sea salt to the pot. This seasons the edamame from the inside out, enhancing its natural flavor.",
-      "time": "1 min"
+      "title": "Boil Water",
+      "text": "Bring a large pot of water to a rolling boil over high heat. Ensure there is enough water to fully submerge the edamame.",
+      "time": "10 min"
     },
     {
       "step": 3,
-      "title": "Add Edamame",
-      "text": "Carefully add the frozen edamame pods directly into the boiling salted water. Do not thaw them beforehand.",
+      "title": "Season the Water",
+      "text": "Once the water is boiling vigorously, add 1 to 2 tablespoons of sea salt to the pot. This will season the edamame from within as it cooks.",
       "time": "1 min"
     },
     {
       "step": 4,
-      "title": "Boil the Edamame",
-      "text": "Cook the edamame for 3 to 5 minutes. If using fresh edamame, it might take a minute or two longer until the pods are tender-crisp and bright green.",
-      "time": "5 min"
+      "title": "Cook the Edamame",
+      "text": "Carefully add the rinsed edamame pods to the boiling salted water. Cook for 5 to 7 minutes, or until the beans inside the pods are tender-crisp and bright green.",
+      "time": "7 min"
     },
     {
       "step": 5,
-      "title": "Drain and Rinse",
-      "text": "Once cooked, immediately drain the edamame in a colander. For best results, you can quickly rinse them under cold water to stop the cooking process and preserve their vibrant color.",
+      "title": "Drain and Transfer",
+      "text": "Once cooked, promptly drain the edamame thoroughly using a colander. Shake the colander gently to remove excess water.",
       "time": "2 min"
     },
     {
       "step": 6,
-      "title": "Season and Serve",
-      "text": "Transfer the drained edamame to a serving bowl. Sprinkle with an additional 1/2 teaspoon of sea salt (or to taste) and toss gently to coat. Serve warm or at room temperature.",
-      "time": "1 min"
+      "title": "Serve and Enjoy",
+      "text": "Transfer the hot, drained edamame to a serving bowl. Sprinkle generously with additional sea salt to taste while they are still warm. Serve immediately as a delightful appetizer or snack.",
+      "time": "3 min"
     }
   ],
   "nutritionTable": {
@@ -133,9 +128,9 @@
     "Edamame Salted Soybeans"
   ],
   "tips": [
-    "For a truly authentic touch, use coarse sea salt or rock salt for seasoning after boiling. The larger crystals adhere better and provide bursts of salty flavor.",
-    "While frozen edamame is convenient and widely available, fresh edamame in pods offers a slightly sweeter and crisper texture. If using fresh, ensure they are bright green and firm.",
-    "Edamame is best enjoyed warm or at room temperature shortly after preparation. Leftovers can be stored in an airtight container in the refrigerator for up to 2 days, but may lose some of their vibrant color and texture."
+    "For an authentic Japanese touch, use a good quality coarse sea salt or flaky sea salt for seasoning the edamame after boiling.",
+    "If you want to add a twist, toss the warm edamame with a drizzle of sesame oil, a pinch of chili flakes, or a squeeze of lemon juice before serving.",
+    "Store leftover cooked edamame in an airtight container in the refrigerator for up to 3 days. They can be enjoyed cold or gently reheated."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -146,17 +141,17 @@
     "name": "Edamame Salted Soybeans",
     "description": "Learn how to make authentic Edamame Salted Soybeans. This easy Japanese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1719388392020-9e7c73ee7bb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3NzEzMTAyMXww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1719388392035-5a63a4bd3fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3NzEzMTAyMXww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1719388392020-9e7c73ee7bb3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU3Mjg3OHww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1719388392035-5a63a4bd3fed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxKYXBhbmVzZSUyMGFwcGV0aXplcnMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU3Mjg3OHww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-25T15:31:08.270Z",
-    "prepTime": "PT5M",
-    "cookTime": "PT5M",
-    "totalTime": "PT10M",
+    "datePublished": "2026-05-12T08:02:05.765Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Appetizers",
     "recipeCuisine": "Japanese",
@@ -171,43 +166,42 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "500g Edamame",
-      "2 liters Water",
-      "1 tablespoon Sea Salt",
-      "1/2 teaspoon Sea Salt"
+      "500 grams Frozen edamame in pods",
+      "4 cups Water",
+      "1-2 tablespoons Sea salt"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Pot",
-        "text": "Fill a large pot with approximately 2 liters of water. Place it on high heat and bring the water to a rolling boil."
+        "name": "Prepare the Edamame",
+        "text": "If using frozen edamame, rinse them under cold running water to remove any ice crystals. You do not need to fully thaw them."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Salt to Water",
-        "text": "Once the water is boiling vigorously, add 1 tablespoon of sea salt to the pot. This seasons the edamame from the inside out, enhancing its natural flavor."
+        "name": "Boil Water",
+        "text": "Bring a large pot of water to a rolling boil over high heat. Ensure there is enough water to fully submerge the edamame."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Edamame",
-        "text": "Carefully add the frozen edamame pods directly into the boiling salted water. Do not thaw them beforehand."
+        "name": "Season the Water",
+        "text": "Once the water is boiling vigorously, add 1 to 2 tablespoons of sea salt to the pot. This will season the edamame from within as it cooks."
       },
       {
         "@type": "HowToStep",
-        "name": "Boil the Edamame",
-        "text": "Cook the edamame for 3 to 5 minutes. If using fresh edamame, it might take a minute or two longer until the pods are tender-crisp and bright green."
+        "name": "Cook the Edamame",
+        "text": "Carefully add the rinsed edamame pods to the boiling salted water. Cook for 5 to 7 minutes, or until the beans inside the pods are tender-crisp and bright green."
       },
       {
         "@type": "HowToStep",
-        "name": "Drain and Rinse",
-        "text": "Once cooked, immediately drain the edamame in a colander. For best results, you can quickly rinse them under cold water to stop the cooking process and preserve their vibrant color."
+        "name": "Drain and Transfer",
+        "text": "Once cooked, promptly drain the edamame thoroughly using a colander. Shake the colander gently to remove excess water."
       },
       {
         "@type": "HowToStep",
-        "name": "Season and Serve",
-        "text": "Transfer the drained edamame to a serving bowl. Sprinkle with an additional 1/2 teaspoon of sea salt (or to taste) and toss gently to coat. Serve warm or at room temperature."
+        "name": "Serve and Enjoy",
+        "text": "Transfer the hot, drained edamame to a serving bowl. Sprinkle generously with additional sea salt to taste while they are still warm. Serve immediately as a delightful appetizer or snack."
       }
     ]
   },
-  "publishedAt": "2026-04-25T15:31:08.294Z"
+  "publishedAt": "2026-05-12T08:02:05.787Z"
 }
