@@ -51,14 +51,19 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Turkish",
-  "image1": "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODE1NzAxMHww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1624793806956-e20e5a829299?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODE1NzAxMHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Mercimek Corbasi is a comforting and flavorful red lentil soup, a true staple in Turkish cuisine. This hearty soup is renowned for its smooth, creamy texture and vibrant color, often enhanced with a special butter and paprika drizzle. It's a perfect dish for any meal, offering warmth and a taste of authentic Turkish hospitality.",
+  "image1": "https://images.unsplash.com/photo-1630684789391-d59419768fb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3OTE3NzY4Nnww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3OTE3NzY4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Mercimek Corbasi is a comforting and universally beloved Turkish red lentil soup. It is cherished for its vibrant color, incredibly smooth texture, and rich, savory flavor, often enhanced with a refreshing hint of mint and a squeeze of lemon. This hearty and wholesome soup is a cornerstone of Turkish cuisine, perfect for a warming meal any time of the year.",
   "ingredients": [
     {
       "item": "Red lentils",
       "amount": "1 cup",
-      "notes": "rinsed well"
+      "notes": "rinsed thoroughly"
+    },
+    {
+      "item": "Water or vegetable broth",
+      "amount": "6 cups",
+      "notes": "for simmering"
     },
     {
       "item": "Onion",
@@ -71,9 +76,9 @@
       "notes": "peeled and diced"
     },
     {
-      "item": "Garlic cloves",
-      "amount": "2",
-      "notes": "minced"
+      "item": "Potato",
+      "amount": "1 small",
+      "notes": "peeled and diced"
     },
     {
       "item": "Tomato paste",
@@ -81,14 +86,19 @@
       "notes": ""
     },
     {
-      "item": "Vegetable or chicken broth",
-      "amount": "6 cups",
+      "item": "Olive oil",
+      "amount": "2 tablespoons",
+      "notes": "plus extra for garnish"
+    },
+    {
+      "item": "Dried mint (Nane)",
+      "amount": "1 teaspoon",
       "notes": ""
     },
     {
-      "item": "Dried mint",
+      "item": "Red pepper flakes (Pul Biber)",
       "amount": "1 teaspoon",
-      "notes": ""
+      "notes": "or to taste"
     },
     {
       "item": "Salt",
@@ -98,17 +108,7 @@
     {
       "item": "Black pepper",
       "amount": "1/2 teaspoon",
-      "notes": "or to taste"
-    },
-    {
-      "item": "Unsalted butter",
-      "amount": "2 tablespoons",
-      "notes": ""
-    },
-    {
-      "item": "Red pepper flakes (Pul Biber)",
-      "amount": "1 teaspoon",
-      "notes": "or to taste"
+      "notes": "freshly ground"
     },
     {
       "item": "Lemon wedges",
@@ -119,38 +119,44 @@
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Lentils and Aromatics",
-      "text": "Rinse the red lentils thoroughly under cold running water until the water runs clear. In a large pot or Dutch oven, heat a tablespoon of olive oil or butter over medium heat. Add the chopped onion and diced carrot, cooking until softened, about 5-7 minutes.",
+      "title": "Prepare Lentils and Vegetables",
+      "text": "Thoroughly rinse the red lentils under cold running water until the water runs clear, then drain them well. Finely chop the onion, and peel and dice the carrot and potato, ensuring they are cut into small, even pieces for quicker cooking.",
       "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Add Garlic and Tomato Paste",
-      "text": "Stir in the minced garlic and cook for another minute until fragrant. Add the tomato paste and cook for 2-3 minutes, stirring constantly, to deepen its flavor and color.",
-      "time": "5 min"
+      "title": "Saute Aromatics",
+      "text": "In a large pot or Dutch oven, heat the 2 tablespoons of olive oil over medium heat. Add the chopped onion, diced carrot, and diced potato to the pot. Saute for 5-7 minutes, stirring occasionally, until the vegetables begin to soften and the onion becomes translucent.",
+      "time": "7 min"
     },
     {
       "step": 3,
-      "title": "Combine and Simmer",
-      "text": "Add the rinsed red lentils and vegetable or chicken broth to the pot. Stir well. Bring the mixture to a boil, then reduce the heat to low, cover, and simmer for 20-25 minutes, or until the lentils are very tender and have mostly broken down.",
-      "time": "25 min"
+      "title": "Add Tomato Paste and Lentils",
+      "text": "Stir the tomato paste into the softened vegetables and cook for another minute, stirring constantly to lightly toast the paste and deepen its flavor. Then, add the rinsed and drained red lentils to the pot, giving them a quick stir to combine with the vegetables.",
+      "time": "3 min"
     },
     {
       "step": 4,
-      "title": "Season and Blend",
-      "text": "Once the lentils are tender, remove the pot from the heat. Stir in the dried mint, salt, and black pepper. Use an immersion blender to blend the soup directly in the pot until it is smooth and creamy. If you dont have an immersion blender, carefully transfer the soup in batches to a regular blender and blend until smooth, then return to the pot.",
-      "time": "5 min"
+      "title": "Simmer the Soup",
+      "text": "Pour in the 6 cups of water or vegetable broth. Bring the mixture to a boil over medium-high heat. Once boiling, reduce the heat to low, cover the pot, and let the soup simmer for 25-30 minutes, or until the lentils and vegetables are very tender and easily mashable. Stir occasionally to prevent sticking to the bottom.",
+      "time": "30 min"
     },
     {
       "step": 5,
-      "title": "Prepare the Butter Drizzle",
-      "text": "While the soup is simmering or after blending, prepare the special Turkish butter drizzle. In a small saucepan, melt the unsalted butter over medium-low heat. Once the butter is melted and slightly foamy, stir in the red pepper flakes (Pul Biber). Cook for about 30 seconds, being careful not to burn the spices.",
+      "title": "Blend to Smooth Consistency",
+      "text": "Remove the pot from the heat. Use an immersion blender to carefully blend the soup directly in the pot until it is completely smooth and creamy, with no visible chunks of lentils or vegetables. If you do not have an immersion blender, carefully transfer the soup in batches to a regular blender and blend until smooth, then return it to the pot.",
       "time": "5 min"
     },
     {
       "step": 6,
+      "title": "Season and Finish",
+      "text": "Return the pot to low heat. Stir in the dried mint, red pepper flakes, salt, and black pepper. Allow the soup to gently simmer for another 2-3 minutes, allowing the flavors to meld beautifully. Taste and adjust the seasoning if necessary.",
+      "time": "3 min"
+    },
+    {
+      "step": 7,
       "title": "Serve Mercimek Corbasi",
-      "text": "Ladle the hot Mercimek Corbasi into bowls. Drizzle a spoonful of the spiced butter over each serving. Serve immediately with fresh lemon wedges on the side, allowing each person to squeeze lemon juice into their soup for an extra burst of flavor.",
+      "text": "Ladle the hot Mercimek Corbasi into individual serving bowls. For an authentic touch, drizzle a little extra olive oil over each bowl, and offer lemon wedges on the side for squeezing, as the fresh lemon juice brightens the soup wonderfully. Serve immediately with crusty bread.",
       "time": "2 min"
     }
   ],
@@ -170,30 +176,32 @@
     "authentic",
     "traditional",
     "soups",
-    "Mercimek Corbasi Red Lentil Soup"
+    "Mercimek Corbasi Red Lentil Soup",
+    "lentil soup",
+    "vegetarian"
   ],
   "tips": [
-    "For a truly authentic flavor, dont skip the final butter and red pepper flake drizzle. It adds a crucial aromatic and visual element to the soup.",
-    "Always rinse your red lentils thoroughly. This removes starches and ensures a clearer, better-tasting soup, preventing it from becoming overly cloudy or gummy.",
-    "Mercimek Corbasi thickens as it cools. If you have leftovers, you might need to add a splash of hot water or broth when reheating to achieve the desired consistency."
+    "For an extra layer of flavor and aroma, prepare a 'nane-pul biberli sos' by heating a tablespoon of butter or olive oil in a small pan, then briefly toasting 1/2 tsp dried mint and 1/2 tsp red pepper flakes. Drizzle this fragrant oil over each serving of soup just before eating.",
+    "Always rinse your red lentils thoroughly under cold running water until the water runs clear. This step is crucial for removing any impurities and excess starch, which helps ensure a cleaner taste and prevents the soup from becoming overly foamy.",
+    "Mercimek Corbasi tends to thicken significantly as it cools. If you have leftovers and are reheating, you may need to add a splash of hot water or broth to achieve your desired consistency before serving."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Mercimek Corbasi Red Lentil Soup is a beloved Turkish Soups and Stews dish enjoyed across Turkey. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Discover the heart and soul of Turkish cuisine with Mercimek Corbasi Red Lentil Soup, a comforting and incredibly flavorful dish that has graced tables across Turkey for centuries. This vibrant, wholesome soup is more than just a meal; it's a warm hug in a bowl, a staple that embodies the simplicity and rich flavors characteristic of Turkish cooking. Whether you're seeking a nutritious lunch, a comforting dinner starter, or a taste of authentic Turkish tradition, Mercimek Corbasi is an irresistible choice. Its creamy texture, subtly spiced aroma, and beautiful reddish-orange hue make it instantly appealing, promising a culinary journey to the bustling streets of Istanbul or the serene Anatolian plains.\n\n## What is Mercimek Corbasi Red Lentil Soup?\n\nMercimek Corbasi Red Lentil Soup is perhaps the most iconic and beloved soup in Turkey. This humble yet profoundly satisfying dish is made primarily from red lentils, simmered until tender, and then often pureed to achieve a smooth, velvety consistency. Its roots are deeply embedded in Anatolian culinary traditions, where lentils have been a staple food for millennia, prized for their nutritional value and versatility. The soup typically features a base of sautéed onions, garlic, and sometimes carrots or potatoes, which add depth and natural sweetness. The magic truly happens with the addition of aromatic spices like dried mint, red pepper flakes (pul biber), and sometimes a touch of cumin, all brought together in a vibrant, savory broth.\n\nWhat sets Mercimek Corbasi Red Lentil Soup apart is its incredible balance of flavors and textures. It’s hearty without being heavy, nourishing, and incredibly easy to digest. It’s a dish that transcends social classes, enjoyed by everyone from busy professionals grabbing a quick lunch to families gathered around the dinner table. Often served as an appetizer or a light main course, its warmth and comforting nature make it particularly popular during colder months, though it's enjoyed year-round. It's also celebrated for its health benefits, being packed with protein, fiber, and essential minerals, making it a fantastic vegetarian and often vegan-friendly option.\n\n## Ingredients You Need\n\nCrafting an authentic Mercimek Corbasi Red Lentil Soup requires a few simple, wholesome ingredients that are likely already in your pantry. The beauty of this soup lies in the quality and freshness of these basic components.\n\n*   **Red Lentils:** The star of the show! Split red lentils cook quickly and break down easily, creating the signature creamy texture. No need to pre-soak.\n*   **Onion & Garlic:** The aromatic foundation. Finely diced, they provide a sweet and savory base.\n*   **Tomato Paste:** Adds umami, depth of flavor, and contributes to the soup's rich color.\n*   **Vegetable Broth (or water):** While water works perfectly fine, a good quality vegetable broth will enhance the overall flavor.\n*   **Olive Oil:** For sautéing the aromatics.\n*   **Spices:**\n    *   **Dried Mint (Nane):** Essential for that distinctive Turkish flavor.\n    *   **Red Pepper Flakes (Pul Biber or Maras Pepper):** Adds a gentle warmth and beautiful color. Adjust to your spice preference.\n    *   **Cumin:** A touch of ground cumin can add an earthy depth, though some recipes omit it.\n    *   **Salt & Black Pepper:** To taste.\n*   **Butter (for the tempering, optional but highly recommended):** A final drizzle of melted butter infused with additional red pepper flakes and dried mint (known as *nane ve pul biberli tereyağı*) takes the soup to another level of flavor and presentation.\n*   **Lemon Wedges:** For serving – a squeeze of fresh lemon juice is non-negotiable for brightening the flavors.\n\n## Step-by-Step Instructions\n\nMaking Mercimek Corbasi Red Lentil Soup is surprisingly straightforward. Follow these steps to create a delicious and authentic bowl:\n\n1.  **Prepare the Lentils:** Rinse the red lentils thoroughly under cold running water until the water runs clear. This removes any starch and impurities.\n2.  **Sauté Aromatics:** In a large pot or Dutch oven, heat olive oil over medium heat. Add the finely diced onion and cook until softened and translucent, about 5-7 minutes. Add the minced garlic and cook for another minute until fragrant, being careful not to burn it.\n3.  **Build the Base:** Stir in the tomato paste and cook for 1-2 minutes, stirring constantly, to deepen its flavor. Add the dried mint, red pepper flakes (and cumin, if using), and cook for another 30 seconds until fragrant.\n4.  **Add Lentils and Liquid:** Add the rinsed red lentils to the pot and stir to coat them with the aromatic mixture. Pour in the vegetable broth (or water), along with salt and black pepper. Bring the mixture to a boil.\n5.  **Simmer and Cook:** Once boiling, reduce the heat to low, cover the pot, and let it simmer for 20-25 minutes, or until the lentils are very tender and have broken down. Stir occasionally to prevent sticking.\n6.  **Blend to Perfection:** Remove the pot from the heat. Use an immersion blender to carefully blend the soup until it's smooth and creamy. Alternatively, transfer the soup in batches to a regular blender (be extremely careful when blending hot liquids, only fill halfway, and hold the lid with a towel). If the soup is too thick, add a little more hot water or broth to reach your desired consistency.\n7.  **Temper the Butter (Optional but Recommended):** In a small pan, melt the butter over medium-low heat. Add a pinch of dried mint and red pepper flakes. Swirl for about 30 seconds until fragrant, being careful not to burn the spices.\n8.  **Serve:** Ladle the hot Mercimek Corbasi Red Lentil Soup into bowls. Drizzle each serving with the spiced butter, if using, and garnish with an extra sprinkle of dried mint or red pepper flakes. Serve immediately with fresh lemon wedges.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect, restaurant-quality Mercimek Corbasi Red Lentil Soup is easy with a few expert tips:\n\n*   **Rinse Those Lentils!** Don't skip rinsing the lentils. It helps remove excess starch, ensuring a clearer, more vibrant soup and preventing a gummy texture.\n*   **Sautéing is Key:** Allow your onions to soften properly and the tomato paste to cook out for a few minutes. This develops a crucial flavor base that will infuse the entire soup.\n*   **Don't Over-Spice the Pot:** While spices are vital, remember that much of the fresh, vibrant spice flavor comes from the tempered butter drizzle at the end. Use a moderate amount in the main soup and reserve most for the *nane ve pul biberli tereyağı*.\n*   **Blend Until Silky Smooth:** For that classic creamy texture, blend the soup thoroughly. An immersion blender makes this incredibly easy. If using a regular blender, be cautious with hot liquids.\n*   **Adjust Consistency:** Lentils absorb a lot of liquid. If your soup is too thick after blending, gradually add more hot water or broth until it reaches your preferred consistency. It should be thick enough to coat a spoon but still pourable.\n*   **The Lemon is a Must:** A generous squeeze of fresh lemon juice at the table is absolutely essential. It brightens all the flavors and adds a tangy counterpoint that elevates the entire dish.\n\n## Serving Suggestions\n\nMercimek Corbasi Red Lentil Soup is typically enjoyed as a starter, but it's substantial enough to be a light main course, especially when paired with the right accompaniments.\n\n*   **Fresh Lemon Wedges:** This is non-negotiable! Always serve with plenty of fresh lemon to squeeze over each bowl.\n*   **Crusty Bread:** A staple for dipping. Turkish pide bread, a crusty baguette, or even a simple whole wheat bread are perfect for soaking up every last drop.\n*   **A Simple Salad:** A light shepherd's salad (çoban salatası) with tomatoes, cucumbers, and onions dressed with olive oil and lemon juice makes a refreshing side.\n*   **Pickles (Tursu):** Tangy Turkish pickles offer a wonderful contrast to the soup's warmth and richness.\n*   **Extra Chili:** For those who like more heat, a small bowl of extra pul biber or even a drizzle of chili oil can be offered.\n*   **Yogurt:** While less traditional for Mercimek Corbasi itself, a dollop of plain yogurt can sometimes be added to other Turkish soups for creaminess, though it's less common here.\n\n## Variations and Substitutions\n\nWhile the classic Mercimek Corbasi Red Lentil Soup is perfect as is, there are ways to adapt it to your taste or dietary needs:\n\n*   **Vegan Version:** The core recipe is already vegan if you use vegetable broth and omit the butter drizzle (or use a vegan butter alternative).\n*   **Add Vegetables:** For extra nutrition and texture, you can add finely diced carrots, potatoes, or even a handful of spinach during the simmering stage. They will blend seamlessly into the soup.\n*   **Spice it Up:** Experiment with other spices like a pinch of smoked paprika for a deeper flavor, or a tiny bit of cayenne pepper for more heat. Some recipes include a bay leaf during simmering for an extra aromatic note.\n*   **Garnish Variations:** Instead of just dried mint and red pepper flakes, you could garnish with fresh parsley or cilantro for a different fresh herb flavor.\n*   **Thicker or Thinner:** Adjust the amount of liquid to achieve your desired consistency. Some prefer a very thick, almost stew-like soup, while others prefer it thinner.\n*   **No Blending:** While traditionally blended for creaminess, you can choose to leave a portion of the lentils unblended for a chunkier texture, if preferred.\n\nMercimek Corbasi Red Lentil Soup is a testament to the power of simple ingredients transformed into something truly extraordinary. Its warmth, comforting flavor, and nutritional benefits make it a beloved dish across Turkey and increasingly, around the world. Whether you're new to Turkish cuisine or a seasoned fan, making this soup at home is a rewarding experience that brings a piece of Turkish culinary heritage right to your kitchen. So grab your lentils, gather your spices, and prepare to fall in love with this iconic red lentil soup.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Mercimek Corbasi Red Lentil Soup",
     "description": "Learn how to make authentic Mercimek Corbasi Red Lentil Soup. This easy Turkish recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODE1NzAxMHww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1624793806956-e20e5a829299?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODE1NzAxMHww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1630684789391-d59419768fb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3OTE3NzY4Nnww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3OTE3NzY4Nnww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-05-07T13:00:42.853Z",
+    "datePublished": "2026-05-19T08:02:46.585Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -212,50 +220,55 @@
     },
     "recipeIngredient": [
       "1 cup Red lentils",
+      "6 cups Water or vegetable broth",
       "1 medium Onion",
       "1 medium Carrot",
-      "2 Garlic cloves",
+      "1 small Potato",
       "1 tablespoon Tomato paste",
-      "6 cups Vegetable or chicken broth",
-      "1 teaspoon Dried mint",
+      "2 tablespoons Olive oil",
+      "1 teaspoon Dried mint (Nane)",
+      "1 teaspoon Red pepper flakes (Pul Biber)",
       "1 teaspoon Salt",
       "1/2 teaspoon Black pepper",
-      "2 tablespoons Unsalted butter",
-      "1 teaspoon Red pepper flakes (Pul Biber)",
       "for serving Lemon wedges"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Lentils and Aromatics",
-        "text": "Rinse the red lentils thoroughly under cold running water until the water runs clear. In a large pot or Dutch oven, heat a tablespoon of olive oil or butter over medium heat. Add the chopped onion and diced carrot, cooking until softened, about 5-7 minutes."
+        "name": "Prepare Lentils and Vegetables",
+        "text": "Thoroughly rinse the red lentils under cold running water until the water runs clear, then drain them well. Finely chop the onion, and peel and dice the carrot and potato, ensuring they are cut into small, even pieces for quicker cooking."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Garlic and Tomato Paste",
-        "text": "Stir in the minced garlic and cook for another minute until fragrant. Add the tomato paste and cook for 2-3 minutes, stirring constantly, to deepen its flavor and color."
+        "name": "Saute Aromatics",
+        "text": "In a large pot or Dutch oven, heat the 2 tablespoons of olive oil over medium heat. Add the chopped onion, diced carrot, and diced potato to the pot. Saute for 5-7 minutes, stirring occasionally, until the vegetables begin to soften and the onion becomes translucent."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine and Simmer",
-        "text": "Add the rinsed red lentils and vegetable or chicken broth to the pot. Stir well. Bring the mixture to a boil, then reduce the heat to low, cover, and simmer for 20-25 minutes, or until the lentils are very tender and have mostly broken down."
+        "name": "Add Tomato Paste and Lentils",
+        "text": "Stir the tomato paste into the softened vegetables and cook for another minute, stirring constantly to lightly toast the paste and deepen its flavor. Then, add the rinsed and drained red lentils to the pot, giving them a quick stir to combine with the vegetables."
       },
       {
         "@type": "HowToStep",
-        "name": "Season and Blend",
-        "text": "Once the lentils are tender, remove the pot from the heat. Stir in the dried mint, salt, and black pepper. Use an immersion blender to blend the soup directly in the pot until it is smooth and creamy. If you dont have an immersion blender, carefully transfer the soup in batches to a regular blender and blend until smooth, then return to the pot."
+        "name": "Simmer the Soup",
+        "text": "Pour in the 6 cups of water or vegetable broth. Bring the mixture to a boil over medium-high heat. Once boiling, reduce the heat to low, cover the pot, and let the soup simmer for 25-30 minutes, or until the lentils and vegetables are very tender and easily mashable. Stir occasionally to prevent sticking to the bottom."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Butter Drizzle",
-        "text": "While the soup is simmering or after blending, prepare the special Turkish butter drizzle. In a small saucepan, melt the unsalted butter over medium-low heat. Once the butter is melted and slightly foamy, stir in the red pepper flakes (Pul Biber). Cook for about 30 seconds, being careful not to burn the spices."
+        "name": "Blend to Smooth Consistency",
+        "text": "Remove the pot from the heat. Use an immersion blender to carefully blend the soup directly in the pot until it is completely smooth and creamy, with no visible chunks of lentils or vegetables. If you do not have an immersion blender, carefully transfer the soup in batches to a regular blender and blend until smooth, then return it to the pot."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Season and Finish",
+        "text": "Return the pot to low heat. Stir in the dried mint, red pepper flakes, salt, and black pepper. Allow the soup to gently simmer for another 2-3 minutes, allowing the flavors to meld beautifully. Taste and adjust the seasoning if necessary."
       },
       {
         "@type": "HowToStep",
         "name": "Serve Mercimek Corbasi",
-        "text": "Ladle the hot Mercimek Corbasi into bowls. Drizzle a spoonful of the spiced butter over each serving. Serve immediately with fresh lemon wedges on the side, allowing each person to squeeze lemon juice into their soup for an extra burst of flavor."
+        "text": "Ladle the hot Mercimek Corbasi into individual serving bowls. For an authentic touch, drizzle a little extra olive oil over each bowl, and offer lemon wedges on the side for squeezing, as the fresh lemon juice brightens the soup wonderfully. Serve immediately with crusty bread."
       }
     ]
   },
-  "publishedAt": "2026-05-07T13:00:42.884Z"
+  "publishedAt": "2026-05-19T08:02:46.632Z"
 }
