@@ -7,229 +7,257 @@
   "category": "dinner",
   "categoryName": "Dinner Recipes",
   "categoryIcon": "🍽️",
-  "prepTime": "1 hour 30 min",
-  "cookTime": "2 hours",
-  "totalTime": "15 hours 30 min",
+  "seo": {
+    "title": "How to Make Peking Duck — Easy Chinese Recipe",
+    "metaDescription": "Learn how to make authentic Peking Duck. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "chinese-dinner-peking-duck",
+    "mainKeyword": "Peking Duck",
+    "longTailKeywords": [
+      "how to make Peking Duck",
+      "easy Peking Duck recipe",
+      "authentic Chinese Peking Duck"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Peking Duck",
+      "Chinese Peking Duck recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Peking Duck Recipe",
+    "h2Headings": [
+      "What is Peking Duck?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "chinese-dinner-peking-duck.jpg",
+    "imageAlt": "Authentic Chinese Peking Duck recipe",
+    "imageCaption": "Delicious homemade Peking Duck — a beloved Chinese classic",
+    "internalLinks": [
+      {
+        "anchor": "Dinner Recipes",
+        "url": "/categories/dinner"
+      },
+      {
+        "anchor": "Chinese Recipes",
+        "url": "/countries/chinese"
+      }
+    ]
+  },
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.pexels.com/photos/32441113/pexels-photo-32441113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/4055121/pexels-photo-4055121.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Peking Duck is a legendary dish boasting incredibly crispy, lacquered skin and succulent, flavorful meat. Served with delicate pancakes, fresh scallions, crisp cucumber, and rich hoisin sauce, it's a true culinary masterpiece cherished for its exquisite textures and harmonious flavors.",
+  "image1": "https://images.unsplash.com/photo-1641087759837-85121a4eec3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBQZWtpbmclMjBEdWNrJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc5MTkzODEzfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1569293511030-18d3e5d9d998?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQZWtpbmclMjBEdWNrJTIwQ2hpbmVzZSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc5MTkzODEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Experience the iconic flavors of Peking Duck right in your own kitchen with this simplified recipe. This beloved Chinese delicacy features incredibly crispy skin and tender, succulent meat, served traditionally with thin pancakes, scallions, and hoisin sauce. Enjoy a taste of authentic Beijing cuisine perfect for a special dinner.",
   "ingredients": [
     {
-      "item": "Whole Pekin Duck",
-      "amount": "1 (4-5 lb)",
-      "notes": "Preferably fresh, not frozen"
+      "item": "Duck breasts",
+      "amount": "2 large",
+      "notes": "skin on, about 1.5 lbs total"
     },
     {
-      "item": "Maltose Syrup",
-      "amount": "1/2 cup",
-      "notes": "Essential for crispy skin and color"
+      "item": "Honey",
+      "amount": "2 tablespoons",
+      "notes": ""
     },
     {
-      "item": "Shaoxing Wine",
-      "amount": "2 tbsp"
+      "item": "Rice vinegar",
+      "amount": "1 tablespoon",
+      "notes": ""
     },
     {
-      "item": "Chinese Red Vinegar",
-      "amount": "2 tbsp",
-      "notes": "Or good quality rice vinegar"
-    },
-    {
-      "item": "Dark Soy Sauce",
-      "amount": "1 tbsp"
-    },
-    {
-      "item": "Five-Spice Powder",
-      "amount": "1 tsp"
+      "item": "Chinese five-spice powder",
+      "amount": "1 teaspoon",
+      "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "1 tsp"
+      "amount": "1/2 teaspoon",
+      "notes": ""
     },
     {
-      "item": "Boiling Water",
-      "amount": "8-10 cups"
+      "item": "Hoisin sauce",
+      "amount": "1/2 cup",
+      "notes": "for serving"
     },
     {
-      "item": "Mandarin Pancakes",
-      "amount": "24",
-      "notes": "Store-bought or homemade"
+      "item": "Thin Mandarin pancakes",
+      "amount": "12-16 pieces",
+      "notes": "for serving"
     },
     {
-      "item": "Spring Onions (Scallions)",
-      "amount": "1 bunch",
-      "notes": "Cut into julienne"
+      "item": "Scallions",
+      "amount": "4 stalks",
+      "notes": "julienned, for serving"
     },
     {
       "item": "Cucumber",
-      "amount": "1",
-      "notes": "Cut into julienne"
+      "amount": "1 small",
+      "notes": "julienned, for serving"
     },
     {
-      "item": "Hoisin Sauce",
-      "amount": "1/2 cup",
-      "notes": "For serving"
+      "item": "Water",
+      "amount": "1/4 cup",
+      "notes": ""
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Duck for Glazing",
-      "text": "Thoroughly rinse the duck inside and out with cold water. Pat it completely dry with paper towels. Remove any excess fat from the cavity and around the neck. Using a sharp knife or kitchen shears, remove the wingtips and the first joint of the wings. Prick the skin all over with a fork, especially in fatty areas like the breast and thighs, without piercing the meat. This helps fat render and skin crisp.",
-      "time": "15 min"
+      "title": "Prepare Duck Breasts",
+      "text": "Pat duck breasts thoroughly dry with paper towels. Score the skin in a crisscross pattern, being careful not to cut into the meat. Season generously with salt and Chinese five-spice powder.",
+      "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Blanch and Glaze the Duck",
-      "text": "Bring a large pot of water (about 8-10 cups) to a rolling boil. Place the duck on a rack over a sink or a large roasting pan. Carefully pour the boiling water all over the duck's skin, ensuring every part is scalded. This tightens the skin. Immediately pat dry again. In a bowl, whisk together the maltose syrup, Shaoxing wine, Chinese red vinegar, dark soy sauce, five-spice powder, and salt to create the glaze. Generously brush the glaze all over the duck, ensuring an even coating.",
-      "time": "20 min"
+      "title": "Make Glaze",
+      "text": "In a small bowl, whisk together honey, rice vinegar, and 1/4 cup water until well combined. Set aside.",
+      "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Air Dry for Crispy Skin",
-      "text": "This is the most crucial step for achieving crispy skin. Insert a hook or a string through the duck's neck, or place it on a rack in a cool, well-ventilated area, preferably in front of a fan. Alternatively, hang it in a refrigerator (ensure no strong odors are present) for a minimum of 12 hours, and ideally 24-36 hours. The skin must be completely dry to the touch, resembling parchment paper. This prolonged drying renders the fat and creates the iconic crispy skin.",
-      "time": "12 hours (minimum)"
-    },
-    {
-      "step": 4,
-      "title": "Preheat Oven and Prepare for Roasting",
-      "text": "Preheat your oven to 375°F (190°C). Fill a small bowl with hot water and place it on the bottom rack of the oven; this creates steam to help keep the meat moist. Place the dried duck, breast-side up, on a roasting rack set inside a roasting pan. Add about 1-2 cups of water to the bottom of the roasting pan to catch drippings and prevent burning. This also adds moisture to the oven.",
+      "title": "Pan-Sear Duck",
+      "text": "Place duck breasts, skin side down, in a cold oven-safe skillet (cast iron works best). Turn heat to medium-low and cook for 15-20 minutes, allowing the fat to render slowly and the skin to become golden brown and crispy. Pour off excess fat periodically.",
       "time": "20 min"
     },
     {
+      "step": 4,
+      "title": "Apply Glaze and Roast",
+      "text": "Flip the duck breasts meat side down. Brush the crispy skin generously with the prepared honey glaze. Transfer the skillet to a preheated oven at 400°F (200°C) and roast for 10-15 minutes, or until the duck reaches an internal temperature of 135-140°F (57-60°C) for medium-rare, or desired doneness.",
+      "time": "15 min"
+    },
+    {
       "step": 5,
-      "title": "Roast the Duck",
-      "text": "Roast the duck for 1 hour at 375°F (190°C). Then, reduce the oven temperature to 325°F (160°C) and continue roasting for another 1 to 1.5 hours, or until an instant-read thermometer inserted into the thickest part of the thigh registers 165°F (74°C). During the last 30 minutes, you can increase the temperature back to 400°F (200°C) if the skin isn't as crisp as desired, watching carefully to prevent burning. The skin should be deep golden brown and exceptionally crispy.",
-      "time": "2 hours"
+      "title": "Rest and Slice",
+      "text": "Remove duck breasts from the oven and let them rest on a cutting board, skin side up, for 5-10 minutes. This allows the juices to redistribute. Then, slice the duck breasts thinly against the grain.",
+      "time": "10 min"
     },
     {
       "step": 6,
-      "title": "Rest, Carve, and Serve",
-      "text": "Once roasted, remove the duck from the oven and let it rest on a cutting board, loosely tented with foil, for at least 15-20 minutes. This allows the juices to redistribute, ensuring tender meat. While the duck rests, warm the mandarin pancakes according to package instructions, and arrange the julienned scallions and cucumber on a serving platter. To carve, carefully slice off the crispy skin in small pieces, then thinly slice the meat. Serve immediately with warm pancakes, hoisin sauce, scallions, and cucumber, allowing each diner to assemble their own wrap.",
-      "time": "30 min"
+      "title": "Prepare Accompaniments",
+      "text": "While the duck rests, gently warm the Mandarin pancakes according to package instructions (steaming or microwaving briefly). Arrange the julienned scallions and cucumber on a serving platter.",
+      "time": "5 min"
+    },
+    {
+      "step": 7,
+      "title": "Serve",
+      "text": "Serve the thinly sliced crispy duck immediately with warm Mandarin pancakes, hoisin sauce, julienned scallions, and cucumber. Guests can assemble their own wraps.",
+      "time": "0 min"
     }
   ],
   "nutritionTable": {
-    "calories": "450 kcal",
-    "protein": "30g",
+    "calories": "380 kcal",
+    "protein": "18g",
     "carbs": "45g",
-    "fat": "20g",
-    "fiber": "3g",
-    "sugar": "15g",
-    "sodium": "700mg",
-    "cholesterol": "90mg"
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Chinese",
-    "Peking Duck",
-    "authentic",
-    "traditional",
+    "duck",
+    "crispy skin",
     "dinner",
-    "roast duck",
-    "crispy skin"
+    "traditional",
+    "Peking Duck",
+    "hoisin",
+    "pancakes",
+    "easy recipe"
   ],
   "tips": [
-    "**The Air Drying is Non-Negotiable:** Do not skip or shorten the air-drying process. It is the absolute key to achieving the signature crispy skin.",
-    "**Maltose Syrup for Shine:** Maltose syrup gives the duck its beautiful lacquered finish and helps in achieving a wonderfully crisp texture. Do not substitute with regular sugar or honey if you want authentic results.",
-    "**Proper Carving Technique:** For the traditional experience, carve the crispy skin separately first, then slice the succulent meat thinly. This allows diners to enjoy both textures distinctly.",
-    "**Steam for Moisture:** The bowl of hot water in the oven helps maintain a moist environment, preventing the meat from drying out while the skin crisps."
+    "For extra crispy skin, ensure the duck breast is completely dry before searing. You can even air-dry it in the refrigerator for a few hours if time permits.",
+    "Score the duck skin deeply but avoid cutting into the meat. This helps render the fat efficiently and achieve maximum crispiness.",
+    "Serve immediately with warm pancakes and fresh garnishes for the best experience. Leftovers can be stored in an airtight container for up to 2 days and reheated gently for crispy skin."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Peking Duck\n\nPeking Duck, or Běijīng Kǎoyā, is a dish with a rich imperial history dating back to the Yuan Dynasty in the 13th century. It first appeared in culinary records during the Ming Dynasty, becoming a favorite of the imperial court. By the Qing Dynasty, it was a staple of royal banquets and a symbol of culinary prestige. The technique of roasting ducks in closed ovens (焖炉, mēnlú) was perfected, followed later by the open-oven (挂炉, guàlú) method, which is more common today. Over centuries, Peking Duck evolved from a court delicacy to a globally recognized symbol of Chinese cuisine, celebrated for its unique preparation and unforgettable taste.\n\n## Why This Recipe Works\n\nThis recipe rigorously adheres to traditional Chinese techniques, ensuring an authentic Peking Duck experience. The crucial element is the prolonged air-drying process, which dehydrates the skin, allowing it to become incredibly crisp and brittle during roasting. The maltose-based glaze is vital; it caramelizes beautifully, creating the deep, lustrous color and contributing significantly to the skin's crackling texture and subtle sweetness. The initial blanching tightens the skin, further aiding in crispness. Roasting at precise temperatures ensures the fat renders fully while the meat remains succulent. This meticulous combination of steps guarantees the iconic contrast of crisp skin and tender meat that defines true Peking Duck.\n\n## Chef Tips for Perfection\n\nTo elevate your Peking Duck, start with a high-quality, fresh Pekin duck, as its fat content is ideal. Ensure every inch of the duck is thoroughly dried after blanching and before glazing. When air-drying, a fan significantly speeds up the process and ensures even drying. If using a refrigerator, place the duck on a rack over a tray to catch any drips, and ensure it's uncovered. During roasting, resist the urge to open the oven frequently, as this drops the temperature and extends cooking time. When carving, use a very sharp knife to achieve thin, elegant slices of skin and meat. Practice makes perfect for carving, so don't be discouraged if your first attempt isn't flawless.\n\n## Serving Suggestions\n\nPeking Duck is traditionally served in a specific manner to fully appreciate its complex textures and flavors. The crispy skin and tender meat are carved and presented alongside thin, steamed Mandarin pancakes (荷叶饼, héyèbǐng). Accompanying condiments typically include julienned fresh spring onions (scallions) and crisp cucumber sticks, which provide a refreshing counterpoint to the rich duck. A rich, savory hoisin sauce (海鲜酱, hǎixiānjiàng) is essential for spreading on the pancakes before adding the duck, scallions, and cucumber. Each diner then wraps these components into a delightful, savory-sweet parcel, creating a balanced and interactive culinary experience.",
-  "publishedAt": "2026-04-04T16:34:55.533Z",
-  "jsonLd": {
+  "article": "Unlock the secrets to one of China's most iconic and revered dishes with this comprehensive guide to making Peking Duck at home. Often considered the pinnacle of Chinese culinary artistry, Peking Duck is a feast for the senses, renowned for its exquisitely crispy skin, succulent meat, and delightful accompaniments. While traditionally a dish reserved for special occasions or restaurant outings, we'll demystify the process, empowering you to recreate this legendary Chinese dinner recipe in your own kitchen. Prepare to impress your family and friends with a culinary masterpiece that is both challenging and incredibly rewarding.\n\n## What is Peking Duck?\n\nPeking Duck is much more than just roasted duck; it's a centuries-old culinary tradition originating from Beijing (formerly Peking), China. Its history dates back to the imperial era, where it was a delicacy enjoyed by emperors. The hallmark of authentic Peking Duck is its remarkably thin, crisp, almost glass-like skin, achieved through a meticulous multi-step process involving air-drying, blanching, and precise roasting. Beneath this glorious skin lies tender, flavorful meat.\n\nUnlike a typical roast duck, Peking Duck is traditionally carved tableside, with the crispy skin often separated from the meat. It's then served with thin, steamed pancakes (mandarin pancakes), a rich hoisin sauce, and julienned scallions and cucumber. Each bite is a symphony of textures and flavors – the crunch of the skin, the softness of the duck meat, the sweet and savory hoisin, and the fresh bite of the vegetables, all wrapped in a delicate pancake. It's an experience that transcends a simple meal, making it a truly unforgettable Chinese dinner recipe.\n\n## Ingredients You Need\n\nMaking Peking Duck at home requires a few specialized ingredients and, most importantly, a good quality duck. Here’s what you’ll need for a duck weighing approximately 4-5 pounds (about 2 kg), serving 4-6 people:\n\nFor the Duck:\n*   1 whole duck (4-5 lbs), preferably Pekin duck, cleaned and trimmed\n*   1 tablespoon white vinegar (for cleaning)\n*   Boiling water (for blanching)\n\nFor the Marinade/Glaze:\n*   2 tablespoons maltose (or honey/maple syrup as a substitute)\n*   2 tablespoons rice vinegar\n*   1 tablespoon dark soy sauce\n*   1 tablespoon Shaoxing wine (or dry sherry)\n*   1 teaspoon five-spice powder\n*   1 teaspoon salt\n*   1/2 teaspoon white pepper\n\nFor Serving:\n*   12-18 Peking Duck pancakes (store-bought or homemade)\n*   1/2 cup hoisin sauce\n*   4-5 scallions, cut into 2-inch pieces and julienned\n*   1/2 English cucumber, julienned\n\n## Step-by-Step Instructions\n\nThe process for Peking Duck is detailed but manageable, focusing on preparation for that signature crispy skin.\n\n1.  **Prepare the Duck:**\n    *   Thoroughly rinse the duck inside and out with cold water. Pat it completely dry with paper towels. This dryness is crucial for crispy skin.\n    *   Carefully remove any excess fat from around the cavity opening and discard.\n    *   Using a large pot or kettle, bring a generous amount of water to a rolling boil. Carefully pour the boiling water over the entire duck, ensuring all surfaces are scalded. This tightens the skin.\n    *   Immediately after blanching, rub the duck all over with white vinegar.\n\n2.  **Apply the Glaze & Air Dry:**\n    *   In a bowl, whisk together the maltose (or substitute), rice vinegar, dark soy sauce, Shaoxing wine, five-spice powder, salt, and white pepper.\n    *   Brush this glaze generously over the entire duck, ensuring full coverage.\n    *   The most critical step for crispy skin: air drying. Hang the duck in a cool, well-ventilated area (a kitchen pantry, garage, or even in front of a fan) for at least 12-24 hours. If your kitchen isn't cool enough, place it on a rack over a baking sheet in the refrigerator, uncovered, for 24-48 hours. The skin should feel dry and taut to the touch.\n\n3.  **Roast the Duck:**\n    *   Preheat your oven to 375°F (190°C).\n    *   Place the duck, breast-side up, on a roasting rack set inside a roasting pan. Add about 1-2 cups of water to the bottom of the pan to catch drippings and create steam, which helps keep the meat moist.\n    *   Roast for 1 hour.\n    *   Reduce the oven temperature to 325°F (160°C). Continue roasting for another 1 to 1.5 hours, or until an instant-read thermometer inserted into the thickest part of the thigh (without touching bone) registers 165°F (74°C).\n    *   For the last 15-20 minutes, you can increase the temperature back to 400°F (200°C) to further crisp the skin, watching carefully to prevent burning.\n\n4.  **Rest and Carve:**\n    *   Once cooked, remove the duck from the oven and let it rest on a cutting board, tented loosely with foil, for at least 15-20 minutes. This allows the juices to redistribute, ensuring tender meat.\n    *   To carve, first remove the legs and wings. Then, carefully slice off the crispy skin in bite-sized pieces. Finally, slice the breast meat into thin pieces.\n\n## Pro Tips for the Best Results\n\nAchieving restaurant-quality Peking Duck at home is all about attention to detail.\n\n*   **The Power of Air Drying:** This is non-negotiable for crispy skin. The longer and more thoroughly the duck air dries, the crispier your skin will be. Don't rush this step.\n*   **Maltose vs. Substitutes:** Maltose gives the skin a beautiful sheen and characteristic sweetness. While honey or maple syrup can work, maltose is highly recommended for authenticity.\n*   **Temperature Control:** Using a meat thermometer is crucial to avoid overcooking the duck, which can lead to dry meat.\n*   **Roasting Rack is Key:** Elevating the duck on a rack allows air to circulate around all sides, promoting even cooking and crispiness. The water in the pan prevents the bottom from burning and adds moisture to the oven.\n*   **Don't Discard the Duck Frame:** After carving, use the duck bones and any remaining meat to make a delicious duck broth or soup – a common practice in Chinese cuisine.\n\n## Serving Suggestions\n\nServing Peking Duck is an integral part of the experience. It’s a hands-on, interactive meal that encourages communal enjoyment.\n\n*   **Assemble Your Bites:** Traditionally, guests take a warm, soft pancake, spread a thin layer of hoisin sauce, add a few slices of crispy duck skin and tender meat, and top with julienned scallions and cucumber. Fold or roll the pancake around the fillings and enjoy!\n*   **Warm the Pancakes:** Gently steam the pancakes just before serving to make them soft and pliable.\n*   **Arrange Attractively:** Present your carved duck, pancakes, sauces, and vegetables on separate platters for an appealing spread.\n\n## Variations and Substitutions\n\nWhile the traditional Peking Duck method is specific, home cooks can make adjustments:\n\n*   **Simpler Glaze:** If you can't find maltose, a mix of honey, soy sauce, and a touch of vinegar will still yield a tasty, glossy skin, though perhaps not as authentic.\n*   **Duck Breast:** For a quicker, less involved version, you can adapt this recipe to just use duck breasts. Score the skin, follow the air-drying and glazing steps (for a shorter time), and pan-sear or roast until the skin is crispy and the meat is cooked.\n*   **Store-Bought Pancakes:** Don't hesitate to use pre-made Peking Duck pancakes from an Asian grocery store. They save a lot of time and are perfectly authentic.\n*   **Vegetable Alternatives:** While scallions and cucumber are classic, you could also offer thin slices of radish or bell pepper for added crunch and color.\n\nEmbarking on the journey to create Peking Duck at home is a culinary adventure that promises immense satisfaction. While it demands patience and precision, the reward of biting into that perfectly crisp skin and tender meat, nestled in a warm pancake with savory hoisin and fresh vegetables, is truly unparalleled. This iconic Chinese dinner recipe is more than just food; it's an experience, a tradition, and a testament to the enduring allure of Chinese cuisine. Give it a try, and discover the joy of mastering this magnificent dish.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Peking Duck",
-    "description": "Peking Duck is a legendary dish boasting incredibly crispy, lacquered skin and succulent, flavorful meat. Served with delicate pancakes, fresh scallions, crisp cucumber, and rich hoisin sauce, it's a true culinary masterpiece cherished for its exquisite textures and harmonious flavors.",
+    "description": "Learn how to make authentic Peking Duck. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/32441113/pexels-photo-32441113.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/4055121/pexels-photo-4055121.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1641087759837-85121a4eec3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBQZWtpbmclMjBEdWNrJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzc5MTkzODEzfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1569293511030-18d3e5d9d998?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQZWtpbmclMjBEdWNrJTIwQ2hpbmVzZSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc5MTkzODEzfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-04T16:34:55.533Z",
-    "prepTime": "PT130M",
-    "cookTime": "PT2M",
-    "totalTime": "PT1530M",
+    "datePublished": "2026-05-19T13:31:10.480Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Dinner Recipes",
     "recipeCuisine": "Chinese",
-    "keywords": "Chinese, Chinese, authentic, traditional, dinner, Chinese, Peking Duck, authentic, traditional, dinner, roast duck, crispy skin",
+    "keywords": "Peking Duck, how to make Peking Duck, easy Peking Duck recipe, authentic Chinese Peking Duck",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "450 calories",
-      "proteinContent": "30g",
-      "carbohydrateContent": "45g",
-      "fatContent": "20g",
-      "fiberContent": "3g",
-      "sugarContent": "15g",
-      "sodiumContent": "700mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1 (4-5 lb) Whole Pekin Duck (Preferably fresh, not frozen)",
-      "1/2 cup Maltose Syrup (Essential for crispy skin and color)",
-      "2 tbsp Shaoxing Wine",
-      "2 tbsp Chinese Red Vinegar (Or good quality rice vinegar)",
-      "1 tbsp Dark Soy Sauce",
-      "1 tsp Five-Spice Powder",
-      "1 tsp Salt",
-      "8-10 cups Boiling Water",
-      "24 Mandarin Pancakes (Store-bought or homemade)",
-      "1 bunch Spring Onions (Scallions) (Cut into julienne)",
-      "1 Cucumber (Cut into julienne)",
-      "1/2 cup Hoisin Sauce (For serving)"
+      "2 large Duck breasts",
+      "2 tablespoons Honey",
+      "1 tablespoon Rice vinegar",
+      "1 teaspoon Chinese five-spice powder",
+      "1/2 teaspoon Salt",
+      "1/2 cup Hoisin sauce",
+      "12-16 pieces Thin Mandarin pancakes",
+      "4 stalks Scallions",
+      "1 small Cucumber",
+      "1/4 cup Water"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Duck for Glazing",
-        "text": "Thoroughly rinse the duck inside and out with cold water. Pat it completely dry with paper towels. Remove any excess fat from the cavity and around the neck. Using a sharp knife or kitchen shears, remove the wingtips and the first joint of the wings. Prick the skin all over with a fork, especially in fatty areas like the breast and thighs, without piercing the meat. This helps fat render and skin crisp.",
-        "timeRequired": "PT15M"
+        "name": "Prepare Duck Breasts",
+        "text": "Pat duck breasts thoroughly dry with paper towels. Score the skin in a crisscross pattern, being careful not to cut into the meat. Season generously with salt and Chinese five-spice powder."
       },
       {
         "@type": "HowToStep",
-        "name": "Blanch and Glaze the Duck",
-        "text": "Bring a large pot of water (about 8-10 cups) to a rolling boil. Place the duck on a rack over a sink or a large roasting pan. Carefully pour the boiling water all over the duck's skin, ensuring every part is scalded. This tightens the skin. Immediately pat dry again. In a bowl, whisk together the maltose syrup, Shaoxing wine, Chinese red vinegar, dark soy sauce, five-spice powder, and salt to create the glaze. Generously brush the glaze all over the duck, ensuring an even coating.",
-        "timeRequired": "PT20M"
+        "name": "Make Glaze",
+        "text": "In a small bowl, whisk together honey, rice vinegar, and 1/4 cup water until well combined. Set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Air Dry for Crispy Skin",
-        "text": "This is the most crucial step for achieving crispy skin. Insert a hook or a string through the duck's neck, or place it on a rack in a cool, well-ventilated area, preferably in front of a fan. Alternatively, hang it in a refrigerator (ensure no strong odors are present) for a minimum of 12 hours, and ideally 24-36 hours. The skin must be completely dry to the touch, resembling parchment paper. This prolonged drying renders the fat and creates the iconic crispy skin.",
-        "timeRequired": "PT12M"
+        "name": "Pan-Sear Duck",
+        "text": "Place duck breasts, skin side down, in a cold oven-safe skillet (cast iron works best). Turn heat to medium-low and cook for 15-20 minutes, allowing the fat to render slowly and the skin to become golden brown and crispy. Pour off excess fat periodically."
       },
       {
         "@type": "HowToStep",
-        "name": "Preheat Oven and Prepare for Roasting",
-        "text": "Preheat your oven to 375°F (190°C). Fill a small bowl with hot water and place it on the bottom rack of the oven; this creates steam to help keep the meat moist. Place the dried duck, breast-side up, on a roasting rack set inside a roasting pan. Add about 1-2 cups of water to the bottom of the roasting pan to catch drippings and prevent burning. This also adds moisture to the oven.",
-        "timeRequired": "PT20M"
+        "name": "Apply Glaze and Roast",
+        "text": "Flip the duck breasts meat side down. Brush the crispy skin generously with the prepared honey glaze. Transfer the skillet to a preheated oven at 400°F (200°C) and roast for 10-15 minutes, or until the duck reaches an internal temperature of 135-140°F (57-60°C) for medium-rare, or desired doneness."
       },
       {
         "@type": "HowToStep",
-        "name": "Roast the Duck",
-        "text": "Roast the duck for 1 hour at 375°F (190°C). Then, reduce the oven temperature to 325°F (160°C) and continue roasting for another 1 to 1.5 hours, or until an instant-read thermometer inserted into the thickest part of the thigh registers 165°F (74°C). During the last 30 minutes, you can increase the temperature back to 400°F (200°C) if the skin isn't as crisp as desired, watching carefully to prevent burning. The skin should be deep golden brown and exceptionally crispy.",
-        "timeRequired": "PT2M"
+        "name": "Rest and Slice",
+        "text": "Remove duck breasts from the oven and let them rest on a cutting board, skin side up, for 5-10 minutes. This allows the juices to redistribute. Then, slice the duck breasts thinly against the grain."
       },
       {
         "@type": "HowToStep",
-        "name": "Rest, Carve, and Serve",
-        "text": "Once roasted, remove the duck from the oven and let it rest on a cutting board, loosely tented with foil, for at least 15-20 minutes. This allows the juices to redistribute, ensuring tender meat. While the duck rests, warm the mandarin pancakes according to package instructions, and arrange the julienned scallions and cucumber on a serving platter. To carve, carefully slice off the crispy skin in small pieces, then thinly slice the meat. Serve immediately with warm pancakes, hoisin sauce, scallions, and cucumber, allowing each diner to assemble their own wrap.",
-        "timeRequired": "PT30M"
+        "name": "Prepare Accompaniments",
+        "text": "While the duck rests, gently warm the Mandarin pancakes according to package instructions (steaming or microwaving briefly). Arrange the julienned scallions and cucumber on a serving platter."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Serve",
+        "text": "Serve the thinly sliced crispy duck immediately with warm Mandarin pancakes, hoisin sauce, julienned scallions, and cucumber. Guests can assemble their own wraps."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-05-19T13:31:10.511Z"
 }
