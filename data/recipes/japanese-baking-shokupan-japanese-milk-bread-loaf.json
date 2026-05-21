@@ -48,112 +48,118 @@
   "prepTime": "20 min",
   "cookTime": "35 min",
   "totalTime": "55 min",
-  "servings": 8,
+  "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Japanese",
-  "image1": "https://images.unsplash.com/photo-1629984164142-21c2039de926?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzg1ODcyNzZ8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1762305195878-fd9eb82439c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzg1ODcyNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Shokupan, the quintessential Japanese milk bread, is renowned for its incredibly soft, fluffy texture and delicate sweetness. This loaf uses the Tangzhong method to ensure an exceptionally moist crumb that stays fresh for days. Enjoy it toasted with butter, as a sandwich base, or simply on its own.",
+  "image1": "https://images.unsplash.com/photo-1629984164142-21c2039de926?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzkzNzIwMzN8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1762305195878-fd9eb82439c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzkzNzIwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Shokupan Japanese Milk Bread Loaf is a revered staple in Japanese baking, cherished for its incomparable softness and delicate, slightly sweet flavor. This recipe employs the tangzhong method, a secret to achieving its signature pillowy texture and extended freshness. Perfect for breakfast toast, sandwiches, or simply enjoyed plain, this homemade loaf brings a taste of authentic Japanese comfort to your kitchen.",
   "ingredients": [
     {
-      "item": "Bread flour",
-      "amount": "250g",
-      "notes": ""
+      "item": "Bread Flour",
+      "amount": "300g",
+      "notes": "for dough"
     },
     {
       "item": "Milk",
-      "amount": "170ml",
-      "notes": "lukewarm"
+      "amount": "200ml",
+      "notes": "warm, for dough"
     },
     {
-      "item": "Granulated sugar",
+      "item": "Granulated Sugar",
       "amount": "30g",
-      "notes": ""
-    },
-    {
-      "item": "Unsalted butter",
-      "amount": "25g",
-      "notes": "softened"
-    },
-    {
-      "item": "Instant dry yeast",
-      "amount": "5g",
-      "notes": ""
+      "notes": "for dough"
     },
     {
       "item": "Salt",
-      "amount": "3g",
-      "notes": ""
+      "amount": "4g",
+      "notes": "for dough"
+    },
+    {
+      "item": "Instant Dry Yeast",
+      "amount": "5g",
+      "notes": "for dough"
+    },
+    {
+      "item": "Unsalted Butter",
+      "amount": "30g",
+      "notes": "softened"
+    },
+    {
+      "item": "Bread Flour",
+      "amount": "20g",
+      "notes": "for tangzhong"
+    },
+    {
+      "item": "Water",
+      "amount": "100ml",
+      "notes": "for tangzhong"
     },
     {
       "item": "Egg",
       "amount": "1",
-      "notes": "for egg wash, optional"
-    },
-    {
-      "item": "Water",
-      "amount": "15g",
-      "notes": "for Tangzhong"
-    },
-    {
-      "item": "Bread flour",
-      "amount": "15g",
-      "notes": "for Tangzhong"
+      "notes": "beaten, for egg wash (optional)"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Tangzhong",
-      "text": "In a small saucepan, whisk together 15g bread flour and 15g water until smooth. Cook over medium-low heat, stirring constantly, until the mixture thickens to a paste-like consistency, about 2-3 minutes. It should form ripples as you stir. Remove from heat, transfer to a small bowl, cover with plastic wrap directly on the surface, and let it cool to room temperature.",
-      "time": "5 min"
-    },
-    {
-      "step": 2,
-      "title": "Mix the Dough",
-      "text": "In a large mixing bowl, combine the cooled Tangzhong, 250g bread flour, 170ml lukewarm milk, 30g granulated sugar, 5g instant dry yeast, and 3g salt. Mix with a spoon or your hands until a shaggy dough forms. Turn the dough out onto a lightly floured surface.",
-      "time": "5 min"
-    },
-    {
-      "step": 3,
-      "title": "Knead the Dough",
-      "text": "Knead the dough for about 10 minutes until it becomes smooth and elastic. It will be sticky at first, but keep kneading. Incorporate the 25g softened unsalted butter and continue kneading for another 5-7 minutes until the butter is fully absorbed and the dough passes the windowpane test (a small piece can be stretched thinly without tearing).",
-      "time": "15 min"
-    },
-    {
-      "step": 4,
-      "title": "First Proof",
-      "text": "Form the dough into a ball and place it in a lightly oiled bowl. Cover the bowl with plastic wrap or a damp cloth and let it rise in a warm place for 1 to 1.5 hours, or until it has doubled in size. This is the first proofing.",
-      "time": "0 min"
-    },
-    {
-      "step": 5,
-      "title": "Shape the Loaf",
-      "text": "Gently deflate the dough and divide it into three equal pieces. Roll each piece into a flat oval, then fold the longer sides towards the center. Roll it up tightly from one end to form a cylinder. Place the three cylinders seam-side down into a greased 9x5 inch loaf pan, ensuring they are snug.",
+      "text": "In a small saucepan, whisk together 20g bread flour and 100ml water until smooth. Heat over medium-low heat, stirring constantly, until the mixture thickens to a paste-like consistency, around 65°C or when lines appear on the bottom of the pan when stirred. Remove from heat, transfer to a small bowl, cover with plastic wrap directly on the surface, and let it cool completely to room temperature.",
       "time": "10 min"
     },
     {
+      "step": 2,
+      "title": "Combine Dry Ingredients",
+      "text": "In a large mixing bowl, combine 300g bread flour, 30g granulated sugar, 4g salt, and 5g instant dry yeast. Whisk them together thoroughly to ensure even distribution.",
+      "time": "3 min"
+    },
+    {
+      "step": 3,
+      "title": "Mix Wet Ingredients and Form Dough",
+      "text": "Add the cooled tangzhong and 200ml warm milk to the dry ingredients. Mix with a spatula or in a stand mixer with a dough hook until a shaggy dough forms. Knead for about 5-7 minutes until the dough starts to come together.",
+      "time": "10 min"
+    },
+    {
+      "step": 4,
+      "title": "Incorporate Butter and Knead",
+      "text": "Add the 30g softened unsalted butter to the dough. Continue kneading for another 10-15 minutes until the dough is smooth, elastic, and passes the windowpane test (you can stretch a small piece thin enough to see light through it without tearing).",
+      "time": "15 min"
+    },
+    {
+      "step": 5,
+      "title": "First Proof",
+      "text": "Shape the dough into a ball and place it in a lightly oiled bowl. Cover with plastic wrap and let it rise in a warm place for 60-90 minutes, or until it has doubled in size.",
+      "time": "90 min"
+    },
+    {
       "step": 6,
-      "title": "Second Proof and Bake",
-      "text": "Cover the loaf pan with plastic wrap or a damp cloth and let it rise again in a warm place for 45-60 minutes, or until the dough has risen about 1 inch above the rim of the pan. Preheat your oven to 180°C (350°F). Optionally, brush the top with an egg wash for a golden crust. Bake for 30-35 minutes, or until golden brown and cooked through. If the top browns too quickly, loosely tent with foil.",
-      "time": "5 min"
+      "title": "Shape the Loaf",
+      "text": "Gently punch down the dough to release air. Divide it into three equal portions. Roll each portion into an oval, then fold the top third down and the bottom third up. Turn the dough 90 degrees and roll it tightly into a cylinder. Place the three shaped dough pieces seam-side down into a greased 9x4 inch loaf pan.",
+      "time": "15 min"
     },
     {
       "step": 7,
+      "title": "Second Proof and Bake",
+      "text": "Cover the loaf pan loosely with plastic wrap and let it rise again in a warm place for 45-60 minutes, or until the dough has risen about 1 inch above the rim of the pan. Preheat your oven to 180°C (350°F). If desired, brush the top with beaten egg wash. Bake for 30-35 minutes, or until golden brown and cooked through. If the top browns too quickly, loosely tent with foil.",
+      "time": "90 min"
+    },
+    {
+      "step": 8,
       "title": "Cool and Serve",
-      "text": "Once baked, immediately remove the loaf from the pan and place it on a wire rack to cool completely. Slicing the bread while it is still warm may result in a gummy texture. Once fully cooled, slice and enjoy your incredibly soft Shokupan.",
-      "time": "0 min"
+      "text": "Once baked, immediately remove the loaf from the pan and transfer it to a wire rack to cool completely before slicing. This prevents the bottom from becoming soggy and allows the internal structure to set properly. Enjoy your fresh Shokupan!",
+      "time": "60 min"
     }
   ],
   "nutritionTable": {
-    "calories": "280 kcal",
-    "protein": "9g",
+    "calories": "380 kcal",
+    "protein": "18g",
     "carbs": "45g",
-    "fat": "8g",
-    "fiber": "2g",
-    "sugar": "7g",
-    "sodium": "250mg",
-    "cholesterol": "25mg"
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Japanese",
@@ -164,31 +170,31 @@
     "Shokupan Japanese Milk Bread Loaf"
   ],
   "tips": [
-    "The Tangzhong is crucial for Shokupan's signature softness and moisture retention. Ensure it is cooled completely before adding to the main dough.",
-    "Achieving the 'windowpane test' during kneading is key. It indicates proper gluten development, which is essential for a fluffy, airy texture. Do not rush this step.",
-    "Proper proofing is vital. For the second proof, ensure the dough rises sufficiently but not excessively, or it may collapse during baking. A warm, humid environment helps."
+    "The tangzhong must be cooled completely before adding to the main dough to prevent premature yeast activation.",
+    "Kneading until the dough passes the windowpane test is crucial for Shokupan's signature fluffy texture. Be patient, it takes time.",
+    "To achieve a perfectly even rise, ensure your loaf pan is adequately greased and the dough pieces are shaped uniformly."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Shokupan Japanese Milk Bread Loaf is a beloved Japanese Baking dish enjoyed across Japanese. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Unlocking the secret to truly ethereal bread begins with one exquisite creation: Shokupan Japanese Milk Bread Loaf. This isn't just any bread; it's a culinary masterpiece renowned for its impossibly soft, fluffy texture, delicate sweetness, and remarkable ability to stay fresh for days. Originating from Japan, Shokupan has captured the hearts of bakers and bread lovers worldwide, transforming everyday toast into an extraordinary experience. If you've ever dreamt of baking bread that feels like biting into a cloud, then prepare to embark on a delightful journey into the world of Japanese baking.\n\nAt the heart of Shokupan's magic lies the tangzhong method, an ancient Chinese technique (also known as a water roux) that pre-cooks a small portion of the flour and liquid before adding it to the main dough. This gelatinizes the starches in the flour, allowing them to absorb and retain significantly more moisture. The result? A dough that's incredibly pliable, rises beautifully, and produces a loaf with an unparalleled soft crumb and extended shelf life. Beyond its technical brilliance, Shokupan Japanese Milk Bread Loaf offers a comforting aroma and a taste that is subtly sweet, making it versatile for both sweet and savory applications. Whether you're a seasoned baker or a curious beginner, mastering this bread will elevate your baking prowess and delight your taste buds.\n\n## What is Shokupan Japanese Milk Bread Loaf?\n\nShokupan, literally translating to \"eating bread\" in Japanese, is the quintessential Japanese white bread. Unlike many Western white breads that can be dense or dry, Shokupan Japanese Milk Bread Loaf is celebrated for its incredibly soft, pillowy, and bouncy texture. It boasts a finely textured crumb and a slightly sweet, milky flavor, making it incredibly addictive. The distinctive square shape, often with perfectly straight sides, is achieved by baking the dough in a lidded Pullman pan, which restricts its upward expansion and encourages a uniform, dense crumb. However, it can also be baked in an open loaf pan for a more rounded, domed top. Its popularity isn't limited to Japan; it's a staple in many Asian bakeries globally and has gained significant traction in Western kitchens for its superior quality and delightful eating experience. It’s more than just bread; it’s a sensory experience, from its delicate aroma to its melt-in-your-mouth texture.\n\n## Ingredients You Need\n\nCrafting the perfect Shokupan requires a few key ingredients, each playing a crucial role in achieving its signature texture and flavor.\n\nFor the Tangzhong (Water Roux):\n*   **2 tablespoons (20g) Bread Flour:** High-protein bread flour is essential here, as it develops strong gluten for that characteristic chewiness and structure.\n*   **1/2 cup (120ml) Whole Milk:** Milk adds richness and helps create a tender crumb. Water can be substituted, but milk provides superior flavor and texture.\n\nFor the Main Dough:\n*   **2 1/2 cups (300g) Bread Flour:** Again, high-protein bread flour is paramount for the dough's strength and elasticity.\n*   **1/4 cup (50g) Granulated Sugar:** Provides sweetness, aids in browning, and feeds the yeast.\n*   **1 teaspoon (6g) Salt:** Balances the flavors and strengthens the gluten structure.\n*   **2 1/4 teaspoons (7g) Instant Dry Yeast:** The leavening agent that makes the bread rise. Ensure it’s fresh.\n*   **1/2 cup (120ml) Whole Milk (warm):** Warm milk activates the yeast and contributes to the dough's richness.\n*   **1 large Egg (room temperature):** Adds richness, color, and helps with structure.\n*   **3 tablespoons (40g) Unsalted Butter (softened):** Incorporates tenderness, flavor, and contributes to the bread's soft crumb.\n\nFor Egg Wash (Optional):\n*   **1 Egg yolk + 1 tablespoon milk:** For a golden, shiny crust.\n\n## Step-by-Step Instructions\n\nBaking Shokupan Japanese Milk Bread Loaf is a rewarding process. Follow these steps carefully for the best results:\n\n1.  **Prepare the Tangzhong:** In a small saucepan, whisk together the bread flour and milk until smooth. Cook over medium-low heat, stirring constantly, until the mixture thickens to a paste-like consistency, resembling wallpaper paste. This usually takes 3-5 minutes and should reach about 149°F (65°C). Remove from heat, transfer to a small bowl, cover with plastic wrap directly on the surface to prevent a skin from forming, and let it cool completely to room temperature. You can even make this a day ahead and refrigerate it.\n\n2.  **Combine Dry Ingredients:** In a large mixing bowl (or the bowl of a stand mixer), combine the bread flour, sugar, salt, and instant dry yeast. Whisk briefly to distribute evenly.\n\n3.  **Add Wet Ingredients:** Add the cooled tangzhong, warm milk, and egg to the dry ingredients. Mix on low speed with a dough hook (or by hand) until a shaggy dough forms.\n\n4.  **Knead the Dough:** Increase the mixer speed to medium and knead for about 10-15 minutes, or until the dough is smooth and elastic. It should pull away from the sides of the bowl.\n\n5.  **Incorporate Butter:** Add the softened butter, one tablespoon at a time, continuing to knead until each addition is fully incorporated before adding the next. Once all butter is in, continue kneading for another 10-15 minutes until the dough is very smooth, elastic, and passes the \"windowpane test\" (you can stretch a small piece thin enough to see light through it without tearing).\n\n6.  **First Proof (Bulk Fermentation):** Form the dough into a ball and place it in a lightly oiled bowl. Cover with plastic wrap and let it rise in a warm place for 1-1.5 hours, or until doubled in size.\n\n7.  **Divide and Shape:** Gently punch down the dough to release air. Turn it out onto a lightly floured surface. Divide the dough into 3 equal pieces (for a standard 9x4x4-inch Pullman pan) or 4 pieces (for a larger pan, or if you prefer smaller rolls). For each piece, flatten it into a rectangle. Fold the top third down, then the bottom third up, like a letter. Rotate the dough 90 degrees, then roll it up tightly into a cylinder. Repeat for all pieces.\n\n8.  **Second Proof (Final Proof):** Arrange the shaped dough rolls seam-side down in a greased 9x4x4-inch Pullman loaf pan. Cover the pan loosely with plastic wrap or a damp cloth. Let it rise in a warm place for another 45-60 minutes, or until the dough fills about 80-90% of the pan (if using a lid) or rises about 1 inch above the rim (if baking without a lid).\n\n9.  **Preheat Oven & Bake:** Preheat your oven to 375°F (190°C). If using a Pullman pan, place the lid on. If baking without a lid, you can brush the top with egg wash for a golden crust. Bake for 30-35 minutes. If baking with a lid, remove the lid for the last 5-10 minutes to allow the top to brown slightly, if desired. The internal temperature should be around 200-210°F (93-99°C).\n\n10. **Cool:** Immediately remove the loaf from the pan and place it on a wire rack to cool completely before slicing. This prevents the bottom from becoming soggy.\n\n## Pro Tips for the Best Results\n\n*   **Accurate Measurements:** Baking is a science. Use a kitchen scale to measure flour and other ingredients precisely for consistent results.\n*   **Don't Rush the Tangzhong:** Ensure the tangzhong cools completely. Adding it while warm can kill your yeast.\n*   **Knead Thoroughly:** The windowpane test is crucial for Shokupan. Proper gluten development is key to its soft, airy texture. Don't be afraid to knead for a long time.\n*   **Proofing Environment:** A warm, humid environment is ideal for proofing. You can create one by placing the dough in an oven with just the light on, or by placing a pan of hot water on the bottom rack.\n*   **Don't Over-Proof:** Over-proofed dough can collapse in the oven, leading to a dense texture. Watch for the visual cues (doubled in size, filling the pan).\n*   **Patience with Cooling:** Resist the urge to slice into your Shokupan Japanese Milk Bread Loaf immediately. Cooling completely on a wire rack allows the starches to set, preventing a gummy texture.\n*   **Use a Pullman Pan:** While not strictly necessary, a lidded Pullman pan is highly recommended for achieving the iconic square shape and incredibly fine, uniform crumb.\n\n## Serving Suggestions\n\nThe versatility of Shokupan is one of its greatest assets. Its subtle sweetness and incredibly soft texture make it perfect for a myriad of uses:\n\n*   **Classic Toast:** Simply toast slices and spread with butter, jam, or marmalade for an elevated breakfast experience.\n*   **Sandwiches:** Its sturdy yet soft structure makes it ideal for holding fillings. Try it with egg salad, ham and cheese, or even a classic Japanese katsu sando.\n*   **French Toast:** Shokupan makes the most divine French toast, soaking up the custard mixture beautifully without becoming soggy.\n*   **Sweet Treats:** Use it to make honey toast, pull-apart bread with cinnamon sugar, or spread with Nutella.\n*   **Savory Pairings:** It's excellent alongside soups, stews, or as a base for open-faced sandwiches with avocado and everything bagel seasoning. The delicate flavor of Shokupan Japanese Milk Bread Loaf complements almost anything.\n\n## Variations and Substitutions\n\nWhile the classic Shokupan recipe is a masterpiece, there are many ways to customize it to your liking:\n\n*   **Whole Wheat Shokupan:** Substitute a portion (up to 50%) of the bread flour with whole wheat flour for a healthier, nuttier loaf. You might need to add a touch more liquid as whole wheat flour absorbs more moisture.\n*   **Matcha Shokupan:** Incorporate 1-2 tablespoons of ceremonial grade matcha powder into the dry ingredients for a beautiful green hue and earthy flavor.\n*   **Chocolate Chip Shokupan:** Fold in 1/2 cup of chocolate chips during the final stages of kneading for a sweet treat.\n*   **Dairy-Free Option:** Use plant-based milk (like almond or oat milk) and vegan butter to make a dairy-free version. The texture might vary slightly, but it will still be incredibly soft.\n*   **Enriched with Cream:** Replace a portion of the milk with heavy cream for an even richer, more tender crumb.\n*   **Savory Additions:** Experiment with adding herbs, garlic powder, or grated cheese to the dough for a savory twist.\n\nBaking Shokupan Japanese Milk Bread Loaf is a journey of discovery that culminates in a truly exceptional bread. Its unparalleled softness and subtle sweetness make it a joy to bake and an even greater pleasure to eat. With a little patience and attention to detail, you too can master this beloved Japanese staple and bring a touch of bakery-quality luxury into your home kitchen. Enjoy the fluffy, delicious results!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Shokupan Japanese Milk Bread Loaf",
     "description": "Learn how to make authentic Shokupan Japanese Milk Bread Loaf. This easy Japanese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1629984164142-21c2039de926?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzg1ODcyNzZ8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1762305195878-fd9eb82439c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzg1ODcyNzZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1629984164142-21c2039de926?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzkzNzIwMzN8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1762305195878-fd9eb82439c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaG9rdXBhbiUyMEphcGFuZXNlJTIwTWlsayUyMEphcGFuZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzkzNzIwMzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-05-12T12:02:15.797Z",
+    "datePublished": "2026-05-21T14:02:05.323Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
-    "recipeYield": "8 servings",
+    "recipeYield": "4 servings",
     "recipeCategory": "Baking",
     "recipeCuisine": "Japanese",
     "keywords": "Shokupan Japanese Milk Bread Loaf, how to make Shokupan Japanese Milk Bread Loaf, easy Shokupan Japanese Milk Bread Loaf recipe, authentic Japanese Shokupan Japanese Milk Bread Loaf",
@@ -199,56 +205,61 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "280 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "250g Bread flour",
-      "170ml Milk",
-      "30g Granulated sugar",
-      "25g Unsalted butter",
-      "5g Instant dry yeast",
-      "3g Salt",
-      "1 Egg",
-      "15g Water",
-      "15g Bread flour"
+      "300g Bread Flour",
+      "200ml Milk",
+      "30g Granulated Sugar",
+      "4g Salt",
+      "5g Instant Dry Yeast",
+      "30g Unsalted Butter",
+      "20g Bread Flour",
+      "100ml Water",
+      "1 Egg"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Tangzhong",
-        "text": "In a small saucepan, whisk together 15g bread flour and 15g water until smooth. Cook over medium-low heat, stirring constantly, until the mixture thickens to a paste-like consistency, about 2-3 minutes. It should form ripples as you stir. Remove from heat, transfer to a small bowl, cover with plastic wrap directly on the surface, and let it cool to room temperature."
+        "text": "In a small saucepan, whisk together 20g bread flour and 100ml water until smooth. Heat over medium-low heat, stirring constantly, until the mixture thickens to a paste-like consistency, around 65°C or when lines appear on the bottom of the pan when stirred. Remove from heat, transfer to a small bowl, cover with plastic wrap directly on the surface, and let it cool completely to room temperature."
       },
       {
         "@type": "HowToStep",
-        "name": "Mix the Dough",
-        "text": "In a large mixing bowl, combine the cooled Tangzhong, 250g bread flour, 170ml lukewarm milk, 30g granulated sugar, 5g instant dry yeast, and 3g salt. Mix with a spoon or your hands until a shaggy dough forms. Turn the dough out onto a lightly floured surface."
+        "name": "Combine Dry Ingredients",
+        "text": "In a large mixing bowl, combine 300g bread flour, 30g granulated sugar, 4g salt, and 5g instant dry yeast. Whisk them together thoroughly to ensure even distribution."
       },
       {
         "@type": "HowToStep",
-        "name": "Knead the Dough",
-        "text": "Knead the dough for about 10 minutes until it becomes smooth and elastic. It will be sticky at first, but keep kneading. Incorporate the 25g softened unsalted butter and continue kneading for another 5-7 minutes until the butter is fully absorbed and the dough passes the windowpane test (a small piece can be stretched thinly without tearing)."
+        "name": "Mix Wet Ingredients and Form Dough",
+        "text": "Add the cooled tangzhong and 200ml warm milk to the dry ingredients. Mix with a spatula or in a stand mixer with a dough hook until a shaggy dough forms. Knead for about 5-7 minutes until the dough starts to come together."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Incorporate Butter and Knead",
+        "text": "Add the 30g softened unsalted butter to the dough. Continue kneading for another 10-15 minutes until the dough is smooth, elastic, and passes the windowpane test (you can stretch a small piece thin enough to see light through it without tearing)."
       },
       {
         "@type": "HowToStep",
         "name": "First Proof",
-        "text": "Form the dough into a ball and place it in a lightly oiled bowl. Cover the bowl with plastic wrap or a damp cloth and let it rise in a warm place for 1 to 1.5 hours, or until it has doubled in size. This is the first proofing."
+        "text": "Shape the dough into a ball and place it in a lightly oiled bowl. Cover with plastic wrap and let it rise in a warm place for 60-90 minutes, or until it has doubled in size."
       },
       {
         "@type": "HowToStep",
         "name": "Shape the Loaf",
-        "text": "Gently deflate the dough and divide it into three equal pieces. Roll each piece into a flat oval, then fold the longer sides towards the center. Roll it up tightly from one end to form a cylinder. Place the three cylinders seam-side down into a greased 9x5 inch loaf pan, ensuring they are snug."
+        "text": "Gently punch down the dough to release air. Divide it into three equal portions. Roll each portion into an oval, then fold the top third down and the bottom third up. Turn the dough 90 degrees and roll it tightly into a cylinder. Place the three shaped dough pieces seam-side down into a greased 9x4 inch loaf pan."
       },
       {
         "@type": "HowToStep",
         "name": "Second Proof and Bake",
-        "text": "Cover the loaf pan with plastic wrap or a damp cloth and let it rise again in a warm place for 45-60 minutes, or until the dough has risen about 1 inch above the rim of the pan. Preheat your oven to 180°C (350°F). Optionally, brush the top with an egg wash for a golden crust. Bake for 30-35 minutes, or until golden brown and cooked through. If the top browns too quickly, loosely tent with foil."
+        "text": "Cover the loaf pan loosely with plastic wrap and let it rise again in a warm place for 45-60 minutes, or until the dough has risen about 1 inch above the rim of the pan. Preheat your oven to 180°C (350°F). If desired, brush the top with beaten egg wash. Bake for 30-35 minutes, or until golden brown and cooked through. If the top browns too quickly, loosely tent with foil."
       },
       {
         "@type": "HowToStep",
         "name": "Cool and Serve",
-        "text": "Once baked, immediately remove the loaf from the pan and place it on a wire rack to cool completely. Slicing the bread while it is still warm may result in a gummy texture. Once fully cooled, slice and enjoy your incredibly soft Shokupan."
+        "text": "Once baked, immediately remove the loaf from the pan and transfer it to a wire rack to cool completely before slicing. This prevents the bottom from becoming soggy and allows the internal structure to set properly. Enjoy your fresh Shokupan!"
       }
     ]
   },
-  "publishedAt": "2026-05-12T12:02:15.838Z"
+  "publishedAt": "2026-05-21T14:02:05.323Z"
 }
