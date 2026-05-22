@@ -51,77 +51,72 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Pakistani",
-  "image1": "https://images.unsplash.com/photo-1736239092866-269c7590b1e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3NjE2MDgyMnww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1681225654713-aeebafc6f6f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3NjE2MDgyMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Mutton Karahi is a quintessential Pakistani dish, known for its rich, spicy tomato-ginger base and tender mutton pieces. This traditional stir-fried curry is cooked in a karahi (wok), allowing the flavors to meld beautifully, creating an aromatic and deeply satisfying meal. Perfect for family dinners or special occasions, it promises an authentic taste of Pakistani cuisine.",
+  "image1": "https://images.unsplash.com/photo-1736239092866-269c7590b1e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTQ4OTAwNXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1681225654713-aeebafc6f6f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTQ4OTAwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Mutton Karahi is a quintessential Pakistani dish, celebrated for its rich, aromatic flavors and tender mutton pieces cooked in a wok-like karahi. This classic recipe features a luscious tomato-based gravy, infused with fresh ginger, garlic, and a blend of traditional spices, creating a truly unforgettable culinary experience. It is perfect for a satisfying dinner, often enjoyed with hot naan or roti.",
   "ingredients": [
     {
-      "item": "Mutton (bone-in)",
+      "item": "Mutton",
       "amount": "1 kg",
-      "notes": "cut into medium pieces"
+      "notes": "bone-in, cut into small pieces"
     },
     {
       "item": "Tomatoes",
-      "amount": "4-5 medium",
-      "notes": "diced or pureed"
+      "amount": "500g",
+      "notes": "ripe, chopped"
     },
     {
-      "item": "Ginger-Garlic Paste",
+      "item": "Ginger-garlic paste",
       "amount": "2 tbsp",
       "notes": ""
     },
     {
-      "item": "Green Chilies",
+      "item": "Green chilies",
       "amount": "4-5",
-      "notes": "slit lengthwise, adjust to taste"
+      "notes": "slit lengthwise"
     },
     {
-      "item": "Yogurt",
+      "item": "Plain yogurt",
       "amount": "1/2 cup",
-      "notes": "whisked (optional, for creaminess)"
+      "notes": "whisked"
     },
     {
-      "item": "Cooking Oil",
-      "amount": "1/2 cup",
+      "item": "Red chili powder",
+      "amount": "1.5 tsp",
       "notes": ""
     },
     {
-      "item": "Cumin Powder",
-      "amount": "1 tsp",
-      "notes": "roasted and ground"
-    },
-    {
-      "item": "Coriander Powder",
-      "amount": "1.5 tsp",
-      "notes": "roasted and ground"
-    },
-    {
-      "item": "Red Chili Powder",
-      "amount": "1 tsp",
-      "notes": "or to taste"
-    },
-    {
-      "item": "Turmeric Powder",
+      "item": "Turmeric powder",
       "amount": "1/2 tsp",
       "notes": ""
     },
     {
-      "item": "Garam Masala Powder",
+      "item": "Coriander powder",
+      "amount": "1 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Cumin powder",
       "amount": "1 tsp",
+      "notes": ""
+    },
+    {
+      "item": "Garam masala",
+      "amount": "1/2 tsp",
+      "notes": ""
+    },
+    {
+      "item": "Cooking oil",
+      "amount": "1/2 cup",
       "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "1.5 tsp",
-      "notes": "or to taste"
-    },
-    {
-      "item": "Black Pepper (freshly ground)",
-      "amount": "1/2 tsp",
+      "amount": "to taste",
       "notes": ""
     },
     {
-      "item": "Fresh Coriander",
+      "item": "Fresh coriander",
       "amount": "1/4 cup",
       "notes": "chopped, for garnish"
     },
@@ -134,50 +129,50 @@
   "instructions": [
     {
       "step": 1,
-      "title": "Brown the Mutton",
-      "text": "Heat cooking oil in a large karahi or heavy-bottomed pot over high heat. Add the mutton pieces and sear them until lightly browned on all sides, about 5 minutes. This locks in the juices and adds initial flavor. Drain any excess water that might accumulate.",
-      "time": "5 min"
+      "title": "Sear the Mutton",
+      "text": "Heat cooking oil in a karahi or a large heavy-bottomed pot over high heat. Add the mutton pieces and sear them until they are browned on all sides, about 5-7 minutes. This locks in the flavor.",
+      "time": "7 min"
     },
     {
       "step": 2,
-      "title": "Sauté Aromatics and Spices",
-      "text": "Reduce heat to medium. Add ginger-garlic paste to the mutton and cook for 2 minutes until fragrant. Stir in salt, red chili powder, turmeric powder, roasted cumin powder, and roasted coriander powder. Cook for another 1 minute, stirring constantly to ensure spices coat the mutton well.",
+      "title": "Add Aromatics",
+      "text": "Reduce heat to medium. Stir in the ginger-garlic paste and cook for 2-3 minutes until fragrant, being careful not to burn it. This step builds the aromatic base of the karahi.",
       "time": "3 min"
     },
     {
       "step": 3,
-      "title": "Cook Down Tomatoes",
-      "text": "Add the diced or pureed tomatoes to the karahi. Cover and cook on medium-low heat for about 8 minutes, or until the tomatoes have softened completely and the oil begins to separate. Mash the tomatoes with the back of your spoon to create a smooth gravy base.",
-      "time": "8 min"
+      "title": "Introduce Tomatoes and Spices",
+      "text": "Add the chopped tomatoes, red chili powder, turmeric powder, coriander powder, cumin powder, and salt. Mix everything well. Cover the karahi and cook on medium-low heat for about 10-12 minutes, or until the tomatoes soften and release their juices. Mash the tomatoes with the back of your spoon to form a thick gravy.",
+      "time": "12 min"
     },
     {
       "step": 4,
-      "title": "Simmer for Tenderness",
-      "text": "Pour in about 1/2 cup of water. Bring to a gentle boil, then reduce heat to low, cover, and simmer for 15 minutes, or until the mutton is tender. Check periodically and add a splash more water if needed to prevent drying. Ensure the mutton is cooked through.",
-      "time": "15 min"
+      "title": "Tenderize the Mutton",
+      "text": "Increase the heat to medium-high. Add 1 to 1.5 cups of water, or enough to just cover the mutton. Bring to a boil, then reduce heat to low, cover, and simmer for 15-20 minutes, or until the mutton is tender. Stir occasionally to prevent sticking. Ensure the gravy has thickened to your desired consistency.",
+      "time": "20 min"
     },
     {
       "step": 5,
-      "title": "Finish with Flavor Enhancers",
-      "text": "Once the mutton is tender and the gravy has reached your desired consistency, stir in the whisked yogurt (if using), slit green chilies, black pepper, and garam masala powder. Cook for another 3 minutes without the lid, stirring occasionally, until the oil completely separates and the gravy thickens beautifully. Adjust seasoning as needed.",
-      "time": "3 min"
+      "title": "Finish with Yogurt and Chilies",
+      "text": "Once the mutton is tender and most of the water has evaporated, increase the heat again. Add the whisked plain yogurt and green chilies. Cook, stirring continuously, until the oil separates from the gravy, which usually takes about 5-7 minutes. Stir in the garam masala.",
+      "time": "7 min"
     },
     {
       "step": 6,
       "title": "Garnish and Serve",
-      "text": "Garnish generously with fresh chopped coriander and julienned ginger. Serve the authentic Mutton Karahi immediately and hot with freshly baked naan, roti, or fluffy plain rice for a complete and satisfying Pakistani meal.",
+      "text": "Remove the karahi from heat. Garnish generously with fresh chopped coriander and julienned ginger. Serve the hot Mutton Karahi immediately with fresh naan, roti, or chapati for an authentic Pakistani dinner experience.",
       "time": "1 min"
     }
   ],
   "nutritionTable": {
     "calories": "380 kcal",
-    "protein": "18g",
-    "carbs": "45g",
-    "fat": "14g",
-    "fiber": "4g",
-    "sugar": "5g",
-    "sodium": "520mg",
-    "cholesterol": "60mg"
+    "protein": "30g",
+    "carbs": "10g",
+    "fat": "25g",
+    "fiber": "3g",
+    "sugar": "4g",
+    "sodium": "600mg",
+    "cholesterol": "80mg"
   },
   "tags": [
     "Pakistan",
@@ -188,27 +183,27 @@
     "Mutton Karahi"
   ],
   "tips": [
-    "For an authentic Karahi taste, use a traditional wok-like karahi. The wide surface area allows for quick evaporation and intense flavor development.",
-    "Always use fresh, ripe tomatoes for the best flavor; avoid canned tomatoes if possible for the true Karahi essence. If you prefer a richer gravy, a touch of cream can be added at the end.",
-    "Mutton Karahi tastes even better the next day as the flavors meld further. Store leftovers in an airtight container in the refrigerator for up to 3 days. Reheat gently on the stovetop."
+    "Always use fresh, ripe tomatoes; they are key to the Karahi's signature tangy flavor and rich gravy texture.",
+    "For a spicier kick, increase the number of green chilies or add a pinch of crushed red pepper flakes.",
+    "Mutton Karahi tastes even better the next day as the flavors meld. Reheat gently and serve with fresh naan or roti."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Mutton Karahi is a beloved Pakistani Dinner Recipes dish enjoyed across Pakistan. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Embark on a culinary journey to the heart of Pakistan with one of its most cherished and iconic dinner dishes: Mutton Karahi. This intensely flavorful, aromatic, and deeply satisfying curry is a staple on dinner tables across the subcontinent, famed for its rich tomato-ginger-garlic base and tender pieces of mutton. Perfect for family gatherings, special occasions, or simply a comforting weeknight meal, Mutton Karahi promises an explosion of traditional Pakistani flavors that will leave a lasting impression. Get ready to master this beloved recipe and bring the authentic taste of Pakistan into your kitchen.\n\n## What is Mutton Karahi?\nMutton Karahi is a traditional Pakistani and North Indian dish, named after the heavy, deep, circular cooking pot (karahi or wok) in which it is typically prepared. Unlike many other curries, an authentic Mutton Karahi traditionally foregoes onions, relying instead on a robust base of fresh tomatoes, ginger, garlic, and green chilies. The magic of this dish lies in the *bhunai* (vigorous sautéing and stir-frying) process, which cooks down the ingredients to create a thick, glossy, and intensely flavorful gravy that clings beautifully to the succulent pieces of mutton. It’s known for its vibrant red hue, often garnished liberally with fresh ginger juliennes and coriander, making it as visually appealing as it is delicious. This dish is a true testament to the simple yet powerful flavors of Pakistani cuisine, often enjoyed fresh off the stove, making it an ideal choice for a memorable dinner.\n\n## Ingredients You Need\nTo prepare an authentic and delicious Mutton Karahi, quality ingredients are key. Here’s what you’ll need:\n\n*   **Mutton:** 1 kg (2.2 lbs) bone-in mutton, cut into medium-sized pieces. Lamb shoulder or leg works best for tenderness and flavor.\n*   **Tomatoes:** 5-6 medium-sized ripe red tomatoes, peeled and finely chopped or pureed. Using fresh, ripe tomatoes is crucial for the authentic taste.\n*   **Ginger:** 3-inch piece, grated or finely minced, plus extra for julienne garnish.\n*   **Garlic:** 1 head (about 8-10 cloves), grated or finely minced.\n*   **Green Chillies:** 4-6, slit lengthwise or finely chopped, adjust to your spice preference.\n*   **Yogurt (optional):** 1/2 cup plain full-fat yogurt, whisked smooth (adds creaminess and tang).\n*   **Oil/Ghee:** 1/2 cup cooking oil or ghee. Ghee adds a richer flavor.\n*   **Salt:** To taste.\n*   **Red Chilli Powder:** 1-2 teaspoons, or to taste.\n*   **Turmeric Powder:** 1/2 teaspoon.\n*   **Coriander Powder:** 1 tablespoon.\n*   **Cumin Powder:** 1 teaspoon.\n*   **Black Pepper (freshly ground):** 1/2 teaspoon.\n*   **Garam Masala Powder:** 1/2 teaspoon, for finishing.\n*   **Fresh Coriander:** 1/4 cup, chopped, for garnish.\n\n## Step-by-Step Instructions\nCreating a perfect Mutton Karahi involves patience and attention to detail. Follow these steps for an unforgettable dinner:\n\n1.  **Brown the Mutton:** Heat oil or ghee in a large karahi or heavy-bottomed pot over medium-high heat. Add the mutton pieces and sear them until they are lightly browned on all sides. This helps lock in the juices and develop flavor. Remove the mutton and set aside.\n2.  **Sauté Aromatics:** In the same oil, add the minced ginger and garlic. Sauté for 1-2 minutes until fragrant, being careful not to burn them.\n3.  **Introduce Tomatoes:** Add the chopped or pureed tomatoes to the karahi. Cook on medium heat, stirring occasionally, until the tomatoes soften completely and start to break down, forming a thick paste. This can take about 8-10 minutes.\n4.  **Add Spices:** Once the tomatoes have softened, return the browned mutton to the pot. Add salt, red chilli powder, turmeric powder, coriander powder, and cumin powder. Mix well, ensuring the mutton is thoroughly coated with the tomato-spice mixture.\n5.  **Bhunai (Sautéing):** Increase the heat to medium-high and vigorously sauté (bhunai) the mutton with the spices for 10-15 minutes. Stir continuously, scraping the bottom of the pot. This step is crucial for developing deep flavors and cooking out the raw taste of the spices. You'll notice the oil starting to separate from the masala.\n6.  **Add Yogurt (Optional) and Water:** If using, add the whisked yogurt now. Mix well and continue to bhunai for another 5 minutes until the yogurt is fully incorporated and the oil separates again. Then, add 1-2 cups of hot water, just enough to barely cover the mutton.\n7.  **Simmer for Tenderness:** Bring the mixture to a boil, then reduce the heat to low, cover the pot, and let it simmer for 45-60 minutes, or until the mutton is fork-tender. Check periodically and add a little more hot water if needed to prevent drying out.\n8.  **Final Touches:** Once the mutton is tender and the gravy has thickened to your desired consistency, add the green chillies and freshly ground black pepper. Stir well and cook for another 5 minutes.\n9.  **Garnish and Serve:** Sprinkle with garam masala powder, fresh julienned ginger, and chopped fresh coriander. Give it a final stir and serve hot.\n\n## Pro Tips for the Best Results\nAchieving the perfect Mutton Karahi requires a few insider tricks that elevate it from good to exceptional:\n\n*   **Quality Mutton:** Always use fresh, good quality bone-in mutton. The bones add significant flavor to the dish. Lamb shoulder or leg are excellent choices.\n*   **Don't Rush the Bhunai:** The vigorous sautéing of the mutton and spices (bhunai) is the soul of Mutton Karahi. It allows the flavors to meld and intensify, and the oil to separate, indicating proper cooking. Be patient with this step.\n*   **Ripe Tomatoes:** Use ripe, red tomatoes. They contribute natural sweetness, tang, and the characteristic color to the karahi. Avoid under-ripe tomatoes as they can make the dish sour.\n*   **Fresh Spices:** Whenever possible, use freshly ground spices. They are far more aromatic and flavorful than pre-packaged ground spices.\n*   **Adjust Spiciness:** Green chilies are key to the karahi's heat. Adjust the quantity according to your preference. For a milder flavor, remove the seeds.\n*   **Heavy-Bottomed Pot:** Cook in a heavy-bottomed karahi or pot to ensure even cooking and prevent sticking or burning, especially during the long simmering process.\n*   **Low and Slow Simmer:** After the initial bhunai, cook the mutton on a low flame until it's incredibly tender. This slow cooking breaks down the fibers, resulting in melt-in-your-mouth meat.\n\n## Serving Suggestions\nMutton Karahi is best enjoyed hot, straight from the karahi, as a centerpiece for your dinner. It pairs wonderfully with a variety of accompaniments:\n\n*   **Naan or Roti:** Freshly baked naan bread, tandoori roti, or homemade chapati are ideal for scooping up the rich, thick gravy.\n*   **Rice:** While traditionally eaten with bread, a side of plain basmati rice can also be a delightful pairing.\n*   **Salad:** A simple salad of sliced onions, cucumbers, and tomatoes with a squeeze of lemon juice provides a refreshing contrast.\n*   **Raita:** A cooling yogurt raita (yogurt mixed with cucumber, mint, and spices) helps balance the spice.\n\n## Variations and Substitutions\nWhile the classic Mutton Karahi is a masterpiece, you can explore several variations to suit different tastes or dietary needs:\n\n*   **Chicken Karahi:** For a quicker version, substitute mutton with chicken. Chicken Karahi cooks much faster, usually in about 20-30 minutes after the bhunai.\n*   **Beef Karahi:** Beef can also be used, though it will require a longer cooking time, similar to mutton, to become tender.\n*   **Creamy Karahi:** For an even richer and creamier texture, you can add a splash of cooking cream at the very end, just before garnishing.\n*   **Achari Karahi:** Incorporate a teaspoon of pickle masala (achari masala) along with the other spices for a tangy, pickled flavor profile.\n*   **No-Tomato Version:** Some regional karahi variations use only yogurt as the base, omitting tomatoes entirely for a lighter color and tangier flavor.\n\nMutton Karahi is more than just a dish; it's an experience. Its robust flavors and tender meat make it an undisputed favorite for any Pakistani dinner table. With this comprehensive guide, you’re now equipped to recreate this culinary masterpiece in your own home. So gather your ingredients, fire up your karahi, and get ready to savor the rich, authentic taste of Pakistan!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Mutton Karahi",
     "description": "Learn how to make authentic Mutton Karahi. This easy Pakistani recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1736239092866-269c7590b1e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3NjE2MDgyMnww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1681225654713-aeebafc6f6f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3NjE2MDgyMnww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1736239092866-269c7590b1e6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTQ4OTAwNXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1681225654713-aeebafc6f6f2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNdXR0b24lMjBLYXJhaGklMjBQYWtpc3RhbmklMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTQ4OTAwNXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-14T10:01:19.218Z",
+    "datePublished": "2026-05-22T22:30:44.916Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -226,54 +221,53 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1 kg Mutton (bone-in)",
-      "4-5 medium Tomatoes",
-      "2 tbsp Ginger-Garlic Paste",
-      "4-5 Green Chilies",
-      "1/2 cup Yogurt",
-      "1/2 cup Cooking Oil",
-      "1 tsp Cumin Powder",
-      "1.5 tsp Coriander Powder",
-      "1 tsp Red Chili Powder",
-      "1/2 tsp Turmeric Powder",
-      "1 tsp Garam Masala Powder",
-      "1.5 tsp Salt",
-      "1/2 tsp Black Pepper (freshly ground)",
-      "1/4 cup Fresh Coriander",
+      "1 kg Mutton",
+      "500g Tomatoes",
+      "2 tbsp Ginger-garlic paste",
+      "4-5 Green chilies",
+      "1/2 cup Plain yogurt",
+      "1.5 tsp Red chili powder",
+      "1/2 tsp Turmeric powder",
+      "1 tbsp Coriander powder",
+      "1 tsp Cumin powder",
+      "1/2 tsp Garam masala",
+      "1/2 cup Cooking oil",
+      "to taste Salt",
+      "1/4 cup Fresh coriander",
       "1 inch piece Ginger"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Brown the Mutton",
-        "text": "Heat cooking oil in a large karahi or heavy-bottomed pot over high heat. Add the mutton pieces and sear them until lightly browned on all sides, about 5 minutes. This locks in the juices and adds initial flavor. Drain any excess water that might accumulate."
+        "name": "Sear the Mutton",
+        "text": "Heat cooking oil in a karahi or a large heavy-bottomed pot over high heat. Add the mutton pieces and sear them until they are browned on all sides, about 5-7 minutes. This locks in the flavor."
       },
       {
         "@type": "HowToStep",
-        "name": "Sauté Aromatics and Spices",
-        "text": "Reduce heat to medium. Add ginger-garlic paste to the mutton and cook for 2 minutes until fragrant. Stir in salt, red chili powder, turmeric powder, roasted cumin powder, and roasted coriander powder. Cook for another 1 minute, stirring constantly to ensure spices coat the mutton well."
+        "name": "Add Aromatics",
+        "text": "Reduce heat to medium. Stir in the ginger-garlic paste and cook for 2-3 minutes until fragrant, being careful not to burn it. This step builds the aromatic base of the karahi."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook Down Tomatoes",
-        "text": "Add the diced or pureed tomatoes to the karahi. Cover and cook on medium-low heat for about 8 minutes, or until the tomatoes have softened completely and the oil begins to separate. Mash the tomatoes with the back of your spoon to create a smooth gravy base."
+        "name": "Introduce Tomatoes and Spices",
+        "text": "Add the chopped tomatoes, red chili powder, turmeric powder, coriander powder, cumin powder, and salt. Mix everything well. Cover the karahi and cook on medium-low heat for about 10-12 minutes, or until the tomatoes soften and release their juices. Mash the tomatoes with the back of your spoon to form a thick gravy."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer for Tenderness",
-        "text": "Pour in about 1/2 cup of water. Bring to a gentle boil, then reduce heat to low, cover, and simmer for 15 minutes, or until the mutton is tender. Check periodically and add a splash more water if needed to prevent drying. Ensure the mutton is cooked through."
+        "name": "Tenderize the Mutton",
+        "text": "Increase the heat to medium-high. Add 1 to 1.5 cups of water, or enough to just cover the mutton. Bring to a boil, then reduce heat to low, cover, and simmer for 15-20 minutes, or until the mutton is tender. Stir occasionally to prevent sticking. Ensure the gravy has thickened to your desired consistency."
       },
       {
         "@type": "HowToStep",
-        "name": "Finish with Flavor Enhancers",
-        "text": "Once the mutton is tender and the gravy has reached your desired consistency, stir in the whisked yogurt (if using), slit green chilies, black pepper, and garam masala powder. Cook for another 3 minutes without the lid, stirring occasionally, until the oil completely separates and the gravy thickens beautifully. Adjust seasoning as needed."
+        "name": "Finish with Yogurt and Chilies",
+        "text": "Once the mutton is tender and most of the water has evaporated, increase the heat again. Add the whisked plain yogurt and green chilies. Cook, stirring continuously, until the oil separates from the gravy, which usually takes about 5-7 minutes. Stir in the garam masala."
       },
       {
         "@type": "HowToStep",
         "name": "Garnish and Serve",
-        "text": "Garnish generously with fresh chopped coriander and julienned ginger. Serve the authentic Mutton Karahi immediately and hot with freshly baked naan, roti, or fluffy plain rice for a complete and satisfying Pakistani meal."
+        "text": "Remove the karahi from heat. Garnish generously with fresh chopped coriander and julienned ginger. Serve the hot Mutton Karahi immediately with fresh naan, roti, or chapati for an authentic Pakistani dinner experience."
       }
     ]
   },
-  "publishedAt": "2026-04-14T10:01:19.259Z"
+  "publishedAt": "2026-05-22T22:30:44.916Z"
 }
