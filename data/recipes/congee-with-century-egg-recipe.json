@@ -8,8 +8,8 @@
   "categoryName": "Breakfast Recipes",
   "categoryIcon": "🍳",
   "seo": {
-    "title": "Congee with Century Egg Recipe: Authentic Chinese Breakfast",
-    "metaDescription": "Master the art of authentic Congee with Century Egg! This traditional Chinese breakfast recipe is surprisingly easy to make at home. Get step-by-step instructions for a comforting meal.",
+    "title": "Congee with Century Egg Recipe: Easy Chinese Breakfast",
+    "metaDescription": "Learn to make authentic Congee with Century Egg at home! Our easy, step-by-step Chinese breakfast recipe brings traditional flavors to your kitchen. Perfect comfort food!",
     "urlSlug": "congee-with-century-egg-recipe",
     "mainKeyword": "Congee with Century Egg",
     "longTailKeywords": [
@@ -17,34 +17,42 @@
       "easy Congee with Century Egg recipe",
       "authentic Chinese Congee with Century Egg",
       "Congee with Century Egg step by step",
-      "best Congee with Century Egg at home"
+      "best Congee with Century Egg at home",
+      "traditional Congee with Century Egg recipe",
+      "homemade Congee with Century Egg"
     ],
     "lowCompetitionKeywords": [
-      "homemade Congee with Century Egg recipe",
       "Chinese breakfast Congee with Century Egg",
-      "Pidan Congee recipe"
+      "century egg rice porridge recipe",
+      "what is Congee with Century Egg",
+      "simple Congee with Century Egg"
     ],
     "searchIntent": "informational",
     "h1": "Authentic Congee with Century Egg Recipe",
     "h2Headings": [
       "What is Congee with Century Egg?",
-      "Ingredients You Need",
-      "Step-by-Step Instructions",
-      "Pro Tips for the Best Results",
-      "Serving Suggestions",
-      "Variations and Substitutions"
+      "Ingredients for Congee with Century Egg",
+      "How to Make Congee with Century Egg (Step-by-Step)",
+      "Tips for Perfect Congee with Century Egg",
+      "Serving Suggestions & Pairings",
+      "Variations & Substitutions",
+      "Frequently Asked Questions"
     ],
     "imageFilename": "congee-with-century-egg-recipe.jpg",
-    "imageAlt": "A comforting bowl of authentic Chinese Congee with Century Egg, garnished with green onions and ginger.",
-    "imageCaption": "Enjoy a warm, savory bowl of Congee with Century Egg, a classic Chinese breakfast that's both nourishing and delicious.",
+    "imageAlt": "A bowl of creamy Congee with Century Egg, garnished with green onions and ginger, ready to be served.",
+    "imageCaption": "Enjoy a comforting bowl of homemade Congee with Century Egg, a classic Chinese breakfast.",
     "internalLinks": [
       {
         "anchor": "More Breakfast Recipes",
         "url": "/categories/breakfast"
       },
       {
-        "anchor": "Explore Chinese Recipes",
-        "url": "/countries/chinese"
+        "anchor": "Authentic Chinese Recipes",
+        "url": "/cuisine/chinese"
+      },
+      {
+        "anchor": "Congee Recipes",
+        "url": "/recipes/congee"
       }
     ]
   },
@@ -54,92 +62,97 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.unsplash.com/photo-1707013533606-62919aa3aa29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3ODk1MDgxNHww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3ODk1MDgxNHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Congee with Century Egg is a quintessential Chinese comfort food, a savory rice porridge that warms the soul. Its creamy texture combined with the unique flavor of century egg and fragrant ginger creates a truly unforgettable breakfast. This traditional dish is perfect for a nourishing start to your day.",
+  "image1": "https://images.unsplash.com/photo-1707013533606-62919aa3aa29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTc2NjIxM3ww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTc2NjIxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Congee with Century Egg is a quintessential Chinese breakfast, offering a comforting embrace of silky rice porridge. This traditional dish features the unique, savory depth of preserved century eggs, often paired with tender shredded pork or lean meat. It's a warm, nourishing bowl that perfectly balances subtle flavors with a wonderfully smooth texture, making it a beloved start to the day.",
   "ingredients": [
     {
-      "item": "White rice",
+      "item": "Long-grain white rice",
       "amount": "1 cup",
-      "notes": "short-grain preferred"
+      "notes": "or Jasmine rice"
     },
     {
       "item": "Water or chicken broth",
       "amount": "8-10 cups",
-      "notes": "for cooking the congee"
+      "notes": "for cooking congee"
     },
     {
-      "item": "Century eggs (Pidan)",
-      "amount": "3 large",
+      "item": "Century eggs",
+      "amount": "3-4",
       "notes": "peeled and diced"
     },
     {
-      "item": "Fresh ginger",
-      "amount": "1-inch piece",
-      "notes": "julienned, divided"
+      "item": "Pork loin or tenderloin",
+      "amount": "150g",
+      "notes": "shredded, optional"
+    },
+    {
+      "item": "Ginger",
+      "amount": "1 inch piece",
+      "notes": "peeled and finely julienned"
     },
     {
       "item": "Green onions",
       "amount": "2 stalks",
-      "notes": "chopped for garnish"
+      "notes": "chopped, for garnish"
     },
     {
       "item": "Salt",
-      "amount": "1 tsp",
-      "notes": "or to taste"
+      "amount": "to taste",
+      "notes": ""
     },
     {
       "item": "White pepper",
-      "amount": "1/4 tsp",
+      "amount": "1/2 teaspoon",
       "notes": "or to taste"
     },
     {
       "item": "Sesame oil",
-      "amount": "1 tsp",
-      "notes": "for drizzling"
+      "amount": "1 teaspoon",
+      "notes": "for drizzling, optional"
     },
     {
-      "item": "Optional: Shredded cooked chicken or pork",
-      "amount": "1/2 cup",
-      "notes": "for added protein"
+      "item": "Marinade for pork",
+      "amount": "",
+      "notes": "1 tsp soy sauce, 1/2 tsp cornstarch, dash of white pepper"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Rice",
-      "text": "Wash the white rice thoroughly under cold running water until the water runs clear. Soak the washed rice in 2 cups of water for at least 30 minutes or up to an hour. This step helps the rice grains break down faster and achieve a creamier texture.",
-      "time": "30 min"
+      "title": "Prepare the Rice and Pork",
+      "text": "Wash the rice thoroughly until the water runs clear. Soak the rice in 2 cups of water for at least 30 minutes, or ideally overnight, to help it break down faster. If using pork, shred it into thin strips and marinate with soy sauce, cornstarch, and white pepper. Set aside.",
+      "time": "35 min"
     },
     {
       "step": 2,
-      "title": "Start the Congee Base",
-      "text": "Drain the soaked rice. In a large heavy-bottomed pot, combine the drained rice with 8-10 cups of water or chicken broth. Bring the mixture to a rolling boil over high heat, stirring occasionally to prevent sticking. Once boiling, reduce the heat to the lowest setting.",
+      "title": "Start Cooking the Congee Base",
+      "text": "In a large pot, combine the soaked rice (including soaking water) with 8-10 cups of fresh water or chicken broth. Bring to a rolling boil over high heat, stirring occasionally to prevent sticking. Once boiling, reduce the heat to low, cover, and let it simmer. Leave the lid slightly ajar to prevent boil-overs.",
       "time": "10 min"
     },
     {
       "step": 3,
-      "title": "Simmer the Porridge",
-      "text": "Cover the pot with a lid, leaving a small gap for steam to escape. Let the congee simmer gently for 30-45 minutes. Stir every 10-15 minutes to ensure the rice doesnt stick to the bottom and to help it break down into a thick, creamy porridge consistency. Adjust water if it becomes too thick.",
-      "time": "35 min"
+      "title": "Simmer and Stir",
+      "text": "Continue to simmer the congee for at least 30 minutes, or up to an hour, stirring every 10-15 minutes to ensure the rice doesn't stick to the bottom and to achieve a creamy consistency. The longer it simmers, the smoother and thicker the congee will become. Add more hot water or broth if the congee becomes too thick.",
+      "time": "30 min"
     },
     {
       "step": 4,
       "title": "Prepare Century Eggs and Ginger",
-      "text": "While the congee simmers, carefully peel the century eggs and dice them into small, bite-sized pieces. Peel the fresh ginger and julienne it into thin strips. Chop the green onions for garnish.",
+      "text": "While the congee simmers, peel the century eggs. Rinse them under cold water to remove any residual ash. Dice the century eggs into small, even pieces. Prepare your ginger by peeling and finely julienning it.",
       "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Add Flavorings",
-      "text": "Once the congee has reached your desired consistency, stir in the diced century eggs, about half of the julienned ginger, salt, and white pepper. Continue to simmer for another 5-10 minutes, allowing the flavors to meld together. If using, add shredded cooked chicken or pork at this stage.",
-      "time": "10 min"
+      "title": "Add Pork and Century Eggs",
+      "text": "Once the congee has reached your desired consistency, increase the heat slightly. Add the marinated shredded pork to the simmering congee and cook for 3-5 minutes until the pork is fully cooked through and tender. Then, stir in the diced century eggs.",
+      "time": "8 min"
     },
     {
       "step": 6,
-      "title": "Serve and Garnish",
-      "text": "Ladle the hot Congee with Century Egg into individual serving bowls. Garnish each bowl generously with the remaining fresh julienned ginger and chopped green onions. Drizzle a small amount of sesame oil over each serving for added fragrance and flavor. Serve immediately and enjoy this comforting Chinese breakfast.",
-      "time": "5 min"
+      "title": "Season and Serve",
+      "text": "Season the congee with salt and white pepper to taste. Stir well. Ladle the hot congee into individual serving bowls. Garnish generously with fresh julienned ginger and chopped green onions. For an extra layer of flavor, drizzle a touch of sesame oil over each bowl before serving. Enjoy immediately.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
@@ -154,41 +167,43 @@
   },
   "tags": [
     "Chinese",
-    "Chinese",
     "authentic",
     "traditional",
     "breakfast",
-    "Congee with Century Egg"
+    "congee",
+    "century egg",
+    "porridge",
+    "comfort food"
   ],
   "tips": [
-    "Soaking the rice before cooking is crucial for achieving that signature creamy congee texture faster and more evenly.",
-    "For a richer flavor, consider using homemade chicken broth instead of water. You can also add a few pieces of dried scallops during the simmering process.",
-    "Congee thickens considerably as it cools. If reheating leftovers, add a splash of hot water or broth to reach your preferred consistency, stirring well."
+    "For the creamiest congee, soak the rice overnight and freeze it before cooking. The freezing process breaks down the rice grains, allowing them to bloom faster and create a silkier texture.",
+    "When selecting century eggs, look for ones with a firm, gelatinous texture and clear, amber whites. Avoid eggs with a strong, unpleasant ammonia smell.",
+    "Congee thickens as it cools. If you have leftovers, store them in the refrigerator and reheat gently on the stove with a splash of water or broth to restore the desired consistency."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "A Bowl of Comfort: Exploring Congee with Century Egg for Your Chinese Breakfast\n\nThere are few dishes that evoke the same sense of warmth, comfort, and culinary heritage as a steaming bowl of congee. This humble rice porridge, a staple across Asia, transforms simple ingredients into a deeply satisfying meal. While countless variations exist, one of the most iconic and beloved for breakfast is Congee with Century Egg. More than just a meal, it's a culinary embrace – a soothing, flavorful start to the day that has been cherished in Chinese households for generations. If you're looking to explore authentic Chinese breakfast recipes, diving into the world of this unique and delicious dish is an absolute must.\n\n## What is Congee with Century Egg?\n\nAt its heart, congee is a rice porridge, typically made by boiling rice with a large volume of water or broth until the grains break down into a creamy, thick consistency. It's the ultimate comfort food, easily digestible and incredibly versatile. What elevates a simple congee to the status of Congee with Century Egg is the addition of *pidan*, or century eggs, often alongside lean pork or chicken.\n\nCentury eggs, despite their somewhat intimidating appearance and name, are a delicacy. They are duck, chicken, or quail eggs preserved in a mixture of clay, ash, salt, quicklime, and rice hulls for several weeks to several months. This preservation process transforms the egg white into a translucent, dark jelly and the yolk into a creamy, dark green or grey center with a distinct, pungent, yet savory flavor. When diced and stirred into hot congee, the century egg melts slightly, imparting its unique umami depth and a slightly sulfuric, earthy aroma that is surprisingly addictive. The combination of the smooth, plain rice porridge with the sharp, savory century egg creates a harmonious balance that is both intriguing and utterly delicious. The addition of shredded lean pork or chicken provides a subtle sweetness and texture, making the dish a complete and nourishing meal.\n\n## Ingredients You Need\n\nCrafting the perfect Congee with Century Egg requires a few key ingredients. Quality makes a difference, especially for the century eggs!\n\n*   **For the Congee Base:**\n    *   1 cup long-grain white rice (Jasmine rice is excellent)\n    *   8-10 cups water or chicken broth (broth adds more flavor)\n    *   1/2 teaspoon salt (or to taste)\n    *   1/4 teaspoon white pepper (or to taste)\n*   **For the Flavorings:**\n    *   2-3 century eggs (pidan), peeled and diced into small pieces\n    *   150-200g lean pork shoulder or chicken breast, thinly sliced or shredded\n    *   1-inch piece of ginger, peeled and thinly julienned\n    *   2 tablespoons light soy sauce (for marinating pork/chicken)\n    *   1 teaspoon sesame oil (for marinating pork/chicken, and for garnish)\n    *   1 tablespoon cornstarch (for marinating pork/chicken)\n    *   Optional: A pinch of sugar (for marinating pork/chicken)\n*   **For Garnish:**\n    *   2-3 scallions, green parts thinly sliced\n    *   A drizzle of extra sesame oil\n    *   A dash of white pepper\n\n## Step-by-Step Instructions\n\nMaking a delicious Congee with Century Egg is a straightforward process, though it does require a bit of patience for the rice to break down.\n\n1.  **Prepare the Rice:** Rinse the rice thoroughly under cold water until the water runs clear. For an even creamier congee and reduced cooking time, you can soak the rice for 30 minutes to an hour, or even freeze it overnight after rinsing (this helps break down the grains faster).\n2.  **Marinate the Protein:** If using pork or chicken, slice it thinly or shred it. In a small bowl, combine the pork/chicken with 1 tablespoon light soy sauce, 1 teaspoon sesame oil, 1 tablespoon cornstarch, and a pinch of sugar (if using). Mix well and set aside for at least 15 minutes.\n3.  **Cook the Congee Base:** In a large pot (preferably a heavy-bottomed one to prevent sticking), combine the rinsed rice and 8-10 cups of water or broth. Bring to a boil over high heat, then immediately reduce the heat to low. Cover the pot, leaving a small gap for steam to escape, and simmer for at least 1 to 1.5 hours, stirring occasionally to prevent the rice from sticking to the bottom. The rice grains should burst open and the liquid should thicken into a creamy porridge. If it becomes too thick, add more hot water or broth.\n4.  **Add Flavorings:** Once the congee reaches your desired consistency, stir in the marinated pork/chicken and the julienned ginger. Continue to simmer for another 5-7 minutes, or until the meat is cooked through.\n5.  **Incorporate Century Eggs:** Gently stir in the diced century eggs. Simmer for just 1-2 minutes more to heat them through. Overcooking the century eggs can diminish their unique texture.\n6.  **Season and Serve:** Season the Congee with Century Egg with salt and white pepper to taste. Ladle the hot congee into individual bowls. Garnish generously with freshly sliced scallions and a final drizzle of sesame oil. Serve immediately.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect, silky smooth bowl of congee is an art, but these tips will help you master it:\n\n*   **Rice Quality Matters:** Use good quality long-grain white rice. Jasmine rice is aromatic and breaks down beautifully. Some prefer short-grain for a stickier texture.\n*   **Pre-Soaking/Freezing Rice:** Soaking rice for 30 minutes before cooking can cut down cooking time. Even better, freezing wet rice overnight and then cooking it from frozen makes the grains shatter faster, resulting in an incredibly creamy congee in less time.\n*   **Ratio is Key:** The 1:8 or 1:10 rice-to-liquid ratio is a good starting point. Adjust based on your preferred consistency. Add more hot liquid if it gets too thick.\n*   **Stir, But Not Too Much:** Stirring occasionally prevents sticking and ensures even cooking. However, constant stirring isn't necessary and can sometimes make the congee too gluey. A good stir every 15-20 minutes after the initial boil is usually sufficient.\n*   **Low and Slow:** Patience is a virtue here. Cooking congee over low heat for an extended period is crucial for the grains to fully break down and release their starch, creating that signature creamy texture.\n*   **Fresh Ginger:** Don't skimp on fresh ginger. It adds a wonderful aromatic warmth that complements the century egg beautifully and helps balance its strong flavor.\n*   **Balance the Century Egg:** While the century egg is the star, its flavor is potent. Start with the suggested amount and add more only if you desire a stronger taste.\n*   **Taste and Adjust:** Always taste your congee before serving. Adjust salt, pepper, and even a dash of soy sauce if needed.\n\n## Serving Suggestions\n\nCongee with Century Egg is a meal in itself, but it truly shines when accompanied by a few traditional Chinese breakfast sides.\n\n*   **Youtiao (Chinese Fried Dough Sticks):** These crispy, airy dough sticks are perfect for dipping into the hot congee, soaking up all the delicious flavors.\n*   **Pickled Vegetables:** A small side of pickled radish, cucumber, or mustard greens adds a refreshing crunch and tangy counterpoint to the creamy congee.\n*   **Chili Oil:** For those who enjoy a bit of heat, a drizzle of homemade or store-bought chili oil can add a fantastic spicy kick.\n*   **Soy Sauce:** A splash of light soy sauce can enhance the savory notes for some palates.\n*   **Extra Toppings:** Feel free to add a fried egg, roasted peanuts, or fried shallots for added texture and flavor.\n\n## Variations and Substitutions\n\nWhile Congee with Century Egg is a classic, the beauty of congee lies in its adaptability.\n\n*   **Protein Alternatives:** Instead of pork or chicken, you can use shredded duck, fish slices (add towards the end as they cook quickly), or even ground meat.\n*   **Vegetarian Option:** Omit the meat. The century egg itself provides a strong umami flavor. You can boost the vegetarian congee with dried shiitake mushrooms (soaked and sliced), rehydrated dried scallops (for a more luxurious taste), or simply use vegetable broth as the base.\n*   **Different Preserved Eggs:** While century eggs are traditional, salted duck eggs are another popular addition, offering a different kind of salty, rich flavor.\n*   **Add Vegetables:** Stir in finely diced carrots, mushrooms, or even a handful of spinach during the last 10 minutes of cooking for added nutrients and color.\n*   **Flavor Boosters:** A dash of white pepper is standard, but you can also experiment with a tiny amount of five-spice powder for an exotic twist, or a splash of rice wine during the meat cooking stage.\n\nCongee with Century Egg is more than just a breakfast; it's a culinary journey into the heart of Chinese comfort food. Its unique combination of creamy rice, pungent century egg, and savory meat creates a symphony of flavors that is both comforting and exciting. Whether you're an adventurous eater or simply seeking a nourishing start to your day, preparing this traditional Chinese breakfast recipe at home is a rewarding experience that promises a delicious and deeply satisfying meal. Give it a try, and discover your new favorite way to begin the day.",
+  "article": "Embrace a culinary journey to the heart of Chinese breakfast traditions with a dish that is both profoundly comforting and uniquely flavorful: Congee with Century Egg. This savory rice porridge, known as *pidan shourou zhou* (皮蛋瘦肉粥) in Cantonese, is a staple across China and in Chinese communities worldwide. It’s a testament to the art of transforming simple ingredients into a deeply satisfying meal, perfect for starting the day or as a soothing supper. Forget bland oatmeal; this creamy, aromatic bowl offers a delightful contrast of textures and a rich umami punch that will awaken your taste buds.\n\n## What is Congee with Century Egg?\n\nAt its core, congee is a rice porridge, slow-cooked until the grains break down into a smooth, creamy consistency. It’s the ultimate comfort food, often served when one feels under the weather, but equally cherished as a daily breakfast. The magic truly happens when you introduce the century egg. For the uninitiated, century eggs (also known as *pidan* or preserved eggs) might seem intimidating due to their striking appearance – a dark, gelatinous albumen and a creamy, greenish-grey yolk. However, their flavor is surprisingly mild and savory, with a distinct umami depth that perfectly complements the subtle sweetness of the rice porridge.\n\nWhen combined, the *Congee with Century Egg* becomes a symphony of textures and flavors. The silky congee base acts as a canvas, absorbing the nuanced, slightly pungent notes of the century egg and often paired with lean marinated pork, fresh ginger, and scallions. It’s a dish that embodies warmth, nourishment, and the rich culinary heritage of Chinese breakfast recipes.\n\n## Ingredients for Congee with Century Egg\n\nCreating a delicious bowl of Congee with Century Egg requires a few key ingredients, each playing a vital role in its overall flavor profile.\n\n*   **Rice:** 1 cup long-grain jasmine rice (or short-grain for a thicker congee).\n*   **Water or Broth:** 8-10 cups of cold water, chicken broth, or pork broth. Broth significantly enhances the flavor.\n*   **Century Eggs:** 2-3 large century eggs, peeled and diced.\n*   **Lean Pork (Optional but Recommended):** 4-6 oz lean pork loin or tenderloin, thinly sliced or shredded.\n*   **Marinade for Pork (if using):** 1 tsp soy sauce, 1 tsp Shaoxing wine (or dry sherry), 1/2 tsp cornstarch, a pinch of white pepper.\n*   **Fresh Ginger:** 1-inch piece, peeled and thinly sliced or julienned.\n*   **Scallions:** 2-3 stalks, green parts only, thinly sliced for garnish.\n*   **Seasoning:** Salt to taste, a dash of white pepper, 1 tsp sesame oil (for drizzling).\n*   **Optional Garnishes:** Fried shallots, cilantro, a drizzle of chili oil.\n\n## How to Make Congee with Century Egg (Step-by-Step)\n\nMaking Congee with Century Egg is a patient process, but the hands-on time is minimal, and the reward is immense.\n\n1.  **Prepare the Rice:** Rinse the rice thoroughly under cold water until the water runs clear. This removes excess starch, preventing the congee from becoming too sticky. For a faster cooking time and creamier texture, you can soak the rice in cold water for at least 30 minutes, or even overnight, then drain.\n2.  **Marinate the Pork (if using):** If using pork, slice it thinly or shred it. In a small bowl, combine the pork with soy sauce, Shaoxing wine, cornstarch, and white pepper. Mix well and let it marinate for at least 15 minutes.\n3.  **Start the Congee Base:** In a large, heavy-bottomed pot or Dutch oven, combine the rinsed rice and 8 cups of cold water or broth. Bring the mixture to a rolling boil over high heat, stirring occasionally to prevent sticking.\n4.  **Simmer and Stir:** Once boiling, reduce the heat to very low, cover the pot partially (leaving a small gap for steam to escape), and simmer for at least 1.5 to 2 hours. Stir every 15-20 minutes, especially towards the end, to prevent the rice from sticking to the bottom and to ensure even breakdown of the grains. The congee should be creamy and thick, with the rice grains mostly disintegrated. If it becomes too thick, add more hot water or broth, a little at a time, until your desired consistency is reached.\n5.  **Prepare Century Eggs and Ginger:** While the congee simmers, peel the century eggs and dice them into small, bite-sized pieces. Slice the fresh ginger into thin strips.\n6.  **Add Flavorings:** About 15-20 minutes before the congee is ready, add the diced century eggs and most of the sliced ginger to the pot. If using pork, add the marinated pork now. Stir gently to combine and allow the flavors to meld and the pork to cook through. The cornstarch in the marinade will help thicken the congee slightly.\n7.  **Season and Finish:** Taste the Congee with Century Egg and season with salt to your preference. Add a dash of white pepper. Ladle the hot congee into individual serving bowls. Drizzle with sesame oil and garnish generously with fresh scallions and the remaining ginger.\n\n## Tips for Perfect Congee with Century Egg\n\nAchieving that perfect, silky smooth bowl of congee is an art, but these tips will guide you:\n\n*   **Rice Quality Matters:** While jasmine rice is common, short-grain rice tends to yield a creamier congee due to its higher starch content. Experiment to find your preference.\n*   **Cold Water Start:** Always start with cold water or broth. This allows the rice grains to cook more evenly and release their starch gradually, resulting in a creamier texture.\n*   **Low and Slow:** Patience is key. Congee needs a long, gentle simmer for the rice to break down properly. Don't rush it.\n*   **Stirring is Essential:** Regular stirring, especially during the last hour, prevents sticking and ensures uniform creaminess.\n*   **Broth for Depth:** While water works, using chicken or pork broth will significantly deepen the flavor profile of your Congee with Century Egg.\n*   **Don't Overload:** Keep the rice-to-liquid ratio balanced. Too much rice will result in a pasty congee; too little will make it watery.\n*   **Fresh Ginger:** The pungent, fresh ginger is crucial. It cuts through the richness of the century egg and adds a warming aroma.\n\n## Serving Suggestions & Pairings\n\nCongee with Century Egg is a complete meal on its own, but it truly shines when accompanied by traditional Chinese breakfast sides:\n\n*   **Youtiao (Chinese Fried Dough Sticks):** These crispy, airy dough sticks are perfect for dipping into the hot congee, soaking up all the delicious broth.\n*   **Pickled Vegetables:** A small plate of pickled daikon, mustard greens, or cucumbers offers a refreshing, tangy contrast to the savory congee.\n*   **Other Dim Sum:** Steamed dumplings, *har gow* (shrimp dumplings), or *siu mai* (pork and shrimp dumplings) make excellent companions for a more elaborate breakfast spread.\n*   **Soy Sauce Eggs:** Hard-boiled eggs marinated in soy sauce and spices add another layer of savory protein.\n*   **Drinks:** A hot cup of jasmine tea, green tea, or even warm soy milk pairs wonderfully with the comforting nature of the congee.\n\n## Variations & Substitutions\n\nWhile Congee with Century Egg is a classic, don't hesitate to explore variations:\n\n*   **Protein Swaps:** Instead of pork, try shredded chicken, flaked fish (like cod or sole), or even minced beef. Vegetarian options include sliced shiitake mushrooms or firm tofu.\n*   **Adding Salted Duck Egg:** For an even richer, saltier kick, add a diced salted duck egg along with the century egg. The combination is incredibly popular.\n*   **Dried Seafood Boost:** For an authentic Cantonese touch, soak and add a few dried scallops or dried shrimp to the congee base for an intense umami flavor.\n*   **Vegetable Additions:** Stir in some finely chopped carrots, corn kernels, or spinach during the last 10 minutes of cooking for added nutrients and color.\n*   **Spicy Kick:** A drizzle of homemade chili oil or a sprinkle of chili flakes can add a delightful fiery dimension.\n\n## Frequently Asked Questions\n\n**Q: What do century eggs taste like?**\nA: Century eggs have a unique savory, slightly earthy, and umami flavor. The albumen is gelatinous and translucent dark brown, while the yolk is creamy, grayish-green, and has a rich, pungent aroma that mellows significantly when cooked in congee. They are not strongly sulfurous as some might expect.\n\n**Q: Can I make congee ahead of time?**\nA: Yes, congee can be made ahead of time. Store it in an airtight container in the refrigerator for up to 3-4 days. When reheating, you'll likely need to add a splash of water or broth and stir well, as it will thicken considerably in the fridge.\n\n**Q: Is Congee with Century Egg healthy?**\nA: Congee is generally considered a very digestible and nourishing food, especially when made with lean protein and fresh ginger. Century eggs provide protein and some minerals. It's a comforting, low-fat option, particularly beneficial for those with sensitive stomachs or recovering from illness.\n\n**Q: What kind of rice is best for congee?**\nA: Long-grain jasmine rice is commonly used for a slightly looser congee, while short-grain rice (like japonica or sushi rice) produces a thicker, creamier porridge due to its higher starch content. Both work well; it's a matter of personal preference.\n\n**Q: Where can I buy century eggs?**\nA: Century eggs are readily available in most Asian grocery stores, particularly those specializing in Chinese ingredients. They are usually sold in packs of 4 or 6 and do not require refrigeration until opened.\n\nCongee with Century Egg is more than just a meal; it's an experience of comfort, tradition, and profound flavor. This Chinese breakfast recipe offers a soothing start to any day, a hearty option for lunch, or a gentle supper. Don't let the unconventional appearance of the century egg deter you; embrace this culinary adventure, and you might just discover your new favorite comfort food.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Congee with Century Egg",
-    "description": "Master the art of authentic Congee with Century Egg! This traditional Chinese breakfast recipe is surprisingly easy to make at home. Get step-by-step instructions for a comforting meal.",
+    "description": "Learn to make authentic Congee with Century Egg at home! Our easy, step-by-step Chinese breakfast recipe brings traditional flavors to your kitchen. Perfect comfort food!",
     "image": [
-      "https://images.unsplash.com/photo-1707013533606-62919aa3aa29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3ODk1MDgxNHww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3ODk1MDgxNHww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1707013533606-62919aa3aa29?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTc2NjIxM3ww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1523905330026-b8bd1f5f320e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb25nZWUlMjB3aXRoJTIwQ2VudHVyeSUyMENoaW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc3OTc2NjIxM3ww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-05-16T17:00:42.789Z",
+    "datePublished": "2026-05-26T03:30:47.332Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Breakfast Recipes",
     "recipeCuisine": "Chinese",
-    "keywords": "Congee with Century Egg, how to make Congee with Century Egg, easy Congee with Century Egg recipe, authentic Chinese Congee with Century Egg, Congee with Century Egg step by step, best Congee with Century Egg at home",
+    "keywords": "Congee with Century Egg, how to make Congee with Century Egg, easy Congee with Century Egg recipe, authentic Chinese Congee with Century Egg, Congee with Century Egg step by step, best Congee with Century Egg at home, traditional Congee with Century Egg recipe, homemade Congee with Century Egg",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
@@ -199,48 +214,49 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1 cup White rice",
+      "1 cup Long-grain white rice",
       "8-10 cups Water or chicken broth",
-      "3 large Century eggs (Pidan)",
-      "1-inch piece Fresh ginger",
+      "3-4 Century eggs",
+      "150g Pork loin or tenderloin",
+      "1 inch piece Ginger",
       "2 stalks Green onions",
-      "1 tsp Salt",
-      "1/4 tsp White pepper",
-      "1 tsp Sesame oil",
-      "1/2 cup Optional: Shredded cooked chicken or pork"
+      "to taste Salt",
+      "1/2 teaspoon White pepper",
+      "1 teaspoon Sesame oil",
+      "Marinade for pork"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Rice",
-        "text": "Wash the white rice thoroughly under cold running water until the water runs clear. Soak the washed rice in 2 cups of water for at least 30 minutes or up to an hour. This step helps the rice grains break down faster and achieve a creamier texture."
+        "name": "Prepare the Rice and Pork",
+        "text": "Wash the rice thoroughly until the water runs clear. Soak the rice in 2 cups of water for at least 30 minutes, or ideally overnight, to help it break down faster. If using pork, shred it into thin strips and marinate with soy sauce, cornstarch, and white pepper. Set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Start the Congee Base",
-        "text": "Drain the soaked rice. In a large heavy-bottomed pot, combine the drained rice with 8-10 cups of water or chicken broth. Bring the mixture to a rolling boil over high heat, stirring occasionally to prevent sticking. Once boiling, reduce the heat to the lowest setting."
+        "name": "Start Cooking the Congee Base",
+        "text": "In a large pot, combine the soaked rice (including soaking water) with 8-10 cups of fresh water or chicken broth. Bring to a rolling boil over high heat, stirring occasionally to prevent sticking. Once boiling, reduce the heat to low, cover, and let it simmer. Leave the lid slightly ajar to prevent boil-overs."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Porridge",
-        "text": "Cover the pot with a lid, leaving a small gap for steam to escape. Let the congee simmer gently for 30-45 minutes. Stir every 10-15 minutes to ensure the rice doesnt stick to the bottom and to help it break down into a thick, creamy porridge consistency. Adjust water if it becomes too thick."
+        "name": "Simmer and Stir",
+        "text": "Continue to simmer the congee for at least 30 minutes, or up to an hour, stirring every 10-15 minutes to ensure the rice doesn't stick to the bottom and to achieve a creamy consistency. The longer it simmers, the smoother and thicker the congee will become. Add more hot water or broth if the congee becomes too thick."
       },
       {
         "@type": "HowToStep",
         "name": "Prepare Century Eggs and Ginger",
-        "text": "While the congee simmers, carefully peel the century eggs and dice them into small, bite-sized pieces. Peel the fresh ginger and julienne it into thin strips. Chop the green onions for garnish."
+        "text": "While the congee simmers, peel the century eggs. Rinse them under cold water to remove any residual ash. Dice the century eggs into small, even pieces. Prepare your ginger by peeling and finely julienning it."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Flavorings",
-        "text": "Once the congee has reached your desired consistency, stir in the diced century eggs, about half of the julienned ginger, salt, and white pepper. Continue to simmer for another 5-10 minutes, allowing the flavors to meld together. If using, add shredded cooked chicken or pork at this stage."
+        "name": "Add Pork and Century Eggs",
+        "text": "Once the congee has reached your desired consistency, increase the heat slightly. Add the marinated shredded pork to the simmering congee and cook for 3-5 minutes until the pork is fully cooked through and tender. Then, stir in the diced century eggs."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve and Garnish",
-        "text": "Ladle the hot Congee with Century Egg into individual serving bowls. Garnish each bowl generously with the remaining fresh julienned ginger and chopped green onions. Drizzle a small amount of sesame oil over each serving for added fragrance and flavor. Serve immediately and enjoy this comforting Chinese breakfast."
+        "name": "Season and Serve",
+        "text": "Season the congee with salt and white pepper to taste. Stir well. Ladle the hot congee into individual serving bowls. Garnish generously with fresh julienned ginger and chopped green onions. For an extra layer of flavor, drizzle a touch of sesame oil over each bowl before serving. Enjoy immediately."
       }
     ]
   },
-  "publishedAt": "2026-05-16T17:00:42.824Z"
+  "publishedAt": "2026-05-26T03:30:47.332Z"
 }
