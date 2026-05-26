@@ -51,107 +51,112 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.unsplash.com/photo-1773196275043-8d6e367b0bca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzYzMDQ4MzB8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1560435726-6480fd46446b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzYzMDQ4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "This vegetarian Mapo Tofu is a fiery and flavorful Sichuan classic, reimagined without meat. Silken tofu cubes are bathed in a rich, spicy, and aromatic sauce featuring fermented bean paste and numbing Sichuan peppercorns. It is a comforting and satisfying dish that perfectly balances heat and umami, ideal for a hearty meal.",
+  "image1": "https://images.unsplash.com/photo-1773196275043-8d6e367b0bca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzk3ODk2NDN8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1680169590313-9a14f3cd8148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3Nzk3ODk2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "This vegetarian Mapo Tofu brings the iconic Sichuan flavors of fiery chili, numbing Sichuan peppercorns, and savory fermented bean paste to your table. Tender cubes of silken tofu are bathed in a rich, aromatic sauce, creating a dish that is both comforting and exhilarating. Perfect for a hearty plant-based meal, it is a true testament to the depth of Chinese vegetarian cuisine.",
   "ingredients": [
     {
-      "item": "Firm or Silken Tofu",
-      "amount": "2 blocks (about 1.5 lbs)",
-      "notes": "drained, cut into 3/4-inch cubes"
+      "item": "Silken or Soft Tofu",
+      "amount": "2 blocks (about 600g)",
+      "notes": "cut into 2cm cubes"
     },
     {
       "item": "Vegetable Oil",
-      "amount": "3 tablespoons",
+      "amount": "3 tbsp",
       "notes": ""
     },
     {
-      "item": "Sichuan Peppercorns",
-      "amount": "1 tablespoon",
-      "notes": "whole"
-    },
-    {
-      "item": "Doubanjiang (Sichuan Pixian Broad Bean Paste)",
-      "amount": "2 tablespoons",
-      "notes": "ensure vegetarian version"
+      "item": "Sichuan Doubanjiang (fermented broad bean paste)",
+      "amount": "2 tbsp",
+      "notes": ""
     },
     {
       "item": "Fermented Black Beans (Douchi)",
-      "amount": "1 tablespoon",
-      "notes": "rinsed, roughly chopped"
-    },
-    {
-      "item": "Garlic",
-      "amount": "3 cloves",
-      "notes": "minced"
+      "amount": "1 tbsp",
+      "notes": "rinsed and roughly chopped"
     },
     {
       "item": "Ginger",
-      "amount": "1 inch piece",
-      "notes": "minced"
+      "amount": "1 tbsp",
+      "notes": "finely minced"
+    },
+    {
+      "item": "Garlic",
+      "amount": "1 tbsp",
+      "notes": "finely minced"
+    },
+    {
+      "item": "Dried Chili Flakes",
+      "amount": "1-2 tsp",
+      "notes": "adjust to taste"
     },
     {
       "item": "Vegetable Broth",
       "amount": "1.5 cups",
-      "notes": "or water with vegetarian bouillon"
+      "notes": ""
     },
     {
       "item": "Light Soy Sauce",
-      "amount": "1 tablespoon",
+      "amount": "1 tbsp",
       "notes": ""
     },
     {
       "item": "Sugar",
-      "amount": "1 teaspoon",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
       "item": "Cornstarch",
-      "amount": "1.5 tablespoons",
-      "notes": "mixed with 3 tablespoons cold water for slurry"
+      "amount": "1 tbsp",
+      "notes": "mixed with 2 tbsp water for slurry"
+    },
+    {
+      "item": "Ground Sichuan Peppercorns",
+      "amount": "1-2 tsp",
+      "notes": "for garnish, adjust to taste"
     },
     {
       "item": "Scallions",
-      "amount": "3 stalks",
+      "amount": "2 stalks",
       "notes": "chopped, for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Tofu",
-      "text": "Bring a pot of water to a boil. Carefully add the tofu cubes and blanch for 2-3 minutes. This helps firm up the tofu and removes any raw bean flavor. Gently remove the tofu with a slotted spoon and set aside to drain.",
+      "title": "Prepare the Tofu",
+      "text": "Bring a pot of water to a boil. Carefully add the tofu cubes and blanch for 2-3 minutes. This firms up the tofu and removes any raw bean flavor. Gently drain the tofu and set aside.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Make Sichuan Peppercorn Oil",
-      "text": "Heat vegetable oil in a wok or large skillet over medium heat. Add the whole Sichuan peppercorns and fry for 2-3 minutes until fragrant but not burnt. Remove the peppercorns with a slotted spoon and discard them, leaving the infused oil in the wok.",
-      "time": "5 min"
+      "title": "Aromatics and Doubanjiang",
+      "text": "Heat vegetable oil in a wok or large skillet over medium-high heat. Add the minced ginger, garlic, and chopped fermented black beans. Stir-fry for about 30 seconds until fragrant. Add the Sichuan doubanjiang and dried chili flakes. Stir-fry for another minute until the oil turns red and fragrant, ensuring the doubanjiang is well cooked.",
+      "time": "3 min"
     },
     {
       "step": 3,
-      "title": "Sauté Aromatics and Pastes",
-      "text": "To the infused oil, add the Doubanjiang and chopped fermented black beans. Stir-fry for 2-3 minutes until the oil turns red and the paste is fragrant. Add the minced garlic and ginger, and stir-fry for another minute until aromatic.",
+      "title": "Build the Sauce Base",
+      "text": "Pour in the vegetable broth, light soy sauce, and sugar. Bring the mixture to a gentle simmer, stirring to combine all the flavors. Taste and adjust seasoning if necessary; the sauce should be savory with a good kick.",
       "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Simmer the Sauce",
-      "text": "Pour in the vegetable broth. Add the light soy sauce and sugar. Bring the mixture to a gentle simmer, stirring to combine all the flavors. Taste and adjust seasonings if necessary, aiming for a balance of spicy, savory, and slightly sweet.",
+      "title": "Add Tofu and Simmer",
+      "text": "Carefully add the blanched tofu cubes to the simmering sauce. Gently fold them into the sauce, being careful not to break the delicate tofu. Allow the tofu to simmer in the sauce for 5-7 minutes, letting it absorb the rich flavors.",
       "time": "7 min"
     },
     {
       "step": 5,
-      "title": "Add Tofu and Thicken",
-      "text": "Gently add the blanched tofu cubes to the simmering sauce. Allow the tofu to warm through for about 2-3 minutes, absorbing the flavors. Stir the cornstarch slurry once more, then slowly pour it into the wok while stirring continuously until the sauce thickens to your desired consistency.",
-      "time": "8 min"
+      "title": "Thicken the Sauce",
+      "text": "Stir the cornstarch slurry well, then slowly pour it into the simmering tofu mixture while gently stirring. Continue to stir until the sauce thickens to your desired consistency, typically a glossy, slightly viscous texture that coats the tofu. If it becomes too thick, add a splash more broth.",
+      "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Garnish and Serve",
-      "text": "Once the sauce is thick and glossy, remove the wok from the heat. Transfer the Mapo Tofu to a serving dish. Garnish generously with chopped fresh scallions. Serve immediately with steamed white rice for a truly authentic Chinese meal.",
-      "time": "5 min"
+      "title": "Finish and Serve",
+      "text": "Remove the wok from the heat. Sprinkle generously with freshly ground Sichuan peppercorns and chopped scallions. Serve immediately with steamed white rice. The numbing sensation from the peppercorns should be prominent.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
@@ -173,30 +178,30 @@
     "Mapo Tofu Vegetarian",
     "spicy",
     "tofu",
-    "easy"
+    "plant-based"
   ],
   "tips": [
-    "Blanching the tofu before adding it to the sauce helps it firm up and prevents it from breaking apart during cooking, while also improving its texture and ability to absorb flavor.",
-    "For an extra layer of flavor and heat, you can add 1-2 teaspoons of chili oil or a pinch of ground chili flakes along with the Doubanjiang.",
-    "Always taste your sauce before adding the cornstarch slurry; adjust the salt, sugar, and spiciness to your preference. Remember that the flavors will mellow slightly once the tofu is added."
+    "Blanching the tofu before adding it to the sauce is a crucial step. It helps the tofu firm up, reduces any raw beany flavor, and allows it to absorb the sauce better without crumbling.",
+    "For the best 'mala' (numbing and spicy) flavor, toast whole Sichuan peppercorns in a dry pan until fragrant, then grind them fresh. This enhances their aroma and potency significantly compared to pre-ground versions.",
+    "Always use a good quality Sichuan doubanjiang (fermented broad bean paste) as it is the backbone of the Mapo Tofu flavor. Pixian doubanjiang is highly recommended for an authentic taste."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Mapo Tofu Vegetarian is a beloved Chinese Vegetarian dish enjoyed across Chinese. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "The vibrant and diverse world of Chinese cuisine offers an incredible array of flavors, textures, and aromas. Among its most iconic dishes is Mapo Tofu, a fiery Szechuan specialty renowned for its \"mala\" sensation – a combination of numbing and spicy heat. While traditionally made with minced pork, the growing demand for plant-based options has given rise to a truly spectacular version: Mapo Tofu Vegetarian. This dish captures all the bold, complex flavors of the original, proving that a meat-free meal can be just as satisfying, if not more so.\n\nChinese vegetarian cuisine, often influenced by Buddhist traditions, is far from bland. It masterfully uses vegetables, fungi, and soy products to create deeply flavorful and textural dishes. Mapo Tofu Vegetarian stands as a testament to this culinary philosophy, transforming simple tofu into a rich, aromatic, and intensely flavorful experience that delights the senses. Whether you're a seasoned vegetarian, a curious omnivore, or simply looking to expand your culinary horizons, learning to prepare this dish at home is a rewarding journey into the heart of Szechuan flavors.\n\n## What is Mapo Tofu Vegetarian?\n\nAt its core, Mapo Tofu Vegetarian offers all the iconic flavors and sensations of the classic Szechuan dish but reimagined for a plant-based diet. The traditional Mapo Tofu is characterized by its soft tofu cubes swimming in a rich, reddish sauce, seasoned with fermented broad bean paste (doubanjiang), fermented black beans (douchi), garlic, ginger, and the star ingredient: Szechuan peppercorns, which deliver that unique numbing \"ma\" sensation. Minced pork is typically included for richness and texture.\n\nThe vegetarian adaptation skillfully replaces the pork with plant-based alternatives or simply relies on the robust flavors of the spices and fermented ingredients to carry the dish. Some versions might use plant-based mince, mushrooms, or even just increase the amount of doubanjiang and douchi to boost umami. The result is a deeply savory, spicy, and aromatic dish that showcases the incredible versatility of tofu and the power of Szechuan seasonings. This Mapo Tofu Vegetarian is not just a substitute; it's a culinary masterpiece in its own right, perfect for anyone seeking a profoundly flavorful and comforting meal.\n\n## Ingredients You Need\n\nCrafting a truly authentic Mapo Tofu Vegetarian requires a few key ingredients, some of which might require a trip to an Asian grocery store, but they are well worth the effort.\n\n*   **Tofu:** 1 block (about 14-16 oz) firm or extra-firm tofu, water-packed. This type holds its shape well and absorbs flavors beautifully.\n*   **Aromatics:** 4-5 cloves garlic, minced; 1-inch piece ginger, minced.\n*   **Fermented Pastes:** 2-3 tablespoons Pixian Doubanjiang (Szechuan spicy broad bean paste). This is non-negotiable for authentic flavor. 1 tablespoon Douchi (fermented black beans), rinsed and roughly chopped.\n*   **Sichuan Peppercorns:** 1-2 teaspoons whole Sichuan peppercorns (or 1/2 - 1 teaspoon ground). Freshly ground is always best for maximum \"mala.\"\n*   **Dried Chilies (Optional):** 3-5 dried Szechuan chilies, snipped (for extra heat and aroma).\n*   **Neutral Oil:** 2-3 tablespoons, such as canola, vegetable, or peanut oil.\n*   **Vegetable Broth or Water:** 1 cup.\n*   **Soy Sauce:** 1 tablespoon (use tamari for gluten-free).\n*   **Sugar:** 1 teaspoon (balances the spice and salt).\n*   **Mushroom Powder (Optional):** 1/2 teaspoon, for an extra umami boost.\n*   **Cornstarch Slurry:** 1 tablespoon cornstarch mixed with 2 tablespoons cold water.\n*   **Garnish:** Chopped green onions (scallions) for freshness and color.\n*   **Chili Oil (Optional):** A drizzle of homemade or store-bought Szechuan chili oil for an extra layer of flavor and heat.\n\n## Step-by-Step Instructions\n\nFollow these detailed steps to create your perfect Mapo Tofu Vegetarian. Precision and gentle handling are key to a successful dish.\n\n1.  **Prepare the Tofu:** Drain the tofu and gently press it for about 15-30 minutes to remove excess water. Cut the tofu into 3/4-inch cubes.\n2.  **Blanch the Tofu:** Bring a pot of lightly salted water to a boil. Gently add the tofu cubes and blanch for 2-3 minutes. This step firms up the tofu, helps it absorb flavors better, and removes any raw soy taste. Carefully remove the tofu with a slotted spoon and set aside.\n3.  **Prepare Sichuan Peppercorns:** If using whole Sichuan peppercorns, toast them in a dry pan over medium-low heat for 1-2 minutes until fragrant. Grind them into a coarse powder using a mortar and pestle or a spice grinder. Set aside.\n4.  **Sauté Aromatics and Pastes:** Heat the neutral oil in a wok or large skillet over medium heat. Add the minced ginger and garlic, cooking until fragrant (about 30 seconds). Add the Pixian doubanjiang and douchi. Stir-fry for 1-2 minutes, pressing the doubanjiang against the wok to release its oils and fragrance. If using, add the dried chilies and stir-fry for another 30 seconds until aromatic (be careful not to burn them).\n5.  **Build the Sauce:** Pour in the vegetable broth (or water). Add the soy sauce, sugar, and mushroom powder (if using). Bring the sauce to a gentle simmer.\n6.  **Add Tofu:** Carefully add the blanched tofu cubes to the simmering sauce. Gently stir to coat the tofu without breaking it. Let it simmer for 5-7 minutes, allowing the tofu to absorb the rich flavors.\n7.  **Thicken the Sauce:** Give the cornstarch slurry a quick stir and slowly pour it into the simmering sauce while stirring gently. Continue to stir until the sauce thickens to your desired consistency.\n8.  **Add Sichuan Peppercorns:** Remove the wok from the heat. Stir in the ground Sichuan peppercorns. This ensures their aromatic and numbing qualities are preserved.\n9.  **Serve:** Transfer the Mapo Tofu Vegetarian to a serving dish. Garnish generously with chopped green onions and, if desired, a drizzle of Szechuan chili oil for an extra kick and glossy finish.\n\n## Pro Tips for the Best Results\n\nAchieving that restaurant-quality Mapo Tofu Vegetarian at home is entirely possible with a few expert tips:\n\n*   **Don't Skip Blanching:** This simple step makes a huge difference in the tofu's texture and its ability to soak up the sauce.\n*   **Quality Ingredients Matter:** Invest in good quality Pixian doubanjiang and fresh Sichuan peppercorns. These are the soul of the dish. Old, stale peppercorns will lack the potent \"mala\" sensation.\n*   **Control the Heat:** When stir-frying the doubanjiang, keep the heat moderate to prevent it from burning, which can make the sauce bitter. Cook it long enough to release its oils and fragrance.\n*   **Taste and Adjust:** Szechuan cuisine is all about balance. Taste the sauce before adding the tofu and adjust salt, sugar, or spice level to your preference. Remember, the sauce will mellow slightly once the tofu is added.\n*   **Embrace the \"Mala\":** If you're new to Sichuan peppercorns, start with less and add more to taste. The numbing sensation can be intense but is an integral part of the Mapo Tofu experience.\n*   **Gentle Handling:** Tofu is delicate. Use a wide, flat spoon or spatula and stir very gently to avoid breaking the cubes, especially after blanching.\n\n## Serving Suggestions\n\nMapo Tofu Vegetarian is a powerhouse of flavor and best served as the star of your meal. The classic accompaniment is a generous bowl of freshly steamed white rice, which perfectly soaks up the spicy, savory sauce and provides a comforting contrast to the heat.\n\nBeyond white rice, you can also serve it with:\n*   **Brown rice:** For a nuttier flavor and added fiber.\n*   **Noodles:** Tossed with simple sesame oil or plain.\n*   **Steamed or stir-fried greens:** A side of blanched bok choy or gai lan with a dash of soy sauce offers a refreshing counterpoint to the rich tofu.\n*   **Clear soup:** A light, clear vegetable broth can help cleanse the palate between spicy bites.\n*   **Cold beer or iced tea:** To help cool down the delightful heat!\n\n## Variations and Substitutions\n\nWhile the classic Mapo Tofu Vegetarian is a star, don't hesitate to experiment with variations to suit your taste or dietary needs.\n\n*   **Protein Boost:** For added texture and protein, consider adding plant-based mince (soy or mushroom-based), finely chopped shiitake mushrooms, or even crumbled tempeh when stir-frying the aromatics. Cook until browned before adding the broth.\n*   **Add Vegetables:** While not traditional, you can stir in some frozen peas, finely diced carrots, or bell peppers during the last few minutes of simmering for extra color and nutrients.\n*   **Spice Level Adjustment:** For more heat, add extra dried chilies or a pinch of red pepper flakes. For less heat, reduce the amount of doubanjiang and omit the dried chilies.\n*   **Gluten-Free:** Ensure your soy sauce is replaced with tamari, and always check the label of your doubanjiang, as some brands may contain wheat.\n*   **Less Oily:** You can reduce the amount of cooking oil slightly, though a good amount of oil helps carry the flavors in Szechuan cooking.\n*   **Nut-Free:** This recipe is naturally nut-free, making it a great option for those with nut allergies.\n\nMapo Tofu Vegetarian is more than just a dish; it's an experience. It’s a celebration of bold flavors, intricate textures, and the incredible versatility of plant-based ingredients. By following these steps and tips, you can bring the vibrant, numbing, and spicy magic of Szechuan cuisine right into your own kitchen. Enjoy the journey and savor every fiery, flavorful bite!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Mapo Tofu Vegetarian",
     "description": "Learn how to make authentic Mapo Tofu Vegetarian. This easy Chinese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1773196275043-8d6e367b0bca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzYzMDQ4MzB8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1560435726-6480fd46446b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzYzMDQ4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1773196275043-8d6e367b0bca?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzk3ODk2NDN8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1680169590313-9a14f3cd8148?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNYXBvJTIwVG9mdSUyMFZlZ2V0YXJpYW4lMjBDaGluZXNlJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3Nzk3ODk2NDR8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-16T03:30:37.782Z",
+    "datePublished": "2026-05-26T10:31:03.444Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -214,51 +219,52 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "2 blocks (about 1.5 lbs) Firm or Silken Tofu",
-      "3 tablespoons Vegetable Oil",
-      "1 tablespoon Sichuan Peppercorns",
-      "2 tablespoons Doubanjiang (Sichuan Pixian Broad Bean Paste)",
-      "1 tablespoon Fermented Black Beans (Douchi)",
-      "3 cloves Garlic",
-      "1 inch piece Ginger",
+      "2 blocks (about 600g) Silken or Soft Tofu",
+      "3 tbsp Vegetable Oil",
+      "2 tbsp Sichuan Doubanjiang (fermented broad bean paste)",
+      "1 tbsp Fermented Black Beans (Douchi)",
+      "1 tbsp Ginger",
+      "1 tbsp Garlic",
+      "1-2 tsp Dried Chili Flakes",
       "1.5 cups Vegetable Broth",
-      "1 tablespoon Light Soy Sauce",
-      "1 teaspoon Sugar",
-      "1.5 tablespoons Cornstarch",
-      "3 stalks Scallions"
+      "1 tbsp Light Soy Sauce",
+      "1 tsp Sugar",
+      "1 tbsp Cornstarch",
+      "1-2 tsp Ground Sichuan Peppercorns",
+      "2 stalks Scallions"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Tofu",
-        "text": "Bring a pot of water to a boil. Carefully add the tofu cubes and blanch for 2-3 minutes. This helps firm up the tofu and removes any raw bean flavor. Gently remove the tofu with a slotted spoon and set aside to drain."
+        "name": "Prepare the Tofu",
+        "text": "Bring a pot of water to a boil. Carefully add the tofu cubes and blanch for 2-3 minutes. This firms up the tofu and removes any raw bean flavor. Gently drain the tofu and set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Make Sichuan Peppercorn Oil",
-        "text": "Heat vegetable oil in a wok or large skillet over medium heat. Add the whole Sichuan peppercorns and fry for 2-3 minutes until fragrant but not burnt. Remove the peppercorns with a slotted spoon and discard them, leaving the infused oil in the wok."
+        "name": "Aromatics and Doubanjiang",
+        "text": "Heat vegetable oil in a wok or large skillet over medium-high heat. Add the minced ginger, garlic, and chopped fermented black beans. Stir-fry for about 30 seconds until fragrant. Add the Sichuan doubanjiang and dried chili flakes. Stir-fry for another minute until the oil turns red and fragrant, ensuring the doubanjiang is well cooked."
       },
       {
         "@type": "HowToStep",
-        "name": "Sauté Aromatics and Pastes",
-        "text": "To the infused oil, add the Doubanjiang and chopped fermented black beans. Stir-fry for 2-3 minutes until the oil turns red and the paste is fragrant. Add the minced garlic and ginger, and stir-fry for another minute until aromatic."
+        "name": "Build the Sauce Base",
+        "text": "Pour in the vegetable broth, light soy sauce, and sugar. Bring the mixture to a gentle simmer, stirring to combine all the flavors. Taste and adjust seasoning if necessary; the sauce should be savory with a good kick."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Sauce",
-        "text": "Pour in the vegetable broth. Add the light soy sauce and sugar. Bring the mixture to a gentle simmer, stirring to combine all the flavors. Taste and adjust seasonings if necessary, aiming for a balance of spicy, savory, and slightly sweet."
+        "name": "Add Tofu and Simmer",
+        "text": "Carefully add the blanched tofu cubes to the simmering sauce. Gently fold them into the sauce, being careful not to break the delicate tofu. Allow the tofu to simmer in the sauce for 5-7 minutes, letting it absorb the rich flavors."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Tofu and Thicken",
-        "text": "Gently add the blanched tofu cubes to the simmering sauce. Allow the tofu to warm through for about 2-3 minutes, absorbing the flavors. Stir the cornstarch slurry once more, then slowly pour it into the wok while stirring continuously until the sauce thickens to your desired consistency."
+        "name": "Thicken the Sauce",
+        "text": "Stir the cornstarch slurry well, then slowly pour it into the simmering tofu mixture while gently stirring. Continue to stir until the sauce thickens to your desired consistency, typically a glossy, slightly viscous texture that coats the tofu. If it becomes too thick, add a splash more broth."
       },
       {
         "@type": "HowToStep",
-        "name": "Garnish and Serve",
-        "text": "Once the sauce is thick and glossy, remove the wok from the heat. Transfer the Mapo Tofu to a serving dish. Garnish generously with chopped fresh scallions. Serve immediately with steamed white rice for a truly authentic Chinese meal."
+        "name": "Finish and Serve",
+        "text": "Remove the wok from the heat. Sprinkle generously with freshly ground Sichuan peppercorns and chopped scallions. Serve immediately with steamed white rice. The numbing sensation from the peppercorns should be prominent."
       }
     ]
   },
-  "publishedAt": "2026-04-16T03:30:37.804Z"
+  "publishedAt": "2026-05-26T10:31:03.444Z"
 }
