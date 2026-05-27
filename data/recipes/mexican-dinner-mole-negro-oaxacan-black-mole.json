@@ -7,348 +7,305 @@
   "category": "dinner",
   "categoryName": "Dinner Recipes",
   "categoryIcon": "🍽️",
-  "prepTime": "1 hour 15 min",
-  "cookTime": "3 hours 30 min",
-  "totalTime": "4 hours 45 min",
+  "seo": {
+    "title": "How to Make Mole Negro Oaxacan Black Mole — Easy Mexican Recipe",
+    "metaDescription": "Learn how to make authentic Mole Negro Oaxacan Black Mole. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "mexican-dinner-mole-negro-oaxacan-black-mole",
+    "mainKeyword": "Mole Negro Oaxacan Black Mole",
+    "longTailKeywords": [
+      "how to make Mole Negro Oaxacan Black Mole",
+      "easy Mole Negro Oaxacan Black Mole recipe",
+      "authentic Mexican Mole Negro Oaxacan Black Mole"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Mole Negro Oaxacan Black Mole",
+      "Mexican Mole Negro Oaxacan Black Mole recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Mole Negro Oaxacan Black Mole Recipe",
+    "h2Headings": [
+      "What is Mole Negro Oaxacan Black Mole?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "mexican-dinner-mole-negro-oaxacan-black-mole.jpg",
+    "imageAlt": "Authentic Mexican Mole Negro Oaxacan Black Mole recipe",
+    "imageCaption": "Delicious homemade Mole Negro Oaxacan Black Mole — a beloved Mexican classic",
+    "internalLinks": [
+      {
+        "anchor": "Dinner Recipes",
+        "url": "/categories/dinner"
+      },
+      {
+        "anchor": "Mexican Recipes",
+        "url": "/countries/mexican"
+      }
+    ]
+  },
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 6,
-  "difficulty": "Hard",
+  "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.pexels.com/photos/33703911/pexels-photo-33703911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/19253924/pexels-photo-19253924.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Mole Negro is the crown jewel of Oaxacan cuisine, a rich, complex, and deeply flavorful black mole renowned for its intricate balance of smoky chiles, aromatic spices, nuts, seeds, and bittersweet chocolate. This labor of love yields a velvety, dark sauce with layers of sweet, savory, and subtly spicy notes, perfect for special occasions.",
+  "image1": "https://images.unsplash.com/photo-1722239319419-915885c73213?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNb2xlJTIwTmVncm8lMjBPYXhhY2FuJTIwTWV4aWNhbiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc5ODc2MDQyfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1719671060216-cf2dcb8d10c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNb2xlJTIwTmVncm8lMjBPYXhhY2FuJTIwTWV4aWNhbiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc5ODc2MDQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Mole Negro Oaxacan Black Mole is a rich and complex sauce, a true culinary masterpiece from Oaxaca, Mexico. Its deep, smoky flavor comes from a blend of dried chiles, spices, nuts, and a hint of chocolate. This traditional dish is often served with chicken or turkey, offering an unforgettable taste of Mexican heritage.",
   "ingredients": [
     {
-      "item": "Ancho Chiles",
+      "item": "Ancho chiles",
       "amount": "6",
-      "notes": "Dried"
+      "notes": "stems and seeds removed"
     },
     {
-      "item": "Mulato Chiles",
-      "amount": "6",
-      "notes": "Dried"
-    },
-    {
-      "item": "Pasilla Chiles",
+      "item": "Mulato chiles",
       "amount": "4",
-      "notes": "Dried, specifically Pasilla Oaxaca if available, otherwise regular Pasilla"
+      "notes": "stems and seeds removed"
     },
     {
-      "item": "Chipotle Chiles",
-      "amount": "2",
-      "notes": "Dried, for a smoky kick"
+      "item": "Pasilla chiles",
+      "amount": "3",
+      "notes": "stems and seeds removed"
+    },
+    {
+      "item": "Tomatoes",
+      "amount": "2 medium",
+      "notes": "quartered"
     },
     {
       "item": "Tomatillos",
+      "amount": "4 medium",
+      "notes": "husks removed, halved"
+    },
+    {
+      "item": "White onion",
+      "amount": "1/2",
+      "notes": "roughly chopped"
+    },
+    {
+      "item": "Garlic cloves",
       "amount": "4",
-      "notes": "Husks removed, rinsed"
-    },
-    {
-      "item": "Roma Tomatoes",
-      "amount": "2",
-      "notes": "Halved"
-    },
-    {
-      "item": "White Onion",
-      "amount": "1/2",
-      "notes": "Roughly chopped"
-    },
-    {
-      "item": "Garlic Cloves",
-      "amount": "6",
-      "notes": "Peeled"
-    },
-    {
-      "item": "Plantain",
-      "amount": "1",
-      "notes": "Ripe, sliced into rounds"
-    },
-    {
-      "item": "Stale Tortillas",
-      "amount": "3",
-      "notes": "Corn tortillas, torn"
-    },
-    {
-      "item": "Bolillo or Telera Bread",
-      "amount": "1/2",
-      "notes": "Stale, torn"
+      "notes": "unpeeled"
     },
     {
       "item": "Almonds",
-      "amount": "1/4 cup"
-    },
-    {
-      "item": "Peanuts",
       "amount": "1/4 cup",
-      "notes": "Unsalted"
+      "notes": ""
     },
     {
-      "item": "Pumpkin Seeds",
-      "amount": "2 tbsp",
-      "notes": "Pepitas"
+      "item": "Sesame seeds",
+      "amount": "2 tablespoons",
+      "notes": ""
     },
     {
-      "item": "Sesame Seeds",
-      "amount": "2 tbsp"
+      "item": "Plantain",
+      "amount": "1/2",
+      "notes": "ripe, sliced"
     },
     {
-      "item": "Raisins",
-      "amount": "1/4 cup"
+      "item": "Corn tortillas",
+      "amount": "2",
+      "notes": "torn into pieces"
     },
     {
-      "item": "Prunes",
-      "amount": "4-5",
-      "notes": "Pitted"
+      "item": "Mexican chocolate",
+      "amount": "50g",
+      "notes": "tablet, roughly chopped"
     },
     {
-      "item": "Mexican Chocolate",
-      "amount": "50g (1.7 oz)",
-      "notes": "Tableta de chocolate, bittersweet"
+      "item": "Cinnamon stick",
+      "amount": "1 small",
+      "notes": ""
     },
     {
-      "item": "Lard (Manteca)",
-      "amount": "1/2 cup",
-      "notes": "Or vegetable oil"
+      "item": "Cloves",
+      "amount": "3 whole",
+      "notes": ""
     },
     {
-      "item": "Chicken Broth",
-      "amount": "6-8 cups",
-      "notes": "Hot"
+      "item": "Black peppercorns",
+      "amount": "1/2 teaspoon",
+      "notes": ""
     },
     {
-      "item": "Mexican Cinnamon Stick",
-      "amount": "1 (3-inch piece)",
-      "notes": "Canela"
+      "item": "Cumin seeds",
+      "amount": "1/2 teaspoon",
+      "notes": ""
     },
     {
-      "item": "Whole Cloves",
-      "amount": "5"
+      "item": "Oregano",
+      "amount": "1/2 teaspoon",
+      "notes": "dried Mexican"
     },
     {
-      "item": "Black Peppercorns",
-      "amount": "1 tsp"
+      "item": "Chicken broth",
+      "amount": "4 cups",
+      "notes": "or vegetable broth"
     },
     {
-      "item": "Cumin Seeds",
-      "amount": "1/2 tsp"
+      "item": "Lard or vegetable oil",
+      "amount": "2 tablespoons",
+      "notes": ""
     },
     {
-      "item": "Coriander Seeds",
-      "amount": "1/2 tsp"
-    },
-    {
-      "item": "Anise Seeds",
-      "amount": "1/4 tsp"
-    },
-    {
-      "item": "Dried Thyme",
-      "amount": "1/2 tsp"
-    },
-    {
-      "item": "Dried Marjoram",
-      "amount": "1/2 tsp"
-    },
-    {
-      "item": "Dried Mexican Oregano",
-      "amount": "1/2 tsp"
-    },
-    {
-      "item": "Salt",
-      "amount": "to taste"
-    },
-    {
-      "item": "Sugar",
-      "amount": "1-2 tsp",
-      "notes": "Optional, to balance flavor"
+      "item": "Cooked chicken pieces",
+      "amount": "6",
+      "notes": "for serving"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare and Rehydrate the Chiles",
-      "text": "Heat a comal or heavy skillet over medium-low heat. Toast each dried chile (ancho, mulato, pasilla, chipotle) individually for 15-30 seconds per side, until fragrant but not burnt. Remove stems and seeds. Place toasted chiles in a bowl, cover with boiling hot water, and let them rehydrate for at least 20-30 minutes, until soft. Drain, reserving some soaking liquid.",
-      "time": "40 min"
-    },
-    {
-      "step": 2,
-      "title": "Toast Nuts, Seeds, and Spices",
-      "text": "In the same dry skillet, toast almonds, peanuts, pumpkin seeds, and sesame seeds separately until lightly golden and fragrant. Remove and set aside. Then, toast the whole spices (cinnamon stick, cloves, peppercorns, cumin seeds, coriander seeds, anise seeds) until aromatic, about 1-2 minutes. Grind the toasted whole spices along with the dried thyme, marjoram, and oregano in a molcajete or spice grinder until finely powdered. Set aside.",
-      "time": "15 min"
-    },
-    {
-      "step": 3,
-      "title": "Fry Aromatics and Thickeners",
-      "text": "Heat 1/4 cup of lard (or oil) in a large Dutch oven or heavy pot over medium heat. Fry the chopped onion and garlic until softened and lightly browned, about 5-7 minutes. Add the halved tomatoes and tomatillos, cooking until softened and slightly charred, about 8-10 minutes. Remove vegetables and set aside. In the same pot, add a little more lard if needed, then fry the plantain slices until golden brown. Remove and set aside. Next, fry the torn stale tortillas and bread until crispy. Remove and set aside. Lastly, quickly fry the raisins and prunes for about 1 minute until plump. Remove and set aside.",
+      "title": "Prepare and Toast the Chiles",
+      "text": "Heat a dry comal or skillet over medium heat. Toast the ancho, mulato, and pasilla chiles for 1-2 minutes per side until fragrant but not burnt. Immediately transfer them to a bowl, cover with hot water, and let them rehydrate for 20-30 minutes until soft. Drain and reserve the soaking liquid.",
       "time": "30 min"
     },
     {
+      "step": 2,
+      "title": "Roast Aromatics and Vegetables",
+      "text": "On the same comal or skillet, roast the tomatoes, tomatillos, onion, and unpeeled garlic cloves until softened and lightly charred. Peel the garlic. Set aside.",
+      "time": "10 min"
+    },
+    {
+      "step": 3,
+      "title": "Toast Nuts, Seeds, and Spices",
+      "text": "In a clean, dry skillet, toast the almonds and sesame seeds separately until golden. Remove. Then, toast the cinnamon stick, whole cloves, peppercorns, cumin seeds, and dried oregano until fragrant, about 1-2 minutes. Be careful not to burn them. Set aside.",
+      "time": "5 min"
+    },
+    {
       "step": 4,
-      "title": "Assemble and Grind the Mole Paste",
-      "text": "Combine all the prepared ingredients: rehydrated chiles, toasted nuts and seeds, fried vegetables (onion, garlic, tomatoes, tomatillos), fried plantain, fried tortillas and bread, fried raisins and prunes, and the ground spices. Working in batches, blend these ingredients with enough hot chicken broth (and some reserved chile soaking liquid if needed) until a very smooth, thick paste forms. This may take several minutes per batch. Strain the paste through a fine-mesh sieve or colander to remove any remaining chile skins or fibrous bits, pushing through with a spoon. This step is crucial for a smooth mole.",
-      "time": "45 min"
+      "title": "Fry Plantain and Tortillas",
+      "text": "In a small amount of lard or oil, fry the sliced plantain until golden brown. Remove. Then, lightly fry the torn corn tortillas until crisp. This adds body and richness to the mole. Remove and set aside.",
+      "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Cook the Mole Base",
-      "text": "Heat the remaining 1/4 cup of lard (or oil) in the same Dutch oven over medium heat. Carefully add the strained mole paste, stirring constantly to prevent sticking. This is a critical step, as the mole must 'fry' for at least 20-30 minutes, stirring frequently, until it darkens significantly and thickens, reducing in volume. This frying develops the deep flavors. Gradually stir in 4-5 cups of hot chicken broth, a little at a time, until the mole reaches a desired consistency (like a thick soup). Add the Mexican chocolate, stirring until it is completely melted and incorporated.",
-      "time": "45 min"
+      "title": "Blend the Mole Base",
+      "text": "Combine the rehydrated chiles, roasted tomatoes, tomatillos, onion, peeled garlic, toasted almonds, sesame seeds, fried plantain, fried tortillas, toasted spices, and chopped Mexican chocolate in a blender. Add 2 cups of chicken broth and blend until very smooth. You may need to do this in batches. Strain the mixture through a fine-mesh sieve into a large bowl, pressing down to extract all liquid and pulp. Discard any solids left in the sieve.",
+      "time": "15 min"
     },
     {
       "step": 6,
-      "title": "Simmer and Season",
-      "text": "Reduce heat to low and simmer the mole, uncovered, for at least 1.5 to 2 hours, stirring occasionally to prevent scorching. The mole will continue to darken and its flavors will meld and deepen. If it becomes too thick, add more hot chicken broth, a little at a time, until it reaches your desired consistency. Season generously with salt to taste. If the mole is too bitter or acidic, a pinch or two of sugar can be added to balance the flavors. The mole should be rich, velvety, and balanced.",
-      "time": "2 hours"
-    },
-    {
-      "step": 7,
-      "title": "Final Touches and Serving",
-      "text": "Once the mole has simmered sufficiently and the flavors are perfectly balanced, it's ready to serve. Traditionally, Mole Negro is served with tender pieces of cooked chicken or turkey, rice, and warm corn tortillas. Garnish with a sprinkle of toasted sesame seeds if desired. The mole's flavor will often improve the next day, making it an excellent dish to prepare in advance.",
-      "time": "10 min"
+      "title": "Simmer the Mole Sauce",
+      "text": "Heat the remaining 2 tablespoons of lard or oil in a large pot or Dutch oven over medium heat. Pour in the strained mole sauce. Bring to a simmer, then reduce heat to low. Cook for at least 30-40 minutes, stirring frequently to prevent sticking, until the mole has thickened and deepened in color and flavor. Add more chicken broth or reserved chile soaking liquid if the mole becomes too thick. Season with salt to taste. Serve hot over cooked chicken pieces, garnished with extra sesame seeds and fresh cilantro.",
+      "time": "40 min"
     }
   ],
   "nutritionTable": {
-    "calories": "480 kcal",
-    "protein": "20g",
-    "carbs": "55g",
-    "fat": "25g",
-    "fiber": "10g",
-    "sugar": "12g",
-    "sodium": "750mg",
-    "cholesterol": "40mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Mexican",
+    "Mole Negro",
     "Oaxacan",
     "authentic",
     "traditional",
     "dinner",
-    "mole",
-    "gourmet"
+    "chicken",
+    "sauce"
   ],
   "tips": [
-    "**Chile Selection:** For the most authentic flavor, seek out Chilhuacle Negro chiles, though they are rare outside of Oaxaca. The combination of Ancho, Mulato, and Pasilla Oaxaca is a superb and more accessible alternative.",
-    "**Thorough Blending & Straining:** Do not skip the straining step. A truly authentic Mole Negro has a silky smooth texture, which is achieved by passing the blended paste through a fine-mesh sieve or a chino.",
-    "**The 'Frying' of the Mole:** The initial frying of the mole paste in lard is crucial. This process, known as 'sazonar' or 'freír la pasta', cooks out the raw flavors of the chiles and spices, intensifying and darkening the mole's color and depth of flavor.",
-    "**Patience is Key:** Mole Negro is a labor of love. The long simmering time allows all the complex flavors to meld and mature. Don't rush it; the extra time is well worth it for an unparalleled depth of taste."
+    "For a truly authentic flavor, seek out good quality Mexican dried chiles and Mexican chocolate. The quality of your ingredients significantly impacts the final taste.",
+    "Do not skip the straining step; it ensures a silky-smooth mole. If your blender is very powerful, you might get away with a coarser strain or no strain, but traditional mole is smooth.",
+    "Mole Negro improves with age. Make it a day ahead and gently reheat it for even deeper, more complex flavors. Store leftovers in an airtight container in the refrigerator for up to 3-4 days, or freeze for longer storage."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Mole Negro Oaxacan Black Mole\n\nMole Negro is arguably the most iconic and revered of Oaxaca's seven moles, often referred to as 'the king of moles.' Its origins are deeply rooted in pre-Hispanic culinary traditions, with ancient Mesoamerican peoples already combining chiles, seeds, and spices. The arrival of the Spanish introduced new ingredients like nuts, dried fruits, and chocolate, which were gradually incorporated to create the complex sauce we know today. Monasteries in colonial Mexico are often credited with refining many mole recipes, including Mole Negro, as nuns had access to a wide array of ingredients and the leisure to experiment. This mole represents a culinary fusion, blending indigenous ingredients and techniques with European additions, resulting in a dish of profound cultural and historical significance.\n\n## Why This Recipe Works\n\nThis recipe achieves its authentic depth by meticulously layering flavors through distinct preparation stages. Toasting the chiles, nuts, and spices individually maximizes their aromatic potential without burning. Frying the vegetables, fruits, and starches (like plantain and tortillas) adds rich, caramelized notes and acts as a natural thickener. The painstaking process of blending and straining ensures an incredibly smooth, luxurious texture. Crucially, the long 'frying' of the mole paste in lard, followed by an extended simmer, allows the myriad ingredients to meld into a harmonious, complex sauce where no single flavor dominates, but rather a symphony of smoky, sweet, savory, and earthy notes emerges. The bittersweet Mexican chocolate provides the iconic dark color and a balancing counterpoint to the chiles and spices.\n\n## Chef Tips for Perfection\n\nTo elevate your Mole Negro, always use fresh, high-quality dried chiles; older chiles will lack flavor. While the recipe specifies common chiles, if you can source Chilhuacle Negro chiles, they are the cornerstone of true Oaxacan Mole Negro and will significantly impact the flavor profile. Don't underestimate the importance of the initial frying of the mole paste; this step develops the deep, rich color and profound taste. Use a heavy-bottomed pot to prevent scorching during the long simmer, and stir frequently. Adjust the consistency with hot chicken broth gradually, aiming for a thick, velvety sauce that coats the back of a spoon. Taste and adjust seasoning often; a touch of sugar can balance bitterness, and salt is vital to bring out all the nuanced flavors.\n\n## Serving Suggestions\n\nMole Negro is traditionally served with poultry, most commonly chicken or turkey, often poached or roasted until tender. Shredded chicken bathed in the mole sauce, accompanied by fluffy white rice to absorb the rich flavors, is a classic presentation. For a truly Oaxacan experience, serve with warm, freshly made corn tortillas, which are perfect for scooping up every last drop of the exquisite sauce. It can also be served with pork, particularly slow-cooked carnitas, or even as a vegetarian option over roasted vegetables or tamales. Garnish with a sprinkle of toasted sesame seeds for added texture and visual appeal, and perhaps a sprig of fresh cilantro.",
-  "publishedAt": "2026-04-06T06:30:32.592Z",
-  "jsonLd": {
+  "article": "Embark on a culinary journey to the heart of Mexico, where flavors tell stories of ancient traditions, vibrant cultures, and unparalleled passion. Among the many treasures of Mexican gastronomy, one dish stands supreme, a testament to culinary complexity and profound heritage: Mole Negro Oaxacan Black Mole. More than just a sauce, it's an experience, a celebration, and a cornerstone of authentic Mexican dinner recipes. This article will guide you through the intricate world of this iconic dish, from its rich history to practical tips for bringing its magic into your own kitchen. Prepare to discover why Mole Negro Oaxacan Black Mole is not just food, but a piece of edible art.\n\n## What is Mole Negro Oaxacan Black Mole?\n\nMole Negro Oaxacan Black Mole is widely considered the king of moles, a deeply complex and intensely flavorful sauce originating from the state of Oaxaca, Mexico. The term \"mole\" itself refers to a variety of thick, rich sauces, but the \"negro\" (black) variety is distinguished by its characteristic dark hue and an unparalleled depth of flavor. This darkness comes from a meticulous process of charring and toasting a multitude of ingredients, most notably several types of dried chiles, alongside nuts, seeds, spices, fruits, and chocolate.\n\nUnlike simpler sauces, an authentic Mole Negro Oaxacan Black Mole can contain upwards of 20 to 30 ingredients, each contributing a unique note to a symphony of tastes: smoky, sweet, spicy, earthy, and savory all at once. It’s a sauce that balances the heat of chiles with the sweetness of fruits, the richness of nuts, and the subtle bitterness of chocolate, all harmoniously blended. Traditionally reserved for significant celebrations, weddings, and holidays, this mole is a labor of love, a culinary masterpiece that embodies the spirit and soul of Oaxacan cuisine. Its incredible depth makes it a truly unforgettable component of any Mexican dinner recipes repertoire.\n\n## Ingredients You Need\n\nCreating Mole Negro Oaxacan Black Mole is a commitment, but the reward is immeasurable. The ingredient list might seem daunting, but it's the sheer variety that builds its profound flavor profile. Here are the categories and key components you'll need:\n\n*   **Dried Chiles:** This is the heart of the mole. You'll need a combination of black, mild, and medium-hot chiles. Essential varieties include Mulato, Pasilla Oaxaca, Ancho, and Chilhuacle Negro (if you can find them, as they are specific to Oaxaca and highly prized for their smoky, fruity notes).\n*   **Aromatics:** White onion and garlic are fundamental for building the base flavor.\n*   **Spices:** Aromatic spices like cinnamon sticks, cloves, whole black peppercorns, cumin seeds, and sometimes coriander seeds are crucial for warmth and complexity.\n*   **Nuts & Seeds:** Almonds, peanuts, and sesame seeds provide richness, texture, and a nutty depth.\n*   **Thickeners & Binders:** Stale tortillas or bread (like bolillo or French bread) are toasted to thicken the sauce.\n*   **Fruits:** Plantain (ripe), raisins, and sometimes prunes or apricots add a natural sweetness and depth.\n*   **Tomatoes & Tomatillos:** These provide acidity and a fresh, fruity counterpoint.\n*   **Chocolate:** Authentic Mexican chocolate (often containing cinnamon and sugar) or unsweetened cocoa powder is essential for its unique bitterness and richness, balancing the other flavors.\n*   **Broth:** Chicken or vegetable broth will be used to achieve the desired consistency and add flavor.\n*   **Lard or Vegetable Oil:** For frying the paste and developing its final rich texture.\n*   **Salt and Sugar:** To season and balance the final product.\n\nThe quality of each ingredient will directly impact the final flavor of your Mole Negro Oaxacan Black Mole, so choose wisely!\n\n## Step-by-Step Instructions\n\nWhile a full recipe would span pages, understanding the general process for Mole Negro Oaxacan Black Mole illuminates its complexity and beauty. It’s a multi-stage endeavor that demands patience and attention.\n\n1.  **Prepare the Chiles:** Begin by removing stems and seeds from the dried chiles. Toast them carefully on a comal or dry pan until fragrant, taking care not to burn them, as this will result in bitterness. Rehydrate the toasted chiles in hot water until softened.\n2.  **Toast & Fry Other Ingredients:** In batches, toast the nuts, seeds, and spices until aromatic. Separately, lightly fry the sliced plantain, raisins, and pieces of tortilla or bread until golden. Sauté the onion, garlic, tomatoes, and tomatillos until softened and slightly charred.\n3.  **Grind to a Paste:** Drain the rehydrated chiles (reserving some liquid). Combine all the toasted, fried, and sautéed ingredients in a blender with a little broth or reserved chile liquid. Blend until you achieve a very smooth, fine paste. This may require multiple blending cycles and pushing the paste through a fine-mesh sieve for ultimate smoothness, a crucial step for authentic Mole Negro Oaxacan Black Mole.\n4.  **Fry the Paste:** This is a critical step for flavor development. Heat a generous amount of lard or oil in a large, heavy pot or Dutch oven. Carefully add the mole paste, stirring constantly. It will sputter vigorously, so be cautious. Fry the paste for at least 15-20 minutes, stirring, until it darkens further, thickens, and releases its oils. This \"frying\" or \"sazonar\" process deepens the flavor profoundly.\n5.  **Simmer with Broth and Chocolate:** Gradually add hot chicken or vegetable broth to the fried paste, stirring continuously to prevent lumps. Add the Mexican chocolate or cocoa powder, stirring until it dissolves completely.\n6.  **Slow Cook:** Bring the mole to a gentle simmer. Cook it slowly over low heat for at least 1 to 2 hours, or even longer, stirring occasionally. This long simmer allows the flavors to meld and deepen beautifully. Season with salt and a pinch of sugar to taste, adjusting the consistency with more broth if needed. The Mole Negro Oaxacan Black Mole should be thick enough to coat the back of a spoon.\n\n## Pro Tips for the Best Results\n\nCrafting the perfect Mole Negro Oaxacan Black Mole is an art form. Here are some pro tips to elevate your creation:\n\n*   **Quality Ingredients:** Always start with the freshest, highest-quality chiles, spices, and produce. Subpar ingredients will result in a subpar mole.\n*   **Don't Burn:** When toasting chiles, nuts, and spices, watch them like a hawk. Burning even a small amount can impart a bitter, acrid taste to the entire mole.\n*   **Blend Thoroughly:** The smoothness of the mole is paramount. A high-speed blender is ideal, and don't skip the straining step if you want that silky texture.\n*   **Fry the Paste Properly:** The \"sazonar\" stage is not just cooking; it's transforming. Frying the paste thoroughly develops its depth, color, and aroma. Be patient and stir constantly.\n*   **Balance is Key:** Taste frequently. Mole Negro Oaxacan Black Mole thrives on a perfect balance of sweet, spicy, savory, and smoky. Adjust with salt, a pinch of sugar, or even a splash of vinegar if needed.\n*   **Make Ahead:** Mole tastes even better the next day, as the flavors continue to meld. It also freezes exceptionally well.\n\n## Serving Suggestions\n\nOnce your Mole Negro Oaxacan Black Mole is perfected, the serving possibilities are endless, making it a versatile star among Mexican dinner recipes.\n\n*   **Traditional:** The most classic pairing is with roasted or braised turkey or chicken. The rich sauce beautifully complements the poultry.\n*   **Other Meats:** It also pairs wonderfully with pork (carnitas, loin), duck, or even rich cuts of beef.\n*   **Vegetarian Delights:** For a vegetarian option, spoon it over roasted vegetables like sweet potatoes or zucchini, or use it to make vegetarian enchiladas or tamales.\n*   **Sides:** Always serve with fluffy white rice to soak up every drop of that glorious sauce, and a stack of warm, fresh corn tortillas are a must.\n*   **Garnish:** A sprinkle of toasted sesame seeds or fresh cilantro adds a touch of freshness and visual appeal.\n\n## Variations and Substitutions\n\nWhile Mole Negro Oaxacan Black Mole is a specific creation, the world of mole is vast. If specific ingredients are hard to come by, or you want to explore further:\n\n*   **Chile Substitutions:** If Chilhuacle Negro chiles are unavailable, increase the quantities of Pasilla Oaxaca or Ancho chiles, or add a very small amount of smoked paprika for a hint of smokiness.\n*   **Nut-Free:** For those with nut allergies, increase the amount of sesame seeds, or use pumpkin seeds (pepitas) as a primary thickener.\n*   **Other Moles:** Explore other Oaxacan moles like Mole Amarillo (yellow), Mole Verde (green), Mole Colorado (red), or Mole Chichilo. Each offers a distinct flavor profile.\n*   **Vegetarian Broth:** Easily substitute chicken broth with a good quality vegetable broth to keep the dish vegetarian.\n\nCreating Mole Negro Oaxacan Black Mole is a profound culinary experience, connecting you to generations of Mexican tradition. It’s a dish that demands respect, patience, and love, but rewards you with an explosion of flavors that will forever change your perception of Mexican dinner recipes. Don't be intimidated by its complexity; embrace the journey, and savor every magnificent spoonful of this Oaxacan masterpiece.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Mole Negro Oaxacan Black Mole",
-    "description": "Mole Negro is the crown jewel of Oaxacan cuisine, a rich, complex, and deeply flavorful black mole renowned for its intricate balance of smoky chiles, aromatic spices, nuts, seeds, and bittersweet chocolate. This labor of love yields a velvety, dark sauce with layers of sweet, savory, and subtly spicy notes, perfect for special occasions.",
+    "description": "Learn how to make authentic Mole Negro Oaxacan Black Mole. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/33703911/pexels-photo-33703911.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/19253924/pexels-photo-19253924.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1722239319419-915885c73213?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNb2xlJTIwTmVncm8lMjBPYXhhY2FuJTIwTWV4aWNhbiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc5ODc2MDQyfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1719671060216-cf2dcb8d10c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNb2xlJTIwTmVncm8lMjBPYXhhY2FuJTIwTWV4aWNhbiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzc5ODc2MDQyfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-06T06:30:32.592Z",
-    "prepTime": "PT115M",
-    "cookTime": "PT330M",
-    "totalTime": "PT445M",
+    "datePublished": "2026-05-27T10:01:15.642Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "6 servings",
     "recipeCategory": "Dinner Recipes",
     "recipeCuisine": "Mexican",
-    "keywords": "Mexican, Mexican, authentic, traditional, dinner, Mexican, Oaxacan, authentic, traditional, dinner, mole, gourmet",
+    "keywords": "Mole Negro Oaxacan Black Mole, how to make Mole Negro Oaxacan Black Mole, easy Mole Negro Oaxacan Black Mole recipe, authentic Mexican Mole Negro Oaxacan Black Mole",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "480 calories",
-      "proteinContent": "20g",
-      "carbohydrateContent": "55g",
-      "fatContent": "25g",
-      "fiberContent": "10g",
-      "sugarContent": "12g",
-      "sodiumContent": "750mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "6 Ancho Chiles (Dried)",
-      "6 Mulato Chiles (Dried)",
-      "4 Pasilla Chiles (Dried, specifically Pasilla Oaxaca if available, otherwise regular Pasilla)",
-      "2 Chipotle Chiles (Dried, for a smoky kick)",
-      "4 Tomatillos (Husks removed, rinsed)",
-      "2 Roma Tomatoes (Halved)",
-      "1/2 White Onion (Roughly chopped)",
-      "6 Garlic Cloves (Peeled)",
-      "1 Plantain (Ripe, sliced into rounds)",
-      "3 Stale Tortillas (Corn tortillas, torn)",
-      "1/2 Bolillo or Telera Bread (Stale, torn)",
+      "6 Ancho chiles",
+      "4 Mulato chiles",
+      "3 Pasilla chiles",
+      "2 medium Tomatoes",
+      "4 medium Tomatillos",
+      "1/2 White onion",
+      "4 Garlic cloves",
       "1/4 cup Almonds",
-      "1/4 cup Peanuts (Unsalted)",
-      "2 tbsp Pumpkin Seeds (Pepitas)",
-      "2 tbsp Sesame Seeds",
-      "1/4 cup Raisins",
-      "4-5 Prunes (Pitted)",
-      "50g (1.7 oz) Mexican Chocolate (Tableta de chocolate, bittersweet)",
-      "1/2 cup Lard (Manteca) (Or vegetable oil)",
-      "6-8 cups Chicken Broth (Hot)",
-      "1 (3-inch piece) Mexican Cinnamon Stick (Canela)",
-      "5 Whole Cloves",
-      "1 tsp Black Peppercorns",
-      "1/2 tsp Cumin Seeds",
-      "1/2 tsp Coriander Seeds",
-      "1/4 tsp Anise Seeds",
-      "1/2 tsp Dried Thyme",
-      "1/2 tsp Dried Marjoram",
-      "1/2 tsp Dried Mexican Oregano",
-      "to taste Salt",
-      "1-2 tsp Sugar (Optional, to balance flavor)"
+      "2 tablespoons Sesame seeds",
+      "1/2 Plantain",
+      "2 Corn tortillas",
+      "50g Mexican chocolate",
+      "1 small Cinnamon stick",
+      "3 whole Cloves",
+      "1/2 teaspoon Black peppercorns",
+      "1/2 teaspoon Cumin seeds",
+      "1/2 teaspoon Oregano",
+      "4 cups Chicken broth",
+      "2 tablespoons Lard or vegetable oil",
+      "6 Cooked chicken pieces"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare and Rehydrate the Chiles",
-        "text": "Heat a comal or heavy skillet over medium-low heat. Toast each dried chile (ancho, mulato, pasilla, chipotle) individually for 15-30 seconds per side, until fragrant but not burnt. Remove stems and seeds. Place toasted chiles in a bowl, cover with boiling hot water, and let them rehydrate for at least 20-30 minutes, until soft. Drain, reserving some soaking liquid.",
-        "timeRequired": "PT40M"
+        "name": "Prepare and Toast the Chiles",
+        "text": "Heat a dry comal or skillet over medium heat. Toast the ancho, mulato, and pasilla chiles for 1-2 minutes per side until fragrant but not burnt. Immediately transfer them to a bowl, cover with hot water, and let them rehydrate for 20-30 minutes until soft. Drain and reserve the soaking liquid."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Roast Aromatics and Vegetables",
+        "text": "On the same comal or skillet, roast the tomatoes, tomatillos, onion, and unpeeled garlic cloves until softened and lightly charred. Peel the garlic. Set aside."
       },
       {
         "@type": "HowToStep",
         "name": "Toast Nuts, Seeds, and Spices",
-        "text": "In the same dry skillet, toast almonds, peanuts, pumpkin seeds, and sesame seeds separately until lightly golden and fragrant. Remove and set aside. Then, toast the whole spices (cinnamon stick, cloves, peppercorns, cumin seeds, coriander seeds, anise seeds) until aromatic, about 1-2 minutes. Grind the toasted whole spices along with the dried thyme, marjoram, and oregano in a molcajete or spice grinder until finely powdered. Set aside.",
-        "timeRequired": "PT15M"
+        "text": "In a clean, dry skillet, toast the almonds and sesame seeds separately until golden. Remove. Then, toast the cinnamon stick, whole cloves, peppercorns, cumin seeds, and dried oregano until fragrant, about 1-2 minutes. Be careful not to burn them. Set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Fry Aromatics and Thickeners",
-        "text": "Heat 1/4 cup of lard (or oil) in a large Dutch oven or heavy pot over medium heat. Fry the chopped onion and garlic until softened and lightly browned, about 5-7 minutes. Add the halved tomatoes and tomatillos, cooking until softened and slightly charred, about 8-10 minutes. Remove vegetables and set aside. In the same pot, add a little more lard if needed, then fry the plantain slices until golden brown. Remove and set aside. Next, fry the torn stale tortillas and bread until crispy. Remove and set aside. Lastly, quickly fry the raisins and prunes for about 1 minute until plump. Remove and set aside.",
-        "timeRequired": "PT30M"
+        "name": "Fry Plantain and Tortillas",
+        "text": "In a small amount of lard or oil, fry the sliced plantain until golden brown. Remove. Then, lightly fry the torn corn tortillas until crisp. This adds body and richness to the mole. Remove and set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Assemble and Grind the Mole Paste",
-        "text": "Combine all the prepared ingredients: rehydrated chiles, toasted nuts and seeds, fried vegetables (onion, garlic, tomatoes, tomatillos), fried plantain, fried tortillas and bread, fried raisins and prunes, and the ground spices. Working in batches, blend these ingredients with enough hot chicken broth (and some reserved chile soaking liquid if needed) until a very smooth, thick paste forms. This may take several minutes per batch. Strain the paste through a fine-mesh sieve or colander to remove any remaining chile skins or fibrous bits, pushing through with a spoon. This step is crucial for a smooth mole.",
-        "timeRequired": "PT45M"
+        "name": "Blend the Mole Base",
+        "text": "Combine the rehydrated chiles, roasted tomatoes, tomatillos, onion, peeled garlic, toasted almonds, sesame seeds, fried plantain, fried tortillas, toasted spices, and chopped Mexican chocolate in a blender. Add 2 cups of chicken broth and blend until very smooth. You may need to do this in batches. Strain the mixture through a fine-mesh sieve into a large bowl, pressing down to extract all liquid and pulp. Discard any solids left in the sieve."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook the Mole Base",
-        "text": "Heat the remaining 1/4 cup of lard (or oil) in the same Dutch oven over medium heat. Carefully add the strained mole paste, stirring constantly to prevent sticking. This is a critical step, as the mole must 'fry' for at least 20-30 minutes, stirring frequently, until it darkens significantly and thickens, reducing in volume. This frying develops the deep flavors. Gradually stir in 4-5 cups of hot chicken broth, a little at a time, until the mole reaches a desired consistency (like a thick soup). Add the Mexican chocolate, stirring until it is completely melted and incorporated.",
-        "timeRequired": "PT45M"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Simmer and Season",
-        "text": "Reduce heat to low and simmer the mole, uncovered, for at least 1.5 to 2 hours, stirring occasionally to prevent scorching. The mole will continue to darken and its flavors will meld and deepen. If it becomes too thick, add more hot chicken broth, a little at a time, until it reaches your desired consistency. Season generously with salt to taste. If the mole is too bitter or acidic, a pinch or two of sugar can be added to balance the flavors. The mole should be rich, velvety, and balanced.",
-        "timeRequired": "PT2M"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Final Touches and Serving",
-        "text": "Once the mole has simmered sufficiently and the flavors are perfectly balanced, it's ready to serve. Traditionally, Mole Negro is served with tender pieces of cooked chicken or turkey, rice, and warm corn tortillas. Garnish with a sprinkle of toasted sesame seeds if desired. The mole's flavor will often improve the next day, making it an excellent dish to prepare in advance.",
-        "timeRequired": "PT10M"
+        "name": "Simmer the Mole Sauce",
+        "text": "Heat the remaining 2 tablespoons of lard or oil in a large pot or Dutch oven over medium heat. Pour in the strained mole sauce. Bring to a simmer, then reduce heat to low. Cook for at least 30-40 minutes, stirring frequently to prevent sticking, until the mole has thickened and deepened in color and flavor. Add more chicken broth or reserved chile soaking liquid if the mole becomes too thick. Season with salt to taste. Serve hot over cooked chicken pieces, garnished with extra sesame seeds and fresh cilantro."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-05-27T10:01:15.642Z"
 }
