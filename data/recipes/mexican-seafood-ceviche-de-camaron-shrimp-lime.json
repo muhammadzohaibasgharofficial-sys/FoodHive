@@ -7,235 +7,252 @@
   "category": "seafood",
   "categoryName": "Seafood",
   "categoryIcon": "🦞",
-  "prepTime": "25 min",
-  "cookTime": "30 min",
+  "seo": {
+    "title": "How to Make Ceviche de Camaron Shrimp Lime — Easy Mexican Recipe",
+    "metaDescription": "Learn how to make authentic Ceviche de Camaron Shrimp Lime. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "mexican-seafood-ceviche-de-camaron-shrimp-lime",
+    "mainKeyword": "Ceviche de Camaron Shrimp Lime",
+    "longTailKeywords": [
+      "how to make Ceviche de Camaron Shrimp Lime",
+      "easy Ceviche de Camaron Shrimp Lime recipe",
+      "authentic Mexican Ceviche de Camaron Shrimp Lime"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Ceviche de Camaron Shrimp Lime",
+      "Mexican Ceviche de Camaron Shrimp Lime recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Ceviche de Camaron Shrimp Lime Recipe",
+    "h2Headings": [
+      "What is Ceviche de Camaron Shrimp Lime?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "mexican-seafood-ceviche-de-camaron-shrimp-lime.jpg",
+    "imageAlt": "Authentic Mexican Ceviche de Camaron Shrimp Lime recipe",
+    "imageCaption": "Delicious homemade Ceviche de Camaron Shrimp Lime — a beloved Mexican classic",
+    "internalLinks": [
+      {
+        "anchor": "Seafood",
+        "url": "/categories/seafood"
+      },
+      {
+        "anchor": "Mexican Recipes",
+        "url": "/countries/mexican"
+      }
+    ]
+  },
+  "prepTime": "20 min",
+  "cookTime": "35 min",
   "totalTime": "55 min",
   "servings": 4,
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.pexels.com/photos/29766361/pexels-photo-29766361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/26502316/pexels-photo-26502316.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "This vibrant Ceviche de Camaron is a refreshing symphony of flavors, where succulent shrimp is marinated in bright lime juice, then tossed with crisp vegetables like tomato, onion, and cilantro. It’s a beloved coastal Mexican dish, offering a perfect balance of zesty, savory, and a hint of spice, ideal for a warm day.",
+  "image1": "https://images.unsplash.com/photo-1726514730572-7e0f664f60d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDZXZpY2hlJTIwZGUlMjBDYW1hcm9uJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgwNDk4ODY1fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1654018334224-4887d9e85ffe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDZXZpY2hlJTIwZGUlMjBDYW1hcm9uJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgwNDk4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Experience the vibrant flavors of Mexico with this refreshing Ceviche de Camaron. Fresh shrimp is marinated in zesty lime juice, then mixed with crisp vegetables and a hint of chile, creating a perfect balance of tangy and savory. This classic dish is an ideal appetizer or light main course, bursting with authentic taste.",
   "ingredients": [
     {
-      "item": "Fresh raw shrimp",
-      "amount": "1.5 lbs",
-      "notes": "peeled, deveined, tail-off, sushi-grade recommended"
+      "item": "Shrimp, raw, peeled, deveined",
+      "amount": "1 pound",
+      "notes": "small to medium size"
     },
     {
-      "item": "Limes",
-      "amount": "10-12 medium",
-      "notes": "freshly squeezed, Mexican limes preferred"
-    },
-    {
-      "item": "Roma tomatoes",
-      "amount": "3 medium",
-      "notes": "seeded, finely diced"
+      "item": "Fresh lime juice",
+      "amount": "1 1/2 cups",
+      "notes": "from about 10-12 limes"
     },
     {
       "item": "Red onion",
-      "amount": "1/2 medium",
+      "amount": "1/2",
       "notes": "finely diced"
     },
     {
+      "item": "Roma tomatoes",
+      "amount": "2",
+      "notes": "diced"
+    },
+    {
+      "item": "Cucumber",
+      "amount": "1/2",
+      "notes": "peeled, seeded, and diced"
+    },
+    {
+      "item": "Jalapeno or Serrano pepper",
+      "amount": "1-2",
+      "notes": "finely minced, seeds removed for less heat"
+    },
+    {
       "item": "Fresh cilantro",
-      "amount": "1/2 cup",
+      "amount": "1/4 cup",
       "notes": "chopped"
     },
     {
-      "item": "Serrano peppers",
-      "amount": "1-2",
-      "notes": "finely minced, deseeded for milder heat"
-    },
-    {
-      "item": "English cucumber",
-      "amount": "1/2",
-      "notes": "peeled, seeded, finely diced (optional, but traditional in some regions)"
-    },
-    {
       "item": "Salt",
-      "amount": "1 tsp",
+      "amount": "1 teaspoon",
       "notes": "or to taste"
     },
     {
       "item": "Black pepper",
-      "amount": "1/2 tsp",
-      "notes": "freshly ground, or to taste"
+      "amount": "1/2 teaspoon",
+      "notes": "or to taste"
     },
     {
-      "item": "Ripe avocado",
-      "amount": "1 large",
+      "item": "Avocado",
+      "amount": "1",
       "notes": "diced, for garnish"
     },
     {
-      "item": "Tostadas or Saltine crackers",
-      "amount": "as needed",
+      "item": "Tostadas or tortilla chips",
+      "amount": "1 package",
       "notes": "for serving"
-    },
-    {
-      "item": "Mexican hot sauce",
-      "amount": "to taste",
-      "notes": "e.g., Valentina, Tapatío (optional)"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Shrimp",
-      "text": "Clean, peel, devein, and remove tails from the raw shrimp. Rinse thoroughly under cold water and pat dry with paper towels. Cut the shrimp into small, bite-sized pieces, roughly 1/2 inch, for even 'cooking' and easier serving.",
-      "time": "10 min"
+      "text": "Rinse the raw shrimp thoroughly under cold water. Pat them dry with paper towels. Cut the shrimp into small, bite-sized pieces, about 1/2 inch chunks. Place the cut shrimp into a non-reactive bowl, such as glass or ceramic.",
+      "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Marinate the Shrimp (Cocido en Limón)",
-      "text": "Place the chopped shrimp in a non-reactive bowl (glass or ceramic). Squeeze the juice from all the fresh limes directly over the shrimp, ensuring it is fully submerged. Stir gently to coat. Cover the bowl and refrigerate for at least 20-30 minutes, or until the shrimp turns opaque and pink throughout, indicating it has 'cooked' in the acid. Stir occasionally to ensure even marination.",
+      "title": "Marinate the Shrimp in Lime Juice",
+      "text": "Pour the fresh lime juice over the shrimp, ensuring all pieces are fully submerged. Stir gently to coat. Cover the bowl and refrigerate for at least 30 minutes, or until the shrimp turn opaque and pink, appearing cooked. This process is called 'cooking' with acid.",
       "time": "30 min"
     },
     {
       "step": 3,
       "title": "Prepare the Vegetables",
-      "text": "While the shrimp marinates, prepare your vegetables. Finely dice the Roma tomatoes (removing seeds helps reduce excess moisture), red onion, and cucumber (if using). Finely mince the serrano peppers; remove seeds and veins for a milder heat, or leave some for more spice. Chop the fresh cilantro.",
+      "text": "While the shrimp is marinating, finely dice the red onion, Roma tomatoes, and cucumber. Mince the jalapeno or serrano pepper, removing seeds if you prefer less heat. Chop the fresh cilantro. Place all these prepared vegetables into a separate large bowl.",
       "time": "10 min"
     },
     {
       "step": 4,
-      "title": "Combine and Season",
-      "text": "Once the shrimp is opaque, gently drain about half to three-quarters of the excess lime juice from the bowl, leaving enough to keep the mixture moist but not soupy. Add the diced tomatoes, red onion, cucumber, minced serrano peppers, and chopped cilantro to the shrimp.",
+      "title": "Combine Ingredients",
+      "text": "Once the shrimp has 'cooked' in the lime juice, drain about half of the excess lime juice from the bowl, leaving some for flavor and moisture. Add the marinated shrimp to the bowl with the diced vegetables and cilantro. Mix everything together gently but thoroughly.",
       "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Flavor Integration and Chill",
-      "text": "Stir all the ingredients together thoroughly to combine. Season generously with salt and freshly ground black pepper to taste. Mix well. For optimal flavor, cover the bowl and refrigerate for another 15-20 minutes to allow the flavors to meld and deepen.",
-      "time": "20 min"
+      "title": "Season and Adjust",
+      "text": "Season the ceviche with salt and black pepper to taste. Stir again and taste a small portion. Adjust seasoning as needed. If you desire more acidity, you can add a little more fresh lime juice. For extra spice, a pinch of chile powder or a dash of hot sauce can be added.",
+      "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Serve Authentic Mexican Style",
-      "text": "Taste and adjust seasoning if necessary. Serve the Ceviche de Camaron chilled, traditionally piled high on crispy tostadas or alongside saltine crackers (galletas saladas). Garnish each serving with fresh diced avocado just before eating. Offer your favorite Mexican hot sauce on the side for those who prefer an extra kick.",
-      "time": "5 min"
+      "title": "Chill and Serve",
+      "text": "Cover the ceviche and refrigerate for another 15-20 minutes to allow the flavors to meld and for it to chill completely. Just before serving, gently fold in the diced avocado. Serve the fresh ceviche immediately with crispy tostadas or tortilla chips.",
+      "time": "15 min"
     }
   ],
   "nutritionTable": {
-    "calories": "350 kcal",
-    "protein": "30g",
-    "carbs": "25g",
-    "fat": "10g",
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
     "fiber": "4g",
-    "sugar": "6g",
-    "sodium": "500mg",
-    "cholesterol": "180mg"
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Mexican",
-    "Seafood",
+    "seafood",
     "authentic",
     "traditional",
-    "Lime",
-    "Shrimp",
-    "Ceviche"
+    "shrimp",
+    "ceviche",
+    "lime",
+    "fresh",
+    "appetizer"
   ],
   "tips": [
-    "**Freshness is Key:** Always use the freshest shrimp and limes you can find. The quality of these ingredients directly impacts the flavor and safety of your ceviche.",
-    "**Lime Juice Quantity:** Ensure the shrimp is fully submerged in lime juice. If not, add more. The acid is what 'cooks' the shrimp, and insufficient juice can lead to uneven texture.",
-    "**Don't Overcook:** Over-marinating the shrimp in lime juice can make it rubbery. Check for opacity; once it's pink and firm, it's ready for mixing with vegetables.",
-    "**Balance the Heat:** For less spice, remove the seeds and veins from the serrano peppers, or use fewer peppers. For more heat, leave them in or add an extra one.",
-    "**Chill Thoroughly:** Ceviche is best served very cold. Chilling it for an extra 15-20 minutes after mixing allows the flavors to deepen and meld beautifully."
+    "Always use fresh, high-quality shrimp for the best flavor and texture in your ceviche. Frozen shrimp can work, but ensure they are fully thawed and patted dry.",
+    "To get the most juice from your limes, microwave them for 10-15 seconds and then roll them firmly on the counter before cutting and squeezing.",
+    "For an extra layer of flavor and a beautiful presentation, garnish your ceviche with a few slices of avocado and a sprinkle of extra cilantro just before serving."
   ],
-  "rating": 4.9,
-  "reviews": 450,
-  "article": "## History of Ceviche de Camaron Shrimp Lime\n\nCeviche, while found across Latin America, has deep roots in Mexican coastal regions, particularly along the Pacific. The technique of \"cooking\" seafood in citrus juice dates back centuries, potentially influenced by indigenous practices and later by Spanish culinary traditions. In Mexico, specifically, ceviche de camaron is a staple in states like Sinaloa, Sonora, and Nayarit, where fresh seafood is abundant. It's a testament to resourcefulness and the vibrant flavors of the land and sea, offering a refreshing and light meal perfect for warm climates. Each region often has its unique twist, but the core elements of fresh shrimp, lime, and crisp vegetables remain constant, embodying the spirit of Mexican coastal cuisine.\n\n## Why This Recipe Works\n\nThis recipe thrives on the principle of \"cocción ácida,\" or acid cooking. The high acidity of fresh lime juice denatures the proteins in the shrimp, effectively \"cooking\" it without heat, resulting in a tender yet firm texture. The careful balance of fresh, crisp vegetables—sweet tomatoes, pungent red onion, sharp cilantro, and fiery serrano—provides a perfect counterpoint to the bright, tangy shrimp. The slight draining of excess lime juice ensures the ceviche isn't overly watery, allowing the individual flavors to shine through while still retaining that essential zesty punch. It's a masterclass in fresh ingredients and simple, effective technique.\n\n## Chef Tips for Perfection\n\nTo achieve truly exceptional ceviche, start with absolutely pristine, sushi-grade shrimp. Its freshness is non-negotiable for both flavor and safety. When dicing vegetables, aim for uniform, small pieces; this ensures every spoonful offers a balanced medley of textures and tastes. Don't rush the lime marination—give the shrimp adequate time to \"cook,\" but also don't let it sit for hours, which can toughen it. A key authentic touch is using Mexican limes (limones), which are smaller, tarter, and more aromatic than Persian limes. Finally, a pinch of good quality sea salt is crucial for enhancing all the other flavors.\n\n## Serving Suggestions\n\nCeviche de Camaron is most authentically served piled high on crispy tostadas, often with a thin layer of mayonnaise or a spread of mashed avocado underneath for added creaminess. Alternatively, serve it in chilled bowls with a side of saltine crackers (galletas saladas) for scooping. A drizzle of your favorite Mexican hot sauce, such as Valentina or Tapatío, is almost mandatory for an extra kick. For a complete meal, pair it with a cold cerveza, a refreshing agua fresca, or a crisp white wine. It also makes an excellent appetizer for a larger Mexican feast.",
-  "publishedAt": "2026-04-06T10:30:26.778Z",
-  "jsonLd": {
+  "rating": 4.8,
+  "reviews": 312,
+  "article": "The sun-drenched coasts of Mexico are synonymous with vibrant flavors, fresh ingredients, and a culinary tradition that tantalizes the taste buds. Among the many jewels of Mexican gastronomy, one dish stands out for its refreshing zest and irresistible appeal: Ceviche de Camaron Shrimp Lime. This classic Mexican seafood delight is a testament to simple ingredients coming together to create an explosion of flavor. Perfect for a warm day, a festive gathering, or simply when you crave something light yet incredibly satisfying, Ceviche de Camaron Shrimp Lime is a culinary journey you won't want to miss. In this comprehensive guide, we'll dive deep into everything you need to know about preparing this iconic dish, from its origins to pro tips that will elevate your homemade version to restaurant quality.\n\n## What is Ceviche de Camaron Shrimp Lime?\n\nCeviche de Camaron Shrimp Lime is a traditional Latin American dish, particularly beloved in coastal regions of Mexico, where it's a staple of seafood cuisine. At its heart, ceviche is seafood \"cooked\" by the acidity of citrus juice, primarily lime. In the case of Ceviche de Camaron Shrimp Lime, fresh shrimp are marinated in freshly squeezed lime juice, which denatures the proteins in the shrimp, causing them to turn opaque and firm, much like heat cooking would. This process, known as \"cooking\" by acid, imparts a unique texture and a tangy, bright flavor profile.\n\nBeyond the shrimp and lime, this vibrant dish typically includes a medley of finely diced vegetables such as red onion, tomatoes, cilantro, and often a touch of serrano or jalapeño pepper for a gentle kick. The combination of succulent shrimp, sharp citrus, and crisp vegetables creates a harmonious balance of textures and tastes. It’s a dish that celebrates freshness, making it incredibly popular as an appetizer, a light lunch, or a refreshing snack. Its simplicity belies a depth of flavor that is truly captivating.\n\n## Ingredients You Need\n\nCrafting the perfect Ceviche de Camaron Shrimp Lime starts with selecting the freshest, highest-quality ingredients. Here’s what you’ll need:\n\n*   **Fresh Shrimp (1-1.5 lbs):** Look for raw, peeled, and deveined shrimp. Medium to large size is ideal. If using frozen, thaw them completely and pat dry.\n*   **Fresh Limes (10-15):** You’ll need a generous amount of fresh lime juice. Key to the \"cooking\" process and flavor. Avoid bottled lime juice.\n*   **Red Onion (1 medium):** Finely diced. Adds a sharp, piquant crunch and beautiful color.\n*   **Tomatoes (2-3 Roma or similar):** Diced. Provides sweetness and juiciness.\n*   **Cilantro (1/2 cup):** Freshly chopped. Essential for its distinctive, herbaceous aroma and flavor.\n*   **Serrano or Jalapeño Peppers (1-2):** Finely minced, seeds removed for less heat (or left in for more). Adjust to your spice preference.\n*   **Cucumber (1/2 English cucumber):** Diced. Optional, but adds a refreshing crispness.\n*   **Avocado (1-2 ripe):** Diced, for garnish and creamy texture, added just before serving.\n*   **Salt and Black Pepper:** To taste.\n*   **Optional:** A splash of Clamato juice or orange juice for a touch of sweetness and depth, popular in some Mexican ceviche recipes.\n\n## Step-by-Step Instructions\n\nMaking Ceviche de Camaron Shrimp Lime is a straightforward process, but requires attention to detail for the best results.\n\n1.  **Prepare the Shrimp:** If your shrimp are large, cut them into bite-sized pieces (halves or thirds). Place the cut shrimp in a non-reactive bowl (glass or ceramic).\n2.  **Add Lime Juice:** Squeeze the fresh lime juice over the shrimp, ensuring the shrimp are fully submerged. Stir gently. The lime juice is crucial for \"cooking\" the shrimp.\n3.  **Marinate the Shrimp:** Cover the bowl and refrigerate for 20-30 minutes. The shrimp will turn opaque pink as they \"cook.\" Do not over-marinate, as they can become rubbery.\n4.  **Prepare Vegetables:** While the shrimp marinates, finely dice the red onion, tomatoes, cilantro, and peppers. If using cucumber, dice that too.\n5.  **Combine Ingredients:** Once the shrimp are \"cooked,\" drain about half of the lime juice from the bowl. Add the diced red onion, tomatoes, cilantro, and peppers (and cucumber if using) to the shrimp. Stir gently to combine.\n6.  **Season:** Season generously with salt and black pepper to taste. If you like, add a splash of Clamato or orange juice here.\n7.  **Chill and Serve:** Cover the ceviche and refrigerate for at least another 15-30 minutes to allow the flavors to meld and for the dish to chill thoroughly. Just before serving, gently fold in the diced avocado.\n\n## Pro Tips for the Best Results\n\nAchieving truly spectacular Ceviche de Camaron Shrimp Lime goes beyond just following the recipe. Here are some expert tips:\n\n*   **Freshness is Key:** This cannot be stressed enough. Use the freshest possible shrimp and limes. The quality of your ingredients directly impacts the flavor.\n*   **Don't Over-Marinate:** While the lime juice \"cooks\" the shrimp, leaving it too long (more than 30-45 minutes for small pieces) can result in a rubbery texture. Keep an eye on the shrimp; once it's opaque, it's ready.\n*   **Taste and Adjust:** Always taste your ceviche before serving. You might need more salt, a touch more lime, or an extra pinch of cilantro. Flavors develop as it sits, so adjust just before serving.\n*   **Uniform Dicing:** Aim for uniform, small dice for your vegetables. This ensures an even distribution of flavor and a pleasant texture in every bite.\n*   **Cold Serving:** Ceviche is best served very cold. Ensure it has enough time in the refrigerator before serving.\n*   **Control the Heat:** For the peppers, remove the seeds and white membrane for less heat. For more heat, leave some seeds in. You can also use a milder pepper like bell pepper for color and crunch without any spice.\n\n## Serving Suggestions\n\nCeviche de Camaron Shrimp Lime is incredibly versatile and can be enjoyed in many ways.\n\n*   **Classic Tostadas:** This is arguably the most traditional way to enjoy it. Serve a generous scoop on crispy tostada shells, perhaps with an extra drizzle of hot sauce or a dollop of mayonnaise (a common practice in some parts of Mexico).\n*   **With Tortilla Chips:** A simpler option, perfect for scooping. Good quality, sturdy tortilla chips are a must.\n*   **As an Appetizer:** Serve in small bowls or martini glasses for an elegant presentation at a party.\n*   **Lettuce Wraps:** For a low-carb option, spoon the ceviche into crisp lettuce cups (like butter lettuce or romaine).\n*   **As a Main Dish:** Enjoy a larger portion as a light and refreshing meal, perhaps alongside a simple green salad.\n*   **Beverage Pairings:** A crisp Mexican lager, a refreshing Paloma cocktail, or a glass of chilled white wine (like Sauvignon Blanc) would complement the bright flavors beautifully.\n\n## Variations and Substitutions\n\nWhile the classic Ceviche de Camaron Shrimp Lime is perfect as is, there are many ways to customize it to your liking:\n\n*   **Add Other Seafood:** Feel free to mix in other firm white fish (like snapper or cod, also \"cooked\" in lime), scallops, or even cooked octopus for a more complex seafood medley.\n*   **Different Citrus:** While lime is traditional, a mix of lime and lemon, or even a touch of orange juice, can add different layers of sweetness and acidity.\n*   **Spice Level:** Experiment with different chili peppers such as habanero for a fiery kick, or omit peppers entirely for a milder version. A dash of hot sauce, like Cholula or Tapatio, can be added at the table.\n*   **Vegetable Additions:** Consider adding diced jicama for extra crunch, corn kernels for sweetness, or even mango for a tropical twist. Green olives can also add a briny note.\n*   **Herbs:** While cilantro is traditional, a little finely chopped parsley or even mint can offer an interesting variation.\n*   **Avocado Integration:** Instead of just a garnish, you can gently fold some avocado into the entire mixture for a creamier texture throughout.\n\nCeviche de Camaron Shrimp Lime is more than just a dish; it's an experience. It embodies the spirit of Mexican coastal cuisine – fresh, vibrant, and bursting with flavor. Whether you're a seasoned chef or a kitchen novice, preparing this delightful dish is a rewarding endeavor that will transport your taste buds straight to the sunny beaches of Mexico. So gather your fresh ingredients, follow these steps, and get ready to enjoy one of the most refreshing and delicious seafood dishes the world has to offer.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Ceviche de Camaron Shrimp Lime",
-    "description": "This vibrant Ceviche de Camaron is a refreshing symphony of flavors, where succulent shrimp is marinated in bright lime juice, then tossed with crisp vegetables like tomato, onion, and cilantro. It’s a beloved coastal Mexican dish, offering a perfect balance of zesty, savory, and a hint of spice, ideal for a warm day.",
+    "description": "Learn how to make authentic Ceviche de Camaron Shrimp Lime. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/29766361/pexels-photo-29766361.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/26502316/pexels-photo-26502316.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1726514730572-7e0f664f60d2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDZXZpY2hlJTIwZGUlMjBDYW1hcm9uJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgwNDk4ODY1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1654018334224-4887d9e85ffe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDZXZpY2hlJTIwZGUlMjBDYW1hcm9uJTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgwNDk4ODY1fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-06T10:30:26.778Z",
-    "prepTime": "PT25M",
-    "cookTime": "PT30M",
+    "datePublished": "2026-06-03T15:01:38.146Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Seafood",
     "recipeCuisine": "Mexican",
-    "keywords": "Mexican, Mexican, authentic, traditional, seafood, Mexican, Seafood, authentic, traditional, Lime, Shrimp, Ceviche",
+    "keywords": "Ceviche de Camaron Shrimp Lime, how to make Ceviche de Camaron Shrimp Lime, easy Ceviche de Camaron Shrimp Lime recipe, authentic Mexican Ceviche de Camaron Shrimp Lime",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.9,
-      "reviewCount": 450,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "350 calories",
-      "proteinContent": "30g",
-      "carbohydrateContent": "25g",
-      "fatContent": "10g",
-      "fiberContent": "4g",
-      "sugarContent": "6g",
-      "sodiumContent": "500mg"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1.5 lbs Fresh raw shrimp (peeled, deveined, tail-off, sushi-grade recommended)",
-      "10-12 medium Limes (freshly squeezed, Mexican limes preferred)",
-      "3 medium Roma tomatoes (seeded, finely diced)",
-      "1/2 medium Red onion (finely diced)",
-      "1/2 cup Fresh cilantro (chopped)",
-      "1-2 Serrano peppers (finely minced, deseeded for milder heat)",
-      "1/2 English cucumber (peeled, seeded, finely diced (optional, but traditional in some regions))",
-      "1 tsp Salt (or to taste)",
-      "1/2 tsp Black pepper (freshly ground, or to taste)",
-      "1 large Ripe avocado (diced, for garnish)",
-      "as needed Tostadas or Saltine crackers (for serving)",
-      "to taste Mexican hot sauce (e.g., Valentina, Tapatío (optional))"
+      "1 pound Shrimp, raw, peeled, deveined",
+      "1 1/2 cups Fresh lime juice",
+      "1/2 Red onion",
+      "2 Roma tomatoes",
+      "1/2 Cucumber",
+      "1-2 Jalapeno or Serrano pepper",
+      "1/4 cup Fresh cilantro",
+      "1 teaspoon Salt",
+      "1/2 teaspoon Black pepper",
+      "1 Avocado",
+      "1 package Tostadas or tortilla chips"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Shrimp",
-        "text": "Clean, peel, devein, and remove tails from the raw shrimp. Rinse thoroughly under cold water and pat dry with paper towels. Cut the shrimp into small, bite-sized pieces, roughly 1/2 inch, for even 'cooking' and easier serving.",
-        "timeRequired": "PT10M"
+        "text": "Rinse the raw shrimp thoroughly under cold water. Pat them dry with paper towels. Cut the shrimp into small, bite-sized pieces, about 1/2 inch chunks. Place the cut shrimp into a non-reactive bowl, such as glass or ceramic."
       },
       {
         "@type": "HowToStep",
-        "name": "Marinate the Shrimp (Cocido en Limón)",
-        "text": "Place the chopped shrimp in a non-reactive bowl (glass or ceramic). Squeeze the juice from all the fresh limes directly over the shrimp, ensuring it is fully submerged. Stir gently to coat. Cover the bowl and refrigerate for at least 20-30 minutes, or until the shrimp turns opaque and pink throughout, indicating it has 'cooked' in the acid. Stir occasionally to ensure even marination.",
-        "timeRequired": "PT30M"
+        "name": "Marinate the Shrimp in Lime Juice",
+        "text": "Pour the fresh lime juice over the shrimp, ensuring all pieces are fully submerged. Stir gently to coat. Cover the bowl and refrigerate for at least 30 minutes, or until the shrimp turn opaque and pink, appearing cooked. This process is called 'cooking' with acid."
       },
       {
         "@type": "HowToStep",
         "name": "Prepare the Vegetables",
-        "text": "While the shrimp marinates, prepare your vegetables. Finely dice the Roma tomatoes (removing seeds helps reduce excess moisture), red onion, and cucumber (if using). Finely mince the serrano peppers; remove seeds and veins for a milder heat, or leave some for more spice. Chop the fresh cilantro.",
-        "timeRequired": "PT10M"
+        "text": "While the shrimp is marinating, finely dice the red onion, Roma tomatoes, and cucumber. Mince the jalapeno or serrano pepper, removing seeds if you prefer less heat. Chop the fresh cilantro. Place all these prepared vegetables into a separate large bowl."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine and Season",
-        "text": "Once the shrimp is opaque, gently drain about half to three-quarters of the excess lime juice from the bowl, leaving enough to keep the mixture moist but not soupy. Add the diced tomatoes, red onion, cucumber, minced serrano peppers, and chopped cilantro to the shrimp.",
-        "timeRequired": "PT5M"
+        "name": "Combine Ingredients",
+        "text": "Once the shrimp has 'cooked' in the lime juice, drain about half of the excess lime juice from the bowl, leaving some for flavor and moisture. Add the marinated shrimp to the bowl with the diced vegetables and cilantro. Mix everything together gently but thoroughly."
       },
       {
         "@type": "HowToStep",
-        "name": "Flavor Integration and Chill",
-        "text": "Stir all the ingredients together thoroughly to combine. Season generously with salt and freshly ground black pepper to taste. Mix well. For optimal flavor, cover the bowl and refrigerate for another 15-20 minutes to allow the flavors to meld and deepen.",
-        "timeRequired": "PT20M"
+        "name": "Season and Adjust",
+        "text": "Season the ceviche with salt and black pepper to taste. Stir again and taste a small portion. Adjust seasoning as needed. If you desire more acidity, you can add a little more fresh lime juice. For extra spice, a pinch of chile powder or a dash of hot sauce can be added."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve Authentic Mexican Style",
-        "text": "Taste and adjust seasoning if necessary. Serve the Ceviche de Camaron chilled, traditionally piled high on crispy tostadas or alongside saltine crackers (galletas saladas). Garnish each serving with fresh diced avocado just before eating. Offer your favorite Mexican hot sauce on the side for those who prefer an extra kick.",
-        "timeRequired": "PT5M"
+        "name": "Chill and Serve",
+        "text": "Cover the ceviche and refrigerate for another 15-20 minutes to allow the flavors to meld and for it to chill completely. Just before serving, gently fold in the diced avocado. Serve the fresh ceviche immediately with crispy tostadas or tortilla chips."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-06-03T15:01:38.146Z"
 }
