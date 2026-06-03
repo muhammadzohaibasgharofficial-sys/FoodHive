@@ -7,204 +7,222 @@
   "category": "appetizers",
   "categoryName": "Appetizers",
   "categoryIcon": "🥨",
+  "seo": {
+    "title": "How to Make Classic Guacamole Avocado — Easy Mexican Recipe",
+    "metaDescription": "Learn how to make authentic Classic Guacamole Avocado. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "mexican-appetizers-classic-guacamole-avocado",
+    "mainKeyword": "Classic Guacamole Avocado",
+    "longTailKeywords": [
+      "how to make Classic Guacamole Avocado",
+      "easy Classic Guacamole Avocado recipe",
+      "authentic Mexican Classic Guacamole Avocado"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Classic Guacamole Avocado",
+      "Mexican Classic Guacamole Avocado recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Classic Guacamole Avocado Recipe",
+    "h2Headings": [
+      "What is Classic Guacamole Avocado?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "mexican-appetizers-classic-guacamole-avocado.jpg",
+    "imageAlt": "Authentic Mexican Classic Guacamole Avocado recipe",
+    "imageCaption": "Delicious homemade Classic Guacamole Avocado — a beloved Mexican classic",
+    "internalLinks": [
+      {
+        "anchor": "Appetizers",
+        "url": "/categories/appetizers"
+      },
+      {
+        "anchor": "Mexican Recipes",
+        "url": "/countries/mexican"
+      }
+    ]
+  },
   "prepTime": "15 min",
   "cookTime": "0 min",
   "totalTime": "15 min",
   "servings": 4,
   "difficulty": "Easy",
   "cuisine": "Mexican",
-  "image1": "https://images.pexels.com/photos/4562973/pexels-photo-4562973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/5737254/pexels-photo-5737254.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Experience the vibrant flavors and creamy texture of authentic Mexican guacamole, a beloved appetizer that perfectly balances rich avocado with zesty lime, fresh herbs, and a hint of chile heat. This classic preparation delivers a truly refreshing and satisfying start to any meal.",
+  "image1": "https://images.unsplash.com/photo-1595016111459-799a195e7452?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDbGFzc2ljJTIwR3VhY2Ftb2xlJTIwQXZvY2FkbyUyME1leGljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MDQ5MTYzOXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1680992071073-cb1696ba8d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDbGFzc2ljJTIwR3VhY2Ftb2xlJTIwQXZvY2FkbyUyME1leGljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MDQ5MTYzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "This vibrant dip is a staple of Mexican cuisine, renowned for its creamy texture and fresh, zesty flavor. Made from ripe avocados, aromatic onion, bright cilantro, and a hint of chile, it is perfect for sharing and brings a taste of Mexico to any gathering. Enjoy this classic appetizer with tortilla chips or as a delicious topping for your favorite dishes.",
   "ingredients": [
     {
-      "item": "Ripe Hass Avocados",
-      "amount": "3-4 large",
-      "notes": "Firm yet yielding to gentle pressure"
+      "item": "Ripe Hass avocados",
+      "amount": "3 large",
+      "notes": "halved and pitted"
     },
     {
-      "item": "White Onion",
+      "item": "Red onion",
       "amount": "1/4 cup",
-      "notes": "Finely diced"
+      "notes": "finely diced"
     },
     {
-      "item": "Serrano Chile",
-      "amount": "1-2",
-      "notes": "Finely minced, seeds removed for less heat if desired"
-    },
-    {
-      "item": "Fresh Cilantro",
-      "amount": "1/4 cup",
-      "notes": "Finely chopped"
-    },
-    {
-      "item": "Roma Tomato",
-      "amount": "1 small",
-      "notes": "Deseeded and finely diced (optional, but common in many regions)"
-    },
-    {
-      "item": "Fresh Lime Juice",
+      "item": "Fresh cilantro",
       "amount": "2 tablespoons",
-      "notes": "From 1-2 limes, to taste"
+      "notes": "chopped"
     },
     {
-      "item": "Sea Salt",
-      "amount": "1/2 - 1 teaspoon",
-      "notes": "To taste"
+      "item": "Serrano chile",
+      "amount": "1",
+      "notes": "minced (seeds removed for less heat, optional)"
+    },
+    {
+      "item": "Fresh lime juice",
+      "amount": "2 tablespoons",
+      "notes": "from 1-2 limes"
+    },
+    {
+      "item": "Sea salt",
+      "amount": "1/2 teaspoon",
+      "notes": "or to taste"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Aromatics",
-      "text": "Finely dice the white onion, mince the Serrano chiles (removing seeds if you prefer less heat), and finely chop the fresh cilantro. If using, deseed and finely dice the Roma tomato. Set these ingredients aside.",
-      "time": "5 min"
-    },
-    {
-      "step": 2,
-      "title": "Scoop the Avocados",
-      "text": "Carefully cut each ripe avocado in half lengthwise around the pit. Twist the halves apart, then remove the pit. Using a spoon, scoop the creamy avocado flesh into a molcajete (traditional Mexican mortar and pestle) or a medium-sized bowl.",
-      "time": "2 min"
-    },
-    {
-      "step": 3,
-      "title": "Mash the Avocados",
-      "text": "Begin to gently mash the avocado flesh. If using a molcajete, use the tejolote (pestle) to crush the avocado to your desired consistency – some prefer it very smooth, while others enjoy a chunkier texture. If using a bowl, a fork works perfectly. Do not over-mash; leave some texture.",
+      "title": "Prepare the Avocados",
+      "text": "Scoop the creamy flesh of the ripe avocados into a medium-sized bowl. Ensure the avocados are soft but not mushy for the best texture.",
       "time": "3 min"
     },
     {
+      "step": 2,
+      "title": "Mash the Avocados",
+      "text": "Using a fork or a potato masher, gently mash the avocado flesh to your desired consistency. Some prefer a chunky guacamole, while others enjoy a smoother dip.",
+      "time": "3 min"
+    },
+    {
+      "step": 3,
+      "title": "Prepare Aromatics",
+      "text": "Finely dice the red onion, chop the fresh cilantro, and mince the serrano chile. For a milder guacamole, remove the seeds and veins from the serrano chile before mincing.",
+      "time": "5 min"
+    },
+    {
       "step": 4,
-      "title": "Incorporate Flavor",
-      "text": "Add the finely diced white onion, minced Serrano chile, and chopped cilantro to the mashed avocado. If using, add the diced Roma tomato now. Pour in the fresh lime juice and sprinkle with about half a teaspoon of sea salt.",
+      "title": "Combine Ingredients",
+      "text": "Add the finely diced red onion, chopped cilantro, minced serrano chile, and fresh lime juice to the mashed avocado. The lime juice also helps prevent browning.",
       "time": "2 min"
     },
     {
       "step": 5,
-      "title": "Mix and Season",
-      "text": "Gently fold all the ingredients together until well combined, being careful not to over-mix. Taste the guacamole and adjust the seasoning as needed, adding more salt, lime juice, or chile to achieve your perfect balance of flavor.",
-      "time": "2 min"
+      "title": "Season and Mix",
+      "text": "Sprinkle in the sea salt. Gently fold all the ingredients together until they are well combined. Be careful not to overmix, as this can make the guacamole watery.",
+      "time": "1 min"
     },
     {
       "step": 6,
-      "title": "Serve Immediately",
-      "text": "Transfer the Classic Guacamole Avocado to a serving bowl. For an authentic presentation, you can serve it directly in the molcajete. Serve immediately with warm, freshly made tortilla chips or as an accompaniment to your favorite Mexican dishes.",
+      "title": "Taste and Serve",
+      "text": "Taste the guacamole and adjust the seasoning with more salt or lime juice if needed. Serve immediately with warm tortilla chips, fresh cut vegetables, or as a vibrant topping for tacos and tostadas.",
       "time": "1 min"
     }
   ],
   "nutritionTable": {
-    "calories": "280 kcal",
+    "calories": "250 kcal",
     "protein": "4g",
     "carbs": "15g",
-    "fat": "25g",
-    "fiber": "11g",
+    "fat": "20g",
+    "fiber": "10g",
     "sugar": "2g",
-    "sodium": "350mg",
+    "sodium": "300mg",
     "cholesterol": "0mg"
   },
   "tags": [
     "Mexican",
-    "Guacamole",
     "authentic",
     "traditional",
     "appetizers",
-    "Avocado",
-    "Vegetarian"
+    "Classic Guacamole Avocado",
+    "dip",
+    "vegetarian",
+    "vegan",
+    "gluten-free"
   ],
   "tips": [
-    "**Choosing Avocados:** Always select avocados that are firm but yield slightly to gentle pressure. Avoid overly soft or hard ones.",
-    "**Preventing Browning:** To slow oxidation, place an avocado pit in the center of the guacamole or press plastic wrap directly onto the surface before refrigerating.",
-    "**Molcajete Magic:** Using a molcajete not only adds authenticity but also helps to release the essential oils from the chile and cilantro, enhancing the flavor and texture.",
-    "**Spice Level:** Adjust the amount of Serrano chile to your preference. For less heat, remove all seeds and veins; for more, leave some in or add an extra chile."
+    "To keep your guacamole from browning, press plastic wrap directly onto the surface of the dip before refrigerating. The lime juice also helps.",
+    "For an extra layer of flavor, try adding a pinch of ground cumin or a tiny splash of orange juice to your guacamole.",
+    "Always use ripe avocados. They should yield slightly to gentle pressure but not feel mushy. Unripe avocados will be hard and flavorless."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Classic Guacamole Avocado\n\nGuacamole, or 'ahuacamolli' in Nahuatl, the language of the Aztec Empire, boasts a rich history spanning centuries in Mesoamerica. Originating with the Aztecs as early as the 16th century, the dish was a staple, appreciated for its creamy texture and nutritional value. Avocados, native to south-central Mexico, were considered sacred and believed to possess aphrodisiac qualities. After the Spanish conquest, the conquistadors embraced 'ahuacamolli,' adapting it with lime and other ingredients, eventually spreading its popularity beyond Mexico's borders. It has evolved over time, but its core ingredients – avocado, chile, and salt – remain true to its ancient roots, a testament to its enduring appeal and cultural significance.\n\n## Why This Recipe Works\n\nThis classic guacamole recipe thrives on the simplicity and quality of its fresh ingredients, allowing each component to contribute harmoniously. The ripe Hass avocados provide a luxurious, creamy base, rich in healthy fats. Freshly squeezed lime juice is crucial; it not only brightens the flavor with its vibrant acidity but also acts as a natural antioxidant, helping to prevent the avocado from browning. The finely diced white onion and cilantro introduce a crisp, herbaceous freshness, while the minced Serrano chile adds a subtle, authentic kick without overpowering the other elements. A good pinch of sea salt enhances all these flavors, creating a perfectly balanced and utterly addictive dip that truly celebrates Mexican culinary heritage.\n\n## Chef Tips for Perfection\n\nFor the ultimate guacamole, always start with perfectly ripe avocados; they should feel heavy for their size and yield gently when squeezed. Resist the urge to use a food processor, as it can over-process the avocado, resulting in a watery, unappealing texture. A molcajete or a simple fork will give you that desirable rustic, chunky consistency. Taste as you go, especially when adding salt and lime juice, as avocado ripeness and individual preference can vary greatly. The key is balance. Finally, for an authentic touch, use white onion, which is milder and crisper than red, and fresh Serrano chiles for their distinct, bright heat that is characteristic of Mexican cuisine.\n\n## Serving Suggestions\n\nClassic Guacamole Avocado is incredibly versatile and pairs wonderfully with a myriad of Mexican dishes. Its most iconic partner is, of course, a basket of warm, crisp totopos (tortilla chips), perfect for scooping up every last bit. Beyond that, it's an essential accompaniment to tacos al pastor, carne asada, or any grilled meat, adding a fresh, creamy counterpoint. Spread it generously on tostadas or sopes, or dollop it onto huevos rancheros for a decadent breakfast. It also makes a fantastic addition to tortas and quesadillas. For a truly traditional experience, serve it in the molcajete it was prepared in, garnished with a few extra sprigs of cilantro.",
-  "publishedAt": "2026-04-06T07:30:21.482Z",
-  "jsonLd": {
+  "article": "The vibrant green, creamy texture, and burst of fresh flavors make Classic Guacamole Avocado a timeless culinary delight. More than just a dip, it’s a cornerstone of Mexican cuisine, a celebration of simple, wholesome ingredients transformed into something extraordinary. Whether you're hosting a party, enjoying a casual snack, or looking for the perfect accompaniment to your favorite Mexican dishes, mastering the art of homemade guacamole is a skill worth acquiring. Forget the store-bought versions; the real magic happens when you craft this beloved Mexican appetizer from scratch.\n\n## What is Classic Guacamole Avocado?\n\nAt its heart, Classic Guacamole Avocado is a simple yet incredibly flavorful dip made primarily from mashed ripe avocados. Its origins trace back to the Aztec empire in Mexico, where avocados were revered. The name \"guacamole\" itself comes from the Nahuatl word \"ahuacamolli,\" meaning \"avocado sauce.\" While countless variations exist today, the classic rendition sticks to a few core ingredients that allow the creamy richness of the avocado to shine. It's characterized by its fresh, bright, and slightly zesty profile, often with a subtle kick of heat. This isn't just a dip; it's a fresh, wholesome experience, a testament to how humble ingredients can create an iconic dish. The beauty of Classic Guacamole Avocado lies in its simplicity and the balance of its components, making it an indispensable part of any Mexican feast.\n\n## Ingredients You Need\n\nCrafting the perfect Classic Guacamole Avocado begins with selecting the freshest, highest-quality ingredients. Each component plays a crucial role in achieving that authentic, irresistible flavor.\n\n*   **Avocados:** 3-4 ripe Hass avocados. Look for avocados that yield slightly to gentle pressure when squeezed, but aren't mushy. This is the foundation of your guacamole, so quality matters!\n*   **Lime Juice:** 2-3 tablespoons of fresh lime juice. Freshly squeezed is non-negotiable; bottled lime juice simply doesn't compare in terms of brightness and acidity, which is vital for balancing the richness of the avocado and preventing browning.\n*   **Red Onion:** 1/4 cup finely diced red onion. Red onion adds a crisp texture and a pungent, slightly sweet flavor. You can use white onion if preferred, but red offers a beautiful color contrast.\n*   **Cilantro:** 1/4 cup finely chopped fresh cilantro. This herb provides a distinct, refreshing, and slightly peppery note that is quintessential to Mexican flavors. If you're not a fan, you can reduce the amount or omit it, though it will alter the classic profile.\n*   **Jalapeño:** 1/2 to 1 whole jalapeño, finely minced (seeds and membranes removed for less heat, or left in for more). This adds a gentle warmth and a touch of authentic spice. For a milder version, remove all seeds and membranes.\n*   **Salt:** 1/2 to 1 teaspoon sea salt or kosher salt, to taste. Salt is crucial for enhancing all the other flavors. Start with less and add more as needed.\n\nOptional additions for an extra layer of flavor:\n*   A pinch of ground cumin\n*   A dash of hot sauce (like Cholula or Tabasco)\n\n## Step-by-Step Instructions\n\nMaking Classic Guacamole Avocado is surprisingly simple and quick, especially once you have your ingredients prepped. Follow these steps for a perfect batch every time:\n\n1.  **Prepare the Avocados:** Carefully cut each avocado in half lengthwise around the pit. Twist the halves apart. Remove the pit by gently tapping it with the blade of a chef's knife and twisting, or by scooping it out with a spoon. Using a spoon, scoop the avocado flesh into a medium-sized mixing bowl.\n2.  **Mash the Avocados:** Using a fork or a potato masher, gently mash the avocado flesh to your desired consistency. Some prefer it very smooth, while others like it chunky. Aim for a balance – mostly smooth with a few small chunks for texture.\n3.  **Add Lime Juice and Salt:** Immediately pour the fresh lime juice over the mashed avocado. This helps prevent browning and brightens the flavor. Sprinkle in about half a teaspoon of salt. Stir well to combine.\n4.  **Incorporate Other Ingredients:** Add the finely diced red onion, chopped cilantro, and minced jalapeño to the avocado mixture.\n5.  **Mix Gently:** Gently fold all the ingredients together until just combined. Over-mixing can make the guacamole watery.\n6.  **Taste and Adjust:** This is a crucial step for the best Classic Guacamole Avocado. Taste a small spoonful. Does it need more salt? A bit more lime juice for brightness? More jalapeño for heat? Adjust seasonings as necessary, stirring gently after each addition.\n7.  **Serve Immediately:** For the freshest taste and best color, Classic Guacamole Avocado is best served right after preparation.\n\n## Pro Tips for the Best Results\n\nAchieving truly exceptional guacamole goes beyond just following a recipe. These expert tips will elevate your Classic Guacamole Avocado from good to unforgettable.\n\n*   **Choose Ripe Avocados:** This cannot be stressed enough. A perfectly ripe avocado is the secret to creamy, flavorful guacamole. If your avocados are too hard, they won't mash well and will lack flavor. If they're overripe, they can be stringy or brownish.\n*   **Fresh Lime Juice is Key:** Always use freshly squeezed lime juice. It provides a vibrant acidity that balances the richness of the avocado and is crucial for preventing oxidation (browning).\n*   **Prevent Browning:** To keep your Classic Guacamole Avocado looking fresh, the lime juice helps, but for longer storage, press a layer of plastic wrap directly onto the surface of the guacamole, ensuring no air pockets. You can also place an avocado pit in the center of the guacamole before covering. The enzymes in the pit are believed to help prevent browning.\n*   **Don't Over-Mash:** A slightly chunky texture adds character. While some prefer it smooth, over-mashing can release too much water and make the guacamole less appealing.\n*   **Taste as You Go:** Seasoning is subjective. Start with recommended amounts but always taste and adjust the salt, lime, and spice to your preference.\n*   **Finely Dice Your Aromatics:** Ensure your onion and jalapeño are very finely minced. This distributes their flavor evenly without overwhelming the delicate avocado.\n*   **Serve at Room Temperature:** Guacamole tastes best when served at room temperature, allowing all the flavors to fully develop. If refrigerating, take it out about 15-20 minutes before serving.\n\n## Serving Suggestions\n\nClassic Guacamole Avocado is incredibly versatile and can elevate a wide array of dishes. While it's famously paired with tortilla chips, its uses extend far beyond a simple dip.\n\n*   **With Tortilla Chips:** The quintessential pairing. Choose sturdy, lightly salted tortilla chips for scooping up generous portions.\n*   **As a Topping:** Spoon generous dollops onto tacos, burritos, quesadillas, nachos, or fajitas for an instant flavor and creaminess boost.\n*   **Breakfast Boost:** Add a scoop to scrambled eggs, omelets, or avocado toast for a Mexican-inspired breakfast.\n*   **Alongside Grilled Meats:** Guacamole makes a fantastic side for grilled chicken, steak, or fish, adding a refreshing contrast.\n*   **In Salads:** Use it as a creamy dressing or a flavorful component in a vibrant salad.\n*   **With Veggie Sticks:** For a healthier snack, serve Classic Guacamole Avocado with carrot sticks, cucumber slices, bell pepper strips, or celery.\n*   **Sandwiches and Wraps:** Spread a thin layer of guacamole inside sandwiches or wraps instead of mayonnaise for a healthier and more flavorful alternative.\n\n## Variations and Substitutions\n\nWhile the Classic Guacamole Avocado recipe is perfect as is, it also serves as an excellent canvas for creative culinary exploration. Don't be afraid to experiment and tailor it to your personal taste.\n\n*   **Add Tomatoes:** Diced Roma tomatoes (seeds and pulp removed to prevent sogginess) are a popular addition, offering a burst of sweetness and color.\n*   **Spice It Up:** For more heat, use serrano peppers instead of jalapeños, or add a pinch of cayenne pepper or a dash of your favorite hot sauce.\n*   **Garlic Power:** A finely minced clove of garlic can add a pungent depth of flavor.\n*   **Fruity Twist:** For a refreshing and slightly sweet variation, try adding finely diced mango, pineapple, or even pomegranate seeds. These pair wonderfully with the creamy avocado.\n*   **Roasted Ingredients:** Roasted corn, roasted bell peppers, or even roasted garlic can introduce smoky and complex flavors.\n*   **Different Onions:** While red onion is classic, you can use white onion for a sharper bite or green onions (scallions) for a milder, more delicate flavor.\n*   **Smoky Flavor:** A pinch of smoked paprika can add a subtle smoky depth that complements the avocado beautifully.\n*   **Herbal Notes:** Experiment with other fresh herbs like oregano or epazote for a different aromatic profile, though cilantro remains the most traditional.\n\nWhether you stick to the pure, unadulterated Classic Guacamole Avocado or venture into exciting variations, the joy of making and sharing this fresh, flavorful Mexican appetizer is undeniable. It's a simple pleasure that brings people together, proving that sometimes, the best things in life are made with just a few perfect ingredients and a whole lot of love. Enjoy your homemade creation!",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Classic Guacamole Avocado",
-    "description": "Experience the vibrant flavors and creamy texture of authentic Mexican guacamole, a beloved appetizer that perfectly balances rich avocado with zesty lime, fresh herbs, and a hint of chile heat. This classic preparation delivers a truly refreshing and satisfying start to any meal.",
+    "description": "Learn how to make authentic Classic Guacamole Avocado. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/4562973/pexels-photo-4562973.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/5737254/pexels-photo-5737254.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1595016111459-799a195e7452?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDbGFzc2ljJTIwR3VhY2Ftb2xlJTIwQXZvY2FkbyUyME1leGljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MDQ5MTYzOXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1680992071073-cb1696ba8d3e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDbGFzc2ljJTIwR3VhY2Ftb2xlJTIwQXZvY2FkbyUyME1leGljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MDQ5MTYzOXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-06T07:30:21.482Z",
+    "datePublished": "2026-06-03T13:01:23.637Z",
     "prepTime": "PT15M",
-    "cookTime": "PT30M",
+    "cookTime": "PT0M",
     "totalTime": "PT15M",
     "recipeYield": "4 servings",
     "recipeCategory": "Appetizers",
     "recipeCuisine": "Mexican",
-    "keywords": "Mexican, Mexican, authentic, traditional, appetizers, Mexican, Guacamole, authentic, traditional, appetizers, Avocado, Vegetarian",
+    "keywords": "Classic Guacamole Avocado, how to make Classic Guacamole Avocado, easy Classic Guacamole Avocado recipe, authentic Mexican Classic Guacamole Avocado",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "280 calories",
-      "proteinContent": "4g",
-      "carbohydrateContent": "15g",
-      "fatContent": "25g",
-      "fiberContent": "11g",
-      "sugarContent": "2g",
-      "sodiumContent": "350mg"
+      "calories": "250 kcal"
     },
     "recipeIngredient": [
-      "3-4 large Ripe Hass Avocados (Firm yet yielding to gentle pressure)",
-      "1/4 cup White Onion (Finely diced)",
-      "1-2 Serrano Chile (Finely minced, seeds removed for less heat if desired)",
-      "1/4 cup Fresh Cilantro (Finely chopped)",
-      "1 small Roma Tomato (Deseeded and finely diced (optional, but common in many regions))",
-      "2 tablespoons Fresh Lime Juice (From 1-2 limes, to taste)",
-      "1/2 - 1 teaspoon Sea Salt (To taste)"
+      "3 large Ripe Hass avocados",
+      "1/4 cup Red onion",
+      "2 tablespoons Fresh cilantro",
+      "1 Serrano chile",
+      "2 tablespoons Fresh lime juice",
+      "1/2 teaspoon Sea salt"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Aromatics",
-        "text": "Finely dice the white onion, mince the Serrano chiles (removing seeds if you prefer less heat), and finely chop the fresh cilantro. If using, deseed and finely dice the Roma tomato. Set these ingredients aside.",
-        "timeRequired": "PT5M"
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Scoop the Avocados",
-        "text": "Carefully cut each ripe avocado in half lengthwise around the pit. Twist the halves apart, then remove the pit. Using a spoon, scoop the creamy avocado flesh into a molcajete (traditional Mexican mortar and pestle) or a medium-sized bowl.",
-        "timeRequired": "PT2M"
+        "name": "Prepare the Avocados",
+        "text": "Scoop the creamy flesh of the ripe avocados into a medium-sized bowl. Ensure the avocados are soft but not mushy for the best texture."
       },
       {
         "@type": "HowToStep",
         "name": "Mash the Avocados",
-        "text": "Begin to gently mash the avocado flesh. If using a molcajete, use the tejolote (pestle) to crush the avocado to your desired consistency – some prefer it very smooth, while others enjoy a chunkier texture. If using a bowl, a fork works perfectly. Do not over-mash; leave some texture.",
-        "timeRequired": "PT3M"
+        "text": "Using a fork or a potato masher, gently mash the avocado flesh to your desired consistency. Some prefer a chunky guacamole, while others enjoy a smoother dip."
       },
       {
         "@type": "HowToStep",
-        "name": "Incorporate Flavor",
-        "text": "Add the finely diced white onion, minced Serrano chile, and chopped cilantro to the mashed avocado. If using, add the diced Roma tomato now. Pour in the fresh lime juice and sprinkle with about half a teaspoon of sea salt.",
-        "timeRequired": "PT2M"
+        "name": "Prepare Aromatics",
+        "text": "Finely dice the red onion, chop the fresh cilantro, and mince the serrano chile. For a milder guacamole, remove the seeds and veins from the serrano chile before mincing."
       },
       {
         "@type": "HowToStep",
-        "name": "Mix and Season",
-        "text": "Gently fold all the ingredients together until well combined, being careful not to over-mix. Taste the guacamole and adjust the seasoning as needed, adding more salt, lime juice, or chile to achieve your perfect balance of flavor.",
-        "timeRequired": "PT2M"
+        "name": "Combine Ingredients",
+        "text": "Add the finely diced red onion, chopped cilantro, minced serrano chile, and fresh lime juice to the mashed avocado. The lime juice also helps prevent browning."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve Immediately",
-        "text": "Transfer the Classic Guacamole Avocado to a serving bowl. For an authentic presentation, you can serve it directly in the molcajete. Serve immediately with warm, freshly made tortilla chips or as an accompaniment to your favorite Mexican dishes.",
-        "timeRequired": "PT1M"
+        "name": "Season and Mix",
+        "text": "Sprinkle in the sea salt. Gently fold all the ingredients together until they are well combined. Be careful not to overmix, as this can make the guacamole watery."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Taste and Serve",
+        "text": "Taste the guacamole and adjust the seasoning with more salt or lime juice if needed. Serve immediately with warm tortilla chips, fresh cut vegetables, or as a vibrant topping for tacos and tostadas."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-06-03T13:01:23.637Z"
 }
