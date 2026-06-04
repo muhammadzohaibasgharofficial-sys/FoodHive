@@ -51,19 +51,19 @@
   "servings": 6,
   "difficulty": "Medium",
   "cuisine": "American",
-  "image1": "https://images.unsplash.com/photo-1772164521259-786fa72a8e2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzk0NTQ4MjN8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1776260699183-ec2f28b1047f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzk0NTQ4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "This classic Homemade Mac and Cheese Baked is the ultimate comfort food, featuring tender pasta enveloped in a rich, creamy cheese sauce and topped with a golden, crispy crust. It is a beloved American staple, perfect for family dinners or potlucks, offering a delightful blend of textures and savory flavors in every bite.",
+  "image1": "https://images.unsplash.com/photo-1772164521259-786fa72a8e2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODA1OTk2MzR8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1776260699183-ec2f28b1047f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODA1OTk2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "This classic Homemade Mac and Cheese Baked recipe delivers ultimate comfort in every bite, featuring tender pasta coated in a rich, creamy cheese sauce. Baked to golden perfection with a crispy topping, it is the quintessential American family favorite. Perfect for a cozy dinner or a crowd-pleasing side dish, this recipe brings warmth and joy to any table.",
   "ingredients": [
     {
       "item": "Elbow macaroni",
-      "amount": "1 pound",
+      "amount": "16 ounces",
       "notes": "cooked al dente"
     },
     {
       "item": "Unsalted butter",
       "amount": "1/2 cup",
-      "notes": "plus extra for greasing"
+      "notes": "plus 2 tablespoons melted for topping"
     },
     {
       "item": "All-purpose flour",
@@ -78,17 +78,17 @@
     {
       "item": "Sharp cheddar cheese",
       "amount": "4 cups",
-      "notes": "shredded, divided"
+      "notes": "shredded and divided"
     },
     {
-      "item": "Gruyere cheese",
-      "amount": "1 cup",
-      "notes": "shredded (or Monterey Jack)"
+      "item": "Monterey Jack cheese",
+      "amount": "2 cups",
+      "notes": "shredded"
     },
     {
       "item": "Salt",
       "amount": "1 teaspoon",
-      "notes": "or to taste"
+      "notes": ""
     },
     {
       "item": "Black pepper",
@@ -96,13 +96,18 @@
       "notes": "freshly ground"
     },
     {
-      "item": "Nutmeg",
-      "amount": "Pinch",
-      "notes": "ground"
+      "item": "Dry mustard powder",
+      "amount": "1/2 teaspoon",
+      "notes": ""
+    },
+    {
+      "item": "Smoked paprika",
+      "amount": "1/4 teaspoon",
+      "notes": "optional"
     },
     {
       "item": "Panko breadcrumbs",
-      "amount": "1/2 cup",
+      "amount": "1 cup",
       "notes": ""
     }
   ],
@@ -110,63 +115,71 @@
     {
       "step": 1,
       "title": "Prepare Pasta and Oven",
-      "text": "Preheat your oven to 375°F (190°C). Lightly grease a 9x13 inch baking dish with butter. Cook the elbow macaroni according to package directions until it is al dente. Drain the pasta well and set it aside.",
+      "text": "Cook the elbow macaroni according to package directions until al dente. Drain well and set aside. While the pasta cooks, preheat your oven to 375F (190C) and lightly grease a 9x13 inch baking dish.",
       "time": "10 min"
     },
     {
       "step": 2,
       "title": "Make the Roux",
-      "text": "In a large saucepan or Dutch oven, melt the 1/2 cup of unsalted butter over medium heat. Once melted, add the all-purpose flour and whisk continuously for 1-2 minutes to create a smooth roux. It should be light golden in color.",
+      "text": "In a large saucepan or Dutch oven, melt 1/2 cup of unsalted butter over medium heat. Once melted, whisk in the all-purpose flour and cook for 1-2 minutes, stirring constantly, until a smooth paste forms and smells slightly nutty. This is your roux.",
       "time": "3 min"
     },
     {
       "step": 3,
-      "title": "Whisk in Milk",
-      "text": "Gradually whisk in the warmed whole milk, a little at a time, ensuring there are no lumps. Continue to whisk until the sauce thickens and begins to simmer, about 5-7 minutes. Keep the heat at medium-low to prevent scorching.",
+      "title": "Create Béchamel Sauce",
+      "text": "Gradually whisk in the warmed whole milk, a little at a time, ensuring no lumps form. Continue to whisk until the sauce thickens to a creamy consistency, about 5-7 minutes. Do not boil vigorously; just let it gently simmer and thicken.",
       "time": "7 min"
     },
     {
       "step": 4,
-      "title": "Add Cheeses and Seasonings",
-      "text": "Remove the saucepan from the heat. Add 3 cups of the shredded sharp cheddar cheese and all of the shredded Gruyere cheese to the sauce. Stir until the cheeses are completely melted and the sauce is smooth and creamy. Season with salt, black pepper, and a pinch of nutmeg.",
+      "title": "Form Cheese Sauce",
+      "text": "Remove the pan from the heat. Stir in 3 cups of shredded sharp cheddar cheese and all of the shredded Monterey Jack cheese until thoroughly melted and smooth. Season the cheese sauce with salt, freshly ground black pepper, and dry mustard powder. Add smoked paprika if you desire a hint of smoky flavor.",
       "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Combine Pasta and Sauce",
-      "text": "Add the cooked and drained macaroni to the cheese sauce. Stir gently until all the pasta is evenly coated with the rich, creamy cheese sauce. Ensure every piece is covered for maximum flavor.",
-      "time": "2 min"
+      "title": "Combine and Assemble",
+      "text": "Add the cooked and drained macaroni to the cheese sauce and stir gently until all the pasta is evenly coated and swimming in creamy goodness. Pour the entire mixture into the prepared 9x13 inch baking dish, spreading it evenly.",
+      "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Bake to Golden Perfection",
-      "text": "Pour the macaroni and cheese mixture into the prepared baking dish. Sprinkle the remaining 1 cup of shredded sharp cheddar cheese evenly over the top, followed by the Panko breadcrumbs. Bake for 25-30 minutes, or until the top is golden brown and bubbly. Let it rest for a few minutes before serving.",
-      "time": "30 min"
+      "title": "Add Topping",
+      "text": "In a small bowl, toss the panko breadcrumbs with the 2 tablespoons of melted butter until evenly coated. Sprinkle the remaining 1 cup of shredded sharp cheddar cheese evenly over the macaroni in the baking dish, then top with the buttered panko breadcrumbs for a delightful crunch.",
+      "time": "3 min"
+    },
+    {
+      "step": 7,
+      "title": "Bake to Perfection",
+      "text": "Bake for 25-30 minutes, or until the mac and cheese is bubbly around the edges and the topping is golden brown and delightfully crispy. Let it rest for 5-10 minutes before serving to allow the sauce to set slightly, making it easier to serve.",
+      "time": "35 min"
     }
   ],
   "nutritionTable": {
-    "calories": "380 kcal",
-    "protein": "18g",
-    "carbs": "45g",
-    "fat": "14g",
-    "fiber": "4g",
-    "sugar": "5g",
-    "sodium": "520mg",
-    "cholesterol": "60mg"
+    "calories": "620 kcal",
+    "protein": "28g",
+    "carbs": "55g",
+    "fat": "32g",
+    "fiber": "3g",
+    "sugar": "7g",
+    "sodium": "780mg",
+    "cholesterol": "100mg"
   },
   "tags": [
     "American",
     "comfort food",
-    "authentic",
-    "traditional",
+    "cheese",
     "pasta",
-    "Homemade Mac and Cheese Baked",
-    "cheese"
+    "baked",
+    "casserole",
+    "family meal",
+    "side dish",
+    "creamy"
   ],
   "tips": [
-    "For the creamiest sauce, use freshly shredded cheese rather than pre-shredded, as the latter often contains anti-caking agents that can make the sauce gritty.",
-    "Experiment with different cheese combinations; smoked gouda, fontina, or even a touch of cream cheese can add unique depth and flavor.",
-    "Allow the baked mac and cheese to rest for 10-15 minutes after removing it from the oven. This helps the sauce set and prevents it from being too runny when served."
+    "For the ultimate creamy texture, use freshly shredded cheese instead of pre-shredded, as it melts smoother and prevents a grainy sauce.",
+    "Do not overcook the pasta initially; it should be al dente, as it will continue to cook in the oven and absorb the delicious cheese sauce.",
+    "A combination of cheeses like sharp cheddar, Gruyere, and Monterey Jack will add depth and complexity to your mac and cheese sauce."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -177,14 +190,14 @@
     "name": "Homemade Mac and Cheese Baked",
     "description": "Learn how to make authentic Homemade Mac and Cheese Baked. This easy American recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1772164521259-786fa72a8e2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzk0NTQ4MjN8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1776260699183-ec2f28b1047f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3Nzk0NTQ4MjN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1772164521259-786fa72a8e2d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODA1OTk2MzR8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1776260699183-ec2f28b1047f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb21lbWFkZSUyME1hYyUyMGFuZCUyMEFtZXJpY2FuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODA1OTk2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-05-22T13:31:09.209Z",
+    "datePublished": "2026-06-04T19:00:57.915Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -199,52 +212,58 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 kcal"
+      "calories": "620 kcal"
     },
     "recipeIngredient": [
-      "1 pound Elbow macaroni",
+      "16 ounces Elbow macaroni",
       "1/2 cup Unsalted butter",
       "1/2 cup All-purpose flour",
       "4 cups Whole milk",
       "4 cups Sharp cheddar cheese",
-      "1 cup Gruyere cheese",
+      "2 cups Monterey Jack cheese",
       "1 teaspoon Salt",
       "1/2 teaspoon Black pepper",
-      "Pinch Nutmeg",
-      "1/2 cup Panko breadcrumbs"
+      "1/2 teaspoon Dry mustard powder",
+      "1/4 teaspoon Smoked paprika",
+      "1 cup Panko breadcrumbs"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare Pasta and Oven",
-        "text": "Preheat your oven to 375°F (190°C). Lightly grease a 9x13 inch baking dish with butter. Cook the elbow macaroni according to package directions until it is al dente. Drain the pasta well and set it aside."
+        "text": "Cook the elbow macaroni according to package directions until al dente. Drain well and set aside. While the pasta cooks, preheat your oven to 375F (190C) and lightly grease a 9x13 inch baking dish."
       },
       {
         "@type": "HowToStep",
         "name": "Make the Roux",
-        "text": "In a large saucepan or Dutch oven, melt the 1/2 cup of unsalted butter over medium heat. Once melted, add the all-purpose flour and whisk continuously for 1-2 minutes to create a smooth roux. It should be light golden in color."
+        "text": "In a large saucepan or Dutch oven, melt 1/2 cup of unsalted butter over medium heat. Once melted, whisk in the all-purpose flour and cook for 1-2 minutes, stirring constantly, until a smooth paste forms and smells slightly nutty. This is your roux."
       },
       {
         "@type": "HowToStep",
-        "name": "Whisk in Milk",
-        "text": "Gradually whisk in the warmed whole milk, a little at a time, ensuring there are no lumps. Continue to whisk until the sauce thickens and begins to simmer, about 5-7 minutes. Keep the heat at medium-low to prevent scorching."
+        "name": "Create Béchamel Sauce",
+        "text": "Gradually whisk in the warmed whole milk, a little at a time, ensuring no lumps form. Continue to whisk until the sauce thickens to a creamy consistency, about 5-7 minutes. Do not boil vigorously; just let it gently simmer and thicken."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Cheeses and Seasonings",
-        "text": "Remove the saucepan from the heat. Add 3 cups of the shredded sharp cheddar cheese and all of the shredded Gruyere cheese to the sauce. Stir until the cheeses are completely melted and the sauce is smooth and creamy. Season with salt, black pepper, and a pinch of nutmeg."
+        "name": "Form Cheese Sauce",
+        "text": "Remove the pan from the heat. Stir in 3 cups of shredded sharp cheddar cheese and all of the shredded Monterey Jack cheese until thoroughly melted and smooth. Season the cheese sauce with salt, freshly ground black pepper, and dry mustard powder. Add smoked paprika if you desire a hint of smoky flavor."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Pasta and Sauce",
-        "text": "Add the cooked and drained macaroni to the cheese sauce. Stir gently until all the pasta is evenly coated with the rich, creamy cheese sauce. Ensure every piece is covered for maximum flavor."
+        "name": "Combine and Assemble",
+        "text": "Add the cooked and drained macaroni to the cheese sauce and stir gently until all the pasta is evenly coated and swimming in creamy goodness. Pour the entire mixture into the prepared 9x13 inch baking dish, spreading it evenly."
       },
       {
         "@type": "HowToStep",
-        "name": "Bake to Golden Perfection",
-        "text": "Pour the macaroni and cheese mixture into the prepared baking dish. Sprinkle the remaining 1 cup of shredded sharp cheddar cheese evenly over the top, followed by the Panko breadcrumbs. Bake for 25-30 minutes, or until the top is golden brown and bubbly. Let it rest for a few minutes before serving."
+        "name": "Add Topping",
+        "text": "In a small bowl, toss the panko breadcrumbs with the 2 tablespoons of melted butter until evenly coated. Sprinkle the remaining 1 cup of shredded sharp cheddar cheese evenly over the macaroni in the baking dish, then top with the buttered panko breadcrumbs for a delightful crunch."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Bake to Perfection",
+        "text": "Bake for 25-30 minutes, or until the mac and cheese is bubbly around the edges and the topping is golden brown and delightfully crispy. Let it rest for 5-10 minutes before serving to allow the sauce to set slightly, making it easier to serve."
       }
     ]
   },
-  "publishedAt": "2026-05-22T13:31:09.210Z"
+  "publishedAt": "2026-06-04T19:00:57.916Z"
 }
