@@ -51,9 +51,9 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Turkish",
-  "image1": "https://images.unsplash.com/photo-1630684789391-d59419768fb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MDY1MzYzMnww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MDY1MzYzMnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Mercimek Corbasi, a beloved Turkish red lentil soup, is a staple in every Turkish home, offering warmth and comfort with its rich, velvety texture. This nutritious and flavorful soup is incredibly easy to prepare, making it perfect for a quick weeknight meal or a comforting starter. The vibrant red lentils, aromatic vegetables, and a hint of mint create a truly unforgettable culinary experience.",
+  "image1": "https://images.unsplash.com/photo-1630684789391-d59419768fb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTAzMzQyMnww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTAzMzQyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Mercimek Corbasi is a beloved Turkish red lentil soup, known for its comforting warmth and vibrant flavor. This creamy, hearty soup is a staple in Turkish households, often enjoyed as a starter or a light meal. Its simplicity and nourishing qualities make it a perfect dish for any day.",
   "ingredients": [
     {
       "item": "Red lentils",
@@ -61,97 +61,113 @@
       "notes": "rinsed and drained"
     },
     {
-      "item": "Water or vegetable broth",
-      "amount": "6-7 cups",
-      "notes": "for simmering"
-    },
-    {
-      "item": "Olive oil",
-      "amount": "2 tablespoons",
-      "notes": "for sauteing"
-    },
-    {
       "item": "Onion",
-      "amount": "1 large",
+      "amount": "1 medium",
       "notes": "finely chopped"
     },
     {
-      "item": "Garlic",
-      "amount": "2 cloves",
+      "item": "Garlic cloves",
+      "amount": "2",
       "notes": "minced"
     },
     {
       "item": "Tomato paste",
-      "amount": "1 tablespoon",
-      "notes": "Turkish salca if possible"
+      "amount": "1 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Olive oil",
+      "amount": "2 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Chicken or vegetable broth",
+      "amount": "6 cups",
+      "notes": "or water"
     },
     {
       "item": "Dried mint",
-      "amount": "1 teaspoon",
-      "notes": "for flavor"
+      "amount": "1 tsp",
+      "notes": ""
     },
     {
       "item": "Red pepper flakes (Pul Biber)",
-      "amount": "1/2 teaspoon",
-      "notes": "or to taste"
+      "amount": "1/2 tsp",
+      "notes": "or more to taste"
+    },
+    {
+      "item": "Cumin",
+      "amount": "1/2 tsp",
+      "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "1 teaspoon",
+      "amount": "1 tsp",
       "notes": "or to taste"
     },
     {
       "item": "Black pepper",
-      "amount": "1/2 teaspoon",
-      "notes": "freshly ground"
+      "amount": "1/2 tsp",
+      "notes": "or to taste"
     },
     {
       "item": "Butter",
-      "amount": "2 tablespoons",
-      "notes": "for the topping"
+      "amount": "2 tbsp",
+      "notes": "for topping"
     },
     {
       "item": "Lemon wedges",
       "amount": "for serving",
+      "notes": ""
+    },
+    {
+      "item": "Fresh mint leaves",
+      "amount": "for garnish",
       "notes": "optional"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Lentils and Aromatics",
-      "text": "Rinse the red lentils thoroughly under cold running water until the water runs clear. In a large pot or Dutch oven, heat the olive oil over medium heat. Add the finely chopped onion and sauté until softened and translucent, about 5-7 minutes.",
-      "time": "7 min"
+      "title": "Sauté Aromatics",
+      "text": "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the chopped onion and cook until softened and translucent, about 5-7 minutes. Add the minced garlic and cook for another minute until fragrant.",
+      "time": "8 min"
     },
     {
       "step": 2,
-      "title": "Build the Flavor Base",
-      "text": "Add the minced garlic to the pot and cook for another minute until fragrant. Stir in the tomato paste and cook for 2-3 minutes, stirring constantly, to deepen its flavor and color. Be careful not to burn it.",
-      "time": "4 min"
-    },
-    {
-      "step": 3,
-      "title": "Combine and Simmer",
-      "text": "Add the rinsed lentils to the pot, stirring to combine them with the onion and tomato paste mixture. Pour in 6 cups of water or vegetable broth. Bring the mixture to a boil, then reduce the heat to low, cover, and let it simmer for 20-25 minutes, or until the lentils are very tender.",
-      "time": "25 min"
-    },
-    {
-      "step": 4,
-      "title": "Season and Blend",
-      "text": "Once the lentils are tender, remove the pot from the heat. Stir in the dried mint, red pepper flakes, salt, and black pepper. Using an immersion blender, blend the soup directly in the pot until it is smooth and creamy. If you dont have an immersion blender, carefully transfer the soup to a regular blender and blend in batches, then return to the pot. If the soup is too thick, add the remaining 1 cup of water or broth until it reaches your desired consistency.",
-      "time": "10 min"
-    },
-    {
-      "step": 5,
-      "title": "Prepare the Butter Topping",
-      "text": "In a small pan, melt the butter over medium-low heat. Once the butter is melted and slightly foamy, add an additional pinch of dried mint and red pepper flakes. Swirl for about 30 seconds until fragrant, being careful not to burn the spices.",
+      "title": "Add Tomato Paste and Spices",
+      "text": "Stir in the tomato paste and cook for 2 minutes, stirring constantly, to deepen its flavor. Add the dried mint, red pepper flakes, cumin, salt, and black pepper. Cook for an additional minute, allowing the spices to become fragrant.",
       "time": "3 min"
     },
     {
+      "step": 3,
+      "title": "Combine Lentils and Broth",
+      "text": "Add the rinsed and drained red lentils to the pot, stirring to coat them with the spice mixture. Pour in the chicken or vegetable broth (or water). Bring the mixture to a boil.",
+      "time": "5 min"
+    },
+    {
+      "step": 4,
+      "title": "Simmer the Soup",
+      "text": "Once boiling, reduce the heat to low, cover the pot, and let the soup simmer for 20-25 minutes, or until the lentils are very tender and have broken down. Stir occasionally to prevent sticking.",
+      "time": "25 min"
+    },
+    {
+      "step": 5,
+      "title": "Blend to Smoothness",
+      "text": "Carefully remove the pot from the heat. Using an immersion blender, blend the soup directly in the pot until it reaches a smooth and creamy consistency. Alternatively, transfer the soup in batches to a regular blender and blend until smooth, then return to the pot. Adjust seasoning if needed.",
+      "time": "5 min"
+    },
+    {
       "step": 6,
+      "title": "Prepare the Butter Topping",
+      "text": "In a small pan, melt the butter over medium-low heat. Once melted, add a pinch of dried mint and a sprinkle of red pepper flakes. Cook for about 30 seconds until the mint becomes fragrant, being careful not to burn the butter.",
+      "time": "2 min"
+    },
+    {
+      "step": 7,
       "title": "Serve Mercimek Corbasi",
-      "text": "Ladle the hot Mercimek Corbasi into individual bowls. Drizzle a spoonful of the melted spiced butter over each serving. Serve immediately with fresh lemon wedges on the side for squeezing, which adds a wonderful brightness to the soup.",
-      "time": "1 min"
+      "text": "Ladle the hot Mercimek Corbasi into serving bowls. Drizzle each serving with a spoonful of the melted spiced butter. Garnish with fresh mint leaves if desired and serve immediately with lemon wedges on the side for squeezing.",
+      "time": "2 min"
     }
   ],
   "nutritionTable": {
@@ -170,15 +186,12 @@
     "authentic",
     "traditional",
     "soups",
-    "Mercimek Corbasi Red Lentil Soup",
-    "vegetarian",
-    "healthy",
-    "comfort food"
+    "Mercimek Corbasi Red Lentil Soup"
   ],
   "tips": [
-    "Always rinse your red lentils thoroughly before cooking to remove any dust or impurities and prevent the soup from becoming cloudy.",
-    "For an extra layer of flavor, use homemade chicken or vegetable broth instead of water. A good quality Turkish tomato paste (salca) will also make a noticeable difference.",
-    "The traditional butter and spice topping (nane-pul biberli yag) is crucial for an authentic taste. Dont skip it, and serve with fresh lemon wedges for a bright finish."
+    "Always rinse your red lentils thoroughly before cooking to remove any dust or debris and improve clarity of the soup.",
+    "For an extra depth of flavor, use a good quality chicken or beef broth instead of just water. Vegetable broth works perfectly for a vegetarian version.",
+    "When blending, ensure the soup is smooth but not overly aerated. The goal is a creamy texture. Adjust consistency with a little extra hot water or broth if it's too thick after blending."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -189,14 +202,14 @@
     "name": "Mercimek Corbasi Red Lentil Soup",
     "description": "Learn how to make authentic Mercimek Corbasi Red Lentil Soup. This easy Turkish recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1630684789391-d59419768fb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MDY1MzYzMnww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MDY1MzYzMnww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1630684789391-d59419768fb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTAzMzQyMnww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxUdXJraXNoJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTAzMzQyMnww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-06-05T10:01:53.651Z",
+    "datePublished": "2026-06-09T21:00:59.582Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -215,50 +228,57 @@
     },
     "recipeIngredient": [
       "1 cup Red lentils",
-      "6-7 cups Water or vegetable broth",
-      "2 tablespoons Olive oil",
-      "1 large Onion",
-      "2 cloves Garlic",
-      "1 tablespoon Tomato paste",
-      "1 teaspoon Dried mint",
-      "1/2 teaspoon Red pepper flakes (Pul Biber)",
-      "1 teaspoon Salt",
-      "1/2 teaspoon Black pepper",
-      "2 tablespoons Butter",
-      "for serving Lemon wedges"
+      "1 medium Onion",
+      "2 Garlic cloves",
+      "1 tbsp Tomato paste",
+      "2 tbsp Olive oil",
+      "6 cups Chicken or vegetable broth",
+      "1 tsp Dried mint",
+      "1/2 tsp Red pepper flakes (Pul Biber)",
+      "1/2 tsp Cumin",
+      "1 tsp Salt",
+      "1/2 tsp Black pepper",
+      "2 tbsp Butter",
+      "for serving Lemon wedges",
+      "for garnish Fresh mint leaves"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Lentils and Aromatics",
-        "text": "Rinse the red lentils thoroughly under cold running water until the water runs clear. In a large pot or Dutch oven, heat the olive oil over medium heat. Add the finely chopped onion and sauté until softened and translucent, about 5-7 minutes."
+        "name": "Sauté Aromatics",
+        "text": "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the chopped onion and cook until softened and translucent, about 5-7 minutes. Add the minced garlic and cook for another minute until fragrant."
       },
       {
         "@type": "HowToStep",
-        "name": "Build the Flavor Base",
-        "text": "Add the minced garlic to the pot and cook for another minute until fragrant. Stir in the tomato paste and cook for 2-3 minutes, stirring constantly, to deepen its flavor and color. Be careful not to burn it."
+        "name": "Add Tomato Paste and Spices",
+        "text": "Stir in the tomato paste and cook for 2 minutes, stirring constantly, to deepen its flavor. Add the dried mint, red pepper flakes, cumin, salt, and black pepper. Cook for an additional minute, allowing the spices to become fragrant."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine and Simmer",
-        "text": "Add the rinsed lentils to the pot, stirring to combine them with the onion and tomato paste mixture. Pour in 6 cups of water or vegetable broth. Bring the mixture to a boil, then reduce the heat to low, cover, and let it simmer for 20-25 minutes, or until the lentils are very tender."
+        "name": "Combine Lentils and Broth",
+        "text": "Add the rinsed and drained red lentils to the pot, stirring to coat them with the spice mixture. Pour in the chicken or vegetable broth (or water). Bring the mixture to a boil."
       },
       {
         "@type": "HowToStep",
-        "name": "Season and Blend",
-        "text": "Once the lentils are tender, remove the pot from the heat. Stir in the dried mint, red pepper flakes, salt, and black pepper. Using an immersion blender, blend the soup directly in the pot until it is smooth and creamy. If you dont have an immersion blender, carefully transfer the soup to a regular blender and blend in batches, then return to the pot. If the soup is too thick, add the remaining 1 cup of water or broth until it reaches your desired consistency."
+        "name": "Simmer the Soup",
+        "text": "Once boiling, reduce the heat to low, cover the pot, and let the soup simmer for 20-25 minutes, or until the lentils are very tender and have broken down. Stir occasionally to prevent sticking."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Blend to Smoothness",
+        "text": "Carefully remove the pot from the heat. Using an immersion blender, blend the soup directly in the pot until it reaches a smooth and creamy consistency. Alternatively, transfer the soup in batches to a regular blender and blend until smooth, then return to the pot. Adjust seasoning if needed."
       },
       {
         "@type": "HowToStep",
         "name": "Prepare the Butter Topping",
-        "text": "In a small pan, melt the butter over medium-low heat. Once the butter is melted and slightly foamy, add an additional pinch of dried mint and red pepper flakes. Swirl for about 30 seconds until fragrant, being careful not to burn the spices."
+        "text": "In a small pan, melt the butter over medium-low heat. Once melted, add a pinch of dried mint and a sprinkle of red pepper flakes. Cook for about 30 seconds until the mint becomes fragrant, being careful not to burn the butter."
       },
       {
         "@type": "HowToStep",
         "name": "Serve Mercimek Corbasi",
-        "text": "Ladle the hot Mercimek Corbasi into individual bowls. Drizzle a spoonful of the melted spiced butter over each serving. Serve immediately with fresh lemon wedges on the side for squeezing, which adds a wonderful brightness to the soup."
+        "text": "Ladle the hot Mercimek Corbasi into serving bowls. Drizzle each serving with a spoonful of the melted spiced butter. Garnish with fresh mint leaves if desired and serve immediately with lemon wedges on the side for squeezing."
       }
     ]
   },
-  "publishedAt": "2026-06-05T10:01:53.652Z"
+  "publishedAt": "2026-06-09T21:00:59.582Z"
 }
