@@ -9,44 +9,50 @@
   "categoryIcon": "🦞",
   "seo": {
     "title": "Haemul Pajeon Recipe: Authentic Korean Seafood Pancake",
-    "metaDescription": "Master the art of Haemul Pajeon with our authentic Korean seafood pancake recipe! Easy step-by-step guide to make this delicious dish at home. Perfect for any meal.",
+    "metaDescription": "Master the art of Haemul Pajeon with our authentic Korean seafood pancake recipe! Get crispy edges, tender seafood, and a savory dipping sauce. Perfect for any meal.",
     "urlSlug": "haemul-pajeon-korean-seafood-pancake-recipe",
-    "mainKeyword": "Haemul Pajeon",
+    "mainKeyword": "Haemul Pajeon recipe",
     "longTailKeywords": [
       "how to make Haemul Pajeon",
       "easy Haemul Pajeon recipe",
       "authentic Korean Haemul Pajeon",
       "Haemul Pajeon step by step",
       "best Haemul Pajeon at home",
-      "Korean seafood pancake recipe"
+      "Korean seafood pancake recipe",
+      "Haemul Pajeon ingredients"
     ],
     "lowCompetitionKeywords": [
       "homemade Haemul Pajeon recipe",
-      "Korean seafood pancake ingredients",
-      "pajeon dipping sauce recipe",
-      "seafood scallion pancake recipe"
+      "crispy Haemul Pajeon recipe",
+      "Haemul Pajeon batter recipe",
+      "Haemul Pajeon dipping sauce recipe",
+      "Korean seafood pancake with squid"
     ],
-    "searchIntent": "informational",
+    "searchIntent": "transactional",
     "h1": "Authentic Haemul Pajeon (Korean Seafood Pancake) Recipe",
     "h2Headings": [
       "What is Haemul Pajeon?",
       "Ingredients for Haemul Pajeon",
-      "How to Make Haemul Pajeon (Step-by-Step Guide)",
-      "Tips for the Perfect Korean Seafood Pancake",
+      "How to Make Haemul Pajeon: Step-by-Step Guide",
+      "Tips for the Perfect Crispy Haemul Pajeon",
       "Serving Suggestions & Dipping Sauce",
-      "Variations and Substitutions"
+      "Variations and Common Questions"
     ],
     "imageFilename": "haemul-pajeon-korean-seafood-pancake-recipe.jpg",
-    "imageAlt": "Freshly made Haemul Pajeon, a crispy Korean seafood pancake, served with dipping sauce.",
-    "imageCaption": "Enjoy a taste of Korea with this homemade Haemul Pajeon, packed with fresh seafood and crisp vegetables.",
+    "imageAlt": "A plate of freshly made Haemul Pajeon, a crispy Korean seafood pancake, garnished with green onions and served with dipping sauce.",
+    "imageCaption": "Our Haemul Pajeon recipe delivers a perfectly crispy, savory Korean seafood pancake that's bursting with flavor.",
     "internalLinks": [
       {
         "anchor": "More Seafood Recipes",
         "url": "/categories/seafood"
       },
       {
-        "anchor": "Authentic Korean Recipes",
-        "url": "/cuisine/korean"
+        "anchor": "Explore Korean Cuisine",
+        "url": "/countries/korean"
+      },
+      {
+        "anchor": "Easy Pancake Recipes",
+        "url": "/categories/pancakes"
       }
     ]
   },
@@ -56,9 +62,9 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.unsplash.com/photo-1548592806-482f9b023d51?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODA0Mzc2MzN8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1698462297918-79ae9314e062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODA0Mzc2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Haemul Pajeon is a beloved Korean savory pancake, crispy on the outside and tender within, generously studded with fresh seafood and vibrant green onions. It offers a delightful harmony of oceanic flavors and a satisfying texture, making it a perfect appetizer or light meal. Enjoy this traditional dish with a tangy soy-based dipping sauce for an unforgettable culinary experience.",
+  "image1": "https://images.unsplash.com/photo-1698462297918-79ae9314e062?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODExMzI0NDJ8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1548592806-482f9b023d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODExMzI0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Haemul Pajeon is a beloved Korean savory pancake, crispy on the outside and tender within, packed with a delightful medley of fresh seafood and vibrant green onions. This iconic dish offers a perfect balance of oceanic flavors and a satisfying chewiness, making it an irresistible appetizer or light meal. Enjoy the authentic taste of Korea with every savory bite of this delicious seafood pancake.",
   "ingredients": [
     {
       "item": "All-purpose flour",
@@ -68,12 +74,17 @@
     {
       "item": "Rice flour",
       "amount": "1/4 cup",
-      "notes": "or glutinous rice flour for extra crispiness"
+      "notes": ""
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "2 tablespoons",
+      "notes": ""
     },
     {
       "item": "Cold water",
       "amount": "1 1/2 cups",
-      "notes": ""
+      "notes": "or more, as needed"
     },
     {
       "item": "Egg",
@@ -86,34 +97,29 @@
       "notes": ""
     },
     {
-      "item": "Shrimp",
-      "amount": "4 oz",
-      "notes": "peeled, deveined, roughly chopped"
+      "item": "White pepper",
+      "amount": "1/4 teaspoon",
+      "notes": ""
     },
     {
-      "item": "Squid",
-      "amount": "4 oz",
-      "notes": "cleaned, body cut into rings, tentacles chopped"
-    },
-    {
-      "item": "Mussels or oysters",
-      "amount": "4 oz",
-      "notes": "cleaned, optional"
+      "item": "Mixed seafood",
+      "amount": "1 pound",
+      "notes": "shrimp, squid rings, mussels, scallops, cleaned and chopped into bite-sized pieces"
     },
     {
       "item": "Green onions",
-      "amount": "1 bunch (about 10-12)",
-      "notes": "cut into 3-inch pieces"
+      "amount": "1 bunch (about 6-8)",
+      "notes": "cut into 3-inch lengths"
     },
     {
-      "item": "Onion",
-      "amount": "1/2 medium",
+      "item": "Yellow onion",
+      "amount": "1/2 small",
       "notes": "thinly sliced"
     },
     {
-      "item": "Red chili pepper",
+      "item": "Red chili",
       "amount": "1 small",
-      "notes": "thinly sliced, optional for garnish"
+      "notes": "sliced diagonally (optional, for garnish)"
     },
     {
       "item": "Vegetable oil",
@@ -136,62 +142,62 @@
       "notes": "for dipping sauce"
     },
     {
-      "item": "Sesame seeds",
+      "item": "Toasted sesame seeds",
+      "amount": "1 teaspoon",
+      "notes": "for dipping sauce"
+    },
+    {
+      "item": "Minced garlic",
       "amount": "1/2 teaspoon",
-      "notes": "toasted, for dipping sauce"
+      "notes": "for dipping sauce"
     },
     {
-      "item": "Garlic",
-      "amount": "1 clove",
-      "notes": "minced, for dipping sauce"
-    },
-    {
-      "item": "Gochugaru (Korean chili flakes)",
+      "item": "Red chili flakes (gochugaru)",
       "amount": "1/4 teaspoon",
-      "notes": "optional, for dipping sauce"
+      "notes": "for dipping sauce (optional)"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Seafood and Vegetables",
-      "text": "Thoroughly clean and prepare all seafood. Chop shrimp and squid into bite-sized pieces. If using mussels or oysters, ensure they are clean. Wash and trim green onions, cutting them into 3-inch lengths. Thinly slice the onion. Prepare the red chili for garnish if desired.",
-      "time": "10 min"
-    },
-    {
-      "step": 2,
-      "title": "Make the Batter",
-      "text": "In a large bowl, whisk together all-purpose flour, rice flour, cold water, egg, and salt until a smooth, lump-free batter forms. The batter should be somewhat thin, similar to crepe batter. Do not overmix, as this can lead to a tough pancake.",
+      "title": "Prepare the Dipping Sauce",
+      "text": "In a small bowl, whisk together the soy sauce, rice vinegar, sesame oil, toasted sesame seeds, minced garlic, and red chili flakes (if using). Set aside.",
       "time": "5 min"
     },
     {
+      "step": 2,
+      "title": "Prepare Seafood and Vegetables",
+      "text": "Ensure your mixed seafood is cleaned and chopped into bite-sized pieces. Pat them dry thoroughly with paper towels. Cut the green onions into 3-inch lengths and thinly slice the yellow onion. If using, slice the red chili diagonally.",
+      "time": "10 min"
+    },
+    {
       "step": 3,
-      "title": "Prepare the Dipping Sauce",
-      "text": "In a small bowl, combine soy sauce, rice vinegar, sesame oil, toasted sesame seeds, minced garlic, and gochugaru (if using). Stir well and set aside. This sauce perfectly complements the savory pancake.",
-      "time": "3 min"
+      "title": "Make the Batter",
+      "text": "In a large bowl, combine the all-purpose flour, rice flour, cornstarch, salt, and white pepper. Gradually whisk in the cold water until a smooth batter forms. Add the egg and whisk until just combined. The batter should be slightly thick but pourable; adjust with a tiny bit more water if too thick.",
+      "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Combine Ingredients for Pancake",
-      "text": "Add the prepared seafood, green onions, and sliced onion to the batter. Gently fold to combine, ensuring the seafood and vegetables are evenly coated. Be careful not to mash the ingredients.",
-      "time": "2 min"
+      "title": "Combine Ingredients",
+      "text": "Gently fold the prepared mixed seafood, green onions, and sliced yellow onion into the batter. Do not overmix. You want the ingredients to be coated but not completely submerged in a thick layer of batter.",
+      "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Cook the Pancakes",
-      "text": "Heat a large non-stick skillet over medium-high heat. Add about 2 tablespoons of vegetable oil, swirling to coat the pan. Pour about 1/4 of the batter mixture into the hot pan, spreading it evenly to form a thin, round pancake. Arrange a few red chili slices on top if desired.",
+      "title": "Cook the First Pancake",
+      "text": "Heat 2 tablespoons of vegetable oil in a large non-stick skillet or cast-iron pan over medium-high heat. Once hot, pour about one-quarter of the batter mixture into the pan, spreading it evenly to form a thin, round pancake. Arrange a few extra green onion pieces or red chili slices on top if desired.",
       "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Flip and Finish Cooking",
-      "text": "Cook for 3-5 minutes until the bottom is golden brown and crispy. Drizzle a little more oil around the edges. Carefully flip the pancake and cook for another 3-5 minutes until the other side is golden brown and the seafood is cooked through. Repeat with the remaining batter.",
-      "time": "20 min"
+      "title": "Achieve Golden Crispiness",
+      "text": "Cook for 3-4 minutes until the bottom is golden brown and crispy, and the edges begin to set. Drizzle another tablespoon of oil around the edges of the pancake, then carefully flip it. Cook for another 3-4 minutes on the second side until golden brown and cooked through. Repeat with the remaining batter, adding more oil as needed for each pancake.",
+      "time": "15 min"
     },
     {
       "step": 7,
       "title": "Serve Immediately",
-      "text": "Transfer the cooked Haemul Pajeon to a cutting board and slice into wedges. Serve hot with the prepared dipping sauce on the side. Enjoy this delightful Korean seafood pancake as an appetizer or a main dish.",
+      "text": "Transfer the cooked Haemul Pajeon to a cutting board and slice into wedges. Serve immediately with the prepared dipping sauce on the side. For best results, enjoy while still hot and crispy.",
       "time": "5 min"
     }
   ],
@@ -207,17 +213,18 @@
   },
   "tags": [
     "Korean",
+    "pancake",
     "authentic",
     "traditional",
     "seafood",
-    "Haemul Pajeon",
-    "pancake",
-    "savory"
+    "Haemul Pajeon recipe",
+    "savory",
+    "appetizer"
   ],
   "tips": [
-    "For an extra crispy pancake, use very cold water for the batter and add a tablespoon of ice cubes to the batter mixture just before cooking.",
-    "Experiment with different types of seafood like clams, oysters, or even thinly sliced octopus to customize your Haemul Pajeon.",
-    "Serve immediately after cooking to enjoy the best crispy texture. Reheating can make it less crispy, but a quick pan-fry can revive some crispness."
+    "For an extra crispy Pajeon, use very cold water in your batter and add a touch of rice flour or cornstarch. Dont make the batter too thick; a thin, even layer promotes crispiness.",
+    "Ensure your seafood is patted very dry before adding to the batter to prevent the pancake from becoming soggy. You can use any combination of seafood you like, such as shrimp, squid, mussels, or oysters.",
+    "Serve Haemul Pajeon immediately after cooking to enjoy its optimal crispiness. Pair it with a simple soy-based dipping sauce for a balanced flavor profile, and consider garnishing with extra fresh green onions or sesame seeds."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -226,23 +233,23 @@
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Haemul Pajeon Seafood Pancake",
-    "description": "Master the art of Haemul Pajeon with our authentic Korean seafood pancake recipe! Easy step-by-step guide to make this delicious dish at home. Perfect for any meal.",
+    "description": "Master the art of Haemul Pajeon with our authentic Korean seafood pancake recipe! Get crispy edges, tender seafood, and a savory dipping sauce. Perfect for any meal.",
     "image": [
-      "https://images.unsplash.com/photo-1548592806-482f9b023d51?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODA0Mzc2MzN8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1698462297918-79ae9314e062?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODA0Mzc2MzN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1698462297918-79ae9314e062?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODExMzI0NDJ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1548592806-482f9b023d51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODExMzI0NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-06-02T22:00:56.831Z",
+    "datePublished": "2026-06-11T00:30:37.287Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Seafood",
     "recipeCuisine": "Korean",
-    "keywords": "Haemul Pajeon, how to make Haemul Pajeon, easy Haemul Pajeon recipe, authentic Korean Haemul Pajeon, Haemul Pajeon step by step, best Haemul Pajeon at home, Korean seafood pancake recipe",
+    "keywords": "Haemul Pajeon recipe, how to make Haemul Pajeon, easy Haemul Pajeon recipe, authentic Korean Haemul Pajeon, Haemul Pajeon step by step, best Haemul Pajeon at home, Korean seafood pancake recipe, Haemul Pajeon ingredients",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
@@ -255,60 +262,60 @@
     "recipeIngredient": [
       "1 cup All-purpose flour",
       "1/4 cup Rice flour",
+      "2 tablespoons Cornstarch",
       "1 1/2 cups Cold water",
       "1 large Egg",
       "1/2 teaspoon Salt",
-      "4 oz Shrimp",
-      "4 oz Squid",
-      "4 oz Mussels or oysters",
-      "1 bunch (about 10-12) Green onions",
-      "1/2 medium Onion",
-      "1 small Red chili pepper",
+      "1/4 teaspoon White pepper",
+      "1 pound Mixed seafood",
+      "1 bunch (about 6-8) Green onions",
+      "1/2 small Yellow onion",
+      "1 small Red chili",
       "1/4 cup Vegetable oil",
       "3 tablespoons Soy sauce",
       "1 tablespoon Rice vinegar",
       "1 teaspoon Sesame oil",
-      "1/2 teaspoon Sesame seeds",
-      "1 clove Garlic",
-      "1/4 teaspoon Gochugaru (Korean chili flakes)"
+      "1 teaspoon Toasted sesame seeds",
+      "1/2 teaspoon Minced garlic",
+      "1/4 teaspoon Red chili flakes (gochugaru)"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
+        "name": "Prepare the Dipping Sauce",
+        "text": "In a small bowl, whisk together the soy sauce, rice vinegar, sesame oil, toasted sesame seeds, minced garlic, and red chili flakes (if using). Set aside."
+      },
+      {
+        "@type": "HowToStep",
         "name": "Prepare Seafood and Vegetables",
-        "text": "Thoroughly clean and prepare all seafood. Chop shrimp and squid into bite-sized pieces. If using mussels or oysters, ensure they are clean. Wash and trim green onions, cutting them into 3-inch lengths. Thinly slice the onion. Prepare the red chili for garnish if desired."
+        "text": "Ensure your mixed seafood is cleaned and chopped into bite-sized pieces. Pat them dry thoroughly with paper towels. Cut the green onions into 3-inch lengths and thinly slice the yellow onion. If using, slice the red chili diagonally."
       },
       {
         "@type": "HowToStep",
         "name": "Make the Batter",
-        "text": "In a large bowl, whisk together all-purpose flour, rice flour, cold water, egg, and salt until a smooth, lump-free batter forms. The batter should be somewhat thin, similar to crepe batter. Do not overmix, as this can lead to a tough pancake."
+        "text": "In a large bowl, combine the all-purpose flour, rice flour, cornstarch, salt, and white pepper. Gradually whisk in the cold water until a smooth batter forms. Add the egg and whisk until just combined. The batter should be slightly thick but pourable; adjust with a tiny bit more water if too thick."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Dipping Sauce",
-        "text": "In a small bowl, combine soy sauce, rice vinegar, sesame oil, toasted sesame seeds, minced garlic, and gochugaru (if using). Stir well and set aside. This sauce perfectly complements the savory pancake."
+        "name": "Combine Ingredients",
+        "text": "Gently fold the prepared mixed seafood, green onions, and sliced yellow onion into the batter. Do not overmix. You want the ingredients to be coated but not completely submerged in a thick layer of batter."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Ingredients for Pancake",
-        "text": "Add the prepared seafood, green onions, and sliced onion to the batter. Gently fold to combine, ensuring the seafood and vegetables are evenly coated. Be careful not to mash the ingredients."
+        "name": "Cook the First Pancake",
+        "text": "Heat 2 tablespoons of vegetable oil in a large non-stick skillet or cast-iron pan over medium-high heat. Once hot, pour about one-quarter of the batter mixture into the pan, spreading it evenly to form a thin, round pancake. Arrange a few extra green onion pieces or red chili slices on top if desired."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook the Pancakes",
-        "text": "Heat a large non-stick skillet over medium-high heat. Add about 2 tablespoons of vegetable oil, swirling to coat the pan. Pour about 1/4 of the batter mixture into the hot pan, spreading it evenly to form a thin, round pancake. Arrange a few red chili slices on top if desired."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Flip and Finish Cooking",
-        "text": "Cook for 3-5 minutes until the bottom is golden brown and crispy. Drizzle a little more oil around the edges. Carefully flip the pancake and cook for another 3-5 minutes until the other side is golden brown and the seafood is cooked through. Repeat with the remaining batter."
+        "name": "Achieve Golden Crispiness",
+        "text": "Cook for 3-4 minutes until the bottom is golden brown and crispy, and the edges begin to set. Drizzle another tablespoon of oil around the edges of the pancake, then carefully flip it. Cook for another 3-4 minutes on the second side until golden brown and cooked through. Repeat with the remaining batter, adding more oil as needed for each pancake."
       },
       {
         "@type": "HowToStep",
         "name": "Serve Immediately",
-        "text": "Transfer the cooked Haemul Pajeon to a cutting board and slice into wedges. Serve hot with the prepared dipping sauce on the side. Enjoy this delightful Korean seafood pancake as an appetizer or a main dish."
+        "text": "Transfer the cooked Haemul Pajeon to a cutting board and slice into wedges. Serve immediately with the prepared dipping sauce on the side. For best results, enjoy while still hot and crispy."
       }
     ]
   },
-  "publishedAt": "2026-06-02T22:00:56.831Z"
+  "publishedAt": "2026-06-11T00:30:37.288Z"
 }
