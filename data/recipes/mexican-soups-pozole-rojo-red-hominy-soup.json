@@ -45,64 +45,59 @@
       }
     ]
   },
-  "prepTime": "20 min",
-  "cookTime": "35 min",
-  "totalTime": "55 min",
-  "servings": 4,
+  "prepTime": "30 min",
+  "cookTime": "2 hr 30 min",
+  "totalTime": "3 hr",
+  "servings": 6,
   "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU0NDA1MXww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1730243338482-78d6ffd943df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU0NDA1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Pozole Rojo is a hearty and flavorful Mexican soup, traditionally made with hominy, pork, and a rich red chile broth. This comforting dish is a staple for celebrations and family gatherings, known for its vibrant color and complex, savory taste. Enjoy a taste of Mexico with this authentic and satisfying recipe.",
+  "image1": "https://images.unsplash.com/photo-1579640873954-766bf0235bf3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTIwNjIxN3ww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1527976746453-f363eac4d889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTIwNjIxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Pozole Rojo is a hearty and traditional Mexican soup, famous for its rich red broth and tender hominy. It is often prepared for special occasions but is comforting any day. This robust dish is packed with flavor from chiles and pork, creating a truly satisfying culinary experience.",
   "ingredients": [
     {
-      "item": "Pork shoulder",
-      "amount": "1.5 lbs",
+      "item": "Pork shoulder (boneless)",
+      "amount": "2 lbs",
       "notes": "cut into 1-inch cubes"
     },
     {
-      "item": "Canned hominy",
-      "amount": "2 cans (15 oz each)",
-      "notes": "rinsed and drained"
+      "item": "White hominy (canned)",
+      "amount": "2 (25 oz) cans",
+      "notes": "drained and rinsed"
     },
     {
-      "item": "Guajillo chiles",
-      "amount": "5",
-      "notes": "dried, stems and seeds removed"
+      "item": "Guajillo chiles (dried)",
+      "amount": "8",
+      "notes": "stems and seeds removed"
     },
     {
-      "item": "Ancho chiles",
-      "amount": "2",
-      "notes": "dried, stems and seeds removed"
+      "item": "Ancho chiles (dried)",
+      "amount": "3",
+      "notes": "stems and seeds removed"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "6",
+      "notes": "unpeeled"
     },
     {
       "item": "White onion",
       "amount": "1/2",
-      "notes": "roughly chopped, plus more for garnish"
+      "notes": "halved"
     },
     {
-      "item": "Garlic cloves",
-      "amount": "4",
-      "notes": "peeled"
+      "item": "Bay leaves",
+      "amount": "2",
+      "notes": ""
     },
     {
       "item": "Mexican oregano",
       "amount": "1 tsp",
-      "notes": "dried"
-    },
-    {
-      "item": "Cumin",
-      "amount": "1/2 tsp",
-      "notes": "ground"
-    },
-    {
-      "item": "Bay leaf",
-      "amount": "1",
       "notes": ""
     },
     {
-      "item": "Chicken or pork broth",
-      "amount": "6 cups",
+      "item": "Cumin (ground)",
+      "amount": "1/2 tsp",
       "notes": ""
     },
     {
@@ -111,27 +106,32 @@
       "notes": ""
     },
     {
+      "item": "Water or chicken broth",
+      "amount": "12 cups",
+      "notes": ""
+    },
+    {
       "item": "Radishes",
-      "amount": "1/2 cup",
+      "amount": "1 bunch",
       "notes": "thinly sliced, for garnish"
     },
     {
-      "item": "Green cabbage",
-      "amount": "1 cup",
+      "item": "Cabbage",
+      "amount": "1/2 head",
       "notes": "shredded, for garnish"
     },
     {
-      "item": "Lime",
+      "item": "Limes",
       "amount": "2",
       "notes": "cut into wedges, for garnish"
     },
     {
-      "item": "Avocado",
-      "amount": "1",
-      "notes": "diced, for garnish"
+      "item": "Dried oregano",
+      "amount": "1 tbsp",
+      "notes": "for garnish"
     },
     {
-      "item": "Tostadas",
+      "item": "Tostadas or tortilla chips",
       "amount": "as needed",
       "notes": "for serving"
     }
@@ -140,49 +140,49 @@
     {
       "step": 1,
       "title": "Cook the Pork",
-      "text": "In a large pot or Dutch oven, cover the pork shoulder cubes with water and add half of the roughly chopped onion, 2 garlic cloves, and the bay leaf. Bring to a boil, then reduce heat, cover, and simmer for 45-60 minutes, or until the pork is tender. Skim any foam that rises. Once cooked, remove the pork and shred it using two forks. Reserve 2 cups of the cooking liquid.",
-      "time": "60 min"
+      "text": "Place the pork shoulder cubes in a large pot or Dutch oven. Add half of the onion, 3 unpeeled garlic cloves, and 1 teaspoon of salt. Cover with 8 cups of water or broth. Bring to a boil, then reduce heat, cover, and simmer for 1.5 to 2 hours, or until the pork is very tender. Skim off any foam that rises to the surface. Remove pork, shred, and set aside. Strain the cooking liquid and reserve.",
+      "time": "2 hr"
     },
     {
       "step": 2,
-      "title": "Rehydrate the Chiles",
-      "text": "While the pork cooks, place the dried guajillo and ancho chiles in a bowl. Cover them with hot water and let them rehydrate for 20-30 minutes, until softened. Drain the chiles, discarding the water.",
-      "time": "20 min"
-    },
-    {
-      "step": 3,
-      "title": "Prepare the Chile Sauce",
-      "text": "In a blender, combine the rehydrated chiles, the remaining half of the roughly chopped onion, the remaining 2 garlic cloves, Mexican oregano, and ground cumin. Add 1 cup of the reserved pork cooking liquid or chicken broth. Blend until very smooth, adding more liquid if needed to achieve a pourable sauce consistency. Strain the sauce through a fine-mesh sieve into a bowl, pressing on the solids to extract all liquid, then discard the solids.",
-      "time": "10 min"
-    },
-    {
-      "step": 4,
-      "title": "Combine Ingredients",
-      "text": "In the same pot used for the pork, add the shredded pork, rinsed hominy, and the strained red chile sauce. Pour in the remaining 5 cups of chicken or pork broth (or more reserved pork cooking liquid). Season generously with salt to taste.",
-      "time": "5 min"
-    },
-    {
-      "step": 5,
-      "title": "Simmer the Pozole",
-      "text": "Bring the mixture to a gentle boil, then reduce the heat to low, cover, and let it simmer for at least 30 minutes, allowing the flavors to meld beautifully. Stir occasionally to prevent sticking. The longer it simmers, the richer the flavor will become.",
+      "title": "Prepare the Chiles",
+      "text": "While the pork cooks, toast the guajillo and ancho chiles in a dry skillet over medium heat for 1-2 minutes per side until fragrant but not burnt. Remove from heat and place in a bowl. Cover with hot water and let them rehydrate for 20-30 minutes until soft.",
       "time": "30 min"
     },
     {
+      "step": 3,
+      "title": "Make the Chile Sauce",
+      "text": "Drain the rehydrated chiles. In a blender, combine the chiles with the remaining 3 unpeeled garlic cloves, the other half of the onion, 1 teaspoon of Mexican oregano, 1/2 teaspoon of ground cumin, and 1 cup of the reserved pork cooking liquid. Blend until very smooth. Strain the sauce through a fine-mesh sieve into a bowl, pressing on the solids to extract all liquid. Discard the solids.",
+      "time": "20 min"
+    },
+    {
+      "step": 4,
+      "title": "Combine and Simmer",
+      "text": "In the same large pot, add the strained chile sauce and bring to a simmer over medium heat for 5 minutes. Add the shredded pork, drained hominy, bay leaves, and the remaining reserved pork cooking liquid (or add more broth/water if needed, aiming for about 4 cups total liquid for the final soup). Bring to a gentle boil, then reduce heat to low, cover, and simmer for at least 30 minutes, allowing the flavors to meld.",
+      "time": "40 min"
+    },
+    {
+      "step": 5,
+      "title": "Adjust Seasoning",
+      "text": "Taste the pozole and adjust salt as needed. Remove the bay leaves before serving. The soup should be rich and flavorful.",
+      "time": "5 min"
+    },
+    {
       "step": 6,
-      "title": "Serve and Garnish",
-      "text": "Ladle the hot pozole into individual bowls. Serve with a variety of garnishes on the side, such as thinly sliced radishes, shredded green cabbage, finely diced white onion, fresh lime wedges, and diced avocado. Offer tostadas for scooping or crumbling into the soup. Enjoy this authentic Mexican delight!",
+      "title": "Serve with Garnishes",
+      "text": "Ladle the hot pozole into individual bowls. Serve immediately with a variety of garnishes on the side, allowing everyone to customize their bowl. Common garnishes include shredded cabbage, thinly sliced radishes, lime wedges, dried oregano, and tostadas or tortilla chips for dipping.",
       "time": "5 min"
     }
   ],
   "nutritionTable": {
-    "calories": "380 kcal",
-    "protein": "18g",
-    "carbs": "45g",
-    "fat": "14g",
-    "fiber": "4g",
-    "sugar": "5g",
-    "sodium": "520mg",
-    "cholesterol": "60mg"
+    "calories": "450 kcal",
+    "protein": "30g",
+    "carbs": "50g",
+    "fat": "18g",
+    "fiber": "6g",
+    "sugar": "6g",
+    "sodium": "650mg",
+    "cholesterol": "75mg"
   },
   "tags": [
     "Mexican",
@@ -191,14 +191,12 @@
     "soups",
     "Pozole Rojo Red Hominy Soup",
     "pork",
-    "hominy",
-    "chile",
-    "stew"
+    "chile"
   ],
   "tips": [
-    "For a deeper, smoky flavor, lightly toast the dried chiles in a dry pan for a minute or two before rehydrating them. Be careful not to burn them.",
-    "Using a high-quality Mexican oregano is key to the authentic flavor profile of pozole. It has a distinct earthy, citrusy taste compared to Mediterranean oregano.",
-    "The garnishes are essential! Don't skip the fresh elements like radishes, cabbage, and lime, as they provide a crucial textural contrast and brightness to the rich soup."
+    "For a deeper flavor, you can lightly sear the pork cubes before adding water to cook them. This adds a layer of richness.",
+    "Always strain your chile sauce. This step removes tough skins and seeds, ensuring a smooth, restaurant-quality broth. Do not skip it!",
+    "Pozole tastes even better the next day as the flavors continue to develop. It stores well in the refrigerator for up to 3-4 days or can be frozen for longer."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -209,18 +207,18 @@
     "name": "Pozole Rojo Red Hominy Soup",
     "description": "Learn how to make authentic Pozole Rojo Red Hominy Soup. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1638043139484-1534e2c14bcb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU0NDA1MXww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1730243338482-78d6ffd943df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc3ODU0NDA1MXww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1579640873954-766bf0235bf3?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTIwNjIxN3ww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1527976746453-f363eac4d889?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4MTIwNjIxN3ww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-05-12T00:01:08.021Z",
-    "prepTime": "PT20M",
-    "cookTime": "PT35M",
-    "totalTime": "PT55M",
-    "recipeYield": "4 servings",
+    "datePublished": "2026-06-11T21:01:10.988Z",
+    "prepTime": "PT30M",
+    "cookTime": "PT2M",
+    "totalTime": "PT3M",
+    "recipeYield": "6 servings",
     "recipeCategory": "Soups and Stews",
     "recipeCuisine": "Mexican",
     "keywords": "Pozole Rojo Red Hominy Soup, how to make Pozole Rojo Red Hominy Soup, easy Pozole Rojo Red Hominy Soup recipe, authentic Mexican Pozole Rojo Red Hominy Soup",
@@ -231,58 +229,58 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 kcal"
+      "calories": "450 kcal"
     },
     "recipeIngredient": [
-      "1.5 lbs Pork shoulder",
-      "2 cans (15 oz each) Canned hominy",
-      "5 Guajillo chiles",
-      "2 Ancho chiles",
+      "2 lbs Pork shoulder (boneless)",
+      "2 (25 oz) cans White hominy (canned)",
+      "8 Guajillo chiles (dried)",
+      "3 Ancho chiles (dried)",
+      "6 Garlic cloves",
       "1/2 White onion",
-      "4 Garlic cloves",
+      "2 Bay leaves",
       "1 tsp Mexican oregano",
-      "1/2 tsp Cumin",
-      "1 Bay leaf",
-      "6 cups Chicken or pork broth",
+      "1/2 tsp Cumin (ground)",
       "to taste Salt",
-      "1/2 cup Radishes",
-      "1 cup Green cabbage",
-      "2 Lime",
-      "1 Avocado",
-      "as needed Tostadas"
+      "12 cups Water or chicken broth",
+      "1 bunch Radishes",
+      "1/2 head Cabbage",
+      "2 Limes",
+      "1 tbsp Dried oregano",
+      "as needed Tostadas or tortilla chips"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Cook the Pork",
-        "text": "In a large pot or Dutch oven, cover the pork shoulder cubes with water and add half of the roughly chopped onion, 2 garlic cloves, and the bay leaf. Bring to a boil, then reduce heat, cover, and simmer for 45-60 minutes, or until the pork is tender. Skim any foam that rises. Once cooked, remove the pork and shred it using two forks. Reserve 2 cups of the cooking liquid."
+        "text": "Place the pork shoulder cubes in a large pot or Dutch oven. Add half of the onion, 3 unpeeled garlic cloves, and 1 teaspoon of salt. Cover with 8 cups of water or broth. Bring to a boil, then reduce heat, cover, and simmer for 1.5 to 2 hours, or until the pork is very tender. Skim off any foam that rises to the surface. Remove pork, shred, and set aside. Strain the cooking liquid and reserve."
       },
       {
         "@type": "HowToStep",
-        "name": "Rehydrate the Chiles",
-        "text": "While the pork cooks, place the dried guajillo and ancho chiles in a bowl. Cover them with hot water and let them rehydrate for 20-30 minutes, until softened. Drain the chiles, discarding the water."
+        "name": "Prepare the Chiles",
+        "text": "While the pork cooks, toast the guajillo and ancho chiles in a dry skillet over medium heat for 1-2 minutes per side until fragrant but not burnt. Remove from heat and place in a bowl. Cover with hot water and let them rehydrate for 20-30 minutes until soft."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Chile Sauce",
-        "text": "In a blender, combine the rehydrated chiles, the remaining half of the roughly chopped onion, the remaining 2 garlic cloves, Mexican oregano, and ground cumin. Add 1 cup of the reserved pork cooking liquid or chicken broth. Blend until very smooth, adding more liquid if needed to achieve a pourable sauce consistency. Strain the sauce through a fine-mesh sieve into a bowl, pressing on the solids to extract all liquid, then discard the solids."
+        "name": "Make the Chile Sauce",
+        "text": "Drain the rehydrated chiles. In a blender, combine the chiles with the remaining 3 unpeeled garlic cloves, the other half of the onion, 1 teaspoon of Mexican oregano, 1/2 teaspoon of ground cumin, and 1 cup of the reserved pork cooking liquid. Blend until very smooth. Strain the sauce through a fine-mesh sieve into a bowl, pressing on the solids to extract all liquid. Discard the solids."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Ingredients",
-        "text": "In the same pot used for the pork, add the shredded pork, rinsed hominy, and the strained red chile sauce. Pour in the remaining 5 cups of chicken or pork broth (or more reserved pork cooking liquid). Season generously with salt to taste."
+        "name": "Combine and Simmer",
+        "text": "In the same large pot, add the strained chile sauce and bring to a simmer over medium heat for 5 minutes. Add the shredded pork, drained hominy, bay leaves, and the remaining reserved pork cooking liquid (or add more broth/water if needed, aiming for about 4 cups total liquid for the final soup). Bring to a gentle boil, then reduce heat to low, cover, and simmer for at least 30 minutes, allowing the flavors to meld."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Pozole",
-        "text": "Bring the mixture to a gentle boil, then reduce the heat to low, cover, and let it simmer for at least 30 minutes, allowing the flavors to meld beautifully. Stir occasionally to prevent sticking. The longer it simmers, the richer the flavor will become."
+        "name": "Adjust Seasoning",
+        "text": "Taste the pozole and adjust salt as needed. Remove the bay leaves before serving. The soup should be rich and flavorful."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve and Garnish",
-        "text": "Ladle the hot pozole into individual bowls. Serve with a variety of garnishes on the side, such as thinly sliced radishes, shredded green cabbage, finely diced white onion, fresh lime wedges, and diced avocado. Offer tostadas for scooping or crumbling into the soup. Enjoy this authentic Mexican delight!"
+        "name": "Serve with Garnishes",
+        "text": "Ladle the hot pozole into individual bowls. Serve immediately with a variety of garnishes on the side, allowing everyone to customize their bowl. Common garnishes include shredded cabbage, thinly sliced radishes, lime wedges, dried oregano, and tostadas or tortilla chips for dipping."
       }
     ]
   },
-  "publishedAt": "2026-05-12T00:01:08.055Z"
+  "publishedAt": "2026-06-11T21:01:10.989Z"
 }
