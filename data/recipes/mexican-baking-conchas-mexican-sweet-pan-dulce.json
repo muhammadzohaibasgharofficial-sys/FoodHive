@@ -7,15 +7,53 @@
   "category": "baking",
   "categoryName": "Baking",
   "categoryIcon": "🥖",
-  "prepTime": "60 min",
+  "seo": {
+    "title": "How to Make Conchas Mexican Sweet Pan Dulce — Easy Mexican Recipe",
+    "metaDescription": "Learn how to make authentic Conchas Mexican Sweet Pan Dulce. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
+    "urlSlug": "mexican-baking-conchas-mexican-sweet-pan-dulce",
+    "mainKeyword": "Conchas Mexican Sweet Pan Dulce",
+    "longTailKeywords": [
+      "how to make Conchas Mexican Sweet Pan Dulce",
+      "easy Conchas Mexican Sweet Pan Dulce recipe",
+      "authentic Mexican Conchas Mexican Sweet Pan Dulce"
+    ],
+    "lowCompetitionKeywords": [
+      "homemade Conchas Mexican Sweet Pan Dulce",
+      "Mexican Conchas Mexican Sweet Pan Dulce recipe"
+    ],
+    "searchIntent": "informational",
+    "h1": "Authentic Conchas Mexican Sweet Pan Dulce Recipe",
+    "h2Headings": [
+      "What is Conchas Mexican Sweet Pan Dulce?",
+      "Ingredients You Need",
+      "Step-by-Step Instructions",
+      "Pro Tips for the Best Results",
+      "Serving Suggestions",
+      "Variations and Substitutions"
+    ],
+    "imageFilename": "mexican-baking-conchas-mexican-sweet-pan-dulce.jpg",
+    "imageAlt": "Authentic Mexican Conchas Mexican Sweet Pan Dulce recipe",
+    "imageCaption": "Delicious homemade Conchas Mexican Sweet Pan Dulce — a beloved Mexican classic",
+    "internalLinks": [
+      {
+        "anchor": "Baking",
+        "url": "/categories/baking"
+      },
+      {
+        "anchor": "Mexican Recipes",
+        "url": "/countries/mexican"
+      }
+    ]
+  },
+  "prepTime": "30 min",
   "cookTime": "20 min",
-  "totalTime": "210 min",
+  "totalTime": "2 hr 30 min (includes rising time)",
   "servings": 12,
   "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.pexels.com/photos/32351954/pexels-photo-32351954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-  "image2": "https://images.pexels.com/photos/36568408/pexels-photo-36568408.jpeg?auto=compress&cs=tinysrgb&h=350",
-  "description": "Conchas are beloved Mexican sweet breads, instantly recognizable by their shell-like sugar topping and soft, fluffy interior. They offer a delicate sweetness and a comforting texture, making them a staple at any Mexican breakfast or merienda, perfect with a cup of coffee or hot chocolate.",
+  "image1": "https://images.unsplash.com/photo-1731090390231-6e98af52207d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb25jaGFzJTIwTWV4aWNhbiUyMFN3ZWV0JTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgxMjI5NjQwfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1613585535485-dc11f77335ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb25jaGFzJTIwTWV4aWNhbiUyMFN3ZWV0JTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgxMjI5NjQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Conchas are iconic Mexican sweet bread, known for their beautiful shell-like sugar topping. This pan dulce is soft, fluffy, and lightly sweet, making it a perfect companion for coffee or hot chocolate. Enjoy making these delightful treats that bring a taste of Mexico right to your kitchen.",
   "ingredients": [
     {
       "item": "All-purpose flour",
@@ -24,20 +62,18 @@
     },
     {
       "item": "Granulated sugar",
-      "amount": "1/2 cup"
+      "amount": "1/2 cup",
+      "notes": ""
     },
     {
       "item": "Active dry yeast",
-      "amount": "2 1/4 teaspoons"
+      "amount": "2 1/4 teaspoons",
+      "notes": "one packet"
     },
     {
-      "item": "Salt",
-      "amount": "1 teaspoon"
-    },
-    {
-      "item": "Warm whole milk",
-      "amount": "3/4 cup",
-      "notes": "105-115°F (40-46°C)"
+      "item": "Warm milk",
+      "amount": "1/2 cup",
+      "notes": "105-115F (40-46C)"
     },
     {
       "item": "Large eggs",
@@ -46,193 +82,193 @@
     },
     {
       "item": "Unsalted butter",
-      "amount": "1/2 cup (1 stick)",
-      "notes": "softened, cut into pieces"
+      "amount": "1/2 cup",
+      "notes": "1 stick, melted and cooled"
+    },
+    {
+      "item": "Salt",
+      "amount": "1 teaspoon",
+      "notes": ""
     },
     {
       "item": "Vanilla extract",
-      "amount": "1 teaspoon"
+      "amount": "1 teaspoon",
+      "notes": ""
     },
     {
       "item": "Powdered sugar",
-      "amount": "1 cup"
-    },
-    {
-      "item": "All-purpose flour",
-      "amount": "1 cup"
+      "amount": "1 cup",
+      "notes": "for topping"
     },
     {
       "item": "Vegetable shortening",
       "amount": "1/2 cup",
-      "notes": "or lard, softened"
+      "notes": "softened, for topping"
     },
     {
-      "item": "Vanilla extract",
-      "amount": "1/2 teaspoon"
+      "item": "All-purpose flour",
+      "amount": "1/2 cup",
+      "notes": "for topping"
     },
     {
       "item": "Cocoa powder",
       "amount": "1 tablespoon",
-      "notes": "for chocolate topping, optional"
+      "notes": "optional, for chocolate topping"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Activate the Yeast and Prepare the Dough Base",
-      "text": "In a large bowl, or the bowl of a stand mixer, combine 1 cup of flour, the granulated sugar, active dry yeast, and salt. Whisk to combine. Pour in the warm milk and mix until just combined. Let sit for 5-10 minutes until the mixture becomes foamy, indicating the yeast is active.",
-      "time": "15 min"
-    },
-    {
-      "step": 2,
-      "title": "Mix and Knead the Dough",
-      "text": "Add the remaining 3 cups of flour, the eggs, and 1 teaspoon of vanilla extract to the yeast mixture. Using a dough hook attachment (or by hand), mix on low speed until a shaggy dough forms. Gradually add the softened butter, one piece at a time, allowing each piece to incorporate before adding the next. Increase speed to medium and knead for 8-10 minutes until the dough is smooth, elastic, and pulls away from the sides of the bowl. It will be soft and slightly sticky.",
-      "time": "15 min"
-    },
-    {
-      "step": 3,
-      "title": "First Rise (Proofing)",
-      "text": "Lightly grease a large bowl. Transfer the dough to the bowl, turning it once to coat. Cover the bowl tightly with plastic wrap or a damp kitchen towel. Place in a warm, draft-free spot for 1.5 to 2 hours, or until the dough has doubled in size.",
-      "time": "100 min"
-    },
-    {
-      "step": 4,
-      "title": "Prepare the Concha Topping (Pasta para Concha)",
-      "text": "While the dough is rising, prepare the topping. In a medium bowl, combine the powdered sugar, 1 cup of all-purpose flour, and vegetable shortening. Use your hands or a pastry blender to mix until a soft, uniform paste forms. Knead lightly until smooth. If making chocolate conchas, divide the topping in half and mix 1 tablespoon of cocoa powder into one half. Mix 1/2 teaspoon vanilla extract into the other half for the classic white topping.",
+      "title": "Activate the Yeast",
+      "text": "In a small bowl, combine the warm milk, 1 tablespoon of the granulated sugar, and the active dry yeast. Stir gently and let it sit for 5-10 minutes until foamy, indicating the yeast is active.",
       "time": "10 min"
     },
     {
+      "step": 2,
+      "title": "Prepare the Dough",
+      "text": "In a large mixing bowl, combine the remaining granulated sugar, 3 1/2 cups of flour, and salt. Make a well in the center. Pour in the activated yeast mixture, melted butter, eggs, and vanilla extract. Mix with a wooden spoon until a shaggy dough forms.",
+      "time": "10 min"
+    },
+    {
+      "step": 3,
+      "title": "Knead and First Rise",
+      "text": "Turn the dough out onto a lightly floured surface. Knead for 10-15 minutes until the dough is smooth and elastic. If using a stand mixer with a dough hook, knead on medium speed for 8-10 minutes. Place the dough in a greased bowl, cover with plastic wrap, and let it rise in a warm place for 1-1.5 hours, or until doubled in size.",
+      "time": "1 hr 30 min"
+    },
+    {
+      "step": 4,
+      "title": "Make the Topping",
+      "text": "While the dough is rising, prepare the concha topping. In a medium bowl, cream together the softened vegetable shortening and powdered sugar until light and fluffy. Gradually mix in the 1/2 cup of flour until a soft, crumbly paste forms. If desired, divide the topping in half and mix cocoa powder into one half for chocolate conchas.",
+      "time": "15 min"
+    },
+    {
       "step": 5,
-      "title": "Shape the Conchas and Apply Topping",
-      "text": "Once the dough has risen, gently punch it down and divide it into 12 equal pieces (about 80-90g each). Roll each piece into a smooth ball. Place the dough balls on baking sheets lined with parchment paper, leaving space between them. For the topping, divide each color of topping into 6 equal portions. Flatten each topping portion into a thin disc (about 3 inches in diameter) and carefully place it on top of a dough ball. Using a concha cutter or a small knife, gently score the topping with a shell pattern without cutting into the dough.",
+      "title": "Shape the Conchas",
+      "text": "Once the dough has doubled, punch it down gently and divide it into 12 equal pieces. Roll each piece into a smooth ball. Place the balls on baking sheets lined with parchment paper, leaving space between them. For the topping, roll a small portion of the sugar paste between two pieces of plastic wrap or parchment paper until thin. Use a concha cutter or a knife to create the signature shell pattern and place it carefully on top of each dough ball, pressing gently to adhere.",
       "time": "20 min"
     },
     {
       "step": 6,
-      "title": "Second Rise and Baking",
-      "text": "Cover the shaped conchas loosely with plastic wrap or a damp cloth and let them rise again in a warm spot for 45-60 minutes, or until visibly puffy. Preheat your oven to 350°F (175°C) during the last 15 minutes of the second rise. Bake the conchas for 15-20 minutes, or until lightly golden brown on the bottom and edges, and the topping is set. Do not overbake. Transfer to a wire rack to cool slightly before serving.",
-      "time": "80 min"
+      "title": "Second Rise and Bake",
+      "text": "Cover the shaped conchas loosely with plastic wrap or a clean kitchen towel and let them rise again in a warm place for 30-45 minutes, or until puffy. Preheat your oven to 350F (175C). Bake the conchas for 18-22 minutes, or until lightly golden brown on the bottom and the topping is set.",
+      "time": "1 hr"
+    },
+    {
+      "step": 7,
+      "title": "Cool and Serve",
+      "text": "Once baked, remove the conchas from the oven and transfer them to a wire rack to cool completely. Conchas are best enjoyed fresh, slightly warm, with a cup of cafe de olla or hot chocolate.",
+      "time": "30 min"
     }
   ],
   "nutritionTable": {
-    "calories": "380 kcal",
-    "protein": "8g",
-    "carbs": "55g",
-    "fat": "15g",
-    "fiber": "2g",
-    "sugar": "20g",
-    "sodium": "280mg",
-    "cholesterol": "65mg"
+    "calories": "320 kcal",
+    "protein": "6g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "1g",
+    "sugar": "15g",
+    "sodium": "200mg",
+    "cholesterol": "50mg"
   },
   "tags": [
+    "Mexican",
     "Mexican",
     "authentic",
     "traditional",
     "baking",
+    "Conchas Mexican Sweet Pan Dulce",
     "pan dulce",
-    "conchas",
     "sweet bread"
   ],
   "tips": [
-    "Ensure your milk is at the correct temperature (105-115°F / 40-46°C) to activate the yeast without killing it. Too hot, and the yeast dies; too cold, and it won't activate.",
-    "Do not rush the rising process. Proper proofing is key to achieving a light, airy, and fluffy concha. If your kitchen is cold, warm your oven to its lowest setting for a few minutes, turn it off, and place the dough inside with the door ajar.",
-    "When scoring the topping, press just enough to create the pattern without cutting through to the dough. This ensures the topping holds its shape and creates the classic shell design during baking."
+    "For a truly authentic flavor, use Mexican vanilla extract in your dough and topping.",
+    "If you dont have a concha cutter, you can use a small knife to carefully score the shell pattern onto the topping before baking.",
+    "Store leftover conchas in an airtight container at room temperature for up to 2-3 days. Reheat briefly in the microwave for a fresh-baked feel."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "## History of Conchas Mexican Sweet Pan Dulce\n\nConchas, meaning 'shells' in Spanish, are perhaps the most iconic and beloved variety of Mexican pan dulce (sweet bread). Their history traces back to the Spanish colonial era, when European baking techniques, particularly those for yeasted breads, were introduced to Mexico. Over centuries, these techniques blended with local ingredients and culinary traditions, giving rise to unique Mexican pastries. Panaderías (bakeries) became central to community life, and conchas emerged as a staple, celebrated for their distinctive shell-like sugar topping that cracks beautifully when baked. They represent a fusion of European sophistication and Mexican ingenuity, becoming a symbol of comfort and tradition across the country.\n\n## Why This Recipe Works\n\nThis recipe achieves authentic conchas by focusing on a rich, tender dough and the precise technique for the signature topping. The high fat content from butter and eggs in the dough creates a soft, brioche-like texture that is incredibly tender and moist. Proper yeast activation and two stages of proofing ensure a light, airy crumb. The 'pasta para concha' topping, made from powdered sugar, flour, and vegetable shortening, is crucial. Its specific ratio allows it to spread slightly and crack into the characteristic shell pattern during baking, while also providing a delightful sweet crunch that contrasts perfectly with the soft bread beneath. The balance of sweetness and richness in both components is what makes this recipe truly authentic and irresistible.\n\n## Chef Tips for Perfection\n\nFor the most tender conchas, ensure your butter is truly softened for the dough, not melted. This allows it to incorporate smoothly and evenly. When kneading, resist the urge to add too much extra flour, even if the dough seems sticky; a slightly sticky dough results in a more tender crumb. For the topping, if the shortening is too firm, gently warm it slightly to make it easier to work into a smooth paste. If it's too soft, chill it briefly. When applying the topping, flatten it thinly and evenly over the dough ball to ensure consistent cracking. A dedicated concha cutter yields the cleanest, most traditional pattern, but a sharp paring knife can be used with care.\n\n## Serving Suggestions\n\nConchas are best enjoyed fresh, ideally still slightly warm from the oven. They are an essential accompaniment to a traditional Mexican breakfast or merienda (afternoon snack). Pair them with a steaming cup of rich café de olla, a spiced Mexican coffee, or a mug of traditional Mexican hot chocolate, often made with cinnamon and chili. For a simple treat, they are also delicious on their own or served alongside a glass of cold milk. You can gently pull them apart to reveal their fluffy interior, or simply bite into the sweet, crisp topping and soft bread. They are meant to be shared and savored in good company.",
-  "publishedAt": "2026-04-06T12:30:29.401Z",
-  "jsonLd": {
+  "article": "Conchas Mexican Sweet Pan Dulce is a beloved Mexican Baking dish enjoyed across Mexican. This authentic recipe brings traditional flavors to your kitchen.",
+  "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Conchas Mexican Sweet Pan Dulce",
-    "description": "Conchas are beloved Mexican sweet breads, instantly recognizable by their shell-like sugar topping and soft, fluffy interior. They offer a delicate sweetness and a comforting texture, making them a staple at any Mexican breakfast or merienda, perfect with a cup of coffee or hot chocolate.",
+    "description": "Learn how to make authentic Conchas Mexican Sweet Pan Dulce. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.pexels.com/photos/32351954/pexels-photo-32351954.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "https://images.pexels.com/photos/36568408/pexels-photo-36568408.jpeg?auto=compress&cs=tinysrgb&h=350"
+      "https://images.unsplash.com/photo-1731090390231-6e98af52207d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb25jaGFzJTIwTWV4aWNhbiUyMFN3ZWV0JTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgxMjI5NjQwfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1613585535485-dc11f77335ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb25jaGFzJTIwTWV4aWNhbiUyMFN3ZWV0JTIwTWV4aWNhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgxMjI5NjQwfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
-      "name": "FoodHive World",
-      "url": "https://food-hive-one.vercel.app"
+      "name": "FoodHive World"
     },
-    "datePublished": "2026-04-06T12:30:29.401Z",
-    "prepTime": "PT60M",
+    "datePublished": "2026-06-12T02:01:22.989Z",
+    "prepTime": "PT30M",
     "cookTime": "PT20M",
-    "totalTime": "PT210M",
+    "totalTime": "PT2M",
     "recipeYield": "12 servings",
     "recipeCategory": "Baking",
     "recipeCuisine": "Mexican",
-    "keywords": "Mexican, Mexican, authentic, traditional, baking, Mexican, authentic, traditional, baking, pan dulce, conchas, sweet bread",
+    "keywords": "Conchas Mexican Sweet Pan Dulce, how to make Conchas Mexican Sweet Pan Dulce, easy Conchas Mexican Sweet Pan Dulce recipe, authentic Mexican Conchas Mexican Sweet Pan Dulce",
     "aggregateRating": {
       "@type": "AggregateRating",
-      "ratingValue": 4.8,
-      "reviewCount": 312,
-      "bestRating": 5,
-      "worstRating": 1
+      "ratingValue": "4.8",
+      "reviewCount": "312"
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 calories",
-      "proteinContent": "8g",
-      "carbohydrateContent": "55g",
-      "fatContent": "15g",
-      "fiberContent": "2g",
-      "sugarContent": "20g",
-      "sodiumContent": "280mg"
+      "calories": "320 kcal"
     },
     "recipeIngredient": [
-      "4 cups All-purpose flour (plus more for dusting)",
+      "4 cups All-purpose flour",
       "1/2 cup Granulated sugar",
       "2 1/4 teaspoons Active dry yeast",
+      "1/2 cup Warm milk",
+      "2 Large eggs",
+      "1/2 cup Unsalted butter",
       "1 teaspoon Salt",
-      "3/4 cup Warm whole milk (105-115°F (40-46°C))",
-      "2 Large eggs (room temperature)",
-      "1/2 cup (1 stick) Unsalted butter (softened, cut into pieces)",
       "1 teaspoon Vanilla extract",
       "1 cup Powdered sugar",
-      "1 cup All-purpose flour",
-      "1/2 cup Vegetable shortening (or lard, softened)",
-      "1/2 teaspoon Vanilla extract",
-      "1 tablespoon Cocoa powder (for chocolate topping, optional)"
+      "1/2 cup Vegetable shortening",
+      "1/2 cup All-purpose flour",
+      "1 tablespoon Cocoa powder"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Activate the Yeast and Prepare the Dough Base",
-        "text": "In a large bowl, or the bowl of a stand mixer, combine 1 cup of flour, the granulated sugar, active dry yeast, and salt. Whisk to combine. Pour in the warm milk and mix until just combined. Let sit for 5-10 minutes until the mixture becomes foamy, indicating the yeast is active.",
-        "timeRequired": "PT15M"
+        "name": "Activate the Yeast",
+        "text": "In a small bowl, combine the warm milk, 1 tablespoon of the granulated sugar, and the active dry yeast. Stir gently and let it sit for 5-10 minutes until foamy, indicating the yeast is active."
       },
       {
         "@type": "HowToStep",
-        "name": "Mix and Knead the Dough",
-        "text": "Add the remaining 3 cups of flour, the eggs, and 1 teaspoon of vanilla extract to the yeast mixture. Using a dough hook attachment (or by hand), mix on low speed until a shaggy dough forms. Gradually add the softened butter, one piece at a time, allowing each piece to incorporate before adding the next. Increase speed to medium and knead for 8-10 minutes until the dough is smooth, elastic, and pulls away from the sides of the bowl. It will be soft and slightly sticky.",
-        "timeRequired": "PT15M"
+        "name": "Prepare the Dough",
+        "text": "In a large mixing bowl, combine the remaining granulated sugar, 3 1/2 cups of flour, and salt. Make a well in the center. Pour in the activated yeast mixture, melted butter, eggs, and vanilla extract. Mix with a wooden spoon until a shaggy dough forms."
       },
       {
         "@type": "HowToStep",
-        "name": "First Rise (Proofing)",
-        "text": "Lightly grease a large bowl. Transfer the dough to the bowl, turning it once to coat. Cover the bowl tightly with plastic wrap or a damp kitchen towel. Place in a warm, draft-free spot for 1.5 to 2 hours, or until the dough has doubled in size.",
-        "timeRequired": "PT100M"
+        "name": "Knead and First Rise",
+        "text": "Turn the dough out onto a lightly floured surface. Knead for 10-15 minutes until the dough is smooth and elastic. If using a stand mixer with a dough hook, knead on medium speed for 8-10 minutes. Place the dough in a greased bowl, cover with plastic wrap, and let it rise in a warm place for 1-1.5 hours, or until doubled in size."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Concha Topping (Pasta para Concha)",
-        "text": "While the dough is rising, prepare the topping. In a medium bowl, combine the powdered sugar, 1 cup of all-purpose flour, and vegetable shortening. Use your hands or a pastry blender to mix until a soft, uniform paste forms. Knead lightly until smooth. If making chocolate conchas, divide the topping in half and mix 1 tablespoon of cocoa powder into one half. Mix 1/2 teaspoon vanilla extract into the other half for the classic white topping.",
-        "timeRequired": "PT10M"
+        "name": "Make the Topping",
+        "text": "While the dough is rising, prepare the concha topping. In a medium bowl, cream together the softened vegetable shortening and powdered sugar until light and fluffy. Gradually mix in the 1/2 cup of flour until a soft, crumbly paste forms. If desired, divide the topping in half and mix cocoa powder into one half for chocolate conchas."
       },
       {
         "@type": "HowToStep",
-        "name": "Shape the Conchas and Apply Topping",
-        "text": "Once the dough has risen, gently punch it down and divide it into 12 equal pieces (about 80-90g each). Roll each piece into a smooth ball. Place the dough balls on baking sheets lined with parchment paper, leaving space between them. For the topping, divide each color of topping into 6 equal portions. Flatten each topping portion into a thin disc (about 3 inches in diameter) and carefully place it on top of a dough ball. Using a concha cutter or a small knife, gently score the topping with a shell pattern without cutting into the dough.",
-        "timeRequired": "PT20M"
+        "name": "Shape the Conchas",
+        "text": "Once the dough has doubled, punch it down gently and divide it into 12 equal pieces. Roll each piece into a smooth ball. Place the balls on baking sheets lined with parchment paper, leaving space between them. For the topping, roll a small portion of the sugar paste between two pieces of plastic wrap or parchment paper until thin. Use a concha cutter or a knife to create the signature shell pattern and place it carefully on top of each dough ball, pressing gently to adhere."
       },
       {
         "@type": "HowToStep",
-        "name": "Second Rise and Baking",
-        "text": "Cover the shaped conchas loosely with plastic wrap or a damp cloth and let them rise again in a warm spot for 45-60 minutes, or until visibly puffy. Preheat your oven to 350°F (175°C) during the last 15 minutes of the second rise. Bake the conchas for 15-20 minutes, or until lightly golden brown on the bottom and edges, and the topping is set. Do not overbake. Transfer to a wire rack to cool slightly before serving.",
-        "timeRequired": "PT80M"
+        "name": "Second Rise and Bake",
+        "text": "Cover the shaped conchas loosely with plastic wrap or a clean kitchen towel and let them rise again in a warm place for 30-45 minutes, or until puffy. Preheat your oven to 350F (175C). Bake the conchas for 18-22 minutes, or until lightly golden brown on the bottom and the topping is set."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Cool and Serve",
+        "text": "Once baked, remove the conchas from the oven and transfer them to a wire rack to cool completely. Conchas are best enjoyed fresh, slightly warm, with a cup of cafe de olla or hot chocolate."
       }
     ]
-  }
+  },
+  "publishedAt": "2026-06-12T02:01:22.990Z"
 }
