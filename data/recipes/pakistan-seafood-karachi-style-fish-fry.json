@@ -51,33 +51,38 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Pakistani",
-  "image1": "https://images.pexels.com/photos/3655916/pexels-photo-3655916.jpeg?auto=compress&cs=tinysrgb&w=1200",
-  "image2": "https://images.unsplash.com/photo-1668939163925-2e8fdc187254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzU2MjgwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Karachi Style Fish Fry is a beloved Pakistani street food, known for its incredibly crispy exterior and succulent, spiced interior. This dish features marinated fish, deep-fried to golden perfection, offering a burst of traditional flavors with every bite. It is a true culinary gem from the vibrant city of Karachi.",
+  "image1": "https://images.unsplash.com/photo-1668335539106-c47ce29f6b8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODE2MTg0NDZ8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1682862279256-b2a9e4f3d22c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODE2MTg0NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Karachi Style Fish Fry is a beloved Pakistani street food, known for its crispy exterior and succulent, spiced interior. This recipe captures the vibrant flavors of Karachi, making it a perfect dish for any seafood lover. Enjoy this flavorful fish as an appetizer or a main course with a squeeze of fresh lemon.",
   "ingredients": [
     {
-      "item": "White fish fillets (e.g., Tilapia, Cod, Kingfish)",
-      "amount": "750g",
-      "notes": "cut into 2-inch pieces"
+      "item": "White fish fillets",
+      "amount": "700g",
+      "notes": "cod, snapper, or pomfret, cleaned and scored"
     },
     {
-      "item": "Ginger-garlic paste",
+      "item": "Ginger garlic paste",
       "amount": "2 tbsp",
       "notes": ""
     },
     {
+      "item": "Lemon juice",
+      "amount": "4 tbsp",
+      "notes": "freshly squeezed"
+    },
+    {
       "item": "Red chili powder",
-      "amount": "1 tsp",
-      "notes": "adjust to taste"
+      "amount": "1.5 tsp",
+      "notes": ""
     },
     {
       "item": "Turmeric powder",
-      "amount": "1/2 tsp",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
       "item": "Coriander powder",
-      "amount": "1 tsp",
+      "amount": "1.5 tsp",
       "notes": ""
     },
     {
@@ -87,87 +92,81 @@
     },
     {
       "item": "Garam masala",
-      "amount": "1/2 tsp",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
       "item": "Carom seeds (ajwain)",
-      "amount": "1/2 tsp",
-      "notes": "crushed lightly"
+      "amount": "0.5 tsp",
+      "notes": "crushed"
     },
     {
-      "item": "Lemon juice",
+      "item": "Chickpea flour (besan)",
       "amount": "2 tbsp",
-      "notes": ""
-    },
-    {
-      "item": "Gram flour (besan)",
-      "amount": "1/2 cup",
       "notes": ""
     },
     {
       "item": "Rice flour",
-      "amount": "2 tbsp",
-      "notes": "for extra crispiness"
+      "amount": "1 tbsp",
+      "notes": ""
     },
     {
       "item": "Salt",
-      "amount": "1 tsp",
+      "amount": "1.5 tsp",
       "notes": "or to taste"
     },
     {
-      "item": "Water",
+      "item": "Oil",
       "amount": "as needed",
-      "notes": "for batter"
+      "notes": "for deep frying"
     },
     {
-      "item": "Cooking oil",
-      "amount": "3-4 cups",
-      "notes": "for deep frying"
+      "item": "Fresh coriander",
+      "amount": "for garnish",
+      "notes": "chopped"
+    },
+    {
+      "item": "Lemon wedges",
+      "amount": "for serving",
+      "notes": ""
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Fish",
-      "text": "Wash the fish pieces thoroughly and pat them completely dry with paper towels. Ensure there is no excess moisture, as this helps the marinade adhere better.",
+      "text": "Wash the fish fillets thoroughly and pat them completely dry with paper towels. Make diagonal scores on both sides of the fish to allow the marinade to penetrate deeply.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Marinate the Fish",
-      "text": "In a large bowl, combine the ginger-garlic paste, red chili powder, turmeric powder, coriander powder, cumin powder, garam masala, carom seeds, lemon juice, and salt. Add the dry fish pieces to this mixture and toss gently to ensure each piece is evenly coated. Cover the bowl and refrigerate for at least 30 minutes, or up to 2 hours for best flavor.",
-      "time": "15 min"
-    },
-    {
-      "step": 3,
-      "title": "Prepare the Batter",
-      "text": "In a separate bowl, whisk together the gram flour, rice flour, and a pinch of salt. Gradually add water, a tablespoon at a time, mixing until you achieve a thick, smooth batter that coats the back of a spoon. The consistency should be thick enough to cling to the fish, but not overly pasty.",
+      "title": "Make the Marinade",
+      "text": "In a large bowl, combine ginger garlic paste, lemon juice, red chili powder, turmeric powder, coriander powder, cumin powder, garam masala, crushed carom seeds, chickpea flour, rice flour, and salt. Mix everything into a thick paste, adding a tablespoon or two of water if needed to achieve a spreadable consistency.",
       "time": "5 min"
     },
     {
+      "step": 3,
+      "title": "Marinate the Fish",
+      "text": "Generously apply the prepared marinade all over the fish fillets, ensuring it gets into the scores. Cover the bowl and refrigerate for at least 30 minutes, or ideally 2-3 hours for best flavor development.",
+      "time": "30 min"
+    },
+    {
       "step": 4,
-      "title": "Coat the Fish",
-      "text": "Dip each marinated fish piece into the prepared gram flour batter, ensuring it is fully coated. Allow any excess batter to drip off before placing it on a plate.",
+      "title": "Heat the Oil",
+      "text": "In a deep frying pan or karahi, heat enough oil for deep frying over medium-high heat. The oil should be hot enough but not smoking; test by dropping a small piece of marinade, it should sizzle immediately.",
       "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Heat the Oil",
-      "text": "Heat the cooking oil in a deep frying pan or wok over medium-high heat. To test if the oil is ready, drop a tiny bit of batter; it should sizzle and float to the surface immediately. The oil should be hot enough to fry without burning, around 350-375°F (175-190°C).",
-      "time": "5 min"
-    },
-    {
-      "step": 6,
-      "title": "Deep Fry the Fish",
-      "text": "Carefully place the coated fish pieces into the hot oil, frying in batches to avoid overcrowding the pan. Fry for 4-6 minutes on each side, or until the fish is golden brown, crispy, and cooked through. Remove the fish with a slotted spoon and place it on a wire rack lined with paper towels to drain excess oil.",
+      "title": "Fry the Fish",
+      "text": "Carefully place 1-2 marinated fish fillets into the hot oil, ensuring not to overcrowd the pan. Fry each side for about 4-6 minutes, or until the fish is golden brown and cooked through. The exact time depends on the thickness of the fish.",
       "time": "15 min"
     },
     {
-      "step": 7,
-      "title": "Serve Hot",
-      "text": "Serve the Karachi Style Fish Fry immediately with a sprinkle of chaat masala, fresh lemon wedges, and a side of mint chutney or raita. It is best enjoyed hot and fresh.",
-      "time": "0 min"
+      "step": 6,
+      "title": "Drain and Serve",
+      "text": "Remove the fried fish from the oil and place them on a wire rack or a plate lined with paper towels to drain excess oil. Garnish with fresh coriander and serve immediately with lemon wedges and a side of mint chutney or raita.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
@@ -186,32 +185,30 @@
     "authentic",
     "traditional",
     "seafood",
-    "Karachi Style Fish Fry",
-    "fried fish",
-    "street food"
+    "Karachi Style Fish Fry"
   ],
   "tips": [
-    "Always ensure your fish is completely dry before marinating; this helps the spices penetrate better and prevents the final product from being soggy.",
-    "For an extra layer of flavor, add a pinch of dried fenugreek leaves (kasoori methi) to your marinade. It imparts a distinctive aroma often found in traditional Pakistani dishes.",
-    "To achieve maximum crispiness, incorporate a tablespoon of cornstarch into your gram flour batter. Also, avoid overcrowding the frying pan to maintain oil temperature and ensure even cooking."
+    "For the crispiest fish, ensure your fish is completely dry before marinating and that your oil is at the correct temperature, around 350-375F (175-190C).",
+    "Using fresh lemon juice in the marinade not only adds flavor but also helps tenderize the fish. You can also add a touch of yogurt for extra tenderness and a slight tang.",
+    "Serve hot with a generous squeeze of fresh lemon juice, a side of green chutney (like mint or coriander chutney), and perhaps some sliced onions for an authentic Karachi street food experience."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Karachi Style Fish Fry is a beloved Pakistani Seafood dish enjoyed across Pakistan. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Experience the vibrant culinary landscape of Pakistan, and you'll quickly discover a dish that stands out for its bold flavors and irresistible crunch: Karachi Style Fish Fry. More than just a meal, it’s a cultural icon, a beloved street food, and a staple in homes across the bustling metropolis of Karachi. This iconic seafood preparation is celebrated for its perfectly crispy exterior, succulent, tender flesh, and a complex interplay of aromatic spices that awaken the senses. Whether you're a seasoned chef or an adventurous home cook, mastering this dish promises a delightful journey into the heart of Pakistani cuisine. Get ready to dive into the world of authentic Karachi Style Fish Fry, from its unique characteristics to the step-by-step process of recreating its magic in your own kitchen.\n\n## What is Karachi Style Fish Fry?\n\nKarachi Style Fish Fry is a distinct and highly prized seafood dish originating from the coastal city of Karachi, Pakistan. What sets it apart is its unique marinade, which typically features a robust blend of spices, including ajwain (carom seeds), red chili powder, turmeric, cumin, coriander, and ginger-garlic paste, all bound together with a generous squeeze of lemon juice and a touch of chickpea flour (besan) for a crispier coating. The fish, usually cut into steaks or fillets, is marinated for a significant period, allowing the flavors to deeply penetrate the flesh. It's then deep-fried to a beautiful golden brown perfection, resulting in a dish that boasts an incredibly crunchy, flavorful crust and a moist, flaky interior. Unlike simpler fried fish preparations, Karachi Style Fish Fry offers a symphony of tastes – spicy, tangy, savory, and herbaceous – making it an unforgettable culinary experience that’s often enjoyed as an appetizer or a main course with various accompaniments.\n\n## Ingredients You Need\n\nTo embark on your journey of creating authentic Karachi Style Fish Fry, gather these essential ingredients. Freshness is paramount, especially when it comes to fish.\n\nFor the Fish:\n*   1.5 - 2 lbs (approx. 700-900g) firm white fish, such as Kingfish (Surmai), Pomfret, Red Snapper, Rohu, or Tilapia, cut into 1-inch thick steaks or fillets.\n*   Oil for deep frying (vegetable, canola, or sunflower oil)\n\nFor the Marinade:\n*   2 tablespoons ginger-garlic paste\n*   Juice of 1-2 large lemons (about 3-4 tablespoons)\n*   1/4 cup chickpea flour (besan)\n*   2 tablespoons rice flour (for extra crispiness, optional but recommended)\n*   2 teaspoons red chili powder (adjust to your spice preference)\n*   1 teaspoon turmeric powder\n*   1.5 teaspoons ground cumin\n*   1.5 teaspoons ground coriander\n*   1 teaspoon ajwain (carom seeds), lightly crushed\n*   1 teaspoon garam masala powder\n*   1 teaspoon black pepper powder\n*   Salt to taste (start with 1.5 teaspoons and adjust)\n*   Optional: 1/2 teaspoon chaat masala for extra tang\n*   Optional: 1-2 green chilies, finely chopped, for more heat\n*   Optional: A few curry leaves, finely chopped\n\n## Step-by-Step Instructions\n\nFollow these steps carefully to achieve a truly delicious Karachi Style Fish Fry.\n\n1.  **Prepare the Fish:** Thoroughly wash the fish pieces and pat them completely dry with paper towels. This step is crucial for the marinade to adhere properly and for achieving a crispy fry. Make a few shallow incisions on the thicker pieces of fish; this helps the marinade penetrate deeply and ensures even cooking.\n2.  **Make the Marinade Paste:** In a large mixing bowl, combine the ginger-garlic paste, lemon juice, chickpea flour, rice flour (if using), red chili powder, turmeric, ground cumin, ground coriander, ajwain, garam masala, black pepper, salt, and any optional ingredients like chaat masala or green chilies. Mix everything well to form a thick, uniform paste. If the paste is too dry, add a tiny bit of water (a teaspoon at a time) to get the right consistency – it should be thick enough to cling to the fish.\n3.  **Marinate the Fish:** Add the prepared fish pieces to the bowl with the marinade. Using your hands (wearing gloves is recommended), thoroughly coat each piece of fish with the spice paste, ensuring it gets into the incisions. Cover the bowl with plastic wrap and refrigerate for at least 30 minutes, but ideally for 2-4 hours, or even overnight for the best flavor infusion.\n4.  **Prepare for Frying:** About 15-20 minutes before you plan to fry, take the fish out of the refrigerator to bring it closer to room temperature. This promotes more even cooking.\n5.  **Heat the Oil:** In a deep frying pan or a karahi, pour enough oil to submerge the fish pieces (at least 2-3 inches deep). Heat the oil over medium-high heat until it reaches around 350-375°F (175-190°C). You can test the oil by dropping a tiny bit of marinade; if it sizzles and floats to the top, the oil is ready.\n6.  **Fry the Fish:** Carefully lower the marinated fish pieces into the hot oil, one by one. Do not overcrowd the pan; fry in batches to maintain the oil temperature and ensure even crisping. Fry each batch for about 4-6 minutes per side, or until the fish is golden brown, crispy, and cooked through. The exact time will depend on the thickness of your fish. The internal temperature should reach 145°F (63°C).\n7.  **Drain and Serve:** Once cooked, remove the fish from the oil with a slotted spoon and place it on a wire rack lined with paper towels to drain excess oil. Serve your piping hot Karachi Style Fish Fry immediately.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect Karachi Style Fish Fry isn't just about following the recipe; a few expert tips can elevate your dish from good to extraordinary.\n\n*   **Fresh Fish is Key:** Always use the freshest possible fish. Ask your fishmonger for firm, bright-eyed fish with a fresh, oceanic smell. Freshness directly impacts the taste and texture.\n*   **Don't Skimp on Marination Time:** The longer the fish marinates, the deeper the flavors will penetrate. Overnight marination in the refrigerator truly makes a difference in the complexity of the taste.\n*   **Perfect Oil Temperature:** This is crucial. If the oil isn't hot enough, the fish will absorb too much oil and become greasy. If it's too hot, the exterior will burn before the inside cooks through. Use a kitchen thermometer if possible, or test with a small piece of marinade.\n*   **Avoid Overcrowding:** Frying too many pieces at once will lower the oil temperature, leading to soggy fish. Fry in small batches to maintain consistent heat and ensure each piece gets perfectly crispy.\n*   **Pat Dry Thoroughly:** Before marinating, ensure your fish is completely dry. Excess moisture can dilute the marinade and prevent a crispy crust.\n*   **Double Fry for Extra Crispness (Optional):** For an incredibly crispy exterior, you can lightly fry the fish once, remove it, let it rest for a few minutes, and then fry it again briefly until deeply golden and extra crunchy. This is a common technique in many fried preparations.\n*   **Adjust Spices to Taste:** The given spice levels are a guideline. Feel free to increase or decrease chili powder based on your preference for heat. A pinch of chaat masala sprinkled on top after frying adds a wonderful tangy kick.\n\n## Serving Suggestions\n\nKarachi Style Fish Fry is a star on its own, but its flavors are beautifully complemented by a range of Pakistani accompaniments.\n\n*   **Lemon Wedges:** A squeeze of fresh lemon juice just before eating is non-negotiable. It brightens the flavors and adds a zesty tang that cuts through the richness.\n*   **Chutneys:** Serve with fresh mint chutney (pudina chutney), tangy tamarind chutney (imli chutney), or a cooling yogurt raita. These provide contrasting flavors and textures.\n*   **Salad:** A simple kachumber salad (diced cucumber, tomato, onion with lemon juice and salt) offers a refreshing counterpoint.\n*   **Breads:** Enjoy it with warm naan, tandoori roti, or plain paratha for a more substantial meal.\n*   **Rice:** For some, a side of plain boiled rice or a light pilaf can also be a good pairing.\n*   **As an Appetizer:** Cut into smaller pieces, Karachi Style Fish Fry makes an excellent appetizer for gatherings.\n\n## Variations and Substitutions\n\nWhile the classic Karachi Style Fish Fry is divine, there’s room for creativity and adaptation based on availability and dietary preferences.\n\n*   **Different Fish Types:** While firm white fish is traditional, you can experiment with other varieties. Salmon or cod can work, though they will have a different texture. Ensure the fish isn't too delicate that it falls apart during frying.\n*   **Flour Alternatives:** If you don't have chickpea flour, you can use all-purpose flour or cornstarch, though the flavor and crispness profile will be slightly different. A mix of cornstarch and rice flour can also yield a very crispy crust.\n*   **Spice Adjustments:** Feel free to introduce other spices like black mustard seeds, fenugreek leaves (kasoori methi) for a subtle bitterness, or even a touch of carom seeds in the marinade for an extra aromatic punch.\n*   **Healthier Cooking Methods:** While deep-frying is authentic, you can try shallow-frying for less oil, or even an air fryer for a much lighter version. For air frying, lightly brush the marinated fish with oil before cooking at 375°F (190°C) for 15-20 minutes, flipping halfway, until golden and cooked through. The texture won't be identical, but it's a good alternative.\n*   **Vegetarian Adaptation:** You can adapt this recipe for firm paneer (Indian cheese) or extra-firm tofu. Cut them into thick slices, marinate, and fry similarly for a delicious vegetarian \"fish\" fry.\n\nThe alluring aroma and tantalizing taste of Karachi Style Fish Fry are a testament to Pakistan's rich culinary heritage. This dish is more than just fried fish; it's a celebration of bold spices, expert technique, and a love for flavorful food. By following these guidelines, you're not just cooking a meal; you're bringing a piece of Karachi's vibrant street food scene right into your home. So, gather your ingredients, embrace the spices, and get ready to savor every crispy, tender bite of this unforgettable Pakistani seafood delight.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Karachi Style Fish Fry",
     "description": "Learn how to make authentic Karachi Style Fish Fry. This easy Pakistani recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzU2MjgwMTN8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1668939163925-2e8fdc187254?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3NzU2MjgwMTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1668335539106-c47ce29f6b8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODE2MTg0NDZ8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1682862279256-b2a9e4f3d22c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYWtpc3RhbmklMjBzZWFmb29kJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3ODE2MTg0NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-04-08T06:00:31.605Z",
+    "datePublished": "2026-06-16T14:01:49.737Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -229,58 +226,54 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "750g White fish fillets (e.g., Tilapia, Cod, Kingfish)",
-      "2 tbsp Ginger-garlic paste",
-      "1 tsp Red chili powder",
-      "1/2 tsp Turmeric powder",
-      "1 tsp Coriander powder",
+      "700g White fish fillets",
+      "2 tbsp Ginger garlic paste",
+      "4 tbsp Lemon juice",
+      "1.5 tsp Red chili powder",
+      "1 tsp Turmeric powder",
+      "1.5 tsp Coriander powder",
       "1 tsp Cumin powder",
-      "1/2 tsp Garam masala",
-      "1/2 tsp Carom seeds (ajwain)",
-      "2 tbsp Lemon juice",
-      "1/2 cup Gram flour (besan)",
-      "2 tbsp Rice flour",
-      "1 tsp Salt",
-      "as needed Water",
-      "3-4 cups Cooking oil"
+      "1 tsp Garam masala",
+      "0.5 tsp Carom seeds (ajwain)",
+      "2 tbsp Chickpea flour (besan)",
+      "1 tbsp Rice flour",
+      "1.5 tsp Salt",
+      "as needed Oil",
+      "for garnish Fresh coriander",
+      "for serving Lemon wedges"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Fish",
-        "text": "Wash the fish pieces thoroughly and pat them completely dry with paper towels. Ensure there is no excess moisture, as this helps the marinade adhere better."
+        "text": "Wash the fish fillets thoroughly and pat them completely dry with paper towels. Make diagonal scores on both sides of the fish to allow the marinade to penetrate deeply."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Make the Marinade",
+        "text": "In a large bowl, combine ginger garlic paste, lemon juice, red chili powder, turmeric powder, coriander powder, cumin powder, garam masala, crushed carom seeds, chickpea flour, rice flour, and salt. Mix everything into a thick paste, adding a tablespoon or two of water if needed to achieve a spreadable consistency."
       },
       {
         "@type": "HowToStep",
         "name": "Marinate the Fish",
-        "text": "In a large bowl, combine the ginger-garlic paste, red chili powder, turmeric powder, coriander powder, cumin powder, garam masala, carom seeds, lemon juice, and salt. Add the dry fish pieces to this mixture and toss gently to ensure each piece is evenly coated. Cover the bowl and refrigerate for at least 30 minutes, or up to 2 hours for best flavor."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Prepare the Batter",
-        "text": "In a separate bowl, whisk together the gram flour, rice flour, and a pinch of salt. Gradually add water, a tablespoon at a time, mixing until you achieve a thick, smooth batter that coats the back of a spoon. The consistency should be thick enough to cling to the fish, but not overly pasty."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Coat the Fish",
-        "text": "Dip each marinated fish piece into the prepared gram flour batter, ensuring it is fully coated. Allow any excess batter to drip off before placing it on a plate."
+        "text": "Generously apply the prepared marinade all over the fish fillets, ensuring it gets into the scores. Cover the bowl and refrigerate for at least 30 minutes, or ideally 2-3 hours for best flavor development."
       },
       {
         "@type": "HowToStep",
         "name": "Heat the Oil",
-        "text": "Heat the cooking oil in a deep frying pan or wok over medium-high heat. To test if the oil is ready, drop a tiny bit of batter; it should sizzle and float to the surface immediately. The oil should be hot enough to fry without burning, around 350-375°F (175-190°C)."
+        "text": "In a deep frying pan or karahi, heat enough oil for deep frying over medium-high heat. The oil should be hot enough but not smoking; test by dropping a small piece of marinade, it should sizzle immediately."
       },
       {
         "@type": "HowToStep",
-        "name": "Deep Fry the Fish",
-        "text": "Carefully place the coated fish pieces into the hot oil, frying in batches to avoid overcrowding the pan. Fry for 4-6 minutes on each side, or until the fish is golden brown, crispy, and cooked through. Remove the fish with a slotted spoon and place it on a wire rack lined with paper towels to drain excess oil."
+        "name": "Fry the Fish",
+        "text": "Carefully place 1-2 marinated fish fillets into the hot oil, ensuring not to overcrowd the pan. Fry each side for about 4-6 minutes, or until the fish is golden brown and cooked through. The exact time depends on the thickness of the fish."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve Hot",
-        "text": "Serve the Karachi Style Fish Fry immediately with a sprinkle of chaat masala, fresh lemon wedges, and a side of mint chutney or raita. It is best enjoyed hot and fresh."
+        "name": "Drain and Serve",
+        "text": "Remove the fried fish from the oil and place them on a wire rack or a plate lined with paper towels to drain excess oil. Garnish with fresh coriander and serve immediately with lemon wedges and a side of mint chutney or raita."
       }
     ]
   },
-  "publishedAt": "2026-04-08T06:00:31.634Z"
+  "publishedAt": "2026-06-16T14:01:49.737Z"
 }
