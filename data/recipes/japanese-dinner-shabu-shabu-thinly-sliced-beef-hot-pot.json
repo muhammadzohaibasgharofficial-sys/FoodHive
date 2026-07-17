@@ -51,24 +51,14 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Japanese",
-  "image1": "https://images.unsplash.com/photo-1556906851-99df9cb88ad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4Mzk4NzI3N3ww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1773969416268-aa4c032d8de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4Mzk4NzI3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Shabu Shabu is a beloved Japanese hot pot dish featuring thinly sliced meat and fresh vegetables briefly swished in a simmering broth. It's a delightful communal dining experience, perfect for sharing warmth and delicious flavors with family and friends. Enjoy the tender beef and crisp vegetables dipped in savory ponzu or rich sesame sauce.",
+  "image1": "https://images.unsplash.com/photo-1556906851-99df9cb88ad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4NDMwNDAxOHww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1773969416268-aa4c032d8de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4NDMwNDAxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Shabu Shabu is a beloved Japanese hot pot dish featuring thinly sliced meat and fresh vegetables cooked in a simmering broth. It's a delightful and interactive dining experience perfect for sharing with family and friends. The name \"shabu shabu\" is an onomatopoeia derived from the sound made when stirring the ingredients in the pot.",
   "ingredients": [
     {
-      "item": "Thinly sliced beef (chuck, ribeye, or sirloin)",
+      "item": "Thinly sliced beef (e.g., ribeye, sirloin)",
       "amount": "1.5 lb (680g)",
       "notes": "for shabu shabu"
-    },
-    {
-      "item": "Konbu (dried kelp)",
-      "amount": "4 inch piece",
-      "notes": "for dashi broth"
-    },
-    {
-      "item": "Water",
-      "amount": "8 cups (2 liters)",
-      "notes": "for dashi broth"
     },
     {
       "item": "Napa cabbage",
@@ -76,81 +66,101 @@
       "notes": "cut into bite-sized pieces"
     },
     {
-      "item": "Enoki mushrooms",
-      "amount": "1 package (3.5oz/100g)",
-      "notes": "roots trimmed"
-    },
-    {
       "item": "Shiitake mushrooms",
-      "amount": "6-8 large",
-      "notes": "stems removed, scored caps"
+      "amount": "8 oz (225g)",
+      "notes": "stems removed"
     },
     {
-      "item": "Firm tofu",
-      "amount": "1 block (14oz/400g)",
+      "item": "Enoki mushrooms",
+      "amount": "4 oz (115g)",
+      "notes": "root ends trimmed"
+    },
+    {
+      "item": "Firm or silken tofu",
+      "amount": "1 block (14 oz / 400g)",
       "notes": "cut into 1-inch cubes"
     },
     {
-      "item": "Carrots",
-      "amount": "2 medium",
-      "notes": "thinly sliced or cut into decorative shapes"
+      "item": "Scallions (green onions)",
+      "amount": "4 stalks",
+      "notes": "thinly sliced diagonally"
     },
     {
-      "item": "Green onions",
-      "amount": "4-5 stalks",
-      "notes": "diagonally sliced"
+      "item": "Dashi stock",
+      "amount": "8 cups (2 liters)",
+      "notes": "for broth"
     },
     {
-      "item": "Udon or ramen noodles",
-      "amount": "2 servings",
-      "notes": "optional, for finishing"
+      "item": "Sake",
+      "amount": "1/4 cup (60ml)",
+      "notes": "for broth"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": "2 tbsp (30ml)",
+      "notes": "for broth"
+    },
+    {
+      "item": "Mirin",
+      "amount": "2 tbsp (30ml)",
+      "notes": "for broth"
+    },
+    {
+      "item": "Kombu (dried kelp)",
+      "amount": "1 piece (4-inch / 10cm)",
+      "notes": "for dashi"
     },
     {
       "item": "Ponzu sauce",
-      "amount": "1 cup",
+      "amount": "1/2 cup (120ml)",
       "notes": "for dipping"
     },
     {
-      "item": "Goma Dare (sesame sauce)",
-      "amount": "1 cup",
+      "item": "Goma dare (sesame sauce)",
+      "amount": "1/2 cup (120ml)",
       "notes": "for dipping"
+    },
+    {
+      "item": "Cooked rice or Udon noodles",
+      "amount": "as desired",
+      "notes": "for serving (optional)"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Dashi Broth",
-      "text": "In a large hot pot or donabe, combine the konbu and water. Let it soak for at least 30 minutes, or ideally, overnight in the refrigerator. Place the pot over medium heat and bring it to a gentle simmer. Just before it boils, remove the konbu to prevent bitterness. Keep the broth simmering gently throughout the meal.",
-      "time": "15 min (plus soaking)"
+      "text": "In a large pot or donabe (Japanese clay pot), combine 8 cups of water and the kombu. Let it soak for 30 minutes. Heat over medium-low heat until just before boiling (around 180°F / 82°C). Remove the kombu. Add sake, soy sauce, and mirin to the dashi. Bring to a gentle simmer.",
+      "time": "35 min"
     },
     {
       "step": 2,
-      "title": "Prepare Vegetables and Tofu",
-      "text": "Wash the napa cabbage thoroughly and cut it into bite-sized pieces. Trim the roots off the enoki mushrooms. Remove the stems from the shiitake mushrooms and score a cross design on the caps for aesthetics and better flavor absorption. Thinly slice the carrots. Cut the firm tofu into 1-inch cubes. Diagonally slice the green onions.",
-      "time": "10 min"
+      "title": "Arrange Ingredients",
+      "text": "While the broth is heating, arrange the thinly sliced beef neatly on a large platter. Wash and prepare all vegetables: cut napa cabbage, trim mushrooms, cube tofu, and slice scallions. Arrange all ingredients attractively on separate platters around the hot pot.",
+      "time": "15 min"
     },
     {
       "step": 3,
-      "title": "Arrange Ingredients",
-      "text": "Artfully arrange the thinly sliced beef, prepared vegetables, and tofu on large platters. It's traditional to arrange them appealingly, making it easy for diners to pick their desired items. Place the platters around your hot pot for convenient access.",
+      "title": "Set Up the Dining Area",
+      "text": "Place the hot pot on a portable burner in the center of your dining table. Keep the broth at a gentle simmer. Have small individual bowls for each diner, along with bowls of ponzu sauce and goma dare for dipping. Provide serving chopsticks or tongs.",
       "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Prepare Dipping Sauces",
-      "text": "Pour ponzu sauce into small individual bowls for each diner. For the goma dare (sesame sauce), you can either use a store-bought version or make your own by mixing sesame paste with soy sauce, mirin, rice vinegar, and a touch of dashi broth. Offer both options for variety.",
-      "time": "5 min"
+      "title": "Begin Cooking Shabu Shabu",
+      "text": "Each diner uses their chopsticks to pick up a slice of beef and swish it gently in the simmering broth for just a few seconds until it changes color and is cooked to their liking. This is the \"shabu shabu\" motion. Enjoy the tender beef with your chosen dipping sauce.",
+      "time": "10 min"
     },
     {
       "step": 5,
-      "title": "Begin the Shabu Shabu Experience",
-      "text": "Bring the dashi broth in the hot pot to a gentle boil. Each diner uses their chopsticks to pick up a slice of beef and briefly swish it in the hot broth for about 10-20 seconds until it is cooked to their preference. Then, dip the cooked beef into their chosen ponzu or goma dare sauce. Cook vegetables and tofu similarly, allowing them to simmer longer until tender.",
-      "time": "20 min (ongoing)"
+      "title": "Cook Vegetables and Tofu",
+      "text": "After enjoying some beef, add the harder vegetables like napa cabbage and tofu to the broth first, allowing them to cook for a few minutes until tender. Then add softer vegetables and mushrooms, cooking them briefly. Continue to cook and enjoy the ingredients as you eat, replenishing as needed.",
+      "time": "15 min"
     },
     {
       "step": 6,
-      "title": "Enjoy the Broth and Finishers",
-      "text": "As you cook the ingredients, the dashi broth will become richer and more flavorful. After most of the beef and vegetables have been enjoyed, you can add udon or ramen noodles directly to the broth to cook. The noodles will soak up all the delicious flavors, making a perfect end to the meal. Alternatively, serve with steamed rice.",
+      "title": "Enjoy the Broth and Finish",
+      "text": "As you cook, the broth will become richer with the flavors of the meat and vegetables. After all ingredients are enjoyed, you can add cooked rice or udon noodles to the flavorful broth to make a delicious final soup, known as \"shime\". Simmer until heated through and serve immediately.",
       "time": "10 min"
     }
   ],
@@ -166,18 +176,18 @@
   },
   "tags": [
     "Japanese",
-    "hot pot",
     "authentic",
     "traditional",
     "dinner",
     "Shabu Shabu Thinly Sliced Beef Hot Pot",
+    "hot pot",
     "beef",
-    "communal"
+    "vegetables"
   ],
   "tips": [
-    "For the most authentic Shabu Shabu, use a traditional donabe (earthenware pot) and a portable gas burner at the table. This enhances the communal dining experience.",
-    "The quality of your beef is paramount. Look for thinly sliced, well-marbled beef specifically labeled for Shabu Shabu or Sukiyaki at Japanese markets.",
-    "Don't overcrowd the pot when cooking. Swish only a few pieces of beef or vegetables at a time to maintain the broth's temperature and ensure even cooking."
+    "For the most authentic flavor, use high-quality, thinly sliced marbled beef. Freezing the beef briefly before slicing can make it easier to get very thin cuts if you're slicing yourself.",
+    "Don't overcrowd the pot when cooking. Swish only a few slices of meat at a time to maintain the broth's temperature and ensure even cooking.",
+    "The final broth, known as \"shime,\" is incredibly flavorful. Add cooked rice to make zosui (rice porridge) or udon noodles for a satisfying end to your meal."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -188,14 +198,14 @@
     "name": "Shabu Shabu Thinly Sliced Beef Hot Pot",
     "description": "Learn how to make authentic Shabu Shabu Thinly Sliced Beef Hot Pot. This easy Japanese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1556906851-99df9cb88ad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4Mzk4NzI3N3ww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1773969416268-aa4c032d8de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4Mzk4NzI3N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1556906851-99df9cb88ad2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4NDMwNDAxOHww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1773969416268-aa4c032d8de2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaGFidSUyMFNoYWJ1JTIwVGhpbmx5JTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4NDMwNDAxOHww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-07-14T00:01:39.431Z",
+    "datePublished": "2026-07-17T16:00:41.177Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -213,51 +223,53 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1.5 lb (680g) Thinly sliced beef (chuck, ribeye, or sirloin)",
-      "4 inch piece Konbu (dried kelp)",
-      "8 cups (2 liters) Water",
+      "1.5 lb (680g) Thinly sliced beef (e.g., ribeye, sirloin)",
       "1/2 head Napa cabbage",
-      "1 package (3.5oz/100g) Enoki mushrooms",
-      "6-8 large Shiitake mushrooms",
-      "1 block (14oz/400g) Firm tofu",
-      "2 medium Carrots",
-      "4-5 stalks Green onions",
-      "2 servings Udon or ramen noodles",
-      "1 cup Ponzu sauce",
-      "1 cup Goma Dare (sesame sauce)"
+      "8 oz (225g) Shiitake mushrooms",
+      "4 oz (115g) Enoki mushrooms",
+      "1 block (14 oz / 400g) Firm or silken tofu",
+      "4 stalks Scallions (green onions)",
+      "8 cups (2 liters) Dashi stock",
+      "1/4 cup (60ml) Sake",
+      "2 tbsp (30ml) Soy sauce",
+      "2 tbsp (30ml) Mirin",
+      "1 piece (4-inch / 10cm) Kombu (dried kelp)",
+      "1/2 cup (120ml) Ponzu sauce",
+      "1/2 cup (120ml) Goma dare (sesame sauce)",
+      "as desired Cooked rice or Udon noodles"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Dashi Broth",
-        "text": "In a large hot pot or donabe, combine the konbu and water. Let it soak for at least 30 minutes, or ideally, overnight in the refrigerator. Place the pot over medium heat and bring it to a gentle simmer. Just before it boils, remove the konbu to prevent bitterness. Keep the broth simmering gently throughout the meal."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Prepare Vegetables and Tofu",
-        "text": "Wash the napa cabbage thoroughly and cut it into bite-sized pieces. Trim the roots off the enoki mushrooms. Remove the stems from the shiitake mushrooms and score a cross design on the caps for aesthetics and better flavor absorption. Thinly slice the carrots. Cut the firm tofu into 1-inch cubes. Diagonally slice the green onions."
+        "text": "In a large pot or donabe (Japanese clay pot), combine 8 cups of water and the kombu. Let it soak for 30 minutes. Heat over medium-low heat until just before boiling (around 180°F / 82°C). Remove the kombu. Add sake, soy sauce, and mirin to the dashi. Bring to a gentle simmer."
       },
       {
         "@type": "HowToStep",
         "name": "Arrange Ingredients",
-        "text": "Artfully arrange the thinly sliced beef, prepared vegetables, and tofu on large platters. It's traditional to arrange them appealingly, making it easy for diners to pick their desired items. Place the platters around your hot pot for convenient access."
+        "text": "While the broth is heating, arrange the thinly sliced beef neatly on a large platter. Wash and prepare all vegetables: cut napa cabbage, trim mushrooms, cube tofu, and slice scallions. Arrange all ingredients attractively on separate platters around the hot pot."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Dipping Sauces",
-        "text": "Pour ponzu sauce into small individual bowls for each diner. For the goma dare (sesame sauce), you can either use a store-bought version or make your own by mixing sesame paste with soy sauce, mirin, rice vinegar, and a touch of dashi broth. Offer both options for variety."
+        "name": "Set Up the Dining Area",
+        "text": "Place the hot pot on a portable burner in the center of your dining table. Keep the broth at a gentle simmer. Have small individual bowls for each diner, along with bowls of ponzu sauce and goma dare for dipping. Provide serving chopsticks or tongs."
       },
       {
         "@type": "HowToStep",
-        "name": "Begin the Shabu Shabu Experience",
-        "text": "Bring the dashi broth in the hot pot to a gentle boil. Each diner uses their chopsticks to pick up a slice of beef and briefly swish it in the hot broth for about 10-20 seconds until it is cooked to their preference. Then, dip the cooked beef into their chosen ponzu or goma dare sauce. Cook vegetables and tofu similarly, allowing them to simmer longer until tender."
+        "name": "Begin Cooking Shabu Shabu",
+        "text": "Each diner uses their chopsticks to pick up a slice of beef and swish it gently in the simmering broth for just a few seconds until it changes color and is cooked to their liking. This is the \"shabu shabu\" motion. Enjoy the tender beef with your chosen dipping sauce."
       },
       {
         "@type": "HowToStep",
-        "name": "Enjoy the Broth and Finishers",
-        "text": "As you cook the ingredients, the dashi broth will become richer and more flavorful. After most of the beef and vegetables have been enjoyed, you can add udon or ramen noodles directly to the broth to cook. The noodles will soak up all the delicious flavors, making a perfect end to the meal. Alternatively, serve with steamed rice."
+        "name": "Cook Vegetables and Tofu",
+        "text": "After enjoying some beef, add the harder vegetables like napa cabbage and tofu to the broth first, allowing them to cook for a few minutes until tender. Then add softer vegetables and mushrooms, cooking them briefly. Continue to cook and enjoy the ingredients as you eat, replenishing as needed."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Enjoy the Broth and Finish",
+        "text": "As you cook, the broth will become richer with the flavors of the meat and vegetables. After all ingredients are enjoyed, you can add cooked rice or udon noodles to the flavorful broth to make a delicious final soup, known as \"shime\". Simmer until heated through and serve immediately."
       }
     ]
   },
-  "publishedAt": "2026-07-14T00:01:39.431Z"
+  "publishedAt": "2026-07-17T16:00:41.177Z"
 }
