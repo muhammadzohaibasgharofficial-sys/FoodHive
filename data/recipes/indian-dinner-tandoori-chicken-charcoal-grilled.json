@@ -51,19 +51,19 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Indian",
-  "image1": "https://images.unsplash.com/photo-1567529854970-ce2c4207e242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzNjM4MDEyfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1524239077444-27413e763bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzNjM4MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Experience the smoky perfection of Tandoori Chicken, marinated in a vibrant blend of yogurt and aromatic spices, then expertly grilled over charcoal. This classic Indian dish promises tender, juicy chicken with a charred exterior, bursting with authentic flavors that will transport your taste buds straight to the heart of India. It is a beloved centerpiece for any Indian dinner.",
+  "image1": "https://images.unsplash.com/photo-1567529854970-ce2c4207e242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg0NzUyMjA2fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1524239077444-27413e763bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg0NzUyMjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Tandoori Chicken Charcoal Grilled is a quintessential Indian dish known for its vibrant color, smoky flavor, and tender texture. Chicken pieces are marinated in a spiced yogurt mixture and then cooked to perfection over hot charcoal, imparting an irresistible aroma. This beloved recipe is perfect for family dinners or entertaining guests, offering a taste of authentic Indian cuisine.",
   "ingredients": [
     {
-      "item": "Whole chicken",
-      "amount": "1.2 kg",
-      "notes": "cut into 8-10 pieces, skin removed"
+      "item": "Whole chicken or chicken pieces",
+      "amount": "1.5 kg",
+      "notes": "skinless, bone-in, with deep gashes"
     },
     {
       "item": "Plain yogurt",
       "amount": "1 cup",
-      "notes": "thick, full-fat"
+      "notes": "thick, drained"
     },
     {
       "item": "Ginger-garlic paste",
@@ -76,13 +76,18 @@
       "notes": "freshly squeezed"
     },
     {
+      "item": "Tandoori masala powder",
+      "amount": "2 tbsp",
+      "notes": ""
+    },
+    {
       "item": "Kashmiri red chili powder",
-      "amount": "1.5 tbsp",
+      "amount": "1 tbsp",
       "notes": "for color and mild heat"
     },
     {
       "item": "Turmeric powder",
-      "amount": "0.5 tsp",
+      "amount": "1/2 tsp",
       "notes": ""
     },
     {
@@ -96,122 +101,99 @@
       "notes": ""
     },
     {
-      "item": "Garam Masala",
-      "amount": "1 tsp",
-      "notes": ""
-    },
-    {
-      "item": "Black pepper powder",
-      "amount": "0.5 tsp",
-      "notes": ""
-    },
-    {
       "item": "Salt",
       "amount": "to taste",
       "notes": ""
     },
     {
+      "item": "Mustard oil or regular oil",
+      "amount": "2 tbsp",
+      "notes": "for basting"
+    },
+    {
       "item": "Red food color",
-      "amount": "a pinch",
-      "notes": "optional, for authentic tandoori look"
-    },
-    {
-      "item": "Mustard oil",
-      "amount": "2 tbsp",
-      "notes": "or any cooking oil, for basting"
-    },
-    {
-      "item": "Butter",
-      "amount": "2 tbsp",
-      "notes": "melted, for basting"
+      "amount": "1/4 tsp",
+      "notes": "optional, for traditional color"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Chicken",
-      "text": "Wash the chicken pieces thoroughly and pat them completely dry with paper towels. Make deep slits on the chicken pieces, especially on the breast and thigh areas, to allow the marinade to penetrate well.",
-      "time": "5 min"
-    },
-    {
-      "step": 2,
-      "title": "First Marinade",
-      "text": "In a large bowl, combine 1 tablespoon of lemon juice, 1 teaspoon of Kashmiri red chili powder, and half a teaspoon of salt. Rub this mixture all over the chicken pieces, ensuring it gets into the slits. Let it rest for 15 minutes.",
+      "title": "Prepare Chicken for First Marinade",
+      "text": "Wash the chicken pieces thoroughly and pat them completely dry with paper towels. Make deep gashes on the chicken pieces with a sharp knife to allow the marinade to penetrate deeply. In a large bowl, combine the chicken with 1 tablespoon ginger-garlic paste, 1 tablespoon lemon juice, and a pinch of salt. Rub this mixture well into the chicken and let it rest for 15 minutes.",
       "time": "15 min"
     },
     {
-      "step": 3,
-      "title": "Second Marinade",
-      "text": "In a separate bowl, whisk together the yogurt, ginger-garlic paste, remaining lemon juice, Kashmiri red chili powder, turmeric powder, cumin powder, coriander powder, garam masala, black pepper powder, and salt to taste. If using, add a pinch of red food color. Mix well to form a smooth, thick marinade.",
+      "step": 2,
+      "title": "Prepare Second Marinade",
+      "text": "In another large bowl, whisk together the thick plain yogurt. Add the remaining 1 tablespoon ginger-garlic paste, 1 tablespoon lemon juice, tandoori masala powder, Kashmiri red chili powder, turmeric powder, cumin powder, coriander powder, and salt to taste. If using, add the red food color. Mix all ingredients thoroughly until a smooth, vibrant marinade forms.",
       "time": "5 min"
     },
     {
-      "step": 4,
+      "step": 3,
       "title": "Marinate the Chicken",
-      "text": "Add the chicken pieces to the second marinade, ensuring each piece is thoroughly coated. Cover the bowl and refrigerate for at least 4 hours, or preferably overnight, for best flavor and tenderness. The longer the marination, the better the taste.",
-      "time": "4 hours +"
+      "text": "Add the chicken pieces from the first marinade into the second yogurt-spice marinade. Ensure each piece is fully coated. Cover the bowl and refrigerate for at least 4 hours, or preferably overnight, for the best flavor and tenderness. The longer the marination, the better the results.",
+      "time": "4 hr (min)"
     },
     {
-      "step": 5,
+      "step": 4,
       "title": "Prepare the Charcoal Grill",
-      "text": "About 30-40 minutes before cooking, prepare your charcoal grill. Arrange the charcoal to create a medium-hot cooking zone. The coals should be glowing red with a thin layer of ash. Ensure the grill rack is clean and lightly oiled.",
+      "text": "About 30 minutes before grilling, prepare your charcoal grill. Arrange the charcoal to create medium-high heat. Once the coals are glowing hot and covered with a light ash, spread them evenly. Ensure the grill grates are clean and lightly oiled to prevent sticking.",
       "time": "30 min"
     },
     {
-      "step": 6,
-      "title": "Grill the Chicken",
-      "text": "Place the marinated chicken pieces directly on the hot grill rack. Cook for about 25-35 minutes, turning every 5-7 minutes to ensure even cooking and charring. Baste the chicken frequently with a mixture of melted butter and mustard oil during the last 10-15 minutes of grilling to keep it moist and add flavor. Cook until the chicken is tender, cooked through, and has a beautiful charred exterior.",
+      "step": 5,
+      "title": "Grill the Tandoori Chicken",
+      "text": "Place the marinated chicken pieces directly on the hot grill grates. Cook for about 25-35 minutes, turning every 5-7 minutes to ensure even cooking and charring. Baste the chicken occasionally with mustard oil or regular oil during the last 10-15 minutes of cooking. The chicken should be cooked through, tender, and beautifully charred on the outside.",
       "time": "35 min"
     },
     {
-      "step": 7,
-      "title": "Serve Hot",
-      "text": "Once cooked, remove the Tandoori Chicken from the grill. Squeeze fresh lemon juice over the top and garnish with fresh coriander leaves and sliced onion rings. Serve immediately with mint chutney, naan bread, or a fresh salad.",
+      "step": 6,
+      "title": "Rest and Serve",
+      "text": "Once cooked, remove the tandoori chicken from the grill and let it rest for 5 minutes before serving. This allows the juices to redistribute, keeping the chicken moist. Garnish with fresh coriander leaves and serve hot with lemon wedges, mint chutney, and onion rings.",
       "time": "5 min"
     }
   ],
   "nutritionTable": {
     "calories": "380 kcal",
-    "protein": "45g",
-    "carbs": "12g",
-    "fat": "18g",
-    "fiber": "2g",
-    "sugar": "3g",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
     "sodium": "520mg",
-    "cholesterol": "130mg"
+    "cholesterol": "60mg"
   },
   "tags": [
     "Indian",
-    "chicken",
+    "Indian",
     "authentic",
     "traditional",
     "dinner",
-    "Tandoori Chicken Charcoal Grilled",
-    "grilled",
-    "spicy"
+    "Tandoori Chicken Charcoal Grilled"
   ],
   "tips": [
-    "For the most authentic flavor, use full-fat plain yogurt. Greek yogurt can also work but thin it slightly with water to achieve the right consistency.",
-    "Making deep slits on the chicken pieces is crucial for the marinade to penetrate deeply, ensuring the chicken is flavorful and moist throughout.",
-    "While grilling, if the chicken starts to burn too quickly, move it to a slightly cooler part of the grill or raise the grill rack to control the heat. Basting frequently prevents drying out."
+    "For truly authentic flavor, consider adding a pinch of kasuri methi (dried fenugreek leaves) to your marinade. Rub it between your palms before adding to release its aroma.",
+    "The secret to tender Tandoori Chicken is a long marination. Marinating overnight allows the yogurt and spices to deeply tenderize the meat, enhancing both flavor and texture.",
+    "Serve your Tandoori Chicken hot off the grill with a side of cooling mint chutney, sliced red onions, and fresh lemon wedges for a complete Indian dining experience."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Tandoori Chicken Charcoal Grilled is a beloved Indian Dinner Recipes dish enjoyed across Indian. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Unleash the tantalizing aromas and vibrant flavors of India right in your backyard with a dish that needs no introduction: Tandoori Chicken. While traditionally cooked in a scorching hot clay oven called a tandoor, the magic of this iconic Indian delicacy can be perfectly replicated using a charcoal grill. The smoky char, the tender, spice-infused meat, and the vibrant hue make Tandoori Chicken Charcoal Grilled a show-stopping centerpiece for any dinner party or a delightful family meal. It's more than just food; it's an experience, a culinary journey that promises to ignite your taste buds and leave you craving more. This guide will walk you through everything you need to know to master this exquisite Indian dinner recipe at home, ensuring juicy, flavorful results every time.\n\n## What is Tandoori Chicken Charcoal Grilled?\n\nTandoori Chicken is a classic Indian dish originating from the Punjab region, renowned for its distinctive red color, smoky flavor, and succulent texture. The name \"tandoori\" refers to the tandoor, a cylindrical clay oven where the chicken is traditionally cooked at extremely high temperatures. The intense heat of the tandoor quickly sears the chicken, locking in juices while imparting a unique smoky char.\n\nWhen we talk about Tandoori Chicken Charcoal Grilled, we're essentially adapting this beloved traditional method for the home cook. A charcoal grill, with its ability to reach high temperatures and infuse food with a deep, smoky essence, is the closest and most authentic way to mimic the tandoor experience without owning one. The chicken, usually bone-in and skinless, is marinated in a mixture of yogurt and a potent blend of spices like ginger, garlic, red chili powder (often Kashmiri chili for its vibrant color and mild heat), turmeric, cumin, coriander, and garam masala. The yogurt acts as a tenderizer, breaking down the chicken fibers, while the spices penetrate deep into the meat, creating an explosion of flavor. The charcoal grilling process then adds that irresistible char and a smoky depth that elevates this Tandoori Chicken Charcoal Grilled dish beyond simple grilled chicken, making it truly special.\n\n## Ingredients You Need\n\nTo create an unforgettable Tandoori Chicken Charcoal Grilled experience, gather the following fresh and aromatic ingredients:\n\nFor the Chicken:\n*   2-3 lbs bone-in, skinless chicken pieces (legs, thighs, or a whole chicken cut into 8 pieces)\n*   2 tablespoons lemon juice\n*   1 teaspoon salt\n\nFor the Marinade:\n*   1 cup plain full-fat yogurt (Greek yogurt works well for thickness)\n*   2 tablespoons ginger-garlic paste\n*   2 tablespoons Kashmiri red chili powder (for color and mild heat; adjust to taste)\n*   1 teaspoon turmeric powder\n*   1 teaspoon ground cumin\n*   1 teaspoon ground coriander\n*   1 teaspoon garam masala\n*   1/2 teaspoon fenugreek leaves (kasoori methi), crushed\n*   1/4 teaspoon red food color (optional, for traditional vibrant color)\n*   Salt to taste\n\nFor Grilling and Garnish:\n*   2 tablespoons melted butter or oil (for basting)\n*   Fresh coriander leaves, chopped (for garnish)\n*   Lemon wedges (for serving)\n*   Sliced red onions (for serving)\n\n## Step-by-Step Instructions\n\nFollow these steps to prepare your perfect Tandoori Chicken Charcoal Grilled:\n\n1.  **Prepare the Chicken:** Wash the chicken pieces thoroughly and pat them completely dry with paper towels. Using a sharp knife, make 2-3 deep gashes on each piece of chicken. This allows the marinade to penetrate deeply, ensuring maximum flavor.\n2.  **First Marinade (Optional but Recommended):** In a bowl, rub the chicken pieces with 2 tablespoons of lemon juice and 1 teaspoon of salt. Let it sit for 15-20 minutes. This initial step helps tenderize the chicken and adds a foundational layer of flavor.\n3.  **Prepare the Main Marinade:** In a large bowl, combine the yogurt, ginger-garlic paste, Kashmiri red chili powder, turmeric, cumin, coriander, garam masala, crushed fenugreek leaves, red food color (if using), and salt to taste. Mix well until a smooth, thick paste forms.\n4.  **Marinate the Chicken:** Add the chicken pieces to the marinade, ensuring each piece is thoroughly coated, especially working the marinade into the gashes. Cover the bowl and refrigerate for at least 4-6 hours, or ideally overnight (12-24 hours) for the best results. The longer the marination, the more flavorful and tender your Tandoori Chicken Charcoal Grilled will be.\n5.  **Prepare the Charcoal Grill:** About 30-45 minutes before grilling, prepare your charcoal grill. Arrange the coals for medium-high direct heat, and some for indirect heat if you have larger pieces. Let the coals heat until they are glowing red and covered with a light layer of ash. Clean the grill grates and lightly oil them to prevent sticking.\n6.  **Grill the Chicken:** Place the marinated chicken pieces directly over the medium-high heat. Grill for 20-30 minutes, turning every 5-7 minutes, until the chicken is cooked through, shows good char marks, and the juices run clear. The internal temperature should reach 165°F (74°C). For larger pieces, you might want to start them over direct heat to get a good char, then move them to indirect heat to finish cooking without burning. Towards the end of the grilling time, baste the chicken with melted butter or oil to keep it moist and add shine.\n7.  **Rest and Serve:** Once cooked, remove the Tandoori Chicken Charcoal Grilled from the grill and let it rest for 5-10 minutes. This allows the juices to redistribute, ensuring a more tender and flavorful result.\n\n## Pro Tips for the Best Results\n\nAchieving perfect Tandoori Chicken Charcoal Grilled is an art, but these pro tips will ensure your dish is a masterpiece:\n\n*   **Deep Gashes are Key:** Don't be shy with the knife! The deeper the gashes, the more the marinade can penetrate, resulting in intensely flavorful and moist chicken.\n*   **Use Full-Fat Yogurt:** Full-fat yogurt not only adds richness but also helps tenderize the chicken more effectively than low-fat alternatives, preventing it from drying out on the grill.\n*   **Marinate, Marinate, Marinate:** This is perhaps the most crucial step. A minimum of 4-6 hours is acceptable, but an overnight (12-24 hours) marination will yield incredibly tender and deeply flavored chicken.\n*   **Don't Overcrowd the Grill:** Cook the chicken in batches if necessary. Overcrowding the grill lowers the temperature and steams the chicken instead of grilling it, preventing proper charring and crispiness.\n*   **Monitor Grill Temperature:** Charcoal grilling requires attention. Maintain a consistent medium-high heat. If flare-ups occur, move the chicken momentarily to a cooler spot or spray with water.\n*   **Baste for Moisture and Shine:** Basting with melted butter or oil during the last few minutes of grilling adds moisture, enhances flavor, and gives the chicken that signature glossy finish.\n*   **Finish with Lemon:** A squeeze of fresh lemon juice just before serving brightens all the flavors of your Tandoori Chicken Charcoal Grilled.\n\n## Serving Suggestions\n\nTandoori Chicken Charcoal Grilled is a complete meal in itself, but it truly shines when paired with a few complementary sides:\n\n*   **Bread:** Warm naan bread, roti, or paratha are perfect for scooping up the flavorful chicken and any remaining marinade.\n*   **Chutney:** A refreshing mint-coriander chutney or a tangy tamarind chutney provides a burst of contrasting flavor.\n*   **Salad:** A simple kachumber salad (diced cucumbers, tomatoes, and onions with a lemon dressing) or sliced red onions sprinkled with chaat masala and a squeeze of lemon juice adds freshness and crunch.\n*   **Raita:** A cooling cucumber raita (yogurt with grated cucumber and spices) helps balance the spices.\n*   **Rice:** For a heartier meal, serve alongside a fragrant basmati rice or even a light vegetable biryani.\n\n## Variations and Substitutions\n\nWhile the classic Tandoori Chicken Charcoal Grilled is hard to beat, there are many ways to customize this dish to suit your preferences:\n\n*   **Chicken Cuts:** You can use boneless chicken thighs or breasts for a quicker cooking time. Just be mindful not to overcook them to keep them juicy. Drumsticks or even a whole small chicken (spatchcocked) also work wonderfully.\n*   **Vegetarian Options:** The same marinade can be used for delicious vegetarian alternatives! Try paneer tikka (cubes of Indian cheese), mushroom tikka, or skewers of bell peppers, onions, and zucchini.\n*   **Spice Level:** Adjust the amount of Kashmiri red chili powder to control the heat. For extra spice, add a finely chopped green chili to the marinade.\n*   **Grilling Alternatives:** If a charcoal grill isn't an option, you can use a gas grill (aim for high heat and smoky wood chips if possible), an oven broiler (turning frequently), or even a heavy cast-iron skillet (though you'll miss the smoky flavor). However, for that authentic char and smoke, Tandoori Chicken Charcoal Grilled is truly the way to go.\n*   **Dairy-Free:** For a dairy-free version, substitute the yogurt with a plant-based yogurt (like coconut or soy) or a thick coconut milk, along with a tablespoon of lemon juice or vinegar to help tenderize.\n\nBringing the vibrant flavors of India to your home with Tandoori Chicken Charcoal Grilled is an incredibly rewarding experience. The smoky aroma, the tender meat, and the rich, complex spices all combine to create a dish that is truly unforgettable. Don't be intimidated by the seemingly long process; the marination does most of the work, and the grilling itself is a joyful endeavor. So fire up your charcoal grill, gather your ingredients, and prepare to impress your family and friends with this spectacular Indian dinner recipe!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Tandoori Chicken Charcoal Grilled",
     "description": "Learn how to make authentic Tandoori Chicken Charcoal Grilled. This easy Indian recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1567529854970-ce2c4207e242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzNjM4MDEyfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1524239077444-27413e763bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzNjM4MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1567529854970-ce2c4207e242?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg0NzUyMjA2fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1524239077444-27413e763bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUYW5kb29yaSUyMENoaWNrZW4lMjBDaGFyY29hbCUyMEluZGlhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg0NzUyMjA2fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-07-09T23:00:37.518Z",
+    "datePublished": "2026-07-22T21:01:01.527Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -229,58 +211,51 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1.2 kg Whole chicken",
+      "1.5 kg Whole chicken or chicken pieces",
       "1 cup Plain yogurt",
       "2 tbsp Ginger-garlic paste",
       "2 tbsp Lemon juice",
-      "1.5 tbsp Kashmiri red chili powder",
-      "0.5 tsp Turmeric powder",
+      "2 tbsp Tandoori masala powder",
+      "1 tbsp Kashmiri red chili powder",
+      "1/2 tsp Turmeric powder",
       "1 tsp Cumin powder",
       "1 tsp Coriander powder",
-      "1 tsp Garam Masala",
-      "0.5 tsp Black pepper powder",
       "to taste Salt",
-      "a pinch Red food color",
-      "2 tbsp Mustard oil",
-      "2 tbsp Butter"
+      "2 tbsp Mustard oil or regular oil",
+      "1/4 tsp Red food color"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Chicken",
-        "text": "Wash the chicken pieces thoroughly and pat them completely dry with paper towels. Make deep slits on the chicken pieces, especially on the breast and thigh areas, to allow the marinade to penetrate well."
+        "name": "Prepare Chicken for First Marinade",
+        "text": "Wash the chicken pieces thoroughly and pat them completely dry with paper towels. Make deep gashes on the chicken pieces with a sharp knife to allow the marinade to penetrate deeply. In a large bowl, combine the chicken with 1 tablespoon ginger-garlic paste, 1 tablespoon lemon juice, and a pinch of salt. Rub this mixture well into the chicken and let it rest for 15 minutes."
       },
       {
         "@type": "HowToStep",
-        "name": "First Marinade",
-        "text": "In a large bowl, combine 1 tablespoon of lemon juice, 1 teaspoon of Kashmiri red chili powder, and half a teaspoon of salt. Rub this mixture all over the chicken pieces, ensuring it gets into the slits. Let it rest for 15 minutes."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Second Marinade",
-        "text": "In a separate bowl, whisk together the yogurt, ginger-garlic paste, remaining lemon juice, Kashmiri red chili powder, turmeric powder, cumin powder, coriander powder, garam masala, black pepper powder, and salt to taste. If using, add a pinch of red food color. Mix well to form a smooth, thick marinade."
+        "name": "Prepare Second Marinade",
+        "text": "In another large bowl, whisk together the thick plain yogurt. Add the remaining 1 tablespoon ginger-garlic paste, 1 tablespoon lemon juice, tandoori masala powder, Kashmiri red chili powder, turmeric powder, cumin powder, coriander powder, and salt to taste. If using, add the red food color. Mix all ingredients thoroughly until a smooth, vibrant marinade forms."
       },
       {
         "@type": "HowToStep",
         "name": "Marinate the Chicken",
-        "text": "Add the chicken pieces to the second marinade, ensuring each piece is thoroughly coated. Cover the bowl and refrigerate for at least 4 hours, or preferably overnight, for best flavor and tenderness. The longer the marination, the better the taste."
+        "text": "Add the chicken pieces from the first marinade into the second yogurt-spice marinade. Ensure each piece is fully coated. Cover the bowl and refrigerate for at least 4 hours, or preferably overnight, for the best flavor and tenderness. The longer the marination, the better the results."
       },
       {
         "@type": "HowToStep",
         "name": "Prepare the Charcoal Grill",
-        "text": "About 30-40 minutes before cooking, prepare your charcoal grill. Arrange the charcoal to create a medium-hot cooking zone. The coals should be glowing red with a thin layer of ash. Ensure the grill rack is clean and lightly oiled."
+        "text": "About 30 minutes before grilling, prepare your charcoal grill. Arrange the charcoal to create medium-high heat. Once the coals are glowing hot and covered with a light ash, spread them evenly. Ensure the grill grates are clean and lightly oiled to prevent sticking."
       },
       {
         "@type": "HowToStep",
-        "name": "Grill the Chicken",
-        "text": "Place the marinated chicken pieces directly on the hot grill rack. Cook for about 25-35 minutes, turning every 5-7 minutes to ensure even cooking and charring. Baste the chicken frequently with a mixture of melted butter and mustard oil during the last 10-15 minutes of grilling to keep it moist and add flavor. Cook until the chicken is tender, cooked through, and has a beautiful charred exterior."
+        "name": "Grill the Tandoori Chicken",
+        "text": "Place the marinated chicken pieces directly on the hot grill grates. Cook for about 25-35 minutes, turning every 5-7 minutes to ensure even cooking and charring. Baste the chicken occasionally with mustard oil or regular oil during the last 10-15 minutes of cooking. The chicken should be cooked through, tender, and beautifully charred on the outside."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve Hot",
-        "text": "Once cooked, remove the Tandoori Chicken from the grill. Squeeze fresh lemon juice over the top and garnish with fresh coriander leaves and sliced onion rings. Serve immediately with mint chutney, naan bread, or a fresh salad."
+        "name": "Rest and Serve",
+        "text": "Once cooked, remove the tandoori chicken from the grill and let it rest for 5 minutes before serving. This allows the juices to redistribute, keeping the chicken moist. Garnish with fresh coriander leaves and serve hot with lemon wedges, mint chutney, and onion rings."
       }
     ]
   },
-  "publishedAt": "2026-07-09T23:00:37.519Z"
+  "publishedAt": "2026-07-22T21:01:01.527Z"
 }
