@@ -53,17 +53,17 @@
   "cuisine": "Chinese",
   "image1": "https://images.unsplash.com/photo-1687445129853-11ec4d8301f2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDb2xkJTIwSmVsbHlmaXNoJTIwU2FsYWQlMjBDaGluZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODUyNzI0MTV8MA&ixlib=rb-4.1.0&q=85",
   "image2": "https://images.unsplash.com/photo-1540138279543-b3728f037467?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDb2xkJTIwSmVsbHlmaXNoJTIwU2FsYWQlMjBDaGluZXNlJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODUyNzI0MTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Cold Jellyfish Salad is a refreshing and popular Chinese appetizer known for its unique chewy texture and vibrant flavors. This dish perfectly balances savory, tangy, and spicy notes, making it an ideal start to any meal. It is incredibly easy to prepare and a delightful way to explore authentic Chinese cuisine.",
+  "description": "Cold Jellyfish Salad is a refreshing and savory Chinese appetizer, beloved for its unique crunchy texture and tangy dressing. This dish perfectly balances the delicate taste of jellyfish with aromatic garlic, soy sauce, and a hint of spice, making it an ideal start to any meal.",
   "ingredients": [
     {
-      "item": "Prepared Jellyfish",
-      "amount": "1 lb",
-      "notes": "rehydrated, pre-cut"
+      "item": "Prepared jellyfish",
+      "amount": "300g",
+      "notes": "rinsed, drained, and sliced"
     },
     {
       "item": "Cucumber",
       "amount": "1 large",
-      "notes": "shredded"
+      "notes": "julienned"
     },
     {
       "item": "Garlic",
@@ -71,77 +71,72 @@
       "notes": "minced"
     },
     {
-      "item": "Light Soy Sauce",
+      "item": "Light soy sauce",
       "amount": "2 tbsp",
       "notes": ""
     },
     {
-      "item": "Chinese Black Vinegar",
+      "item": "Black vinegar",
       "amount": "2 tbsp",
       "notes": ""
     },
     {
-      "item": "Sesame Oil",
+      "item": "Sesame oil",
       "amount": "1 tbsp",
       "notes": ""
     },
     {
-      "item": "Granulated Sugar",
+      "item": "Granulated sugar",
       "amount": "1 tsp",
       "notes": ""
     },
     {
-      "item": "Chili Oil",
+      "item": "Chili oil",
       "amount": "1-2 tsp",
-      "notes": "adjust to taste"
+      "notes": "optional, to taste"
     },
     {
-      "item": "Cilantro",
+      "item": "Fresh cilantro",
       "amount": "2 tbsp",
       "notes": "chopped, for garnish"
-    },
-    {
-      "item": "Toasted Sesame Seeds",
-      "amount": "1 tsp",
-      "notes": "for garnish (optional)"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Jellyfish",
-      "text": "If using dried jellyfish, rinse it thoroughly under cold running water. Soak it in cold water for at least 4-6 hours, changing the water several times, until it is fully rehydrated and no longer overly salty. If using pre-packaged prepared jellyfish, rinse well and drain.",
-      "time": "5 min"
+      "text": "If using dried jellyfish, rehydrate it according to package instructions, typically by soaking in water for several hours or overnight. Once rehydrated, rinse thoroughly under cold running water to remove excess salt. Blanch the jellyfish in boiling water for 30-60 seconds, then immediately transfer to an ice bath to stop cooking. Drain well and gently squeeze out any excess water. Slice into thin strips.",
+      "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Blanch the Jellyfish",
-      "text": "Bring a pot of water to a rolling boil. Quickly blanch the rehydrated jellyfish in the boiling water for about 10-15 seconds. Immediately transfer it to an ice bath to stop the cooking process and maintain its crisp texture. Drain very well and gently squeeze out any excess water. Cut into bite-sized pieces if not already.",
+      "title": "Prepare Cucumber and Aromatics",
+      "text": "Wash the cucumber thoroughly and julienne it into thin, matchstick-sized strips. Mince the fresh garlic cloves finely. If using cilantro, chop it roughly for garnish later.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Prepare the Cucumber",
-      "text": "Wash the cucumber thoroughly. You can peel it or leave the skin on for extra crunch and color. Cut the cucumber into thin julienne strips or shred it using a mandoline or a grater. Set aside.",
+      "title": "Make the Dressing",
+      "text": "In a small bowl, combine the light soy sauce, black vinegar, sesame oil, and granulated sugar. Whisk until the sugar is fully dissolved. If desired, add chili oil to taste for a spicy kick.",
       "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Make the Dressing",
-      "text": "In a small bowl, combine the minced garlic, light soy sauce, Chinese black vinegar, sesame oil, and granulated sugar. Whisk until the sugar is dissolved. Stir in the chili oil, adjusting the amount to your preferred level of spiciness. Taste and adjust seasonings if necessary.",
+      "title": "Combine Ingredients",
+      "text": "In a large mixing bowl, add the prepared jellyfish strips and the julienned cucumber. Ensure both are well-drained to avoid watering down the dressing.",
       "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Combine and Chill",
-      "text": "In a large mixing bowl, combine the drained jellyfish and shredded cucumber. Pour the prepared dressing over the jellyfish and cucumber mixture. Toss gently to ensure all ingredients are evenly coated. Cover the bowl and refrigerate for at least 30 minutes to allow the flavors to meld and the salad to chill.",
-      "time": "30 min"
+      "title": "Dress and Mix",
+      "text": "Pour the prepared dressing over the jellyfish and cucumber. Add the minced garlic. Toss gently but thoroughly to ensure all ingredients are evenly coated with the flavorful dressing.",
+      "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Garnish and Serve",
-      "text": "Before serving, give the salad another gentle toss. Transfer the Cold Jellyfish Salad to a serving platter or individual bowls. Garnish with freshly chopped cilantro and a sprinkle of toasted sesame seeds, if desired. Serve immediately as a refreshing appetizer.",
-      "time": "5 min"
+      "title": "Chill and Serve",
+      "text": "Cover the bowl with plastic wrap and refrigerate for at least 20 minutes to allow the flavors to meld and the salad to chill. Before serving, give it another gentle toss and garnish with fresh chopped cilantro. Serve cold as a refreshing appetizer.",
+      "time": "25 min"
     }
   ],
   "nutritionTable": {
@@ -163,13 +158,13 @@
     "Cold Jellyfish Salad"
   ],
   "tips": [
-    "Always blanch jellyfish briefly and then immediately shock in ice water to ensure a perfectly crisp and chewy texture.",
-    "Chinese black vinegar (Chinkiang vinegar) is crucial for the authentic tangy flavor; do not substitute with regular white vinegar if possible.",
-    "This salad tastes best when chilled for at least 30 minutes before serving, allowing the flavors to fully develop. It can be prepared a few hours in advance."
+    "Always rinse rehydrated jellyfish thoroughly to remove excess salt and ensure a clean flavor.",
+    "Blanching jellyfish briefly in boiling water then shocking it in ice water helps achieve that perfect crisp, bouncy texture.",
+    "For best flavor, prepare the salad at least 20-30 minutes in advance and chill it in the refrigerator before serving."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Discover the vibrant and diverse world of Chinese appetizers, where every dish tells a story of flavor, texture, and culinary tradition. Among these delightful starters, one stands out for its unique crunch and refreshing taste: Cold Jellyfish Salad. This intriguing dish, often a staple at banquets and dim sum restaurants, offers an exciting departure from more common appetizers, providing a tantalizing prelude to any meal. Whether you’re a seasoned fan of Chinese cuisine or an adventurous eater looking to expand your palate, mastering the art of making Cold Jellyfish Salad at home is a rewarding experience that promises a burst of savory, tangy, and sometimes spicy notes.\n\n## What is Cold Jellyfish Salad?\n\nCold Jellyfish Salad, known in Mandarin as Hǎizhēnpí (海蜇皮), is a classic Chinese appetizer celebrated for its distinctive chewy and crunchy texture. Far from being a bland or gelatinous dish, properly prepared jellyfish has a delightful bite, almost like al dente pasta with a snap. The jellyfish itself is typically processed, often dried and salted, then rehydrated and blanched before being tossed in a flavorful dressing.\n\nThis salad is a cornerstone of cold dish platters in many Chinese restaurants, particularly those specializing in Cantonese, Sichuan, or Shanghainese cuisine. It’s light, low in calories, and incredibly refreshing, making it an ideal starter, especially during warmer months. The dressing is usually a harmonious blend of soy sauce, Chinese black vinegar, sesame oil, and often a touch of sugar and chili oil, creating a complex profile that is savory, sour, slightly sweet, and aromatic. Paired with crisp vegetables like cucumber and carrot, the Cold Jellyfish Salad offers a symphony of textures and tastes that awakens the appetite.\n\n## Ingredients You Need\n\nCrafting the perfect Cold Jellyfish Salad starts with sourcing the right ingredients. While some items might seem exotic, they are readily available in most Asian grocery stores.\n\n**For the Salad:**\n*   **Processed Jellyfish:** Look for pre-cut, rehydrated, and often blanched jellyfish strips in the refrigerated section of Asian supermarkets. If you find dried jellyfish, you'll need to rehydrate it thoroughly (which can take several hours or overnight) and blanch it yourself.\n*   **Cucumber:** One large English or Persian cucumber, julienned. Its crispness provides a refreshing contrast to the jellyfish.\n*   **Carrot:** One medium carrot, julienned, for color, a hint of sweetness, and added crunch.\n*   **Garlic:** 3-4 cloves, minced finely. Garlic is crucial for the aromatic depth of the dressing.\n*   **Scallions/Green Onions:** 2-3 stalks, thinly sliced for garnish and a fresh oniony bite.\n*   **Fresh Cilantro:** A small handful, chopped, for a bright, herbaceous finish (optional, but highly recommended).\n\n**For the Dressing:**\n*   **Light Soy Sauce:** 3 tablespoons. Use a good quality light soy sauce for umami.\n*   **Chinese Black Vinegar (Chinkiang Vinegar):** 2-3 tablespoons. This dark, aromatic vinegar provides the signature tangy and slightly malty flavor. Adjust to your sour preference.\n*   **Toasted Sesame Oil:** 1-2 tablespoons. Adds a wonderful nutty aroma and richness.\n*   **Granulated Sugar:** 1-2 teaspoons. Balances the sourness of the vinegar and the saltiness of the soy sauce.\n*   **Chili Oil (with sediment):** 1-2 teaspoons, or to taste, for a spicy kick and vibrant red color (optional).\n*   **White Pepper:** A pinch (optional).\n\n## Step-by-Step Instructions\n\nMaking Cold Jellyfish Salad is surprisingly straightforward once you have your ingredients prepped.\n\n1.  **Prepare the Jellyfish:** If using pre-packaged, rehydrated jellyfish, rinse it thoroughly under cold water to remove any brine or residual odor. If it's in large pieces, slice it into thin, uniform strips (about 1/4 inch wide). Bring a pot of water to a rolling boil. Quickly blanch the jellyfish strips for no more than 10-15 seconds. This quick blanch firms up the texture and ensures cleanliness. Immediately drain the jellyfish and plunge it into an ice bath to stop the cooking process and maintain its crispness. Once cooled, drain it very well and gently squeeze out any excess water. Pat dry with paper towels.\n\n2.  **Prepare the Vegetables:** Wash and peel the cucumber and carrot. Julienne both vegetables into thin, matchstick-sized strips. Mince the garlic cloves finely. Thinly slice the scallions and chop the fresh cilantro.\n\n3.  **Make the Dressing:** In a small bowl, combine the light soy sauce, Chinese black vinegar, toasted sesame oil, granulated sugar, and chili oil (if using). Whisk well until the sugar is fully dissolved. Taste the dressing and adjust the balance of sweet, sour, and savory to your preference. You might want more vinegar for tang or more sugar for sweetness.\n\n4.  **Assemble the Cold Jellyfish Salad:** In a large mixing bowl, combine the prepared jellyfish strips, julienned cucumber, julienned carrot, and minced garlic.\n\n5.  **Dress and Chill:** Pour the prepared dressing over the jellyfish and vegetables. Toss everything gently but thoroughly to ensure all ingredients are evenly coated. Add the chopped scallions and cilantro, and toss once more. For the best flavor, cover the bowl and refrigerate the Cold Jellyfish Salad for at least 30 minutes to allow the flavors to meld and for the dish to chill completely.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect restaurant-quality Cold Jellyfish Salad at home is all about attention to detail.\n\n*   **Jellyfish Preparation is Key:** The most crucial step is properly preparing the jellyfish. Over-blanching will make it rubbery, while under-blanching might leave it too soft. The goal is a firm, crisp, and slightly chewy texture. Always cool it immediately in an ice bath after blanching.\n*   **Drain Thoroughly:** Excess water in the jellyfish or vegetables will dilute your dressing. Ensure everything is well-drained and patted dry before mixing.\n*   **Balance the Dressing:** Don't be afraid to taste and adjust the dressing. Chinese black vinegar is essential for that authentic tangy flavor, but the ratio of sweet, sour, and salty is subjective. Start with the recommended amounts and tweak as needed.\n*   **Chill Time Matters:** While you can serve it immediately, allowing the salad to chill for at least 30 minutes, or even an hour, significantly enhances the flavor. The chilling process allows the jellyfish and vegetables to absorb the dressing, resulting in a more harmonious and flavorful dish.\n*   **Freshness:** Serve the salad cold and fresh. It's best consumed within a day or two for optimal texture.\n\n## Serving Suggestions\n\nCold Jellyfish Salad is incredibly versatile and makes a wonderful addition to any meal.\n\n*   **Classic Appetizer:** Serve it as the first course for a Chinese dinner party, alongside other cold dishes like \"smacked\" cucumber salad, braised peanuts, or marinated tofu.\n*   **Dim Sum Companion:** It’s a perfect refreshing counterpoint to richer, fried dim sum items.\n*   **Light Lunch or Snack:** Enjoy a small bowl on its own for a low-calorie, flavorful snack, especially on a hot day.\n*   **Buffet Spread:** Its unique appearance and texture make it a standout dish on any buffet table.\n*   **With Rice or Noodles:** While primarily an appetizer, a small portion can add a delightful crunch and tanginess to a simple bowl of plain rice or noodles.\n\n## Variations and Substitutions\n\nWhile the classic Cold Jellyfish Salad is fantastic, there are many ways to customize it to your taste or with ingredients you have on hand.\n\n*   **Vegetable Additions:** Feel free to experiment with other crunchy vegetables. Thinly sliced red bell peppers, daikon radish, or even julienned red onion can add more color and flavor complexity.\n*   **Spice Level:** For a spicier kick, increase the amount of chili oil, or add a pinch of fresh minced bird's eye chilies. A dash of Sichuan peppercorn oil can also introduce a unique numbing (má là) sensation.\n*   **Nutty Flavors:** For a richer, more substantial dressing, whisk in a teaspoon of smooth peanut butter or tahini into the dressing. This creates a creamy, nutty sauce that coats the jellyfish beautifully.\n*   **Herb Variations:** If you're not a fan of cilantro, simply omit it or substitute with finely chopped fresh mint for a different kind of freshness.\n*   **Protein Boost:** While not traditional for this specific dish, some variations might include shredded cooked chicken or thinly sliced firm tofu for added protein. However, the unique texture of jellyfish is the star here, and adding other proteins might detract from that.\n\nCold Jellyfish Salad is more than just an appetizer; it's an experience. Its unique texture, combined with the vibrant, balanced flavors of its dressing, makes it an unforgettable dish that perfectly embodies the ingenuity of Chinese cuisine. Don't let its unusual main ingredient intimidate you. With these simple steps and tips, you can confidently prepare this refreshing and delicious salad at home, impressing your family and friends with a truly authentic and exciting culinary creation. So, step into the kitchen, embrace the adventure, and discover the delightful crunch of Cold Jellyfish Salad!",
+  "article": "Embrace the vibrant world of Chinese cuisine, and you'll quickly discover a treasure trove of appetizers designed to tantalize the palate and awaken the senses. Among these culinary gems, one stands out for its unique texture and refreshing flavor profile: Cold Jellyfish Salad. This dish isn't just a starter; it's an experience, offering a delightful contrast to richer main courses and a testament to the diverse ingredients embraced by Chinese kitchens. Whether you're a seasoned foodie or new to the intricacies of Asian flavors, learning about and preparing this iconic dish is a rewarding journey.\n\n## What is Cold Jellyfish Salad?\n\nCold Jellyfish Salad, known in Mandarin as *liangban haizhe*, is a classic Chinese appetizer celebrated for its distinctive crisp, slightly chewy texture and invigorating dressing. Unlike many seafood dishes, jellyfish doesn't have a strong inherent flavor; instead, it acts as a perfect vehicle for the complex, savory, tangy, and often spicy sauce it's tossed in. The \"cold\" aspect is crucial, as the chilled temperature enhances its refreshing quality, making it an ideal choice, especially in warmer climates or as a palate cleanser during a multi-course meal. Typically, the jellyfish is thinly sliced or shredded, then combined with julienned fresh vegetables like cucumber and carrots, and generously coated in a dressing primarily featuring soy sauce, black vinegar, sesame oil, sugar, and chili oil. The result is a symphony of textures and flavors – crunchy, salty, sweet, sour, and a hint of heat – that creates an incredibly addictive starter.\n\n## Ingredients You Need\n\nCrafting an authentic Cold Jellyfish Salad begins with sourcing the right ingredients. The beauty of this dish lies in its simplicity, allowing the quality of each component to shine.\n\n*   **Prepared Jellyfish (8-10 oz / 225-280g):** This is the star. You'll typically find it pre-processed, dried, or brined in Asian supermarkets. It will need thorough rinsing and potentially rehydrating. Look for varieties labeled \"ready-to-eat\" or \"for salad.\"\n*   **Cucumber (1 large):** Opt for an English or Persian cucumber for fewer seeds and a crisp texture. Julienne it thinly.\n*   **Carrot (1 medium):** Adds a touch of sweetness, color, and crunch. Julienne it finely.\n*   **Garlic (3-4 cloves):** Minced finely, provides a pungent aromatic base for the dressing.\n*   **Fresh Ginger (1 inch piece, optional):** Grated or minced, adds a subtle warmth and freshness.\n*   **Light Soy Sauce (2 tbsp):** For umami and saltiness.\n*   **Chinese Black Vinegar (3 tbsp):** Chinkiang vinegar is highly recommended for its unique complex, malty, and slightly sweet-sour profile.\n*   **Toasted Sesame Oil (1 tbsp):** Adds a nutty aroma and depth of flavor.\n*   **Granulated Sugar (1-2 tsp):** Balances the acidity and saltiness of the dressing. Adjust to your sweetness preference.\n*   **Chili Oil with Flakes (1-2 tsp, or to taste):** For a delightful kick and vibrant color. Adjust based on your spice tolerance.\n*   **White Pepper (1/4 tsp):** A classic Chinese seasoning that adds a subtle warmth.\n*   **Toasted Sesame Seeds (1 tbsp):** For garnish and an extra layer of nutty texture.\n*   **Fresh Cilantro (2 tbsp, chopped):** For a fresh, herbaceous garnish.\n\n## Step-by-Step Instructions\n\nPreparing Cold Jellyfish Salad is straightforward, but attention to detail ensures the best texture and flavor.\n\n1.  **Prepare the Jellyfish:** If using dried jellyfish, follow package instructions for rehydration (usually soaking in water for several hours, changing water multiple times). For brined or pre-processed jellyfish, thoroughly rinse it under cold running water for several minutes to remove excess salt and brine. Squeeze out as much water as possible. If it comes in large pieces, slice it into thin, bite-sized strips (about 1/4 inch wide). Pat the jellyfish very dry with paper towels to ensure a crisp texture.\n2.  **Prepare the Vegetables:** Wash and peel the cucumber and carrot. Using a mandoline or a sharp knife, julienne both vegetables into thin, matchstick-sized strips.\n3.  **Make the Dressing:** In a medium bowl, combine the minced garlic, optional minced ginger, light soy sauce, Chinese black vinegar, toasted sesame oil, granulated sugar, chili oil, and white pepper. Whisk well until the sugar is fully dissolved and all ingredients are thoroughly combined. Taste and adjust seasonings as needed – you might want more sugar for sweetness, more vinegar for tang, or more chili oil for heat.\n4.  **Combine Ingredients:** In a large mixing bowl, add the prepared jellyfish, julienned cucumber, and julienned carrot. Pour the prepared dressing over the top.\n5.  **Toss and Chill:** Gently toss all the ingredients together until the jellyfish and vegetables are evenly coated with the dressing. Cover the bowl with plastic wrap and refrigerate for at least 30 minutes, or ideally an hour, to allow the flavors to meld and for the salad to thoroughly chill. The chilling process is vital for the distinct flavor and texture of Cold Jellyfish Salad.\n6.  **Serve:** Before serving, give the salad another quick toss. Transfer the Cold Jellyfish Salad to a serving platter or individual bowls. Garnish with toasted sesame seeds and fresh chopped cilantro.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect, restaurant-quality Cold Jellyfish Salad involves a few key techniques and considerations.\n\n*   **Sourcing Quality Jellyfish:** Always buy prepared jellyfish from a reputable Asian market. If using dried, ensure it's from a trusted brand. The quality of the jellyfish directly impacts the final texture.\n*   **Thorough Rinsing and Drying:** This cannot be stressed enough. Brined jellyfish can be extremely salty, and inadequate rinsing will ruin the dish. After rinsing, squeezing and patting dry is crucial to prevent a watery salad and to maintain the jellyfish's signature crunch.\n*   **Balance of Flavors:** The dressing is the heart of this salad. Don't be afraid to taste and adjust. The ideal balance is savory, tangy, sweet, and spicy. A little extra sugar can cut through too much acidity, while a dash more vinegar can brighten a dull dressing.\n*   **The Power of Chilling:** While you can serve it immediately, allowing the salad to chill for at least 30-60 minutes in the refrigerator allows the jellyfish to fully absorb the dressing's flavors and ensures it's served at its most refreshing temperature. This melding of flavors is essential for the full experience of Cold Jellyfish Salad.\n*   **Freshness of Vegetables:** Use crisp, fresh cucumbers and carrots. Overly soft vegetables will detract from the desired textural contrast.\n*   **Julienne Uniformity:** Aim for uniformly cut vegetables and jellyfish strips. This ensures an even coating of dressing and a pleasant mouthfeel with every bite.\n\n## Serving Suggestions\n\nCold Jellyfish Salad is incredibly versatile and makes an excellent addition to almost any meal.\n\n*   **As a Starter:** Its primary role is as an appetizer, stimulating the appetite before a larger meal. It's particularly good before rich, heavy dishes as its tanginess and crispness provide a refreshing contrast.\n*   **Dim Sum Spread:** A staple in many dim sum restaurants, it pairs wonderfully with other small plates like spring rolls, dumplings, and BBQ pork.\n*   **Light Lunch or Side Dish:** On a hot day, a generous portion can serve as a light and satisfying lunch, perhaps alongside a bowl of plain rice or some steamed greens.\n*   **Picnics and Potlucks:** Easy to transport and serve, it’s a unique and impressive dish to bring to gatherings. Just keep it chilled!\n*   **Pair with Tea:** Enjoy it with a cup of hot Chinese tea, such as jasmine or oolong, to further cleanse the palate.\n\n## Variations and Substitutions\n\nWhile the classic Cold Jellyfish Salad is perfect as is, you can easily adapt it to suit your preferences or what you have on hand.\n\n*   **Vegetable Additions:** Feel free to incorporate other thinly julienned vegetables like red bell peppers, daikon radish, or even a handful of bean sprouts for extra crunch.\n*   **Spice Level:** Amp up the heat by adding more chili oil, a pinch of dried chili flakes, or even a few slices of fresh bird's eye chilies to the dressing. For less spice, reduce the chili oil.\n*   **Nutty Notes:** For an extra layer of flavor and texture, sprinkle crushed roasted peanuts or cashews along with the sesame seeds.\n*   **Herb Alternatives:** If cilantro isn't your favorite, a little fresh mint or green onions can offer a different but equally refreshing aroma.\n*   **Gluten-Free Option:** Simply substitute regular soy sauce with tamari to make this dish suitable for those avoiding gluten.\n*   **Vinegar Choices:** While Chinese black vinegar is highly recommended for its unique depth, if unavailable, a good quality rice vinegar can be used as a substitute, though the flavor profile will be slightly different.\n*   **Sweetness Adjustment:** Some prefer a sweeter profile, others more tart. Adjust the sugar and vinegar ratios until it hits your personal sweet spot.\n\nCold Jellyfish Salad offers a unique culinary adventure, showcasing the innovative use of ingredients and the masterful balance of flavors that define Chinese cuisine. Its crisp texture, refreshing chill, and vibrant dressing make it an unforgettable appetizer that beckons you to take another bite. So, take the plunge, gather your ingredients, and prepare to delight your senses with this exquisite Chinese classic.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
@@ -183,7 +178,7 @@
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-07-28T21:00:46.558Z",
+    "datePublished": "2026-07-31T19:01:04.963Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -201,49 +196,48 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1 lb Prepared Jellyfish",
+      "300g Prepared jellyfish",
       "1 large Cucumber",
       "3 cloves Garlic",
-      "2 tbsp Light Soy Sauce",
-      "2 tbsp Chinese Black Vinegar",
-      "1 tbsp Sesame Oil",
-      "1 tsp Granulated Sugar",
-      "1-2 tsp Chili Oil",
-      "2 tbsp Cilantro",
-      "1 tsp Toasted Sesame Seeds"
+      "2 tbsp Light soy sauce",
+      "2 tbsp Black vinegar",
+      "1 tbsp Sesame oil",
+      "1 tsp Granulated sugar",
+      "1-2 tsp Chili oil",
+      "2 tbsp Fresh cilantro"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Jellyfish",
-        "text": "If using dried jellyfish, rinse it thoroughly under cold running water. Soak it in cold water for at least 4-6 hours, changing the water several times, until it is fully rehydrated and no longer overly salty. If using pre-packaged prepared jellyfish, rinse well and drain."
+        "text": "If using dried jellyfish, rehydrate it according to package instructions, typically by soaking in water for several hours or overnight. Once rehydrated, rinse thoroughly under cold running water to remove excess salt. Blanch the jellyfish in boiling water for 30-60 seconds, then immediately transfer to an ice bath to stop cooking. Drain well and gently squeeze out any excess water. Slice into thin strips."
       },
       {
         "@type": "HowToStep",
-        "name": "Blanch the Jellyfish",
-        "text": "Bring a pot of water to a rolling boil. Quickly blanch the rehydrated jellyfish in the boiling water for about 10-15 seconds. Immediately transfer it to an ice bath to stop the cooking process and maintain its crisp texture. Drain very well and gently squeeze out any excess water. Cut into bite-sized pieces if not already."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Prepare the Cucumber",
-        "text": "Wash the cucumber thoroughly. You can peel it or leave the skin on for extra crunch and color. Cut the cucumber into thin julienne strips or shred it using a mandoline or a grater. Set aside."
+        "name": "Prepare Cucumber and Aromatics",
+        "text": "Wash the cucumber thoroughly and julienne it into thin, matchstick-sized strips. Mince the fresh garlic cloves finely. If using cilantro, chop it roughly for garnish later."
       },
       {
         "@type": "HowToStep",
         "name": "Make the Dressing",
-        "text": "In a small bowl, combine the minced garlic, light soy sauce, Chinese black vinegar, sesame oil, and granulated sugar. Whisk until the sugar is dissolved. Stir in the chili oil, adjusting the amount to your preferred level of spiciness. Taste and adjust seasonings if necessary."
+        "text": "In a small bowl, combine the light soy sauce, black vinegar, sesame oil, and granulated sugar. Whisk until the sugar is fully dissolved. If desired, add chili oil to taste for a spicy kick."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine and Chill",
-        "text": "In a large mixing bowl, combine the drained jellyfish and shredded cucumber. Pour the prepared dressing over the jellyfish and cucumber mixture. Toss gently to ensure all ingredients are evenly coated. Cover the bowl and refrigerate for at least 30 minutes to allow the flavors to meld and the salad to chill."
+        "name": "Combine Ingredients",
+        "text": "In a large mixing bowl, add the prepared jellyfish strips and the julienned cucumber. Ensure both are well-drained to avoid watering down the dressing."
       },
       {
         "@type": "HowToStep",
-        "name": "Garnish and Serve",
-        "text": "Before serving, give the salad another gentle toss. Transfer the Cold Jellyfish Salad to a serving platter or individual bowls. Garnish with freshly chopped cilantro and a sprinkle of toasted sesame seeds, if desired. Serve immediately as a refreshing appetizer."
+        "name": "Dress and Mix",
+        "text": "Pour the prepared dressing over the jellyfish and cucumber. Add the minced garlic. Toss gently but thoroughly to ensure all ingredients are evenly coated with the flavorful dressing."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Chill and Serve",
+        "text": "Cover the bowl with plastic wrap and refrigerate for at least 20 minutes to allow the flavors to meld and the salad to chill. Before serving, give it another gentle toss and garnish with fresh chopped cilantro. Serve cold as a refreshing appetizer."
       }
     ]
   },
-  "publishedAt": "2026-07-28T21:00:46.558Z"
+  "publishedAt": "2026-07-31T19:01:04.964Z"
 }
