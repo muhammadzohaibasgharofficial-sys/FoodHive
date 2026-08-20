@@ -51,14 +51,14 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.unsplash.com/photo-1677029969065-c9f4003a9ad5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg1NzY5MjIyfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1677029979796-906d97385651?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg1NzY5MjIyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Galbi Korean BBQ Short Ribs are a beloved classic featuring tender, marinated beef short ribs grilled to caramelized perfection. This iconic dish offers a harmonious blend of sweet, savory, and umami flavors, making it a cornerstone of Korean cuisine. Enjoy these succulent ribs with rice and an array of banchan for an unforgettable meal.",
+  "image1": "https://images.unsplash.com/photo-1677029969065-c9f4003a9ad5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTk4NDI1fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1677029979796-906d97385651?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTk4NDI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Galbi Korean BBQ Short Ribs are a quintessential dish, featuring tender, marinated short ribs grilled to perfection. The sweet and savory marinade, often enhanced by fruit, caramelizes beautifully, creating an irresistible aroma and flavor that defines Korean barbecue. This recipe brings the authentic taste of Korea right to your table, perfect for a memorable meal.",
   "ingredients": [
     {
-      "item": "Beef short ribs",
+      "item": "Flanken-cut beef short ribs",
       "amount": "2 lbs",
-      "notes": "flanken cut, about 1/2 inch thick"
+      "notes": "about 1/2 inch thick"
     },
     {
       "item": "Soy sauce",
@@ -66,23 +66,13 @@
       "notes": "low sodium preferred"
     },
     {
-      "item": "Water",
-      "amount": "1/4 cup",
-      "notes": ""
-    },
-    {
       "item": "Brown sugar",
       "amount": "1/4 cup",
       "notes": "packed"
     },
     {
-      "item": "Mirin",
-      "amount": "2 tbsp",
-      "notes": "rice cooking wine"
-    },
-    {
       "item": "Sesame oil",
-      "amount": "1 tbsp",
+      "amount": "2 tbsp",
       "notes": ""
     },
     {
@@ -93,17 +83,22 @@
     {
       "item": "Ginger",
       "amount": "1 tbsp",
-      "notes": "freshly grated"
+      "notes": "grated fresh"
     },
     {
       "item": "Asian pear",
       "amount": "1/2",
-      "notes": "grated, or 1/4 cup apple juice"
+      "notes": "pureed or grated"
     },
     {
       "item": "Onion",
       "amount": "1/4",
-      "notes": "grated"
+      "notes": "finely chopped or grated"
+    },
+    {
+      "item": "Green onions",
+      "amount": "2 stalks",
+      "notes": "chopped, for garnish"
     },
     {
       "item": "Black pepper",
@@ -113,92 +108,89 @@
     {
       "item": "Sesame seeds",
       "amount": "1 tsp",
-      "notes": "for garnish"
-    },
-    {
-      "item": "Green onions",
-      "amount": "2 tbsp",
-      "notes": "chopped, for garnish"
+      "notes": "toasted, for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Short Ribs",
-      "text": "Rinse the flanken cut beef short ribs under cold water to remove any bone fragments. Pat them thoroughly dry with paper towels. If desired, trim any excess fat.",
+      "text": "Rinse the flanken-cut short ribs under cold water and pat them thoroughly dry with paper towels. This helps remove any bone fragments and ensures the marinade adheres well. You can also lightly score the ribs across the grain to help them absorb the marinade better.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Blend the Marinade Ingredients",
-      "text": "In a blender or food processor, combine the soy sauce, water, brown sugar, mirin, sesame oil, minced garlic, grated ginger, grated Asian pear, and grated onion. Blend until the mixture is smooth and well combined. Add black pepper.",
+      "title": "Make the Marinade",
+      "text": "In a large bowl, combine the soy sauce, brown sugar, sesame oil, minced garlic, grated fresh ginger, pureed Asian pear, and finely chopped onion. Whisk all the ingredients together until the brown sugar is completely dissolved and the marinade is well combined. The Asian pear adds a natural sweetness and tenderizing enzymes.",
       "time": "5 min"
     },
     {
       "step": 3,
       "title": "Marinate the Ribs",
-      "text": "Place the prepared short ribs in a large shallow dish or a resealable plastic bag. Pour the marinade over the ribs, ensuring all pieces are fully coated. Cover the dish or seal the bag and refrigerate for at least 4 hours, or preferably overnight for best flavor.",
-      "time": "10 min"
+      "text": "Place the prepared short ribs into the bowl with the marinade, ensuring each piece is fully coated. For best results, cover the bowl and refrigerate for at least 4 hours, or preferably overnight, to allow the flavors to penetrate deeply into the meat. The longer the marination, the more flavorful and tender your galbi will be.",
+      "time": "15 min"
     },
     {
       "step": 4,
-      "title": "Preheat Grill or Broiler",
-      "text": "When ready to cook, preheat your outdoor grill to medium-high heat (about 400F / 200C). If using a broiler, preheat it to high and line a baking sheet with foil.",
-      "time": "10 min"
+      "title": "Grill or Pan-Fry",
+      "text": "Preheat your grill to medium-high heat, or a large cast-iron skillet over medium-high heat. Lightly oil the grates or pan to prevent sticking. Remove the ribs from the marinade, letting any excess drip off. Do not discard the marinade entirely, as it can be reduced to a sauce later.",
+      "time": "5 min"
     },
     {
       "step": 5,
       "title": "Cook the Galbi",
-      "text": "Remove the ribs from the marinade, letting any excess drip off. Place the ribs on the preheated grill. Cook for 3-5 minutes per side, flipping once, until nicely caramelized and cooked to your desired doneness. For broiler, cook 4-6 minutes per side, watching carefully to prevent burning.",
+      "text": "Place the marinated short ribs on the hot grill or skillet. Cook for 3-5 minutes per side, depending on thickness and desired doneness. Look for beautiful char marks and a caramelized glaze. Be careful not to overcrowd the cooking surface, cook in batches if necessary to maintain high heat.",
       "time": "15 min"
     },
     {
       "step": 6,
-      "title": "Garnish and Serve",
-      "text": "Transfer the cooked Galbi to a serving platter. Garnish generously with toasted sesame seeds and chopped green onions. Serve immediately with steamed rice and various Korean side dishes like kimchi and ssamjang.",
-      "time": "5 min"
+      "title": "Serve and Garnish",
+      "text": "Once cooked, transfer the galbi to a serving platter. Garnish generously with chopped green onions and toasted sesame seeds. Serve immediately with a side of steamed rice, lettuce wraps, kimchi, and other banchan (Korean side dishes) for a complete and authentic Korean BBQ experience.",
+      "time": "10 min"
     }
   ],
   "nutritionTable": {
-    "calories": "550 kcal",
-    "protein": "35g",
-    "carbs": "25g",
-    "fat": "35g",
-    "fiber": "1g",
-    "sugar": "15g",
-    "sodium": "750mg",
-    "cholesterol": "100mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Korean",
-    "Korean",
+    "beef",
     "authentic",
     "traditional",
     "dinner",
-    "Galbi Korean BBQ Short Ribs"
+    "Galbi Korean BBQ Short Ribs",
+    "BBQ",
+    "grill"
   ],
   "tips": [
-    "For truly tender Galbi, consider scoring the meat against the grain a few times before marinating, or ask your butcher for a 'butterfly cut' to ensure even cooking and maximum flavor absorption.",
-    "If you cannot find Asian pear, a ripe Bosc pear or even a Fuji apple can be used as a substitute. Alternatively, 1/4 cup of apple juice can provide a similar tenderizing effect and sweetness.",
-    "Galbi is best enjoyed fresh off the grill. To prevent overcooking and drying out the meat, always monitor closely and cook until just tender with beautiful caramelization. Serve immediately with rice and fresh lettuce wraps."
+    "For extra tender ribs, ensure you marinate for at least 6 hours or overnight. The enzymes in the Asian pear truly make a difference.",
+    "If you cant find Asian pear, you can substitute it with a small amount of kiwi or a regular sweet apple, but adjust the quantity as kiwi is a stronger tenderizer.",
+    "Leftover galbi can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently in a pan or microwave."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Galbi Korean BBQ Short Ribs is a beloved Korean Dinner Recipes dish enjoyed across Korean. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Unleash the tantalizing flavors of Korea right in your own kitchen with one of the most beloved and iconic Korean dinner recipes: Galbi Korean BBQ Short Ribs. This dish isn't just food; it's an experience, a symphony of sweet, savory, and umami notes that dance on your palate, leaving you craving more. Whether you're a seasoned Korean food enthusiast or new to its wonders, mastering Galbi at home is a rewarding culinary adventure that promises to impress.\n\nGalbi, meaning \"rib\" in Korean, refers to a dish typically made with beef short ribs that have been marinated in a complex, flavorful sauce and then grilled to perfection. The result is tender, juicy meat with a beautiful caramelized char, making it a centerpiece for any gathering. Forget the expensive restaurant trips; with this guide, you’ll be crafting authentic, mouth-watering Galbi Korean BBQ Short Ribs that taste just like they came from your favorite Korean eatery.\n\n## What is Galbi Korean BBQ Short Ribs?\n\nGalbi Korean BBQ Short Ribs are a quintessential dish in Korean cuisine, celebrated for their rich flavor and tender texture. Traditionally, Galbi uses beef short ribs, specifically a \"flanken-cut\" where the ribs are cut across the bone into thin, flat pieces, or \"butterflied\" where the meat is cut along the bone and opened up to create a larger, thinner piece. This particular cut allows for maximum surface area to absorb the delicious marinade and cook quickly on a grill.\n\nThe magic of Galbi lies in its signature marinade. A harmonious blend of soy sauce, brown sugar (or other sweeteners like honey or mirin), minced garlic, fresh ginger, sesame oil, black pepper, and often a secret ingredient – grated Asian pear. The Asian pear not only adds a delicate sweetness but also contains natural enzymes that act as a tenderizer, ensuring the ribs are incredibly soft and succulent after cooking. When grilled, the sugars in the marinade caramelize, creating a beautiful char and an irresistible aroma that is truly the hallmark of authentic Galbi Korean BBQ Short Ribs. It's a dish that embodies hospitality and celebration, making it a perfect choice for Korean dinner recipes.\n\n## Ingredients You Need\n\nTo create spectacular Galbi Korean BBQ Short Ribs, quality ingredients are key. Here’s what you’ll need for a batch serving 4-6 people:\n\nFor the Ribs:\n*   3-4 lbs beef short ribs, flanken-cut or butterflied (about 1/4 to 1/2 inch thick)\n\nFor the Marinade:\n*   1/2 cup soy sauce (low sodium preferred)\n*   1/4 cup brown sugar, packed (or adjust to taste, substitute with honey or maple syrup for a different sweetness profile)\n*   1/4 cup mirin (rice wine for cooking)\n*   2 tablespoons sesame oil\n*   1 whole Asian pear, peeled, cored, and grated (or 1/2 kiwi or 1 small apple, grated, as a substitute for tenderizing)\n*   1 head garlic (about 10-12 cloves), minced\n*   1 small piece ginger (about 1 inch), peeled and grated\n*   1/2 medium yellow onion, roughly chopped\n*   1/4 teaspoon black pepper\n*   Optional: 1-2 tablespoons gochujang (Korean chili paste) for a spicy kick\n*   Optional: 1-2 tablespoons rice wine vinegar (for a brighter flavor)\n*   Optional: 1-2 tablespoons sesame seeds (for garnish)\n*   Optional: 2-3 green onions, thinly sliced (for garnish)\n\n## Step-by-Step Instructions\n\nMaking Galbi Korean BBQ Short Ribs at home is simpler than you might think. Follow these steps for a perfect result:\n\n1.  **Prepare the Ribs:** Start by rinsing the short ribs under cold water to remove any bone fragments. Pat them thoroughly dry with paper towels. If using butterflied ribs, you might want to score them lightly in a crosshatch pattern to help the marinade penetrate deeper, being careful not to cut all the way through.\n2.  **Make the Marinade:** In a blender or food processor, combine the soy sauce, brown sugar, mirin, sesame oil, grated Asian pear (or substitute), minced garlic, grated ginger, and chopped onion. Blend until smooth. If you prefer a bit of heat, add the gochujang now. Stir in the black pepper and rice wine vinegar (if using).\n3.  **Marinate the Ribs:** Place the dried short ribs in a large non-reactive bowl, a resealable plastic bag, or a shallow dish. Pour the prepared marinade over the ribs, ensuring each piece is well-coated. Massage the marinade into the meat. Cover the bowl or seal the bag and refrigerate for a minimum of 6 hours, or preferably overnight (up to 24 hours) for the best flavor and tenderness.\n4.  **Grill the Ribs:** When ready to cook, remove the ribs from the refrigerator at least 30 minutes before grilling to bring them closer to room temperature. Preheat your grill (charcoal or gas) to medium-high heat. Lightly oil the grill grates. Remove the ribs from the marinade, allowing any excess marinade to drip off (do not wipe it off).\n5.  **Cook to Perfection:** Place the ribs on the hot grill. Cook for 3-5 minutes per side, depending on thickness and desired doneness. You're looking for a beautiful caramelization and char marks on the outside, while the inside remains juicy and tender. Avoid overcooking, as this can make the ribs tough.\n6.  **Rest and Serve:** Once cooked, transfer the Galbi Korean BBQ Short Ribs to a cutting board and let them rest for 5-10 minutes. This allows the juices to redistribute, ensuring maximum tenderness. Garnish with sesame seeds and sliced green onions before serving.\n\n## Pro Tips for the Best Results\n\nAchieving restaurant-quality Galbi Korean BBQ Short Ribs requires a few insider tricks:\n\n*   **Choose the Right Cut:** Flanken-cut ribs are ideal for grilling as their thinness ensures quick cooking and maximum marinade absorption. If using thicker ribs, consider butterflying them yourself or asking your butcher to do it.\n*   **Don't Skimp on Marinating Time:** While 6 hours is the minimum, an overnight marinade (12-24 hours) truly allows the flavors to meld and the tenderizing enzymes from the pear to work their magic. However, if using kiwi, limit marinating to 3-4 hours, as its enzymes are much stronger and can turn the meat mushy if over-marinated.\n*   **The Power of the Pear (or Kiwi):** The grated Asian pear is not just for sweetness; its enzymes are crucial for tenderizing. If you can't find an Asian pear, a small amount of grated kiwi (remember the time limit!) or even apple can be used.\n*   **High Heat, Quick Cook:** Galbi cooks best over medium-high to high heat. This creates that desirable charred exterior and juicy interior without drying out the meat. Don't overcrowd the grill; cook in batches if necessary.\n*   **Rest Your Meat:** This simple step is often overlooked but is vital for juicy meat. Resting allows the muscle fibers to relax and reabsorb the juices that have been pushed to the center during cooking.\n\n## Serving Suggestions\n\nGalbi Korean BBQ Short Ribs are meant to be a communal feast, often served with a variety of side dishes that complement its rich flavor.\n\n*   **Ssam (Lettuce Wraps):** The most traditional way to enjoy Galbi is wrapped in fresh lettuce leaves (like red leaf, green leaf, or perilla leaves) with a smear of ssamjang (a spicy, savory dipping sauce), a slice of raw garlic, and perhaps some cooked rice or kimchi. This creates a delightful balance of textures and flavors.\n*   **Rice:** A bowl of freshly steamed white rice is a must. It helps to soak up the delicious juices and provides a neutral base for the intense flavors of the ribs.\n*   **Banchan (Side Dishes):** No Korean meal is complete without an array of banchan. Kimchi (fermented spicy cabbage), pickled radishes, seasoned spinach (sigeumchi namul), bean sprout salad (kongnamul muchim), and fish cakes (eomuk bokkeum) are all excellent choices that add variety and freshness.\n*   **Drinks:** Pair your Galbi with traditional Korean soju or makgeolli (rice wine), or a crisp beer for a truly authentic experience.\n\n## Variations and Substitutions\n\nWhile the classic Galbi Korean BBQ Short Ribs recipe is hard to beat, there are ways to adapt it to your preferences or what you have on hand.\n\n*   **Spicy Galbi:** For those who love heat, increase the amount of gochujang in the marinade or add a pinch of gochugaru (Korean chili powder).\n*   **Different Meats:** The same marinade can be used for other cuts of meat. Try it with pork ribs (dwaeji galbi), chicken thighs (dak galbi), or even thick-cut pork belly. Adjust cooking times accordingly.\n*   **Fruit Substitutes:** As mentioned, if Asian pear is unavailable, grated kiwi (use sparingly and marinate for less time) or apple can serve as tenderizers and add a touch of sweetness.\n*   **Indoor Cooking:** No grill? No problem! You can achieve delicious results by broiling the ribs in the oven (watch carefully to prevent burning) or pan-frying them in a cast-iron skillet over medium-high heat until caramelized and cooked through.\n*   **Vegetarian Option:** While not traditional Galbi, you can adapt the marinade for firm tofu or portobello mushrooms for a flavorful vegetarian alternative.\n\nMaking Galbi Korean BBQ Short Ribs at home is more than just cooking a meal; it's an immersive culinary journey into the heart of Korean cuisine. With this comprehensive guide, you're well-equipped to create a memorable and incredibly delicious Korean dinner that will have everyone asking for your secret recipe. Enjoy the process, savor the aromas, and delight in every tender, flavorful bite!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Galbi Korean BBQ Short Ribs",
     "description": "Learn how to make authentic Galbi Korean BBQ Short Ribs. This easy Korean recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1677029969065-c9f4003a9ad5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg1NzY5MjIyfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1677029979796-906d97385651?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg1NzY5MjIyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1677029969065-c9f4003a9ad5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTk4NDI1fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1677029979796-906d97385651?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBHYWxiaSUyMEtvcmVhbiUyMEJCUSUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTk4NDI1fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-08-03T15:01:33.845Z",
+    "datePublished": "2026-08-20T04:01:03.973Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -213,55 +205,53 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "550 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "2 lbs Beef short ribs",
+      "2 lbs Flanken-cut beef short ribs",
       "1/2 cup Soy sauce",
-      "1/4 cup Water",
       "1/4 cup Brown sugar",
-      "2 tbsp Mirin",
-      "1 tbsp Sesame oil",
+      "2 tbsp Sesame oil",
       "6 cloves Garlic",
       "1 tbsp Ginger",
       "1/2 Asian pear",
       "1/4 Onion",
+      "2 stalks Green onions",
       "1/2 tsp Black pepper",
-      "1 tsp Sesame seeds",
-      "2 tbsp Green onions"
+      "1 tsp Sesame seeds"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Short Ribs",
-        "text": "Rinse the flanken cut beef short ribs under cold water to remove any bone fragments. Pat them thoroughly dry with paper towels. If desired, trim any excess fat."
+        "text": "Rinse the flanken-cut short ribs under cold water and pat them thoroughly dry with paper towels. This helps remove any bone fragments and ensures the marinade adheres well. You can also lightly score the ribs across the grain to help them absorb the marinade better."
       },
       {
         "@type": "HowToStep",
-        "name": "Blend the Marinade Ingredients",
-        "text": "In a blender or food processor, combine the soy sauce, water, brown sugar, mirin, sesame oil, minced garlic, grated ginger, grated Asian pear, and grated onion. Blend until the mixture is smooth and well combined. Add black pepper."
+        "name": "Make the Marinade",
+        "text": "In a large bowl, combine the soy sauce, brown sugar, sesame oil, minced garlic, grated fresh ginger, pureed Asian pear, and finely chopped onion. Whisk all the ingredients together until the brown sugar is completely dissolved and the marinade is well combined. The Asian pear adds a natural sweetness and tenderizing enzymes."
       },
       {
         "@type": "HowToStep",
         "name": "Marinate the Ribs",
-        "text": "Place the prepared short ribs in a large shallow dish or a resealable plastic bag. Pour the marinade over the ribs, ensuring all pieces are fully coated. Cover the dish or seal the bag and refrigerate for at least 4 hours, or preferably overnight for best flavor."
+        "text": "Place the prepared short ribs into the bowl with the marinade, ensuring each piece is fully coated. For best results, cover the bowl and refrigerate for at least 4 hours, or preferably overnight, to allow the flavors to penetrate deeply into the meat. The longer the marination, the more flavorful and tender your galbi will be."
       },
       {
         "@type": "HowToStep",
-        "name": "Preheat Grill or Broiler",
-        "text": "When ready to cook, preheat your outdoor grill to medium-high heat (about 400F / 200C). If using a broiler, preheat it to high and line a baking sheet with foil."
+        "name": "Grill or Pan-Fry",
+        "text": "Preheat your grill to medium-high heat, or a large cast-iron skillet over medium-high heat. Lightly oil the grates or pan to prevent sticking. Remove the ribs from the marinade, letting any excess drip off. Do not discard the marinade entirely, as it can be reduced to a sauce later."
       },
       {
         "@type": "HowToStep",
         "name": "Cook the Galbi",
-        "text": "Remove the ribs from the marinade, letting any excess drip off. Place the ribs on the preheated grill. Cook for 3-5 minutes per side, flipping once, until nicely caramelized and cooked to your desired doneness. For broiler, cook 4-6 minutes per side, watching carefully to prevent burning."
+        "text": "Place the marinated short ribs on the hot grill or skillet. Cook for 3-5 minutes per side, depending on thickness and desired doneness. Look for beautiful char marks and a caramelized glaze. Be careful not to overcrowd the cooking surface, cook in batches if necessary to maintain high heat."
       },
       {
         "@type": "HowToStep",
-        "name": "Garnish and Serve",
-        "text": "Transfer the cooked Galbi to a serving platter. Garnish generously with toasted sesame seeds and chopped green onions. Serve immediately with steamed rice and various Korean side dishes like kimchi and ssamjang."
+        "name": "Serve and Garnish",
+        "text": "Once cooked, transfer the galbi to a serving platter. Garnish generously with chopped green onions and toasted sesame seeds. Serve immediately with a side of steamed rice, lettuce wraps, kimchi, and other banchan (Korean side dishes) for a complete and authentic Korean BBQ experience."
       }
     ]
   },
-  "publishedAt": "2026-08-03T15:01:33.846Z"
+  "publishedAt": "2026-08-20T04:01:03.973Z"
 }
