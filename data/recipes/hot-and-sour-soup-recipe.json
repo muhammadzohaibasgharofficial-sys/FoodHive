@@ -8,46 +8,47 @@
   "categoryName": "Soups and Stews",
   "categoryIcon": "🍲",
   "seo": {
-    "title": "Authentic Hot and Sour Soup Recipe - Easy Chinese Soup",
-    "metaDescription": "Master the art of Chinese Hot and Sour Soup with our easy-to-follow recipe! Get authentic flavors, step-by-step instructions, and pro tips for the perfect bowl.",
+    "title": "Authentic Hot and Sour Soup Recipe | Easy Chinese Soup",
+    "metaDescription": "Master the art of authentic Hot and Sour Soup with our easy-to-follow recipe. Get that perfect balance of spicy, tangy, and savory flavors at home. A Chinese classic!",
     "urlSlug": "hot-and-sour-soup-recipe",
-    "mainKeyword": "Hot and Sour Soup recipe",
+    "mainKeyword": "Hot and Sour Soup",
     "longTailKeywords": [
       "how to make Hot and Sour Soup",
       "easy Hot and Sour Soup recipe",
       "authentic Chinese Hot and Sour Soup",
       "Hot and Sour Soup step by step",
-      "best Hot and Sour Soup at home",
-      "spicy Hot and Sour Soup recipe"
+      "best Hot and Sour Soup at home"
     ],
     "lowCompetitionKeywords": [
       "homemade Hot and Sour Soup recipe",
-      "Chinese soups Hot and Sour Soup",
-      "quick Hot and Sour Soup",
-      "simple Hot and Sour Soup",
-      "traditional Hot and Sour Soup ingredients"
+      "Chinese hot and sour soup recipe",
+      "spicy sour soup recipe"
     ],
     "searchIntent": "transactional",
     "h1": "Authentic Hot and Sour Soup Recipe",
     "h2Headings": [
       "What is Hot and Sour Soup?",
-      "Ingredients You Need",
+      "Ingredients You'll Need",
       "Step-by-Step Instructions",
-      "Pro Tips for the Best Results",
+      "Pro Tips for the Best Hot and Sour Soup",
       "Serving Suggestions",
       "Variations and Substitutions"
     ],
     "imageFilename": "hot-and-sour-soup-recipe.jpg",
-    "imageAlt": "A steaming bowl of authentic Chinese Hot and Sour Soup garnished with green onions and chili oil.",
-    "imageCaption": "Savor the perfect balance of spicy, sour, and savory in this classic homemade Hot and Sour Soup.",
+    "imageAlt": "A steaming bowl of authentic Chinese Hot and Sour Soup, garnished with green onions and chili oil.",
+    "imageCaption": "Enjoy a comforting bowl of homemade Hot and Sour Soup, a classic Chinese favorite perfect for any meal.",
     "internalLinks": [
       {
-        "anchor": "More Soup Recipes",
-        "url": "/recipes/soups"
+        "anchor": "Soups & Stews Recipes",
+        "url": "/categories/soups-and-stews"
       },
       {
-        "anchor": "Explore Chinese Recipes",
-        "url": "/recipes/chinese"
+        "anchor": "Authentic Chinese Recipes",
+        "url": "/cuisine/chinese"
+      },
+      {
+        "anchor": "Chinese Soup Recipes",
+        "url": "/categories/chinese-soups"
       }
     ]
   },
@@ -57,69 +58,59 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Chinese",
-  "image1": "https://images.unsplash.com/photo-1710508787399-e3dc878838a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTc4NjExfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1684252801327-7e7794c4dd7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTc4NjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Experience the vibrant flavors of a classic Chinese Hot and Sour Soup, a comforting bowl bursting with savory umami, tangy vinegar, and a kick of chili. This authentic recipe balances textures from silken tofu, wood ear mushrooms, and shredded pork, creating a truly satisfying culinary journey. Perfect for a chilly evening or a flavorful starter to any meal.",
+  "image1": "https://images.unsplash.com/photo-1710508787399-e3dc878838a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3OTgwMjYwfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1684252801327-7e7794c4dd7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3OTgwMjYwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Hot and Sour Soup is a classic Chinese appetizer, renowned for its intriguing balance of piquant spice and tangy vinegar. This warming and savory broth, typically loaded with shredded pork, tofu, and mushrooms, offers a delightful texture and an unforgettable flavor experience. It is a comforting and invigorating dish perfect for any occasion.",
   "ingredients": [
     {
       "item": "Pork loin",
       "amount": "150g",
-      "notes": "shredded thinly"
+      "notes": "shredded"
     },
     {
       "item": "Firm tofu",
-      "amount": "200g",
-      "notes": "drained and cut into thin strips"
-    },
-    {
-      "item": "Dried wood ear mushrooms",
-      "amount": "10g",
-      "notes": "rehydrated and sliced thinly"
+      "amount": "150g",
+      "notes": "shredded"
     },
     {
       "item": "Dried shiitake mushrooms",
-      "amount": "10g",
-      "notes": "rehydrated and sliced thinly, reserve soaking liquid"
+      "amount": "6-8 pieces",
+      "notes": "rehydrated and shredded"
     },
     {
       "item": "Bamboo shoots",
       "amount": "100g",
-      "notes": "julienned"
+      "notes": "shredded, canned or fresh"
     },
     {
-      "item": "Chicken or vegetable broth",
-      "amount": "6 cups",
-      "notes": "low sodium"
+      "item": "Wood ear mushrooms",
+      "amount": "15g",
+      "notes": "rehydrated and shredded"
     },
     {
-      "item": "Chinkiang black vinegar",
-      "amount": "1/4 cup",
-      "notes": "plus more to taste"
+      "item": "Eggs",
+      "amount": "2 large",
+      "notes": "beaten"
+    },
+    {
+      "item": "Chicken broth",
+      "amount": "1 liter",
+      "notes": "low sodium preferred"
     },
     {
       "item": "Soy sauce",
       "amount": "3 tbsp",
-      "notes": "light or regular"
+      "notes": "light soy sauce"
     },
     {
-      "item": "White pepper",
-      "amount": "1 tsp",
-      "notes": "freshly ground"
-    },
-    {
-      "item": "Chili oil",
-      "amount": "1-2 tbsp",
+      "item": "Rice vinegar",
+      "amount": "4 tbsp",
       "notes": "or to taste"
     },
     {
-      "item": "Cornstarch",
-      "amount": "3 tbsp",
-      "notes": "mixed with 4 tbsp cold water for slurry"
-    },
-    {
-      "item": "Eggs",
-      "amount": "2",
-      "notes": "beaten"
+      "item": "White pepper",
+      "amount": "1.5 tsp",
+      "notes": "or to taste"
     },
     {
       "item": "Sesame oil",
@@ -127,101 +118,114 @@
       "notes": "for drizzling"
     },
     {
-      "item": "Green onions",
-      "amount": "2 stalks",
-      "notes": "sliced for garnish"
+      "item": "Cornstarch",
+      "amount": "2 tbsp",
+      "notes": "mixed with 4 tbsp cold water for slurry"
     },
     {
-      "item": "Salt",
+      "item": "Chili oil",
       "amount": "to taste",
-      "notes": "optional"
+      "notes": "for garnish"
+    },
+    {
+      "item": "Green onions",
+      "amount": "2 stalks",
+      "notes": "chopped, for garnish"
+    },
+    {
+      "item": "Cooking oil",
+      "amount": "1 tbsp",
+      "notes": "for stir-frying"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare Ingredients",
-      "text": "Shred the pork loin finely. Drain and slice tofu into thin strips. Rehydrate dried wood ear and shiitake mushrooms in warm water for 20-30 minutes, then squeeze dry, trim tough stems, and slice thinly. Reserve the shiitake soaking liquid if desired. Prepare your cornstarch slurry by mixing cornstarch with cold water until smooth.",
-      "time": "15 min"
+      "text": "Rehydrate dried shiitake and wood ear mushrooms in hot water for 20-30 minutes. Drain, squeeze dry, and thinly slice or shred. Shred pork loin, firm tofu, and bamboo shoots. Beat eggs in a small bowl. Prepare cornstarch slurry by mixing cornstarch with cold water.",
+      "time": "20 min"
     },
     {
       "step": 2,
-      "title": "Cook the Pork",
-      "text": "In a large pot or wok, add a tablespoon of cooking oil over medium-high heat. Add the shredded pork and stir-fry until it is cooked through and lightly browned, about 3-4 minutes. Remove the pork from the pot and set aside.",
+      "title": "Sauté Pork",
+      "text": "Heat a tablespoon of cooking oil in a large pot or wok over medium-high heat. Add shredded pork and stir-fry until it changes color and is lightly browned, about 3-4 minutes. Remove pork from the pot and set aside.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Simmer the Broth and Vegetables",
-      "text": "Pour the chicken or vegetable broth into the pot. Add the sliced wood ear mushrooms, shiitake mushrooms, and julienned bamboo shoots. Bring the mixture to a boil, then reduce heat to a simmer. If using, add the reserved shiitake soaking liquid.",
-      "time": "10 min"
+      "title": "Build the Broth",
+      "text": "Pour chicken broth into the same pot. Add the rehydrated mushrooms, shredded bamboo shoots, and shredded tofu. Bring the broth to a rolling boil, then reduce the heat to a simmer and let it cook for 10 minutes to allow the flavors to meld together.",
+      "time": "15 min"
     },
     {
       "step": 4,
-      "title": "Add Seasonings and Tofu",
-      "text": "Stir in the Chinkiang black vinegar, soy sauce, and white pepper. Add the sliced tofu and the cooked pork back into the pot. Let it simmer gently for 5 minutes to allow the flavors to meld. Taste and adjust seasonings if necessary, adding more vinegar or soy sauce to your preference.",
-      "time": "8 min"
+      "title": "Season the Soup",
+      "text": "Return the cooked pork to the pot. Stir in the soy sauce, rice vinegar, and white pepper. Taste the soup and adjust the seasonings as needed, adding more vinegar or pepper to achieve your desired balance of hot and sour flavor.",
+      "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Thicken the Soup",
-      "text": "Give the cornstarch slurry a quick stir to recombine, then slowly pour it into the simmering soup in a thin stream while continuously stirring. Continue stirring until the soup thickens to your desired consistency. If it becomes too thick, add a little more broth or water.",
-      "time": "3 min"
+      "title": "Thicken and Add Eggs",
+      "text": "Slowly drizzle the cornstarch slurry into the simmering soup while stirring constantly until the soup reaches your desired thickness. Gradually pour in the beaten eggs in a thin, continuous stream, stirring gently to create delicate egg ribbons throughout the soup. Remove the pot from the heat.",
+      "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Finish with Egg and Garnish",
-      "text": "Once the soup is thickened, reduce the heat to low. Slowly pour the beaten eggs into the soup in a thin stream, stirring gently in one direction to create delicate 'egg flowers'. Remove from heat immediately. Drizzle with sesame oil and chili oil. Garnish generously with sliced green onions before serving hot.",
-      "time": "4 min"
+      "title": "Serve Hot",
+      "text": "Ladle the hot and sour soup into individual serving bowls. Drizzle with a few drops of sesame oil and chili oil for an extra layer of flavor and heat. Garnish generously with fresh chopped green onions before serving immediately.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
-    "calories": "380 kcal",
-    "protein": "18g",
-    "carbs": "45g",
-    "fat": "14g",
-    "fiber": "4g",
-    "sugar": "5g",
-    "sodium": "520mg",
-    "cholesterol": "60mg"
+    "calories": "280 kcal",
+    "protein": "22g",
+    "carbs": "25g",
+    "fat": "10g",
+    "fiber": "3g",
+    "sugar": "3g",
+    "sodium": "950mg",
+    "cholesterol": "85mg"
   },
   "tags": [
-    "Chinese",
     "Chinese",
     "authentic",
     "traditional",
     "soups",
-    "Hot and Sour Soup recipe"
+    "Hot and Sour Soup",
+    "spicy",
+    "sour",
+    "comfort food",
+    "appetizer"
   ],
   "tips": [
-    "For an authentic sour kick, use Chinkiang black vinegar. Adjust the amount to your preference, starting with less and adding more.",
-    "To get beautiful 'egg flowers', ensure the soup is simmering gently, then pour the beaten egg slowly in a thin stream while stirring the soup gently in one direction.",
-    "Rehydrated dried shiitake mushrooms add deep umami; always reserve and use the strained soaking liquid as part of your broth for extra flavor."
+    "For maximum flavor, use a high-quality chicken broth or even homemade stock. If using store-bought, opt for a low-sodium variety to better control the overall saltiness.",
+    "Adjust the amount of white pepper and rice vinegar to your personal preference for heat and sourness. It is always easier to add more later than to remove it.",
+    "When thickening the soup with cornstarch slurry, ensure it is well-mixed and add it slowly while stirring vigorously to prevent lumps and achieve a smooth consistency."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Hot and Sour Soup: A Culinary Journey into Chinese Comfort\n\nThe world of Chinese cuisine is vast and varied, brimming with dishes that tantalize the taste buds and warm the soul. Among its most beloved liquid offerings, Hot and Sour Soup stands out as a true masterpiece. This iconic soup, celebrated for its unique balance of fiery spice and tangy zest, offers a complex flavor profile that is both comforting and invigorating. It’s a staple on Chinese restaurant menus worldwide, but imagine creating this restaurant-quality dish in your own kitchen! Mastering a homemade Hot and Sour Soup recipe is incredibly rewarding, allowing you to customize its heat, sourness, and texture to your exact preference.\n\n## What is Hot and Sour Soup?\n\nAt its heart, Hot and Sour Soup is a symphony of flavors and textures. Originating from Sichuan or Hunan provinces in China, where spicy and sour elements are prominent in the local cuisine, it has since become a popular dish across various Chinese culinary traditions. The soup is characterized by its signature \"hot\" (spicy) kick, typically from white pepper and sometimes chili oil, and its \"sour\" tang, derived primarily from vinegar. Beyond these defining characteristics, it boasts a savory depth from broth, soy sauce, and often umami-rich mushrooms, complemented by a subtle sweetness and a wonderfully thick, velvety texture.\n\nCommon ingredients found in Hot and Sour Soup include thinly sliced pork or tofu, rehydrated dried shiitake mushrooms, wood ear mushrooms, bamboo shoots, and sometimes lily flowers. A whisked egg is often swirled in at the end to create delicate, silken strands, adding to its visual appeal and mouthfeel. The soup is thickened with a cornstarch slurry, giving it that characteristic body that clings to the spoon and delivers a satisfying warmth with every slurp.\n\n## Ingredients You Need\n\nEvery great Hot and Sour Soup recipe starts with the right foundation and a selection of fresh, high-quality ingredients. Here’s what you’ll need to gather for an authentic and delicious bowl:\n\n*   **For the Soup Base:**\n    *   6 cups chicken or vegetable broth (low sodium preferred)\n    *   2 tablespoons soy sauce (light or regular)\n    *   2 tablespoons rice vinegar (or Chinkiang black vinegar for a deeper flavor)\n    *   1-2 tablespoons white pepper (essential for the \"hot\" element)\n    *   1 teaspoon sesame oil\n    *   1 teaspoon sugar (optional, to balance flavors)\n    *   Chili oil to taste (optional, for extra heat)\n*   **Solid Ingredients:**\n    *   4 oz lean pork loin or firm tofu, thinly sliced into matchsticks\n    *   4-5 dried shiitake mushrooms, rehydrated, stems removed, sliced\n    *   1/4 cup dried wood ear mushrooms, rehydrated, sliced (or fresh, if available)\n    *   1/2 cup canned bamboo shoots, drained and julienned\n    *   2 tablespoons dried lily flowers (optional, rehydrated, knotted)\n*   **Thickener and Egg:**\n    *   2 tablespoons cornstarch\n    *   4 tablespoons cold water (for slurry)\n    *   1 large egg, whisked\n*   **Garnish (Optional):**\n    *   2 scallions, green parts thinly sliced\n    *   Fresh cilantro, chopped\n\n## Step-by-Step Instructions\n\nFollowing this Hot and Sour Soup recipe step-by-step will ensure a delicious outcome, even for first-time makers. Precision and timing are key to achieving the perfect balance of flavors and textures.\n\n1.  **Prepare Ingredients:** If using dried mushrooms and lily flowers, soak them in hot water for at least 30 minutes until soft. Drain, squeeze out excess water, remove shiitake stems, and slice all mushrooms and lily flowers (tie lily flowers into knots if desired). Slice pork or tofu into thin matchsticks. Prepare your cornstarch slurry by whisking cornstarch with cold water in a small bowl. Whisk the egg in another small bowl.\n2.  **Cook Solids:** In a large pot or Dutch oven, bring the broth to a simmer over medium heat. Add the sliced pork (or tofu), shiitake mushrooms, wood ear mushrooms, bamboo shoots, and lily flowers (if using). Bring the soup back to a gentle simmer and cook for 5-7 minutes, or until the pork is cooked through and the vegetables are tender.\n3.  **Season the Soup:** Stir in the soy sauce, rice vinegar, white pepper, sesame oil, and sugar (if using). Taste the soup and adjust the seasoning. This is where you can personalize the \"hot\" and \"sour\" elements. Add more white pepper for heat, or more vinegar for tanginess, according to your preference.\n4.  **Thicken the Soup:** Give the cornstarch slurry a quick stir to recombine it, then slowly pour it into the simmering soup in a thin stream, stirring constantly. Continue to stir until the soup thickens to your desired consistency. This usually takes about 1-2 minutes. If it's too thick, add a little more broth or water.\n5.  **Add the Egg:** Once the soup is thickened, reduce the heat to low. Slowly pour the whisked egg into the soup in a thin, continuous stream while gently stirring the soup in one direction with chopsticks or a fork. This creates delicate, feathery egg ribbons. Stop stirring once all the egg is incorporated and has cooked into strands, about 30 seconds.\n6.  **Final Touches & Serve:** Remove the pot from the heat. Stir in a dash of chili oil if you desire extra heat. Ladle the Hot and Sour Soup into bowls. Garnish with fresh scallions and cilantro, if using, and serve immediately.\n\n## Pro Tips for the Best Results\n\nTo elevate your Hot and Sour Soup recipe from good to extraordinary, consider these expert tips:\n\n*   **Quality Broth Matters:** A good quality chicken or vegetable broth forms the backbone of your soup. Homemade broth will always yield the best flavor, but a good store-bought low-sodium option works well.\n*   **Don't Be Shy with White Pepper and Vinegar:** These are the defining \"hot\" and \"sour\" components. Start with the suggested amounts, but don't hesitate to add more to taste. White pepper provides a unique warmth that differs from chili heat.\n*   **Chinkiang Black Vinegar:** While regular rice vinegar works, Chinkiang black vinegar offers a more complex, slightly malty, and deeper sour flavor that is characteristic of many authentic Chinese dishes. It’s worth seeking out.\n*   **Rehydrate Dried Ingredients Properly:** Ensure dried shiitake mushrooms, wood ear mushrooms, and lily flowers are fully rehydrated and squeezed dry before adding. This maximizes their flavor and texture.\n*   **Achieving Silky Egg Strands:** The key is to pour the whisked egg slowly into a gently simmering (not boiling) soup while stirring in one direction. This prevents the egg from clumping and creates beautiful, delicate ribbons.\n*   **Adjust to Taste:** The beauty of making your own Hot and Sour Soup recipe is the ability to customize. Taste and adjust the soy sauce, vinegar, white pepper, and chili oil until it perfectly suits your palate.\n\n## Serving Suggestions\n\nHot and Sour Soup is incredibly versatile and can be enjoyed in several ways:\n\n*   **As an Appetizer:** It makes a fantastic starter for any Chinese meal, whetting the appetite with its vibrant flavors.\n*   **Part of a Dim Sum Spread:** Pair it with dumplings, spring rolls, and other small bites for a delightful spread.\n*   **Alongside Main Dishes:** Serve it alongside classic Chinese dishes like stir-fries, fried rice, or noodle dishes to complete the meal. Its bold flavors complement milder mains beautifully.\n*   **Light Lunch:** A large bowl of Hot and Sour Soup can be a satisfying and warming meal in itself, especially on a chilly day.\n*   **Garnishes:** Don't forget the fresh garnishes! A sprinkle of chopped scallions and cilantro adds a burst of freshness and color. A drizzle of extra chili oil can provide an additional kick for spice lovers.\n\n## Variations and Substitutions\n\nThe versatility of a Hot and Sour Soup recipe means it can be adapted to suit various dietary needs and preferences.\n\n*   **Vegetarian/Vegan:** Easily make this soup vegetarian or vegan by using vegetable broth, firm tofu instead of pork, and omitting the egg. For a vegan version, ensure your chili oil doesn't contain animal products.\n*   **Different Meats:** Instead of pork, you can use thinly sliced chicken breast or shrimp. Add shrimp towards the end of the cooking process as they cook quickly.\n*   **Mushroom Variety:** Experiment with other mushrooms like enoki or oyster mushrooms for added texture and flavor.\n*   **Spice Level:** Control the heat by adjusting the amount of white pepper and chili oil. For those who like it extra fiery, a pinch of dried red chili flakes can be added during the simmering stage.\n*   **Sourness:** If you prefer it extra tangy, feel free to add another splash of vinegar at the very end, just before serving.\n\nArmed with this comprehensive guide, you're ready to create a memorable Hot and Sour Soup recipe right in your own kitchen. This flavorful and comforting soup is a testament to the rich culinary traditions of China, and now, you can bring that warmth and zest to your own dining table. Enjoy the process of crafting this beloved dish, and savor every spoonful!",
+  "article": "Unleash your taste buds into a world of invigorating flavors with a bowl of Hot and Sour Soup. This iconic Chinese appetizer is celebrated globally for its unique blend of tangy vinegar, fiery white pepper, and savory umami notes, all brought together in a comforting, thick broth. More than just a starter, Hot and Sour Soup is a culinary experience that awakens the senses, offering warmth, spice, and a delightful complexity that leaves a lasting impression. Whether you're a seasoned chef or a kitchen novice, mastering this classic dish at home is a rewarding journey that promises delicious results.\n\n## What is Hot and Sour Soup?\nAt its heart, Hot and Sour Soup is a traditional Szechuan-style soup characterized by its signature \"hot\" (spicy) and \"sour\" (tangy) profile. The heat typically comes from a generous dose of white pepper, sometimes augmented with chili oil, while the sourness is primarily derived from rice vinegar. Beyond these defining flavors, the soup boasts a rich, savory depth from ingredients like soy sauce, sesame oil, and often a flavorful broth base.\n\nVisually, Hot and Sour Soup is a feast for the eyes, with its dark, glossy broth brimming with an array of finely shredded or diced ingredients. Common components include slivers of pork, soft cubes of tofu, earthy dried shiitake and wood ear mushrooms, crunchy bamboo shoots, and delicate ribbons of cooked egg. The broth itself is typically thickened with a cornstarch slurry, giving it a velvety texture that coats the palate beautifully. It’s a dish that embodies the harmonious balance fundamental to Chinese cuisine, where contrasting flavors and textures come together to create a profoundly satisfying whole.\n\n## Ingredients You'll Need\nCrafting an authentic Hot and Sour Soup requires a thoughtful selection of ingredients. Here’s what you’ll need to gather:\n\nFor the Broth Base:\n* 6 cups chicken or vegetable broth\n* 2 cups water (if using concentrated broth)\n\nFor Flavor and Seasoning:\n* 1/4 cup rice vinegar (or more to taste)\n* 3 tablespoons light soy sauce\n* 1 tablespoon dark soy sauce (for color and deeper flavor)\n* 1 teaspoon sesame oil\n* 1-2 teaspoons ground white pepper (adjust to desired heat)\n* 1/2 teaspoon sugar (to balance flavors)\n* Optional: 1-2 teaspoons chili oil for extra heat\n\nFor Solids and Textures:\n* 4-5 dried shiitake mushrooms, rehydrated and thinly sliced\n* 1/2 oz dried wood ear mushrooms, rehydrated and thinly sliced\n* 4 oz pork loin or tenderloin, thinly shredded (or substitute with chicken or omit for vegetarian)\n* 8 oz firm or silken tofu, drained and cut into 1/2-inch cubes\n* 1 (8 oz) can bamboo shoots, drained and julienned\n* 2 large eggs, beaten\n\nFor Thickening:\n* 3 tablespoons cornstarch\n* 1/4 cup cold water\n\nFor Garnish:\n* 2 scallions, thinly sliced\n* Fresh cilantro, chopped (optional)\n\n## Step-by-Step Instructions\nMaking Hot and Sour Soup at home is simpler than you might think. Follow these steps for a delicious result:\n\n1.  **Prepare Dried Ingredients:** Place dried shiitake and wood ear mushrooms in separate bowls. Cover with hot water and let them soak for at least 20-30 minutes until softened. Once soft, drain, squeeze out excess water, remove stems from shiitake, and thinly slice both types of mushrooms.\n2.  **Prepare Other Solids:** While mushrooms rehydrate, thinly shred the pork. Cut the tofu into small cubes and julienne the bamboo shoots. Beat the eggs in a small bowl and set aside.\n3.  **Combine Broth and Seasonings:** In a large pot or Dutch oven, combine the chicken or vegetable broth and water (if using). Bring to a simmer over medium heat. Add the light soy sauce, dark soy sauce, rice vinegar, sesame oil, white pepper, and sugar. Stir well to combine.\n4.  **Add Meats and Vegetables:** Add the shredded pork, rehydrated mushrooms, and bamboo shoots to the simmering broth. Cook for 5-7 minutes, or until the pork is cooked through.\n5.  **Add Tofu:** Gently stir in the cubed tofu. Be careful not to break up the delicate pieces.\n6.  **Thicken the Soup:** In a small bowl, whisk together the cornstarch and cold water to create a smooth slurry. Slowly pour the cornstarch slurry into the simmering soup in a steady stream, stirring continuously. Continue to stir until the soup thickens to your desired consistency. This usually takes 1-2 minutes.\n7.  **Create Egg Ribbons:** With the soup at a gentle simmer, slowly pour the beaten eggs into the soup in a thin stream while stirring clockwise with a spoon or ladle. The eggs will cook instantly, forming delicate ribbons.\n8.  **Final Adjustments and Garnish:** Taste the Hot and Sour Soup and adjust seasonings as needed. You might want more vinegar for tang, more white pepper for heat, or a pinch more salt. Stir in chili oil if desired. Ladle into bowls and garnish with sliced scallions and fresh cilantro before serving.\n\n## Pro Tips for the Best Hot and Sour Soup\nAchieving that perfect balance of \"hot\" and \"sour\" is key to an outstanding Hot and Sour Soup.\n\n*   **Balance is Everything:** The beauty of this soup lies in its equilibrium. Start with the recommended amounts of vinegar and white pepper, then taste and adjust. Add vinegar a teaspoon at a time for sourness and white pepper for heat. Remember, you can always add more, but you can't take it away!\n*   **Quality Ingredients:** Using high-quality broth, fresh mushrooms, and good rice vinegar will elevate the flavor significantly. Don't skimp on the white pepper; it's crucial for the authentic \"hot\" element.\n*   **Cornstarch Slurry Technique:** Ensure your cornstarch slurry is lump-free before adding it. Pour it slowly into the simmering soup while stirring constantly to prevent clumping and achieve an even thickness. If the soup is too thick, you can add a little more broth or water. If it's not thick enough, mix a bit more cornstarch with cold water and add it incrementally.\n*   **Egg Ribbons:** For delicate egg ribbons, ensure your soup is at a gentle simmer, not a rolling boil. Pour the beaten egg slowly through a fork or a fine-mesh sieve while stirring the soup in one direction.\n*   **Don't Overcook:** Once the pork is cooked and the soup is thickened, avoid prolonged boiling, as it can break down the ingredients and diminish the freshness of the flavors.\n\n## Serving Suggestions\nHot and Sour Soup is incredibly versatile and can be enjoyed in various ways.\n\n*   **As an Appetizer:** This is its most common role in Chinese restaurants. A small bowl before a main course is the perfect palate cleanser and stimulant.\n*   **Light Meal:** Paired with a side of steamed rice or a simple green salad, a larger bowl of Hot and Sour Soup can make a satisfying and comforting light meal on its own, especially on a chilly day.\n*   **Part of a Feast:** Serve it alongside other Chinese favorites like fried rice, stir-fried noodles, spring rolls, or General Tso's chicken for a complete and authentic dining experience.\n*   **Garnish Generously:** Always finish with a sprinkle of fresh scallions. A drizzle of extra chili oil for those who like it spicier, or a dash of black vinegar for an extra layer of sourness, can enhance the experience.\n\n## Variations and Substitutions\nThe beauty of Hot and Sour Soup lies in its adaptability. Don't hesitate to customize it to your preferences or dietary needs.\n\n*   **Vegetarian/Vegan:** Easily make this soup vegetarian by using vegetable broth and omitting the pork. Increase the amount of tofu or add other vegetables like sliced carrots, baby corn, or water chestnuts. For a vegan version, ensure you use a plant-based broth and omit the egg, possibly replacing it with extra silken tofu for creaminess.\n*   **Different Proteins:** Instead of pork, you can use shredded chicken breast, thinly sliced beef, or even shrimp. Add shrimp towards the very end, as they cook quickly.\n*   **Mushroom Medley:** Experiment with different types of dried or fresh mushrooms, such as oyster mushrooms or enoki mushrooms, for varied textures and flavors.\n*   **Spice Level:** Adjust the white pepper to your liking. For a milder soup, use less; for more heat, add an extra teaspoon or two, or incorporate fresh finely minced red chilies or a bit of Szechuan chili bean paste.\n*   **Extra Tang:** If you crave more sourness, add an extra splash of rice vinegar just before serving. A few drops of Chinkiang black vinegar can also add a deeper, more complex sour note.\n*   **Gluten-Free:** Substitute regular soy sauce with tamari to make the soup gluten-free. Ensure your broth is also gluten-free.\n\nHot and Sour Soup is more than just a dish; it's a testament to the dynamic and diverse flavors of Chinese cuisine. Its unique combination of heat, tang, and umami makes it a truly unforgettable culinary experience. By following this guide, you can easily bring the authentic taste of this beloved classic into your own kitchen, creating a comforting and invigorating bowl of warmth that will impress family and friends alike. Enjoy the journey of crafting your perfect bowl of Hot and Sour Soup!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Hot and Sour Soup",
-    "description": "Master the art of Chinese Hot and Sour Soup with our easy-to-follow recipe! Get authentic flavors, step-by-step instructions, and pro tips for the perfect bowl.",
+    "description": "Master the art of authentic Hot and Sour Soup with our easy-to-follow recipe. Get that perfect balance of spicy, tangy, and savory flavors at home. A Chinese classic!",
     "image": [
-      "https://images.unsplash.com/photo-1710508787399-e3dc878838a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTc4NjExfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1684252801327-7e7794c4dd7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3MTc4NjExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1710508787399-e3dc878838a8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3OTgwMjYwfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1684252801327-7e7794c4dd7f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBIb3QlMjBhbmQlMjBTb3VyJTIwQ2hpbmVzZSUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzg3OTgwMjYwfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-08-19T22:30:45.062Z",
+    "datePublished": "2026-08-29T05:11:31.682Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Soups and Stews",
     "recipeCuisine": "Chinese",
-    "keywords": "Hot and Sour Soup recipe, how to make Hot and Sour Soup, easy Hot and Sour Soup recipe, authentic Chinese Hot and Sour Soup, Hot and Sour Soup step by step, best Hot and Sour Soup at home, spicy Hot and Sour Soup recipe",
+    "keywords": "Hot and Sour Soup, how to make Hot and Sour Soup, easy Hot and Sour Soup recipe, authentic Chinese Hot and Sour Soup, Hot and Sour Soup step by step, best Hot and Sour Soup at home",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
@@ -229,57 +233,57 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "380 kcal"
+      "calories": "280 kcal"
     },
     "recipeIngredient": [
       "150g Pork loin",
-      "200g Firm tofu",
-      "10g Dried wood ear mushrooms",
-      "10g Dried shiitake mushrooms",
+      "150g Firm tofu",
+      "6-8 pieces Dried shiitake mushrooms",
       "100g Bamboo shoots",
-      "6 cups Chicken or vegetable broth",
-      "1/4 cup Chinkiang black vinegar",
+      "15g Wood ear mushrooms",
+      "2 large Eggs",
+      "1 liter Chicken broth",
       "3 tbsp Soy sauce",
-      "1 tsp White pepper",
-      "1-2 tbsp Chili oil",
-      "3 tbsp Cornstarch",
-      "2 Eggs",
+      "4 tbsp Rice vinegar",
+      "1.5 tsp White pepper",
       "1 tsp Sesame oil",
+      "2 tbsp Cornstarch",
+      "to taste Chili oil",
       "2 stalks Green onions",
-      "to taste Salt"
+      "1 tbsp Cooking oil"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare Ingredients",
-        "text": "Shred the pork loin finely. Drain and slice tofu into thin strips. Rehydrate dried wood ear and shiitake mushrooms in warm water for 20-30 minutes, then squeeze dry, trim tough stems, and slice thinly. Reserve the shiitake soaking liquid if desired. Prepare your cornstarch slurry by mixing cornstarch with cold water until smooth."
+        "text": "Rehydrate dried shiitake and wood ear mushrooms in hot water for 20-30 minutes. Drain, squeeze dry, and thinly slice or shred. Shred pork loin, firm tofu, and bamboo shoots. Beat eggs in a small bowl. Prepare cornstarch slurry by mixing cornstarch with cold water."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook the Pork",
-        "text": "In a large pot or wok, add a tablespoon of cooking oil over medium-high heat. Add the shredded pork and stir-fry until it is cooked through and lightly browned, about 3-4 minutes. Remove the pork from the pot and set aside."
+        "name": "Sauté Pork",
+        "text": "Heat a tablespoon of cooking oil in a large pot or wok over medium-high heat. Add shredded pork and stir-fry until it changes color and is lightly browned, about 3-4 minutes. Remove pork from the pot and set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Broth and Vegetables",
-        "text": "Pour the chicken or vegetable broth into the pot. Add the sliced wood ear mushrooms, shiitake mushrooms, and julienned bamboo shoots. Bring the mixture to a boil, then reduce heat to a simmer. If using, add the reserved shiitake soaking liquid."
+        "name": "Build the Broth",
+        "text": "Pour chicken broth into the same pot. Add the rehydrated mushrooms, shredded bamboo shoots, and shredded tofu. Bring the broth to a rolling boil, then reduce the heat to a simmer and let it cook for 10 minutes to allow the flavors to meld together."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Seasonings and Tofu",
-        "text": "Stir in the Chinkiang black vinegar, soy sauce, and white pepper. Add the sliced tofu and the cooked pork back into the pot. Let it simmer gently for 5 minutes to allow the flavors to meld. Taste and adjust seasonings if necessary, adding more vinegar or soy sauce to your preference."
+        "name": "Season the Soup",
+        "text": "Return the cooked pork to the pot. Stir in the soy sauce, rice vinegar, and white pepper. Taste the soup and adjust the seasonings as needed, adding more vinegar or pepper to achieve your desired balance of hot and sour flavor."
       },
       {
         "@type": "HowToStep",
-        "name": "Thicken the Soup",
-        "text": "Give the cornstarch slurry a quick stir to recombine, then slowly pour it into the simmering soup in a thin stream while continuously stirring. Continue stirring until the soup thickens to your desired consistency. If it becomes too thick, add a little more broth or water."
+        "name": "Thicken and Add Eggs",
+        "text": "Slowly drizzle the cornstarch slurry into the simmering soup while stirring constantly until the soup reaches your desired thickness. Gradually pour in the beaten eggs in a thin, continuous stream, stirring gently to create delicate egg ribbons throughout the soup. Remove the pot from the heat."
       },
       {
         "@type": "HowToStep",
-        "name": "Finish with Egg and Garnish",
-        "text": "Once the soup is thickened, reduce the heat to low. Slowly pour the beaten eggs into the soup in a thin stream, stirring gently in one direction to create delicate 'egg flowers'. Remove from heat immediately. Drizzle with sesame oil and chili oil. Garnish generously with sliced green onions before serving hot."
+        "name": "Serve Hot",
+        "text": "Ladle the hot and sour soup into individual serving bowls. Drizzle with a few drops of sesame oil and chili oil for an extra layer of flavor and heat. Garnish generously with fresh chopped green onions before serving immediately."
       }
     ]
   },
-  "publishedAt": "2026-08-19T22:30:45.062Z"
+  "publishedAt": "2026-08-29T05:11:31.683Z"
 }
