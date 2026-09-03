@@ -45,20 +45,20 @@
       }
     ]
   },
-  "prepTime": "30 min",
-  "cookTime": "25 min",
+  "prepTime": "20 min",
+  "cookTime": "35 min",
   "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Turkish",
-  "image1": "https://images.unsplash.com/photo-1616895427217-5318221a3e79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYW50aSUyMFR1cmtpc2glMjBEdW1wbGluZ3MlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODM4NDg2MTZ8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1693609930476-5838e8584277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNYW50aSUyMFR1cmtpc2glMjBwYXN0YSUyMGZvb2QlMjBjbG9zZXVwfGVufDB8MHx8fDE3ODM4NDg2MTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Manti are delightful Turkish dumplings, often served with a garlicky yogurt sauce and a drizzle of spiced butter. These small, flavorful parcels of pasta dough filled with seasoned ground meat offer a truly authentic taste of Turkish home cooking. It's a comforting and satisfying dish perfect for any occasion.",
+  "image1": "https://images.unsplash.com/photo-1616895427217-5318221a3e79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYW50aSUyMFR1cmtpc2glMjBEdW1wbGluZ3MlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODgxNzk4ODl8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+  "description": "Manti Turkish Dumplings Yogurt is a beloved Turkish comfort food featuring tiny, meat-filled pasta pockets. These delectable dumplings are boiled until tender, then generously topped with a garlicky yogurt sauce and a vibrant red pepper-infused butter. It is a hearty and flavorful dish, perfect for sharing with family and friends.",
   "ingredients": [
     {
       "item": "All-purpose flour",
-      "amount": "3 cups",
-      "notes": "plus more for dusting"
+      "amount": "2 cups",
+      "notes": "plus extra for dusting"
     },
     {
       "item": "Large egg",
@@ -68,12 +68,12 @@
     {
       "item": "Water",
       "amount": "1/2 cup",
-      "notes": "warm, or more as needed"
+      "notes": "or as needed"
     },
     {
       "item": "Salt",
       "amount": "1 teaspoon",
-      "notes": "for dough"
+      "notes": "for dough and boiling water"
     },
     {
       "item": "Ground beef or lamb",
@@ -86,92 +86,82 @@
       "notes": "finely grated or minced"
     },
     {
-      "item": "Salt",
-      "amount": "1/2 teaspoon",
-      "notes": "for filling"
-    },
-    {
       "item": "Black pepper",
-      "amount": "1/4 teaspoon",
-      "notes": "freshly ground"
-    },
-    {
-      "item": "Red pepper flakes (pul biber)",
       "amount": "1/2 teaspoon",
-      "notes": "for filling"
-    },
-    {
-      "item": "Plain full-fat yogurt",
-      "amount": "2 cups",
-      "notes": "preferably strained Turkish yogurt"
-    },
-    {
-      "item": "Garlic",
-      "amount": "2-3 cloves",
-      "notes": "minced"
-    },
-    {
-      "item": "Salt",
-      "amount": "1/4 teaspoon",
-      "notes": "for yogurt sauce"
-    },
-    {
-      "item": "Unsalted butter",
-      "amount": "2 tablespoons",
       "notes": ""
     },
     {
-      "item": "Red pepper flakes (pul biber)",
+      "item": "Red pepper flakes (Pul Biber)",
       "amount": "1 teaspoon",
-      "notes": "for spiced butter"
+      "notes": "for filling"
+    },
+    {
+      "item": "Plain yogurt",
+      "amount": "2 cups",
+      "notes": "full-fat, strained if possible"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "2",
+      "notes": "minced"
+    },
+    {
+      "item": "Butter",
+      "amount": "3 tablespoons",
+      "notes": "unsalted"
+    },
+    {
+      "item": "Red pepper flakes (Pul Biber)",
+      "amount": "1-2 teaspoons",
+      "notes": "for butter sauce"
     },
     {
       "item": "Dried mint",
       "amount": "1 teaspoon",
-      "notes": ""
+      "notes": "for butter sauce"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Manti Dough",
-      "text": "In a large bowl, combine the flour and 1 teaspoon of salt. Make a well in the center, add the egg and gradually pour in the warm water. Mix with your hands, bringing the dough together. Knead on a lightly floured surface for 8-10 minutes until smooth and elastic. Cover with a damp cloth and let it rest for 15 minutes.",
-      "time": "20 min"
+      "title": "Prepare the Dough",
+      "text": "In a large bowl, combine the flour and 1/2 teaspoon of salt. Make a well in the center and add the egg and 1/4 cup of water. Gradually mix the ingredients, adding more water a tablespoon at a time until a firm, non-sticky dough forms. Knead for 5-7 minutes until smooth and elastic. Cover with a damp cloth and let rest for 15-20 minutes.",
+      "time": "15 min"
     },
     {
       "step": 2,
       "title": "Make the Meat Filling",
-      "text": "While the dough rests, prepare the filling. In a medium bowl, combine the ground meat, finely grated onion, 1/2 teaspoon salt, black pepper, and 1/2 teaspoon red pepper flakes. Mix well until all ingredients are evenly distributed. Do not overmix.",
-      "time": "10 min"
+      "text": "While the dough rests, prepare the filling. In a bowl, combine the ground meat, grated onion, 1/2 teaspoon salt, black pepper, and 1 teaspoon red pepper flakes. Mix well with your hands until all ingredients are evenly distributed. Do not overmix.",
+      "time": "5 min"
     },
     {
       "step": 3,
       "title": "Roll and Cut the Dough",
-      "text": "Divide the rested dough into 2-3 equal portions. On a lightly floured surface, roll out one portion of dough very thinly, about 1-2 mm thick, forming a large square or rectangle. Using a sharp knife or pizza cutter, cut the dough into small squares, approximately 1.5 cm x 1.5 cm each.",
+      "text": "Divide the dough into 2-3 equal portions. On a lightly floured surface, roll out one portion of dough very thinly, about 1/16 inch thick. Using a sharp knife or a pastry wheel, cut the dough into small squares, approximately 1x1 inch. Repeat with the remaining dough portions.",
       "time": "10 min"
     },
     {
       "step": 4,
-      "title": "Fill and Shape the Manti",
-      "text": "Place a tiny amount of meat filling (about 1/4 teaspoon) in the center of each small dough square. Bring the four corners of each square together and pinch them firmly at the top to form a small, open-mouthed parcel. Alternatively, you can pinch opposite corners to create a boat shape. Repeat with the remaining dough and filling.",
+      "title": "Fill and Fold the Dumplings",
+      "text": "Place a tiny amount (about 1/4 teaspoon) of the meat filling in the center of each dough square. To seal, bring opposite corners of the square together and pinch them firmly to form a small pouch. Alternatively, fold into a triangle and pinch the two long corners together. Place finished manti on a lightly floured tray to prevent sticking.",
       "time": "15 min"
     },
     {
       "step": 5,
       "title": "Cook the Manti",
-      "text": "Bring a large pot of salted water to a rolling boil. Carefully add the manti to the boiling water, stirring gently to prevent sticking. Cook for 8-12 minutes, or until the manti float to the surface and the dough is tender. Do not overcook.",
-      "time": "12 min"
+      "text": "Bring a large pot of salted water to a rolling boil. Carefully add the manti in batches, ensuring not to overcrowd the pot. Stir gently to prevent sticking. Cook for 8-10 minutes, or until the manti float to the surface and the dough is tender. Remove with a slotted spoon and drain well.",
+      "time": "10 min"
     },
     {
       "step": 6,
-      "title": "Prepare Yogurt and Spiced Butter Sauces",
-      "text": "While the manti are cooking, prepare the sauces. For the yogurt sauce, combine the plain yogurt, minced garlic, and 1/4 teaspoon salt in a bowl. Mix well. For the spiced butter, melt the unsalted butter in a small pan over medium heat. Once melted, add 1 teaspoon red pepper flakes and dried mint, stirring for 30 seconds until fragrant. Be careful not to burn the spices.",
-      "time": "8 min"
+      "title": "Prepare the Yogurt Sauce",
+      "text": "While the manti are cooking, prepare the yogurt sauce. In a small bowl, combine the plain yogurt, minced garlic, and a pinch of salt. Mix well until smooth. Taste and adjust seasoning if needed.",
+      "time": "3 min"
     },
     {
       "step": 7,
-      "title": "Serve the Manti",
-      "text": "Using a slotted spoon, carefully transfer the cooked manti from the boiling water into individual serving bowls. Top generously with the garlicky yogurt sauce, then drizzle with the warm spiced butter. Serve immediately, optionally garnished with extra dried mint or sumac.",
+      "title": "Make the Butter Sauce and Serve",
+      "text": "In a small saucepan, melt the butter over medium heat. Add the remaining red pepper flakes and dried mint, stirring constantly for 30 seconds until fragrant and the butter turns a vibrant red. To serve, arrange the hot manti on individual plates, generously spoon over the garlicky yogurt, and drizzle with the hot spiced butter. Serve immediately.",
       "time": "5 min"
     }
   ],
@@ -191,35 +181,32 @@
     "authentic",
     "traditional",
     "pasta",
-    "Manti Turkish Dumplings Yogurt",
-    "dumplings",
-    "yogurt",
-    "meat"
+    "Manti Turkish Dumplings Yogurt"
   ],
   "tips": [
-    "For truly authentic manti, the smaller you make the dumplings, the better. It takes time, but the effort is worth it for a delicate texture.",
-    "Using full-fat, strained Turkish yogurt (süzme yoğurt) for the sauce provides a richer, creamier texture that perfectly complements the manti.",
-    "If you have leftover manti, store them uncooked in a single layer on a floured tray in the freezer. Once frozen, transfer to a freezer bag for up to 3 months. Cook directly from frozen in boiling water, adding a few extra minutes to the cooking time."
+    "The key to good manti is a firm, thin dough. Do not make it too soft or sticky, as this will make rolling and folding difficult. Flour your surface well.",
+    "To prevent the small dumplings from opening during boiling, ensure you pinch the edges very firmly. A tiny bit of water on the edges can help them seal better.",
+    "Adjust the amount of garlic and red pepper in the sauces to your personal preference. Some prefer a milder taste, while others enjoy a bolder, spicier kick."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Unveiling the heart of Turkish comfort food, Manti Turkish Dumplings Yogurt is more than just a dish; it's a culinary journey steeped in tradition and bursting with flavor. Often dubbed \"Turkish pasta and noodles\" due to its delightful dough parcels and versatile preparation, Manti is a beloved staple in homes across Turkey, cherished for its intricate craftsmanship and incredibly satisfying taste. Imagine tiny, tender dumplings, each cradling a savory spiced meat filling, boiled to perfection, and then generously adorned with a cool, garlicky yogurt sauce and a vibrant, sizzling butter sauce infused with paprika and dried mint. This symphony of textures and temperatures creates an unforgettable eating experience that will transport your taste buds straight to the bustling markets and warm kitchens of Anatolia.\n\n## What is Manti Turkish Dumplings Yogurt?\n\nAt its core, Manti consists of small, dough-wrapped parcels, typically filled with a mixture of minced meat (usually beef or lamb) and finely chopped onions, seasoned with salt and pepper. What truly elevates this dish, however, and gives Manti Turkish Dumplings Yogurt its distinctive character, is the way it’s served. After being boiled until tender, the dumplings are drained and placed into individual bowls. Then comes the magic: a generous dollop of creamy, garlic-infused yogurt, which provides a tangy counterpoint to the savory meat. The final flourish is a sizzling drizzle of butter, often melted with red pepper flakes (pul biber) and dried mint, creating an aromatic, richly colored topping that ties all the elements together.\n\nWhile the term \"Turkish pasta and noodles\" might initially seem unusual for dumplings, it reflects the dough-based nature and the various regional preparations that exist, some of which feature larger, noodle-like cuts of dough. However, the classic Kayseri Manti, known for its exceptionally tiny dumplings (it's said a spoon should hold 40 of them!), is the most famous and widely recognized form. This labor of love is often a family affair, with generations gathering to meticulously fold the miniature parcels, making it a dish synonymous with warmth, togetherness, and celebration. The combination of the delicate dough, rich filling, zesty yogurt, and fragrant butter sauce makes Manti Turkish Dumplings Yogurt a truly unique and deeply satisfying meal.\n\n## Ingredients You Need\n\nCrafting authentic Manti Turkish Dumplings Yogurt requires a few key ingredients, each playing a vital role in creating that perfect balance of flavors and textures. Don't be intimidated by the list; most items are kitchen staples!\n\nFor the Dough:\n*   3 cups all-purpose flour, plus extra for dusting\n*   1 large egg\n*   1 teaspoon salt\n*   Approximately 1/2 to 3/4 cup warm water (add gradually)\n\nFor the Filling:\n*   1 pound ground beef or lamb (80/20 lean-to-fat ratio works well)\n*   1 medium onion, very finely grated or minced\n*   1 teaspoon salt\n*   1/2 teaspoon black pepper\n*   1/2 teaspoon red pepper flakes (pul biber), optional\n\nFor the Garlic Yogurt Sauce:\n*   2 cups plain full-fat yogurt (Greek yogurt can be used for a thicker sauce)\n*   2-3 cloves garlic, minced\n*   1/2 teaspoon salt, or to taste\n\nFor the Butter Sauce (Aromatik Yağ):\n*   4 tablespoons unsalted butter\n*   1-2 tablespoons red pepper flakes (pul biber), adjust to your spice preference\n*   1 tablespoon dried mint (nane)\n\n## Step-by-Step Instructions\n\nMaking Manti is a rewarding process, and while it requires a bit of time, the steps are straightforward.\n\n1.  **Prepare the Dough:** In a large bowl, combine the flour and salt. Make a well in the center and add the egg. Gradually add warm water, mixing with your hands until a shaggy dough forms. Turn it out onto a floured surface and knead for 8-10 minutes until smooth and elastic. The dough should be firm but pliable. Cover with plastic wrap and let it rest at room temperature for at least 30 minutes. This resting period is crucial for relaxing the gluten, making the dough easier to roll.\n\n2.  **Make the Filling:** While the dough rests, combine the ground meat, finely grated onion, salt, black pepper, and optional red pepper flakes in a bowl. Mix thoroughly with your hands until well combined. Do not overmix.\n\n3.  **Roll and Cut the Dough:** Divide the rested dough into 3-4 equal portions. Take one portion, keeping the others covered, and roll it out on a lightly floured surface as thinly as possible – aiming for about 1/16th of an inch thick. The thinner the dough, the more delicate your Manti will be. Using a sharp knife or a pizza cutter, cut the dough into small squares, approximately 1x1 inch.\n\n4.  **Fill and Fold the Manti:** Place a tiny pinch of the meat filling (about 1/4 teaspoon) in the center of each dough square. There are several ways to fold Manti:\n    *   **Traditional:** Bring all four corners of the square to the center and pinch them together tightly, leaving a small opening in the middle.\n    *   **Triangle:** Fold the square in half to form a triangle, pinch the edges, then bring the two bottom corners of the triangle together and pinch.\n    *   **Half-Moon:** Fold the square in half to form a rectangle, pinch the edges, then bring the two corners of the rectangle together and pinch.\n    Whichever method you choose, ensure the seams are tightly sealed to prevent the filling from escaping during cooking. Place the folded Manti on a lightly floured tray, ensuring they don't touch each other. Repeat with the remaining dough and filling.\n\n5.  **Cook the Manti:** Bring a large pot of salted water to a rolling boil. Carefully drop the Manti into the boiling water, stirring gently to prevent sticking. Cook for 8-12 minutes, or until the Manti float to the surface and the dough is tender. Taste one to ensure it's cooked through.\n\n6.  **Prepare the Garlic Yogurt Sauce:** While the Manti cooks, combine the plain yogurt, minced garlic, and salt in a small bowl. Stir well until smooth.\n\n7.  **Prepare the Butter Sauce:** In a small saucepan, melt the butter over medium heat. Once melted and slightly foamy, remove from heat and stir in the red pepper flakes and dried mint. The heat from the butter will bloom the spices, releasing their aroma.\n\n8.  **Assemble and Serve:** Using a slotted spoon, transfer the cooked Manti to individual serving bowls. Spoon a generous amount of the garlic yogurt sauce over the Manti, then drizzle liberally with the hot, aromatic butter sauce. Serve immediately.\n\n## Pro Tips for the Best Results\n\nAchieving truly exceptional Manti Turkish Dumplings Yogurt comes down to a few key techniques and considerations:\n\n*   **Thin Dough is Key:** The hallmark of authentic Manti is its delicate, thin dough. Don't be afraid to roll it out until it's almost translucent. This ensures a tender bite and prevents the dish from feeling heavy.\n*   **Tiny Parcels for Authenticity:** While time-consuming, smaller Manti are traditional and contribute significantly to the dish's refined texture and flavor balance. Aim for dumplings that are bite-sized.\n*   **Quality Yogurt Matters:** Use full-fat, plain yogurt. Its creaminess and natural tang are essential for the sauce. Greek yogurt can be used, but you might want to thin it slightly with a tablespoon or two of water or milk to achieve a more pourable consistency.\n*   **Don't Overcook:** Manti should be al dente – tender but not mushy. Overcooked Manti can fall apart and lose their texture.\n*   **Fresh Garlic is a Must:** For the best flavor in your garlic yogurt, always use fresh garlic cloves, finely minced or crushed.\n*   **Bloom Your Spices:** When making the butter sauce, add the red pepper flakes and dried mint to the warm, melted butter off the heat. This \"blooming\" process intensifies their flavor and aroma without burning them.\n*   **Freezing Manti:** If you have extra time, make a large batch! Uncooked Manti can be frozen on a floured tray until solid, then transferred to a freezer-safe bag for up to 3 months. Cook directly from frozen in boiling water, adding a few extra minutes to the cooking time.\n\n## Serving Suggestions\n\nManti Turkish Dumplings Yogurt is a hearty and complete meal on its own, perfect for a cozy dinner or a special gathering. Serve it piping hot as soon as it's assembled to enjoy the contrast between the warm dumplings and the cool yogurt.\n\n*   **Garnish:** A sprinkle of sumac, a few fresh mint leaves, or a pinch of extra red pepper flakes can add visual appeal and an extra layer of flavor.\n*   **Accompaniments:** While rich, Manti pairs wonderfully with a simple green salad dressed with olive oil and lemon juice, or a side of pickled vegetables to cut through the richness.\n*   **Traditional Drink:** For an authentic Turkish experience, serve Manti with a glass of cold Ayran – a refreshing savory yogurt drink that complements the dish perfectly.\n\n## Variations and Substitutions\n\nWhile the classic Manti Turkish Dumplings Yogurt is a masterpiece, there are many ways to adapt it to your taste or dietary needs:\n\n*   **Vegetarian Manti:** For a meat-free version, replace the ground meat with a savory filling of finely diced potatoes, lentils, mushrooms, or a combination of cooked spinach and feta cheese. Ensure the filling is well-seasoned.\n*   **Different Meats:** While beef or lamb is traditional, you can experiment with ground chicken or turkey for a lighter alternative.\n*   **Tomato Paste in Butter Sauce:** Some variations include a spoonful of tomato paste (salça) stirred into the butter sauce along with the spices. This adds a deeper, more robust flavor and a richer color.\n*   **Quick Manti:** If time is of the essence, store-bought wonton wrappers can be used as a shortcut for the dough. While not traditional, they offer a convenient way to enjoy the flavors of Manti.\n*   **Spiciness Adjustment:** Feel free to adjust the amount of red pepper flakes in both the filling and the butter sauce to suit your preferred level of heat.\n*   **Vegan Manti:** Use a plant-based ground meat substitute or a lentil/mushroom filling, and swap out the dairy yogurt for a plain, unsweetened vegan yogurt. Ensure your butter is also replaced with a plant-based alternative.\n\nManti Turkish Dumplings Yogurt is a culinary treasure that invites you to slow down, savor the process, and delight in its exquisite flavors. Whether you meticulously fold each tiny dumpling or opt for a quicker method, the reward is a dish that embodies comfort, tradition, and pure deliciousness. Give this incredible Turkish classic a try, and you'll understand why it holds such a special place in the hearts of food lovers worldwide.",
+  "article": "Embark on a culinary journey to the heart of Turkey with Manti Turkish Dumplings Yogurt, a dish that transcends mere sustenance to become an experience. Often hailed as Turkey's answer to pasta, these small, savory parcels of dough filled with spiced ground meat, boiled to perfection, and then generously slathered with garlicky yogurt and a vibrant butter-chili sauce, are a testament to the rich tapestry of Turkish cuisine. It's a dish that embodies comfort, tradition, and an explosion of flavors and textures in every bite. If you’ve ever enjoyed Italian ravioli or Chinese dumplings, prepare to fall in love with Manti, a delightful dish known as Manti Turkish Dumplings Yogurt, offering a unique twist that sets it apart.\n\n## What is Manti Turkish Dumplings Yogurt?\n\nManti Turkish Dumplings Yogurt is a beloved staple in Turkish households, a dish often reserved for special occasions or Sunday family meals due to the meticulous effort involved in its preparation. At its heart, Manti Turkish Dumplings Yogurt is a celebration of simple ingredients transformed into something extraordinary. The dish consists of tiny, handmade pasta-like dumplings, typically filled with a mixture of ground beef or lamb, finely chopped onions, salt, and black pepper. What truly distinguishes Manti, however, is its iconic serving style. Unlike many other dumplings around the world, Manti is not typically served in a broth but rather as a main course, generously topped with two distinct sauces.\n\nThe first is a creamy, cool, and often garlicky yogurt sauce, providing a refreshing counterpoint to the rich meat filling. Traditionally, full-fat plain yogurt is used, sometimes thinned slightly with water and seasoned with crushed garlic and salt. The second is a vibrant, aromatic butter sauce, usually infused with red pepper flakes (pul biber) and dried mint. This hot, spiced oil is drizzled over the yogurt-topped Manti just before serving, creating a beautiful contrast of temperatures, colors, and flavors. The combination of chewy pasta, savory meat, tangy yogurt, and spicy butter makes Manti Turkish Dumplings Yogurt an unforgettable culinary delight, firmly placing it in the broader category of Turkish pasta and noodles, but with a unique identity all its own.\n\n## Ingredients You Need\n\nTo create authentic Manti Turkish Dumplings Yogurt, you will need a few key ingredients, most of which are readily available. This recipe typically serves 4-6 people.\n\nFor the Dough:\n*   3 cups all-purpose flour, plus more for dusting\n*   1 large egg\n*   1 teaspoon salt\n*   Approximately 1/2 to 3/4 cup warm water (adjust as needed)\n\nFor the Filling:\n*   1 lb (450g) ground beef or lamb (preferably 80/20 fat ratio)\n*   1 medium onion, very finely grated or minced\n*   1 teaspoon salt\n*   1/2 teaspoon black pepper\n*   Optional: 1/4 teaspoon red pepper flakes (pul biber)\n\nFor the Yogurt Sauce:\n*   2 cups plain full-fat yogurt (Greek yogurt can be used, thinned with a little water)\n*   2-3 cloves garlic, minced\n*   1/2 teaspoon salt, or to taste\n\nFor the Butter Sauce/Drizzle:\n*   4 tablespoons unsalted butter\n*   1-2 teaspoons red pepper flakes (pul biber), adjust to your spice preference\n*   1 teaspoon dried mint (nane)\n\n## Step-by-Step Instructions\n\nMaking Manti is a labor of love, but the results are incredibly rewarding. Follow these steps for a delicious homemade Manti Turkish Dumplings Yogurt.\n\n1.  **Prepare the Dough**: In a large bowl, combine flour, egg, and salt. Gradually add warm water, mixing until a shaggy dough forms. Turn the dough out onto a floured surface and knead for 8-10 minutes until smooth and elastic. The dough should be firm but pliable. Cover with plastic wrap and let it rest at room temperature for at least 30 minutes.\n\n2.  **Prepare the Filling**: While the dough rests, combine the ground meat, finely grated onion, salt, black pepper, and optional red pepper flakes in a bowl. Mix thoroughly with your hands until well combined. Do not overmix.\n\n3.  **Roll and Cut the Dough**: Divide the rested dough into 2-3 equal portions. On a lightly floured surface, roll out one portion of dough very thinly, about 1/16th of an inch thick (as thin as pasta sheets). Using a knife or a pastry wheel, cut the dough into small squares, approximately 1-inch by 1-inch. The smaller the squares, the more traditional and delicate the Manti will be.\n\n4.  **Fill and Fold the Manti**: Place a tiny amount (about 1/4 teaspoon) of the meat filling in the center of each dough square. There are several ways to fold Manti:\n    *   **Traditional Purse**: Bring all four corners of the square to the center and pinch them together tightly, leaving a small opening at the top like a tiny purse.\n    *   **Envelope/Triangle**: Fold the square in half to form a triangle, pinch the edges, then bring the two bottom corners of the triangle together and pinch.\n    *   **Square**: Pinch opposite corners together to form an X, then pinch the remaining open sides together.\n    Ensure they are sealed well to prevent the filling from escaping during cooking. Place the finished Manti on a lightly floured baking sheet or tray, ensuring they don't touch each other. Repeat with the remaining dough and filling.\n\n5.  **Cook the Manti**: Bring a large pot of generously salted water to a rolling boil. Carefully add the Manti in batches, stirring gently to prevent sticking. Cook for 8-12 minutes, or until the Manti float to the surface and the dough is tender. Remove with a slotted spoon and drain well.\n\n6.  **Prepare the Yogurt Sauce**: While the Manti cooks, combine the yogurt, minced garlic, and salt in a bowl. Mix well. If using Greek yogurt, you might want to add a tablespoon or two of water to thin it slightly to a pourable consistency.\n\n7.  **Prepare the Butter Sauce**: In a small saucepan, melt the butter over medium heat. Once melted and slightly foamy, add the red pepper flakes and dried mint. Sauté for 30 seconds to 1 minute, until fragrant, being careful not to burn the spices.\n\n8.  **Assemble and Serve**: Divide the cooked Manti among individual serving plates. Spoon a generous amount of the garlic yogurt sauce over the Manti. Finally, drizzle the hot, spiced butter sauce over the yogurt. With these steps, you'll be well on your way to enjoying homemade Manti Turkish Dumplings Yogurt.\n\n## Pro Tips for the Best Results\n\nMastering Manti Turkish Dumplings Yogurt involves a few key details that elevate it from good to truly exceptional.\n\n*   **Thin Dough is Key**: The hallmark of authentic Manti is its delicate, thin dough. Roll it as thinly as you possibly can without tearing. This ensures a tender bite and prevents the dish from feeling too heavy.\n*   **Small is Beautiful**: Turkish Manti, especially from Kayseri (its supposed birthplace), are famously tiny. The smaller you make them, the more elegant and authentic your dish will be. Aim for 1-inch squares or even smaller.\n*   **Don't Overfill**: Use only a tiny pinch of filling for each dumpling. Overfilling makes them difficult to seal and can lead to them bursting during cooking.\n*   **Rest the Dough**: Allowing the dough to rest is crucial. It relaxes the gluten, making the dough easier to roll out thinly without snapping back.\n*   **Quality Yogurt**: Use full-fat, plain yogurt for the best flavor and texture. If it's too thick, thin it with a little water or milk.\n*   **Fresh Garlic**: Always use fresh garlic for the yogurt sauce. Its pungent flavor is essential to the dish's balance.\n*   **Don't Skip the Spiced Butter**: This final drizzle is not optional; it's what ties all the flavors together. The sizzle of the butter, the warmth of the chili, and the aroma of mint are indispensable.\n*   **Serve Immediately**: Manti is best enjoyed piping hot, right after assembly. The contrast between the hot dumplings, cool yogurt, and warm butter is part of its charm.\n\n## Serving Suggestions\n\nThe traditional way to enjoy Manti Turkish Dumplings Yogurt is as a hearty main course. It's a complete meal in itself, offering carbohydrates, protein, and dairy.\n\n*   **Simple Salad**: A light, fresh green salad with a simple lemon-olive oil dressing makes a wonderful accompaniment, cutting through the richness of the Manti.\n*   **Ayran**: A traditional Turkish yogurt drink, Ayran, is a perfect pairing. Its salty, tangy profile complements the Manti beautifully.\n*   **Garnish**: A sprinkle of fresh mint leaves, sumac, or an extra dash of red pepper flakes can add an extra layer of flavor and visual appeal.\n\n## Variations and Substitutions\n\nWhile the classic Manti Turkish Dumplings Yogurt recipe is beloved, there are several regional variations and substitutions you can explore.\n\n*   **Vegetarian Manti**: For a meat-free version, replace the ground meat with a mixture of finely diced potatoes, lentils, or even a combination of cheese and herbs (like spinach and feta). These fillings are often precooked or par-cooked before filling.\n*   **Tomato Paste in Butter Sauce**: Some recipes incorporate a teaspoon of tomato paste into the butter sauce, adding a deeper umami flavor and a richer red color.\n*   **Baked Manti (Fırında Manti)**: In some regions, particularly Sivas, Manti is larger and often baked in the oven. After boiling, it's arranged in a baking dish, topped with yogurt and butter sauce, and sometimes a layer of cheese, then baked until golden.\n*   **Chicken Manti**: While less common, some variations use finely ground chicken or turkey for the filling.\n*   **Different Herbs**: Experiment with other dried herbs in the butter sauce, such as oregano, though dried mint is the most traditional.\n*   **Ready-Made Dough**: If time is a constraint, you can sometimes find fresh pasta sheets or even wonton wrappers in Asian markets, which can be cut into squares, though the texture won't be quite the same as homemade Manti dough.\n\nManti Turkish Dumplings Yogurt is more than just a dish; it's a culinary journey that speaks to the heart of Turkish hospitality and tradition. Whether you tackle the intricate process from scratch or explore its delightful variations, Manti promises a truly rewarding and delicious experience.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Manti Turkish Dumplings Yogurt",
     "description": "Learn how to make authentic Manti Turkish Dumplings Yogurt. This easy Turkish recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1616895427217-5318221a3e79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYW50aSUyMFR1cmtpc2glMjBEdW1wbGluZ3MlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODM4NDg2MTZ8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1693609930476-5838e8584277?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNYW50aSUyMFR1cmtpc2glMjBwYXN0YSUyMGZvb2QlMjBjbG9zZXVwfGVufDB8MHx8fDE3ODM4NDg2MTd8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1616895427217-5318221a3e79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYW50aSUyMFR1cmtpc2glMjBEdW1wbGluZ3MlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODgxNzk4ODl8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-07-12T10:01:40.514Z",
-    "prepTime": "PT30M",
-    "cookTime": "PT25M",
+    "datePublished": "2026-09-03T07:02:09.579Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Pasta and Noodles",
@@ -235,59 +222,57 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "3 cups All-purpose flour",
+      "2 cups All-purpose flour",
       "1 Large egg",
       "1/2 cup Water",
       "1 teaspoon Salt",
       "250g Ground beef or lamb",
       "1 Small onion",
-      "1/2 teaspoon Salt",
-      "1/4 teaspoon Black pepper",
-      "1/2 teaspoon Red pepper flakes (pul biber)",
-      "2 cups Plain full-fat yogurt",
-      "2-3 cloves Garlic",
-      "1/4 teaspoon Salt",
-      "2 tablespoons Unsalted butter",
-      "1 teaspoon Red pepper flakes (pul biber)",
+      "1/2 teaspoon Black pepper",
+      "1 teaspoon Red pepper flakes (Pul Biber)",
+      "2 cups Plain yogurt",
+      "2 Garlic cloves",
+      "3 tablespoons Butter",
+      "1-2 teaspoons Red pepper flakes (Pul Biber)",
       "1 teaspoon Dried mint"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Manti Dough",
-        "text": "In a large bowl, combine the flour and 1 teaspoon of salt. Make a well in the center, add the egg and gradually pour in the warm water. Mix with your hands, bringing the dough together. Knead on a lightly floured surface for 8-10 minutes until smooth and elastic. Cover with a damp cloth and let it rest for 15 minutes."
+        "name": "Prepare the Dough",
+        "text": "In a large bowl, combine the flour and 1/2 teaspoon of salt. Make a well in the center and add the egg and 1/4 cup of water. Gradually mix the ingredients, adding more water a tablespoon at a time until a firm, non-sticky dough forms. Knead for 5-7 minutes until smooth and elastic. Cover with a damp cloth and let rest for 15-20 minutes."
       },
       {
         "@type": "HowToStep",
         "name": "Make the Meat Filling",
-        "text": "While the dough rests, prepare the filling. In a medium bowl, combine the ground meat, finely grated onion, 1/2 teaspoon salt, black pepper, and 1/2 teaspoon red pepper flakes. Mix well until all ingredients are evenly distributed. Do not overmix."
+        "text": "While the dough rests, prepare the filling. In a bowl, combine the ground meat, grated onion, 1/2 teaspoon salt, black pepper, and 1 teaspoon red pepper flakes. Mix well with your hands until all ingredients are evenly distributed. Do not overmix."
       },
       {
         "@type": "HowToStep",
         "name": "Roll and Cut the Dough",
-        "text": "Divide the rested dough into 2-3 equal portions. On a lightly floured surface, roll out one portion of dough very thinly, about 1-2 mm thick, forming a large square or rectangle. Using a sharp knife or pizza cutter, cut the dough into small squares, approximately 1.5 cm x 1.5 cm each."
+        "text": "Divide the dough into 2-3 equal portions. On a lightly floured surface, roll out one portion of dough very thinly, about 1/16 inch thick. Using a sharp knife or a pastry wheel, cut the dough into small squares, approximately 1x1 inch. Repeat with the remaining dough portions."
       },
       {
         "@type": "HowToStep",
-        "name": "Fill and Shape the Manti",
-        "text": "Place a tiny amount of meat filling (about 1/4 teaspoon) in the center of each small dough square. Bring the four corners of each square together and pinch them firmly at the top to form a small, open-mouthed parcel. Alternatively, you can pinch opposite corners to create a boat shape. Repeat with the remaining dough and filling."
+        "name": "Fill and Fold the Dumplings",
+        "text": "Place a tiny amount (about 1/4 teaspoon) of the meat filling in the center of each dough square. To seal, bring opposite corners of the square together and pinch them firmly to form a small pouch. Alternatively, fold into a triangle and pinch the two long corners together. Place finished manti on a lightly floured tray to prevent sticking."
       },
       {
         "@type": "HowToStep",
         "name": "Cook the Manti",
-        "text": "Bring a large pot of salted water to a rolling boil. Carefully add the manti to the boiling water, stirring gently to prevent sticking. Cook for 8-12 minutes, or until the manti float to the surface and the dough is tender. Do not overcook."
+        "text": "Bring a large pot of salted water to a rolling boil. Carefully add the manti in batches, ensuring not to overcrowd the pot. Stir gently to prevent sticking. Cook for 8-10 minutes, or until the manti float to the surface and the dough is tender. Remove with a slotted spoon and drain well."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Yogurt and Spiced Butter Sauces",
-        "text": "While the manti are cooking, prepare the sauces. For the yogurt sauce, combine the plain yogurt, minced garlic, and 1/4 teaspoon salt in a bowl. Mix well. For the spiced butter, melt the unsalted butter in a small pan over medium heat. Once melted, add 1 teaspoon red pepper flakes and dried mint, stirring for 30 seconds until fragrant. Be careful not to burn the spices."
+        "name": "Prepare the Yogurt Sauce",
+        "text": "While the manti are cooking, prepare the yogurt sauce. In a small bowl, combine the plain yogurt, minced garlic, and a pinch of salt. Mix well until smooth. Taste and adjust seasoning if needed."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve the Manti",
-        "text": "Using a slotted spoon, carefully transfer the cooked manti from the boiling water into individual serving bowls. Top generously with the garlicky yogurt sauce, then drizzle with the warm spiced butter. Serve immediately, optionally garnished with extra dried mint or sumac."
+        "name": "Make the Butter Sauce and Serve",
+        "text": "In a small saucepan, melt the butter over medium heat. Add the remaining red pepper flakes and dried mint, stirring constantly for 30 seconds until fragrant and the butter turns a vibrant red. To serve, arrange the hot manti on individual plates, generously spoon over the garlicky yogurt, and drizzle with the hot spiced butter. Serve immediately."
       }
     ]
   },
-  "publishedAt": "2026-07-12T10:01:40.515Z"
+  "publishedAt": "2026-09-03T07:02:09.579Z"
 }
