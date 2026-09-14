@@ -51,19 +51,24 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Italian",
-  "image1": "https://images.unsplash.com/photo-1589227365533-cee630bd59bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MjM5OTY1MXww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1589563340504-3d0eb8ee3697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MjM5OTY1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Spaghetti alle Vongole is a classic Italian pasta dish that perfectly captures the essence of coastal cuisine. This version, featuring delicate Manila clams, brings a delightful briny flavor and tender texture to every bite. It is a simple yet elegant meal, showcasing the beauty of fresh ingredients and traditional Italian cooking.",
+  "image1": "https://images.unsplash.com/photo-1589227365533-cee630bd59bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTM3Mjg2NHww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1589563340504-3d0eb8ee3697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTM3Mjg2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Spaghetti alle Vongole is a timeless Italian classic, marrying tender Manila clams with al dente spaghetti in a delicate garlic, white wine, and parsley sauce. This beloved dish captures the essence of coastal Italian cuisine, offering a taste of the sea with every twirl of pasta. It's a simple yet elegant meal perfect for any occasion.",
   "ingredients": [
     {
-      "item": "Spaghetti",
-      "amount": "400 grams",
-      "notes": ""
+      "item": "Manila clams",
+      "amount": "2 lbs",
+      "notes": "fresh, cleaned and purged"
     },
     {
-      "item": "Manila Clams",
-      "amount": "1 kg",
-      "notes": "cleaned and purged"
+      "item": "Spaghetti",
+      "amount": "1 lb",
+      "notes": "high-quality durum wheat"
+    },
+    {
+      "item": "Extra virgin olive oil",
+      "amount": "1/4 cup",
+      "notes": "plus more for drizzling"
     },
     {
       "item": "Garlic",
@@ -71,32 +76,27 @@
       "notes": "thinly sliced"
     },
     {
-      "item": "Dry White Wine",
-      "amount": "1 cup",
-      "notes": "such as Pinot Grigio"
-    },
-    {
-      "item": "Extra Virgin Olive Oil",
-      "amount": "1/4 cup",
-      "notes": ""
-    },
-    {
-      "item": "Fresh Parsley",
+      "item": "Dry white wine",
       "amount": "1/2 cup",
-      "notes": "finely chopped"
+      "notes": "such as Pinot Grigio or Sauvignon Blanc"
     },
     {
-      "item": "Red Pepper Flakes",
+      "item": "Red pepper flakes",
       "amount": "1/2 teaspoon",
       "notes": "or to taste"
     },
     {
-      "item": "Salt",
-      "amount": "to taste",
-      "notes": ""
+      "item": "Fresh parsley",
+      "amount": "1/2 cup",
+      "notes": "finely chopped, plus extra for garnish"
     },
     {
-      "item": "Black Pepper",
+      "item": "Salt",
+      "amount": "to taste",
+      "notes": "for pasta water and sauce"
+    },
+    {
+      "item": "Black pepper",
       "amount": "to taste",
       "notes": "freshly ground"
     }
@@ -104,39 +104,39 @@
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Clams and Pasta",
-      "text": "Start by thoroughly cleaning the Manila clams. Soak them in cold salted water for at least 30 minutes to encourage them to release any sand. While the clams are purging, bring a large pot of generously salted water to a rolling boil for the spaghetti.",
+      "title": "Prepare the Clams and Pasta Water",
+      "text": "First, ensure your Manila clams are thoroughly cleaned and purged of sand. Submerge them in a bowl of cold, salted water for at least 30 minutes, then rinse well. Meanwhile, bring a large pot of generously salted water to a rolling boil for the spaghetti.",
       "time": "20 min"
     },
     {
       "step": 2,
-      "title": "Cook the Spaghetti",
-      "text": "Add the spaghetti to the boiling water and cook according to package directions until al dente. Before draining, reserve about 1 to 1.5 cups of the pasta cooking water. This starchy water will be crucial for creating a silky sauce.",
-      "time": "10 min"
+      "title": "Sauté Aromatics",
+      "text": "In a large, deep skillet or pot, heat the extra virgin olive oil over medium heat. Add the sliced garlic and red pepper flakes. Sauté gently for 2-3 minutes until the garlic is fragrant and lightly golden, being careful not to burn it.",
+      "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Sauté Aromatics",
-      "text": "In a large skillet or wide pot, heat the extra virgin olive oil over medium heat. Add the thinly sliced garlic and red pepper flakes. Sauté gently for 2-3 minutes until the garlic is fragrant and lightly golden, being careful not to burn it.",
-      "time": "3 min"
-    },
-    {
-      "step": 4,
       "title": "Steam the Clams",
-      "text": "Increase the heat to medium-high. Add the cleaned clams to the skillet, then pour in the white wine. Cover the skillet tightly with a lid and cook for 5-7 minutes, or until all the clams have opened. Discard any clams that do not open.",
+      "text": "Increase the heat to medium-high. Add the cleaned clams to the skillet, then pour in the white wine. Cover the skillet tightly with a lid and cook for 5-7 minutes, shaking the pan occasionally, until all the clams have opened. Discard any clams that do not open.",
       "time": "7 min"
     },
     {
+      "step": 4,
+      "title": "Cook the Spaghetti",
+      "text": "While the clams are steaming, add the spaghetti to the boiling salted water. Cook according to package directions until al dente, usually 8-10 minutes. Before draining, reserve about 1 cup of the starchy pasta cooking water.",
+      "time": "10 min"
+    },
+    {
       "step": 5,
-      "title": "Combine Pasta and Sauce",
-      "text": "Drain the spaghetti and immediately add it to the skillet with the opened clams and their liquid. Add about half of the reserved pasta cooking water and a generous handful of fresh chopped parsley. Toss everything together vigorously, allowing the pasta to absorb the flavorful clam sauce.",
+      "title": "Combine Pasta and Clams",
+      "text": "Drain the spaghetti and immediately add it to the skillet with the opened clams and their liquid. Add most of the chopped fresh parsley. Toss everything together vigorously, allowing the pasta to absorb the flavorful clam broth.",
       "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Finish and Serve",
-      "text": "Continue tossing, adding more pasta water as needed, until the sauce emulsifies and lightly coats the spaghetti. Season with fresh black pepper and adjust salt if necessary, remembering the clams contribute natural saltiness. Serve immediately, garnished with additional fresh parsley.",
-      "time": "2 min"
+      "title": "Emulsify and Serve",
+      "text": "If the sauce seems too dry, add a splash or two of the reserved pasta cooking water, tossing continuously to create a silky, emulsified sauce. Taste and adjust seasoning with salt and freshly ground black pepper if needed. Serve immediately in warm bowls, garnished with extra fresh parsley and a drizzle of good quality extra virgin olive oil.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
@@ -159,27 +159,27 @@
     "Spaghetti alle Vongole Manila Clams"
   ],
   "tips": [
-    "Always purge your clams properly by soaking them in cold, salted water. This step is essential to remove any grit and ensure a clean, enjoyable eating experience.",
-    "Do not overcook the clams. They cook quickly, and overcooking will make them tough. Remove them from heat as soon as they open.",
-    "Reserve pasta water! The starchy water is key to creating a rich, emulsified sauce that clings beautifully to the spaghetti, binding all the flavors together."
+    "Always purge your clams properly. Soaking them in cold, salted water helps them release any sand, ensuring a grit-free dish. Change the water a few times if needed.",
+    "Cook your spaghetti al dente. It will continue to cook slightly when tossed with the hot clam sauce, preventing it from becoming overcooked and mushy.",
+    "The reserved pasta water is your secret weapon. Its starch helps to emulsify the clam broth and olive oil, creating a rich, glossy sauce that clings beautifully to the spaghetti."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Embark on a culinary journey to the sun-drenched coasts of Italy, where the aroma of fresh seafood and al dente pasta fills the air. Among the pantheon of beloved Italian dishes, few capture the essence of coastal simplicity and profound flavor quite like Spaghetti alle Vongole. But for a truly exceptional experience, many discerning chefs and home cooks specifically seek out Manila clams, transforming this classic into the sublime Spaghetti alle Vongole Manila Clams. This dish isn't just food; it's an experience, a delicate balance of the ocean's bounty, garlic, chili, and the finest pasta, all culminating in a symphony of taste that's both comforting and exhilarating.\n\n## What is Spaghetti alle Vongole Manila Clams?\n\nSpaghetti alle Vongole, translating to \"spaghetti with clams,\" is a quintessential Italian seafood pasta dish, particularly popular in the coastal regions of Italy like Campania (Naples) and Lazio (Rome). Its beauty lies in its elegant simplicity, relying on a handful of high-quality ingredients to create a dish bursting with flavor. When we talk about **Spaghetti alle Vongole Manila Clams**, we're specifically highlighting the use of Manila clams – small, tender, and sweet bivalves known for their delicate flavor and quick cooking time. These clams release a briny, savory liquor when cooked, which forms the luscious base of the sauce, perfectly coating each strand of spaghetti.\n\nThe dish typically features fresh clams, garlic, olive oil, white wine, and often a touch of red pepper flakes for a subtle kick, all tossed with perfectly cooked spaghetti and finished with fresh parsley. There are two main variations: \"in bianco\" (white, without tomatoes) and \"in rosso\" (red, with a touch of cherry tomatoes or tomato paste). The \"in bianco\" version, which is generally what we refer to when discussing Spaghetti alle Vongole Manila Clams, is celebrated for allowing the pure, unadulterated flavor of the clams to shine through, creating a light yet incredibly flavorful sauce. It’s a testament to how simple ingredients, expertly combined, can create something truly extraordinary.\n\n## Ingredients You Need\n\nCrafting the perfect Spaghetti alle Vongole Manila Clams requires attention to detail and, most importantly, the freshest ingredients. Here’s what you’ll need:\n\n*   **Fresh Manila Clams (1.5 - 2 lbs):** The star of the show. Ensure they are live, tightly closed, and smell fresh, like the ocean.\n*   **Spaghetti (1 lb):** Good quality durum wheat spaghetti is essential. It holds the sauce beautifully and provides the perfect al dente bite.\n*   **Garlic (4-6 cloves):** Thinly sliced or finely minced. It forms the aromatic backbone of the dish.\n*   **Extra Virgin Olive Oil (1/4 cup):** A fruity, high-quality olive oil enhances the overall flavor.\n*   **Dry White Wine (1/2 cup):** A crisp, dry white wine like Pinot Grigio, Vermentino, or Sauvignon Blanc adds depth and acidity. Avoid anything sweet.\n*   **Red Pepper Flakes (1/2 - 1 tsp):** Optional, but highly recommended for a subtle warmth that complements the seafood.\n*   **Fresh Parsley (1/2 cup):** Finely chopped, for garnish and fresh herbaceous notes.\n*   **Salt and Freshly Ground Black Pepper:** To taste. Remember the clams are naturally salty, so season carefully.\n*   **Pasta Water:** Crucial for emulsifying the sauce and creating that desirable silky texture.\n\n## Step-by-Step Instructions\n\nMaking Spaghetti alle Vongole Manila Clams is a process that rewards patience and good timing.\n\n1.  **Purge the Clams:** This crucial step removes sand and grit. Place the clams in a large bowl and cover them with cold, salted water (about 1 tablespoon of salt per liter of water). Let them soak for at least 30 minutes, or up to 2 hours, changing the water once if it gets murky. As they breathe, they will expel any sand. Discard any clams that are open and don't close when tapped, or any with broken shells. Rinse them thoroughly under cold running water before cooking.\n2.  **Cook the Spaghetti:** Bring a large pot of generously salted water to a rolling boil. Add the spaghetti and cook according to package directions until al dente – firm to the bite. Before draining, reserve about 1 to 1.5 cups of the starchy pasta water. Drain the spaghetti and set aside.\n3.  **Sauté Aromatics:** While the pasta cooks, heat the olive oil in a large, deep skillet or Dutch oven over medium heat. Add the sliced garlic and red pepper flakes (if using). Sauté gently for 1-2 minutes until the garlic is fragrant and lightly golden. Be careful not to burn it, as burnt garlic will turn bitter.\n4.  **Add Clams and Wine:** Increase the heat to medium-high. Add the purged clams to the skillet and pour in the dry white wine. Cover the skillet tightly and cook for 5-7 minutes, shaking the pan occasionally, until all the clams have opened. As soon as they open, remove them from the heat. Discard any clams that did not open.\n5.  **Combine and Emulsify:** Add the cooked spaghetti directly into the skillet with the clam sauce. Add about 1/2 cup of the reserved pasta water and a generous handful of chopped fresh parsley. Toss vigorously, using tongs, allowing the pasta to absorb the flavors and the sauce to emulsify. The starch from the pasta water will help create a beautiful, cohesive sauce that clings to the spaghetti. If the sauce seems too dry, add more pasta water, a tablespoon at a time, until you reach your desired consistency.\n6.  **Season and Serve:** Taste the Spaghetti alle Vongole Manila Clams and adjust seasoning with salt and freshly ground black pepper as needed. Remember, the clams are salty, so add salt sparingly. Divide among serving plates, garnishing with an extra sprinkle of fresh parsley. Serve immediately.\n\n## Pro Tips for the Best Results\n\nAchieving truly exceptional Spaghetti alle Vongole Manila Clams involves a few insider tricks:\n\n*   **Freshness is King:** There's no substitute for truly fresh clams. Purchase them from a reputable fishmonger on the day you plan to cook them. They should smell clean and briny, never fishy.\n*   **Don't Overcook the Clams:** Clams cook very quickly. As soon as they open, they're done. Overcooked clams become rubbery and tough. Remove them from the heat promptly.\n*   **The Power of Pasta Water:** This is your secret weapon. The starchy water helps to thicken and emulsify the sauce, creating a glossy, rich coating for your pasta. Never drain all of it!\n*   **High-Quality Olive Oil:** Since there are so few ingredients, each one plays a starring role. A good quality extra virgin olive oil makes a noticeable difference in the final flavor.\n*   **No Cheese!** Traditional Italian wisdom dictates that cheese and seafood do not mix. The delicate flavors of the clams can be easily overpowered by cheese. Resist the urge to grate Parmesan on top.\n*   **Taste as You Go:** Especially with salt. Clams are naturally salty, and the reserved pasta water is also salted. Taste the sauce before adding additional salt.\n\n## Serving Suggestions\n\nSpaghetti alle Vongole Manila Clams is a dish that stands proudly on its own, but a few accompaniments can enhance the experience:\n\n*   **Crusty Bread:** A must-have! Use it to sop up every last drop of the delicious clam sauce.\n*   **Dry White Wine:** Pair it with the same dry white wine you used in the cooking, such as a crisp Pinot Grigio or Vermentino.\n*   **Simple Green Salad:** A light, refreshing green salad with a simple vinaigrette can provide a nice counterpoint to the richness of the pasta.\n*   **Lemon Wedges (Optional):** A squeeze of fresh lemon juice at the table can brighten the flavors, though many purists prefer it without.\n\n## Variations and Substitutions\n\nWhile the classic Spaghetti alle Vongole Manila Clams is perfect as is, there are a few ways to adapt the recipe:\n\n*   **Other Clams:** If Manila clams aren't available, littleneck clams are an excellent substitute. Cherrystone clams can also be used, but they are larger and might require a slightly longer cooking time.\n*   **Spaghetti alle Vongole \"in Rosso\":** For a version with a touch of tomato, add a handful of halved cherry tomatoes or a tablespoon of tomato paste along with the garlic. This adds a subtle sweetness and a beautiful pink hue to the sauce.\n*   **Add More Heat:** If you love spice, don't hesitate to increase the amount of red pepper flakes.\n*   **Lemon Zest:** For a brighter, more aromatic finish, grate a little fresh lemon zest over the finished dish just before serving.\n*   **Gluten-Free Option:** This dish adapts beautifully to gluten-free pasta. Just be sure to use a good quality gluten-free spaghetti that holds its shape.\n*   **Herb Alternatives:** While parsley is traditional, a small amount of fresh oregano or basil can be added for a different aromatic profile.\n\nSpaghetti alle Vongole Manila Clams is more than just a recipe; it's an invitation to savor the simple pleasures of Italian cuisine. Its timeless appeal lies in its ability to transport you to the sun-drenched shores of the Mediterranean with every forkful. Whether you're a seasoned chef or a curious home cook, mastering this dish is a rewarding experience that promises delicious results and the authentic taste of Italy right in your own kitchen.",
+  "article": "Spaghetti alle Vongole is a timeless Italian classic, a dish that perfectly encapsulates the simple elegance of Mediterranean cuisine. But when we talk about the most coveted versions, one stands out for its delicate sweetness and tender texture: Spaghetti alle Vongole Manila Clams. This beloved pasta dish, hailing from Italy's sun-drenched coastlines, combines the briny goodness of fresh clams with al dente spaghetti, garlic, chili, white wine, and a generous scattering of fresh parsley. It’s a symphony of flavors that is both light and incredibly satisfying, making it a favorite for seafood lovers around the world.\n\n## What is Spaghetti alle Vongole Manila Clams?\n\nAt its heart, Spaghetti alle Vongole translates to \"spaghetti with clams.\" The \"vongole\" refers to the clams, and while various types can be used, the Manila clam (Tapes philippinarum) has become a popular and highly regarded choice, particularly outside of Italy where native clams might be less accessible. The star of this particular dish, Spaghetti alle Vongole Manila Clams, is the small, sweet Manila clam, known for its tender meat and mild, sweet flavor that complements the other ingredients without overpowering them.\n\nOriginating from coastal regions like Naples and Sicily, this dish embodies the Italian philosophy of using fresh, high-quality ingredients simply. The magic happens when the clams release their natural juices into the pan, mingling with sautéed garlic, a hint of spicy red chili flakes (peperoncino), and a splash of dry white wine. This creates a light, aromatic broth that coats every strand of spaghetti, resulting in a harmonious and utterly delicious experience. It’s a testament to how humble ingredients, when treated with respect, can create culinary masterpieces.\n\n## Ingredients You Need\n\nTo recreate this authentic Italian seafood delight, you’ll need a few key, fresh ingredients:\n\n*   **Spaghetti:** 400-500g (about 1 pound) – high-quality durum wheat spaghetti is essential.\n*   **Manila Clams:** 1 kg (about 2.2 pounds) – fresh, live clams are crucial.\n*   **Extra Virgin Olive Oil:** 4-5 tablespoons – a good quality oil makes a difference.\n*   **Garlic:** 4-6 cloves, thinly sliced or finely minced.\n*   **Red Chili (Peperoncino):** 1-2 small fresh chilies, thinly sliced, or 1/2 teaspoon red pepper flakes – adjust to your spice preference.\n*   **Dry White Wine:** 150-200ml (about 2/3 to 3/4 cup) – a crisp, dry wine like Pinot Grigio, Sauvignon Blanc, or Vermentino.\n*   **Fresh Parsley:** A generous bunch (about 1/2 cup chopped) – flat-leaf Italian parsley is best.\n*   **Salt:** For pasta water and seasoning.\n*   **Black Pepper:** Freshly ground, to taste.\n*   **Optional:** A knob of butter (for extra richness, though not strictly traditional), a few cherry tomatoes (halved, for a \"rosso\" variation).\n\n## Step-by-Step Instructions\n\nCreating the perfect Spaghetti alle Vongole Manila Clams is a straightforward process that yields incredible results.\n\n1.  **Prepare the Clams:** First, thoroughly clean your Manila clams. Place them in a large bowl of cold, salted water (about 1 tablespoon of salt per liter of water) for at least 30 minutes to an hour. This encourages them to purge any sand. Gently scrub the outside of each clam under running water. Discard any clams that are open and do not close when tapped firmly.\n2.  **Cook the Spaghetti:** Bring a large pot of generously salted water to a rolling boil. Add the spaghetti and cook according to package directions until it is al dente (firm to the bite). Before draining, reserve at least 1-2 cups of the starchy pasta water. This water is vital for creating a silky sauce.\n3.  **Sauté the Aromatics:** While the pasta cooks, heat the olive oil in a large, deep skillet or pot (one that can accommodate all the pasta later) over medium heat. Add the sliced garlic and chili. Sauté gently for 2-3 minutes until the garlic is fragrant and lightly golden, being careful not to burn it.\n4.  **Add Clams and Wine:** Increase the heat to medium-high. Add the cleaned clams to the pan. Pour in the white wine. Immediately cover the pan with a tight-fitting lid.\n5.  **Steam the Clams:** Cook for 3-5 minutes, shaking the pan occasionally, until all the clams have opened. As soon as they open, remove the pan from the heat. Discard any clams that remain stubbornly closed.\n6.  **Combine Pasta and Sauce:** Using tongs, transfer the al dente spaghetti directly into the pan with the opened clams and their flavorful broth.\n7.  **Emulsify and Finish:** Add a ladle or two of the reserved pasta water to the pan. Toss the pasta vigorously with the clams and sauce for 1-2 minutes. The starch from the pasta water will help emulsify the oil and clam juices, creating a rich, glossy sauce that clings beautifully to the spaghetti.\n8.  **Season and Serve:** Stir in most of the fresh chopped parsley. Taste the sauce and season with salt and freshly ground black pepper as needed. (Remember, clams are naturally salty, so taste before adding more salt). Serve immediately, garnished with the remaining fresh parsley.\n\n## Pro Tips for the Best Results\n\nTo truly master Spaghetti alle Vongole Manila Clams, attention to detail is paramount.\n\n*   **Fresh Clams are Key:** This dish relies entirely on the freshness of the clams. Buy them from a reputable source the day you plan to cook them. They should smell like the ocean, not fishy.\n*   **Don't Skimp on Pasta Water:** That starchy water is your secret weapon. It binds the sauce together, creating a luxurious, emulsified coating for your pasta.\n*   **Al Dente Perfection:** Cook your spaghetti slightly less than al dente in the boiling water, as it will continue to cook in the clam sauce. This ensures perfect texture.\n*   **Dry White Wine Only:** Use a good quality, dry white wine that you would enjoy drinking. Avoid cooking wines or anything sweet, as it will alter the flavor profile.\n*   **Avoid Overcooking Clams:** Clams cook quickly. As soon as they open, they're done. Overcooking will make them tough and rubbery.\n*   **Taste Before Salting:** Clams release a naturally salty brine. Always taste the finished dish before adding extra salt.\n*   **No Cheese:** Traditionally, Italians do not put cheese on seafood pasta dishes. The delicate flavors of the clams and sea are meant to shine through.\n\n## Serving Suggestions\n\nSpaghetti alle Vongole Manila Clams is a complete and satisfying meal on its own, but a few accompaniments can elevate the dining experience.\n\n*   **Wine Pairing:** Complement the dish with a crisp, dry white wine. Think Italian varietals like Vermentino, Pecorino, or a good Pinot Grigio. Sauvignon Blanc is also an excellent choice.\n*   **Crusty Bread:** A warm, crusty loaf of Italian bread, such as ciabatta or a rustic sourdough, is perfect for soaking up every last drop of the delicious clam sauce.\n*   **Simple Salad:** A light, refreshing green salad with a simple lemon vinaigrette can cut through the richness and provide a fresh counterpoint.\n\n## Variations and Substitutions\n\nWhile the classic Spaghetti alle Vongole Manila Clams is perfect as is, there are several delicious ways to adapt it to your taste or what you have on hand.\n\n*   **Other Clam Types:** If Manila clams aren't available, littleneck clams or cockles are excellent substitutes. Adjust cooking time slightly as larger clams might take a minute or two longer to open.\n*   **Spaghetti alle Vongole \"Rosso\":** For a slightly richer flavor and a hint of sweetness, add a handful of halved cherry tomatoes to the pan along with the garlic. They will soften and release their juices, creating a beautiful pinkish hue in the sauce.\n*   **Additional Herbs:** While parsley is traditional, a touch of fresh oregano or a sprig of thyme can be added with the garlic for a different aromatic twist.\n*   **Spice Level:** Feel free to adjust the amount of fresh chili or red pepper flakes to your desired level of heat.\n*   **Gluten-Free Option:** Use your favorite brand of gluten-free spaghetti or linguine for a gluten-free version.\n*   **Lemon Zest:** A final grating of fresh lemon zest just before serving can add a bright, fragrant lift to the dish.\n\nSpaghetti alle Vongole Manila Clams is more than just a pasta dish; it's an experience. It’s a taste of the Italian coast, a celebration of fresh seafood, and a testament to the beauty of simple, well-executed cuisine. Whether you're a seasoned chef or a kitchen novice, mastering Spaghetti alle Vongole Manila Clams is a rewarding experience that will bring the vibrant flavors of Italy right to your dining table. So gather your fresh ingredients, uncork a bottle of white wine, and prepare to be transported to the sunny shores of the Mediterranean with every delicious bite.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Spaghetti alle Vongole Manila Clams",
     "description": "Learn how to make authentic Spaghetti alle Vongole Manila Clams. This easy Italian recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1589227365533-cee630bd59bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MjM5OTY1MXww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1589563340504-3d0eb8ee3697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4MjM5OTY1MXww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1589227365533-cee630bd59bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTM3Mjg2NHww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1589563340504-3d0eb8ee3697?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTcGFnaGV0dGklMjBhbGxlJTIwVm9uZ29sZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTM3Mjg2NHww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-06-25T16:01:46.086Z",
+    "datePublished": "2026-09-14T08:01:46.649Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -197,48 +197,48 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "400 grams Spaghetti",
-      "1 kg Manila Clams",
+      "2 lbs Manila clams",
+      "1 lb Spaghetti",
+      "1/4 cup Extra virgin olive oil",
       "4-5 cloves Garlic",
-      "1 cup Dry White Wine",
-      "1/4 cup Extra Virgin Olive Oil",
-      "1/2 cup Fresh Parsley",
-      "1/2 teaspoon Red Pepper Flakes",
+      "1/2 cup Dry white wine",
+      "1/2 teaspoon Red pepper flakes",
+      "1/2 cup Fresh parsley",
       "to taste Salt",
-      "to taste Black Pepper"
+      "to taste Black pepper"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Clams and Pasta",
-        "text": "Start by thoroughly cleaning the Manila clams. Soak them in cold salted water for at least 30 minutes to encourage them to release any sand. While the clams are purging, bring a large pot of generously salted water to a rolling boil for the spaghetti."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Cook the Spaghetti",
-        "text": "Add the spaghetti to the boiling water and cook according to package directions until al dente. Before draining, reserve about 1 to 1.5 cups of the pasta cooking water. This starchy water will be crucial for creating a silky sauce."
+        "name": "Prepare the Clams and Pasta Water",
+        "text": "First, ensure your Manila clams are thoroughly cleaned and purged of sand. Submerge them in a bowl of cold, salted water for at least 30 minutes, then rinse well. Meanwhile, bring a large pot of generously salted water to a rolling boil for the spaghetti."
       },
       {
         "@type": "HowToStep",
         "name": "Sauté Aromatics",
-        "text": "In a large skillet or wide pot, heat the extra virgin olive oil over medium heat. Add the thinly sliced garlic and red pepper flakes. Sauté gently for 2-3 minutes until the garlic is fragrant and lightly golden, being careful not to burn it."
+        "text": "In a large, deep skillet or pot, heat the extra virgin olive oil over medium heat. Add the sliced garlic and red pepper flakes. Sauté gently for 2-3 minutes until the garlic is fragrant and lightly golden, being careful not to burn it."
       },
       {
         "@type": "HowToStep",
         "name": "Steam the Clams",
-        "text": "Increase the heat to medium-high. Add the cleaned clams to the skillet, then pour in the white wine. Cover the skillet tightly with a lid and cook for 5-7 minutes, or until all the clams have opened. Discard any clams that do not open."
+        "text": "Increase the heat to medium-high. Add the cleaned clams to the skillet, then pour in the white wine. Cover the skillet tightly with a lid and cook for 5-7 minutes, shaking the pan occasionally, until all the clams have opened. Discard any clams that do not open."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Pasta and Sauce",
-        "text": "Drain the spaghetti and immediately add it to the skillet with the opened clams and their liquid. Add about half of the reserved pasta cooking water and a generous handful of fresh chopped parsley. Toss everything together vigorously, allowing the pasta to absorb the flavorful clam sauce."
+        "name": "Cook the Spaghetti",
+        "text": "While the clams are steaming, add the spaghetti to the boiling salted water. Cook according to package directions until al dente, usually 8-10 minutes. Before draining, reserve about 1 cup of the starchy pasta cooking water."
       },
       {
         "@type": "HowToStep",
-        "name": "Finish and Serve",
-        "text": "Continue tossing, adding more pasta water as needed, until the sauce emulsifies and lightly coats the spaghetti. Season with fresh black pepper and adjust salt if necessary, remembering the clams contribute natural saltiness. Serve immediately, garnished with additional fresh parsley."
+        "name": "Combine Pasta and Clams",
+        "text": "Drain the spaghetti and immediately add it to the skillet with the opened clams and their liquid. Add most of the chopped fresh parsley. Toss everything together vigorously, allowing the pasta to absorb the flavorful clam broth."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Emulsify and Serve",
+        "text": "If the sauce seems too dry, add a splash or two of the reserved pasta cooking water, tossing continuously to create a silky, emulsified sauce. Taste and adjust seasoning with salt and freshly ground black pepper if needed. Serve immediately in warm bowls, garnished with extra fresh parsley and a drizzle of good quality extra virgin olive oil."
       }
     ]
   },
-  "publishedAt": "2026-06-25T16:01:46.086Z"
+  "publishedAt": "2026-09-14T08:01:46.649Z"
 }
