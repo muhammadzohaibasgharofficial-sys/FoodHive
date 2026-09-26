@@ -46,19 +46,19 @@
     ]
   },
   "prepTime": "20 min",
-  "cookTime": "10 min",
-  "totalTime": "30 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
-  "difficulty": "Easy",
+  "difficulty": "Medium",
   "cuisine": "Italian",
-  "image1": "https://images.unsplash.com/photo-1594978583693-8dfdfc93f052?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDE3MjEwNXww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1558679582-4d81ce75993a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDE3MjEwNXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Bruschetta al Pomodoro Classic is a timeless Italian appetizer, featuring crusty bread rubbed with garlic, drizzled with olive oil, and topped with fresh, ripe tomatoes, basil, and a hint of salt. This vibrant dish embodies the simple elegance of Italian cuisine, offering a burst of Mediterranean flavors in every bite. It is perfect for entertaining or as a delightful start to any meal.",
+  "image1": "https://images.unsplash.com/photo-1594978583693-8dfdfc93f052?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDQzNDkwM3ww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1558679582-4d81ce75993a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDQzNDkwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Bruschetta al Pomodoro Classic is a delightful Italian appetizer, featuring toasted bread topped with a fresh and vibrant mixture of ripe tomatoes, garlic, basil, and olive oil. This simple yet elegant dish perfectly captures the essence of Mediterranean flavors, offering a burst of freshness in every bite. It's an ideal starter for any meal or a light snack.",
   "ingredients": [
     {
-      "item": "Baguette or ciabatta loaf",
-      "amount": "1",
-      "notes": "sliced 1/2 inch thick"
+      "item": "Rustic Italian bread",
+      "amount": "1 loaf",
+      "notes": "sliced into 1/2-inch thick pieces"
     },
     {
       "item": "Ripe Roma tomatoes",
@@ -66,9 +66,9 @@
       "notes": "diced"
     },
     {
-      "item": "Garlic cloves",
-      "amount": "2",
-      "notes": "one whole and peeled, one minced"
+      "item": "Garlic",
+      "amount": "2 cloves",
+      "notes": "minced, plus 1 whole clove for rubbing"
     },
     {
       "item": "Fresh basil leaves",
@@ -77,8 +77,13 @@
     },
     {
       "item": "Extra virgin olive oil",
-      "amount": "1/4 cup",
+      "amount": "3 tablespoons",
       "notes": "plus more for drizzling"
+    },
+    {
+      "item": "Balsamic glaze",
+      "amount": "1 tablespoon",
+      "notes": "optional, for drizzling"
     },
     {
       "item": "Salt",
@@ -94,86 +99,86 @@
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Tomato Topping",
-      "text": "In a medium bowl, combine the diced Roma tomatoes, minced garlic, chopped fresh basil, 2 tablespoons of extra virgin olive oil, a pinch of salt, and freshly ground black pepper. Gently toss to combine and set aside to allow the flavors to meld.",
+      "title": "Prepare the Tomato Mixture",
+      "text": "In a medium bowl, combine the diced Roma tomatoes, minced garlic, and chopped fresh basil. Gently mix them together.",
       "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Prepare the Bread Slices",
-      "text": "Slice the baguette or ciabatta loaf into 1/2-inch thick pieces. Arrange them in a single layer on a baking sheet.",
+      "title": "Season the Tomato Mixture",
+      "text": "Drizzle 2 tablespoons of extra virgin olive oil over the tomato mixture. Season with salt and freshly ground black pepper to taste. Stir well to combine all ingredients, ensuring the flavors meld. Let it sit for at least 15 minutes to allow the flavors to develop.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Toast the Bread",
-      "text": "Drizzle a little extra virgin olive oil over each slice of bread. You can toast the bread in several ways: bake in a preheated oven at 200°C (400°F) for 5-7 minutes, grill for 2-3 minutes per side until golden, or pan-fry until lightly browned and crisp.",
-      "time": "10 min"
+      "title": "Prepare the Bread",
+      "text": "Preheat your oven to 200°C (400°F). Arrange the slices of Italian bread on a baking sheet. Lightly brush both sides of each bread slice with the remaining 1 tablespoon of extra virgin olive oil.",
+      "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Rub with Garlic",
-      "text": "Once the bread is toasted and still warm, take the whole peeled garlic clove and rub it vigorously over the surface of each slice. This infuses the bread with a subtle, aromatic garlic flavor.",
-      "time": "2 min"
+      "title": "Toast the Bread",
+      "text": "Place the baking sheet with the bread slices in the preheated oven. Toast for 5-7 minutes, or until the bread is golden brown and crispy. Watch carefully to prevent burning. Once toasted, remove from the oven.",
+      "time": "7 min"
     },
     {
       "step": 5,
-      "title": "Assemble the Bruschetta",
-      "text": "Spoon a generous amount of the prepared tomato mixture onto each toasted garlic-rubbed bread slice.",
-      "time": "3 min"
+      "title": "Garlic Rub and Assembly",
+      "text": "While the bread is still warm, take the whole garlic clove and rub its cut side generously over the surface of each toasted bread slice. This imparts a subtle garlic flavor. Spoon a generous amount of the seasoned tomato mixture onto each slice of toasted bread.",
+      "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Serve Immediately",
-      "text": "Arrange the assembled bruschetta on a platter. Drizzle with a final touch of extra virgin olive oil and garnish with a few small basil leaves if desired. Serve immediately to enjoy the fresh flavors and crisp texture.",
-      "time": "0 min"
+      "title": "Garnish and Serve",
+      "text": "For an extra touch, drizzle a little more extra virgin olive oil over the assembled bruschetta. If desired, add a swirl of balsamic glaze. Serve your Bruschetta al Pomodoro Classic immediately as a delightful appetizer.",
+      "time": "3 min"
     }
   ],
   "nutritionTable": {
-    "calories": "280 kcal",
-    "protein": "8g",
-    "carbs": "35g",
-    "fat": "12g",
-    "fiber": "3g",
-    "sugar": "4g",
-    "sodium": "350mg",
-    "cholesterol": "0mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Italian",
     "appetizer",
+    "authentic",
+    "traditional",
     "tomato",
-    "basil",
     "garlic",
-    "vegetarian",
-    "classic",
+    "basil",
     "Bruschetta al Pomodoro Classic"
   ],
   "tips": [
-    "Always use the freshest, ripest tomatoes you can find; they are the heart of this dish. Heirloom tomatoes can add an extra layer of flavor and color.",
-    "For the best texture, toast the bread until it is golden brown and crisp on the outside but still slightly soft on the inside. Avoid over-toasting, which can make it too hard.",
-    "Bruschetta is best enjoyed immediately after assembly to prevent the bread from becoming soggy. Prepare the tomato mixture ahead of time, but assemble just before serving."
+    "For truly authentic flavor, use ripe, in-season Roma tomatoes. Their natural sweetness and firm texture are key to a perfect bruschetta.",
+    "Do not skip rubbing the toasted bread with a fresh garlic clove; this simple step infuses a wonderful aroma and taste that dried garlic cannot replicate.",
+    "Bruschetta is best served immediately after assembly. The bread will soften if left to sit too long, losing its desirable crisp texture."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Bruschetta al Pomodoro Classic is a beloved Italian Appetizers dish enjoyed across Italian. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Bruschetta al Pomodoro Classic is more than just an appetizer; it's a vibrant symphony of fresh flavors, a testament to the beauty of Italian simplicity. This beloved Italian starter, often found gracing tables across Italy and beyond, embodies the sun-drenched spirit of Mediterranean cuisine. With its crisp toasted bread, juicy ripe tomatoes, fragrant basil, pungent garlic, and a drizzle of golden olive oil, it’s an effortless yet incredibly satisfying dish that awakens the palate and sets the stage for any meal. Whether you're hosting a dinner party, enjoying a casual lunch, or simply craving a taste of Italy, mastering Bruschetta al Pomodoro Classic is a culinary skill worth acquiring. It’s an approachable recipe that promises big flavor with minimal fuss, proving that sometimes, the simplest ingredients yield the most extraordinary results.\n\n## What is Bruschetta al Pomodoro Classic?\n\nAt its heart, Bruschetta al Pomodoro Classic is a celebration of seasonal produce and uncomplicated preparation. The word \"bruschetta\" itself comes from the Roman dialect word \"bruscare,\" meaning \"to roast over coals,\" referring to the traditional method of toasting the bread. Historically, it was a peasant dish, a way to use stale bread and make the most of freshly harvested olive oil and tomatoes. The \"al Pomodoro\" simply means \"with tomato,\" highlighting the star ingredient. The \"classic\" designation refers to its traditional composition: thick slices of rustic bread, grilled or toasted, then rubbed with a raw garlic clove, drizzled with olive oil, and piled high with a fresh mixture of diced ripe tomatoes, basil, and more olive oil, seasoned with salt and pepper. It’s a dish that relies entirely on the quality and freshness of its components, where each ingredient plays a crucial, distinct role in creating a harmonious and unforgettable bite. It’s light, refreshing, and bursting with the authentic flavors of Italy.\n\n## Ingredients You Need\n\nTo create the perfect Bruschetta al Pomodoro Classic, selecting high-quality ingredients is paramount. Their freshness is what truly elevates this seemingly simple dish.\n\n*   **Bread:** A rustic Italian loaf, ciabatta, or sourdough baguette is ideal. Look for a bread with a good crust and a soft, airy interior that can hold up to toasting and absorb the tomato juices without becoming soggy. Avoid overly soft sandwich bread.\n*   **Tomatoes:** This is the soul of your bruschetta. Ripe, red, flavorful tomatoes are non-negotiable. Roma (plum) tomatoes are a popular choice due to their firm flesh and lower seed content, but heirloom tomatoes or even good quality cherry tomatoes (halved or quartered) can also work beautifully, offering a burst of sweetness.\n*   **Fresh Basil:** The aromatic complement to tomatoes. Don't even think about dried basil here; fresh, vibrant green leaves are essential for that characteristic sweet, peppery aroma.\n*   **Garlic:** Fresh garlic cloves are used in two ways: rubbed raw onto the toasted bread for a subtle bite, and finely minced into the tomato mixture for a more integrated flavor.\n*   **Extra Virgin Olive Oil:** A good quality, fruity extra virgin olive oil is crucial. It adds richness, a peppery note, and helps to bind all the flavors together. Don't skimp on this!\n*   **Salt & Freshly Ground Black Pepper:** Simple seasonings that enhance the natural flavors of the tomatoes and basil. Sea salt is often preferred for its clean taste.\n\n## Step-by-Step Instructions\n\nMaking Bruschetta al Pomodoro Classic is wonderfully straightforward. Follow these steps for an authentic taste of Italy:\n\n1.  **Prepare the Tomatoes:** Wash and thoroughly dry your ripe tomatoes. Dice them into small, even pieces, about 1/4 to 1/2 inch in size. If using very watery tomatoes, you might gently squeeze out some excess liquid, but generally, the juices are part of the charm. Place the diced tomatoes in a medium-sized bowl.\n2.  **Chop the Basil:** Wash and dry the fresh basil leaves. Stack a few leaves on top of each other, roll them tightly like a cigar, and then thinly slice them crosswise to create delicate ribbons (chiffonade). Add the basil to the bowl with the tomatoes.\n3.  **Mince the Garlic for the Topping:** Peel and finely mince one to two cloves of garlic. Add this minced garlic to the tomato and basil mixture.\n4.  **Season the Topping:** Drizzle a generous amount (2-3 tablespoons) of good quality extra virgin olive oil over the tomato mixture. Season with salt and freshly ground black pepper to taste. Gently toss everything together until well combined. Let this mixture sit for at least 15-20 minutes at room temperature. This allows the flavors to meld beautifully.\n5.  **Prepare the Bread:** Slice your chosen bread into 1/2 to 3/4 inch thick slices. You can toast these slices in several ways:\n    *   **Grill:** Place slices on a hot grill until lightly charred and crisp, about 1-2 minutes per side.\n    *   **Broiler:** Arrange slices on a baking sheet and broil for 1-3 minutes per side, watching carefully to prevent burning.\n    *   **Toaster Oven/Pan-Fry:** Toast in a toaster oven or pan-fry in a dry skillet until golden brown and crisp.\n6.  **Garlic Rub:** Once the bread is toasted, immediately take a peeled, raw garlic clove and firmly rub it over one side of each warm bread slice. The warmth of the bread will help to release the garlic's oils, imparting a subtle, fragrant flavor.\n7.  **Assemble and Serve:** Spoon a generous amount of the tomato mixture onto each garlic-rubbed, toasted bread slice. A final drizzle of extra virgin olive oil over the top of the assembled Bruschetta al Pomodoro Classic is highly recommended. Serve immediately while the bread is still warm and crisp.\n\n## Pro Tips for the Best Results\n\nAchieving truly spectacular Bruschetta al Pomodoro Classic often comes down to a few key details:\n\n*   **Tomato Quality is King:** This cannot be stressed enough. Use the ripest, most flavorful, in-season tomatoes you can find. A bland tomato will result in bland bruschetta. Taste your tomatoes before you dice them; if they lack flavor, consider adding a tiny pinch of sugar to the mixture to enhance their natural sweetness.\n*   **Don't Over-Toast the Bread:** The bread should be golden brown and crisp on the outside, but still have a slight chewiness inside. If it's too hard, it will be difficult to eat and might scratch the roof of your mouth.\n*   **Garlic Rub, Not Garlic Overload:** The raw garlic rub on the toasted bread provides a foundational aromatic layer. The minced garlic in the tomato mixture adds another dimension. Don't be tempted to add too much raw garlic to the topping, as it can overpower the delicate tomato and basil flavors.\n*   **Let the Flavors Marry:** Allowing the tomato mixture to sit for 15-20 minutes (or even up to an hour) at room temperature before serving is crucial. This time allows the salt to draw out the tomato juices, creating a delicious liquid that melds with the olive oil, basil, and garlic.\n*   **Fresh Basil is Non-Negotiable:** As mentioned, dried basil simply won't do. Use fresh basil and add it just before serving to maintain its vibrant color and delicate aroma. Tearing rather than cutting some of the basil can also release more essential oils.\n*   **Serve Immediately:** Bruschetta is best enjoyed as soon as it's assembled. The bread will start to soften if it sits too long, compromising the delightful contrast between crisp bread and juicy topping.\n\n## Serving Suggestions\n\nBruschetta al Pomodoro Classic is incredibly versatile and makes a perfect starter for almost any occasion.\n\n*   **As an Appetizer:** It's a quintessential starter for an Italian meal, alongside olives, cured meats, or a simple green salad.\n*   **Party Platter:** Arrange it on a large platter for a vibrant and inviting addition to any buffet or party spread. It's an excellent finger food.\n*   **Light Lunch:** Pair a few pieces of bruschetta with a cup of minestrone soup or a fresh caprese salad for a light and satisfying lunch.\n*   **Wine Pairing:** It pairs beautifully with crisp, dry white wines such as Vermentino, Pinot Grigio, or Sauvignon Blanc. For red wine lovers, a light-bodied Sangiovese or Bardolino can also be a delightful match.\n*   **Garnish:** A final flourish of fresh basil leaves or a tiny sprinkle of flaky sea salt can enhance its visual appeal and taste.\n\n## Variations and Substitutions\n\nWhile the classic is divine, there are many ways to adapt Bruschetta al Pomodoro Classic to suit different tastes or ingredients you have on hand.\n\n*   **Cheese Addition:** A sprinkle of freshly grated Parmesan, Pecorino Romano, or crumbled fresh mozzarella can add a creamy, salty depth. Add it just before serving, or even broil briefly if using mozzarella to melt it slightly.\n*   **Balsamic Glaze:** A light drizzle of balsamic glaze (reduced balsamic vinegar) can add a sweet and tangy counterpoint to the fresh tomatoes.\n*   **Herbal Twists:** While basil is classic, you can experiment with other fresh herbs like oregano, thyme, or a tiny bit of fresh parsley in the tomato mixture.\n*   **Spicy Kick:** For those who enjoy a bit of heat, a pinch of red pepper flakes can be added to the tomato mixture.\n*   **Roasted Tomatoes:** Instead of fresh diced tomatoes, you can roast cherry or grape tomatoes with olive oil, garlic, and herbs until they burst and caramelize. This creates a sweeter, more intense flavor profile.\n*   **Other Toppings (Beyond Classic):** While not \"al Pomodoro Classic,\" the concept of bruschetta can extend to other toppings like pesto, tapenade, roasted vegetables, or even fruit and cheese combinations for a sweet twist.\n*   **Gluten-Free Option:** Simply use a good quality gluten-free rustic bread that can be toasted well.\n\nEmbrace the simplicity and unparalleled taste of Bruschetta al Pomodoro Classic. This timeless appetizer proves that the most delicious dishes are often those that celebrate the inherent goodness of fresh, high-quality ingredients. It’s a dish that invites you to slow down, savor each bite, and transport yourself to the sun-drenched landscapes of Italy, one perfect piece at a time. Enjoy creating this authentic Italian masterpiece in your own kitchen!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Bruschetta al Pomodoro Classic",
     "description": "Learn how to make authentic Bruschetta al Pomodoro Classic. This easy Italian recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1594978583693-8dfdfc93f052?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDE3MjEwNXww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1558679582-4d81ce75993a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDE3MjEwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1594978583693-8dfdfc93f052?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDQzNDkwM3ww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1558679582-4d81ce75993a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBCcnVzY2hldHRhJTIwYWwlMjBQb21vZG9ybyUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDQzNDkwM3ww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-09-23T14:02:27.644Z",
+    "datePublished": "2026-09-26T15:02:39.709Z",
     "prepTime": "PT20M",
-    "cookTime": "PT10M",
-    "totalTime": "PT30M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Appetizers",
     "recipeCuisine": "Italian",
@@ -185,49 +190,50 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "280 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1 Baguette or ciabatta loaf",
+      "1 loaf Rustic Italian bread",
       "4-5 Ripe Roma tomatoes",
-      "2 Garlic cloves",
+      "2 cloves Garlic",
       "1/4 cup Fresh basil leaves",
-      "1/4 cup Extra virgin olive oil",
+      "3 tablespoons Extra virgin olive oil",
+      "1 tablespoon Balsamic glaze",
       "to taste Salt",
       "to taste Freshly ground black pepper"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Tomato Topping",
-        "text": "In a medium bowl, combine the diced Roma tomatoes, minced garlic, chopped fresh basil, 2 tablespoons of extra virgin olive oil, a pinch of salt, and freshly ground black pepper. Gently toss to combine and set aside to allow the flavors to meld."
+        "name": "Prepare the Tomato Mixture",
+        "text": "In a medium bowl, combine the diced Roma tomatoes, minced garlic, and chopped fresh basil. Gently mix them together."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Bread Slices",
-        "text": "Slice the baguette or ciabatta loaf into 1/2-inch thick pieces. Arrange them in a single layer on a baking sheet."
+        "name": "Season the Tomato Mixture",
+        "text": "Drizzle 2 tablespoons of extra virgin olive oil over the tomato mixture. Season with salt and freshly ground black pepper to taste. Stir well to combine all ingredients, ensuring the flavors meld. Let it sit for at least 15 minutes to allow the flavors to develop."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Prepare the Bread",
+        "text": "Preheat your oven to 200°C (400°F). Arrange the slices of Italian bread on a baking sheet. Lightly brush both sides of each bread slice with the remaining 1 tablespoon of extra virgin olive oil."
       },
       {
         "@type": "HowToStep",
         "name": "Toast the Bread",
-        "text": "Drizzle a little extra virgin olive oil over each slice of bread. You can toast the bread in several ways: bake in a preheated oven at 200°C (400°F) for 5-7 minutes, grill for 2-3 minutes per side until golden, or pan-fry until lightly browned and crisp."
+        "text": "Place the baking sheet with the bread slices in the preheated oven. Toast for 5-7 minutes, or until the bread is golden brown and crispy. Watch carefully to prevent burning. Once toasted, remove from the oven."
       },
       {
         "@type": "HowToStep",
-        "name": "Rub with Garlic",
-        "text": "Once the bread is toasted and still warm, take the whole peeled garlic clove and rub it vigorously over the surface of each slice. This infuses the bread with a subtle, aromatic garlic flavor."
+        "name": "Garlic Rub and Assembly",
+        "text": "While the bread is still warm, take the whole garlic clove and rub its cut side generously over the surface of each toasted bread slice. This imparts a subtle garlic flavor. Spoon a generous amount of the seasoned tomato mixture onto each slice of toasted bread."
       },
       {
         "@type": "HowToStep",
-        "name": "Assemble the Bruschetta",
-        "text": "Spoon a generous amount of the prepared tomato mixture onto each toasted garlic-rubbed bread slice."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Serve Immediately",
-        "text": "Arrange the assembled bruschetta on a platter. Drizzle with a final touch of extra virgin olive oil and garnish with a few small basil leaves if desired. Serve immediately to enjoy the fresh flavors and crisp texture."
+        "name": "Garnish and Serve",
+        "text": "For an extra touch, drizzle a little more extra virgin olive oil over the assembled bruschetta. If desired, add a swirl of balsamic glaze. Serve your Bruschetta al Pomodoro Classic immediately as a delightful appetizer."
       }
     ]
   },
-  "publishedAt": "2026-09-23T14:02:27.644Z"
+  "publishedAt": "2026-09-26T15:02:39.710Z"
 }
