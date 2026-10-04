@@ -48,12 +48,12 @@
   "prepTime": "20 min",
   "cookTime": "35 min",
   "totalTime": "55 min",
-  "servings": 8,
+  "servings": 6,
   "difficulty": "Medium",
   "cuisine": "Italian",
-  "image1": "https://images.unsplash.com/photo-1744988278657-5c1674813ade?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODU4ODQ0MTh8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1777275973857-e5b0f83bf43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODU4ODQ0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "This Focaccia Genovese is a true taste of Liguria, featuring a wonderfully soft and airy crumb with a crisp, golden crust. Infused with aromatic rosemary and rich olive oil, it's perfect for dipping or accompanying any meal, bringing the authentic flavors of Italy to your table. Its rustic charm and irresistible aroma make it a beloved classic.",
+  "image1": "https://images.unsplash.com/photo-1593629718617-bc1b024cf15a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTExMzMyNjl8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1767065885993-b4c5a018bd3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTExMzMyNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Focaccia Genovese is a beloved flatbread from Genoa, known for its dimpled surface, generous olive oil, and crispy yet tender texture. This classic Italian bread is often enjoyed for breakfast, as an appetizer, or alongside a meal, offering a delightful blend of savory flavors with fragrant rosemary. Its simple ingredients combine to create an unforgettable taste of the Ligurian coast.",
   "ingredients": [
     {
       "item": "All-purpose flour",
@@ -63,7 +63,7 @@
     {
       "item": "Warm water",
       "amount": "350ml",
-      "notes": "105-115F or 40-46C"
+      "notes": "about 100-110°F / 38-43°C"
     },
     {
       "item": "Active dry yeast",
@@ -73,21 +73,21 @@
     {
       "item": "Fine sea salt",
       "amount": "10g",
-      "notes": ""
+      "notes": "for the dough"
     },
     {
       "item": "Extra virgin olive oil",
-      "amount": "60ml",
-      "notes": "plus more for drizzling"
+      "amount": "80ml",
+      "notes": "plus more for drizzling and pan"
     },
     {
       "item": "Fresh rosemary",
       "amount": "2 sprigs",
-      "notes": "leaves picked and chopped"
+      "notes": "leaves picked and roughly chopped"
     },
     {
       "item": "Flaky sea salt",
-      "amount": "to taste",
+      "amount": "5g",
       "notes": "for topping"
     }
   ],
@@ -95,38 +95,44 @@
     {
       "step": 1,
       "title": "Activate the Yeast",
-      "text": "In a large bowl, combine the warm water and yeast. Let it sit for 5-10 minutes until foamy, indicating the yeast is active. This step is crucial for a good rise.",
+      "text": "In a large bowl, combine the warm water and active dry yeast. Let it sit for 5-10 minutes until foamy, indicating the yeast is active and ready.",
       "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Prepare the Dough",
-      "text": "Add the flour and fine sea salt to the yeast mixture. Stir with a wooden spoon or your hands until a shaggy dough forms. Gradually incorporate 2 tablespoons of olive oil, mixing until just combined.",
+      "title": "Mix the Dough",
+      "text": "Add the all-purpose flour and fine sea salt to the yeast mixture. Stir with a wooden spoon or your hands until a shaggy dough forms. Gradually add 30ml of the extra virgin olive oil and continue to mix until it is mostly combined.",
       "time": "5 min"
     },
     {
       "step": 3,
       "title": "Knead and First Rise",
-      "text": "Turn the dough out onto a lightly floured surface and knead for 8-10 minutes until it becomes smooth and elastic. Place the dough in a lightly oiled bowl, cover with plastic wrap, and let it rise in a warm place for 1.5 to 2 hours, or until doubled in size.",
+      "text": "Turn the dough out onto a lightly floured surface and knead for 8-10 minutes until it becomes smooth and elastic. Place the dough in a well-oiled bowl, turn to coat, cover with plastic wrap, and let it rise in a warm place for 1.5-2 hours, or until it has doubled in size.",
       "time": "120 min"
     },
     {
       "step": 4,
-      "title": "Transfer to Baking Pan",
-      "text": "Generously oil a 9x13 inch baking pan with 2 tablespoons of olive oil. Gently transfer the risen dough to the pan, turning it to coat both sides with oil. Carefully stretch the dough to fill the pan, being careful not to deflate it too much.",
-      "time": "5 min"
+      "title": "Prepare for Second Rise",
+      "text": "Gently deflate the dough and transfer it to a 9x13 inch baking pan that has been generously coated with olive oil. Gently stretch the dough to fill the pan evenly, being careful not to tear it. Cover the pan and let the dough rise again for 30-45 minutes.",
+      "time": "45 min"
     },
     {
       "step": 5,
-      "title": "Dimple and Top",
-      "text": "Using your fingertips, create deep dimples all over the surface of the dough. Drizzle generously with the remaining olive oil, sprinkle with chopped fresh rosemary and flaky sea salt. Cover loosely and let it proof for another 30-45 minutes.",
-      "time": "45 min"
+      "title": "Dimple and Season",
+      "text": "Preheat your oven to 425°F (220°C). Use your fingertips to create deep dimples all over the surface of the risen dough. Drizzle generously with the remaining extra virgin olive oil, then sprinkle with the fresh rosemary and flaky sea salt.",
+      "time": "5 min"
     },
     {
       "step": 6,
       "title": "Bake the Focaccia",
-      "text": "Preheat your oven to 425F or 220C. Bake the focaccia for 25-35 minutes, or until golden brown and cooked through. The crust should be crisp and the interior soft. Remove from oven and let cool slightly before slicing and serving.",
+      "text": "Bake in the preheated oven for 25-35 minutes, or until the focaccia is golden brown on top and cooked through. If desired, you can place a small oven-safe bowl of water in the oven for extra steam during baking.",
       "time": "35 min"
+    },
+    {
+      "step": 7,
+      "title": "Cool and Serve",
+      "text": "Remove the focaccia from the oven and let it cool slightly in the pan before transferring it to a wire rack. Serve warm, cut into squares or strips, and enjoy the authentic taste of Genoa.",
+      "time": "10 min"
     }
   ],
   "nutritionTable": {
@@ -141,38 +147,40 @@
   },
   "tags": [
     "Italian",
-    "Italian",
     "authentic",
     "traditional",
     "baking",
-    "Focaccia Genovese Rosemary Olive Oil"
+    "Focaccia Genovese Rosemary Olive Oil",
+    "bread",
+    "rosemary",
+    "olive oil"
   ],
   "tips": [
-    "Use good quality extra virgin olive oil for the best flavor, as it is a star ingredient in this focaccia.",
-    "For an extra crispy bottom, preheat your baking pan in the oven before adding the dough.",
-    "Leftover focaccia can be stored at room temperature in an airtight container for up to 2 days, or frozen for longer storage."
+    "For an even crispier crust, ensure your baking pan is thoroughly coated with olive oil before the second rise. Don't be shy with the oil!",
+    "Do not rush the rising times; a slow, steady rise develops better flavor and texture in the focaccia, yielding a lighter, airier crumb.",
+    "Focaccia is best enjoyed fresh on the day it's baked. Leftovers can be reheated in a toaster oven or skillet for a few minutes to restore crispness."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Unlocking the secrets of authentic Italian baking often leads to discovering true culinary gems. Among these, few are as beloved and universally appealing as focaccia. But not just any focaccia – we're talking about the venerable Focaccia Genovese Rosemary Olive Oil, a masterpiece from the Ligurian coast that promises a symphony of flavors and textures. This isn't just bread; it's an experience, a journey to the sun-drenched streets of Genoa, where the aroma of freshly baked focaccia fills the air. Perfected over centuries, this particular focaccia stands out for its unique dimpled surface, generous drizzle of high-quality olive oil, a delicate crunch, and an unbelievably soft, airy interior. Infused with aromatic rosemary, it's a testament to the simplicity and profound deliciousness that defines Italian cuisine. If you’re ready to elevate your baking skills and delight your senses, learning to make this iconic bread is a truly rewarding endeavor.\n\n## What is Focaccia Genovese Rosemary Olive Oil?\n\nFocaccia Genovese Rosemary Olive Oil is a specific style of focaccia hailing from Genoa, the capital of Italy's Liguria region. Unlike some thicker, bready versions found elsewhere, the Genovese style is distinctively thin, with a remarkably airy crumb and a wonderfully crispy bottom. Its signature characteristic is the array of dimples pressed into the dough before baking, which serve as little pools for the extra virgin olive oil and a sprinkle of coarse sea salt, creating pockets of intense flavor and a delightful texture contrast. The \"Genovese\" part refers to its origin, and the \"Rosemary Olive Oil\" highlights two of its most crucial components: fresh rosemary, which imparts an earthy, fragrant note, and olive oil, which is not just an ingredient but a star player, used generously both in the dough and as a topping. Traditionally, it's baked until golden brown, with a slightly irregular, rustic appearance that only adds to its charm. The result is a bread that is simultaneously rich and light, savory and utterly addictive, making Focaccia Genovese Rosemary Olive Oil a staple in Ligurian bakeries and homes.\n\n## Ingredients You Need\n\nCrafting the perfect Focaccia Genovese Rosemary Olive Oil requires a handful of simple, high-quality ingredients. Do not underestimate the impact of good ingredients on the final product.\n\n*   **Strong Bread Flour (Type \"00\" or similar high-protein flour):** About 500g. This flour has a higher gluten content, which is essential for developing the characteristic chewy yet airy texture of focaccia.\n*   **Warm Water:** Approximately 350-400ml. The exact amount can vary slightly depending on your flour and humidity, so add it gradually. It should be lukewarm, around 105-115°F (40-46°C), to activate the yeast.\n*   **Active Dry Yeast:** 7g (one standard packet). Ensures a good rise and airy crumb.\n*   **Fine Sea Salt:** 10g (about 1.5 teaspoons) for the dough, plus extra coarse sea salt for sprinkling on top. Salt is crucial for flavor and regulating yeast activity.\n*   **Extra Virgin Olive Oil:** 50-60ml for the dough, plus a generous amount (at least 50-70ml) for drizzling on top and oiling the pan. Use a high-quality, flavorful olive oil – it makes a significant difference.\n*   **Fresh Rosemary:** 2-3 sprigs, finely chopped, plus a few small sprigs for garnishing. Fresh is non-negotiable for that authentic aroma and taste.\n*   **Sugar (optional, but recommended):** 5g (about 1 teaspoon). A little sugar helps to kickstart the yeast and contributes to browning.\n\n## Step-by-Step Instructions\n\nFollow these steps carefully to achieve a truly authentic Focaccia Genovese Rosemary Olive Oil.\n\n1.  **Activate the Yeast:** In a large mixing bowl, combine the warm water, yeast, and sugar (if using). Stir gently and let it sit for 5-10 minutes until foamy. This indicates the yeast is active.\n2.  **Mix the Dough:** Add the flour, fine sea salt, and 50ml of extra virgin olive oil to the yeast mixture. Mix with a wooden spoon or your hands until a shaggy dough forms.\n3.  **Knead the Dough:** Turn the dough out onto a lightly floured surface. Knead for 8-10 minutes until it’s smooth, elastic, and no longer sticky. If using a stand mixer, knead with a dough hook on medium speed for about 6-8 minutes.\n4.  **First Rise (Bulk Fermentation):** Lightly oil a clean large bowl. Place the dough in the bowl, turning it once to coat. Cover with plastic wrap or a damp tea towel and let it rise in a warm place for 1.5 to 2 hours, or until doubled in size.\n5.  **Prepare the Pan:** Generously coat a 9x13 inch (23x33 cm) baking pan with extra virgin olive oil. Don't be shy – this contributes to the crispy bottom.\n6.  **Transfer and Stretch:** Gently transfer the risen dough to the prepared pan. Using your oiled fingertips, gently stretch and press the dough to fit the pan, being careful not to deflate it completely. If it resists, let it rest for 10 minutes and try again.\n7.  **Second Rise:** Once stretched, cover the pan loosely with plastic wrap and let the dough rise again in a warm place for another 30-45 minutes, or until noticeably puffy.\n8.  **Dimple and Season:** Preheat your oven to 425°F (220°C). Once the dough has had its second rise, remove the plastic wrap. Generously drizzle the entire surface with more extra virgin olive oil. Using your oiled fingertips, press deep dimples all over the dough, ensuring you reach almost to the bottom of the pan. Sprinkle generously with coarse sea salt and the chopped fresh rosemary.\n9.  **Bake:** Bake for 20-25 minutes, or until the Focaccia Genovese Rosemary Olive Oil is golden brown on top and beautifully crisp on the bottom.\n10. **Cool and Serve:** Remove from the oven and, if desired, drizzle with a tiny bit more olive oil immediately. Let it cool in the pan for a few minutes before transferring to a wire rack to cool completely, or serve warm.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect Focaccia Genovese Rosemary Olive Oil isn’t just about following steps; it’s about understanding the nuances.\n\n*   **Hydration is Key:** Focaccia dough is generally high in hydration, making it sticky. Don't be tempted to add too much extra flour during kneading. A slightly sticky dough leads to a light, airy crumb. Use oiled hands instead of floured ones when handling the dough after the first rise.\n*   **Quality Olive Oil:** This cannot be stressed enough. A good quality extra virgin olive oil is central to the flavor of Focaccia Genovese. It should be fruity and slightly peppery. Don't use a cheap cooking oil.\n*   **Don't Skimp on the Salt:** The coarse sea salt sprinkled on top is crucial for the authentic Genovese flavor and texture. It provides bursts of salinity that complement the rich olive oil and rosemary.\n*   **Deep Dimples:** When dimpling, don't be afraid to press firmly. These indentations create those delightful pools of olive oil and ensure the focaccia has its characteristic uneven texture.\n*   **Warm Environment for Rising:** Yeast loves warmth. A slightly warm oven (turned off, with just the light on) or a sunny spot can help your dough rise beautifully.\n*   **Preheat Properly:** A hot oven ensures a good oven spring and a crispy crust. Make sure your oven is fully preheated before putting the focaccia in.\n*   **Listen to Your Dough:** Baking is as much an art as a science. If your dough needs a little more time to rise, give it. If it’s ready sooner, proceed.\n\n## Serving Suggestions\n\nFocaccia Genovese Rosemary Olive Oil is incredibly versatile and can be enjoyed in countless ways.\n\n*   **Appetizer:** Serve warm with a side of good quality balsamic vinegar for dipping, or with a selection of olives and cured meats.\n*   **Side Dish:** It makes an excellent accompaniment to soups, stews, or pasta dishes, perfect for soaking up delicious sauces.\n*   **Sandwiches:** Slice it horizontally and fill it with your favorite sandwich ingredients – prosciutto and mozzarella, roasted vegetables, or a simple caprese with fresh tomatoes, basil, and buffalo mozzarella.\n*   **Breakfast/Brunch:** Enjoy it plain with a cup of coffee, or even lightly toasted with a smear of ricotta cheese and a drizzle of honey.\n*   **With Cheese and Wine:** A beautiful addition to any cheese board, especially with aged hard cheeses or creamy soft cheeses, paired with a crisp white wine or a light-bodied red.\n*   **As a Snack:** Honestly, it’s so delicious, it’s perfect on its own, anytime of day.\n\n## Variations and Substitutions\n\nWhile the classic Focaccia Genovese Rosemary Olive Oil is perfect as is, there are many ways to customize it to your taste.\n\n*   **Herbs:** Experiment with other fresh herbs like thyme, oregano, or a mix of Italian herbs instead of or in addition to rosemary.\n*   **Toppings:** Before baking, you can add thin slices of cherry tomatoes, olives, thinly sliced onions, or even a sprinkle of Parmesan cheese. Just be mindful not to overload it, as the Genovese style is meant to be relatively simple.\n*   **Garlic:** Add thinly sliced garlic cloves or a sprinkle of garlic powder to the dough or on top before baking for an extra aromatic kick.\n*   **Whole Wheat Flour:** For a slightly nuttier flavor and denser texture, you can substitute up to 25% of the bread flour with whole wheat flour. Adjust water as needed.\n*   **Gluten-Free:** While challenging to replicate the exact texture, many gluten-free flour blends specifically designed for bread can be used. Follow the package instructions for hydration adjustments.\n*   **Spice It Up:** A pinch of red pepper flakes can add a subtle warmth if you like a little heat.\n\nMastering the Focaccia Genovese Rosemary Olive Oil is a truly rewarding endeavor for any home baker. It’s a versatile, flavorful bread that embodies the heart and soul of Italian baking, bringing a piece of the Ligurian coast right into your kitchen. Enjoy the process, and savor every delicious bite!",
+  "article": "Step into the heart of Italian baking, where simplicity meets profound flavor. Few culinary creations embody this spirit quite like focaccia, and among its many glorious forms, the Focaccia Genovese Rosemary Olive Oil stands as a true masterpiece. Hailing from the sun-drenched region of Liguria, this bread is more than just a side dish; it's a testament to the power of quality ingredients and time-honored techniques. Imagine a golden, dimpled crust, kissed with fragrant rosemary and coarse sea salt, giving way to an incredibly soft, airy interior. Each bite is a journey to the cobblestone streets of Genoa, a sensory experience that’s surprisingly achievable in your own kitchen. Whether you're a seasoned baker or a curious beginner, mastering this iconic bread will undoubtedly elevate your culinary repertoire and fill your home with an irresistible aroma.\n\n## What is Focaccia Genovese Rosemary Olive Oil?\nFocaccia Genovese, or Focaccia Ligure, is the quintessential flatbread of Genoa, the capital of Italy's Liguria region. Unlike some thicker, bread-like focaccias, the Genovese style is characterized by its relatively thin profile, incredibly high hydration, and generous use of extra virgin olive oil – both in the dough and drizzled generously on top before baking. The result is a bread with an incredibly crisp, almost fried bottom crust, a supremely tender and airy crumb, and a signature dimpled surface that creates perfect little pools for olive oil and salt. The classic topping for this particular variant, Focaccia Genovese Rosemary Olive Oil, features fresh rosemary sprigs and flaky sea salt, providing an aromatic and textural contrast that truly defines its character. It's a bread that is meant to be savored plain, dipped in more olive oil, or used as a base for simple sandwiches. Its simplicity is its strength, allowing the quality of each ingredient to shine through.\n\n## Ingredients You Need\nCrafting authentic Focaccia Genovese Rosemary Olive Oil requires a commitment to quality, particularly when it comes to your olive oil. Here's what you'll need:\n\n*   **All-Purpose Flour (or Bread Flour):** 500 grams (about 4 cups). Bread flour will give you a slightly chewier texture, while all-purpose works beautifully for a softer crumb.\n*   **Warm Water:** 400-425 ml (about 1 ¾ cups), ideally around 100-110°F (38-43°C). The high hydration is key to the focaccia's texture.\n*   **Active Dry Yeast:** 7 grams (about 2 ¼ teaspoons). This will give your focaccia its beautiful rise.\n*   **Fine Sea Salt:** 10 grams (about 1 ¾ teaspoons) for the dough.\n*   **Granulated Sugar (Optional):** 5 grams (about 1 teaspoon). A tiny bit of sugar helps activate the yeast and gives it a little boost, though it's not strictly necessary.\n*   **Extra Virgin Olive Oil:** 80-100 ml (about 1/3 to 1/2 cup), plus extra for oiling the pan and drizzling. Choose a good quality, fruity olive oil – it's a star ingredient here.\n*   **Fresh Rosemary:** 2-3 sprigs, leaves stripped and roughly chopped, plus a few small sprigs for garnish.\n*   **Flaky Sea Salt:** For sprinkling on top before baking. This provides a delightful crunch and burst of flavor.\n\n## Step-by-Step Instructions\nBaking your own Focaccia Genovese Rosemary Olive Oil is a rewarding process. Follow these steps for a perfect loaf:\n\n1.  **Activate the Yeast:** In a large bowl, combine the warm water and optional sugar. Sprinkle the active dry yeast over the water and let it sit for 5-10 minutes until it becomes foamy. This indicates the yeast is active.\n2.  **Combine Dry Ingredients:** In a separate bowl, whisk together the flour and fine sea salt.\n3.  **Mix the Dough:** Add the flour mixture to the activated yeast mixture. Stir with a wooden spoon or a sturdy spatula until a shaggy, sticky dough forms. It will be very wet – resist the urge to add more flour. Gradually drizzle in about 30 ml (2 tablespoons) of the extra virgin olive oil and mix until just incorporated. Cover the bowl with plastic wrap or a damp towel and let it rest at room temperature for 15 minutes.\n4.  **Stretch and Fold (Optional but Recommended):** After the rest, perform a few stretch-and-folds. With wet hands, gently grab a portion of the dough from one side, stretch it upwards, and fold it over itself towards the center. Rotate the bowl and repeat this process 3-4 times. This helps develop gluten without intensive kneading. Recover and let it rest for another 15 minutes. Repeat this stretch-and-fold process 2-3 more times over the next 45-60 minutes.\n5.  **First Proof:** After the final stretch and fold, cover the bowl and place it in a warm spot. Let the dough proof for 1.5 to 2 hours, or until it has doubled in size and is visibly bubbly.\n6.  **Prepare the Pan:** Generously coat a 9x13-inch baking pan (or similar size) with about 40-50 ml (3-4 tablespoons) of extra virgin olive oil. Ensure the bottom and sides are well oiled.\n7.  **Transfer and Gently Stretch:** Gently pour the proofed dough into the prepared pan. With oiled hands, gently nudge and stretch the dough to fill the pan, being careful not to deflate it too much. If it resists, let it rest for 10-15 minutes, then continue stretching.\n8.  **Second Proof:** Cover the pan loosely with plastic wrap or a damp towel and let the dough proof for another 30-45 minutes in a warm spot, until it looks puffy and airy.\n9.  **Preheat Oven:** While the dough is on its second proof, preheat your oven to 425°F (220°C).\n10. **Dimple and Top:** Once the dough is puffy, remove the cover. Generously drizzle another 20-30 ml (1-2 tablespoons) of olive oil over the surface. With wet fingertips, gently but firmly press deep indentations all over the surface of the dough. These dimples are crucial for the focaccia's texture and for holding the oil and salt. Distribute the chopped rosemary over the top, along with a few small sprigs, and sprinkle generously with flaky sea salt.\n11. **Bake:** Place the focaccia in the preheated oven and bake for 20-30 minutes, or until the top is golden brown and the bottom is crisp. You can carefully lift a corner to check the bottom.\n12. **Cool:** Once baked, immediately transfer the Focaccia Genovese Rosemary Olive Oil from the pan to a wire rack to cool slightly. This prevents the bottom from becoming soggy. Serve warm or at room temperature.\n\n## Pro Tips for the Best Results\nAchieving that perfect Focaccia Genovese Rosemary Olive Oil is all about understanding a few key principles:\n\n*   **Quality Olive Oil is Non-Negotiable:** This is arguably the most important ingredient. A high-quality extra virgin olive oil imparts incredible flavor, helps create that desirable crispy bottom crust, and contributes to the overall richness. Don't skimp here!\n*   **Hydration is Your Friend:** The dough will be very wet and sticky – embrace it! This high hydration is what gives Focaccia Genovese its characteristic open, airy crumb. Resist the urge to add more flour during mixing.\n*   **Don't Rush the Proofing:** Time is a crucial ingredient. Allow the dough ample time to rise, especially during the first proof. A well-proofed dough will be light, airy, and full of bubbles, leading to a superior texture.\n*   **The Art of Dimpling:** When dimpling, use wet fingers to prevent sticking. Press firmly down to the bottom of the pan, but don't completely deflate the dough. These indentations create pockets that trap olive oil and steam, resulting in a wonderfully uneven, textural crust.\n*   **Flaky Sea Salt:** While fine salt is used in the dough, flaky sea salt on top provides a delightful textural contrast and bursts of savory flavor. It's aesthetically pleasing too!\n*   **Hot Oven, Crisp Crust:** Baking at a relatively high temperature helps create that coveted golden, crisp crust while ensuring the interior cooks through without drying out.\n\n## Serving Suggestions\nThe beauty of Focaccia Genovese Rosemary Olive Oil lies in its versatility. It’s a fantastic standalone snack but also pairs wonderfully with a variety of dishes:\n\n*   **As an Appetizer:** Serve warm with a small bowl of high-quality extra virgin olive oil for dipping. Add a plate of cured meats, cheeses, and olives for an effortless antipasto spread.\n*   **With Soups and Salads:** Its airy texture and savory flavor make it an ideal accompaniment to hearty soups like minestrone or a fresh, vibrant salad.\n*   **For Sandwiches:** Slice it horizontally and fill with your favorite Italian deli meats, cheeses, roasted vegetables, or a simple caprese salad for an extraordinary sandwich.\n*   **Alongside Main Courses:** It’s a perfect bread to sop up sauces from pasta dishes, stews, or roasted meats.\n*   **Breakfast or Brunch:** A slice of focaccia with a fried egg and a sprinkle of black pepper makes for a surprisingly delicious and satisfying start to the day.\n\n## Variations and Substitutions\nWhile the classic Focaccia Genovese Rosemary Olive Oil is perfect as is, you can certainly experiment with variations:\n\n*   **Other Herbs:** Substitute rosemary with fresh thyme, oregano, or a mix of Italian herbs for a different aromatic profile.\n*   **Tomato and Olive:** Press halved cherry tomatoes and pitted Kalamata or Ligurian olives into the dimples before baking for a burst of juicy, briny flavor.\n*   **Caramelized Onion:** Sauté thinly sliced onions until deeply caramelized and spread them over the focaccia before dimpling and baking.\n*   **Garlic Confit:** Gently roast garlic cloves in olive oil until soft, then spread them over the focaccia for a rich, sweet garlic flavor.\n*   **Cheese:** Sprinkle a little grated Parmesan or Pecorino Romano over the focaccia during the last few minutes of baking for a cheesy crust.\n*   **Flour Types:** While all-purpose or bread flour is standard, you can experiment with a small percentage of whole wheat flour for a nuttier flavor, adjusting water content as needed.\n*   **Gluten-Free:** While challenging due to the high hydration, gluten-free flour blends specifically designed for bread baking can be used, though the texture will be different.\n\nBaking Focaccia Genovese Rosemary Olive Oil is more than just following a recipe; it's an experience. From the sticky, pliable dough to the fragrant aroma that fills your kitchen, and finally, to that first glorious bite of golden, airy perfection, it’s a journey that connects you to generations of Italian bakers. Don't be intimidated by the seemingly simple ingredients; their magic unfolds through patience and technique. Embrace the process, trust your instincts, and soon you'll be pulling your own incredible Focaccia Genovese Rosemary Olive Oil from the oven, ready to share (or perhaps, to keep all to yourself). Buon appetito!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Focaccia Genovese Rosemary Olive Oil",
     "description": "Learn how to make authentic Focaccia Genovese Rosemary Olive Oil. This easy Italian recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1744988278657-5c1674813ade?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODU4ODQ0MTh8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1777275973857-e5b0f83bf43e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3ODU4ODQ0MTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1593629718617-bc1b024cf15a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTExMzMyNjl8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1767065885993-b4c5a018bd3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBGb2NhY2NpYSUyMEdlbm92ZXNlJTIwUm9zZW1hcnklMjBJdGFsaWFuJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTExMzMyNjl8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-08-04T23:00:49.869Z",
+    "datePublished": "2026-10-04T17:02:20.720Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
-    "recipeYield": "8 servings",
+    "recipeYield": "6 servings",
     "recipeCategory": "Baking",
     "recipeCuisine": "Italian",
     "keywords": "Focaccia Genovese Rosemary Olive Oil, how to make Focaccia Genovese Rosemary Olive Oil, easy Focaccia Genovese Rosemary Olive Oil recipe, authentic Italian Focaccia Genovese Rosemary Olive Oil",
@@ -190,42 +198,47 @@
       "350ml Warm water",
       "7g Active dry yeast",
       "10g Fine sea salt",
-      "60ml Extra virgin olive oil",
+      "80ml Extra virgin olive oil",
       "2 sprigs Fresh rosemary",
-      "to taste Flaky sea salt"
+      "5g Flaky sea salt"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Activate the Yeast",
-        "text": "In a large bowl, combine the warm water and yeast. Let it sit for 5-10 minutes until foamy, indicating the yeast is active. This step is crucial for a good rise."
+        "text": "In a large bowl, combine the warm water and active dry yeast. Let it sit for 5-10 minutes until foamy, indicating the yeast is active and ready."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Dough",
-        "text": "Add the flour and fine sea salt to the yeast mixture. Stir with a wooden spoon or your hands until a shaggy dough forms. Gradually incorporate 2 tablespoons of olive oil, mixing until just combined."
+        "name": "Mix the Dough",
+        "text": "Add the all-purpose flour and fine sea salt to the yeast mixture. Stir with a wooden spoon or your hands until a shaggy dough forms. Gradually add 30ml of the extra virgin olive oil and continue to mix until it is mostly combined."
       },
       {
         "@type": "HowToStep",
         "name": "Knead and First Rise",
-        "text": "Turn the dough out onto a lightly floured surface and knead for 8-10 minutes until it becomes smooth and elastic. Place the dough in a lightly oiled bowl, cover with plastic wrap, and let it rise in a warm place for 1.5 to 2 hours, or until doubled in size."
+        "text": "Turn the dough out onto a lightly floured surface and knead for 8-10 minutes until it becomes smooth and elastic. Place the dough in a well-oiled bowl, turn to coat, cover with plastic wrap, and let it rise in a warm place for 1.5-2 hours, or until it has doubled in size."
       },
       {
         "@type": "HowToStep",
-        "name": "Transfer to Baking Pan",
-        "text": "Generously oil a 9x13 inch baking pan with 2 tablespoons of olive oil. Gently transfer the risen dough to the pan, turning it to coat both sides with oil. Carefully stretch the dough to fill the pan, being careful not to deflate it too much."
+        "name": "Prepare for Second Rise",
+        "text": "Gently deflate the dough and transfer it to a 9x13 inch baking pan that has been generously coated with olive oil. Gently stretch the dough to fill the pan evenly, being careful not to tear it. Cover the pan and let the dough rise again for 30-45 minutes."
       },
       {
         "@type": "HowToStep",
-        "name": "Dimple and Top",
-        "text": "Using your fingertips, create deep dimples all over the surface of the dough. Drizzle generously with the remaining olive oil, sprinkle with chopped fresh rosemary and flaky sea salt. Cover loosely and let it proof for another 30-45 minutes."
+        "name": "Dimple and Season",
+        "text": "Preheat your oven to 425°F (220°C). Use your fingertips to create deep dimples all over the surface of the risen dough. Drizzle generously with the remaining extra virgin olive oil, then sprinkle with the fresh rosemary and flaky sea salt."
       },
       {
         "@type": "HowToStep",
         "name": "Bake the Focaccia",
-        "text": "Preheat your oven to 425F or 220C. Bake the focaccia for 25-35 minutes, or until golden brown and cooked through. The crust should be crisp and the interior soft. Remove from oven and let cool slightly before slicing and serving."
+        "text": "Bake in the preheated oven for 25-35 minutes, or until the focaccia is golden brown on top and cooked through. If desired, you can place a small oven-safe bowl of water in the oven for extra steam during baking."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Cool and Serve",
+        "text": "Remove the focaccia from the oven and let it cool slightly in the pan before transferring it to a wire rack. Serve warm, cut into squares or strips, and enjoy the authentic taste of Genoa."
       }
     ]
   },
-  "publishedAt": "2026-08-04T23:00:49.869Z"
+  "publishedAt": "2026-10-04T17:02:20.720Z"
 }
