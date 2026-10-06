@@ -51,17 +51,17 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Turkish",
-  "image1": "https://images.unsplash.com/photo-1661685452870-e89b6e8c14fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzgxMzE4MDV8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1704742205592-15191a615455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzgxMzE4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "The Turkish Breakfast Mezze Plate, known as 'Serpme Kahvaltı', is a lavish spread featuring a delightful array of small dishes. It is a true celebration of flavors, offering everything from savory cheeses and olives to sweet jams and freshly baked bread. This vibrant meal is perfect for sharing and experiencing the rich culinary traditions of Turkey.",
+  "image1": "https://images.unsplash.com/photo-1661685452870-e89b6e8c14fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTEyODA4ODd8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1614800443187-cc573044fa19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTEyODA4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "A Turkish Breakfast Mezze Plate is a vibrant and generous spread, offering a delightful array of flavors and textures to start your day. It typically features fresh cheeses, olives, jams, honey, fresh vegetables, eggs, and various breads, making it a truly unforgettable culinary experience. This comprehensive breakfast is a cornerstone of Turkish hospitality and family gatherings.",
   "ingredients": [
     {
-      "item": "White cheese (Beyaz Peynir)",
-      "amount": "150g",
+      "item": "White cheese (feta-style)",
+      "amount": "200g",
       "notes": "cubed or sliced"
     },
     {
-      "item": "Kashar cheese",
+      "item": "Kasar cheese",
       "amount": "100g",
       "notes": "sliced"
     },
@@ -86,24 +86,19 @@
       "notes": "sliced"
     },
     {
-      "item": "Hard-boiled eggs",
+      "item": "Boiled eggs",
       "amount": "4",
       "notes": "halved"
     },
     {
-      "item": "Sucuk (Turkish sausage)",
-      "amount": "150g",
-      "notes": "sliced and fried"
-    },
-    {
       "item": "Honey",
       "amount": "1/4 cup",
-      "notes": "for serving"
+      "notes": "for drizzling"
     },
     {
       "item": "Fruit jam",
       "amount": "1/4 cup",
-      "notes": "any preferred flavor"
+      "notes": "your choice"
     },
     {
       "item": "Butter",
@@ -111,9 +106,9 @@
       "notes": "softened"
     },
     {
-      "item": "Simit or fresh bread",
+      "item": "Fresh bread (simit, pogaca, or crusty bread)",
       "amount": "1 loaf",
-      "notes": "for serving"
+      "notes": "sliced"
     },
     {
       "item": "Fresh parsley",
@@ -123,55 +118,45 @@
     {
       "item": "Walnuts",
       "amount": "1/4 cup",
-      "notes": "chopped"
-    },
-    {
-      "item": "Tahini and molasses (pekmez)",
-      "amount": "2 tbsp each",
-      "notes": "mixed for serving"
-    },
-    {
-      "item": "Fresh fruit",
-      "amount": "1 cup",
-      "notes": "such as melon or grapes"
+      "notes": "chopped (optional)"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Fresh Vegetables",
-      "text": "Wash and slice the cherry tomatoes and cucumber. Arrange them neatly on a serving plate or in small bowls. Chop the fresh parsley for garnish.",
+      "title": "Prepare the Cheeses and Olives",
+      "text": "Arrange the cubed white cheese and sliced kasar cheese neatly on a large serving plate. Place the black and green olives in small bowls and add them to the platter.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Arrange Cheeses and Olives",
-      "text": "Place the white cheese and Kashar cheese slices on your mezze plate. Add the black and green olives to separate small bowls or directly onto the main plate, ensuring a visually appealing arrangement.",
-      "time": "5 min"
+      "title": "Slice Vegetables and Eggs",
+      "text": "Wash and slice the cherry tomatoes and cucumber. Halve the boiled eggs. Arrange these fresh components artfully around the cheeses and olives on the mezze plate.",
+      "time": "10 min"
     },
     {
       "step": 3,
-      "title": "Cook Eggs and Sucuk",
-      "text": "If not already prepared, hard-boil the eggs, then peel and halve them. In a small pan, lightly fry the sliced sucuk until it is slightly crispy and cooked through. Drain any excess oil and add to the plate.",
-      "time": "15 min"
+      "title": "Add Sweet Elements",
+      "text": "Place small bowls of honey and your chosen fruit jam on the platter. Add a small dish of softened butter. These sweet and creamy additions balance the savory items.",
+      "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Prepare Spreads and Sweets",
-      "text": "In separate small bowls, place the honey, fruit jam, and softened butter. For an authentic touch, mix tahini with grape molasses (pekmez) in another small bowl.",
+      "title": "Prepare the Bread",
+      "text": "Slice the fresh bread or arrange simit and pogaca on a separate bread basket or directly on the mezze plate. Toasting is optional but can enhance flavor.",
       "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Arrange Bread and Fruit",
-      "text": "Slice the simit or fresh bread into manageable pieces and arrange them in a bread basket or directly on the mezze plate. Wash and cut fresh fruit like melon or grapes and add them to the spread.",
+      "title": "Garnish and Serve",
+      "text": "Sprinkle freshly chopped parsley over the vegetables and cheeses for color and freshness. If using, scatter chopped walnuts for added texture and flavor.",
       "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Final Assembly and Serve",
-      "text": "Arrange all the prepared items on a large platter or several smaller plates to create a bountiful spread. Garnish with chopped parsley and walnuts. Serve immediately with freshly brewed Turkish tea (çay) for a traditional experience.",
-      "time": "10 min"
+      "title": "Final Arrangement and Presentation",
+      "text": "Take a moment to ensure all elements are beautifully arranged and easily accessible. A traditional Turkish tea (çay) is a must-have accompaniment to complete the breakfast experience. Serve immediately and enjoy the feast.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
@@ -193,9 +178,9 @@
     "Turkish Breakfast Mezze Plate"
   ],
   "tips": [
-    "For the most authentic taste, always prioritize fresh, high-quality ingredients, especially for cheeses and olives. Visit a Turkish market if possible.",
-    "A true Turkish breakfast is incomplete without a variety of textures and flavors. Dont be afraid to add other small dishes like menemen (scrambled eggs with vegetables) or börek (savory pastries).",
-    "Serve your Turkish Breakfast Mezze Plate with endless cups of freshly brewed Turkish tea (çay) for the full cultural experience. It is customary to sip tea throughout the meal."
+    "For an authentic touch, always include a variety of Turkish cheeses like beyaz peynir and tulum peyniri if available, alongside the more common kasar.",
+    "Don't forget the fresh herbs! A generous sprinkle of fresh parsley or dill adds vibrant color and a burst of flavor to your mezze plate.",
+    "Serve your mezze plate with freshly brewed Turkish tea (çay) in traditional small tulip-shaped glasses for the most authentic experience."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -206,14 +191,14 @@
     "name": "Turkish Breakfast Mezze Plate",
     "description": "Learn how to make authentic Turkish Breakfast Mezze Plate. This easy Turkish recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1661685452870-e89b6e8c14fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzgxMzE4MDV8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1704742205592-15191a615455?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3NzgxMzE4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1661685452870-e89b6e8c14fa?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTEyODA4ODd8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1614800443187-cc573044fa19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBUdXJraXNoJTIwQnJlYWtmYXN0JTIwTWV6emUlMjBUdXJraXNoJTIwZm9vZCUyMHBob3RvZ3JhcGh5fGVufDB8MHx8fDE3OTEyODA4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-05-07T05:30:22.300Z",
+    "datePublished": "2026-10-06T10:01:54.082Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -231,55 +216,52 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "150g White cheese (Beyaz Peynir)",
-      "100g Kashar cheese",
+      "200g White cheese (feta-style)",
+      "100g Kasar cheese",
       "1/2 cup Black olives",
       "1/2 cup Green olives",
       "1 cup Cherry tomatoes",
       "1 Cucumber",
-      "4 Hard-boiled eggs",
-      "150g Sucuk (Turkish sausage)",
+      "4 Boiled eggs",
       "1/4 cup Honey",
       "1/4 cup Fruit jam",
       "2 tbsp Butter",
-      "1 loaf Simit or fresh bread",
+      "1 loaf Fresh bread (simit, pogaca, or crusty bread)",
       "2 tbsp Fresh parsley",
-      "1/4 cup Walnuts",
-      "2 tbsp each Tahini and molasses (pekmez)",
-      "1 cup Fresh fruit"
+      "1/4 cup Walnuts"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Fresh Vegetables",
-        "text": "Wash and slice the cherry tomatoes and cucumber. Arrange them neatly on a serving plate or in small bowls. Chop the fresh parsley for garnish."
+        "name": "Prepare the Cheeses and Olives",
+        "text": "Arrange the cubed white cheese and sliced kasar cheese neatly on a large serving plate. Place the black and green olives in small bowls and add them to the platter."
       },
       {
         "@type": "HowToStep",
-        "name": "Arrange Cheeses and Olives",
-        "text": "Place the white cheese and Kashar cheese slices on your mezze plate. Add the black and green olives to separate small bowls or directly onto the main plate, ensuring a visually appealing arrangement."
+        "name": "Slice Vegetables and Eggs",
+        "text": "Wash and slice the cherry tomatoes and cucumber. Halve the boiled eggs. Arrange these fresh components artfully around the cheeses and olives on the mezze plate."
       },
       {
         "@type": "HowToStep",
-        "name": "Cook Eggs and Sucuk",
-        "text": "If not already prepared, hard-boil the eggs, then peel and halve them. In a small pan, lightly fry the sliced sucuk until it is slightly crispy and cooked through. Drain any excess oil and add to the plate."
+        "name": "Add Sweet Elements",
+        "text": "Place small bowls of honey and your chosen fruit jam on the platter. Add a small dish of softened butter. These sweet and creamy additions balance the savory items."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Spreads and Sweets",
-        "text": "In separate small bowls, place the honey, fruit jam, and softened butter. For an authentic touch, mix tahini with grape molasses (pekmez) in another small bowl."
+        "name": "Prepare the Bread",
+        "text": "Slice the fresh bread or arrange simit and pogaca on a separate bread basket or directly on the mezze plate. Toasting is optional but can enhance flavor."
       },
       {
         "@type": "HowToStep",
-        "name": "Arrange Bread and Fruit",
-        "text": "Slice the simit or fresh bread into manageable pieces and arrange them in a bread basket or directly on the mezze plate. Wash and cut fresh fruit like melon or grapes and add them to the spread."
+        "name": "Garnish and Serve",
+        "text": "Sprinkle freshly chopped parsley over the vegetables and cheeses for color and freshness. If using, scatter chopped walnuts for added texture and flavor."
       },
       {
         "@type": "HowToStep",
-        "name": "Final Assembly and Serve",
-        "text": "Arrange all the prepared items on a large platter or several smaller plates to create a bountiful spread. Garnish with chopped parsley and walnuts. Serve immediately with freshly brewed Turkish tea (çay) for a traditional experience."
+        "name": "Final Arrangement and Presentation",
+        "text": "Take a moment to ensure all elements are beautifully arranged and easily accessible. A traditional Turkish tea (çay) is a must-have accompaniment to complete the breakfast experience. Serve immediately and enjoy the feast."
       }
     ]
   },
-  "publishedAt": "2026-05-07T05:30:22.330Z"
+  "publishedAt": "2026-10-06T10:01:54.121Z"
 }
