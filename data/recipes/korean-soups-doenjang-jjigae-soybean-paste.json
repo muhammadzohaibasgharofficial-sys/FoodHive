@@ -51,44 +51,19 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.unsplash.com/photo-1709433420624-832e2264c346?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDU5Njk2OHww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1760228865341-675704c22a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDU5Njk2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Doenjang Jjigae is a comforting and hearty Korean soybean paste stew, a staple in Korean households. It features a savory, umami-rich broth made with doenjang, simmered with an assortment of fresh vegetables, silky tofu, and sometimes meat or seafood. This versatile dish is deeply flavorful and perfect for any meal, offering a taste of authentic Korean home cooking.",
+  "image1": "https://images.unsplash.com/photo-1709433420624-832e2264c346?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MTM1NjUxMnww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1760228865341-675704c22a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MTM1NjUxMnww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Doenjang Jjigae is a comforting and hearty Korean soybean paste stew, a true staple in Korean households. It features a rich, savory broth made from fermented soybean paste, packed with an assortment of vegetables, tofu, and often meat or seafood. This beloved stew is cherished for its deeply umami flavor and warming qualities, making it a perfect dish for any meal.",
   "ingredients": [
     {
-      "item": "Doenjang (Korean soybean paste)",
+      "item": "Doenjang Korean soybean paste",
       "amount": "3 tbsp",
       "notes": ""
     },
     {
-      "item": "Water or anchovy broth",
-      "amount": "4 cups",
-      "notes": ""
-    },
-    {
-      "item": "Firm or soft tofu",
-      "amount": "1 block (14 oz)",
-      "notes": "diced into 1-inch cubes"
-    },
-    {
-      "item": "Zucchini",
-      "amount": "1/2 medium",
-      "notes": "half-moons"
-    },
-    {
-      "item": "Korean radish or potato",
-      "amount": "1/2 cup",
-      "notes": "diced"
-    },
-    {
-      "item": "Yellow onion",
-      "amount": "1/2 medium",
-      "notes": "sliced"
-    },
-    {
-      "item": "Mushrooms (e.g., shiitake, enoki, button)",
-      "amount": "1 cup",
-      "notes": "sliced or torn"
+      "item": "Gochugaru Korean chili flakes",
+      "amount": "1 tsp",
+      "notes": "optional, for heat"
     },
     {
       "item": "Garlic",
@@ -96,61 +71,91 @@
       "notes": "minced"
     },
     {
-      "item": "Green onion",
-      "amount": "1 stalk",
-      "notes": "chopped for garnish"
+      "item": "Yellow onion",
+      "amount": "1/2 medium",
+      "notes": "diced"
     },
     {
-      "item": "Cheongyang chili pepper (optional, for heat)",
+      "item": "Zucchini",
+      "amount": "1/2 medium",
+      "notes": "half-moon sliced"
+    },
+    {
+      "item": "Potatoes",
+      "amount": "1 medium",
+      "notes": "peeled, diced"
+    },
+    {
+      "item": "Mushrooms",
+      "amount": "1 cup",
+      "notes": "shiitake or enoki, sliced"
+    },
+    {
+      "item": "Firm tofu",
+      "amount": "1/2 block",
+      "notes": "diced"
+    },
+    {
+      "item": "Green chili pepper",
       "amount": "1",
-      "notes": "sliced"
+      "notes": "sliced, such as serrano or jalapeño"
     },
     {
-      "item": "Gochugaru (Korean chili flakes, optional)",
-      "amount": "1/2 tsp",
+      "item": "Scallions",
+      "amount": "2",
+      "notes": "chopped, for garnish"
+    },
+    {
+      "item": "Water or anchovy broth",
+      "amount": "4 cups",
       "notes": ""
     },
     {
-      "item": "Sesame oil (optional, for serving)",
+      "item": "Pork belly or beef brisket",
+      "amount": "4 oz",
+      "notes": "thinly sliced, optional"
+    },
+    {
+      "item": "Sesame oil",
       "amount": "1 tsp",
-      "notes": ""
+      "notes": "for serving, optional"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Broth and Vegetables",
-      "text": "If using anchovy broth, prepare it by simmering dried anchovies and kombu in water for 15-20 minutes, then strain. Otherwise, use plain water. Dice the tofu, zucchini, radish or potato, and slice the onion and mushrooms. Mince the garlic and slice the green onion and chili pepper.",
+      "title": "Prepare Ingredients and Broth",
+      "text": "Chop all vegetables and tofu as specified. If using anchovy broth, prepare it by simmering dried anchovies and kelp in water for 15-20 minutes, then strain. Alternatively, use plain water.",
       "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Combine Doenjang and Broth",
-      "text": "In a medium pot or dolsot (earthenware pot), add the doenjang and a small amount of the prepared broth. Stir well to dissolve the doenjang completely, forming a smooth paste. This prevents lumps in your stew.",
-      "time": "3 min"
-    },
-    {
-      "step": 3,
-      "title": "Add Initial Vegetables and Broth",
-      "text": "Pour in the remaining broth. Add the diced radish or potato and sliced onion to the pot. Bring the mixture to a boil over medium-high heat, then reduce heat to medium. Simmer for about 10 minutes until the radish or potato starts to soften.",
-      "time": "15 min"
-    },
-    {
-      "step": 4,
-      "title": "Introduce More Ingredients",
-      "text": "Add the minced garlic, sliced zucchini, and mushrooms to the pot. If using, also add the gochugaru and sliced Cheongyang chili pepper for an extra kick. Stir gently to combine all ingredients.",
+      "title": "Sauté Meat and Aromatics",
+      "text": "If using pork belly or beef, heat a small amount of oil in a dolsot Korean earthenware pot or a medium pot over medium-high heat. Add the meat and sauté until lightly browned. Add minced garlic and diced onion, sauté for another 2-3 minutes until fragrant.",
       "time": "5 min"
     },
     {
+      "step": 3,
+      "title": "Add Doenjang and Broth",
+      "text": "Stir in the doenjang soybean paste and gochugaru chili flakes, if using, mixing well with the sautéed ingredients for about 1 minute. Pour in the water or anchovy broth, scraping the bottom of the pot to deglaze.",
+      "time": "3 min"
+    },
+    {
+      "step": 4,
+      "title": "Simmer Vegetables",
+      "text": "Bring the stew to a boil. Once boiling, add the diced potatoes and zucchini. Reduce heat to medium-low, cover, and simmer for about 10-15 minutes, or until the potatoes are tender.",
+      "time": "15 min"
+    },
+    {
       "step": 5,
-      "title": "Add Tofu and Simmer",
-      "text": "Carefully add the diced tofu to the stew. Avoid stirring too vigorously to prevent breaking the tofu. Continue to simmer for another 5-7 minutes, allowing all the flavors to meld and the vegetables to cook through. The tofu should be heated thoroughly.",
+      "title": "Add Tofu and Mushrooms",
+      "text": "Stir in the mushrooms and diced tofu. Continue to simmer for another 5-7 minutes, allowing the flavors to meld and the tofu to heat through.",
       "time": "7 min"
     },
     {
       "step": 6,
-      "title": "Final Touches and Serve",
-      "text": "Taste and adjust seasoning if needed; you might add a pinch more doenjang or a dash of salt. Stir in the chopped green onions just before serving. For an extra layer of flavor, drizzle with a touch of sesame oil. Serve hot with a bowl of freshly cooked rice and various banchan (side dishes).",
+      "title": "Finish and Serve",
+      "text": "Add the sliced green chili pepper and most of the chopped scallions. Simmer for 1-2 more minutes. Taste and adjust seasoning if necessary, though doenjang is typically salty enough. Serve immediately with a bowl of hot white rice, garnished with remaining scallions and a drizzle of sesame oil if desired.",
       "time": "5 min"
     }
   ],
@@ -173,27 +178,27 @@
     "Doenjang Jjigae Soybean Paste"
   ],
   "tips": [
-    "For a richer flavor, use a homemade anchovy-kombu broth instead of plain water. The umami from the dried anchovies and kelp significantly deepens the stew's taste.",
-    "Doenjang quality varies greatly. Invest in a good quality, traditional Korean doenjang for the most authentic and robust flavor. Some brands are saltier than others, so adjust quantity to taste.",
-    "Doenjang Jjigae is best enjoyed immediately while hot. Serve it directly in the dolsot it was cooked in to keep it sizzling at the table, a classic Korean presentation."
+    "For a deeper umami flavor, always use a good quality Korean doenjang, ideally one that is aged.",
+    "Dont overcook the vegetables; they should be tender but still have a slight bite for best texture.",
+    "Serve Doenjang Jjigae bubbling hot directly from the dolsot with a side of rice and various banchan Korean side dishes."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Doenjang Jjigae Soybean Paste is a beloved Korean Soups and Stews dish enjoyed across Korean. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Dive into the heart of Korean comfort food with Doenjang Jjigae Soybean Paste, a humble yet profoundly flavorful stew that graces tables across Korea daily. More than just a meal, it's a warm embrace in a bowl, a testament to the power of fermented soybeans to create an incredibly rich, savory, and deeply satisfying experience. If you’ve ever yearned for a taste of authentic Korean home cooking, this iconic stew, brimming with vegetables, tofu, and sometimes meat or seafood, is your perfect entry point. Its complex umami profile, combined with a gentle heat and an array of textures, makes Doenjang Jjigae Soybean Paste not just food, but a culinary journey.\n\n## What is Doenjang Jjigae Soybean Paste?\n\nAt its core, Doenjang Jjigae is a hearty, bubbling stew built around doenjang, a fermented soybean paste that is a foundational ingredient in Korean cuisine. Similar in concept to Japanese miso, but with a more robust, earthy, and pungent flavor, doenjang is made from soybeans that are boiled, pounded into blocks (meju), fermented, and then aged. This natural fermentation process develops its distinct savory profile, packed with an intense umami that forms the soul of the stew.\n\nThe \"jjigae\" part simply means \"stew,\" indicating its thicker consistency compared to a soup (guk). Doenjang Jjigae Soybean Paste is typically cooked in an earthenware pot (tteokbaegi) and served still bubbling hot, right off the stove. It's renowned for its incredible depth of flavor – a perfect balance of savory, slightly salty, and often a hint of spicy, with a comforting warmth that permeates every spoonful. It’s a staple side dish, often appearing alongside grilled meats or as a standalone meal with rice and various banchan (side dishes).\n\n## Ingredients You Need\n\nCrafting a delicious Doenjang Jjigae Soybean Paste begins with quality ingredients. Here's what you'll typically need for a classic rendition:\n\nFor the Broth:\n*   **Dried Anchovies (Deulkkae):** About 10-15 large, head-and-gutted anchovies for a rich, savory base.\n*   **Dried Kelp (Dashima):** A 4x4 inch piece for added umami and depth.\n*   **Water:** Approximately 4-5 cups.\n\nMain Ingredients:\n*   **Doenjang (Korean Soybean Paste):** 3-4 tablespoons. This is the star; choose a good quality brand for the best flavor.\n*   **Gochugaru (Korean Chili Flakes):** 1-2 teaspoons (optional, for heat and color).\n*   **Minced Garlic:** 1 tablespoon.\n*   **Onion:** 1 small, diced.\n*   **Zucchini:** 1 small, half-moon sliced.\n*   **Potatoes:** 1 small, peeled and diced.\n*   **Mushrooms:** 4-5 shiitake or oyster mushrooms, sliced.\n*   **Firm Tofu:** Half a block (about 7-8 oz), cubed.\n*   **Green Onions:** 2 stalks, chopped for garnish.\n*   **Optional:** 1-2 small green or red chilies (e.g., serrano or jalapeño), sliced, for extra kick.\n\n## Step-by-Step Instructions\n\nMaking Doenjang Jjigae Soybean Paste is straightforward and incredibly rewarding.\n\n1.  **Prepare the Broth:** In a medium pot, combine the water, dried anchovies, and dried kelp. Bring to a boil, then reduce heat and simmer for 15-20 minutes. Remove and discard the anchovies and kelp. You now have a flavorful anchovy-kelp broth (dashima-yuksu).\n2.  **Sauté Aromatics (Optional but Recommended):** In a small earthenware pot or a medium saucepan, add a tiny bit of oil (if using meat/seafood, sauté that first). Then, add the diced onion and minced garlic. Sauté for 1-2 minutes until fragrant.\n3.  **Add Doenjang and Gochugaru:** Stir in the doenjang and gochugaru (if using) with the sautéed aromatics. Cook for another minute, allowing the paste to bloom and release its flavors.\n4.  **Combine with Broth:** Pour the prepared anchovy-kelp broth into the pot with the doenjang mixture. Bring it to a boil.\n5.  **Add Vegetables:** Once boiling, add the potatoes first, as they take longer to cook. Cook for about 5 minutes until they start to soften. Then add the zucchini and mushrooms.\n6.  **Simmer and Add Tofu:** Reduce the heat to medium-low and let the stew simmer for another 5-7 minutes, or until all vegetables are tender. Gently add the cubed tofu and sliced chilies (if using). Simmer for an additional 2-3 minutes, allowing the tofu to heat through and absorb the flavors.\n7.  **Final Touches:** Taste and adjust seasoning. Some doenjangs are saltier than others, so you might not need extra salt. Garnish with chopped green onions just before serving.\n\n## Pro Tips for the Best Results\n\n*   **Quality Doenjang is Key:** The flavor of your Doenjang Jjigae Soybean Paste heavily relies on the quality of your doenjang. Look for artisanal or traditional doenjang in Korean grocery stores for a richer, more complex taste. Some even come with small pieces of whole soybeans, indicating a less processed product.\n*   **Don't Over-Simmer:** While the flavors meld beautifully, overcooking can make the vegetables mushy. Add ingredients in stages based on their cooking time.\n*   **Adjust Spice to Taste:** Gochugaru and fresh chilies are optional. If you prefer a milder stew, omit them entirely. For more heat, feel free to add more gochugaru or a spicier chili.\n*   **Flavor Boosters:** A tiny pinch of sugar or a touch of rice wine can subtly enhance the overall flavor profile. A tablespoon of gochujang (Korean chili paste) can also be added along with doenjang for a spicier, slightly sweeter, and thicker stew, creating a hybrid flavor often enjoyed.\n*   **Allow to Rest Briefly:** Like many stews, Doenjang Jjigae Soybean Paste often tastes even better after sitting for a few minutes off the heat, allowing the flavors to deepen and meld.\n\n## Serving Suggestions\n\nDoenjang Jjigae Soybean Paste is almost always served with a bowl of freshly steamed white or multi-grain rice. It's meant to be eaten family-style, with the bubbling pot placed in the center of the table, and individual servings spooned into smaller bowls.\n\nAccompanying the stew are various banchan – small side dishes like kimchi, pickled radishes, seasoned spinach, or stir-fried anchovies. The combination of the warm, savory stew with fluffy rice and crisp, refreshing banchan creates a balanced and incredibly satisfying meal. You can also enjoy it alongside grilled meat dishes like samgyeopsal (pork belly) or bulgogi, where its robust flavor cuts through the richness of the meat beautifully.\n\n## Variations and Substitutions\n\nThe beauty of Doenjang Jjigae Soybean Paste lies in its versatility. Many variations exist, reflecting regional differences and personal preferences.\n\n*   **Protein Power:**\n    *   **Beef:** Thinly sliced beef brisket or chuck can be added at the beginning, sautéed with the onions and garlic, for a richer stew.\n    *   **Pork:** Small pieces of pork belly or shoulder can also be used.\n    *   **Seafood:** Clams, shrimp, or even small pieces of cod can transform the stew into a seafood medley, imparting a sweet brininess. Add seafood towards the end of cooking to prevent overcooking.\n*   **Vegetable Swaps:** Feel free to experiment with other vegetables. Enoki mushrooms, napa cabbage, radish, spinach, or even sweet potatoes can be delicious additions. Just be mindful of their cooking times.\n*   **Broth Alternatives:** While anchovy-kelp broth is traditional, you can use vegetable broth for a vegetarian version, or even chicken or beef broth for a different flavor profile.\n*   **Spice Level:** For those who crave more heat, adding a spoonful of gochujang (Korean chili paste) alongside the doenjang will give it a richer, spicier kick and a slightly thicker consistency.\n*   **Cheonggukjang Jjigae:** A closely related stew uses cheonggukjang, a much stronger, more pungent fermented soybean paste, often called \"Korean natto.\" It's an acquired taste but deeply loved by many Koreans.\n\nDoenjang Jjigae Soybean Paste is more than just a recipe; it's a culinary canvas for comfort and flavor. Whether you stick to the classic version or explore its endless variations, this iconic Korean stew promises a heartwarming and deeply satisfying experience every time. Embrace the rich heritage of Korean fermentation and bring this bubbling pot of goodness to your table today.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Doenjang Jjigae Soybean Paste",
     "description": "Learn how to make authentic Doenjang Jjigae Soybean Paste. This easy Korean recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1709433420624-832e2264c346?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDU5Njk2OHww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1760228865341-675704c22a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MDU5Njk2OHww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1709433420624-832e2264c346?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MTM1NjUxMnww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1760228865341-675704c22a5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBEb2VuamFuZyUyMEpqaWdhZSUyMFNveWJlYW4lMjBLb3JlYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MTM1NjUxMnww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-09-28T12:03:25.920Z",
+    "datePublished": "2026-10-07T07:03:16.416Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -211,51 +216,52 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "3 tbsp Doenjang (Korean soybean paste)",
-      "4 cups Water or anchovy broth",
-      "1 block (14 oz) Firm or soft tofu",
-      "1/2 medium Zucchini",
-      "1/2 cup Korean radish or potato",
-      "1/2 medium Yellow onion",
-      "1 cup Mushrooms (e.g., shiitake, enoki, button)",
+      "3 tbsp Doenjang Korean soybean paste",
+      "1 tsp Gochugaru Korean chili flakes",
       "3 cloves Garlic",
-      "1 stalk Green onion",
-      "1 Cheongyang chili pepper (optional, for heat)",
-      "1/2 tsp Gochugaru (Korean chili flakes, optional)",
-      "1 tsp Sesame oil (optional, for serving)"
+      "1/2 medium Yellow onion",
+      "1/2 medium Zucchini",
+      "1 medium Potatoes",
+      "1 cup Mushrooms",
+      "1/2 block Firm tofu",
+      "1 Green chili pepper",
+      "2 Scallions",
+      "4 cups Water or anchovy broth",
+      "4 oz Pork belly or beef brisket",
+      "1 tsp Sesame oil"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Broth and Vegetables",
-        "text": "If using anchovy broth, prepare it by simmering dried anchovies and kombu in water for 15-20 minutes, then strain. Otherwise, use plain water. Dice the tofu, zucchini, radish or potato, and slice the onion and mushrooms. Mince the garlic and slice the green onion and chili pepper."
+        "name": "Prepare Ingredients and Broth",
+        "text": "Chop all vegetables and tofu as specified. If using anchovy broth, prepare it by simmering dried anchovies and kelp in water for 15-20 minutes, then strain. Alternatively, use plain water."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Doenjang and Broth",
-        "text": "In a medium pot or dolsot (earthenware pot), add the doenjang and a small amount of the prepared broth. Stir well to dissolve the doenjang completely, forming a smooth paste. This prevents lumps in your stew."
+        "name": "Sauté Meat and Aromatics",
+        "text": "If using pork belly or beef, heat a small amount of oil in a dolsot Korean earthenware pot or a medium pot over medium-high heat. Add the meat and sauté until lightly browned. Add minced garlic and diced onion, sauté for another 2-3 minutes until fragrant."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Initial Vegetables and Broth",
-        "text": "Pour in the remaining broth. Add the diced radish or potato and sliced onion to the pot. Bring the mixture to a boil over medium-high heat, then reduce heat to medium. Simmer for about 10 minutes until the radish or potato starts to soften."
+        "name": "Add Doenjang and Broth",
+        "text": "Stir in the doenjang soybean paste and gochugaru chili flakes, if using, mixing well with the sautéed ingredients for about 1 minute. Pour in the water or anchovy broth, scraping the bottom of the pot to deglaze."
       },
       {
         "@type": "HowToStep",
-        "name": "Introduce More Ingredients",
-        "text": "Add the minced garlic, sliced zucchini, and mushrooms to the pot. If using, also add the gochugaru and sliced Cheongyang chili pepper for an extra kick. Stir gently to combine all ingredients."
+        "name": "Simmer Vegetables",
+        "text": "Bring the stew to a boil. Once boiling, add the diced potatoes and zucchini. Reduce heat to medium-low, cover, and simmer for about 10-15 minutes, or until the potatoes are tender."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Tofu and Simmer",
-        "text": "Carefully add the diced tofu to the stew. Avoid stirring too vigorously to prevent breaking the tofu. Continue to simmer for another 5-7 minutes, allowing all the flavors to meld and the vegetables to cook through. The tofu should be heated thoroughly."
+        "name": "Add Tofu and Mushrooms",
+        "text": "Stir in the mushrooms and diced tofu. Continue to simmer for another 5-7 minutes, allowing the flavors to meld and the tofu to heat through."
       },
       {
         "@type": "HowToStep",
-        "name": "Final Touches and Serve",
-        "text": "Taste and adjust seasoning if needed; you might add a pinch more doenjang or a dash of salt. Stir in the chopped green onions just before serving. For an extra layer of flavor, drizzle with a touch of sesame oil. Serve hot with a bowl of freshly cooked rice and various banchan (side dishes)."
+        "name": "Finish and Serve",
+        "text": "Add the sliced green chili pepper and most of the chopped scallions. Simmer for 1-2 more minutes. Taste and adjust seasoning if necessary, though doenjang is typically salty enough. Serve immediately with a bowl of hot white rice, garnished with remaining scallions and a drizzle of sesame oil if desired."
       }
     ]
   },
-  "publishedAt": "2026-09-28T12:03:25.921Z"
+  "publishedAt": "2026-10-07T07:03:16.416Z"
 }
