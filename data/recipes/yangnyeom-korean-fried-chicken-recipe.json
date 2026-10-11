@@ -8,43 +8,51 @@
   "categoryName": "Chicken Recipes",
   "categoryIcon": "🍗",
   "seo": {
-    "title": "Yangnyeom Chicken Recipe: Crispy Korean Fried Chicken",
-    "metaDescription": "Master the art of Yangnyeom Chicken with our easy recipe! Get crispy Korean fried chicken coated in a delicious sweet and spicy sauce. Perfect for any meal.",
+    "title": "Yangnyeom Chicken: Best Korean Fried Chicken Recipe!",
+    "metaDescription": "Craving crispy, sweet, and spicy Yangnyeom Chicken? Get our easy, authentic Korean fried chicken recipe for the best homemade results!",
     "urlSlug": "yangnyeom-korean-fried-chicken-recipe",
     "mainKeyword": "Yangnyeom Chicken",
     "longTailKeywords": [
-      "how to make Yangnyeom Chicken",
+      "how to make Yangnyeom Korean Fried Chicken",
       "easy Yangnyeom Chicken recipe",
       "authentic Korean Yangnyeom Chicken",
       "Yangnyeom Chicken step by step",
-      "best Yangnyeom Chicken at home"
+      "best Yangnyeom Chicken at home",
+      "spicy Korean fried chicken recipe",
+      "sweet and spicy Korean chicken"
     ],
     "lowCompetitionKeywords": [
       "homemade Yangnyeom Chicken sauce recipe",
-      "Korean sweet spicy fried chicken recipe",
-      "crispy Yangnyeom Chicken recipe"
+      "crispy Yangnyeom chicken recipe",
+      "Korean fried chicken sauce recipe easy"
     ],
-    "searchIntent": "transactional",
-    "h1": "Yangnyeom Chicken: Authentic Korean Fried Chicken Recipe",
+    "searchIntent": "informational",
+    "h1": "The Best Yangnyeom Chicken Recipe (Korean Fried Chicken)",
     "h2Headings": [
       "What is Yangnyeom Chicken?",
-      "Ingredients for Yangnyeom Korean Fried Chicken",
-      "How to Make Yangnyeom Korean Fried Chicken",
-      "Tips for Perfect Crispy Yangnyeom Chicken",
+      "Ingredients for Crispy Korean Fried Chicken",
+      "How to Make Yangnyeom Sauce",
+      "Step-by-Step Yangnyeom Chicken Instructions",
+      "Pro Tips for Perfect Results",
       "Serving Suggestions & Pairings",
-      "Variations and Substitutions"
+      "Storage and Reheating Tips",
+      "Variations: Adjusting the Spice Level"
     ],
     "imageFilename": "yangnyeom-korean-fried-chicken-recipe.jpg",
-    "imageAlt": "Plate of crispy Yangnyeom Korean fried chicken with sweet and spicy sauce and sesame seeds",
-    "imageCaption": "Indulge in the irresistible crunch and flavor of homemade Yangnyeom Korean Fried Chicken!",
+    "imageAlt": "Plate of crispy Yangnyeom Chicken garnished with sesame seeds and green onions",
+    "imageCaption": "Irresistibly crispy and coated in a delicious sweet and spicy sauce, this homemade Yangnyeom Chicken is a crowd-pleaser!",
     "internalLinks": [
       {
         "anchor": "More Chicken Recipes",
         "url": "/categories/chicken"
       },
       {
-        "anchor": "Explore Korean Recipes",
-        "url": "/cuisine/korean"
+        "anchor": "Authentic Korean Recipes",
+        "url": "/countries/korean"
+      },
+      {
+        "anchor": "Korean Fried Chicken Sauce",
+        "url": "/recipes/korean-fried-chicken-sauce"
       }
     ]
   },
@@ -54,14 +62,14 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.unsplash.com/photo-1661366394743-fe30fe478ef7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTEzNjM2NjZ8MA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1645371958635-88dd6c8e1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTEzNjM2NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Yangnyeom Korean Fried Chicken is a beloved dish featuring perfectly crisp chicken coated in an irresistible sweet, spicy, and tangy sauce. Each bite offers a satisfying crunch followed by a burst of complex flavors, making it a truly addictive culinary experience. This iconic Korean comfort food is perfect for gatherings, late-night snacks, or a flavorful family meal.",
+  "image1": "https://images.unsplash.com/photo-1661366394743-fe30fe478ef7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTE3MzYyMjR8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1645371958635-88dd6c8e1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTE3MzYyMjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Yangnyeom Chicken is a popular Korean fried chicken dish known for its irresistible sweet, spicy, and tangy sauce coating. This recipe delivers incredibly crispy chicken pieces generously coated in a vibrant, flavorful sauce, making it a beloved comfort food. Perfect for a family meal or a casual gathering, it offers a delightful balance of textures and tastes that will transport you straight to the streets of Seoul.",
   "ingredients": [
     {
-      "item": "Chicken thighs or wings",
-      "amount": "2 lbs",
-      "notes": "boneless, skinless, cut into 2-inch pieces"
+      "item": "Boneless, skinless chicken thighs",
+      "amount": "1 kg",
+      "notes": "cut into 1.5-inch pieces"
     },
     {
       "item": "Salt",
@@ -74,9 +82,24 @@
       "notes": ""
     },
     {
-      "item": "Fresh ginger",
-      "amount": "1 tbsp",
-      "notes": "grated"
+      "item": "Ginger powder",
+      "amount": "0.5 tsp",
+      "notes": "or grated fresh ginger"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": "1 tsp",
+      "notes": ""
+    },
+    {
+      "item": "Soju or Mirin",
+      "amount": "2 tbsp",
+      "notes": "rice wine"
+    },
+    {
+      "item": "Potato starch or cornstarch",
+      "amount": "1 cup",
+      "notes": ""
     },
     {
       "item": "All-purpose flour",
@@ -84,68 +107,53 @@
       "notes": ""
     },
     {
-      "item": "Cornstarch or potato starch",
-      "amount": "0.5 cup",
-      "notes": "for extra crispiness"
-    },
-    {
-      "item": "Baking powder",
-      "amount": "0.5 tsp",
-      "notes": ""
-    },
-    {
-      "item": "Large egg",
+      "item": "Egg",
       "amount": "1",
-      "notes": ""
+      "notes": "beaten"
     },
     {
-      "item": "Cold water",
+      "item": "Water",
       "amount": "0.5 cup",
-      "notes": ""
+      "notes": "cold"
     },
     {
       "item": "Vegetable oil",
-      "amount": "4-6 cups",
+      "amount": "4-5 cups",
       "notes": "for deep frying"
     },
     {
       "item": "Gochujang (Korean chili paste)",
-      "amount": "0.5 cup",
+      "amount": "3 tbsp",
       "notes": ""
     },
     {
       "item": "Soy sauce",
-      "amount": "0.25 cup",
-      "notes": ""
-    },
-    {
-      "item": "Mirin (rice wine)",
-      "amount": "0.25 cup",
-      "notes": ""
-    },
-    {
-      "item": "Corn syrup or honey",
-      "amount": "0.25 cup",
-      "notes": ""
-    },
-    {
-      "item": "Brown sugar",
       "amount": "2 tbsp",
-      "notes": ""
-    },
-    {
-      "item": "Garlic",
-      "amount": "2 tbsp",
-      "notes": "minced"
-    },
-    {
-      "item": "Fresh ginger",
-      "amount": "1 tbsp",
-      "notes": "grated"
+      "notes": "light"
     },
     {
       "item": "Rice vinegar",
       "amount": "1 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Honey or corn syrup",
+      "amount": "3 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Brown sugar",
+      "amount": "1 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Minced garlic",
+      "amount": "2 cloves",
+      "notes": ""
+    },
+    {
+      "item": "Minced ginger",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
@@ -159,46 +167,46 @@
       "notes": "for garnish"
     },
     {
-      "item": "Green onions",
-      "amount": "2",
-      "notes": "chopped, for garnish"
+      "item": "Chopped green onions",
+      "amount": "2 tbsp",
+      "notes": "for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Chicken",
-      "text": "Pat the chicken pieces very dry with paper towels. Season them evenly with salt, black pepper, and grated ginger. Set aside to marinate for at least 10 minutes.",
-      "time": "10 min"
+      "text": "In a large bowl, season the chicken pieces with salt, black pepper, ginger powder, garlic powder, and soju or mirin. Mix well and let it marinate for at least 15 minutes at room temperature, or up to 30 minutes in the refrigerator.",
+      "time": "15 min"
     },
     {
       "step": 2,
-      "title": "Mix the Batter",
-      "text": "In a large bowl, whisk together the all-purpose flour, cornstarch (or potato starch), and baking powder. In a separate bowl, beat the egg with cold water. Gradually add the wet mixture to the dry ingredients, stirring until a smooth, pancake-like batter forms. Ensure there are no lumps.",
+      "title": "Make the Batter",
+      "text": "In a separate bowl, combine the potato starch, all-purpose flour, beaten egg, and cold water. Mix until a smooth, thick batter forms. Add the marinated chicken to the batter and toss to ensure each piece is fully coated.",
       "time": "5 min"
     },
     {
       "step": 3,
       "title": "Prepare the Yangnyeom Sauce",
-      "text": "In a small saucepan, combine the gochujang, soy sauce, mirin, corn syrup (or honey), brown sugar, minced garlic, grated ginger, rice vinegar, and sesame oil. Bring the mixture to a gentle simmer over medium-low heat, stirring occasionally until the sugar dissolves and the sauce slightly thickens, about 5-7 minutes. Remove from heat and set aside.",
+      "text": "In a small saucepan, combine gochujang, soy sauce, rice vinegar, honey or corn syrup, brown sugar, minced garlic, minced ginger, and sesame oil. Bring the mixture to a gentle simmer over medium-low heat, stirring constantly until the sugar dissolves and the sauce slightly thickens. Remove from heat and set aside.",
       "time": "10 min"
     },
     {
       "step": 4,
       "title": "First Fry the Chicken",
-      "text": "Heat the vegetable oil in a large deep pot or Dutch oven to 340°F (170°C). Dip each chicken piece into the batter, ensuring it's fully coated, then carefully lower it into the hot oil. Fry in batches for about 6-7 minutes per batch, until lightly golden and cooked through. Do not overcrowd the pot. Remove chicken with a slotted spoon and place on a wire rack to drain.",
+      "text": "Heat vegetable oil in a deep pot or Dutch oven to 170°C (340°F). Carefully add the coated chicken pieces, frying in batches to avoid overcrowding. Fry for 5-7 minutes until lightly golden and cooked through. Remove the chicken with a slotted spoon and place on a wire rack to drain.",
       "time": "15 min"
     },
     {
       "step": 5,
-      "title": "Second Fry for Extra Crispiness",
-      "text": "Increase the oil temperature to 375°F (190°C). Return all the chicken pieces to the hot oil for a second fry. Fry for another 2-3 minutes, or until deep golden brown and extra crispy. This double-frying technique is crucial for authentic Korean fried chicken crispiness. Remove and drain again on a wire rack.",
+      "title": "Second Fry for Crispy Texture",
+      "text": "Increase the oil temperature to 185°C (365°F). Return the chicken to the hot oil for a second fry. Fry for another 2-3 minutes until deep golden brown and extra crispy. This double-frying method is key for authentic Korean fried chicken crispiness. Remove and drain on a wire rack.",
       "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Coat and Serve",
-      "text": "While the chicken is still hot, transfer it to a large bowl. Pour the prepared Yangnyeom sauce over the chicken and gently toss until every piece is evenly coated. Garnish with toasted sesame seeds and chopped green onions. Serve immediately and enjoy the perfect balance of sweet, spicy, and crispy!",
+      "title": "Coat with Sauce and Serve",
+      "text": "In a large mixing bowl, add the freshly fried chicken. Pour the prepared Yangnyeom sauce over the chicken and gently toss until all pieces are evenly coated. Garnish with toasted sesame seeds and chopped green onions. Serve immediately.",
       "time": "5 min"
     }
   ],
@@ -214,6 +222,7 @@
   },
   "tags": [
     "Korean",
+    "Korean",
     "authentic",
     "traditional",
     "chicken",
@@ -221,37 +230,37 @@
     "fried chicken",
     "spicy",
     "sweet",
-    "savory"
+    "dinner"
   ],
   "tips": [
-    "For the crispiest chicken, ensure your oil temperature is accurate and perform the double-frying technique as instructed. The first fry cooks the chicken, and the second fry creates the irresistible crunch.",
-    "Potato starch is often preferred over cornstarch in Korean fried chicken for an even lighter and crispier coating. If unavailable, cornstarch works well.",
-    "Serve Yangnyeom chicken immediately after coating to enjoy its optimal crispiness and saucy goodness. Leftovers can be stored in the fridge for up to 2 days, though crispiness will diminish."
+    "For extra crispiness, ensure your oil temperature is accurate. A cooking thermometer is highly recommended for deep frying.",
+    "Do not overcrowd the pot during frying. Fry in batches to maintain oil temperature and ensure even cooking and crisping.",
+    "To make the sauce spicier, add more gochujang or a pinch of gochugaru (Korean chili flakes). For a milder version, reduce gochujang and increase honey."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Yangnyeom Korean Fried Chicken is a beloved Korean Chicken Recipes dish enjoyed across Korean. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Mastering the Art of Yangnyeom Korean Fried Chicken: A Recipe Guide\n\nKorean Fried Chicken (KFC) has taken the world by storm, captivating palates with its unparalleled crispiness and diverse range of delectable sauces. Among the pantheon of beloved Korean chicken recipes, Yangnyeom Chicken stands out as a true icon. This isn't just any fried chicken; it's a culinary experience – a symphony of sweet, spicy, tangy, and savory flavors, all coating perfectly crunchy pieces of chicken. If you've ever dreamt of recreating that authentic Korean restaurant taste at home, you've come to the right place. This comprehensive guide will walk you through everything you need to know to make your own irresistible Yangnyeom Chicken, from achieving that signature double-fried crispness to perfecting the iconic sauce.\n\n## What is Yangnyeom Chicken?\n\nYangnyeom Chicken is a beloved variety of Korean fried chicken coated in a sticky, glossy, and intensely flavorful sauce. The term \"Yangnyeom\" (양념) literally translates to \"seasoning\" or \"sauce\" in Korean, and it refers specifically to the vibrant, gochujang-based sauce that defines this dish. Unlike its plain fried counterpart (Huraideu Chicken), Yangnyeom Chicken offers a complex flavor profile that balances the heat of Korean chili paste (gochujang) with the sweetness of sugar or corn syrup, the tang of vinegar, and the umami richness of soy sauce, garlic, and ginger. It's this unique combination that makes each bite an explosion of taste, transforming simple fried chicken into an unforgettable culinary delight. It's often garnished with sesame seeds and sometimes chopped peanuts, adding a textural contrast and nutty aroma.\n\n## Ingredients for Crispy Korean Fried Chicken\n\nThe secret to truly great Korean fried chicken lies in its incredible crispiness, which is achieved through a specific batter and double-frying technique. Here's what you'll need for the chicken itself:\n\n*   **Chicken:** 2-3 pounds bone-in, skin-on chicken pieces (wings, drumsticks, or a mix) or boneless, skinless chicken thighs/breast cut into bite-sized pieces. Bone-in pieces offer more flavor, while boneless are quicker to cook.\n*   **Marinade:**\n    *   1 tablespoon soy sauce\n    *   1 tablespoon mirin (rice wine)\n    *   1 teaspoon grated ginger\n    *   1/2 teaspoon black pepper\n*   **Dry Batter:**\n    *   1 cup all-purpose flour\n    *   1/2 cup cornstarch or potato starch (crucial for crispiness!)\n    *   1 teaspoon baking powder (aids in lightness and crisp)\n    *   1/2 teaspoon salt\n    *   1/4 teaspoon black pepper\n*   **Wet Batter:**\n    *   1 large egg\n    *   1/2 cup cold water (or sparkling water for extra crisp)\n*   **Frying Oil:** Enough neutral-flavored oil (vegetable, canola, peanut) for deep frying, typically 4-6 cups depending on your pot size.\n\n## How to Make Yangnyeom Sauce\n\nThe heart and soul of Yangnyeom Chicken is its iconic sauce. This sweet and spicy concoction is surprisingly easy to make and can be adjusted to your preferred spice level.\n\n*   **Key Sauce Ingredients:**\n    *   1/4 cup gochujang (Korean chili paste) – essential for authentic flavor and color.\n    *   2 tablespoons soy sauce\n    *   2 tablespoons corn syrup or rice syrup (or honey/sugar for sweetness and gloss)\n    *   1 tablespoon sugar (brown sugar or white sugar)\n    *   1 tablespoon minced garlic\n    *   1 teaspoon grated ginger\n    *   1 tablespoon rice vinegar (or apple cider vinegar)\n    *   1 teaspoon sesame oil\n    *   1 tablespoon ketchup (optional, adds tang and richness)\n    *   1-2 tablespoons water (to adjust consistency)\n*   **Instructions for the Sauce:**\n    1.  In a small saucepan, combine all the sauce ingredients except for the water.\n    2.  Place the saucepan over medium-low heat.\n    3.  Bring the mixture to a gentle simmer, stirring constantly to prevent burning, especially the gochujang.\n    4.  Cook for 3-5 minutes, until the sauce thickens slightly and becomes glossy. If it's too thick, add a tablespoon or two of water to reach your desired consistency. It should be thick enough to coat the back of a spoon but still pourable.\n    5.  Remove from heat and set aside.\n\n## Step-by-Step Yangnyeom Chicken Instructions\n\nMaking authentic Yangnyeom Chicken at home is a rewarding process. Follow these steps for crispy, saucy perfection:\n\n1.  **Prepare the Chicken:** Pat the chicken pieces thoroughly dry with paper towels – this is crucial for a crispy skin. In a bowl, toss the chicken with soy sauce, mirin, grated ginger, and black pepper. Let it marinate for at least 15-30 minutes, or up to an hour in the refrigerator.\n2.  **Prepare the Batter:** In a large bowl, whisk together the all-purpose flour, cornstarch, baking powder, salt, and pepper for the dry batter. In a separate small bowl, whisk the egg and cold water for the wet batter.\n3.  **Dredge the Chicken:** Dip each piece of marinated chicken into the wet batter, ensuring it's fully coated. Then, transfer it to the dry batter mixture, tossing to coat thoroughly. Press the dry batter onto the chicken to create nooks and crannies for extra crispiness. Set aside on a wire rack.\n4.  **First Fry:** Heat the frying oil in a large heavy-bottomed pot or Dutch oven to 325°F (160°C). Carefully add the chicken pieces in batches, ensuring not to overcrowd the pot. Fry for 6-8 minutes, until the chicken is lightly golden and cooked through. Remove the chicken and place it on a wire rack over a baking sheet to drain excess oil. Let it rest for 5-10 minutes.\n5.  **Second Fry (for Supreme Crispiness):** Increase the oil temperature to 350°F (175°C). Return the chicken to the hot oil for a second fry. This time, fry for another 3-5 minutes, or until the chicken is deeply golden brown and incredibly crispy. The double-frying technique is the secret to Korean fried chicken's signature crunch.\n6.  **Sauce and Serve:** While the chicken is still hot from the second fry, transfer it to a large mixing bowl. Pour the prepared Yangnyeom sauce over the chicken. Toss quickly and thoroughly to coat every piece evenly.\n7.  **Garnish:** Transfer the sauced chicken to a serving platter. Garnish with a sprinkle of toasted sesame seeds and, optionally, chopped roasted peanuts or thinly sliced green onions.\n\n## Pro Tips for Perfect Results\n\nAchieving restaurant-quality Yangnyeom Chicken at home is within reach with these expert tips:\n\n*   **Don't Skip the Double Fry:** This is non-negotiable for that signature Korean crispiness. The first fry cooks the chicken, and the second fry expels remaining moisture and crisps up the crust.\n*   **Maintain Oil Temperature:** Use a deep-fry thermometer to monitor your oil temperature. Too low, and the chicken will be greasy; too high, and the outside will burn before the inside cooks.\n*   **Avoid Overcrowding:** Fry chicken in batches to prevent the oil temperature from dropping too much. Overcrowding leads to soggy chicken.\n*   **Pat Chicken Dry:** Excess moisture on the chicken skin will prevent the batter from adhering properly and result in less crispy chicken.\n*   **Sauce Just Before Serving:** The Yangnyeom sauce is best tossed onto the chicken immediately before serving to maintain maximum crispness. If left to sit, the sauce will eventually soften the crust.\n*   **Adjust Sauce Thickness:** If your sauce is too thick, add a little water; if too thin, simmer it a bit longer to reduce.\n\n## Serving Suggestions & Pairings\n\nYangnyeom Chicken is a star in its own right, but it truly shines when paired with complementary sides and beverages.\n\n*   **Classic Korean Sides:** Serve it with a bowl of fluffy white rice to soak up any extra sauce. Pickled radishes (mu-saengchae or chicken mu) are a traditional accompaniment, offering a refreshing, tangy counterpoint to the rich chicken.\n*   **Vegetable Sides:** A simple green salad with a light vinaigrette or blanched broccoli can provide a fresh balance.\n*   **Beverage Pairings:** Korean fried chicken is famously paired with beer (chimaek – chicken and maekju/beer) or soju. The crisp, cold beverages cut through the richness and spice of the chicken beautifully.\n*   **Party Food:** It's an ideal dish for gatherings, game nights, or casual dinners, always a crowd-pleaser.\n\n## Storage and Reheating Tips\n\nWhile Yangnyeom Chicken is undeniably best enjoyed fresh and hot, you can store leftovers and reheat them, though some crispiness may be lost.\n\n*   **Storage:** Store leftover chicken in an airtight container in the refrigerator for up to 2-3 days.\n*   **Reheating:**\n    *   **Air Fryer:** This is the best method for reheating. Place chicken pieces in a single layer in the air fryer basket and cook at 350°F (175°C) for 8-12 minutes, flipping halfway, until heated through and re-crisped.\n    *   **Oven:** Preheat your oven to 375°F (190°C). Place chicken on a wire rack set over a baking sheet and bake for 15-20 minutes, or until hot and crispy.\n    *   **Microwave:** Not recommended for maintaining crispiness, but can be used for quick reheating if texture isn't a priority.\n\n## Variations: Adjusting the Spice Level\n\nThe beauty of homemade Yangnyeom Chicken is that you can tailor it precisely to your taste, especially when it comes to spice.\n\n*   **Spicier:** For those who love the heat, increase the amount of gochujang in the sauce. You can also add a pinch of gochugaru (Korean chili flakes) or a dash of your favorite hot sauce to the mixture.\n*   **Milder:** If you prefer a less spicy version, reduce the gochujang. You can replace some of the gochujang with an equal amount of ketchup or a little extra sugar/corn syrup to maintain the sauce's body and sweetness without the intense heat. You could also add a touch more soy sauce or water to dilute the spice.\n*   **Garlic Lover's Twist:** Feel free to increase the minced garlic in the sauce for a more pungent, aromatic flavor.\n\nBy following this guide, you're now equipped to create truly exceptional Yangnyeom Chicken right in your own kitchen. Prepare to impress your family and friends with this iconic Korean dish that perfectly balances crunch, sweetness, and spice. Enjoy the journey of making and savoring this incredible culinary delight!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Yangnyeom Korean Fried Chicken",
-    "description": "Master the art of Yangnyeom Chicken with our easy recipe! Get crispy Korean fried chicken coated in a delicious sweet and spicy sauce. Perfect for any meal.",
+    "description": "Craving crispy, sweet, and spicy Yangnyeom Chicken? Get our easy, authentic Korean fried chicken recipe for the best homemade results!",
     "image": [
-      "https://images.unsplash.com/photo-1661366394743-fe30fe478ef7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTEzNjM2NjZ8MA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1645371958635-88dd6c8e1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTEzNjM2NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1661366394743-fe30fe478ef7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTE3MzYyMjR8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1645371958635-88dd6c8e1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxLb3JlYW4lMjBjaGlja2VuJTIwZm9vZCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTE3MzYyMjR8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-10-07T09:01:42.834Z",
+    "datePublished": "2026-10-11T16:30:54.102Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Chicken Recipes",
     "recipeCuisine": "Korean",
-    "keywords": "Yangnyeom Chicken, how to make Yangnyeom Chicken, easy Yangnyeom Chicken recipe, authentic Korean Yangnyeom Chicken, Yangnyeom Chicken step by step, best Yangnyeom Chicken at home",
+    "keywords": "Yangnyeom Chicken, how to make Yangnyeom Korean Fried Chicken, easy Yangnyeom Chicken recipe, authentic Korean Yangnyeom Chicken, Yangnyeom Chicken step by step, best Yangnyeom Chicken at home, spicy Korean fried chicken recipe, sweet and spicy Korean chicken",
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
@@ -262,60 +271,60 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "2 lbs Chicken thighs or wings",
+      "1 kg Boneless, skinless chicken thighs",
       "1 tsp Salt",
       "0.5 tsp Black pepper",
-      "1 tbsp Fresh ginger",
+      "0.5 tsp Ginger powder",
+      "1 tsp Garlic powder",
+      "2 tbsp Soju or Mirin",
+      "1 cup Potato starch or cornstarch",
       "0.5 cup All-purpose flour",
-      "0.5 cup Cornstarch or potato starch",
-      "0.5 tsp Baking powder",
-      "1 Large egg",
-      "0.5 cup Cold water",
-      "4-6 cups Vegetable oil",
-      "0.5 cup Gochujang (Korean chili paste)",
-      "0.25 cup Soy sauce",
-      "0.25 cup Mirin (rice wine)",
-      "0.25 cup Corn syrup or honey",
-      "2 tbsp Brown sugar",
-      "2 tbsp Garlic",
-      "1 tbsp Fresh ginger",
+      "1 Egg",
+      "0.5 cup Water",
+      "4-5 cups Vegetable oil",
+      "3 tbsp Gochujang (Korean chili paste)",
+      "2 tbsp Soy sauce",
       "1 tbsp Rice vinegar",
+      "3 tbsp Honey or corn syrup",
+      "1 tbsp Brown sugar",
+      "2 cloves Minced garlic",
+      "1 tsp Minced ginger",
       "1 tsp Sesame oil",
       "1 tbsp Toasted sesame seeds",
-      "2 Green onions"
+      "2 tbsp Chopped green onions"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Chicken",
-        "text": "Pat the chicken pieces very dry with paper towels. Season them evenly with salt, black pepper, and grated ginger. Set aside to marinate for at least 10 minutes."
+        "text": "In a large bowl, season the chicken pieces with salt, black pepper, ginger powder, garlic powder, and soju or mirin. Mix well and let it marinate for at least 15 minutes at room temperature, or up to 30 minutes in the refrigerator."
       },
       {
         "@type": "HowToStep",
-        "name": "Mix the Batter",
-        "text": "In a large bowl, whisk together the all-purpose flour, cornstarch (or potato starch), and baking powder. In a separate bowl, beat the egg with cold water. Gradually add the wet mixture to the dry ingredients, stirring until a smooth, pancake-like batter forms. Ensure there are no lumps."
+        "name": "Make the Batter",
+        "text": "In a separate bowl, combine the potato starch, all-purpose flour, beaten egg, and cold water. Mix until a smooth, thick batter forms. Add the marinated chicken to the batter and toss to ensure each piece is fully coated."
       },
       {
         "@type": "HowToStep",
         "name": "Prepare the Yangnyeom Sauce",
-        "text": "In a small saucepan, combine the gochujang, soy sauce, mirin, corn syrup (or honey), brown sugar, minced garlic, grated ginger, rice vinegar, and sesame oil. Bring the mixture to a gentle simmer over medium-low heat, stirring occasionally until the sugar dissolves and the sauce slightly thickens, about 5-7 minutes. Remove from heat and set aside."
+        "text": "In a small saucepan, combine gochujang, soy sauce, rice vinegar, honey or corn syrup, brown sugar, minced garlic, minced ginger, and sesame oil. Bring the mixture to a gentle simmer over medium-low heat, stirring constantly until the sugar dissolves and the sauce slightly thickens. Remove from heat and set aside."
       },
       {
         "@type": "HowToStep",
         "name": "First Fry the Chicken",
-        "text": "Heat the vegetable oil in a large deep pot or Dutch oven to 340°F (170°C). Dip each chicken piece into the batter, ensuring it's fully coated, then carefully lower it into the hot oil. Fry in batches for about 6-7 minutes per batch, until lightly golden and cooked through. Do not overcrowd the pot. Remove chicken with a slotted spoon and place on a wire rack to drain."
+        "text": "Heat vegetable oil in a deep pot or Dutch oven to 170°C (340°F). Carefully add the coated chicken pieces, frying in batches to avoid overcrowding. Fry for 5-7 minutes until lightly golden and cooked through. Remove the chicken with a slotted spoon and place on a wire rack to drain."
       },
       {
         "@type": "HowToStep",
-        "name": "Second Fry for Extra Crispiness",
-        "text": "Increase the oil temperature to 375°F (190°C). Return all the chicken pieces to the hot oil for a second fry. Fry for another 2-3 minutes, or until deep golden brown and extra crispy. This double-frying technique is crucial for authentic Korean fried chicken crispiness. Remove and drain again on a wire rack."
+        "name": "Second Fry for Crispy Texture",
+        "text": "Increase the oil temperature to 185°C (365°F). Return the chicken to the hot oil for a second fry. Fry for another 2-3 minutes until deep golden brown and extra crispy. This double-frying method is key for authentic Korean fried chicken crispiness. Remove and drain on a wire rack."
       },
       {
         "@type": "HowToStep",
-        "name": "Coat and Serve",
-        "text": "While the chicken is still hot, transfer it to a large bowl. Pour the prepared Yangnyeom sauce over the chicken and gently toss until every piece is evenly coated. Garnish with toasted sesame seeds and chopped green onions. Serve immediately and enjoy the perfect balance of sweet, spicy, and crispy!"
+        "name": "Coat with Sauce and Serve",
+        "text": "In a large mixing bowl, add the freshly fried chicken. Pour the prepared Yangnyeom sauce over the chicken and gently toss until all pieces are evenly coated. Garnish with toasted sesame seeds and chopped green onions. Serve immediately."
       }
     ]
   },
-  "publishedAt": "2026-10-07T09:01:42.834Z"
+  "publishedAt": "2026-10-11T16:30:54.102Z"
 }
