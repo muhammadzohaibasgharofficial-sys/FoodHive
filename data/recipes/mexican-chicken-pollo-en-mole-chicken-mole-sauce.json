@@ -45,128 +45,103 @@
       }
     ]
   },
-  "prepTime": "30 min",
-  "cookTime": "90 min",
-  "totalTime": "2 hours",
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.unsplash.com/photo-1584208632869-05fa2b2a5934?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4OTg2NjA0NHww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1722239319419-915885c73213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4OTg2NjA0NHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Pollo en Mole is a symphony of flavors, a truly iconic Mexican dish featuring tender chicken bathed in a complex, deeply aromatic sauce. This traditional mole poblano, with its layers of chiles, spices, nuts, and a hint of chocolate, offers a culinary journey unlike any other, perfect for any special occasion. Prepare to impress your family and friends with this masterpiece of Mexican cuisine.",
+  "image1": "https://images.unsplash.com/photo-1584208632869-05fa2b2a5934?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTgyNDQ0Mnww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1722239319419-915885c73213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTgyNDQ0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Pollo en Mole is a deeply flavorful and iconic Mexican dish featuring tender chicken bathed in a rich, complex mole sauce. This recipe guides you through creating a balanced sauce with a delightful blend of smoky chiles, spices, nuts, and a hint of chocolate. It is a true celebration of Mexican culinary tradition, perfect for a special family meal.",
   "ingredients": [
     {
-      "item": "Chicken thighs and drumsticks",
-      "amount": "4 pieces",
+      "item": "chicken thighs",
+      "amount": "4",
       "notes": "bone-in, skin-on"
     },
     {
-      "item": "Ancho chiles",
-      "amount": "3",
-      "notes": "dried, stemmed and seeded"
+      "item": "chicken broth",
+      "amount": "4 cups",
+      "notes": "plus more for sauce"
     },
     {
-      "item": "Mulato chiles",
+      "item": "ancho chiles",
       "amount": "2",
       "notes": "dried, stemmed and seeded"
     },
     {
-      "item": "Pasilla chiles",
+      "item": "mulato chiles",
       "amount": "2",
       "notes": "dried, stemmed and seeded"
     },
     {
-      "item": "Tomatoes",
-      "amount": "2 medium",
+      "item": "pasilla chiles",
+      "amount": "2",
+      "notes": "dried, stemmed and seeded"
+    },
+    {
+      "item": "white onion",
+      "amount": "1/2",
       "notes": "roughly chopped"
     },
     {
-      "item": "Tomatillos",
-      "amount": "3 small",
-      "notes": "husked and rinsed"
-    },
-    {
-      "item": "Onion",
-      "amount": "1/2 medium",
-      "notes": "roughly chopped"
-    },
-    {
-      "item": "Garlic cloves",
+      "item": "garlic cloves",
       "amount": "3",
       "notes": "peeled"
     },
     {
-      "item": "Almonds",
+      "item": "roma tomatoes",
+      "amount": "2",
+      "notes": "roughly chopped"
+    },
+    {
+      "item": "almonds",
       "amount": "1/4 cup",
       "notes": "blanched"
     },
     {
-      "item": "Peanuts",
-      "amount": "1/4 cup",
-      "notes": "unsalted, roasted"
-    },
-    {
-      "item": "Sesame seeds",
+      "item": "sesame seeds",
       "amount": "2 tablespoons",
-      "notes": "plus extra for garnish"
+      "notes": "plus more for garnish"
     },
     {
-      "item": "Raisins",
+      "item": "raisins",
       "amount": "2 tablespoons",
       "notes": ""
     },
     {
-      "item": "Tortilla",
-      "amount": "1 small",
-      "notes": "stale, or a piece of bread"
-    },
-    {
-      "item": "Mexican chocolate",
-      "amount": "1 ounce",
-      "notes": "dark, tablet form"
-    },
-    {
-      "item": "Cinnamon stick",
-      "amount": "1 inch piece",
+      "item": "cinnamon stick",
+      "amount": "1 inch",
       "notes": ""
     },
     {
-      "item": "Cloves",
-      "amount": "3 whole",
-      "notes": ""
+      "item": "cloves",
+      "amount": "2",
+      "notes": "whole"
     },
     {
-      "item": "Black peppercorns",
+      "item": "cumin seeds",
       "amount": "1/2 teaspoon",
       "notes": ""
     },
     {
-      "item": "Cumin seeds",
+      "item": "black peppercorns",
       "amount": "1/4 teaspoon",
       "notes": ""
     },
     {
-      "item": "Oregano",
-      "amount": "1/2 teaspoon",
-      "notes": "dried Mexican"
+      "item": "Mexican chocolate",
+      "amount": "1 ounce",
+      "notes": "disk, roughly chopped"
     },
     {
-      "item": "Lard or vegetable oil",
-      "amount": "3 tablespoons",
-      "notes": "divided"
+      "item": "lard or vegetable oil",
+      "amount": "2 tablespoons",
+      "notes": ""
     },
     {
-      "item": "Chicken broth",
-      "amount": "4-5 cups",
-      "notes": "hot"
-    },
-    {
-      "item": "Sugar",
-      "amount": "1-2 teaspoons",
-      "notes": "or to taste"
-    },
-    {
-      "item": "Salt",
+      "item": "salt",
       "amount": "to taste",
       "notes": ""
     }
@@ -174,56 +149,50 @@
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Chicken",
-      "text": "Season the chicken pieces generously with salt. In a large pot, add enough water to cover the chicken. Bring to a boil, then reduce heat and simmer until chicken is cooked through, about 30 minutes. Reserve 4-5 cups of the cooking broth. Set chicken aside.",
-      "time": "35 min"
+      "title": "Cook the Chicken",
+      "text": "In a large pot, combine chicken thighs with 4 cups of chicken broth and a pinch of salt. Bring to a boil, then reduce heat and simmer for 20-25 minutes, or until chicken is cooked through. Remove chicken, reserving the broth. Let chicken cool slightly, then remove skin and bones, shredding the meat. Set aside.",
+      "time": "25 min"
     },
     {
       "step": 2,
-      "title": "Rehydrate and Prepare Chiles",
-      "text": "Heat 1 tablespoon of lard or oil in a skillet over medium heat. Briefly fry the dried chiles for about 30 seconds per side until fragrant but not burnt. Remove and place them in a bowl. Cover with hot water or reserved chicken broth and let them rehydrate for 20-30 minutes until soft. Drain and reserve the soaking liquid.",
-      "time": "35 min"
-    },
-    {
-      "step": 3,
-      "title": "Toast Spices, Nuts, and Aromatics",
-      "text": "In the same skillet, toast the almonds, peanuts, and sesame seeds separately until golden and fragrant. Set aside. Add another tablespoon of lard or oil. Fry the chopped tomatoes, tomatillos, onion, garlic, cinnamon stick, cloves, peppercorns, cumin seeds, oregano, raisins, and the piece of tortilla or bread until softened and slightly charred. Remove from heat.",
+      "title": "Prepare the Chiles",
+      "text": "Lightly toast the dried ancho, mulato, and pasilla chiles in a dry skillet over medium heat for 1-2 minutes per side until fragrant. Be careful not to burn them. Transfer the toasted chiles to a bowl and cover with hot water. Let them rehydrate for 15-20 minutes, then drain, reserving some soaking liquid.",
       "time": "20 min"
     },
     {
+      "step": 3,
+      "title": "Toast Spices and Aromatics",
+      "text": "In the same dry skillet, toast almonds, sesame seeds, raisins, cinnamon stick, cloves, cumin seeds, and black peppercorns until fragrant, about 2-3 minutes. Remove and set aside. Add 1 tablespoon of lard or oil to the skillet, then sauté the chopped onion, garlic, and roma tomatoes until softened, about 5-7 minutes.",
+      "time": "10 min"
+    },
+    {
       "step": 4,
-      "title": "Blend the Mole Paste",
-      "text": "Combine the rehydrated chiles, toasted nuts, seeds, fried vegetables, and spices in a blender. Add the Mexican chocolate and 1 cup of the reserved chicken broth. Blend until a very smooth paste forms. If necessary, add a little more broth or chile soaking liquid to achieve a pourable consistency. Strain the mixture through a fine-mesh sieve into a bowl to remove any remaining skins or seeds for a smoother sauce.",
-      "time": "15 min"
+      "title": "Blend the Mole Sauce",
+      "text": "Combine the rehydrated chiles, toasted nuts/seeds/spices, sautéed aromatics, and chopped Mexican chocolate in a blender. Add 1 cup of the reserved chicken broth and a splash of chile soaking liquid. Blend until very smooth, adding more broth or soaking liquid if needed to achieve a thick, pourable consistency. Strain the sauce through a fine-mesh sieve into a bowl to remove any solids, pressing down with a spoon.",
+      "time": "10 min"
     },
     {
       "step": 5,
-      "title": "Simmer the Mole Sauce",
-      "text": "In a large, heavy-bottomed pot or Dutch oven, heat the remaining 1 tablespoon of lard or oil over medium heat. Carefully pour in the strained mole paste. Cook, stirring constantly, for about 10-15 minutes until the paste darkens and thickens significantly. This step is crucial for developing the deep flavor of the mole.",
-      "time": "15 min"
+      "title": "Simmer the Mole",
+      "text": "Heat the remaining 1 tablespoon of lard or oil in a large pot or Dutch oven over medium heat. Carefully pour in the strained mole sauce. Bring to a gentle simmer, stirring constantly to prevent sticking. Reduce heat to low and continue to simmer for at least 20-25 minutes, stirring occasionally, until the sauce has thickened and deepened in color and flavor. Season with salt to taste.",
+      "time": "25 min"
     },
     {
       "step": 6,
-      "title": "Combine Chicken and Mole",
-      "text": "Gradually add the remaining reserved chicken broth to the mole paste, stirring continuously to prevent lumps. Bring the sauce to a gentle simmer. Add the cooked chicken pieces to the mole sauce. Let it simmer for at least 30 minutes, allowing the flavors to meld and the chicken to absorb the rich sauce. Adjust seasoning with salt and sugar to balance the flavors.",
-      "time": "35 min"
-    },
-    {
-      "step": 7,
-      "title": "Serve and Enjoy",
-      "text": "Serve the Pollo en Mole hot, garnished with a sprinkle of toasted sesame seeds. It is traditionally served with warm corn tortillas and Mexican rice. Enjoy this authentic taste of Mexico!",
-      "time": "5 min"
+      "title": "Combine and Serve",
+      "text": "Add the shredded cooked chicken to the mole sauce and stir to coat thoroughly. Allow it to simmer for another 5-10 minutes, ensuring the chicken is heated through and absorbs the flavors of the mole. Serve hot with warm tortillas, rice, and a sprinkle of sesame seeds for garnish. Enjoy this traditional Mexican delicacy!",
+      "time": "10 min"
     }
   ],
   "nutritionTable": {
-    "calories": "550 kcal",
-    "protein": "35g",
-    "carbs": "40g",
-    "fat": "30g",
-    "fiber": "8g",
-    "sugar": "10g",
-    "sodium": "750mg",
-    "cholesterol": "120mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Mexican",
@@ -232,35 +201,34 @@
     "chicken",
     "mole",
     "Pollo en Mole Chicken Mole Sauce",
-    "Puebla",
     "spicy",
-    "chocolate"
+    "savory"
   ],
   "tips": [
-    "For the smoothest mole, always strain the blended sauce through a fine-mesh sieve. This removes any fibrous chile bits and ensures a luxurious texture.",
-    "Do not skip the frying of the mole paste in step 5. This crucial step, called 'sazonar' or seasoning, deepens the flavor and color of the mole significantly.",
-    "Mole is even better the next day! Make it ahead of time and gently reheat. It also freezes well for up to 3 months. Serve with warm corn tortillas and a side of Mexican rice."
+    "To achieve a truly smooth mole, do not skip the straining step. It removes any lingering chile skins or spice fragments, resulting in a silky texture.",
+    "The secret to a deep, rich mole is the slow simmering. The flavors need time to meld and develop. Do not rush this step.",
+    "Mole is even better the next day! Prepare the sauce in advance and gently reheat it with the chicken for an enhanced flavor experience."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "The rich, complex, and utterly captivating flavors of Mexican cuisine have a way of transporting you to vibrant markets and sun-drenched kitchens. Among its many culinary masterpieces, one dish stands out for its depth, history, and incredible taste: Pollo en Mole. This isn't just a meal; it's an experience, a symphony of flavors that dances on the palate. If you're ready to embark on a culinary adventure that culminates in one of the most satisfying Mexican chicken recipes, learning to master Pollo en Mole Chicken Mole Sauce is a journey well worth taking.\n\n## What is Pollo en Mole Chicken Mole Sauce?\n\nAt its core, Pollo en Mole is a traditional Mexican dish featuring tender chicken (pollo) bathed in a rich, dark, and incredibly complex sauce known as mole (pronounced \"MOH-lay\"). The term \"mole\" itself refers to a category of sauces, often with dozens of ingredients, that are meticulously prepared and slow-cooked to achieve a profound depth of flavor. While there are many types of mole, the most famous, Mole Poblano, is often what people envision when they think of this iconic sauce.\n\nThe magic of Pollo en Mole Chicken Mole Sauce lies in its intricate balance. It’s a sauce that typically combines various dried chilies (ancho, mulato, pasilla, chipotle), nuts and seeds (almonds, peanuts, sesame, pumpkin seeds), spices (cinnamon, cloves, cumin), aromatics (onion, garlic), fruits (raisins), and often, a touch of Mexican chocolate. This seemingly disparate list of ingredients comes together to create a sauce that is simultaneously savory, subtly sweet, earthy, smoky, and spicy, with a velvety smooth texture. Originating from the states of Puebla and Oaxaca, mole is a cornerstone of Mexican gastronomy, often reserved for celebrations and special occasions, but perfectly delightful for any meal where you want to impress.\n\n## Ingredients You Need\n\nCrafting an authentic Pollo en Mole Chicken Mole Sauce requires a thoughtful selection of ingredients. Don't be intimidated by the list; each component plays a crucial role in building the sauce's legendary flavor profile.\n\n**For the Chicken:**\n*   1 whole chicken (about 3-4 lbs), cut into 8 pieces, or 3-4 lbs chicken thighs and drumsticks\n*   1/2 onion, quartered\n*   2 cloves garlic, smashed\n*   1 bay leaf\n*   Salt to taste\n\n**For the Mole Sauce:**\n*   **Dried Chilies:**\n    *   4 large Ancho chilies, stemmed and seeded\n    *   3 large Mulato chilies, stemmed and seeded\n    *   3 large Pasilla chilies, stemmed and seeded\n    *   2 Chipotle chilies (optional, for extra heat/smokiness), stemmed and seeded\n*   **Aromatics & Thickeners:**\n    *   1/2 white onion, roughly chopped\n    *   4-5 cloves garlic\n    *   2 stale corn tortillas, torn\n    *   1 slice stale bread (like bolillo or sourdough), torn\n    *   1/4 cup raw almonds\n    *   1/4 cup raw peanuts\n    *   2 tablespoons raw sesame seeds (plus more for garnish)\n    *   2 tablespoons pumpkin seeds (pepitas)\n    *   1/4 cup raisins\n    *   1 Roma tomato, roughly chopped\n*   **Spices:**\n    *   1/2 teaspoon whole black peppercorns\n    *   4 whole cloves\n    *   1/2 teaspoon cumin seeds\n    *   1/4 teaspoon coriander seeds\n    *   1 small stick cinnamon (about 1-inch)\n    *   Pinch of dried oregano\n*   **Fats & Liquids:**\n    *   2-3 tablespoons lard or vegetable oil, divided\n    *   4-6 cups reserved chicken broth (from cooking chicken)\n*   **Finishing Touches:**\n    *   1.5 ounces Mexican chocolate (like Ibarra or Abuelita), or 2 tablespoons unsweetened dark chocolate (70% cacao or higher)\n    *   1-2 tablespoons piloncillo (Mexican brown sugar cone) or brown sugar, to taste\n    *   Salt to taste\n\n## Step-by-Step Instructions\n\nMaking Pollo en Mole Chicken Mole Sauce is a labor of love, but each step is straightforward and contributes to the final masterpiece.\n\n1.  **Cook the Chicken:** Place chicken pieces in a large pot with the quartered onion, smashed garlic, bay leaf, and a generous pinch of salt. Cover with water and bring to a boil. Reduce heat, cover, and simmer for 30-40 minutes, or until the chicken is cooked through and tender. Remove chicken and set aside. Strain the broth and reserve 6-8 cups.\n2.  **Prepare the Chilies:** Heat a dry skillet over medium-low heat. Toast the dried chilies for 30 seconds to 1 minute per side until fragrant but not burnt (they should be pliable, not brittle). Transfer to a bowl, cover with 4 cups of hot reserved chicken broth, and let rehydrate for 20-30 minutes.\n3.  **Toast Nuts, Seeds & Spices:** In the same skillet (or a clean one), add 1 tablespoon of lard or oil. Fry the tortillas and bread until golden brown and crispy. Remove and set aside.\n4.  Next, add the almonds, peanuts, sesame seeds, and pumpkin seeds to the skillet. Toast over medium heat, stirring constantly, until lightly golden and fragrant (about 3-5 minutes). Remove and set aside.\n5.  Finally, add the whole peppercorns, cloves, cumin seeds, coriander seeds, and cinnamon stick to the skillet. Toast for about 30 seconds until fragrant. Remove and set aside.\n6.  **Sauté Aromatics & Fruits:** In the same skillet, add another tablespoon of lard or oil if needed. Sauté the chopped onion until softened (about 5 minutes). Add the garlic and chopped tomato, cooking for another 3-5 minutes until the tomato breaks down slightly. Stir in the raisins and oregano.\n7.  **Blend the Sauce:** Drain the rehydrated chilies (reserving the soaking liquid). In a powerful blender, combine the rehydrated chilies, toasted tortillas, bread, nuts, seeds, spices, sautéed aromatics, tomato, and raisins. Add 2 cups of the reserved chicken broth and 1 cup of the chili soaking liquid (add more if needed to get the blender moving). Blend until completely smooth. This may take a few minutes and require stopping to scrape down the sides.\n8.  **Strain (Optional but Recommended):** For the smoothest mole, pass the blended mixture through a fine-mesh sieve into a large bowl. Use the back of a spoon to push the sauce through, discarding any remaining solids.\n9.  **Cook the Mole Sauce:** In a large, heavy-bottomed pot or Dutch oven, heat the remaining tablespoon of lard or oil over medium heat. Carefully pour in the strained mole sauce. Be cautious, as it will splatter.\n10. **Simmer and Thicken:** Bring the sauce to a gentle simmer, stirring frequently to prevent sticking. Cook for at least 30-45 minutes, or even up to 1.5 hours, adding more chicken broth as needed to reach your desired consistency (it should be thick enough to coat the back of a spoon). The sauce will deepen in color and flavor as it cooks.\n11. **Finish the Sauce:** Stir in the Mexican chocolate and piloncillo/brown sugar. Continue to simmer until the chocolate is fully melted and incorporated. Taste and adjust seasoning with salt and sugar. The final Pollo en Mole Chicken Mole Sauce should be a perfect balance of savory, sweet, and spicy.\n12. **Combine Chicken and Sauce:** Add the cooked chicken pieces to the mole sauce. Simmer gently for another 10-15 minutes, allowing the chicken to warm through and absorb the rich flavors of the mole.\n\n## Pro Tips for the Best Results\n\n*   **Quality Chilies are Key:** Seek out fresh, pliable dried chilies from a reliable source. Stale chilies will yield a dull-tasting sauce.\n*   **Don't Burn the Chilies:** When toasting chilies, a little char is good, but burning makes them bitter. Keep the heat low and watch them closely.\n*   **Sieve for Smoothness:** While optional, straining the blended mole is highly recommended for that signature silky texture. It removes any fibrous bits from the chilies and nuts.\n*   **Slow Simmer is Essential:** The longer the mole simmers, the more the flavors meld and deepen. Don't rush this step. It's where the magic truly happens for your Pollo en Mole Chicken Mole Sauce.\n*   **Taste and Adjust:** Mole is all about balance. Don't be afraid to taste frequently and adjust salt, sugar, or even a touch more chocolate to achieve perfection.\n*   **Make Ahead:** Mole sauce actually tastes better the next day, after the flavors have had more time to meld. It also freezes beautifully for future meals.\n\n## Serving Suggestions\n\nPollo en Mole Chicken Mole Sauce is a complete meal in itself, but it shines even brighter with traditional accompaniments. The classic way to enjoy it is with a side of fluffy Mexican red rice (Arroz Rojo) and warm corn tortillas for scooping up every last drop of that incredible sauce. A sprinkle of toasted sesame seeds over the top adds a lovely nutty crunch and visual appeal. Refried beans or a simple, refreshing salad with a light vinaigrette can also complement the richness of the mole beautifully. Beyond the traditional, mole is incredibly versatile: use leftover sauce for enchiladas, tamales, sopes, or even as a unique topping for eggs.\n\n## Variations and Substitutions\n\nWhile the classic recipe for Pollo en Mole Chicken Mole Sauce is a masterpiece, there's room for personal touches:\n\n*   **Chilies:** Experiment with different chili combinations. For more heat, add a serrano or habanero. For a smokier flavor, increase the chipotles.\n*   **Nuts & Seeds:** If you have allergies or preferences, you can adjust the mix. Pecans, walnuts, or even hazelnuts can be used.\n*   **Sweetener:** Piloncillo is traditional, but brown sugar works perfectly well. Some recipes even use a touch of plantain or ripe banana for natural sweetness and thickness.\n*   **Protein:** While chicken is traditional, this mole sauce is also fantastic with roasted turkey (especially for a Mole Poblano), pork shoulder, or even beef. For a vegetarian option, try it over roasted sweet potatoes, cauliflower, or hearty mushrooms.\n*   **Shortcut:** If time is a major constraint, you can find high-quality mole pastes in Mexican markets. While they won't replicate the depth of a homemade sauce, they offer a delicious starting point. Just thin them with chicken broth and simmer.\n\nEmbark on the journey of creating your own Pollo en Mole Chicken Mole Sauce. It’s a culinary project that promises immense satisfaction and a truly unforgettable meal that celebrates the heart and soul of Mexican cooking. Your taste buds will thank you!",
+  "article": "Pollo en Mole Chicken Mole Sauce is a beloved Mexican Chicken Recipes dish enjoyed across Mexican. This authentic recipe brings traditional flavors to your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Pollo en Mole Chicken Mole Sauce",
     "description": "Learn how to make authentic Pollo en Mole Chicken Mole Sauce. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1584208632869-05fa2b2a5934?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4OTg2NjA0NHww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1722239319419-915885c73213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc4OTg2NjA0NHww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1584208632869-05fa2b2a5934?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTgyNDQ0Mnww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1722239319419-915885c73213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQb2xsbyUyMGVuJTIwTW9sZSUyME1leGljYW4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTgyNDQ0Mnww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-09-20T01:01:25.948Z",
-    "prepTime": "PT30M",
-    "cookTime": "PT90M",
-    "totalTime": "PT2M",
+    "datePublished": "2026-10-12T17:01:05.342Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
     "recipeYield": "4 servings",
     "recipeCategory": "Chicken Recipes",
     "recipeCuisine": "Mexican",
@@ -272,70 +240,60 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "550 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "4 pieces Chicken thighs and drumsticks",
-      "3 Ancho chiles",
-      "2 Mulato chiles",
-      "2 Pasilla chiles",
-      "2 medium Tomatoes",
-      "3 small Tomatillos",
-      "1/2 medium Onion",
-      "3 Garlic cloves",
-      "1/4 cup Almonds",
-      "1/4 cup Peanuts",
-      "2 tablespoons Sesame seeds",
-      "2 tablespoons Raisins",
-      "1 small Tortilla",
+      "4 chicken thighs",
+      "4 cups chicken broth",
+      "2 ancho chiles",
+      "2 mulato chiles",
+      "2 pasilla chiles",
+      "1/2 white onion",
+      "3 garlic cloves",
+      "2 roma tomatoes",
+      "1/4 cup almonds",
+      "2 tablespoons sesame seeds",
+      "2 tablespoons raisins",
+      "1 inch cinnamon stick",
+      "2 cloves",
+      "1/2 teaspoon cumin seeds",
+      "1/4 teaspoon black peppercorns",
       "1 ounce Mexican chocolate",
-      "1 inch piece Cinnamon stick",
-      "3 whole Cloves",
-      "1/2 teaspoon Black peppercorns",
-      "1/4 teaspoon Cumin seeds",
-      "1/2 teaspoon Oregano",
-      "3 tablespoons Lard or vegetable oil",
-      "4-5 cups Chicken broth",
-      "1-2 teaspoons Sugar",
-      "to taste Salt"
+      "2 tablespoons lard or vegetable oil",
+      "to taste salt"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Chicken",
-        "text": "Season the chicken pieces generously with salt. In a large pot, add enough water to cover the chicken. Bring to a boil, then reduce heat and simmer until chicken is cooked through, about 30 minutes. Reserve 4-5 cups of the cooking broth. Set chicken aside."
+        "name": "Cook the Chicken",
+        "text": "In a large pot, combine chicken thighs with 4 cups of chicken broth and a pinch of salt. Bring to a boil, then reduce heat and simmer for 20-25 minutes, or until chicken is cooked through. Remove chicken, reserving the broth. Let chicken cool slightly, then remove skin and bones, shredding the meat. Set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Rehydrate and Prepare Chiles",
-        "text": "Heat 1 tablespoon of lard or oil in a skillet over medium heat. Briefly fry the dried chiles for about 30 seconds per side until fragrant but not burnt. Remove and place them in a bowl. Cover with hot water or reserved chicken broth and let them rehydrate for 20-30 minutes until soft. Drain and reserve the soaking liquid."
+        "name": "Prepare the Chiles",
+        "text": "Lightly toast the dried ancho, mulato, and pasilla chiles in a dry skillet over medium heat for 1-2 minutes per side until fragrant. Be careful not to burn them. Transfer the toasted chiles to a bowl and cover with hot water. Let them rehydrate for 15-20 minutes, then drain, reserving some soaking liquid."
       },
       {
         "@type": "HowToStep",
-        "name": "Toast Spices, Nuts, and Aromatics",
-        "text": "In the same skillet, toast the almonds, peanuts, and sesame seeds separately until golden and fragrant. Set aside. Add another tablespoon of lard or oil. Fry the chopped tomatoes, tomatillos, onion, garlic, cinnamon stick, cloves, peppercorns, cumin seeds, oregano, raisins, and the piece of tortilla or bread until softened and slightly charred. Remove from heat."
+        "name": "Toast Spices and Aromatics",
+        "text": "In the same dry skillet, toast almonds, sesame seeds, raisins, cinnamon stick, cloves, cumin seeds, and black peppercorns until fragrant, about 2-3 minutes. Remove and set aside. Add 1 tablespoon of lard or oil to the skillet, then sauté the chopped onion, garlic, and roma tomatoes until softened, about 5-7 minutes."
       },
       {
         "@type": "HowToStep",
-        "name": "Blend the Mole Paste",
-        "text": "Combine the rehydrated chiles, toasted nuts, seeds, fried vegetables, and spices in a blender. Add the Mexican chocolate and 1 cup of the reserved chicken broth. Blend until a very smooth paste forms. If necessary, add a little more broth or chile soaking liquid to achieve a pourable consistency. Strain the mixture through a fine-mesh sieve into a bowl to remove any remaining skins or seeds for a smoother sauce."
+        "name": "Blend the Mole Sauce",
+        "text": "Combine the rehydrated chiles, toasted nuts/seeds/spices, sautéed aromatics, and chopped Mexican chocolate in a blender. Add 1 cup of the reserved chicken broth and a splash of chile soaking liquid. Blend until very smooth, adding more broth or soaking liquid if needed to achieve a thick, pourable consistency. Strain the sauce through a fine-mesh sieve into a bowl to remove any solids, pressing down with a spoon."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Mole Sauce",
-        "text": "In a large, heavy-bottomed pot or Dutch oven, heat the remaining 1 tablespoon of lard or oil over medium heat. Carefully pour in the strained mole paste. Cook, stirring constantly, for about 10-15 minutes until the paste darkens and thickens significantly. This step is crucial for developing the deep flavor of the mole."
+        "name": "Simmer the Mole",
+        "text": "Heat the remaining 1 tablespoon of lard or oil in a large pot or Dutch oven over medium heat. Carefully pour in the strained mole sauce. Bring to a gentle simmer, stirring constantly to prevent sticking. Reduce heat to low and continue to simmer for at least 20-25 minutes, stirring occasionally, until the sauce has thickened and deepened in color and flavor. Season with salt to taste."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Chicken and Mole",
-        "text": "Gradually add the remaining reserved chicken broth to the mole paste, stirring continuously to prevent lumps. Bring the sauce to a gentle simmer. Add the cooked chicken pieces to the mole sauce. Let it simmer for at least 30 minutes, allowing the flavors to meld and the chicken to absorb the rich sauce. Adjust seasoning with salt and sugar to balance the flavors."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Serve and Enjoy",
-        "text": "Serve the Pollo en Mole hot, garnished with a sprinkle of toasted sesame seeds. It is traditionally served with warm corn tortillas and Mexican rice. Enjoy this authentic taste of Mexico!"
+        "name": "Combine and Serve",
+        "text": "Add the shredded cooked chicken to the mole sauce and stir to coat thoroughly. Allow it to simmer for another 5-10 minutes, ensuring the chicken is heated through and absorbs the flavors of the mole. Serve hot with warm tortillas, rice, and a sprinkle of sesame seeds for garnish. Enjoy this traditional Mexican delicacy!"
       }
     ]
   },
-  "publishedAt": "2026-09-20T01:01:25.949Z"
+  "publishedAt": "2026-10-12T17:01:05.342Z"
 }
