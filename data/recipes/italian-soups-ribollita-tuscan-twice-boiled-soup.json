@@ -51,29 +51,29 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Italian",
-  "image1": "https://images.unsplash.com/photo-1628630671367-4b2a89dfce40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTY1NzI1OHww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1579871493788-211b9c3c090e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTY1NzI1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Ribollita is a hearty Tuscan peasant soup, traditionally \"reboiled\" the day after it's made, giving it an incredible depth of flavor and a thick, satisfying texture. This robust vegetable and bread soup is a true comfort food, perfect for cooler evenings, showcasing simple ingredients transformed into something extraordinary. Its name, meaning \"reboiled,\" highlights the traditional method of reheating it, which further enhances its rich, rustic character.",
+  "image1": "https://images.unsplash.com/photo-1681557732911-0637c8da9205?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MjI1Mjk1N3ww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1579871493788-211b9c3c090e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MjI1Mjk1N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Ribollita, a hearty Tuscan bread and vegetable soup, is a beloved example of cucina povera, transforming humble ingredients into a rich, comforting meal. Its name, 'reboiled,' refers to the traditional method of reheating the soup, allowing the flavors to meld and deepen beautifully. This rustic dish showcases the best of Tuscan produce, perfect for a satisfying and nutritious experience.",
   "ingredients": [
     {
       "item": "Stale Tuscan bread",
       "amount": "200g",
-      "notes": "or crusty country bread, sliced"
+      "notes": "or any rustic, dense bread, sliced"
     },
     {
-      "item": "Cooked cannellini beans",
+      "item": "Cannellini beans",
       "amount": "400g",
-      "notes": "drained, rinsed, can use canned"
+      "notes": "canned, drained and rinsed, or cooked from dried"
     },
     {
-      "item": "Black cabbage (cavolo nero)",
-      "amount": "500g",
-      "notes": "tough stems removed, chopped"
-    },
-    {
-      "item": "Swiss chard",
+      "item": "Black kale (cavolo nero)",
       "amount": "200g",
-      "notes": "tough stems removed, chopped"
+      "notes": "stems removed, chopped"
+    },
+    {
+      "item": "Savoy cabbage",
+      "amount": "200g",
+      "notes": "chopped"
     },
     {
       "item": "Carrots",
@@ -82,7 +82,7 @@
     },
     {
       "item": "Celery stalks",
-      "amount": "2 medium",
+      "amount": "2",
       "notes": "diced"
     },
     {
@@ -96,9 +96,9 @@
       "notes": "minced"
     },
     {
-      "item": "Canned peeled tomatoes",
-      "amount": "400g",
-      "notes": "crushed"
+      "item": "Crushed tomatoes",
+      "amount": "400g can",
+      "notes": ""
     },
     {
       "item": "Vegetable broth",
@@ -108,12 +108,7 @@
     {
       "item": "Extra virgin olive oil",
       "amount": "4 tbsp",
-      "notes": "plus more for drizzling"
-    },
-    {
-      "item": "Parmigiano Reggiano",
-      "amount": "to taste",
-      "notes": "grated, for serving (optional)"
+      "notes": "plus more for serving"
     },
     {
       "item": "Salt",
@@ -130,38 +125,38 @@
     {
       "step": 1,
       "title": "Prepare the Soffritto",
-      "text": "In a large, heavy-bottomed pot or Dutch oven, heat the extra virgin olive oil over medium heat. Add the diced onion, carrots, and celery. Sauté gently until the vegetables have softened and become translucent, which typically takes about 8 to 10 minutes.",
+      "text": "In a large heavy-bottomed pot or Dutch oven, heat 3 tablespoons of olive oil over medium heat. Add the diced onion, carrots, and celery. Cook gently for about 8-10 minutes, until the vegetables are softened and translucent, creating a flavorful soffritto base.",
       "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Add Aromatics and Greens",
-      "text": "Stir in the minced garlic and cook for another minute until it becomes fragrant. Be careful not to let the garlic brown. Add the chopped black cabbage (cavolo nero) and Swiss chard to the pot, stirring frequently until the greens wilt down significantly, about 5 to 7 minutes.",
+      "title": "Add Garlic and Greens",
+      "text": "Stir in the minced garlic and cook for another 1-2 minutes until fragrant. Add the chopped black kale and Savoy cabbage. Cook, stirring occasionally, until the greens have wilted significantly, about 5-7 minutes.",
       "time": "7 min"
     },
     {
       "step": 3,
-      "title": "Build the Soup Base",
-      "text": "Pour in the crushed tomatoes and approximately half of the vegetable broth. Bring the mixture to a gentle simmer. Add the cooked cannellini beans, reserving a small handful (about 50g) to mash later for thickening. Season with salt and freshly ground black pepper to your liking.",
+      "title": "Combine Beans and Tomatoes",
+      "text": "Add the drained cannellini beans and the crushed tomatoes to the pot. Stir well to combine all the ingredients. Let it simmer for 5 minutes, allowing the flavors to meld together.",
       "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Simmer and Thicken",
-      "text": "Continue to simmer the soup uncovered for about 20 minutes, allowing all the flavors to meld beautifully. Meanwhile, mash the reserved cannellini beans with a fork or potato masher until creamy, then stir them back into the soup. This will help to naturally thicken the Ribollita.",
+      "title": "Simmer the Soup Base",
+      "text": "Pour in the vegetable broth. Bring the mixture to a gentle boil, then reduce the heat to low, cover, and let it simmer for at least 20 minutes, or up to 30 minutes, to allow the vegetables to become tender and the flavors to deepen. Season with salt and pepper to taste.",
       "time": "20 min"
     },
     {
       "step": 5,
-      "title": "Layer with Bread",
-      "text": "Preheat your oven to 180°C (350°F). In an oven-safe casserole dish, arrange a layer of the stale Tuscan bread slices at the bottom. Ladle about a third of the hot soup over the bread, ensuring it is well soaked. Repeat this layering process two more times, ending with a generous top layer of soup.",
-      "time": "5 min"
+      "title": "First Boil: Incorporate Bread",
+      "text": "Arrange the stale bread slices at the bottom of a heatproof serving bowl or individual bowls. Ladle the hot soup over the bread, ensuring the bread is fully submerged. Let it sit for at least 10-15 minutes, allowing the bread to soak up the broth and soften. This is the first 'boil' or resting period.",
+      "time": "15 min"
     },
     {
       "step": 6,
-      "title": "The \"Reboil\" and Serve",
-      "text": "Cover the casserole dish and bake in the preheated oven for 20-25 minutes, or until the bread has fully absorbed the liquid and the soup is bubbling hot. For an even more traditional experience, let the soup cool completely and then reheat it the next day on the stovetop or in the oven; this \"reboiling\" is key to its name. Serve hot, drizzled generously with fresh extra virgin olive oil and optionally sprinkled with grated Parmigiano Reggiano.",
-      "time": "25 min"
+      "title": "Second Boil: Reheat and Serve",
+      "text": "Traditionally, Ribollita is best the day after it's made. To achieve the 'twice-boiled' effect, transfer the soup from the serving bowl back into the pot, or simply reheat any leftovers. Gently reheat the soup over low heat until warmed through, stirring occasionally to break up the softened bread and create a thick, creamy consistency. Serve hot, drizzled generously with fresh extra virgin olive oil and a sprinkle of black pepper.",
+      "time": "10 min"
     }
   ],
   "nutritionTable": {
@@ -180,33 +175,33 @@
     "authentic",
     "traditional",
     "soups",
-    "stews",
-    "vegetarian",
-    "comfort food",
-    "Ribollita Tuscan Twice Boiled Soup"
+    "Ribollita Tuscan Twice Boiled Soup",
+    "vegetable soup",
+    "bread soup",
+    "cucina povera"
   ],
   "tips": [
-    "For authentic flavor, use true Tuscan stale bread which is unsalted. If using regular country bread, adjust salt in the soup accordingly.",
-    "The 'twice boiled' aspect is crucial. Making the soup a day ahead and reheating it slowly on the stovetop or in the oven allows the flavors to deepen and the bread to fully integrate, giving it that characteristic thick texture.",
-    "Always finish your Ribollita with a generous drizzle of high-quality extra virgin olive oil just before serving. It adds a wonderful peppery note and richness that is essential to the dish."
+    "For the most authentic Ribollita, use true Tuscan stale bread, which is unsalted. If using salted bread, adjust your seasoning carefully.",
+    "Ribollita is truly at its best when reheated the next day. The flavors deepen, and the bread fully integrates into the soup, giving it a rich, creamy texture.",
+    "Do not skip the final drizzle of high-quality extra virgin olive oil before serving; it adds a crucial layer of flavor and aroma to this rustic dish."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Ribollita Tuscan Twice Boiled Soup is a beloved Italian Soups and Stews dish enjoyed across Italian. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Embark on a culinary journey to the heart of Tuscany, where the art of transforming humble ingredients into extraordinary dishes has been perfected over centuries. Among the region's most beloved and iconic creations stands Ribollita Tuscan Twice Boiled Soup, a dish that embodies the very essence of Italian \"cucina povera\" – the resourceful cooking of the poor. More than just a soup, Ribollita is a heartwarming embrace in a bowl, a testament to the idea that some of the most satisfying meals come from simple beginnings and a little patience.\n\nThis thick, rustic vegetable and bread soup is renowned for its incredible depth of flavor and its unique texture, achieved through a process that, as its name suggests, involves cooking it not once, but twice. If you're looking to explore the rich tapestry of Italian soups and stews, understanding and mastering Ribollita is an essential step. Get ready to discover the history, ingredients, and techniques behind this timeless Tuscan masterpiece, and learn how to bring its comforting warmth to your own kitchen.\n\n## What is Ribollita Tuscan Twice Boiled Soup?\n\nRibollita, literally translating to \"reboiled\" or \"twice boiled,\" is a classic Tuscan peasant soup with roots stretching back to the Middle Ages. Its origins lie in the necessity of making the most of leftover bread and seasonal vegetables, transforming them into a hearty, nourishing meal. The genius of Ribollita Tuscan Twice Boiled Soup lies in its ingenious preparation: a vegetable and bean soup is cooked, then allowed to cool, and finally reheated or \"reboiled\" with stale bread layered into it. This second cooking process is crucial, as it allows the bread to fully absorb the flavorful broth and soften, thickening the soup into a stew-like consistency that is both rich and incredibly satisfying.\n\nTraditionally, Ribollita is a vegetarian dish, though some modern interpretations might incorporate a touch of pancetta for a deeper flavor base. Its core ingredients typically include a soffritto (a base of sautéed onion, carrot, and celery), cannellini beans, a variety of seasonal greens like cavolo nero (black kale), savoy cabbage, and other vegetables such as potatoes or chard. The stale Tuscan bread is not merely an accompaniment; it's an integral component, contributing to the soup's characteristic texture and making it a complete and incredibly filling meal. This robust and comforting dish is a shining example of how simple ingredients, when treated with respect and technique, can yield extraordinary results.\n\n## Ingredients You Need\n\nCrafting an authentic Ribollita Tuscan Twice Boiled Soup requires a selection of fresh, quality ingredients. Here's what you'll need:\n\n*   **Extra Virgin Olive Oil:** A generous amount of good quality olive oil is essential for flavor.\n*   **Aromatics:** 1 large yellow onion, 2 carrots, 2 celery stalks (for the soffritto), 4-5 cloves garlic.\n*   **Greens:** 1 bunch cavolo nero (black kale, about 1 lb), 1/2 head savoy cabbage. If cavolo nero is unavailable, regular kale or Swiss chard can be used.\n*   **Beans:** 2 (15-ounce) cans cannellini beans, rinsed and drained (reserve some liquid). Alternatively, 1 cup dried cannellini beans, soaked overnight and cooked.\n*   **Tomatoes:** 1 (14.5-ounce) can diced tomatoes or crushed tomatoes.\n*   **Broth:** 6-8 cups vegetable broth (or chicken broth if not strictly vegetarian).\n*   **Bread:** 8-10 slices stale rustic Tuscan bread (or any crusty, day-old bread like sourdough or country bread).\n*   **Seasoning:** Salt, freshly ground black pepper, a pinch of red pepper flakes (optional).\n*   **For Serving:** Additional extra virgin olive oil, freshly grated Pecorino Romano or Parmesan cheese.\n\n## Step-by-Step Instructions\n\nMaking Ribollita Tuscan Twice Boiled Soup is a labor of love, but the process is straightforward and incredibly rewarding.\n\n**Step 1: Prepare the Soffritto.** Heat a generous glug of olive oil in a large, heavy-bottomed pot or Dutch oven over medium heat. Add the chopped onion, carrots, and celery. Sauté gently for 8-10 minutes until softened and translucent, but not browned. Add the minced garlic and red pepper flakes (if using), and cook for another minute until fragrant.\n\n**Step 2: Add Greens and Tomatoes.** Stir in the chopped cavolo nero and savoy cabbage. Cook, stirring occasionally, until the greens begin to wilt down, about 5-7 minutes. Add the diced or crushed tomatoes and cook for another 5 minutes, allowing their flavors to concentrate slightly.\n\n**Step 3: Introduce Beans and Broth.** Take about half of the rinsed cannellini beans and mash them roughly with a fork or potato masher directly in the pot, or in a separate bowl before adding. This will help thicken the soup. Add both the mashed and whole cannellini beans to the pot. Pour in the vegetable broth.\n\n**Step 4: First Boil/Simmer.** Bring the soup to a gentle boil, then reduce the heat to low, cover, and simmer for at least 45 minutes to an hour. The longer it simmers, the more the flavors will meld and deepen. Stir occasionally, and season with salt and pepper to taste. The vegetables should be very tender.\n\n**Step 5: The \"Twice Boiled\" Layering.** Remove the soup from the heat. In an oven-safe casserole dish or back in your Dutch oven (if it's oven-safe), create layers. Start with a layer of the stale bread slices at the bottom. Ladle a generous amount of the hot soup over the bread, ensuring it's completely soaked. Repeat with another layer of bread and then soup, finishing with a layer of soup.\n\n**Step 6: Reheat/Bake.** You have two options for the \"reboiling\" step.\n*   **Stovetop Method:** Gently reheat the layered soup on the stovetop over very low heat for 15-20 minutes, allowing the bread to fully absorb the liquid and thicken the soup. Stir very gently to prevent sticking.\n*   **Oven Method:** Preheat your oven to 375°F (190°C). Bake the Ribollita Tuscan Twice Boiled Soup for 20-30 minutes, or until the top is slightly bubbly and the bread has mostly dissolved into the soup, creating a thick, cohesive texture.\n\n## Pro Tips for the Best Results\n\nAchieving the perfect Ribollita Tuscan Twice Boiled Soup involves a few key considerations that elevate it from good to truly exceptional:\n\n*   **Quality Olive Oil is Key:** As with many Italian dishes, the quality of your extra virgin olive oil makes a significant difference. Use a robust, flavorful olive oil both for cooking and for drizzling over the finished soup.\n*   **Don't Skimp on Stale Bread:** This is arguably the most crucial ingredient. Fresh bread won't absorb the liquid as effectively and will turn mushy. Day-old, crusty Tuscan bread is ideal, but any rustic, stale bread will work.\n*   **Mash Some Beans:** Mashing a portion of the cannellini beans creates a natural thickener, giving the soup its characteristic creamy, hearty texture without needing flour or cream.\n*   **Long Simmer for Flavor:** Don't rush the initial simmer. The longer the vegetables cook and the flavors meld, the more delicious your Ribollita will be. This allows the simple ingredients to develop complex layers of taste.\n*   **Let it Rest (and Re-boil!):** Ribollita truly benefits from resting. In fact, many Tuscans will tell you it tastes even better the day after it's made, as the bread completely incorporates and the flavors deepen further. This makes it a fantastic make-ahead meal.\n*   **Cavolo Nero (Black Kale):** If you can find it, use cavolo nero. Its slightly bitter, robust flavor is traditional and adds an authentic depth that other kales might not fully replicate.\n\n## Serving Suggestions\n\nRibollita Tuscan Twice Boiled Soup is a meal in itself, but a few simple additions can elevate the experience:\n\n*   **Generous Drizzle of Olive Oil:** Always finish your bowl with a final flourish of high-quality extra virgin olive oil. It adds richness and a peppery bite.\n*   **Grated Cheese:** A sprinkle of freshly grated Pecorino Romano or Parmesan cheese adds a salty, umami kick.\n*   **Crusty Bread (Optional):** Even though the soup is full of bread, a side of fresh, crusty bread is perfect for mopping up any remaining delicious broth.\n*   **Simple Green Salad:** A light, peppery arugula salad with a lemon vinaigrette provides a refreshing contrast to the hearty soup.\n*   **Tuscan Red Wine:** Pair it with a robust red wine from Tuscany, like a Chianti Classico, for an authentic culinary pairing.\n\n## Variations and Substitutions\n\nWhile the traditional Ribollita Tuscan Twice Boiled Soup recipe is a classic for a reason, it's also wonderfully adaptable to what you have on hand or your personal preferences:\n\n*   **Vegetables:** Feel free to incorporate other seasonal vegetables. Potatoes, zucchini, Swiss chard, or even a handful of spinach can be excellent additions.\n*   **Beans:** If cannellini beans aren't available, Great Northern beans or navy beans are good substitutes.\n*   **Bread:** Any stale, rustic, crusty bread will work. Don't be afraid to experiment with sourdough or country loaves.\n*   **Meat Option:** While traditionally vegetarian, some recipes start with a small amount of diced pancetta or guanciale rendered in the pot before adding the soffritto. This adds a smoky, savory depth to the base.\n*   **Herbs:** Fresh rosemary or thyme sprigs can be added to the soup during the simmering process for an extra layer of aromatic flavor. Remove them before serving.\n*   **Spiciness:** Adjust the amount of red pepper flakes to your preference for a subtle warmth or a more pronounced kick.\n\nRibollita Tuscan Twice Boiled Soup is more than just a dish; it's a culinary legacy, a warm hug from the heart of Italy. Its ability to transform simple, wholesome ingredients into a profoundly satisfying and flavorful meal is a testament to the timeless wisdom of Tuscan cooking. Whether you're seeking comfort on a cold day or a taste of authentic Italian tradition, this hearty soup promises to deliver. So gather your ingredients, take your time with the \"reboiling\" process, and savor every spoonful of this incredible Italian classic.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Ribollita Tuscan Twice Boiled Soup",
     "description": "Learn how to make authentic Ribollita Tuscan Twice Boiled Soup. This easy Italian recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1628630671367-4b2a89dfce40?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTY1NzI1OHww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1579871493788-211b9c3c090e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTY1NzI1OHww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1681557732911-0637c8da9205?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MjI1Mjk1N3ww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1579871493788-211b9c3c090e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBSaWJvbGxpdGElMjBUdXNjYW4lMjBUd2ljZSUyMEl0YWxpYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MjI1Mjk1N3ww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-09-17T15:01:48.325Z",
+    "datePublished": "2026-10-17T16:03:14.372Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -225,17 +220,16 @@
     },
     "recipeIngredient": [
       "200g Stale Tuscan bread",
-      "400g Cooked cannellini beans",
-      "500g Black cabbage (cavolo nero)",
-      "200g Swiss chard",
+      "400g Cannellini beans",
+      "200g Black kale (cavolo nero)",
+      "200g Savoy cabbage",
       "2 medium Carrots",
-      "2 medium Celery stalks",
+      "2 Celery stalks",
       "1 large Onion",
       "3 Garlic cloves",
-      "400g Canned peeled tomatoes",
+      "400g can Crushed tomatoes",
       "1.5 liters Vegetable broth",
       "4 tbsp Extra virgin olive oil",
-      "to taste Parmigiano Reggiano",
       "to taste Salt",
       "to taste Black pepper"
     ],
@@ -243,34 +237,34 @@
       {
         "@type": "HowToStep",
         "name": "Prepare the Soffritto",
-        "text": "In a large, heavy-bottomed pot or Dutch oven, heat the extra virgin olive oil over medium heat. Add the diced onion, carrots, and celery. Sauté gently until the vegetables have softened and become translucent, which typically takes about 8 to 10 minutes."
+        "text": "In a large heavy-bottomed pot or Dutch oven, heat 3 tablespoons of olive oil over medium heat. Add the diced onion, carrots, and celery. Cook gently for about 8-10 minutes, until the vegetables are softened and translucent, creating a flavorful soffritto base."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Aromatics and Greens",
-        "text": "Stir in the minced garlic and cook for another minute until it becomes fragrant. Be careful not to let the garlic brown. Add the chopped black cabbage (cavolo nero) and Swiss chard to the pot, stirring frequently until the greens wilt down significantly, about 5 to 7 minutes."
+        "name": "Add Garlic and Greens",
+        "text": "Stir in the minced garlic and cook for another 1-2 minutes until fragrant. Add the chopped black kale and Savoy cabbage. Cook, stirring occasionally, until the greens have wilted significantly, about 5-7 minutes."
       },
       {
         "@type": "HowToStep",
-        "name": "Build the Soup Base",
-        "text": "Pour in the crushed tomatoes and approximately half of the vegetable broth. Bring the mixture to a gentle simmer. Add the cooked cannellini beans, reserving a small handful (about 50g) to mash later for thickening. Season with salt and freshly ground black pepper to your liking."
+        "name": "Combine Beans and Tomatoes",
+        "text": "Add the drained cannellini beans and the crushed tomatoes to the pot. Stir well to combine all the ingredients. Let it simmer for 5 minutes, allowing the flavors to meld together."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer and Thicken",
-        "text": "Continue to simmer the soup uncovered for about 20 minutes, allowing all the flavors to meld beautifully. Meanwhile, mash the reserved cannellini beans with a fork or potato masher until creamy, then stir them back into the soup. This will help to naturally thicken the Ribollita."
+        "name": "Simmer the Soup Base",
+        "text": "Pour in the vegetable broth. Bring the mixture to a gentle boil, then reduce the heat to low, cover, and let it simmer for at least 20 minutes, or up to 30 minutes, to allow the vegetables to become tender and the flavors to deepen. Season with salt and pepper to taste."
       },
       {
         "@type": "HowToStep",
-        "name": "Layer with Bread",
-        "text": "Preheat your oven to 180°C (350°F). In an oven-safe casserole dish, arrange a layer of the stale Tuscan bread slices at the bottom. Ladle about a third of the hot soup over the bread, ensuring it is well soaked. Repeat this layering process two more times, ending with a generous top layer of soup."
+        "name": "First Boil: Incorporate Bread",
+        "text": "Arrange the stale bread slices at the bottom of a heatproof serving bowl or individual bowls. Ladle the hot soup over the bread, ensuring the bread is fully submerged. Let it sit for at least 10-15 minutes, allowing the bread to soak up the broth and soften. This is the first 'boil' or resting period."
       },
       {
         "@type": "HowToStep",
-        "name": "The \"Reboil\" and Serve",
-        "text": "Cover the casserole dish and bake in the preheated oven for 20-25 minutes, or until the bread has fully absorbed the liquid and the soup is bubbling hot. For an even more traditional experience, let the soup cool completely and then reheat it the next day on the stovetop or in the oven; this \"reboiling\" is key to its name. Serve hot, drizzled generously with fresh extra virgin olive oil and optionally sprinkled with grated Parmigiano Reggiano."
+        "name": "Second Boil: Reheat and Serve",
+        "text": "Traditionally, Ribollita is best the day after it's made. To achieve the 'twice-boiled' effect, transfer the soup from the serving bowl back into the pot, or simply reheat any leftovers. Gently reheat the soup over low heat until warmed through, stirring occasionally to break up the softened bread and create a thick, creamy consistency. Serve hot, drizzled generously with fresh extra virgin olive oil and a sprinkle of black pepper."
       }
     ]
   },
-  "publishedAt": "2026-09-17T15:01:48.327Z"
+  "publishedAt": "2026-10-17T16:03:14.373Z"
 }
