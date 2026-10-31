@@ -51,44 +51,39 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "American",
-  "image1": "https://images.unsplash.com/photo-1693687900895-489b2d0d5a84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzAxOTY2Mnww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1603103750903-518e8bf57bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzAxOTY2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Imagine sinking your teeth into tender, sweet lobster meat, lightly dressed and nestled in a perfectly buttered, toasted bun. This classic Maine Lobster Roll is a taste of New England summer, simple yet incredibly satisfying. Its delicate flavors celebrate the fresh bounty of the ocean, making it an iconic American seafood delight.",
+  "image1": "https://images.unsplash.com/photo-1693687900895-489b2d0d5a84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzQzOTAyMXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1603103750903-518e8bf57bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzQzOTAyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Indulge in the quintessential taste of New England with this classic Maine Lobster Roll. Succulent, sweet lobster meat is lightly dressed with mayonnaise and a hint of lemon, then piled high into a perfectly buttered and toasted split-top bun. This iconic American seafood dish is simple yet utterly luxurious, delivering a burst of fresh ocean flavor with every bite.",
   "ingredients": [
     {
-      "item": "Fresh lobster meat",
-      "amount": "1.5 lbs",
-      "notes": "cooked, chilled, and roughly chopped"
+      "item": "Fresh whole lobsters",
+      "amount": "2 lbs",
+      "notes": "or 1 lb cooked lobster meat"
     },
     {
-      "item": "Mayonnaise",
+      "item": "Good quality mayonnaise",
       "amount": "1/4 cup",
-      "notes": "good quality"
+      "notes": ""
     },
     {
-      "item": "Celery",
-      "amount": "2 stalks",
-      "notes": "finely diced"
-    },
-    {
-      "item": "Lemon juice",
+      "item": "Fresh lemon juice",
       "amount": "1 tbsp",
-      "notes": "freshly squeezed"
+      "notes": ""
     },
     {
       "item": "Salt",
       "amount": "1/4 tsp",
-      "notes": "or to taste"
+      "notes": ""
     },
     {
       "item": "Black pepper",
       "amount": "1/8 tsp",
-      "notes": "freshly ground"
+      "notes": ""
     },
     {
-      "item": "New England style hot dog buns",
+      "item": "New England style split-top hot dog buns",
       "amount": "4",
-      "notes": "top-split"
+      "notes": ""
     },
     {
       "item": "Unsalted butter",
@@ -96,7 +91,7 @@
       "notes": "melted"
     },
     {
-      "item": "Fresh chives",
+      "item": "Fresh chives or parsley",
       "amount": "1 tbsp",
       "notes": "chopped, for garnish (optional)"
     }
@@ -104,39 +99,45 @@
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Lobster Meat",
-      "text": "Ensure your cooked lobster meat is thoroughly chilled. Gently chop the lobster into bite-sized pieces, being careful not to shred it too finely. The goal is tender, chunky pieces.",
-      "time": "5 min"
+      "title": "Prepare the Lobster",
+      "text": "If using whole lobsters, bring a large pot of salted water to a rolling boil. Add lobsters headfirst, cover, and cook for 8-10 minutes for 1.25 lb lobsters, or until bright red. Remove lobsters and plunge into an ice bath to stop cooking. Once cool enough to handle, remove the meat from the tails, claws, and knuckles.",
+      "time": "25 min"
     },
     {
       "step": 2,
-      "title": "Mix the Lobster Salad",
-      "text": "In a medium mixing bowl, combine the chopped lobster meat, mayonnaise, finely diced celery, fresh lemon juice, salt, and freshly ground black pepper. Stir very gently until all ingredients are just incorporated. Avoid overmixing to keep the lobster delicate.",
+      "title": "Chop the Lobster Meat",
+      "text": "Roughly chop the cooked lobster meat into bite-sized pieces. Ensure no shell fragments remain. Place the chopped lobster meat into a medium-sized mixing bowl.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Chill the Mixture",
-      "text": "Cover the bowl with plastic wrap and refrigerate the lobster salad for at least 15-20 minutes. This chilling period allows the flavors to meld beautifully and ensures the roll is served refreshingly cold, which is key for a classic Maine lobster roll.",
-      "time": "20 min"
+      "title": "Make the Dressing",
+      "text": "In a small bowl, whisk together the mayonnaise, fresh lemon juice, salt, and black pepper until well combined. This simple dressing allows the natural sweetness of the lobster to shine.",
+      "time": "3 min"
     },
     {
       "step": 4,
-      "title": "Prepare the Buns",
-      "text": "Melt the unsalted butter in a small bowl. Brush the outside flat sides of the New England style hot dog buns generously with the melted butter. This buttering step is crucial for achieving that golden, crispy exterior.",
-      "time": "3 min"
+      "title": "Combine and Chill",
+      "text": "Pour the mayonnaise mixture over the chopped lobster meat. Gently fold the ingredients together until the lobster is lightly coated. Avoid overmixing. Cover the bowl and refrigerate for at least 15 minutes to allow the flavors to meld and the mixture to chill.",
+      "time": "15 min"
     },
     {
       "step": 5,
       "title": "Toast the Buns",
-      "text": "Heat a non-stick skillet or griddle over medium-low heat. Place the buttered buns onto the hot skillet, flat sides down. Toast for 2-3 minutes per side, or until they are beautifully golden brown and lightly crispy. Watch them closely to prevent burning.",
-      "time": "6 min"
+      "text": "Melt the unsalted butter in a large skillet over medium-low heat. Brush the outsides of the split-top hot dog buns with the melted butter. Place the buttered sides down in the skillet and toast for 2-3 minutes per side, or until golden brown and slightly crispy.",
+      "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Assemble and Serve",
-      "text": "Remove the chilled lobster salad from the refrigerator. Spoon a generous amount of the cold lobster mixture into each warm, toasted bun. Garnish with fresh chopped chives if desired for a touch of color and extra flavor. Serve immediately with a side of potato chips or a crisp green salad.",
-      "time": "3 min"
+      "title": "Assemble the Rolls",
+      "text": "Carefully open each toasted bun. Evenly divide the chilled lobster mixture among the four buns, piling it generously into the buttered crevices.",
+      "time": "2 min"
+    },
+    {
+      "step": 7,
+      "title": "Garnish and Serve",
+      "text": "Garnish with a sprinkle of fresh chives or parsley, if desired. Serve immediately with a side of potato chips, coleslaw, or a pickle spear for a truly authentic New England experience.",
+      "time": "0 min"
     }
   ],
   "nutritionTable": {
@@ -154,33 +155,34 @@
     "seafood",
     "authentic",
     "traditional",
-    "lobster",
     "New England",
+    "lobster",
+    "roll",
     "sandwich",
-    "summer"
+    "Maine Lobster Roll New England"
   ],
   "tips": [
-    "For the most authentic experience, use only fresh, cooked Maine lobster meat. Avoid imitation or frozen pre-cooked lobster if possible, as it significantly impacts flavor and texture.",
-    "Do not overmix the lobster salad. Gentle folding preserves the delicate texture of the lobster and prevents it from becoming mushy. The goal is to bind, not mash.",
-    "Serve immediately after assembling. The contrast of the cold lobster salad with the warm, buttered bun is a hallmark of a great Maine Lobster Roll. A side of chips or coleslaw completes the meal."
+    "Always use fresh, high-quality lobster meat for the best flavor; frozen or pre-cooked lobster can be used but may lack the same sweetness and texture.",
+    "Do not overdress the lobster. The goal is to enhance, not mask, the delicate flavor of the lobster. A light coating of mayonnaise is key for an authentic Maine-style roll.",
+    "Serve immediately after assembling to enjoy the contrast between the warm, buttery bun and the cool, succulent lobster filling. A side of kettle chips completes the classic experience."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "The Quintessential Taste of Summer: Mastering the Maine Lobster Roll New England\n\nFew dishes capture the essence of American summer quite like the Maine Lobster Roll New England. This iconic delicacy, a testament to the pristine waters off the coast of Maine, offers a sublime combination of fresh, sweet lobster meat nestled in a buttery, toasted bun. It’s more than just a sandwich; it’s a culinary experience, a symbol of coastal living, and a must-try for anyone exploring the rich tapestry of American seafood. Whether you're a seasoned chef or a home cook looking to bring a taste of the Atlantic to your kitchen, creating the perfect lobster roll is an achievable and incredibly rewarding endeavor.\n\n## What is Maine Lobster Roll New England?\n\nAt its heart, the Maine Lobster Roll New England is a simple yet profoundly satisfying dish. It consists primarily of succulent, cooked lobster meat, lightly dressed and served in a grilled or pan-fried split-top hot dog bun. The key to its unparalleled flavor lies in the quality of the lobster itself – typically sourced from the cold, nutrient-rich waters of Maine, known for producing incredibly sweet and tender crustaceans.\n\nThere are two main styles, though the \"Maine\" style usually refers to the cold preparation:\n1.  **Maine Style (Cold):** This is the classic interpretation, featuring chilled lobster meat tossed with a minimal amount of mayonnaise, a touch of celery or chives for crunch, and a squeeze of lemon juice. The dressing is meant to enhance, not overpower, the delicate flavor of the lobster.\n2.  **Connecticut Style (Hot):** While less common when discussing the \"Maine\" specific roll, this variation serves warm lobster meat, simply tossed with melted drawn butter. Both are delicious, but for the authentic Maine experience, the cold mayo-dressed version is king.\n\nThe history of the lobster roll is rooted in New England's fishing communities, likely emerging in the mid-20th century as a way to serve fresh lobster in a convenient, portable format. It quickly became a staple at roadside shacks, clam bakes, and seaside restaurants, cementing its status as a beloved American seafood tradition. The purity of ingredients and the focus on the natural sweetness of the lobster are what make the Maine Lobster Roll New England an enduring culinary masterpiece.\n\n## Ingredients You Need\n\nCrafting the perfect Maine Lobster Roll New England requires attention to detail and, most importantly, high-quality ingredients. Skimping on any component will compromise the final taste.\n\n*   **Fresh Cooked Maine Lobster Meat:** This is non-negotiable. You'll need about 1-1.5 pounds of cooked lobster meat, which typically comes from 3-4 lobsters (1.25-1.5 lbs each). You can buy live lobsters and cook them yourself, or purchase pre-cooked and picked meat from a reputable fishmonger. Ensure it's a mix of claw, knuckle, and tail meat for varied texture.\n*   **Mayonnaise:** About 2-3 tablespoons. Use a good quality, full-fat mayonnaise. The goal is to bind the lobster meat lightly, not drown it.\n*   **Celery:** 1 stalk, finely diced. Adds a subtle crunch and freshness.\n*   **Fresh Chives (optional):** 1 tablespoon, finely chopped. Provides a mild oniony flavor and a pop of color.\n*   **Lemon Juice:** 1-2 teaspoons, freshly squeezed. Brightens the flavors and adds essential acidity.\n*   **Salt and Freshly Ground Black Pepper:** To taste.\n*   **Split-Top Hot Dog Buns:** 6-8 buns. These are crucial! Their flat sides are perfect for buttering and toasting, creating a golden, crispy exterior.\n*   **Unsalted Butter:** 3-4 tablespoons, melted. For toasting the buns.\n\n## Step-by-Step Instructions\n\nMaking a delightful Maine Lobster Roll New England is simpler than you might think. Follow these steps for a truly authentic experience:\n\n1.  **Prepare the Lobster Meat:** If you're starting with live lobsters, steam or boil them until fully cooked (about 8-10 minutes for 1.25 lb lobsters). Once cool enough to handle, carefully crack and pick all the meat from the claws, knuckles, and tails. Cut the larger pieces into bite-sized chunks, ensuring a good mix of textures. If using pre-cooked meat, simply ensure it’s well-drained.\n2.  **Chill the Lobster:** Place the prepared lobster meat in a bowl, cover, and refrigerate for at least 30 minutes, or up to an hour. Chilled lobster is key for the classic Maine-style roll.\n3.  **Make the Dressing:** In a separate medium bowl, combine the mayonnaise, diced celery, fresh chives (if using), lemon juice, salt, and pepper. Stir until well combined.\n4.  **Combine Lobster and Dressing:** Add the chilled lobster meat to the dressing. Gently fold the ingredients together until the lobster is lightly coated. Be careful not to overmix, as this can break down the delicate lobster meat. Taste and adjust seasoning if needed.\n5.  **Prepare the Buns:** Melt the unsalted butter in a small bowl. Brush the flat sides of each split-top hot dog bun generously with melted butter.\n6.  **Toast the Buns:** Heat a large skillet or griddle over medium heat. Place the buttered buns flat-side down on the hot surface. Toast for 2-3 minutes per side, or until golden brown and lightly crispy. This step is vital for texture and flavor.\n7.  **Assemble the Rolls:** Carefully open each toasted bun. Generously spoon the lobster mixture into each bun, mounding it high.\n8.  **Serve Immediately:** The Maine Lobster Roll New England is best enjoyed fresh, while the buns are still warm and the lobster mixture is perfectly chilled.\n\n## Pro Tips for the Best Results\n\nAchieving lobster roll perfection involves a few insider tricks that elevate a good roll to an extraordinary one.\n\n*   **Source Your Lobster Wisely:** The fresher, the better. If possible, buy live lobsters and cook them yourself. If buying pre-picked meat, ensure it’s from a trusted source and hasn't been frozen. A mix of claw, knuckle, and tail meat provides the best texture variety.\n*   **Don't Overcook the Lobster:** Overcooked lobster becomes rubbery and loses its natural sweetness. Steam or boil just until the shells turn bright red.\n*   **Keep it Simple:** The beauty of a Maine lobster roll is its simplicity. The dressing should be minimal – just enough to bind and enhance, never to mask the star ingredient. Resist the urge to add too many extra ingredients.\n*   **Chill Thoroughly:** For the cold Maine style, ensure your lobster meat is thoroughly chilled before mixing with the dressing. This enhances the refreshing contrast with the warm, buttery bun.\n*   **Butter and Toast the Buns Properly:** This is a non-negotiable step. The golden, crispy, buttery bun provides a crucial textural counterpoint to the tender lobster. Use unsalted butter to control the seasoning.\n*   **Season Gradually:** Add salt, pepper, and lemon juice in small increments, tasting as you go. Lobster’s natural salinity varies, and too much salt can quickly ruin the dish.\n\n## Serving Suggestions\n\nA classic Maine Lobster Roll New England is often served with simple accompaniments that don't compete with its rich flavor.\n\n*   **Crispy Potato Chips:** A bag of classic kettle-cooked potato chips is the quintessential side. Their salty crunch is the perfect foil to the soft, rich roll.\n*   **Coleslaw:** A fresh, tangy coleslaw provides a refreshing contrast and adds a vegetable component.\n*   **Dill Pickles:** A few crisp dill pickle spears offer a bright, acidic bite that cleanses the palate.\n*   **Green Salad:** For a lighter option, a simple green salad with a vinaigrette dressing can be a good choice.\n*   **Beverages:** Pair your lobster roll with a crisp, dry white wine (like Sauvignon Blanc or Pinot Grigio), a light lager, or even a classic Maine blueberry soda for an authentic experience.\n\n## Variations and Substitutions\n\nWhile the classic Maine Lobster Roll New England is divine, there are a few ways to customize it to your preference, or to adapt if certain ingredients aren't available.\n\n*   **Connecticut Style:** As mentioned, for a warm roll, skip the mayo. Gently warm the picked lobster meat in a pan with about 2-3 tablespoons of melted drawn butter. Season with salt and pepper, then spoon into toasted buns. A sprinkle of paprika is sometimes added.\n*   **Herb Variations:** While chives are classic, you could experiment with a tiny bit of fresh dill or tarragon for a different aromatic note. Use sparingly to avoid overpowering the lobster.\n*   **Spice It Up (Lightly):** A very small pinch of cayenne pepper or a dash of hot sauce can add a subtle kick, but be extremely careful not to mask the lobster.\n*   **Bun Alternatives:** While split-top buns are traditional and superior for toasting, if you can't find them, regular hot dog buns can be buttered and toasted on their sides, or even brioche buns for a richer, sweeter profile.\n*   **Mayonnaise Alternatives:** For a lighter option, some people use Greek yogurt, but this will significantly change the flavor profile. A better substitution for dietary reasons might be an avocado oil-based mayonnaise.\n*   **Additions (Proceed with Caution):** Some variations include a paper-thin slice of avocado or a leaf of butter lettuce for extra texture, but these are deviations from the pure Maine style.\n\nThe Maine Lobster Roll New England is more than just a meal; it's a celebration of exceptional American seafood, a taste of coastal tradition, and a truly unforgettable culinary delight. By following these guidelines, you can recreate this beloved dish and savor the sweet, briny flavors of Maine lobster in the comfort of your own home. Enjoy the journey to lobster roll perfection!",
+  "article": "Maine Lobster Roll New England is a beloved American Seafood dish enjoyed across American. This authentic recipe brings traditional flavors to your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Maine Lobster Roll New England",
     "description": "Learn how to make authentic Maine Lobster Roll New England. This easy American recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1693687900895-489b2d0d5a84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzAxOTY2Mnww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1603103750903-518e8bf57bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzAxOTY2Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1693687900895-489b2d0d5a84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzQzOTAyMXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1603103750903-518e8bf57bf0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBNYWluZSUyMExvYnN0ZXIlMjBSb2xsJTIwQW1lcmljYW4lMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc5MzQzOTAyMXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-10-26T13:01:38.602Z",
+    "datePublished": "2026-10-31T09:30:49.822Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -198,48 +200,52 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "1.5 lbs Fresh lobster meat",
-      "1/4 cup Mayonnaise",
-      "2 stalks Celery",
-      "1 tbsp Lemon juice",
+      "2 lbs Fresh whole lobsters",
+      "1/4 cup Good quality mayonnaise",
+      "1 tbsp Fresh lemon juice",
       "1/4 tsp Salt",
       "1/8 tsp Black pepper",
-      "4 New England style hot dog buns",
+      "4 New England style split-top hot dog buns",
       "2 tbsp Unsalted butter",
-      "1 tbsp Fresh chives"
+      "1 tbsp Fresh chives or parsley"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Lobster Meat",
-        "text": "Ensure your cooked lobster meat is thoroughly chilled. Gently chop the lobster into bite-sized pieces, being careful not to shred it too finely. The goal is tender, chunky pieces."
+        "name": "Prepare the Lobster",
+        "text": "If using whole lobsters, bring a large pot of salted water to a rolling boil. Add lobsters headfirst, cover, and cook for 8-10 minutes for 1.25 lb lobsters, or until bright red. Remove lobsters and plunge into an ice bath to stop cooking. Once cool enough to handle, remove the meat from the tails, claws, and knuckles."
       },
       {
         "@type": "HowToStep",
-        "name": "Mix the Lobster Salad",
-        "text": "In a medium mixing bowl, combine the chopped lobster meat, mayonnaise, finely diced celery, fresh lemon juice, salt, and freshly ground black pepper. Stir very gently until all ingredients are just incorporated. Avoid overmixing to keep the lobster delicate."
+        "name": "Chop the Lobster Meat",
+        "text": "Roughly chop the cooked lobster meat into bite-sized pieces. Ensure no shell fragments remain. Place the chopped lobster meat into a medium-sized mixing bowl."
       },
       {
         "@type": "HowToStep",
-        "name": "Chill the Mixture",
-        "text": "Cover the bowl with plastic wrap and refrigerate the lobster salad for at least 15-20 minutes. This chilling period allows the flavors to meld beautifully and ensures the roll is served refreshingly cold, which is key for a classic Maine lobster roll."
+        "name": "Make the Dressing",
+        "text": "In a small bowl, whisk together the mayonnaise, fresh lemon juice, salt, and black pepper until well combined. This simple dressing allows the natural sweetness of the lobster to shine."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Buns",
-        "text": "Melt the unsalted butter in a small bowl. Brush the outside flat sides of the New England style hot dog buns generously with the melted butter. This buttering step is crucial for achieving that golden, crispy exterior."
+        "name": "Combine and Chill",
+        "text": "Pour the mayonnaise mixture over the chopped lobster meat. Gently fold the ingredients together until the lobster is lightly coated. Avoid overmixing. Cover the bowl and refrigerate for at least 15 minutes to allow the flavors to meld and the mixture to chill."
       },
       {
         "@type": "HowToStep",
         "name": "Toast the Buns",
-        "text": "Heat a non-stick skillet or griddle over medium-low heat. Place the buttered buns onto the hot skillet, flat sides down. Toast for 2-3 minutes per side, or until they are beautifully golden brown and lightly crispy. Watch them closely to prevent burning."
+        "text": "Melt the unsalted butter in a large skillet over medium-low heat. Brush the outsides of the split-top hot dog buns with the melted butter. Place the buttered sides down in the skillet and toast for 2-3 minutes per side, or until golden brown and slightly crispy."
       },
       {
         "@type": "HowToStep",
-        "name": "Assemble and Serve",
-        "text": "Remove the chilled lobster salad from the refrigerator. Spoon a generous amount of the cold lobster mixture into each warm, toasted bun. Garnish with fresh chopped chives if desired for a touch of color and extra flavor. Serve immediately with a side of potato chips or a crisp green salad."
+        "name": "Assemble the Rolls",
+        "text": "Carefully open each toasted bun. Evenly divide the chilled lobster mixture among the four buns, piling it generously into the buttered crevices."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Garnish and Serve",
+        "text": "Garnish with a sprinkle of fresh chives or parsley, if desired. Serve immediately with a side of potato chips, coleslaw, or a pickle spear for a truly authentic New England experience."
       }
     ]
   },
-  "publishedAt": "2026-10-26T13:01:38.603Z"
+  "publishedAt": "2026-10-31T09:30:49.823Z"
 }
