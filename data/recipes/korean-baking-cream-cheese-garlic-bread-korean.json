@@ -51,29 +51,29 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Korean",
-  "image1": "https://images.unsplash.com/photo-1676976198546-18595f0796f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzMzY5ODExfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1697877366366-f09b85e04f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzMzY5ODExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Cream Cheese Garlic Bread Korean is a beloved street food and bakery item, featuring soft buns generously filled with a sweet cream cheese mixture and drenched in a savory garlic butter glaze. This delightful treat offers a perfect balance of sweet and savory flavors, making it incredibly addictive. It's a comforting and indulgent snack that has captured hearts both in Korea and internationally.",
+  "image1": "https://images.unsplash.com/photo-1676976198546-18595f0796f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzkzNjEwMDc4fDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1697877366366-f09b85e04f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzkzNjEwMDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Korean Cream Cheese Garlic Bread is a delightful sweet and savory treat, featuring soft bread generously filled with a tangy cream cheese mixture and drenched in a rich garlic butter sauce. It offers a perfect balance of flavors and textures, making it a popular street food and bakery item. This indulgent bread is incredibly addictive and perfect for sharing or enjoying as a satisfying snack.",
   "ingredients": [
     {
       "item": "Round bread buns",
-      "amount": "4",
-      "notes": "soft, like milk bread or brioche"
+      "amount": "6",
+      "notes": "milk bread or brioche, about 100g each"
     },
     {
       "item": "Cream cheese",
       "amount": "200g",
-      "notes": "softened"
+      "notes": "softened at room temperature"
     },
     {
       "item": "Granulated sugar",
-      "amount": "50g",
-      "notes": ""
+      "amount": "30g",
+      "notes": "for cream cheese filling"
     },
     {
-      "item": "Heavy cream or milk",
-      "amount": "30ml",
-      "notes": ""
+      "item": "Heavy cream",
+      "amount": "2 tbsp",
+      "notes": "or milk, for cream cheese filling"
     },
     {
       "item": "Unsalted butter",
@@ -86,57 +86,68 @@
       "notes": "minced"
     },
     {
-      "item": "Egg yolk",
-      "amount": "1",
-      "notes": "large"
-    },
-    {
       "item": "Granulated sugar",
-      "amount": "1 tbsp",
-      "notes": "for garlic butter"
+      "amount": "2 tbsp",
+      "notes": "for garlic butter sauce"
     },
     {
-      "item": "Dried parsley flakes",
-      "amount": "1 tbsp",
-      "notes": "or fresh, finely chopped"
+      "item": "Large egg",
+      "amount": "1",
+      "notes": "beaten"
+    },
+    {
+      "item": "Milk",
+      "amount": "3 tbsp",
+      "notes": "for garlic butter sauce"
+    },
+    {
+      "item": "Fresh parsley",
+      "amount": "2 tbsp",
+      "notes": "chopped, plus extra for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Cream Cheese Filling",
-      "text": "In a medium bowl, combine the softened cream cheese, 50g granulated sugar, and 30ml heavy cream or milk. Whisk until smooth and creamy. Transfer the mixture to a piping bag fitted with a round tip, or use a spoon.",
+      "title": "Prepare the Bread",
+      "text": "Preheat your oven to 170°C (340°F). Take each round bread bun and slice it into 6 or 8 wedges, making sure not to cut all the way through the bottom, so the bread remains intact at the base.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Prepare the Garlic Butter Glaze",
-      "text": "In another bowl, whisk together the melted unsalted butter, minced garlic, egg yolk, 1 tbsp granulated sugar, and dried parsley flakes until well combined. This will be your fragrant garlic butter dip.",
+      "title": "Make the Cream Cheese Filling",
+      "text": "In a medium bowl, combine the softened cream cheese, 30g granulated sugar, and 2 tablespoons of heavy cream or milk. Whisk until the mixture is completely smooth and creamy, with no lumps.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Cut the Bread Buns",
-      "text": "Take each round bread bun and cut it into 6-8 equal wedges, making sure not to cut all the way through the bottom. The cuts should allow the bun to open up like a flower while still holding together at the base.",
-      "time": "3 min"
+      "title": "Fill the Bread Buns",
+      "text": "Transfer the cream cheese filling into a piping bag (or use a spoon). Carefully pipe or spoon the cream cheese mixture into each of the cuts you made in the bread buns, ensuring an even distribution.",
+      "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Fill the Buns with Cream Cheese",
-      "text": "Carefully open the cuts in each bun and pipe or spoon the cream cheese filling into each crevice. Ensure an even distribution of the sweet cream cheese throughout the bread.",
-      "time": "7 min"
+      "title": "Prepare the Garlic Butter Sauce",
+      "text": "In another bowl, whisk together the melted unsalted butter, minced garlic, 2 tablespoons of granulated sugar, the beaten large egg, and 3 tablespoons of milk until well combined. Stir in the chopped fresh parsley.",
+      "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Dip and Coat with Garlic Butter",
-      "text": "Preheat your oven to 180 degrees Celsius (350 degrees Fahrenheit). Generously dip each cream cheese-filled bun into the garlic butter glaze, ensuring all sides and crevices are thoroughly coated. You can also use a brush to coat them.",
+      "title": "Dip and Soak the Bread",
+      "text": "Take each filled bread bun and generously dip it into the garlic butter sauce. Make sure to thoroughly coat all sides and allow the sauce to seep into the cuts where the cream cheese filling is, ensuring maximum flavor absorption.",
       "time": "5 min"
     },
     {
       "step": 6,
-      "title": "Bake to Golden Perfection",
-      "text": "Place the coated buns on a baking sheet lined with parchment paper. Bake in the preheated oven for 15-20 minutes, or until the bread is golden brown and the cream cheese filling is warm and slightly gooey. Keep an eye on them to prevent burning.",
+      "title": "Bake to Perfection",
+      "text": "Place the soaked bread buns on a baking sheet lined with parchment paper. Bake in the preheated oven for 15-20 minutes, or until the bread is golden brown and the garlic butter is fragrant and bubbling.",
       "time": "20 min"
+    },
+    {
+      "step": 7,
+      "title": "Garnish and Serve",
+      "text": "Once baked, remove the Cream Cheese Garlic Bread from the oven. Garnish with a sprinkle of extra fresh chopped parsley. Serve warm immediately for the best taste and texture.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
@@ -151,34 +162,35 @@
   },
   "tags": [
     "Korean",
-    "Korean",
-    "authentic",
-    "traditional",
+    "bread",
+    "garlic",
+    "cream cheese",
     "baking",
-    "Cream Cheese Garlic Bread Korean"
+    "sweet and savory",
+    "snack"
   ],
   "tips": [
-    "Use good quality, soft milk bread buns for the best texture. If you cant find them, brioche buns are a good substitute for that authentic Korean bakery feel.",
-    "For an extra rich cream cheese filling, you can add a tiny pinch of salt to balance the sweetness, or a drop of vanilla extract for a subtle aromatic touch.",
-    "Serve the Cream Cheese Garlic Bread warm, directly from the oven, for the ultimate experience. Leftovers can be stored in an airtight container at room temperature for up to 2 days and reheated gently."
+    "For truly authentic flavor, use Korean milk bread (ugyu sikppang) for its incredibly soft and fluffy texture, which absorbs the garlic butter beautifully.",
+    "Ensure your cream cheese is at room temperature before mixing to achieve a perfectly smooth and lump-free filling. If you don't have fresh parsley, dried parsley can be used, but use half the amount.",
+    "Serve the garlic bread warm straight from the oven for the best experience. Leftovers can be stored in an airtight container at room temperature for up to 2 days and reheated gently in an oven or air fryer."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Korean baking has taken the world by storm, introducing a delightful array of pastries, breads, and desserts that marry unique flavors with exquisite textures. Among these culinary treasures, one particular creation has captured hearts and palates globally: Cream Cheese Garlic Bread Korean. This irresistible treat is a testament to the innovative spirit of Korean street food, transforming a simple concept into an extraordinary flavor experience. Imagine perfectly toasted bread, generously slathered with a sweet and savory garlic butter, then bursting with a rich, tangy cream cheese filling. It's a symphony of textures and tastes that's both comforting and exciting. Whether you're a seasoned baker or a curious food enthusiast, mastering this iconic dish at home is a rewarding endeavor. Get ready to dive into the delightful world of Cream Cheese Garlic Bread Korean.\n\n## What is Cream Cheese Garlic Bread Korean?\n\nOriginating from the bustling street food markets of South Korea, Cream Cheese Garlic Bread Korean is far more than just a fancy take on traditional garlic bread. It’s a culinary phenomenon that combines the best of sweet, savory, and creamy elements into one incredibly addictive package. Unlike its Western counterpart, which typically focuses solely on savory garlic and butter, the Korean version introduces a delightful sweetness and a luxurious cream cheese filling.\n\nThe magic happens in layers. First, a soft, often brioche-like bun (though ciabatta or even sturdy dinner rolls can be used) is deeply cut into six wedges, forming a flower-like shape without separating the base. These cuts create pockets for the star of the show: a tangy, slightly sweet cream cheese filling. But the indulgence doesn't stop there. The entire bread is then generously dipped or brushed with a vibrant garlic butter glaze that often includes a touch of honey or sugar, along with finely minced garlic, dried parsley, and sometimes even a hint of condensed milk for extra richness.\n\nBaked to golden perfection, the bread emerges with a crispy exterior, a gooey, melted cream cheese center, and an aromatic, sticky-sweet garlic crust. Each bite offers a harmonious blend of textures and tastes – the sharp garlic, the sweet undertones, the creamy cheese, and the soft bread. It's a testament to the creative genius found in Korean baking, taking simple ingredients and elevating them into something truly special. This unique combination is precisely what makes Cream Cheese Garlic Bread Korean an unforgettable experience.\n\n## Ingredients You Need\n\nTo embark on your journey of crafting the perfect Cream Cheese Garlic Bread Korean, gather these essential ingredients. Quality ingredients make a noticeable difference in the final product!\n\n**For the Bread:**\n*   6 individual round buns: Brioche buns are ideal for their richness and softness. Alternatively, sturdy dinner rolls, ciabatta rolls, or even a small round loaf of French bread can work.\n*   Optional: A few tablespoons of milk for brushing (helps with browning).\n\n**For the Cream Cheese Filling:**\n*   8 oz (226g) cream cheese: Full-fat cream cheese is recommended for the best flavor and texture. Ensure it's softened at room temperature.\n*   2-3 tablespoons granulated sugar: Adjust to your sweetness preference.\n*   1 large egg yolk: Adds richness and helps the filling set beautifully.\n*   1/2 teaspoon vanilla extract (optional): Enhances the sweet notes.\n\n**For the Garlic Butter Glaze:**\n*   1/2 cup (113g) unsalted butter: Melted.\n*   4-6 cloves garlic: Finely minced or grated. Don't skimp on the garlic!\n*   2-3 tablespoons condensed milk or honey: For that signature sweetness and shine.\n*   1 large egg: Lightly beaten.\n*   1 tablespoon dried parsley flakes: For color and a subtle herb note.\n*   Pinch of salt: Balances the flavors.\n\n## Step-by-Step Instructions\n\nFollow these detailed steps to create your own delicious Cream Cheese Garlic Bread Korean at home.\n\n1.  **Prepare the Bread:** Take each round bun and, using a sharp serrated knife, make six deep cuts from the top almost all the way through to the bottom, forming a star or flower shape. Be careful not to cut completely through the base, keeping the bun intact. Repeat for all buns.\n2.  **Make the Cream Cheese Filling:** In a medium bowl, combine the softened cream cheese, granulated sugar, egg yolk, and optional vanilla extract. Whisk until the mixture is smooth, creamy, and lump-free. Transfer the filling into a piping bag fitted with a round tip (or a Ziploc bag with a corner snipped off).\n3.  **Fill the Buns:** Carefully open the cuts in each bun and pipe the cream cheese filling generously into each of the six crevices. You want a good amount in each pocket, but don't overfill to the point where it spills out before baking.\n4.  **Prepare the Garlic Butter Glaze:** In another bowl, combine the melted butter, minced garlic, condensed milk (or honey), the whole lightly beaten egg, dried parsley, and a pinch of salt. Whisk everything together until well combined.\n5.  **Glaze the Buns:** Dip each filled bun into the garlic butter glaze, ensuring all surfaces, especially the top and sides where the cream cheese is exposed, are thoroughly coated. You can also use a brush to slather the glaze over every part of the bread. Place the glazed buns on a baking sheet lined with parchment paper.\n6.  **Preheat Oven & Bake:** Preheat your oven to 350°F (175°C). Bake the Cream Cheese Garlic Bread Korean for 15-20 minutes, or until the bread is golden brown, the cream cheese filling is bubbly, and the garlic glaze has caramelized slightly. Keep an eye on them to prevent burning.\n7.  **Serve Warm:** Remove from the oven and let cool for a few minutes before serving. The aroma alone will be intoxicating!\n\n## Pro Tips for the Best Results\n\nAchieving that perfect balance of textures and flavors in your Cream Cheese Garlic Bread Korean requires a few insider tricks.\n\n*   **Bread Choice Matters:** While brioche is highly recommended for its rich, tender crumb, ensure any bread you choose is sturdy enough to hold the filling and glaze without falling apart. Day-old bread can sometimes work better as it's less prone to tearing.\n*   **Don't Skimp on the Cuts:** Make those cuts deep enough to create substantial pockets for the cream cheese. This ensures every bite gets a generous dose of filling. However, remember to leave the base intact!\n*   **Soften Cream Cheese Properly:** Cold cream cheese will be lumpy and hard to work with. Let it sit at room temperature for at least an hour until it's very soft, or gently warm it in the microwave for a few seconds.\n*   **Garlic, Garlic, Garlic:** Use fresh garlic and mince it very finely. The flavor is paramount here. If you're a garlic lover, feel free to add an extra clove or two to the glaze.\n*   **Even Coating:** Ensure the bread is thoroughly coated in the garlic butter glaze. This is where most of the savory-sweet flavor and crispy exterior comes from. Don't be shy!\n*   **Watch Your Oven:** Ovens vary, so keep a close eye on your bread, especially during the last few minutes. You want a beautiful golden brown, not burnt garlic.\n*   **Serve Immediately:** Cream Cheese Garlic Bread Korean is best enjoyed warm, straight from the oven, when the cream cheese is molten and the bread is perfectly crisp-tender.\n\n## Serving Suggestions\n\nCream Cheese Garlic Bread Korean is incredibly versatile and can be enjoyed in various ways. It's an experience in itself, but also makes a fantastic accompaniment.\n\n*   **Standalone Snack:** Its rich flavor profile makes it perfect as a satisfying snack any time of day.\n*   **Appetizer:** Serve it as an impressive appetizer at gatherings. Cut each bun into individual wedges for easier sharing.\n*   **Brunch Item:** A delightful addition to a brunch spread, pairing well with coffee or tea.\n*   **With Soup or Pasta:** The sweet and savory notes make it a surprisingly good companion to a creamy tomato soup, a light pasta dish, or even a simple green salad.\n*   **Coffee Shop Treat:** Recreate the café experience by enjoying it with a freshly brewed cup of coffee or a cold glass of milk.\n\n## Variations and Substitutions\n\nWhile the classic Cream Cheese Garlic Bread Korean is divine, feel free to experiment and customize it to your liking.\n\n*   **Herbs:** Add fresh chopped chives, basil, or oregano to the cream cheese filling or the garlic butter glaze for an extra layer of flavor.\n*   **Spicy Kick:** Introduce a pinch of red pepper flakes to the garlic butter for a subtle heat.\n*   **Different Cheeses:** While cream cheese is traditional, you could experiment with a small amount of mascarpone mixed with cream cheese for an even richer filling, or a sprinkle of mozzarella on top for an extra cheesy pull.\n*   **Vegan Version:** Use plant-based cream cheese, vegan butter, and egg substitutes (like flax egg for the glaze, or simply omit the egg yolk from the filling and adjust consistency with a touch of plant milk).\n*   **Sweetness Level:** Adjust the amount of sugar in the cream cheese and condensed milk/honey in the glaze to suit your preference. Some prefer it sweeter, others less so.\n*   **Bread Type:** As mentioned, brioche is best, but don't hesitate to try other round, sturdy breads. Even a French baguette sliced and cut could work in a pinch, though the traditional shape is part of the charm.\n\nIn conclusion, Cream Cheese Garlic Bread Korean is a culinary masterpiece that seamlessly blends sweet, savory, and creamy elements into an unforgettable treat. Its widespread popularity is a testament to its unique appeal and the ingenuity of Korean baking. Whether you're making it for a special occasion or simply to satisfy a craving, this recipe promises a delightful experience that will have everyone asking for more. Don't be intimidated; with these instructions and tips, you're well on your way to baking your own perfect batch of this sensational bread. Enjoy the process and savor every mouth-watering bite!",
+  "article": "Cream Cheese Garlic Bread Korean: A Sweet and Savory Sensation\n\nIn the vibrant world of Korean street food and baking, a particular treat has risen to international fame: Cream Cheese Garlic Bread Korean. This delightful fusion of savory garlic bread and sweet, creamy cheese filling offers an irresistible experience that’s a far cry from your average Italian-American garlic bread. It’s a dish that perfectly encapsulates the innovative spirit of Korean cuisine, transforming simple ingredients into something truly extraordinary. If you’ve ever walked past a Korean bakery or food stall, the inviting aroma alone would be enough to tempt you into trying this fluffy, fragrant, and utterly addictive bread.\n\n## What is Cream Cheese Garlic Bread Korean?\n\nAt its heart, Cream Cheese Garlic Bread Korean is a symphony of textures and flavors. Imagine a soft, slightly sweet bread, typically a milk bread or brioche bun, deeply cut into six or eight wedges but not fully separated. Each crevice is then generously filled with a luscious, sweetened cream cheese mixture. But the magic doesn’t stop there. The entire bread is then drenched or brushed with an aromatic garlic butter glaze, often infused with honey or sugar, and sometimes a hint of dried parsley for color.\n\nUnlike traditional Western garlic bread, which is usually savory and served as a side dish, the Korean version is a standalone star. It balances the pungent kick of fresh garlic with the richness of cream cheese and a subtle sweetness that makes it suitable as a snack, breakfast item, or even a light dessert. The baking process transforms the exterior into a slightly crispy, golden shell, while the interior remains incredibly soft, moist, and bursting with creamy goodness. It’s this unique combination of crispy, fluffy, creamy, savory, and sweet that has captivated palates worldwide, cementing Cream Cheese Garlic Bread Korean as a must-try.\n\n## Ingredients You Need\n\nTo embark on your journey of making this beloved Korean treat, here’s what you’ll need. Quality ingredients make a significant difference!\n\n**For the Bread:**\n*   **6 individual round bread buns** (preferably milk bread or brioche buns, about 4-5 inches in diameter). You can also use one large round loaf and cut it.\n\n**For the Cream Cheese Filling:**\n*   **8 oz (226g) cream cheese**, softened at room temperature\n*   **1/4 cup granulated sugar** (adjust to your sweetness preference)\n*   **1 tablespoon milk** (whole milk works best)\n\n**For the Garlic Butter Glaze:**\n*   **1/2 cup (113g) unsalted butter**, melted\n*   **4-5 cloves garlic**, finely minced (or 1.5 tablespoons pre-minced garlic)\n*   **2 tablespoons mayonnaise** (adds richness and helps bind the glaze)\n*   **1 tablespoon condensed milk** or honey (for sweetness and shine)\n*   **1 large egg yolk** (for color and emulsification)\n*   **1 tablespoon fresh parsley**, finely chopped (optional, for garnish)\n*   **Pinch of salt**\n\n## Step-by-Step Instructions\n\nMaking Cream Cheese Garlic Bread Korean might seem elaborate, but it's surprisingly straightforward. Follow these steps for a delicious result:\n\n1.  **Prepare the Bread:** Take your round bread buns. Using a sharp knife, make 6-8 deep cuts into each bun, radiating from the center outwards, almost like slicing a pie. Be careful not to cut all the way through the bottom; you want the sections to remain attached at the base. Set aside.\n\n2.  **Make the Cream Cheese Filling:** In a medium bowl, combine the softened cream cheese, granulated sugar, and milk. Beat with a whisk or electric mixer until the mixture is smooth, creamy, and lump-free. For easier piping, transfer the filling into a piping bag (or a Ziploc bag with a corner snipped off).\n\n3.  **Fill the Bread:** Carefully open up each cut section of the bread bun and generously pipe or spoon the cream cheese filling into each crevice. Ensure an even distribution of the filling throughout all the cuts.\n\n4.  **Prepare the Garlic Butter Glaze:** In another bowl, combine the melted butter, minced garlic, mayonnaise, condensed milk (or honey), egg yolk, and a pinch of salt. Whisk everything together thoroughly until the glaze is well combined and emulsified. If using fresh parsley, you can stir a little into the glaze now, or save it for garnish.\n\n5.  **Glaze the Bread:** Preheat your oven to 350°F (175°C). Place the filled bread buns on a baking sheet lined with parchment paper. Now, generously brush or spoon the garlic butter glaze over and into every part of the bread. Don't be shy – ensure the glaze seeps into the cuts and coats the entire surface for maximum flavor and a beautiful golden crust. Some recipes even recommend dipping the entire filled bun into the glaze for ultimate saturation.\n\n6.  **Bake:** Bake in the preheated oven for 12-15 minutes, or until the bread is golden brown on the outside, the cream cheese filling is hot and slightly bubbly, and the garlic butter is fragrant. Keep an eye on it to prevent burning.\n\n7.  **Serve:** Once baked, remove from the oven. If desired, garnish with a sprinkle of fresh chopped parsley. Serve immediately while warm to enjoy the full explosion of flavors and textures of your homemade Cream Cheese Garlic Bread Korean.\n\n## Pro Tips for the Best Results\n\nAchieving bakery-quality Cream Cheese Garlic Bread Korean is within your reach with these expert tips:\n\n*   **Bread Choice is Key:** While you can use any soft bread, authentic Korean milk bread (often called *tangzhong* bread) or brioche buns yield the best results due to their inherent sweetness and incredibly soft, fluffy texture.\n*   **Softened Cream Cheese:** Ensure your cream cheese is at room temperature. This makes it much easier to mix into a smooth, lump-free filling, which will pipe beautifully.\n*   **Don't Skimp on Garlic:** Freshly minced garlic provides the most potent and aromatic flavor. Avoid pre-minced garlic in a jar if possible, as it often has a less vibrant taste.\n*   **Generous Glazing:** The garlic butter glaze is critical. Don't be afraid to drench the bread. It creates that irresistible crispy exterior and infuses every bite with savory goodness.\n*   **Even Cuts:** Make sure your cuts are deep and even. This allows for maximum cream cheese filling distribution and ensures the bread bakes uniformly.\n*   **Adjust Sweetness:** The sweetness of the cream cheese filling and the garlic butter glaze can be adjusted to your preference. If you like it sweeter, add a bit more sugar or condensed milk.\n*   **Serve Warm:** This bread is absolutely best enjoyed warm, fresh out of the oven, when the cream cheese is gooey and the bread is soft.\n\n## Serving Suggestions\n\nCream Cheese Garlic Bread Korean is incredibly versatile. It makes an exceptional **breakfast item** alongside a cup of coffee or tea, providing a satisfying start to your day. As a **mid-afternoon snack**, it perfectly curbs those sweet and savory cravings. It's also a fantastic **party appetizer** or **potluck contribution**, sure to impress your guests with its unique flavor profile and appealing presentation. For a cozy evening, pair it with a glass of milk or a hot chocolate. While it can be a delightful dessert, its savory notes also make it suitable for a light lunch.\n\n## Variations and Substitutions\n\nFeel free to get creative with your Cream Cheese Garlic Bread Korean!\n\n*   **Cheesy Twist:** Add a tablespoon of shredded mozzarella or Parmesan cheese to your cream cheese filling for an extra cheesy pull.\n*   **Spicy Kick:** A pinch of red pepper flakes in the garlic butter glaze can add a subtle heat that complements the sweetness beautifully.\n*   **Herbaceous Notes:** Experiment with different herbs. Chives or finely chopped basil can be incorporated into either the cream cheese filling or the garlic butter.\n*   **Bread Alternatives:** While milk bread is ideal, you can use other soft, round breads like challah, a soft Italian loaf, or even large dinner rolls if individual buns aren't available.\n*   **Vegan Version:** For a plant-based option, substitute vegan cream cheese, plant-based butter, and use a plant-based milk and egg substitute (like a flax egg or omission of egg yolk) in the glaze. Ensure your bread is also vegan.\n*   **Sweetness Control:** Adjust the amount of sugar in the cream cheese and condensed milk/honey in the glaze to match your desired level of sweetness. Some prefer it less sweet, allowing the garlic to shine more prominently.\n\nThis delightful Cream Cheese Garlic Bread Korean is more than just a dish; it's an experience. Its unique blend of flavors and textures makes it a standout treat that you'll want to make again and again. So, gather your ingredients, follow these steps, and prepare to indulge in a slice of Korean culinary innovation right in your own kitchen!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Cream Cheese Garlic Bread Korean",
     "description": "Learn how to make authentic Cream Cheese Garlic Bread Korean. This easy Korean recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1676976198546-18595f0796f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzMzY5ODExfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1697877366366-f09b85e04f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzgzMzY5ODExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1676976198546-18595f0796f0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzkzNjEwMDc4fDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1697877366366-f09b85e04f51?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBDcmVhbSUyMENoZWVzZSUyMEdhcmxpYyUyMEtvcmVhbiUyMGZvb2QlMjBwaG90b2dyYXBoeXxlbnwwfDB8fHwxNzkzNjEwMDc4fDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-07-06T20:31:13.016Z",
+    "datePublished": "2026-11-02T09:01:55.090Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -196,48 +208,54 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "4 Round bread buns",
+      "6 Round bread buns",
       "200g Cream cheese",
-      "50g Granulated sugar",
-      "30ml Heavy cream or milk",
+      "30g Granulated sugar",
+      "2 tbsp Heavy cream",
       "100g Unsalted butter",
       "5-6 cloves Garlic",
-      "1 Egg yolk",
-      "1 tbsp Granulated sugar",
-      "1 tbsp Dried parsley flakes"
+      "2 tbsp Granulated sugar",
+      "1 Large egg",
+      "3 tbsp Milk",
+      "2 tbsp Fresh parsley"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Cream Cheese Filling",
-        "text": "In a medium bowl, combine the softened cream cheese, 50g granulated sugar, and 30ml heavy cream or milk. Whisk until smooth and creamy. Transfer the mixture to a piping bag fitted with a round tip, or use a spoon."
+        "name": "Prepare the Bread",
+        "text": "Preheat your oven to 170°C (340°F). Take each round bread bun and slice it into 6 or 8 wedges, making sure not to cut all the way through the bottom, so the bread remains intact at the base."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Garlic Butter Glaze",
-        "text": "In another bowl, whisk together the melted unsalted butter, minced garlic, egg yolk, 1 tbsp granulated sugar, and dried parsley flakes until well combined. This will be your fragrant garlic butter dip."
+        "name": "Make the Cream Cheese Filling",
+        "text": "In a medium bowl, combine the softened cream cheese, 30g granulated sugar, and 2 tablespoons of heavy cream or milk. Whisk until the mixture is completely smooth and creamy, with no lumps."
       },
       {
         "@type": "HowToStep",
-        "name": "Cut the Bread Buns",
-        "text": "Take each round bread bun and cut it into 6-8 equal wedges, making sure not to cut all the way through the bottom. The cuts should allow the bun to open up like a flower while still holding together at the base."
+        "name": "Fill the Bread Buns",
+        "text": "Transfer the cream cheese filling into a piping bag (or use a spoon). Carefully pipe or spoon the cream cheese mixture into each of the cuts you made in the bread buns, ensuring an even distribution."
       },
       {
         "@type": "HowToStep",
-        "name": "Fill the Buns with Cream Cheese",
-        "text": "Carefully open the cuts in each bun and pipe or spoon the cream cheese filling into each crevice. Ensure an even distribution of the sweet cream cheese throughout the bread."
+        "name": "Prepare the Garlic Butter Sauce",
+        "text": "In another bowl, whisk together the melted unsalted butter, minced garlic, 2 tablespoons of granulated sugar, the beaten large egg, and 3 tablespoons of milk until well combined. Stir in the chopped fresh parsley."
       },
       {
         "@type": "HowToStep",
-        "name": "Dip and Coat with Garlic Butter",
-        "text": "Preheat your oven to 180 degrees Celsius (350 degrees Fahrenheit). Generously dip each cream cheese-filled bun into the garlic butter glaze, ensuring all sides and crevices are thoroughly coated. You can also use a brush to coat them."
+        "name": "Dip and Soak the Bread",
+        "text": "Take each filled bread bun and generously dip it into the garlic butter sauce. Make sure to thoroughly coat all sides and allow the sauce to seep into the cuts where the cream cheese filling is, ensuring maximum flavor absorption."
       },
       {
         "@type": "HowToStep",
-        "name": "Bake to Golden Perfection",
-        "text": "Place the coated buns on a baking sheet lined with parchment paper. Bake in the preheated oven for 15-20 minutes, or until the bread is golden brown and the cream cheese filling is warm and slightly gooey. Keep an eye on them to prevent burning."
+        "name": "Bake to Perfection",
+        "text": "Place the soaked bread buns on a baking sheet lined with parchment paper. Bake in the preheated oven for 15-20 minutes, or until the bread is golden brown and the garlic butter is fragrant and bubbling."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Garnish and Serve",
+        "text": "Once baked, remove the Cream Cheese Garlic Bread from the oven. Garnish with a sprinkle of extra fresh chopped parsley. Serve warm immediately for the best taste and texture."
       }
     ]
   },
-  "publishedAt": "2026-07-06T20:31:13.016Z"
+  "publishedAt": "2026-11-02T09:01:55.090Z"
 }
