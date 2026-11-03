@@ -51,24 +51,29 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Japanese",
-  "image1": "https://images.unsplash.com/photo-1680137248903-7af5d51a3350?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTMyOTYyOHww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1663147634679-78f6374cdde6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTMyOTYyOHww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Shiro Miso Soup Classic is a heartwarming and essential staple of Japanese cuisine, known for its delicate flavor and comforting warmth. Made with a light, sweet white miso paste, it offers a subtle umami depth that beautifully complements a variety of meals. This traditional soup is not just food, but a taste of Japanese culinary heritage, perfect for any time of day.",
+  "image1": "https://images.unsplash.com/photo-1680137248903-7af5d51a3350?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MzY4NTY1MXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1763470260582-894ae15f43bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MzY4NTY1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Shiro Miso Soup Classic is a comforting and essential staple in Japanese cuisine, known for its delicate, slightly sweet flavor. This traditional soup, made with white miso paste and dashi broth, offers a warm, umami-rich experience that perfectly complements any meal. It is a simple yet profoundly satisfying dish enjoyed daily across Japan.",
   "ingredients": [
     {
-      "item": "Dashi stock",
+      "item": "Water",
       "amount": "4 cups",
-      "notes": "homemade or instant"
+      "notes": "for dashi"
     },
     {
-      "item": "Shiro miso paste",
-      "amount": "4-5 tablespoons",
-      "notes": "white miso"
+      "item": "Kombu dried kelp",
+      "amount": "1 piece",
+      "notes": "4x4 inch"
+    },
+    {
+      "item": "Katsuobushi bonito flakes",
+      "amount": "1/2 cup",
+      "notes": "packed"
     },
     {
       "item": "Silken tofu",
       "amount": "1 block",
-      "notes": "14 oz / 400g, firm or soft"
+      "notes": "medium firm, 14 oz, diced 1/2 inch cubes"
     },
     {
       "item": "Dried wakame seaweed",
@@ -76,77 +81,79 @@
       "notes": "rehydrated"
     },
     {
+      "item": "Shiro miso white miso paste",
+      "amount": "4 tablespoons",
+      "notes": "adjust to taste"
+    },
+    {
       "item": "Green onions",
       "amount": "2 stalks",
-      "notes": "chopped for garnish"
+      "notes": "finely chopped for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Dashi Stock",
-      "text": "Pour 4 cups of dashi stock into a medium pot. Bring it to a gentle simmer over medium heat, taking care not to let it come to a rolling boil.",
-      "time": "5 min"
+      "title": "Prepare the Dashi Broth",
+      "text": "In a medium pot, combine water and kombu. Bring to a gentle simmer over medium heat, watching carefully to remove kombu just before the water boils to prevent bitterness. Once kombu is removed, bring the water to a rolling boil and add katsuobushi. Immediately turn off the heat and let it steep for 5-7 minutes until the bonito flakes sink to the bottom.",
+      "time": "15 min"
     },
     {
       "step": 2,
-      "title": "Prepare Tofu and Wakame",
-      "text": "While the dashi is heating, carefully cut the silken tofu into small 1/2-inch cubes. If using dried wakame, place it in a small bowl of water for 5 minutes to rehydrate, then drain well before use.",
+      "title": "Strain the Dashi",
+      "text": "Carefully strain the dashi broth through a fine-mesh sieve lined with cheesecloth into a clean pot or bowl. Discard the used kombu and katsuobushi. You should have approximately 3.5 to 4 cups of clear, flavorful dashi. Set aside and keep warm.",
       "time": "5 min"
     },
     {
       "step": 3,
-      "title": "Add Tofu and Wakame",
-      "text": "Once the dashi is simmering, gently add the cubed tofu and the rehydrated wakame seaweed to the pot. Allow it to simmer quietly for 2-3 minutes to warm through and allow the flavors to begin to meld.",
-      "time": "3 min"
+      "title": "Rehydrate Wakame and Prepare Tofu",
+      "text": "While the dashi is steeping, place the dried wakame in a small bowl and cover with warm water for 5 minutes to rehydrate. Once softened, drain the wakame well and gently squeeze out any excess water. Cut the rehydrated wakame into smaller pieces if necessary. Dice the silken tofu into 1/2 inch cubes.",
+      "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Prepare Miso Paste",
-      "text": "In a separate small bowl, scoop out 4-5 tablespoons of shiro miso paste. Ladle a small amount, about 1/4 cup, of the hot dashi broth from the pot into the bowl with the miso and whisk thoroughly until the miso is fully dissolved into a smooth, lump-free paste.",
-      "time": "2 min"
+      "title": "Add Tofu and Wakame to Dashi",
+      "text": "Return the strained dashi broth to the pot and bring it to a gentle simmer over medium-low heat. Add the diced tofu and rehydrated wakame. Simmer gently for 2-3 minutes, allowing the tofu to warm through and the wakame to fully integrate.",
+      "time": "5 min"
     },
     {
       "step": 5,
-      "title": "Incorporate Miso",
-      "text": "Remove the pot from the heat. Pour the dissolved miso paste mixture back into the dashi broth, stirring gently to combine it evenly throughout the soup. It is crucial not to boil the soup after adding miso, as high heat can destroy the delicate flavor and beneficial probiotics of the miso.",
-      "time": "1 min"
+      "title": "Dissolve the Miso Paste",
+      "text": "Remove a small amount of warm dashi broth (about 1/2 cup) into a separate bowl. Add the shiro miso paste to this small bowl and whisk until completely smooth and dissolved, forming a creamy paste. This prevents lumps in your soup. Reduce the heat to the lowest setting or turn it off before adding the miso.",
+      "time": "3 min"
     },
     {
       "step": 6,
-      "title": "Garnish and Serve",
-      "text": "Finely chop the green onions. Ladle the hot miso soup into individual serving bowls. Garnish each bowl generously with the fresh chopped green onions just before serving for added flavor and color.",
+      "title": "Combine and Serve",
+      "text": "Pour the dissolved miso mixture back into the pot with the dashi, tofu, and wakame. Stir gently to combine everything. It is crucial NOT to boil the soup after adding the miso, as this can destroy the delicate flavor and beneficial probiotics of the miso. Taste and adjust miso if needed. Ladle the hot miso soup into individual serving bowls and garnish generously with chopped green onions before serving immediately.",
       "time": "2 min"
-    },
-    {
-      "step": 7,
-      "title": "Enjoy Immediately",
-      "text": "Serve the Shiro Miso Soup Classic immediately as a comforting starter or a versatile side dish to any Japanese meal. Enjoy its subtle umami and soothing warmth.",
-      "time": "Immediately"
     }
   ],
   "nutritionTable": {
-    "calories": "95 kcal",
-    "protein": "7g",
-    "carbs": "10g",
-    "fat": "3g",
+    "calories": "120 kcal",
+    "protein": "10g",
+    "carbs": "12g",
+    "fat": "4g",
     "fiber": "2g",
     "sugar": "4g",
-    "sodium": "750mg",
-    "cholesterol": "0mg"
+    "sodium": "780mg",
+    "cholesterol": "5mg"
   },
   "tags": [
     "Japanese",
-    "Japanese",
+    "soup",
     "authentic",
     "traditional",
-    "soups",
-    "Shiro Miso Soup Classic"
+    "miso",
+    "shiro miso",
+    "tofu",
+    "wakame",
+    "comfort food"
   ],
   "tips": [
-    "Always dissolve miso paste in a small amount of hot broth before adding it to the main pot to ensure a smooth, lump-free soup.",
-    "Never boil miso soup after adding the miso paste. High heat can diminish the miso's delicate flavor and destroy its beneficial enzymes and probiotics.",
-    "For an extra layer of flavor, try adding thinly sliced mushrooms or a few clams during the simmering stage before adding the miso."
+    "Always remove kombu before the dashi boils to avoid a slimy texture and bitter taste.",
+    "Dissolve miso paste in a small amount of warm dashi separately before adding it to the main pot to ensure a smooth, lump-free soup.",
+    "Never boil miso soup after adding the miso paste, as high heat diminishes its delicate flavor and probiotic benefits. Simmer gently."
   ],
   "rating": 4.8,
   "reviews": 312,
@@ -157,14 +164,14 @@
     "name": "Shiro Miso Soup Classic",
     "description": "Learn how to make authentic Shiro Miso Soup Classic. This easy Japanese recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1680137248903-7af5d51a3350?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxhdXRoZW50aWMlMjBTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTMyOTYyOHww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1663147634679-78f6374cdde6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxhdXRoZW50aWMlMjBTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBmb29kJTIwcGhvdG9ncmFwaHl8ZW58MHwwfHx8MTc4OTMyOTYyOHww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1680137248903-7af5d51a3350?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MzY4NTY1MXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1763470260582-894ae15f43bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxTaGlybyUyME1pc28lMjBTb3VwJTIwSmFwYW5lc2UlMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MzY4NTY1MXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-09-13T20:01:04.944Z",
+    "datePublished": "2026-11-03T08:02:15.389Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -179,52 +186,49 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "95 kcal"
+      "calories": "120 kcal"
     },
     "recipeIngredient": [
-      "4 cups Dashi stock",
-      "4-5 tablespoons Shiro miso paste",
+      "4 cups Water",
+      "1 piece Kombu dried kelp",
+      "1/2 cup Katsuobushi bonito flakes",
       "1 block Silken tofu",
       "2 tablespoons Dried wakame seaweed",
+      "4 tablespoons Shiro miso white miso paste",
       "2 stalks Green onions"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Dashi Stock",
-        "text": "Pour 4 cups of dashi stock into a medium pot. Bring it to a gentle simmer over medium heat, taking care not to let it come to a rolling boil."
+        "name": "Prepare the Dashi Broth",
+        "text": "In a medium pot, combine water and kombu. Bring to a gentle simmer over medium heat, watching carefully to remove kombu just before the water boils to prevent bitterness. Once kombu is removed, bring the water to a rolling boil and add katsuobushi. Immediately turn off the heat and let it steep for 5-7 minutes until the bonito flakes sink to the bottom."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Tofu and Wakame",
-        "text": "While the dashi is heating, carefully cut the silken tofu into small 1/2-inch cubes. If using dried wakame, place it in a small bowl of water for 5 minutes to rehydrate, then drain well before use."
+        "name": "Strain the Dashi",
+        "text": "Carefully strain the dashi broth through a fine-mesh sieve lined with cheesecloth into a clean pot or bowl. Discard the used kombu and katsuobushi. You should have approximately 3.5 to 4 cups of clear, flavorful dashi. Set aside and keep warm."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Tofu and Wakame",
-        "text": "Once the dashi is simmering, gently add the cubed tofu and the rehydrated wakame seaweed to the pot. Allow it to simmer quietly for 2-3 minutes to warm through and allow the flavors to begin to meld."
+        "name": "Rehydrate Wakame and Prepare Tofu",
+        "text": "While the dashi is steeping, place the dried wakame in a small bowl and cover with warm water for 5 minutes to rehydrate. Once softened, drain the wakame well and gently squeeze out any excess water. Cut the rehydrated wakame into smaller pieces if necessary. Dice the silken tofu into 1/2 inch cubes."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare Miso Paste",
-        "text": "In a separate small bowl, scoop out 4-5 tablespoons of shiro miso paste. Ladle a small amount, about 1/4 cup, of the hot dashi broth from the pot into the bowl with the miso and whisk thoroughly until the miso is fully dissolved into a smooth, lump-free paste."
+        "name": "Add Tofu and Wakame to Dashi",
+        "text": "Return the strained dashi broth to the pot and bring it to a gentle simmer over medium-low heat. Add the diced tofu and rehydrated wakame. Simmer gently for 2-3 minutes, allowing the tofu to warm through and the wakame to fully integrate."
       },
       {
         "@type": "HowToStep",
-        "name": "Incorporate Miso",
-        "text": "Remove the pot from the heat. Pour the dissolved miso paste mixture back into the dashi broth, stirring gently to combine it evenly throughout the soup. It is crucial not to boil the soup after adding miso, as high heat can destroy the delicate flavor and beneficial probiotics of the miso."
+        "name": "Dissolve the Miso Paste",
+        "text": "Remove a small amount of warm dashi broth (about 1/2 cup) into a separate bowl. Add the shiro miso paste to this small bowl and whisk until completely smooth and dissolved, forming a creamy paste. This prevents lumps in your soup. Reduce the heat to the lowest setting or turn it off before adding the miso."
       },
       {
         "@type": "HowToStep",
-        "name": "Garnish and Serve",
-        "text": "Finely chop the green onions. Ladle the hot miso soup into individual serving bowls. Garnish each bowl generously with the fresh chopped green onions just before serving for added flavor and color."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Enjoy Immediately",
-        "text": "Serve the Shiro Miso Soup Classic immediately as a comforting starter or a versatile side dish to any Japanese meal. Enjoy its subtle umami and soothing warmth."
+        "name": "Combine and Serve",
+        "text": "Pour the dissolved miso mixture back into the pot with the dashi, tofu, and wakame. Stir gently to combine everything. It is crucial NOT to boil the soup after adding the miso, as this can destroy the delicate flavor and beneficial probiotics of the miso. Taste and adjust miso if needed. Ladle the hot miso soup into individual serving bowls and garnish generously with chopped green onions before serving immediately."
       }
     ]
   },
-  "publishedAt": "2026-09-13T20:01:04.980Z"
+  "publishedAt": "2026-11-03T08:02:15.389Z"
 }
