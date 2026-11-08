@@ -51,33 +51,33 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Middle Eastern",
-  "image1": "https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzkyOTkwODQyfDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1661081090290-720b34f03fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzkyOTkwODQyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Sayadieh is a beloved Middle Eastern dish featuring aromatic rice cooked with fish and deeply caramelized onions, creating a rich savory flavor profile. This traditional seafood meal is often served with a vibrant tahini sauce or a simple fresh salad, making it a hearty and satisfying experience. The key to its authentic taste lies in the dark, sweet, and slightly bitter notes from the perfectly browned onions.",
+  "image1": "https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0MTE3NjIxfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1661081090290-720b34f03fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0MTE3NjIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Sayadieh is a classic Middle Eastern seafood dish featuring fragrant spiced rice topped with perfectly cooked fish and rich caramelized onions. This comforting and flavorful meal is a staple in many coastal regions, offering a delightful blend of savory and aromatic notes. It's a truly satisfying dish that brings the taste of the Mediterranean to your table.",
   "ingredients": [
     {
-      "item": "White fish fillets",
+      "item": "Firm white fish fillets",
       "amount": "600g",
-      "notes": "like cod, snapper, or sea bass, skinless, boneless"
+      "notes": "such as cod, snapper, or seabass, cut into 4 portions"
     },
     {
       "item": "Basmati rice",
       "amount": "2 cups",
-      "notes": "rinsed and soaked for 30 minutes"
+      "notes": "rinsed and soaked for 20 minutes"
     },
     {
       "item": "Large yellow onions",
-      "amount": "4",
+      "amount": "3",
       "notes": "thinly sliced"
     },
     {
-      "item": "Vegetable oil",
+      "item": "Olive oil",
       "amount": "1/2 cup",
-      "notes": "plus extra for frying fish"
+      "notes": ""
     },
     {
       "item": "Fish stock or water",
-      "amount": "4 cups",
+      "amount": "3.5 cups",
       "notes": ""
     },
     {
@@ -86,78 +86,73 @@
       "notes": "cumin, coriander, allspice, cinnamon, black pepper"
     },
     {
-      "item": "Turmeric powder",
-      "amount": "1 tsp",
-      "notes": ""
-    },
-    {
       "item": "Salt",
-      "amount": "to taste",
-      "notes": ""
-    },
-    {
-      "item": "Black pepper",
-      "amount": "to taste",
-      "notes": ""
+      "amount": "1 tsp",
+      "notes": "or to taste"
     },
     {
       "item": "Pine nuts",
       "amount": "1/4 cup",
-      "notes": "for garnish (optional)"
+      "notes": "for garnish"
     },
     {
       "item": "Fresh parsley",
       "amount": "1/4 cup",
       "notes": "chopped, for garnish"
+    },
+    {
+      "item": "Lemon wedges",
+      "amount": "4",
+      "notes": "for serving"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Fish",
-      "text": "Season the fish fillets generously with salt, pepper, and a pinch of Sayadieh spice mix. Heat a generous amount of vegetable oil in a large skillet over medium-high heat. Fry the fish until golden brown and cooked through, about 3-4 minutes per side. Remove and set aside on a plate lined with paper towels. Keep the oil in the skillet.",
-      "time": "10 min"
-    },
-    {
-      "step": 2,
-      "title": "Caramelize the Onions",
-      "text": "In the same skillet with the leftover oil (add more if needed), add the thinly sliced onions. Cook over medium-low heat, stirring occasionally, until they turn a deep golden brown and are intensely caramelized. This will take at least 20-25 minutes. Do not rush this step, as the color and flavor of the onions are crucial for Sayadieh.",
+      "title": "Prepare the Caramelized Onions",
+      "text": "Heat 1/4 cup of olive oil in a large pot over medium-low heat. Add the thinly sliced onions and cook slowly, stirring occasionally, for 20-25 minutes until they are deeply golden brown and caramelized. This slow cooking is key to developing their sweet, rich flavor. Remove about half of the caramelized onions and set aside for garnish.",
       "time": "25 min"
     },
     {
-      "step": 3,
-      "title": "Create the Flavor Base",
-      "text": "Once the onions are deeply caramelized, remove about half a cup of the onions for garnish and set aside. To the remaining onions in the skillet, add the Sayadieh spice mix and turmeric powder. Stir and cook for another minute until fragrant.",
-      "time": "2 min"
-    },
-    {
-      "step": 4,
-      "title": "Cook the Rice",
-      "text": "Drain the soaked basmati rice and add it to the skillet with the spiced onions. Stir gently to combine, ensuring the rice is coated with the flavors. Pour in the fish stock or water and season with salt and pepper to taste. Bring to a boil.",
+      "step": 2,
+      "title": "Create the Sayadieh Base",
+      "text": "To the pot with the remaining caramelized onions, add the Sayadieh spice mix and stir for 1 minute until fragrant. Add the rinsed and drained basmati rice to the pot and stir gently to coat the grains with the spices and onion flavor. Cook for 2-3 minutes.",
       "time": "5 min"
     },
     {
+      "step": 3,
+      "title": "Cook the Rice",
+      "text": "Pour in the fish stock or water and add salt. Bring the mixture to a boil, then reduce the heat to low, cover the pot tightly, and simmer for 15-18 minutes, or until the liquid is absorbed and the rice is tender. Do not lift the lid during this process. Once cooked, let the rice rest, covered, for another 5 minutes off the heat.",
+      "time": "25 min"
+    },
+    {
+      "step": 4,
+      "title": "Prepare and Cook the Fish",
+      "text": "While the rice is cooking, pat the fish fillets dry and season them lightly with salt and a pinch of Sayadieh spice mix. In a separate large skillet, heat the remaining 1/4 cup of olive oil over medium-high heat. Carefully place the fish fillets in the hot oil and sear for 3-4 minutes per side, depending on thickness, until cooked through and lightly golden. Be careful not to overcook.",
+      "time": "10 min"
+    },
+    {
       "step": 5,
-      "title": "Simmer the Sayadieh",
-      "text": "Once boiling, reduce the heat to low, cover the pot tightly, and let the rice simmer for 18-20 minutes, or until all the liquid is absorbed and the rice is tender. Do not lift the lid during this time.",
-      "time": "20 min"
+      "title": "Toast Pine Nuts (Optional)",
+      "text": "In a small dry pan, toast the pine nuts over medium heat for 2-3 minutes, stirring constantly, until golden brown. Watch them closely as they can burn quickly. Set aside.",
+      "time": "3 min"
     },
     {
       "step": 6,
       "title": "Assemble and Serve",
-      "text": "Gently fluff the rice with a fork. Arrange the fried fish fillets on top of the rice. Garnish with the reserved caramelized onions, toasted pine nuts (if using), and fresh chopped parsley. Serve immediately.",
-      "time": "3 min"
+      "text": "Fluff the cooked Sayadieh rice with a fork. To serve, spoon a generous portion of the fragrant rice onto a serving platter. Gently place the seared fish fillets on top of the rice. Garnish with the reserved caramelized onions, toasted pine nuts, and fresh chopped parsley. Serve immediately with lemon wedges on the side for a fresh squeeze.",
+      "time": "5 min"
     }
   ],
   "nutritionTable": {
-    "calories": "450 kcal",
+    "calories": "380 kcal",
     "protein": "30g",
-    "carbs": "55g",
-    "fat": "18g",
-    "fiber": "5g",
-    "sugar": "7g",
-    "sodium": "600mg",
-    "cholesterol": "70mg"
+    "carbs": "45g",
+    "fat": "12g",
+    "fiber": "4g",
+    "sugar": "6g",
+    "sodium": "580mg",
+    "cholesterol": "65mg"
   },
   "tags": [
     "Middle Eastern",
@@ -167,30 +162,31 @@
     "Sayadieh Fish Rice Caramelized Onion",
     "fish",
     "rice",
-    "caramelized onion"
+    "caramelized onion",
+    "Levantine"
   ],
   "tips": [
-    "For the best flavor, use a good quality white fish that holds its shape well. Snapper or cod are excellent choices for Sayadieh.",
-    "Do not skimp on the onion caramelization time. The deep brown color and sweet, slightly bitter flavor are the heart of Sayadieh and crucial for its authentic taste.",
-    "A traditional Sayadieh is often served with a simple lemon-tahini sauce or a fresh Arabic salad to cut through the richness and add a refreshing contrast."
+    "For the best caramelization, cook onions slowly over medium-low heat. This allows their natural sugars to develop without burning, creating a deep, sweet flavor that is crucial for Sayadieh.",
+    "Use a firm white fish that holds its shape well, such as cod, snapper, or seabass. Avoid flaky fish that might disintegrate into the rice. Freshness is key for seafood dishes.",
+    "Toasting pine nuts enhances their nutty flavor and adds a delightful crunch. Make sure to watch them carefully as they can burn quickly; a light golden color is perfect."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Sayadieh Fish Rice Caramelized Onion is more than just a meal; it's a culinary masterpiece that transports you straight to the sun-drenched coasts of the Middle East. This iconic seafood dish, deeply rooted in Lebanese and Syrian traditions, is a harmonious blend of fragrant rice, perfectly cooked fish, and the star of the show: deeply caramelized onions that lend a unique sweetness and a stunning golden-brown hue. It’s a dish that speaks of hospitality, family gatherings, and the rich tapestry of Middle Eastern flavors. If you’re looking to explore the depths of authentic regional cuisine, mastering Sayadieh is an absolute must.\n\n## What is Sayadieh Fish Rice Caramelized Onion?\n\nSayadieh, pronounced sah-yah-dee-yah, translates roughly to \"fisherman's dish,\" a fitting name given its primary ingredient. At its heart, Sayadieh Fish Rice Caramelized Onion is a celebration of the sea, elevated by earthy spices and the transformative power of slow-cooked onions. The dish typically features a firm white fish, such as cod, snapper, or sea bass, which is often pan-fried or baked until flaky and tender. This fish is then layered with or served atop a bed of long-grain rice, which has been cooked in a rich, aromatic broth infused with the essence of the caramelized onions and a warm blend of spices like cumin, allspice, and turmeric.\n\nThe magic truly happens with the onions. Sliced thinly and cooked slowly over low heat, they undergo a remarkable transformation, softening, sweetening, and turning a deep, rich brown. A portion of these onions is often blended into the cooking liquid for the rice, imparting an incredible depth of flavor and color, while the rest are reserved for garnish, adding both visual appeal and a burst of sweet-savory notes with every bite. The result is a dish that is comforting, incredibly flavorful, and surprisingly elegant, perfect for a weeknight dinner or a special occasion.\n\n## Ingredients You Need\n\nTo embark on your Sayadieh journey, gather these essential ingredients. Quantities are for roughly 4-6 servings, adjust as needed.\n\n**For the Fish:**\n*   1.5 - 2 lbs firm white fish fillets (cod, snapper, sea bass, halibut)\n*   1/4 cup all-purpose flour (for dusting)\n*   1 tsp salt\n*   1/2 tsp black pepper\n*   1/2 tsp cumin powder\n*   1/4 cup olive oil or vegetable oil (for frying)\n\n**For the Caramelized Onions & Rice:**\n*   4-5 large yellow onions, thinly sliced\n*   1/2 cup olive oil or vegetable oil\n*   2 cups long-grain basmati rice, rinsed thoroughly\n*   4 cups hot water or fish/vegetable broth\n*   2 tsp salt (or to taste)\n*   1 tsp black pepper\n*   1 tsp ground cumin\n*   1/2 tsp ground allspice\n*   1/2 tsp turmeric powder (for color, optional)\n*   Pinch of ground cinnamon (optional, for depth)\n\n**For Garnish (Optional but Recommended):**\n*   Toasted pine nuts\n*   Fresh chopped parsley\n*   Lemon wedges\n\n## Step-by-Step Instructions\n\nCreating Sayadieh Fish Rice Caramelized Onion is a labor of love, but each step is straightforward and rewarding.\n\n1.  **Prepare the Fish:** Pat the fish fillets dry with paper towels. In a shallow dish, combine flour, salt, pepper, and cumin. Dredge each fish fillet lightly in the seasoned flour, shaking off any excess.\n2.  **Fry the Fish:** Heat 1/4 cup oil in a large non-stick skillet over medium-high heat. Once hot, carefully place the fish fillets in the pan (you may need to do this in batches). Cook for 3-5 minutes per side, or until golden brown and cooked through. Remove fish from the pan and set aside on a plate lined with paper towels.\n3.  **Caramelize the Onions:** In a large, heavy-bottomed pot or Dutch oven, heat the remaining 1/2 cup oil over medium-low heat. Add the thinly sliced onions. Cook slowly, stirring occasionally, for 30-45 minutes, or until the onions are deeply golden brown and very soft. This step is crucial for flavor, so don't rush it.\n4.  **Create the Onion Broth:** Remove about 1/3 of the caramelized onions from the pot and set aside for garnish. To the remaining onions in the pot, add 1 cup of the hot water or broth. Use an immersion blender to blend the onions and liquid directly in the pot until relatively smooth, or carefully transfer to a regular blender and blend, then return to the pot. This creates the rich, flavorful base for the rice.\n5.  **Cook the Rice:** Add the remaining 3 cups of hot water/broth, rinsed rice, salt, pepper, cumin, allspice, and turmeric (if using) to the pot with the blended onion mixture. Stir gently to combine. Bring to a boil, then reduce heat to low, cover tightly, and simmer for 15-20 minutes, or until all the liquid is absorbed and the rice is tender. Do not lift the lid during this time.\n6.  **Rest the Rice:** Once cooked, remove the pot from the heat and let it rest, covered, for another 10 minutes. This allows the steam to finish cooking the rice and makes it fluffy.\n7.  **Assemble and Serve:** Gently fluff the rice with a fork. You can either flake the cooked fish and mix it into the rice, or serve the rice on a large platter and arrange the fish fillets on top. Garnish generously with the reserved caramelized onions, toasted pine nuts, and fresh parsley. Serve immediately with lemon wedges on the side.\n\n## Pro Tips for the Best Results\n\nMastering Sayadieh Fish Rice Caramelized Onion involves a few key techniques that can elevate your dish from good to unforgettable.\n\n*   **Don't Rush the Onions:** This is perhaps the most important tip. True caramelization takes time. Cooking the onions slowly over low heat allows their natural sugars to develop, creating that signature sweet and savory depth. If you rush them, they'll burn or remain bitter.\n*   **Choose the Right Fish:** A firm, white-fleshed fish is ideal as it holds its shape well and has a mild flavor that complements the rich rice. Avoid very delicate or oily fish.\n*   **Rinse Your Rice:** Rinsing basmati rice thoroughly under cold water until the water runs clear removes excess starch, preventing the rice from becoming sticky and ensuring each grain is separate and fluffy.\n*   **Season Generously:** The spices are key to Sayadieh's aromatic profile. Don't be shy with cumin and allspice. A pinch of cinnamon can add a subtle warmth without overpowering.\n*   **Proper Rice-to-Liquid Ratio:** Stick to the 1:2 ratio of rice to liquid (1 cup rice to 2 cups liquid) for perfectly cooked basmati rice. Ensure your pot is tightly covered during cooking to trap steam.\n*   **Fish Broth for Extra Flavor:** If possible, use homemade or good quality fish broth instead of water for cooking the rice. This will deepen the seafood flavor significantly.\n\n## Serving Suggestions\n\nSayadieh Fish Rice Caramelized Onion is a complete and satisfying meal on its own, but it truly shines when paired with a few simple accompaniments.\n\n*   **Fresh Salad:** A crisp, refreshing salad like a simple Arabic salad (chopped cucumbers, tomatoes, and parsley with a lemon-tahini dressing) or tabbouleh provides a lovely counterpoint to the richness of the Sayadieh.\n*   **Tahini Sauce:** A drizzle of homemade tahini sauce (tahini, lemon juice, garlic, water) adds a creamy, nutty element that complements the fish beautifully.\n*   **Pickles:** Assorted Middle Eastern pickles (torshi) offer a tangy, briny crunch that cuts through the richness and cleanses the palate.\n*   **Yogurt:** A side of plain yogurt or a yogurt-cucumber dip (tzatziki or laban bi khiar) can provide a cool, creamy contrast.\n*   **Lemon Wedges:** Always serve with plenty of fresh lemon wedges. A squeeze of fresh lemon juice over the fish and rice brightens all the flavors.\n\n## Variations and Substitutions\n\nWhile the classic Sayadieh Fish Rice Caramelized Onion is beloved, there are many ways to adapt this dish to your taste or what you have on hand.\n\n*   **Different Fish:** While firm white fish is traditional, you can experiment with salmon (though it changes the flavor profile significantly) or even shrimp for a quicker cooking time. If you prefer a lighter option, you can bake or grill the fish instead of frying it.\n*   **Spice Blends:** Feel free to adjust the spice blend. Some recipes call for a touch of cardamom, nutmeg, or even a specific Middle Eastern seven-spice blend. Experiment to find your favorite combination.\n*   **Vegetarian/Vegan Sayadieh:** To make a plant-based version, omit the fish entirely. You can replace the fish with roasted vegetables like cauliflower, eggplant, or chickpeas. Ensure you use vegetable broth instead of fish broth. The caramelized onions and spiced rice alone make for a wonderfully flavorful vegetarian dish.\n*   **Rice Types:** While basmati is preferred for its long grains and fluffy texture, other long-grain rice varieties can be used. Adjust cooking time and liquid ratios if using a different type of rice.\n*   **Garnish Creativity:** Beyond pine nuts and parsley, consider toasted slivered almonds, crispy fried onions (in addition to the caramelized ones), or a sprinkle of sumac for extra tang.\n\nEmbark on a culinary journey with Sayadieh Fish Rice Caramelized Onion, and you'll discover a dish that is not only delicious but also deeply satisfying and rich in cultural heritage. It's a testament to the power of simple ingredients transformed into something extraordinary through careful preparation and a touch of Middle Eastern magic.",
+  "article": "Sayadieh Fish Rice Caramelized Onion is a beloved Middle Eastern Seafood dish enjoyed across Middle Eastern. This authentic recipe brings traditional flavors to your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Sayadieh Fish Rice Caramelized Onion",
     "description": "Learn how to make authentic Sayadieh Fish Rice Caramelized Onion. This easy Middle Eastern recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzkyOTkwODQyfDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1661081090290-720b34f03fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzkyOTkwODQyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1661081090288-fd8ffc486dd7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0MTE3NjIxfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1661081090290-720b34f03fb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxTYXlhZGllaCUyMEZpc2glMjBSaWNlJTIwTWlkZGxlJTIwRWFzdGVybiUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0MTE3NjIxfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-10-26T07:03:55.872Z",
+    "datePublished": "2026-11-08T07:30:28.998Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -205,53 +201,52 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "450 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "600g White fish fillets",
+      "600g Firm white fish fillets",
       "2 cups Basmati rice",
-      "4 Large yellow onions",
-      "1/2 cup Vegetable oil",
-      "4 cups Fish stock or water",
+      "3 Large yellow onions",
+      "1/2 cup Olive oil",
+      "3.5 cups Fish stock or water",
       "2 tbsp Sayadieh spice mix",
-      "1 tsp Turmeric powder",
-      "to taste Salt",
-      "to taste Black pepper",
+      "1 tsp Salt",
       "1/4 cup Pine nuts",
-      "1/4 cup Fresh parsley"
+      "1/4 cup Fresh parsley",
+      "4 Lemon wedges"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Fish",
-        "text": "Season the fish fillets generously with salt, pepper, and a pinch of Sayadieh spice mix. Heat a generous amount of vegetable oil in a large skillet over medium-high heat. Fry the fish until golden brown and cooked through, about 3-4 minutes per side. Remove and set aside on a plate lined with paper towels. Keep the oil in the skillet."
+        "name": "Prepare the Caramelized Onions",
+        "text": "Heat 1/4 cup of olive oil in a large pot over medium-low heat. Add the thinly sliced onions and cook slowly, stirring occasionally, for 20-25 minutes until they are deeply golden brown and caramelized. This slow cooking is key to developing their sweet, rich flavor. Remove about half of the caramelized onions and set aside for garnish."
       },
       {
         "@type": "HowToStep",
-        "name": "Caramelize the Onions",
-        "text": "In the same skillet with the leftover oil (add more if needed), add the thinly sliced onions. Cook over medium-low heat, stirring occasionally, until they turn a deep golden brown and are intensely caramelized. This will take at least 20-25 minutes. Do not rush this step, as the color and flavor of the onions are crucial for Sayadieh."
-      },
-      {
-        "@type": "HowToStep",
-        "name": "Create the Flavor Base",
-        "text": "Once the onions are deeply caramelized, remove about half a cup of the onions for garnish and set aside. To the remaining onions in the skillet, add the Sayadieh spice mix and turmeric powder. Stir and cook for another minute until fragrant."
+        "name": "Create the Sayadieh Base",
+        "text": "To the pot with the remaining caramelized onions, add the Sayadieh spice mix and stir for 1 minute until fragrant. Add the rinsed and drained basmati rice to the pot and stir gently to coat the grains with the spices and onion flavor. Cook for 2-3 minutes."
       },
       {
         "@type": "HowToStep",
         "name": "Cook the Rice",
-        "text": "Drain the soaked basmati rice and add it to the skillet with the spiced onions. Stir gently to combine, ensuring the rice is coated with the flavors. Pour in the fish stock or water and season with salt and pepper to taste. Bring to a boil."
+        "text": "Pour in the fish stock or water and add salt. Bring the mixture to a boil, then reduce the heat to low, cover the pot tightly, and simmer for 15-18 minutes, or until the liquid is absorbed and the rice is tender. Do not lift the lid during this process. Once cooked, let the rice rest, covered, for another 5 minutes off the heat."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer the Sayadieh",
-        "text": "Once boiling, reduce the heat to low, cover the pot tightly, and let the rice simmer for 18-20 minutes, or until all the liquid is absorbed and the rice is tender. Do not lift the lid during this time."
+        "name": "Prepare and Cook the Fish",
+        "text": "While the rice is cooking, pat the fish fillets dry and season them lightly with salt and a pinch of Sayadieh spice mix. In a separate large skillet, heat the remaining 1/4 cup of olive oil over medium-high heat. Carefully place the fish fillets in the hot oil and sear for 3-4 minutes per side, depending on thickness, until cooked through and lightly golden. Be careful not to overcook."
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Toast Pine Nuts (Optional)",
+        "text": "In a small dry pan, toast the pine nuts over medium heat for 2-3 minutes, stirring constantly, until golden brown. Watch them closely as they can burn quickly. Set aside."
       },
       {
         "@type": "HowToStep",
         "name": "Assemble and Serve",
-        "text": "Gently fluff the rice with a fork. Arrange the fried fish fillets on top of the rice. Garnish with the reserved caramelized onions, toasted pine nuts (if using), and fresh chopped parsley. Serve immediately."
+        "text": "Fluff the cooked Sayadieh rice with a fork. To serve, spoon a generous portion of the fragrant rice onto a serving platter. Gently place the seared fish fillets on top of the rice. Garnish with the reserved caramelized onions, toasted pine nuts, and fresh chopped parsley. Serve immediately with lemon wedges on the side for a fresh squeeze."
       }
     ]
   },
-  "publishedAt": "2026-10-26T07:03:55.873Z"
+  "publishedAt": "2026-11-08T07:30:28.999Z"
 }
