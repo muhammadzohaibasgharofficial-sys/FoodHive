@@ -51,28 +51,28 @@
   "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.unsplash.com/photo-1530153382845-fdcb2aa7c74e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwcGFzdGElMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTAxOTgyMXww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1721032740864-876ce9aaeb03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwcGFzdGElMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTAxOTgyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Fideo Seco is a comforting Mexican pasta dish where thin noodles are toasted until golden, then simmered in a rich, flavorful tomato broth until all the liquid is absorbed. This dry fideo offers a delightful texture and a deep, savory taste, making it a beloved staple in Mexican homes. It's simple, hearty, and perfect as a side or a light main course.",
+  "image1": "https://images.unsplash.com/photo-1735233024751-37dd47c76591?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxGaWRlbyUyMFNlY28lMjBEcnklMjBNZXhpY2FuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTQyOTA2NDF8MA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1756521973435-4e4e1d2884b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxGaWRlbyUyMFNlY28lMjBEcnklMjBNZXhpY2FuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTQyOTA2NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Fideo Seco is a comforting Mexican dish featuring toasted pasta simmered in a rich, flavorful tomato sauce until tender. This beloved dry noodle dish captures the heart of Mexican home cooking, offering a delightful blend of textures and savory notes. It is a simple yet incredibly satisfying meal, perfect for a family dinner.",
   "ingredients": [
     {
       "item": "Fideo noodles",
-      "amount": "7 oz (200g)",
-      "notes": "vermicelli"
+      "amount": "7 oz",
+      "notes": "vermicelli pasta"
     },
     {
       "item": "Vegetable oil",
-      "amount": "2 tbsp",
-      "notes": ""
+      "amount": "2 tablespoons",
+      "notes": "or canola oil"
     },
     {
       "item": "Roma tomatoes",
-      "amount": "2",
+      "amount": "3 large",
       "notes": "roughly chopped"
     },
     {
       "item": "White onion",
-      "amount": "1/4",
+      "amount": "1/4 medium",
       "notes": "roughly chopped"
     },
     {
@@ -82,71 +82,76 @@
     },
     {
       "item": "Chicken broth",
-      "amount": "3 cups",
-      "notes": "divided"
-    },
-    {
-      "item": "Ground cumin",
-      "amount": "1/2 tsp",
-      "notes": ""
+      "amount": "2 cups",
+      "notes": "low sodium"
     },
     {
       "item": "Salt",
-      "amount": "1/2 tsp",
+      "amount": "1 teaspoon",
       "notes": "or to taste"
     },
     {
-      "item": "Black pepper",
-      "amount": "1/4 tsp",
-      "notes": "or to taste"
+      "item": "Ground cumin",
+      "amount": "1/2 teaspoon",
+      "notes": "optional but recommended"
     },
     {
-      "item": "Fresh cilantro",
-      "amount": "for garnish",
-      "notes": "chopped"
+      "item": "Crema Mexicana",
+      "amount": "for serving",
+      "notes": "or sour cream"
     },
     {
       "item": "Queso fresco",
-      "amount": "for garnish",
+      "amount": "for serving",
       "notes": "crumbled"
+    },
+    {
+      "item": "Avocado",
+      "amount": "1",
+      "notes": "sliced, for garnish"
+    },
+    {
+      "item": "Fresh cilantro",
+      "amount": "1/4 cup",
+      "notes": "chopped, for garnish"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare the Tomato Sauce",
-      "text": "In a blender, combine the roughly chopped Roma tomatoes, 1/4 white onion, and 2 peeled garlic cloves with 1/2 cup of chicken broth. Blend until very smooth. Set aside.",
+      "title": "Prepare the Tomato Sauce Base",
+      "text": "In a blender, combine the roughly chopped Roma tomatoes, quartered white onion, peeled garlic cloves, chicken broth, salt, and ground cumin. Blend until the mixture is completely smooth. Set aside.",
       "time": "5 min"
     },
     {
       "step": 2,
-      "title": "Toast the Fideo",
-      "text": "Heat 2 tablespoons of vegetable oil in a medium skillet or pot over medium-high heat. Add the 7 oz (200g) fideo noodles (vermicelli) and cook, stirring constantly, until they are golden brown and toasted. Be careful not to burn them. This usually takes about 3-5 minutes.",
-      "time": "5 min"
+      "title": "Toast the Fideo Noodles",
+      "text": "Heat the vegetable oil in a large skillet or a Dutch oven over medium heat. Add the fideo noodles and cook, stirring constantly, until they are golden brown and toasted. This step is crucial for flavor and texture. Be careful not to burn them.",
+      "time": "7 min"
     },
     {
       "step": 3,
-      "title": "Add the Blended Sauce",
-      "text": "Carefully pour the blended tomato mixture into the skillet with the toasted fideo. Stir well and let it simmer for about 2-3 minutes, allowing the sauce to thicken slightly and the flavors to meld.",
-      "time": "5 min"
-    },
-    {
-      "step": 4,
-      "title": "Incorporate Broth and Seasonings",
-      "text": "Pour in the remaining 2.5 cups of chicken broth. Add 1/2 teaspoon of ground cumin, 1/2 teaspoon of salt, and 1/4 teaspoon of black pepper. Stir everything together gently.",
+      "title": "Add the Tomato Sauce",
+      "text": "Carefully pour the blended tomato sauce over the toasted fideo noodles in the skillet. The mixture will sizzle. Stir well to ensure all the noodles are coated with the sauce.",
       "time": "2 min"
     },
     {
-      "step": 5,
-      "title": "Simmer Until Dry",
-      "text": "Bring the mixture to a gentle boil, then reduce the heat to low, cover the skillet, and let it simmer for 15-20 minutes, or until all the liquid has been absorbed by the fideo noodles. Stir occasionally to prevent sticking.",
+      "step": 4,
+      "title": "Simmer and Cook",
+      "text": "Bring the sauce to a gentle simmer. Once simmering, reduce the heat to low, cover the skillet, and let it cook for 15-20 minutes, or until the noodles are tender and most of the liquid has been absorbed. Stir occasionally to prevent sticking.",
       "time": "20 min"
     },
     {
-      "step": 6,
-      "title": "Rest and Serve",
-      "text": "Once the liquid is absorbed and the fideo is tender, remove the skillet from the heat and let it rest, covered, for 5 minutes. Fluff with a fork. Serve hot, garnished with fresh chopped cilantro and crumbled queso fresco, if desired.",
+      "step": 5,
+      "title": "Rest and Fluff",
+      "text": "Once cooked, remove the skillet from the heat and let the fideo seco rest, covered, for 5 minutes. This allows the remaining liquid to be fully absorbed and the flavors to meld. After resting, gently fluff the noodles with a fork.",
       "time": "5 min"
+    },
+    {
+      "step": 6,
+      "title": "Serve with Toppings",
+      "text": "Serve the Fideo Seco immediately. Garnish each serving generously with a drizzle of Crema Mexicana, crumbled queso fresco, slices of fresh avocado, and a sprinkle of chopped cilantro. Enjoy this authentic Mexican comfort food.",
+      "time": "3 min"
     }
   ],
   "nutritionTable": {
@@ -168,27 +173,27 @@
     "Fideo Seco Dry Mexican Noodles"
   ],
   "tips": [
-    "For the best flavor, make sure to toast the fideo noodles evenly until they are a deep golden brown. This step is crucial for developing a nutty flavor and preventing them from becoming mushy.",
-    "If you want a spicier kick, add half a jalapeño or serrano pepper to the blender with the tomatoes. For a vegetarian version, simply substitute chicken broth with vegetable broth.",
-    "Fideo Seco is excellent served immediately as a side dish for tacos, enchiladas, or roasted chicken. Leftovers can be stored in an airtight container in the refrigerator for up to 3 days and reheated gently."
+    "Do not skip the toasting of the fideo noodles. This step gives the dish its characteristic nutty flavor and prevents the noodles from becoming mushy.",
+    "For a spicier kick, add one or two serrano or jalapeño peppers to the blender with the tomatoes and other sauce ingredients.",
+    "Fideo Seco is excellent as a main course or a side dish. Leftovers can be stored in an airtight container in the refrigerator for up to 3 days and reheated gently on the stovetop or in the microwave."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Fideo Seco Dry Mexican Noodles, a beloved staple in Mexican cuisine, offers a heartwarming and deeply satisfying experience. Far from being just another side dish, this humble yet flavorful pasta preparation holds a special place at family tables across Mexico and beyond. Its name, \"fideo seco,\" literally translates to \"dry noodle,\" which perfectly encapsulates its essence: a savory, tomato-infused pasta dish cooked until all the liquid is absorbed, resulting in tender, flavorful strands rather than a soupy consistency. If you're looking to explore the rich tapestry of Mexican flavors beyond tacos and enchiladas, diving into the world of Fideo Seco is an absolute must. This article will guide you through everything you need to know to master this delightful and versatile dish, from its cultural roots to expert cooking tips and creative variations.\n\n## What is Fideo Seco Dry Mexican Noodles?\n\nAt its heart, Fideo Seco Dry Mexican Noodles is a unique take on pasta that showcases the ingenuity of Mexican home cooking. Unlike its soupy cousin, Sopa de Fideo, where the noodles swim in a light broth, Fideo Seco is cooked down until the liquid evaporates, allowing the pasta to fully absorb the rich flavors of the tomato and spice base. The key to its distinct texture and taste lies in first toasting the fideo pasta (thin, short vermicelli-like noodles) in oil until golden brown. This crucial step imparts a nutty depth and prevents the noodles from becoming mushy, giving them a delightful al dente bite even after simmering.\n\nThe dish’s origins are rooted in the Spanish introduction of pasta to Mexico. Over centuries, these noodles were adapted with local ingredients and culinary techniques, transforming into uniquely Mexican preparations. Fideo Seco is a testament to this fusion, combining Mediterranean pasta with traditional Mexican flavors like ripe tomatoes, onions, garlic, and often a hint of chili. It’s a versatile dish, often served as a comforting side to a main protein, but substantial enough to stand on its own as a light meal, especially when garnished with creamy additions like Mexican crema or crumbled cheese.\n\n## Ingredients You Need\n\nCreating an authentic and delicious Fideo Seco Dry Mexican Noodles dish requires a handful of simple, readily available ingredients. The beauty of this recipe lies in how a few core components come together to create something truly exceptional.\n\n*   **Fideo Pasta:** This is non-negotiable! Look for thin, short, curved pasta strands, often labeled \"fideo\" or \"vermicelli.\" You'll typically find it in the international aisle of most supermarkets.\n*   **Vegetable Oil:** For toasting the fideo and sautéing the aromatics.\n*   **Onion:** A small white onion, finely chopped, forms the aromatic base.\n*   **Garlic:** Fresh minced garlic is essential for depth of flavor.\n*   **Tomatoes:** You have options here. Fresh ripe Roma tomatoes, blended into a smooth puree, offer the freshest taste. Alternatively, canned crushed tomatoes or tomato sauce work perfectly for convenience. Some recipes even call for a small can of tomato paste for a more intense tomato flavor.\n*   **Chicken or Vegetable Broth:** This is the liquid that cooks the Fideo Seco. High-quality broth makes a significant difference in the final taste.\n*   **Salt and Pepper:** To taste, for seasoning.\n*   **Optional Seasonings:** A pinch of ground cumin, dried oregano, or a bay leaf can add extra layers of traditional Mexican flavor.\n\n## Step-by-Step Instructions\n\nMaking Fideo Seco Dry Mexican Noodles is a straightforward process, but paying attention to each step ensures the best results.\n\n1.  **Toast the Fideo:** Heat a tablespoon or two of vegetable oil in a large skillet or Dutch oven over medium heat. Add the fideo pasta and stir continuously. This is a crucial step – toast the pasta until it turns a beautiful golden brown. This process takes about 3-5 minutes and adds a wonderful nutty flavor while preventing the noodles from becoming gummy. Once toasted, remove the fideo from the pan and set aside.\n2.  **Sauté Aromatics:** In the same pan, add a little more oil if needed. Add the finely chopped onion and sauté until translucent and softened, about 5-7 minutes. Then, add the minced garlic and cook for another minute until fragrant, being careful not to burn it.\n3.  **Build the Tomato Base:** If using fresh tomatoes, add the blended tomato puree to the pan. If using canned, add the crushed tomatoes or tomato sauce. Stir well and let it simmer for about 5-10 minutes, allowing the sauce to thicken slightly and the flavors to meld. If using optional seasonings like cumin or oregano, add them now.\n4.  **Combine and Simmer:** Return the toasted fideo pasta to the pan with the tomato base. Stir to coat the noodles evenly. Pour in the chicken or vegetable broth. Season generously with salt and pepper to taste. Bring the mixture to a boil.\n5.  **Cook Until Dry:** Once boiling, reduce the heat to low, cover the pan tightly, and let the Fideo Seco simmer. Cook for about 10-15 minutes, or until all the liquid has been absorbed by the pasta and the noodles are tender. Check periodically to ensure it's not sticking.\n6.  **Rest and Serve:** Once the liquid is absorbed, remove the pan from the heat and let it rest, covered, for 5-10 minutes. This allows the flavors to further develop and the pasta to become perfectly fluffy. Fluff with a fork before serving.\n\n## Pro Tips for the Best Results\n\nAchieving the perfect Fideo Seco Dry Mexican Noodles involves a few insider tricks that elevate the dish from good to extraordinary.\n\n*   **Don't Skip the Toasting:** This is perhaps the most critical step. Evenly toasting the fideo until it's a rich golden brown develops a deep, nutty flavor and prevents the pasta from turning into a sticky mess. Keep stirring constantly to prevent burning.\n*   **Quality Broth Matters:** Since the broth forms the primary liquid base, using a good quality chicken or vegetable broth will significantly enhance the overall flavor of your Fideo Seco. Homemade broth is always best, but a good store-bought option works too.\n*   **Balance Your Tomato Base:** Whether using fresh or canned tomatoes, ensure your base has a good balance of sweetness and acidity. A pinch of sugar can balance overly acidic tomatoes, while a squeeze of lime juice at the end can brighten the flavors.\n*   **Low and Slow Simmering:** Once the broth is added, reduce the heat and let the Fideo Seco simmer gently. This allows the pasta to cook evenly and absorb all the flavors without becoming overcooked or mushy.\n*   **Let It Rest:** Just like rice, allowing your Fideo Seco Dry Mexican Noodles to rest off the heat for 5-10 minutes after cooking allows the remaining steam to finish the cooking process and for the flavors to settle, resulting in a more tender and flavorful dish.\n*   **Taste and Adjust:** Always taste your sauce before adding the fideo and again before serving. Adjust salt, pepper, and other seasonings as needed.\n\n## Serving Suggestions\n\nFideo Seco Dry Mexican Noodles is incredibly versatile and can be enjoyed in numerous ways.\n\n*   **As a Side Dish:** This is its most traditional role. It pairs wonderfully with grilled meats like carne asada, pollo asado, or even simple roasted chicken. It’s also an excellent accompaniment to tacos, enchiladas, or chiles rellenos, adding a comforting, starchy balance to your meal.\n*   **With Creamy Toppings:** Enhance its richness with a dollop of Mexican crema, sour cream, or plain Greek yogurt.\n*   **Crumbled Cheese:** A sprinkle of crumbled queso fresco, cotija, or even a mild cheddar adds a salty, tangy kick.\n*   **Fresh Garnishes:** Chopped fresh cilantro, diced avocado, a squeeze of fresh lime juice, or thinly sliced radishes add freshness and texture.\n*   **Make it a Main:** To transform Fideo Seco into a hearty main course, stir in cooked ground beef, shredded chicken, chorizo, or black beans during the last few minutes of cooking. A fried egg on top also makes for a delightful breakfast or brunch option.\n*   **With Hot Sauce:** For those who love a kick, a drizzle of your favorite hot sauce or a sprinkle of chili flakes can elevate the spice level.\n\n## Variations and Substitutions\n\nThe beauty of Fideo Seco Dry Mexican Noodles lies in its adaptability. Don't be afraid to experiment and make it your own!\n\n*   **Spicy Kick:** For a spicier version, add a chopped jalapeño or serrano pepper along with the onion and garlic. You can also blend a couple of chipotle peppers in adobo sauce into your tomato base for a smoky heat.\n*   **Vegetarian/Vegan:** Easily make this dish vegetarian by using vegetable broth. For a vegan version, ensure your broth is plant-based and omit any dairy garnishes, opting for avocado or vegan sour cream instead.\n*   **Add Vegetables:** Incorporate finely diced carrots, peas, corn, or bell peppers along with the onion for added nutrition and color. Add them early with the aromatics so they have time to soften.\n*   **Different Proteins:** As mentioned, cooked ground beef, shredded chicken, or chorizo are popular additions. You can also try adding cooked shrimp or crumbled firm tofu for a different texture.\n*   **Smoky Flavor:** A pinch of smoked paprika or a dash of liquid smoke can add a subtle smoky depth that complements the tomato base beautifully.\n*   **Enriched Tomato Base:** For a richer sauce, consider adding a tablespoon of tomato paste when sautéing the aromatics. This deepens the tomato flavor significantly.\n*   **Other Pastas:** While fideo is traditional, in a pinch, you can break thin spaghetti or angel hair pasta into short pieces (about 1-2 inches) and use those. The toasting step remains essential regardless of the pasta type.\n\nFideo Seco Dry Mexican Noodles is more than just a recipe; it's a culinary journey into the heart of Mexican comfort food. With its simple ingredients and straightforward preparation, it offers a deeply satisfying experience that is both nourishing and rich in flavor. Whether you serve it as a humble side or a hearty main, this dry Mexican pasta is sure to become a cherished addition to your recipe repertoire. Enjoy the process of creating this delicious dish and savor every flavorful bite!",
+  "article": "Fideo Seco Dry Mexican Noodles is a beloved Mexican Pasta and Noodles dish enjoyed across Mexican. This authentic recipe brings traditional flavors to your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Fideo Seco Dry Mexican Noodles",
     "description": "Learn how to make authentic Fideo Seco Dry Mexican Noodles. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1530153382845-fdcb2aa7c74e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwcGFzdGElMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTAxOTgyMXww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1721032740864-876ce9aaeb03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwcGFzdGElMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5MTAxOTgyMXww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1735233024751-37dd47c76591?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxGaWRlbyUyMFNlY28lMjBEcnklMjBNZXhpY2FuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTQyOTA2NDF8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1756521973435-4e4e1d2884b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxGaWRlbyUyMFNlY28lMjBEcnklMjBNZXhpY2FuJTIwZGlzaCUyMHRyYWRpdGlvbmFsfGVufDB8MHx8fDE3OTQyOTA2NDF8MA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-10-03T10:02:09.504Z",
+    "datePublished": "2026-11-10T06:30:22.911Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
@@ -206,50 +211,51 @@
       "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "7 oz (200g) Fideo noodles",
-      "2 tbsp Vegetable oil",
-      "2 Roma tomatoes",
-      "1/4 White onion",
+      "7 oz Fideo noodles",
+      "2 tablespoons Vegetable oil",
+      "3 large Roma tomatoes",
+      "1/4 medium White onion",
       "2 Garlic cloves",
-      "3 cups Chicken broth",
-      "1/2 tsp Ground cumin",
-      "1/2 tsp Salt",
-      "1/4 tsp Black pepper",
-      "for garnish Fresh cilantro",
-      "for garnish Queso fresco"
+      "2 cups Chicken broth",
+      "1 teaspoon Salt",
+      "1/2 teaspoon Ground cumin",
+      "for serving Crema Mexicana",
+      "for serving Queso fresco",
+      "1 Avocado",
+      "1/4 cup Fresh cilantro"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare the Tomato Sauce",
-        "text": "In a blender, combine the roughly chopped Roma tomatoes, 1/4 white onion, and 2 peeled garlic cloves with 1/2 cup of chicken broth. Blend until very smooth. Set aside."
+        "name": "Prepare the Tomato Sauce Base",
+        "text": "In a blender, combine the roughly chopped Roma tomatoes, quartered white onion, peeled garlic cloves, chicken broth, salt, and ground cumin. Blend until the mixture is completely smooth. Set aside."
       },
       {
         "@type": "HowToStep",
-        "name": "Toast the Fideo",
-        "text": "Heat 2 tablespoons of vegetable oil in a medium skillet or pot over medium-high heat. Add the 7 oz (200g) fideo noodles (vermicelli) and cook, stirring constantly, until they are golden brown and toasted. Be careful not to burn them. This usually takes about 3-5 minutes."
+        "name": "Toast the Fideo Noodles",
+        "text": "Heat the vegetable oil in a large skillet or a Dutch oven over medium heat. Add the fideo noodles and cook, stirring constantly, until they are golden brown and toasted. This step is crucial for flavor and texture. Be careful not to burn them."
       },
       {
         "@type": "HowToStep",
-        "name": "Add the Blended Sauce",
-        "text": "Carefully pour the blended tomato mixture into the skillet with the toasted fideo. Stir well and let it simmer for about 2-3 minutes, allowing the sauce to thicken slightly and the flavors to meld."
+        "name": "Add the Tomato Sauce",
+        "text": "Carefully pour the blended tomato sauce over the toasted fideo noodles in the skillet. The mixture will sizzle. Stir well to ensure all the noodles are coated with the sauce."
       },
       {
         "@type": "HowToStep",
-        "name": "Incorporate Broth and Seasonings",
-        "text": "Pour in the remaining 2.5 cups of chicken broth. Add 1/2 teaspoon of ground cumin, 1/2 teaspoon of salt, and 1/4 teaspoon of black pepper. Stir everything together gently."
+        "name": "Simmer and Cook",
+        "text": "Bring the sauce to a gentle simmer. Once simmering, reduce the heat to low, cover the skillet, and let it cook for 15-20 minutes, or until the noodles are tender and most of the liquid has been absorbed. Stir occasionally to prevent sticking."
       },
       {
         "@type": "HowToStep",
-        "name": "Simmer Until Dry",
-        "text": "Bring the mixture to a gentle boil, then reduce the heat to low, cover the skillet, and let it simmer for 15-20 minutes, or until all the liquid has been absorbed by the fideo noodles. Stir occasionally to prevent sticking."
+        "name": "Rest and Fluff",
+        "text": "Once cooked, remove the skillet from the heat and let the fideo seco rest, covered, for 5 minutes. This allows the remaining liquid to be fully absorbed and the flavors to meld. After resting, gently fluff the noodles with a fork."
       },
       {
         "@type": "HowToStep",
-        "name": "Rest and Serve",
-        "text": "Once the liquid is absorbed and the fideo is tender, remove the skillet from the heat and let it rest, covered, for 5 minutes. Fluff with a fork. Serve hot, garnished with fresh chopped cilantro and crumbled queso fresco, if desired."
+        "name": "Serve with Toppings",
+        "text": "Serve the Fideo Seco immediately. Garnish each serving generously with a drizzle of Crema Mexicana, crumbled queso fresco, slices of fresh avocado, and a sprinkle of chopped cilantro. Enjoy this authentic Mexican comfort food."
       }
     ]
   },
-  "publishedAt": "2026-10-03T10:02:09.505Z"
+  "publishedAt": "2026-11-10T06:30:22.911Z"
 }
