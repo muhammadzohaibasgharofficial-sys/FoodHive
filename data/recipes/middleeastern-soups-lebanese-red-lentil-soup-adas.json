@@ -48,27 +48,37 @@
   "prepTime": "20 min",
   "cookTime": "35 min",
   "totalTime": "55 min",
-  "servings": 4,
-  "difficulty": "Medium",
+  "servings": 6,
+  "difficulty": "Easy",
   "cuisine": "Middle Eastern",
-  "image1": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDM2OTYyNnww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1542627501-cadbb5b43ad7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDM2OTYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Lebanese Red Lentil Soup Adas is a comforting and nutritious staple, beloved across the Middle East for its simplicity and rich flavor. This hearty soup features earthy red lentils simmered with aromatic vegetables and brightened with a squeeze of fresh lemon, creating a truly soul-warming experience. It's an ideal meal for any day, offering both warmth and a taste of authentic regional cuisine.",
+  "image1": "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDkyMDQ3MXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1542627501-cadbb5b43ad7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDkyMDQ3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Lebanese Red Lentil Soup Adas is a comforting and nutritious staple in Middle Eastern cuisine, cherished for its simplicity and heartwarming flavor. Made with red lentils, vegetables, and fragrant spices, this soup offers a delightful blend of earthy and bright notes. It is a perfect meal for any time of year, embodying the warmth and hospitality of Lebanese cooking.",
   "ingredients": [
     {
       "item": "Red lentils",
       "amount": "1 cup",
-      "notes": "rinsed well"
+      "notes": "rinsed and drained"
     },
     {
-      "item": "Olive oil",
-      "amount": "2 tablespoons",
+      "item": "Water or vegetable broth",
+      "amount": "6 cups",
       "notes": ""
     },
     {
-      "item": "Yellow onion",
+      "item": "Onion",
       "amount": "1 medium",
-      "notes": "chopped"
+      "notes": "finely chopped"
+    },
+    {
+      "item": "Carrot",
+      "amount": "1 medium",
+      "notes": "finely diced"
+    },
+    {
+      "item": "Celery stalk",
+      "amount": "1",
+      "notes": "finely diced"
     },
     {
       "item": "Garlic cloves",
@@ -76,92 +86,82 @@
       "notes": "minced"
     },
     {
-      "item": "Carrot",
-      "amount": "1 medium",
-      "notes": "peeled and diced"
-    },
-    {
-      "item": "Potato",
-      "amount": "1 medium",
-      "notes": "peeled and diced"
-    },
-    {
-      "item": "Vegetable broth",
-      "amount": "6 cups",
-      "notes": "or water"
-    },
-    {
-      "item": "Ground cumin",
-      "amount": "1 teaspoon",
+      "item": "Olive oil",
+      "amount": "2 tablespoons",
       "notes": ""
+    },
+    {
+      "item": "Cumin",
+      "amount": "1 teaspoon",
+      "notes": "ground"
     },
     {
       "item": "Turmeric",
       "amount": "1/2 teaspoon",
-      "notes": "optional, for color and flavor"
-    },
-    {
-      "item": "Dried mint",
-      "amount": "1/2 teaspoon",
-      "notes": "crushed"
+      "notes": "ground"
     },
     {
       "item": "Salt",
-      "amount": "to taste",
-      "notes": ""
+      "amount": "1 teaspoon",
+      "notes": "or to taste"
     },
     {
       "item": "Black pepper",
-      "amount": "to taste",
+      "amount": "1/2 teaspoon",
+      "notes": "or to taste"
+    },
+    {
+      "item": "Lemon",
+      "amount": "1",
+      "notes": "freshly squeezed juice"
+    },
+    {
+      "item": "Fresh cilantro",
+      "amount": "1/4 cup",
+      "notes": "chopped, for garnish (optional)"
+    },
+    {
+      "item": "Pita bread",
+      "amount": "for serving",
       "notes": ""
-    },
-    {
-      "item": "Fresh lemon juice",
-      "amount": "2 tablespoons",
-      "notes": "or more, to taste"
-    },
-    {
-      "item": "Fresh parsley or cilantro",
-      "amount": "for garnish",
-      "notes": "chopped"
     }
   ],
   "instructions": [
     {
       "step": 1,
-      "title": "Prepare Ingredients",
-      "text": "Rinse the red lentils thoroughly under cold running water until the water runs clear. Chop the onion, mince the garlic, and dice the carrot and potato into small, even pieces. This ensures everything cooks uniformly.",
+      "title": "Prepare Vegetables",
+      "text": "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the finely chopped onion, carrot, and celery. Saute for 8-10 minutes until the vegetables soften and the onion becomes translucent.",
       "time": "10 min"
     },
     {
       "step": 2,
-      "title": "Saute Aromatics",
-      "text": "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the chopped onion and cook until softened and translucent, about 5-7 minutes. Add the minced garlic and cook for another minute until fragrant, being careful not to burn it.",
-      "time": "8 min"
+      "title": "Add Aromatics and Spices",
+      "text": "Stir in the minced garlic, ground cumin, and ground turmeric. Cook for another 1-2 minutes until fragrant, being careful not to burn the garlic.",
+      "time": "2 min"
     },
     {
       "step": 3,
-      "title": "Add Vegetables and Spices",
-      "text": "Stir in the diced carrot and potato, and cook for about 3-4 minutes, allowing them to slightly soften. Add the ground cumin and turmeric (if using) and cook for another minute, stirring constantly to toast the spices and release their aroma.",
+      "title": "Combine Lentils and Liquid",
+      "text": "Add the rinsed and drained red lentils to the pot. Pour in the 6 cups of water or vegetable broth. Stir everything together.",
       "time": "5 min"
     },
     {
       "step": 4,
-      "title": "Combine Lentils and Broth",
-      "text": "Add the rinsed lentils to the pot, then pour in the vegetable broth or water. Bring the mixture to a boil, then reduce the heat to low, cover the pot, and simmer for 20-25 minutes, or until the lentils and vegetables are very tender.",
+      "title": "Simmer the Soup",
+      "text": "Bring the soup to a boil, then reduce the heat to low, cover the pot, and let it simmer for 20-25 minutes, or until the lentils are completely tender and have broken down. Stir occasionally to prevent sticking.",
       "time": "25 min"
     },
     {
       "step": 5,
-      "title": "Blend and Season",
-      "text": "Once cooked, you can leave the soup as is for a rustic texture, or use an immersion blender to partially or fully blend the soup to your desired consistency. If you do not have an immersion blender, carefully transfer about half of the soup to a regular blender, blend, and return to the pot. Season the soup with salt and black pepper to taste.",
-      "time": "5 min"
+      "title": "Season and Blend (Optional)",
+      "text": "Remove the pot from heat. Season the soup with salt and black pepper to taste. For a smoother consistency, use an immersion blender to partially or fully blend the soup directly in the pot. Alternatively, you can leave it chunky for a heartier texture.",
+      "time": "3 min"
     },
     {
       "step": 6,
       "title": "Finish and Serve",
-      "text": "Stir in the dried mint and fresh lemon juice. Taste and adjust seasonings as needed, adding more salt, pepper, or lemon juice to your preference. Ladle the hot soup into bowls and garnish with fresh chopped parsley or cilantro before serving immediately.",
-      "time": "2 min"
+      "text": "Stir in the freshly squeezed lemon juice. Ladle the hot soup into bowls. Garnish with fresh chopped cilantro, if desired, and serve immediately with warm pita bread or a drizzle of extra virgin olive oil.",
+      "time": "3 min"
     }
   ],
   "nutritionTable": {
@@ -169,49 +169,49 @@
     "protein": "18g",
     "carbs": "45g",
     "fat": "14g",
-    "fiber": "4g",
+    "fiber": "12g",
     "sugar": "5g",
     "sodium": "520mg",
-    "cholesterol": "60mg"
+    "cholesterol": "0mg"
   },
   "tags": [
     "Middle Eastern",
-    "Middle Eastern",
+    "Lebanese",
     "authentic",
     "traditional",
     "soups",
-    "Lebanese Red Lentil Soup Adas",
     "lentil soup",
     "vegan",
     "vegetarian",
-    "healthy"
+    "healthy",
+    "comfort food"
   ],
   "tips": [
-    "For an extra layer of flavor, consider adding a pinch of red pepper flakes with the spices for a subtle kick, or a dash of sumac at the end for tang.",
-    "Do not overcook the lentils; they should be tender but not mushy unless you prefer a completely smooth soup. Rinsing them well prevents cloudiness.",
-    "Adas soup is excellent leftover. It tends to thicken in the refrigerator, so you may need to add a splash of water or broth when reheating to achieve the desired consistency."
+    "For an extra layer of flavor, you can toast the cumin seeds briefly in a dry pan before grinding them, or use high-quality ground cumin.",
+    "Always rinse your red lentils thoroughly before cooking to remove any dust or debris and ensure a clean, fresh taste in your soup.",
+    "Adas soup thickens as it cools; if reheating, you may need to add a splash of water or broth to reach your desired consistency, stirring well."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Lebanese Red Lentil Soup Adas is a beloved Middle Eastern Soups and Stews dish enjoyed across Middle Eastern. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "In the vibrant tapestry of Middle Eastern Soups and Stews, few dishes hold as cherished a place as Lebanese Red Lentil Soup, known affectionately as Adas. This humble yet incredibly flavorful soup is a staple in Lebanese homes, celebrated for its comforting warmth, nutritional powerhouse, and remarkably simple preparation. Whether you're seeking a hearty meal on a chilly evening, a light lunch, or a nourishing dish during fasting periods, Adas delivers a bowlful of tradition and taste. Its vibrant color, creamy texture, and tangy zest make it an unforgettable culinary experience that transcends mere sustenance, offering a hug in a bowl.\n\n## What is Lebanese Red Lentil Soup Adas?\n\nLebanese Red Lentil Soup Adas is a quintessential representation of Lebanese home cooking: unfussy, wholesome, and bursting with fresh flavors. At its heart are red lentils, which cook down to a wonderfully creamy consistency, forming the perfect canvas for a symphony of simple ingredients. Unlike some lentil soups that might be thick and heavy, Adas strikes a delicate balance, often having a smooth, almost velvety texture, brightened by a generous squeeze of lemon juice. The term \"Adas\" itself is simply the Arabic word for lentils, highlighting the star of the dish.\n\nThis soup is more than just a meal; it's a cultural cornerstone. It’s often served during Ramadan for Iftar (breaking the fast) due to its nourishing properties and ease of digestion, but it's equally beloved year-round. Its popularity also stems from its affordability and accessibility, making it a go-to dish for families across economic spectrums. The beauty of Lebanese Red Lentil Soup Adas lies in its ability to transform basic pantry items – lentils, onions, garlic, and lemons – into a sophisticated and deeply satisfying dish that speaks volumes of the region's culinary philosophy: fresh ingredients, simple techniques, profound taste. It’s naturally vegan, gluten-free, and packed with plant-based protein and fiber, making it a fantastic choice for a health-conscious diet.\n\n## Ingredients You Need\n\nCrafting the perfect bowl of Lebanese Red Lentil Soup Adas requires a handful of fresh, high-quality ingredients. The magic happens when these simple components are allowed to shine.\n\n*   **Red Lentils:** The star of the show. Choose split red lentils as they cook quickly and break down easily, contributing to the soup's signature creamy texture. No soaking is usually required.\n*   **Onions:** One large yellow onion, finely chopped. It forms the aromatic base, providing a foundational sweetness and depth of flavor when sautéed.\n*   **Garlic:** Several cloves, minced. Garlic is indispensable in Lebanese cuisine, adding a pungent, savory kick that complements the lentils beautifully.\n*   **Carrots:** One or two medium carrots, finely diced. They add a subtle sweetness, vibrant color, and extra vitamins.\n*   **Potatoes (Optional but Recommended):** One medium potato, peeled and diced. While not always included, potatoes lend extra body and creaminess, making the soup more substantial without adding dairy.\n*   **Olive Oil:** Extra virgin olive oil for sautéing and a drizzle at the end. Its fruity, peppery notes are crucial for an authentic Lebanese flavor profile.\n*   **Water or Vegetable Broth:** The liquid base. Broth will add more depth, but water works perfectly well, especially with good quality vegetables and spices.\n*   **Lemon Juice:** Freshly squeezed is non-negotiable! This is the secret weapon that brightens the entire soup, adding the characteristic tangy zest that elevates Adas from good to extraordinary.\n*   **Cumin:** Ground cumin is the primary spice, imparting a warm, earthy aroma and flavor that pairs perfectly with lentils.\n*   **Salt and Black Pepper:** To taste. Essential for balancing and enhancing all the other flavors.\n*   **Fresh Mint (Optional Garnish):** A sprinkle of fresh chopped mint adds a refreshing top note.\n\n## Step-by-Step Instructions\n\nMaking Lebanese Red Lentil Soup Adas is a straightforward process, even for beginner cooks. Follow these steps to create a delicious and authentic bowl:\n\n1.  **Prepare the Lentils:** Rinse the red lentils thoroughly under cold running water until the water runs clear. This removes any debris and starch. Set aside.\n2.  **Sauté Aromatics:** In a large pot or Dutch oven, heat a generous amount of olive oil over medium heat. Add the chopped onions and sauté until softened and translucent, about 5-7 minutes. Don't rush this step, as properly caramelized onions contribute significantly to the soup's flavor.\n3.  **Add Garlic and Vegetables:** Stir in the minced garlic and cook for another minute until fragrant, being careful not to burn it. Add the diced carrots and potatoes (if using), and cook for 5 minutes, stirring occasionally.\n4.  **Incorporate Lentils and Spices:** Add the rinsed lentils to the pot along with the ground cumin. Stir well to coat the lentils and vegetables with the spices, cooking for about 1 minute until fragrant.\n5.  **Add Liquid and Simmer:** Pour in the water or vegetable broth. Bring the mixture to a boil, then reduce the heat to low, cover the pot, and let it simmer gently for 20-25 minutes, or until the lentils and vegetables are very tender. Stir occasionally to prevent sticking.\n6.  **Achieve Creamy Texture:** Once cooked, you have a few options for texture. For a rustic soup, you can leave it as is. For a smoother, creamier consistency, use an immersion blender to blend a portion or all of the soup directly in the pot. Alternatively, carefully transfer portions to a regular blender (vent the lid to release steam) and blend until smooth, then return to the pot.\n7.  **Season and Finish:** Return the soup to low heat. Stir in the freshly squeezed lemon juice, salt, and black pepper to taste. Taste and adjust seasonings as needed – you might want more lemon or salt.\n8.  **Serve:** Ladle the hot soup into bowls. Drizzle with a little extra virgin olive oil and garnish with fresh chopped mint, if desired.\n\n## Pro Tips for the Best Results\n\nAchieving that perfect, soul-warming bowl of Lebanese Red Lentil Soup Adas is simple, but a few expert tips can elevate your creation from good to truly exceptional.\n\n*   **Don't Skimp on Olive Oil:** Olive oil is a fundamental flavor component in Lebanese cuisine. Use good quality extra virgin olive oil not just for sautéing but also for a final drizzle over the finished soup. It adds richness and a distinct Mediterranean aroma.\n*   **Fresh Lemon is Key:** Bottled lemon juice simply won't cut it. The bright, tangy zest of freshly squeezed lemon juice is crucial for balancing the earthy lentils and awakening all the other flavors. Add it at the very end to preserve its fresh taste, and don't be afraid to add more to your personal preference.\n*   **Sauté Aromatics Properly:** Take your time caramelizing the onions. This step builds the foundational flavor of the soup. Cooking them until they are soft and slightly golden will add a subtle sweetness and depth that can't be achieved by rushing.\n*   **Adjust Texture to Your Liking:** While many prefer a smooth Lebanese Red Lentil Soup Adas, some enjoy a slightly chunkier texture with visible bits of carrot and potato. Blend only a portion of the soup, or blend it completely for a velvety finish. Experiment to find your ideal consistency.\n*   **Season in Layers:** Season with salt and pepper throughout the cooking process, tasting as you go. This ensures the flavors are well-integrated. A final taste test before serving allows for any last-minute adjustments.\n*   **Consider a \"Tasha\" (Garlic-Cilantro Sauté):** For an extra layer of flavor, especially popular in some Lebanese dishes, you can prepare a \"tasha.\" In a small pan, sauté minced garlic and fresh cilantro in olive oil until fragrant, then stir this aromatic mixture into the soup just before serving. This adds an incredible fresh herb and garlic punch.\n\n## Serving Suggestions\n\nLebanese Red Lentil Soup Adas is wonderfully satisfying on its own, but it truly shines when paired with traditional accompaniments.\n\n*   **Pita Bread:** Warm pita bread is the quintessential companion. Use it for dipping, scooping up the creamy soup, or simply enjoying alongside. Toasted or fresh, it's a must-have.\n*   **Fresh Vegetables:** A simple plate of fresh vegetables like sliced cucumbers, tomatoes, radishes, and green onions provides a refreshing contrast to the warm soup.\n*   **Pickles (Mkhalal):** Assorted Middle Eastern pickles, such as pickled turnips or cucumbers, offer a delightful sour and briny counterpoint that cuts through the richness of the lentils.\n*   **Extra Lemon Wedges:** Always serve with extra lemon wedges on the side, allowing each person to adjust the tanginess to their preference.\n*   **Fresh Herbs:** A sprinkle of fresh chopped mint or parsley not only adds visual appeal but also a burst of fresh flavor.\n*   **Chili Flakes or Hot Sauce:** For those who enjoy a little heat, a pinch of red chili flakes or a dash of your favorite hot sauce can be a welcome addition.\n\n## Variations and Substitutions\n\nWhile the classic Lebanese Red Lentil Soup Adas recipe is perfect as is, it's also incredibly versatile and open to creative variations and substitutions.\n\n*   **Add Greens:** Stir in a handful of chopped spinach, Swiss chard, or kale during the last 5-10 minutes of cooking for added nutrients and a touch of bitterness that complements the lentils.\n*   **Spice It Up:** Beyond cumin, you can experiment with other spices. A pinch of turmeric can add a beautiful golden color and earthy notes. A tiny bit of allspice can also lend a traditional Lebanese warmth.\n*   **Make it Heartier:** For a more substantial meal, consider adding a handful of short-grain rice or vermicelli pasta during the last 10-15 minutes of cooking. This will thicken the soup further and add more carbohydrates.\n*   **Different Lentils:** While red lentils are traditional for this specific soup, you can experiment with yellow lentils for a similar creamy texture. Green or brown lentils will yield a soup with a different texture and longer cooking time, but can still be delicious.\n*   **Vegetable Additions:** Feel free to include other root vegetables like parsnips or sweet potatoes for different flavor profiles and sweetness.\n*   **Garnish Variations:** Instead of just mint, try fresh parsley or cilantro. A sprinkle of sumac on top can also add an extra layer of tangy flavor and a beautiful reddish hue.\n*   **Smoky Flavor:** For a subtle smoky depth, you can add a pinch of smoked paprika along with the cumin.\n*   **Tomato Paste:** A tablespoon of tomato paste, cooked down with the onions and garlic, can add a touch of sweetness and umami, as well as a richer color, though it's not traditional for classic Adas.\n\nEmbrace the flexibility of this wonderful soup. Whether you stick to the traditional recipe or add your own twist, Lebanese Red Lentil Soup Adas promises a wholesome, flavorful, and deeply satisfying experience that brings the warmth of Middle Eastern cuisine right into your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Lebanese Red Lentil Soup Adas",
     "description": "Learn how to make authentic Lebanese Red Lentil Soup Adas. This easy Middle Eastern recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDM2OTYyNnww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1542627501-cadbb5b43ad7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDM2OTYyNnww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1741026079032-7cb660e44bad?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDkyMDQ3MXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1542627501-cadbb5b43ad7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxMZWJhbmVzZSUyMFJlZCUyMExlbnRpbCUyME1pZGRsZSUyMEVhc3Rlcm4lMjBkaXNoJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDkyMDQ3MXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-11-11T04:30:23.149Z",
+    "datePublished": "2026-11-17T13:01:53.241Z",
     "prepTime": "PT20M",
     "cookTime": "PT35M",
     "totalTime": "PT55M",
-    "recipeYield": "4 servings",
+    "recipeYield": "6 servings",
     "recipeCategory": "Soups and Stews",
     "recipeCuisine": "Middle Eastern",
     "keywords": "Lebanese Red Lentil Soup Adas, how to make Lebanese Red Lentil Soup Adas, easy Lebanese Red Lentil Soup Adas recipe, authentic Middle Eastern Lebanese Red Lentil Soup Adas",
@@ -226,52 +226,52 @@
     },
     "recipeIngredient": [
       "1 cup Red lentils",
-      "2 tablespoons Olive oil",
-      "1 medium Yellow onion",
-      "3 Garlic cloves",
+      "6 cups Water or vegetable broth",
+      "1 medium Onion",
       "1 medium Carrot",
-      "1 medium Potato",
-      "6 cups Vegetable broth",
-      "1 teaspoon Ground cumin",
+      "1 Celery stalk",
+      "3 Garlic cloves",
+      "2 tablespoons Olive oil",
+      "1 teaspoon Cumin",
       "1/2 teaspoon Turmeric",
-      "1/2 teaspoon Dried mint",
-      "to taste Salt",
-      "to taste Black pepper",
-      "2 tablespoons Fresh lemon juice",
-      "for garnish Fresh parsley or cilantro"
+      "1 teaspoon Salt",
+      "1/2 teaspoon Black pepper",
+      "1 Lemon",
+      "1/4 cup Fresh cilantro",
+      "for serving Pita bread"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
-        "name": "Prepare Ingredients",
-        "text": "Rinse the red lentils thoroughly under cold running water until the water runs clear. Chop the onion, mince the garlic, and dice the carrot and potato into small, even pieces. This ensures everything cooks uniformly."
+        "name": "Prepare Vegetables",
+        "text": "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the finely chopped onion, carrot, and celery. Saute for 8-10 minutes until the vegetables soften and the onion becomes translucent."
       },
       {
         "@type": "HowToStep",
-        "name": "Saute Aromatics",
-        "text": "In a large pot or Dutch oven, heat the olive oil over medium heat. Add the chopped onion and cook until softened and translucent, about 5-7 minutes. Add the minced garlic and cook for another minute until fragrant, being careful not to burn it."
+        "name": "Add Aromatics and Spices",
+        "text": "Stir in the minced garlic, ground cumin, and ground turmeric. Cook for another 1-2 minutes until fragrant, being careful not to burn the garlic."
       },
       {
         "@type": "HowToStep",
-        "name": "Add Vegetables and Spices",
-        "text": "Stir in the diced carrot and potato, and cook for about 3-4 minutes, allowing them to slightly soften. Add the ground cumin and turmeric (if using) and cook for another minute, stirring constantly to toast the spices and release their aroma."
+        "name": "Combine Lentils and Liquid",
+        "text": "Add the rinsed and drained red lentils to the pot. Pour in the 6 cups of water or vegetable broth. Stir everything together."
       },
       {
         "@type": "HowToStep",
-        "name": "Combine Lentils and Broth",
-        "text": "Add the rinsed lentils to the pot, then pour in the vegetable broth or water. Bring the mixture to a boil, then reduce the heat to low, cover the pot, and simmer for 20-25 minutes, or until the lentils and vegetables are very tender."
+        "name": "Simmer the Soup",
+        "text": "Bring the soup to a boil, then reduce the heat to low, cover the pot, and let it simmer for 20-25 minutes, or until the lentils are completely tender and have broken down. Stir occasionally to prevent sticking."
       },
       {
         "@type": "HowToStep",
-        "name": "Blend and Season",
-        "text": "Once cooked, you can leave the soup as is for a rustic texture, or use an immersion blender to partially or fully blend the soup to your desired consistency. If you do not have an immersion blender, carefully transfer about half of the soup to a regular blender, blend, and return to the pot. Season the soup with salt and black pepper to taste."
+        "name": "Season and Blend (Optional)",
+        "text": "Remove the pot from heat. Season the soup with salt and black pepper to taste. For a smoother consistency, use an immersion blender to partially or fully blend the soup directly in the pot. Alternatively, you can leave it chunky for a heartier texture."
       },
       {
         "@type": "HowToStep",
         "name": "Finish and Serve",
-        "text": "Stir in the dried mint and fresh lemon juice. Taste and adjust seasonings as needed, adding more salt, pepper, or lemon juice to your preference. Ladle the hot soup into bowls and garnish with fresh chopped parsley or cilantro before serving immediately."
+        "text": "Stir in the freshly squeezed lemon juice. Ladle the hot soup into bowls. Garnish with fresh chopped cilantro, if desired, and serve immediately with warm pita bread or a drizzle of extra virgin olive oil."
       }
     ]
   },
-  "publishedAt": "2026-11-11T04:30:23.149Z"
+  "publishedAt": "2026-11-17T13:01:53.242Z"
 }
