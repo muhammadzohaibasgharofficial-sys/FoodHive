@@ -45,60 +45,55 @@
       }
     ]
   },
-  "prepTime": "30 min",
-  "cookTime": "2 hr 30 min",
-  "totalTime": "3 hr",
-  "servings": 6,
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
+  "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Mexican",
-  "image1": "https://images.unsplash.com/photo-1527976746453-f363eac4d889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDI4MTQwOXww&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1579640873954-766bf0235bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDI4MTQwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Pozole Rojo is a hearty and flavorful Mexican soup, a true celebration in a bowl. Made with tender pork, hominy kernels, and a rich, spicy red chile broth, it's a dish deeply rooted in tradition and perfect for sharing. This vibrant and comforting stew offers a complex blend of savory and mildly spicy notes, making it a beloved staple for gatherings and holidays.",
+  "image1": "https://images.unsplash.com/photo-1527976746453-f363eac4d889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NTEzNjQ3OXww&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1579640873954-766bf0235bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NTEzNjQ3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Pozole Rojo is a hearty and flavorful Mexican soup, perfect for celebrations or a comforting meal. It features tender pork or chicken, hominy kernels, and a rich red chile broth that's both smoky and slightly spicy. Garnished with fresh toppings, it's a truly satisfying culinary experience.",
   "ingredients": [
     {
-      "item": "Pork shoulder or butt",
+      "item": "Pork shoulder",
       "amount": "2 lbs",
-      "notes": "cut into 2-inch cubes"
-    },
-    {
-      "item": "White onion",
-      "amount": "1 large",
-      "notes": "one half quartered, one half roughly chopped"
-    },
-    {
-      "item": "Garlic cloves",
-      "amount": "6",
-      "notes": "3 whole, 3 minced"
-    },
-    {
-      "item": "Salt",
-      "amount": "1 tbsp",
-      "notes": "plus more to taste"
-    },
-    {
-      "item": "Black peppercorns",
-      "amount": "1 tsp",
-      "notes": ""
-    },
-    {
-      "item": "Bay leaves",
-      "amount": "3",
-      "notes": ""
+      "notes": "cut into 1-inch cubes"
     },
     {
       "item": "White hominy",
-      "amount": "1 (25 oz) can",
-      "notes": "drained and rinsed"
+      "amount": "2 cans (15 oz each)",
+      "notes": "rinsed and drained"
+    },
+    {
+      "item": "Water or chicken broth",
+      "amount": "8 cups",
+      "notes": ""
     },
     {
       "item": "Dried guajillo chiles",
       "amount": "6",
-      "notes": "deseeded and destemmed"
+      "notes": "stemmed and seeded"
     },
     {
       "item": "Dried ancho chiles",
-      "amount": "3",
-      "notes": "deseeded and destemmed"
+      "amount": "2",
+      "notes": "stemmed and seeded"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "4",
+      "notes": "peeled"
+    },
+    {
+      "item": "White onion",
+      "amount": "1/2",
+      "notes": "roughly chopped"
+    },
+    {
+      "item": "Ground cumin",
+      "amount": "1 tsp",
+      "notes": ""
     },
     {
       "item": "Dried Mexican oregano",
@@ -106,13 +101,18 @@
       "notes": ""
     },
     {
-      "item": "Ground cumin",
-      "amount": "1/4 tsp",
-      "notes": ""
+      "item": "Salt",
+      "amount": "1 tbsp",
+      "notes": "or to taste"
     },
     {
-      "item": "Water or chicken broth",
-      "amount": "as needed",
+      "item": "Black pepper",
+      "amount": "1/2 tsp",
+      "notes": "or to taste"
+    },
+    {
+      "item": "Bay leaves",
+      "amount": "2",
       "notes": ""
     },
     {
@@ -121,7 +121,7 @@
       "notes": ""
     },
     {
-      "item": "Thinly sliced radishes",
+      "item": "Sliced radishes",
       "amount": "for serving",
       "notes": ""
     },
@@ -136,6 +136,11 @@
       "notes": ""
     },
     {
+      "item": "Dried oregano",
+      "amount": "for serving",
+      "notes": ""
+    },
+    {
       "item": "Tostadas",
       "amount": "for serving",
       "notes": ""
@@ -145,87 +150,85 @@
     {
       "step": 1,
       "title": "Cook the Pork",
-      "text": "In a large pot or Dutch oven, combine the pork shoulder, one quartered onion half, 3 whole garlic cloves, 1 tablespoon salt, peppercorns, and bay leaves. Cover with enough water or chicken broth to submerge the pork by about 2 inches. Bring to a boil, then reduce heat, cover, and simmer for 1 hour 30 minutes, or until the pork is very tender and easily shredded.",
-      "time": "1 hr 30 min"
+      "text": "Place the pork shoulder in a large pot with 6 cups of water or broth, 1/2 onion, 2 garlic cloves, and bay leaves. Bring to a boil, then reduce heat, cover, and simmer for 1.5 to 2 hours, or until the pork is very tender. Skim any foam that rises.",
+      "time": "1 hr 45 min"
     },
     {
       "step": 2,
-      "title": "Prepare the Chile Sauce",
-      "text": "While the pork cooks, rehydrate the dried chiles. Place the guajillo and ancho chiles in a heatproof bowl and cover them with hot water. Let them soak for 20-30 minutes until they are soft and pliable. Drain the chiles, reserving about 1 cup of the soaking liquid.",
+      "title": "Prepare the Chiles",
+      "text": "While the pork cooks, toast the guajillo and ancho chiles in a dry skillet over medium heat for 1-2 minutes until fragrant, being careful not to burn them. Transfer to a bowl, cover with hot water, and let them rehydrate for 20-30 minutes until soft.",
       "time": "30 min"
     },
     {
       "step": 3,
-      "title": "Blend the Chile Sauce",
-      "text": "In a blender, combine the rehydrated chiles, the remaining roughly chopped onion half, 3 minced garlic cloves, Mexican oregano, and ground cumin. Add about 1/2 cup of the reserved chile soaking liquid or fresh water. Blend until the mixture is completely smooth. For a silky texture, strain the sauce through a fine-mesh sieve into a bowl, pressing with a spoon to extract all the liquid. Discard any solids remaining in the sieve.",
+      "title": "Make the Red Chile Sauce",
+      "text": "Drain the rehydrated chiles. In a blender, combine the chiles with the remaining 2 garlic cloves, 1/2 cup of the pork cooking liquid (or fresh broth), cumin, and Mexican oregano. Blend until completely smooth. Strain the sauce through a fine-mesh sieve into a bowl, pressing to extract all liquid, discarding any solids.",
       "time": "15 min"
     },
     {
       "step": 4,
       "title": "Combine and Simmer",
-      "text": "Remove the cooked pork from the pot and shred it using two forks. Discard the cooked onion, garlic, peppercorns, and bay leaves from the cooking liquid. Skim any excess fat from the broth if desired. Return the shredded pork to the pot with the broth. Add the drained and rinsed hominy and the strained red chile sauce. Bring the mixture to a gentle simmer.",
+      "text": "Once the pork is tender, remove it from the pot and shred it using two forks. Discard the onion, garlic, and bay leaves from the cooking liquid. Add the shredded pork and the strained chile sauce back into the pot with the cooking liquid. Add the rinsed hominy. If needed, add more water or broth to achieve desired consistency.",
       "time": "10 min"
     },
     {
       "step": 5,
-      "title": "Develop Flavors",
-      "text": "Continue to simmer the pozole for another 30-45 minutes, stirring occasionally, allowing all the flavors to meld and deepen. This simmering time helps the broth absorb the rich chile flavors and slightly thicken. Taste and adjust seasoning with additional salt if needed. The broth should turn a beautiful rich red color.",
-      "time": "45 min"
+      "title": "Season and Finish",
+      "text": "Bring the pozole to a gentle simmer. Season with salt and pepper to taste. Continue to simmer for at least 20-30 minutes, allowing the flavors to meld. The longer it simmers, the richer the taste.",
+      "time": "30 min"
     },
     {
       "step": 6,
-      "title": "Serve with Toppings",
-      "text": "Ladle the hot Pozole Rojo into individual bowls. Serve immediately with a variety of traditional toppings on the side for guests to customize their bowls. Popular options include shredded cabbage, thinly sliced radishes, finely diced white onion, fresh lime wedges, and crispy tostadas. You can also offer a dollop of Mexican crema or avocado slices.",
+      "title": "Serve",
+      "text": "Ladle the hot pozole into bowls. Serve immediately with a variety of garnishes on the side, such as shredded cabbage, sliced radishes, diced white onion, lime wedges, a sprinkle of dried oregano, and crispy tostadas.",
       "time": "5 min"
     }
   ],
   "nutritionTable": {
-    "calories": "450 kcal",
-    "protein": "30g",
-    "carbs": "50g",
-    "fat": "18g",
-    "fiber": "6g",
-    "sugar": "6g",
-    "sodium": "650mg",
-    "cholesterol": "80mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Mexican",
-    "Pozole",
-    "Hominy",
-    "Pork",
-    "Soup",
-    "Stew",
-    "Traditional",
-    "Authentic",
-    "Red Chile"
+    "authentic",
+    "traditional",
+    "soups",
+    "Pozole Rojo Red Hominy Soup",
+    "pork",
+    "hominy"
   ],
   "tips": [
-    "For a truly authentic taste, always use dried Mexican chiles (guajillo and ancho) and rehydrate them properly. Do not substitute with chile powder.",
-    "If you prefer a thicker broth, you can blend a small amount of hominy with the chile sauce to add more body to the soup.",
-    "Pozole Rojo tastes even better the next day! Prepare it in advance and reheat gently for a deeper, more developed flavor. Store leftovers in an airtight container in the refrigerator for up to 3 days."
+    "For deeper flavor, brown the pork cubes slightly before adding liquid to cook. This adds a layer of richness to the broth.",
+    "If you can't find dried chiles, a good quality red enchilada sauce (ensure it's not too sweet) can be used as a substitute, but the dried chiles provide the most authentic flavor.",
+    "Pozole tastes even better the next day as the flavors develop. Store leftovers in an airtight container in the refrigerator for up to 3-4 days."
   ],
   "rating": 4.8,
   "reviews": 312,
-  "article": "Pozole Rojo Red Hominy Soup is a beloved Mexican Soups and Stews dish enjoyed across Mexican. This authentic recipe brings traditional flavors to your kitchen.",
+  "article": "Pozole Rojo Red Hominy Soup: A Heartwarming Mexican Classic\n\nWhen it comes to the rich tapestry of Mexican cuisine, few dishes evoke as much warmth, tradition, and celebratory spirit as Pozole Rojo Red Hominy Soup. This iconic soup, a staple at fiestas, holidays, and family gatherings, is more than just a meal; it's a culinary embrace, a bowl full of history and flavor. With its vibrant red broth, tender meat, and plump hominy kernels, Pozole Rojo offers a deeply satisfying experience that tantalizes the taste buds and nourishes the soul. If you've ever sought a dish that embodies the heart of Mexican cooking, look no further than this magnificent stew.\n\n## What is Pozole Rojo Red Hominy Soup?\n\nPozole Rojo Red Hominy Soup is a robust and flavorful stew originating from pre-Hispanic Mexico. The word \"pozole\" itself comes from the Nahuatl word \"pozolli,\" meaning \"hominy.\" At its core, pozole is characterized by its use of nixtamalized corn kernels, known as hominy, which are cooked until they \"blossom\" into tender, chewy pearls. \"Rojo\" signifies the rich, reddish hue of the broth, derived from a blend of dried red chiles, typically guajillo, ancho, and sometimes arbol for a touch of heat.\n\nTraditionally, Pozole Rojo features tender chunks of pork, often a mix of shoulder, hocks, or even trotters, simmered until fall-apart tender. The combination of the succulent meat, the earthy hominy, and the complex, subtly spicy chile broth creates a harmonious symphony of textures and flavors. It's not just a soup; it's a complete meal, often served with an array of fresh garnishes that allow each diner to customize their bowl to perfection. While often associated with celebratory occasions like Mexican Independence Day or Christmas, Pozole Rojo Red Hominy Soup is a comforting dish enjoyed year-round across Mexico.\n\n## Ingredients You Need\n\nCrafting an authentic Pozole Rojo Red Hominy Soup requires a thoughtful selection of ingredients. Here's what you'll typically need to bring this masterpiece to life:\n\nFor the Meat:\n*   2-3 lbs pork shoulder (Boston butt), cut into 2-inch chunks\n*   1-2 lbs pork hocks or trotters (optional, for added richness and collagen)\n*   1 large onion, quartered\n*   4-5 cloves garlic, smashed\n*   2 bay leaves\n*   Salt to taste\n\nFor the Hominy:\n*   2 (25 oz) cans white hominy, drained and rinsed, or 1 lb dried hominy (soaked overnight)\n\nFor the Red Chile Sauce:\n*   8-10 dried guajillo chiles, stemmed and deseeded\n*   3-4 dried ancho chiles, stemmed and deseeded\n*   1-2 dried arbol chiles (optional, for heat), stemmed\n*   1/2 large onion, roughly chopped\n*   3-4 cloves garlic\n*   1 tsp ground cumin\n*   1/2 tsp dried oregano (Mexican oregano preferred)\n*   1/4 tsp ground black pepper\n*   1 cup reserved pork cooking liquid\n\nFor Serving (Garnishes):\n*   Shredded cabbage or lettuce\n*   Radishes, thinly sliced\n*   White onion, finely diced\n*   Lime wedges\n*   Mexican oregano\n*   Tostadas or tortilla chips\n*   Salsa macha or other hot sauce (optional)\n\n## Step-by-Step Instructions\n\nMaking Pozole Rojo Red Hominy Soup is a labor of love, but the process is straightforward and incredibly rewarding.\n\n1.  **Cook the Pork**: In a large stockpot, combine the pork shoulder, hocks (if using), quartered onion, smashed garlic, bay leaves, and a generous amount of salt. Cover with water by about 2 inches. Bring to a boil, then reduce heat, cover, and simmer for 2-3 hours, or until the pork is very tender and easily shreds with a fork. Skim off any foam that rises to the surface.\n2.  **Prepare the Chiles**: While the pork cooks, prepare your chiles. Heat a dry skillet over medium heat and lightly toast the guajillo, ancho, and arbol chiles for 30 seconds to 1 minute per side, until fragrant. Be careful not to burn them, as this will make them bitter. Remove from heat and place in a bowl. Cover with hot water and let them rehydrate for 20-30 minutes, until soft and pliable.\n3.  **Make the Chile Sauce**: Once rehydrated, drain the chiles, reserving some of the soaking liquid. In a blender, combine the rehydrated chiles, chopped onion, garlic, cumin, oregano, black pepper, and 1 cup of the reserved pork cooking liquid. Blend until completely smooth. If needed, add a little more chile soaking liquid or pork broth to achieve a smooth consistency.\n4.  **Strain the Sauce**: For a silky-smooth broth, pass the chile sauce through a fine-mesh sieve into a bowl, pressing down on the solids with a spoon to extract all the liquid. Discard the solids.\n5.  **Assemble the Pozole**: Once the pork is tender, remove it from the pot and let it cool slightly. Discard the onion, garlic, and bay leaves from the cooking liquid. Skim off any excess fat from the broth (you can chill the broth to make this easier). Shred the pork into bite-sized pieces.\n6.  **Combine and Simmer**: Return the shredded pork to the pot with the broth. Add the strained chile sauce and the drained hominy. Bring the mixture to a simmer, stirring occasionally. Cook for at least 30-45 minutes, allowing the flavors to meld beautifully. Taste and adjust salt as needed. The hominy will absorb some of the broth and become even more tender.\n\n## Pro Tips for the Best Results\n\nAchieving an outstanding Pozole Rojo Red Hominy Soup is all about attention to detail.\n\n*   **Toast Your Chiles**: Don't skip the step of lightly toasting the dried chiles. This process deepens their flavor and aroma, making a significant difference in the final broth. Just be careful not to burn them!\n*   **Quality Pork**: Use good quality pork shoulder, which has a nice balance of meat and fat, ensuring a tender and flavorful result. Adding pork hocks or trotters contributes collagen, giving the broth a richer body and mouthfeel.\n*   **Skim the Fat**: While some fat adds flavor, too much can make the soup greasy. Skim off excess fat from the pork cooking liquid for a cleaner, more balanced broth.\n*   **Mexican Oregano**: If you can find it, use Mexican oregano. It has a distinct citrusy and earthy flavor profile that is different from Mediterranean oregano and is traditional for this dish.\n*   **Don't Rush the Simmer**: The longer the pozole simmers after all ingredients are combined, the better the flavors will meld. A low, slow simmer allows the hominy to fully absorb the delicious broth and the chiles to infuse every component.\n*   **Adjust Spice Levels**: If you prefer a spicier Pozole Rojo Red Hominy Soup, increase the amount of arbol chiles. For a milder version, omit them entirely.\n\n## Serving Suggestions\n\nServing Pozole Rojo Red Hominy Soup is an art form in itself, with a vibrant array of garnishes that complement its rich flavors and textures.\n\nTraditionally, each diner is presented with a large bowl of the hot soup, accompanied by small bowls of fresh garnishes on the side. The most common garnishes include finely shredded cabbage or lettuce, thinly sliced radishes for a peppery crunch, finely diced white onion, and lime wedges for a burst of acidity. A sprinkle of dried Mexican oregano over the top before squeezing the lime juice is also customary.\n\nPozole is often enjoyed with crispy tostadas or tortilla chips on the side, perfect for scooping up the broth or for a textural contrast. Some also like to add a dollop of a spicy salsa macha or their favorite hot sauce for an extra kick. The beauty of these garnishes is that they allow each individual to customize their bowl, creating a truly personal and delightful eating experience.\n\n## Variations and Substitutions\n\nWhile Pozole Rojo Red Hominy Soup holds a special place, the world of pozole is diverse, offering several delicious variations.\n\n*   **Pozole Blanco**: This is the simplest form, typically made with pork and hominy in a clear broth, seasoned only with salt, garlic, and onion. The color comes purely from the hominy and meat.\n*   **Pozole Verde**: This vibrant green version uses tomatillos, jalapeños, cilantro, and sometimes pumpkin seeds or epazote in its broth, offering a brighter, tangier flavor profile. It often features chicken or a mix of chicken and pork.\n*   **Chicken Pozole**: For those who prefer poultry, chicken can easily replace pork in any pozole recipe. Use bone-in chicken pieces for the most flavor in the broth.\n*   **Beef Pozole**: While less common, beef can also be used, typically beef shank or chuck roast, simmered until tender.\n*   **Vegetarian/Vegan Pozole**: To make a meat-free version, simply omit the pork and use vegetable broth. You can add extra vegetables like carrots, potatoes, or zucchini, or even plant-based protein alternatives like mushrooms or jackfruit, to create a hearty vegetarian Pozole Rojo.\n*   **Hominy Substitutions**: While hominy is essential, if fresh or canned hominy is unavailable, dried hominy is the best alternative (requires soaking and longer cooking). Do not substitute with regular corn kernels, as the nixtamalization process is key to hominy's texture and flavor.\n*   **Chile Substitutions**: If specific dried chiles are hard to find, you can adjust. Guajillo is crucial for the red color and mild fruitiness. Ancho adds depth. If arbol chiles are too spicy, use a pinch of cayenne pepper instead, or omit.\n\nPozole Rojo Red Hominy Soup is a testament to the depth and versatility of Mexican cuisine. Its rich history, comforting flavors, and customizable nature make it a perfect dish for any occasion. Whether you're a seasoned chef or a home cook looking for a rewarding culinary adventure, diving into the preparation of this magnificent soup will undoubtedly leave you with a sense of accomplishment and a truly delicious meal. Enjoy the process, savor the flavors, and share the warmth of this incredible Mexican classic!",
   "jsonLdSchema": {
     "@context": "https://schema.org",
     "@type": "Recipe",
     "name": "Pozole Rojo Red Hominy Soup",
     "description": "Learn how to make authentic Pozole Rojo Red Hominy Soup. This easy Mexican recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1527976746453-f363eac4d889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDI4MTQwOXww&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1579640873954-766bf0235bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NDI4MTQwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1527976746453-f363eac4d889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NTEzNjQ3OXww&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1579640873954-766bf0235bf3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxNZXhpY2FuJTIwc291cHMlMjBmb29kJTIwdHJhZGl0aW9uYWx8ZW58MHwwfHx8MTc5NTEzNjQ3OXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-11-10T05:30:36.621Z",
-    "prepTime": "PT30M",
-    "cookTime": "PT2M",
-    "totalTime": "PT3M",
-    "recipeYield": "6 servings",
+    "datePublished": "2026-11-20T01:02:28.390Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
     "recipeCategory": "Soups and Stews",
     "recipeCuisine": "Mexican",
     "keywords": "Pozole Rojo Red Hominy Soup, how to make Pozole Rojo Red Hominy Soup, easy Pozole Rojo Red Hominy Soup recipe, authentic Mexican Pozole Rojo Red Hominy Soup",
@@ -236,59 +239,60 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "450 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "2 lbs Pork shoulder or butt",
-      "1 large White onion",
-      "6 Garlic cloves",
-      "1 tbsp Salt",
-      "1 tsp Black peppercorns",
-      "3 Bay leaves",
-      "1 (25 oz) can White hominy",
+      "2 lbs Pork shoulder",
+      "2 cans (15 oz each) White hominy",
+      "8 cups Water or chicken broth",
       "6 Dried guajillo chiles",
-      "3 Dried ancho chiles",
+      "2 Dried ancho chiles",
+      "4 Garlic cloves",
+      "1/2 White onion",
+      "1 tsp Ground cumin",
       "1/2 tsp Dried Mexican oregano",
-      "1/4 tsp Ground cumin",
-      "as needed Water or chicken broth",
+      "1 tbsp Salt",
+      "1/2 tsp Black pepper",
+      "2 Bay leaves",
       "for serving Shredded cabbage",
-      "for serving Thinly sliced radishes",
+      "for serving Sliced radishes",
       "for serving Diced white onion",
       "for serving Lime wedges",
+      "for serving Dried oregano",
       "for serving Tostadas"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Cook the Pork",
-        "text": "In a large pot or Dutch oven, combine the pork shoulder, one quartered onion half, 3 whole garlic cloves, 1 tablespoon salt, peppercorns, and bay leaves. Cover with enough water or chicken broth to submerge the pork by about 2 inches. Bring to a boil, then reduce heat, cover, and simmer for 1 hour 30 minutes, or until the pork is very tender and easily shredded."
+        "text": "Place the pork shoulder in a large pot with 6 cups of water or broth, 1/2 onion, 2 garlic cloves, and bay leaves. Bring to a boil, then reduce heat, cover, and simmer for 1.5 to 2 hours, or until the pork is very tender. Skim any foam that rises."
       },
       {
         "@type": "HowToStep",
-        "name": "Prepare the Chile Sauce",
-        "text": "While the pork cooks, rehydrate the dried chiles. Place the guajillo and ancho chiles in a heatproof bowl and cover them with hot water. Let them soak for 20-30 minutes until they are soft and pliable. Drain the chiles, reserving about 1 cup of the soaking liquid."
+        "name": "Prepare the Chiles",
+        "text": "While the pork cooks, toast the guajillo and ancho chiles in a dry skillet over medium heat for 1-2 minutes until fragrant, being careful not to burn them. Transfer to a bowl, cover with hot water, and let them rehydrate for 20-30 minutes until soft."
       },
       {
         "@type": "HowToStep",
-        "name": "Blend the Chile Sauce",
-        "text": "In a blender, combine the rehydrated chiles, the remaining roughly chopped onion half, 3 minced garlic cloves, Mexican oregano, and ground cumin. Add about 1/2 cup of the reserved chile soaking liquid or fresh water. Blend until the mixture is completely smooth. For a silky texture, strain the sauce through a fine-mesh sieve into a bowl, pressing with a spoon to extract all the liquid. Discard any solids remaining in the sieve."
+        "name": "Make the Red Chile Sauce",
+        "text": "Drain the rehydrated chiles. In a blender, combine the chiles with the remaining 2 garlic cloves, 1/2 cup of the pork cooking liquid (or fresh broth), cumin, and Mexican oregano. Blend until completely smooth. Strain the sauce through a fine-mesh sieve into a bowl, pressing to extract all liquid, discarding any solids."
       },
       {
         "@type": "HowToStep",
         "name": "Combine and Simmer",
-        "text": "Remove the cooked pork from the pot and shred it using two forks. Discard the cooked onion, garlic, peppercorns, and bay leaves from the cooking liquid. Skim any excess fat from the broth if desired. Return the shredded pork to the pot with the broth. Add the drained and rinsed hominy and the strained red chile sauce. Bring the mixture to a gentle simmer."
+        "text": "Once the pork is tender, remove it from the pot and shred it using two forks. Discard the onion, garlic, and bay leaves from the cooking liquid. Add the shredded pork and the strained chile sauce back into the pot with the cooking liquid. Add the rinsed hominy. If needed, add more water or broth to achieve desired consistency."
       },
       {
         "@type": "HowToStep",
-        "name": "Develop Flavors",
-        "text": "Continue to simmer the pozole for another 30-45 minutes, stirring occasionally, allowing all the flavors to meld and deepen. This simmering time helps the broth absorb the rich chile flavors and slightly thicken. Taste and adjust seasoning with additional salt if needed. The broth should turn a beautiful rich red color."
+        "name": "Season and Finish",
+        "text": "Bring the pozole to a gentle simmer. Season with salt and pepper to taste. Continue to simmer for at least 20-30 minutes, allowing the flavors to meld. The longer it simmers, the richer the taste."
       },
       {
         "@type": "HowToStep",
-        "name": "Serve with Toppings",
-        "text": "Ladle the hot Pozole Rojo into individual bowls. Serve immediately with a variety of traditional toppings on the side for guests to customize their bowls. Popular options include shredded cabbage, thinly sliced radishes, finely diced white onion, fresh lime wedges, and crispy tostadas. You can also offer a dollop of Mexican crema or avocado slices."
+        "name": "Serve",
+        "text": "Ladle the hot pozole into bowls. Serve immediately with a variety of garnishes on the side, such as shredded cabbage, sliced radishes, diced white onion, lime wedges, a sprinkle of dried oregano, and crispy tostadas."
       }
     ]
   },
-  "publishedAt": "2026-11-10T05:30:36.621Z"
+  "publishedAt": "2026-11-20T01:02:28.390Z"
 }
