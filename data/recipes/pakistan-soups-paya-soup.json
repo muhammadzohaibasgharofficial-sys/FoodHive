@@ -45,69 +45,79 @@
       }
     ]
   },
-  "prepTime": "30 min",
-  "cookTime": "3 hr 30 min",
-  "totalTime": "4 hr",
-  "servings": 6,
+  "prepTime": "20 min",
+  "cookTime": "35 min",
+  "totalTime": "55 min",
+  "servings": 4,
   "difficulty": "Medium",
   "cuisine": "Pakistani",
-  "image1": "https://images.unsplash.com/photo-1665593998976-d957f2827fe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0OTY3MjM1fDA&ixlib=rb-4.1.0&q=85",
-  "image2": "https://images.unsplash.com/photo-1652545296893-ff9227b3512e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0OTY3MjM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-  "description": "Paya Soup is a rich, gelatinous, and intensely flavorful Pakistani delicacy made from slow-cooked trotters, typically from goat or lamb. This hearty soup is renowned for its nourishing properties and deep, aromatic spices, making it a beloved comfort food perfect for cold weather or special occasions. Each spoonful offers a tender, melt-in-your-mouth experience with a robust broth that is both satisfying and incredibly delicious.",
+  "image1": "https://images.unsplash.com/photo-1665593998976-d957f2827fe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk1NTcyMDQxfDA&ixlib=rb-4.1.0&q=85",
+  "image2": "https://images.unsplash.com/photo-1652545296893-ff9227b3512e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk1NTcyMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+  "description": "Paya Soup is a rich and hearty Pakistani delicacy, slow-cooked to perfection with tender lamb or beef trotters. This intensely flavorful broth, infused with aromatic spices, offers a warming and nourishing experience. It's a traditional comfort food often enjoyed during colder months or as a special occasion meal.",
   "ingredients": [
     {
-      "item": "Goat or Lamb Trotters (Paya)",
-      "amount": "4",
+      "item": "Lamb or Beef Trotters (Paya)",
+      "amount": "1 kg",
       "notes": "cleaned and cut into pieces"
     },
     {
       "item": "Onions",
-      "amount": "2 large",
-      "notes": "sliced thinly"
+      "amount": "2 medium",
+      "notes": "finely sliced"
     },
     {
       "item": "Ginger-Garlic Paste",
-      "amount": "3 tablespoons",
+      "amount": "2 tbsp",
+      "notes": ""
+    },
+    {
+      "item": "Yogurt",
+      "amount": "1/2 cup",
+      "notes": "whisked"
+    },
+    {
+      "item": "Turmeric Powder",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
       "item": "Red Chili Powder",
-      "amount": "1.5 teaspoons",
-      "notes": ""
-    },
-    {
-      "item": "Turmeric Powder",
-      "amount": "1 teaspoon",
-      "notes": ""
+      "amount": "1.5 tsp",
+      "notes": "or to taste"
     },
     {
       "item": "Coriander Powder",
-      "amount": "2 teaspoons",
+      "amount": "1 tbsp",
       "notes": ""
     },
     {
       "item": "Cumin Powder",
-      "amount": "1 teaspoon",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
       "item": "Garam Masala Powder",
-      "amount": "1 teaspoon",
+      "amount": "1 tsp",
       "notes": ""
     },
     {
-      "item": "Whole Green Cardamom Pods",
-      "amount": "3",
-      "notes": ""
-    },
-    {
-      "item": "Cloves",
-      "amount": "4",
+      "item": "Black Cardamoms",
+      "amount": "2",
       "notes": ""
     },
     {
       "item": "Cinnamon Stick",
-      "amount": "1 (1-inch piece)",
+      "amount": "1",
+      "notes": "2-inch piece"
+    },
+    {
+      "item": "Cloves",
+      "amount": "4-5",
+      "notes": ""
+    },
+    {
+      "item": "Black Peppercorns",
+      "amount": "8-10",
       "notes": ""
     },
     {
@@ -116,19 +126,19 @@
       "notes": ""
     },
     {
-      "item": "Salt",
-      "amount": "to taste",
-      "notes": ""
-    },
-    {
       "item": "Oil",
       "amount": "1/2 cup",
       "notes": ""
     },
     {
+      "item": "Salt",
+      "amount": "To taste",
+      "notes": ""
+    },
+    {
       "item": "Water",
       "amount": "8-10 cups",
-      "notes": "or as needed for slow cooking"
+      "notes": ""
     },
     {
       "item": "Fresh Coriander",
@@ -142,62 +152,57 @@
     },
     {
       "item": "Fresh Ginger",
-      "amount": "1 inch",
+      "amount": "1 inch piece",
       "notes": "julienned, for garnish"
-    },
-    {
-      "item": "Lemon",
-      "amount": "1",
-      "notes": "cut into wedges, for serving"
     }
   ],
   "instructions": [
     {
       "step": 1,
       "title": "Prepare the Trotters",
-      "text": "Thoroughly clean the goat or lamb trotters. You may need to singe off any remaining hair over an open flame, then scrub and wash them vigorously multiple times under cold running water. Pat them dry with paper towels.",
-      "time": "15 min"
+      "text": "Wash the cleaned trotters thoroughly. In a large pot, add the trotters and enough water to cover them. Bring to a boil, then drain the water completely. This step helps remove impurities and any strong odor.",
+      "time": "10 min"
     },
     {
       "step": 2,
       "title": "Sauté Aromatics",
-      "text": "Heat oil in a large heavy-bottomed pot or pressure cooker over medium heat. Add the sliced onions and fry until they turn golden brown and caramelized. This step is crucial for the depth of flavor. Add the ginger-garlic paste, whole green cardamom pods, cloves, cinnamon stick, and bay leaf. Sauté for 2-3 minutes until fragrant.",
-      "time": "10 min"
+      "text": "In a large pressure cooker or heavy-bottomed pot, heat oil over medium heat. Add the sliced onions and fry until they turn golden brown. Then add the ginger-garlic paste and sauté for another 2 minutes until fragrant.",
+      "time": "8 min"
     },
     {
       "step": 3,
-      "title": "Brown Paya and Spices",
-      "text": "Add the cleaned trotters to the pot. Cook on medium-high heat for 7-10 minutes, turning occasionally, until the trotters change color and are lightly seared. Stir in the red chili powder, turmeric powder, coriander powder, cumin powder, and salt. Cook for another 5 minutes, stirring well to ensure the trotters are thoroughly coated with the spices.",
-      "time": "15 min"
+      "title": "Add Spices and Trotters",
+      "text": "Stir in turmeric powder, red chili powder, coriander powder, cumin powder, black cardamoms, cinnamon stick, cloves, black peppercorns, and bay leaf. Cook for 1 minute, stirring constantly. Add the pre-boiled trotters and whisked yogurt. Sear the trotters with the spices for 5-7 minutes, ensuring they are well coated.",
+      "time": "7 min"
     },
     {
       "step": 4,
-      "title": "Slow Cook to Tenderness",
-      "text": "Pour in 8-10 cups of water, ensuring the trotters are fully submerged. Bring the mixture to a rolling boil, then reduce the heat to very low. Cover the pot tightly and simmer for 3-4 hours, or until the trotters are extremely tender and the meat is falling off the bone. If using a pressure cooker, cook for 45-60 minutes after reaching full pressure, then let the pressure release naturally.",
-      "time": "3 hr 0 min"
+      "title": "Pressure Cook",
+      "text": "Pour in 8-10 cups of water and add salt to taste. Bring the mixture to a boil. If using a pressure cooker, close the lid and cook for 45-60 minutes after the first whistle, or until the trotters are extremely tender. If using a regular pot, cover and simmer on low heat for 3-4 hours, checking water levels and stirring occasionally.",
+      "time": "60 min"
     },
     {
       "step": 5,
-      "title": "Finish and Adjust Seasoning",
-      "text": "Once the trotters are tender, stir in the garam masala powder. Taste the soup and adjust the salt if needed. Allow the soup to simmer uncovered for another 10-15 minutes to allow the flavors to meld and the broth to thicken slightly to your desired consistency.",
+      "title": "Final Simmer and Seasoning",
+      "text": "Once the trotters are tender and the gravy has thickened to your desired consistency, open the pressure cooker or remove the lid from the pot. Stir in the garam masala powder. Taste and adjust salt or spices if needed. Allow it to simmer gently for another 10-15 minutes without the lid to deepen the flavors.",
       "time": "15 min"
     },
     {
       "step": 6,
-      "title": "Garnish and Serve",
-      "text": "Ladle the hot Paya soup into individual serving bowls. Garnish generously with fresh chopped coriander, sliced green chilies, and julienned ginger. Serve immediately with fresh lemon wedges on the side, and accompany with hot naan, tandoori roti, or plain rice for a complete and satisfying meal.",
+      "title": "Serve Hot",
+      "text": "Ladle the hot Paya Soup into serving bowls. Garnish generously with fresh chopped coriander, sliced green chilies, and julienned ginger. Serve immediately with naan, roti, or plain rice for a complete and satisfying meal.",
       "time": "5 min"
     }
   ],
   "nutritionTable": {
-    "calories": "420 kcal",
-    "protein": "22g",
-    "carbs": "50g",
-    "fat": "18g",
-    "fiber": "5g",
-    "sugar": "6g",
-    "sodium": "580mg",
-    "cholesterol": "70mg"
+    "calories": "380 kcal",
+    "protein": "18g",
+    "carbs": "45g",
+    "fat": "14g",
+    "fiber": "4g",
+    "sugar": "5g",
+    "sodium": "520mg",
+    "cholesterol": "60mg"
   },
   "tags": [
     "Pakistan",
@@ -206,17 +211,17 @@
     "traditional",
     "soups",
     "Paya Soup",
-    "trotters",
     "stew",
+    "trotters",
     "comfort food"
   ],
   "tips": [
-    "For truly tender Paya, slow cooking is key. If you dont have a pressure cooker, extend the simmering time until the meat is falling off the bone.",
-    "Browning the onions until deeply caramelized adds significant depth and sweetness to the broth, so dont rush this step.",
-    "Paya tastes even better the next day as the flavors deepen. Store leftovers in an airtight container in the refrigerator for up to 3 days, reheating gently on the stovetop."
+    "To achieve a truly tender Paya, slow cooking is key. If you dont have a pressure cooker, cook on low heat for 3-4 hours until the meat falls off the bone.",
+    "For a richer flavor, you can lightly roast the whole spices (black cardamoms, cinnamon, cloves, peppercorns) before adding them to the oil.",
+    "Paya often tastes even better the next day as the flavors meld. Reheat gently on low heat, adding a little water if needed to maintain consistency."
   ],
-  "rating": 4.9,
-  "reviews": 350,
+  "rating": 4.8,
+  "reviews": 312,
   "article": "Paya Soup is a beloved Pakistani Soups and Stews dish enjoyed across Pakistan. This authentic recipe brings traditional flavors to your kitchen.",
   "jsonLdSchema": {
     "@context": "https://schema.org",
@@ -224,18 +229,18 @@
     "name": "Paya Soup",
     "description": "Learn how to make authentic Paya Soup. This easy Pakistani recipe includes step-by-step instructions, tips, and serving ideas.",
     "image": [
-      "https://images.unsplash.com/photo-1665593998976-d957f2827fe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0OTY3MjM1fDA&ixlib=rb-4.1.0&q=85",
-      "https://images.unsplash.com/photo-1652545296893-ff9227b3512e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk0OTY3MjM1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+      "https://images.unsplash.com/photo-1665593998976-d957f2827fe7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwxfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk1NTcyMDQxfDA&ixlib=rb-4.1.0&q=85",
+      "https://images.unsplash.com/photo-1652545296893-ff9227b3512e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTg3MDd8MHwxfHNlYXJjaHwyfHxQYXlhJTIwU291cCUyMFBha2lzdGFuaSUyMGRpc2glMjB0cmFkaXRpb25hbHxlbnwwfDB8fHwxNzk1NTcyMDQxfDA&ixlib=rb-4.1.0&q=80&w=1080"
     ],
     "author": {
       "@type": "Organization",
       "name": "FoodHive World"
     },
-    "datePublished": "2026-11-18T05:30:24.832Z",
-    "prepTime": "PT30M",
-    "cookTime": "PT3M",
-    "totalTime": "PT4M",
-    "recipeYield": "6 servings",
+    "datePublished": "2026-11-25T02:01:00.338Z",
+    "prepTime": "PT20M",
+    "cookTime": "PT35M",
+    "totalTime": "PT55M",
+    "recipeYield": "4 servings",
     "recipeCategory": "Soups and Stews",
     "recipeCuisine": "Pakistani",
     "keywords": "Paya Soup, how to make Paya Soup, easy Paya Soup recipe, authentic Pakistani Paya Soup",
@@ -246,61 +251,62 @@
     },
     "nutrition": {
       "@type": "NutritionInformation",
-      "calories": "420 kcal"
+      "calories": "380 kcal"
     },
     "recipeIngredient": [
-      "4 Goat or Lamb Trotters (Paya)",
-      "2 large Onions",
-      "3 tablespoons Ginger-Garlic Paste",
-      "1.5 teaspoons Red Chili Powder",
-      "1 teaspoon Turmeric Powder",
-      "2 teaspoons Coriander Powder",
-      "1 teaspoon Cumin Powder",
-      "1 teaspoon Garam Masala Powder",
-      "3 Whole Green Cardamom Pods",
-      "4 Cloves",
-      "1 (1-inch piece) Cinnamon Stick",
+      "1 kg Lamb or Beef Trotters (Paya)",
+      "2 medium Onions",
+      "2 tbsp Ginger-Garlic Paste",
+      "1/2 cup Yogurt",
+      "1 tsp Turmeric Powder",
+      "1.5 tsp Red Chili Powder",
+      "1 tbsp Coriander Powder",
+      "1 tsp Cumin Powder",
+      "1 tsp Garam Masala Powder",
+      "2 Black Cardamoms",
+      "1 Cinnamon Stick",
+      "4-5 Cloves",
+      "8-10 Black Peppercorns",
       "1 Bay Leaf",
-      "to taste Salt",
       "1/2 cup Oil",
+      "To taste Salt",
       "8-10 cups Water",
       "1/4 cup Fresh Coriander",
       "2-3 Green Chilies",
-      "1 inch Fresh Ginger",
-      "1 Lemon"
+      "1 inch piece Fresh Ginger"
     ],
     "recipeInstructions": [
       {
         "@type": "HowToStep",
         "name": "Prepare the Trotters",
-        "text": "Thoroughly clean the goat or lamb trotters. You may need to singe off any remaining hair over an open flame, then scrub and wash them vigorously multiple times under cold running water. Pat them dry with paper towels."
+        "text": "Wash the cleaned trotters thoroughly. In a large pot, add the trotters and enough water to cover them. Bring to a boil, then drain the water completely. This step helps remove impurities and any strong odor."
       },
       {
         "@type": "HowToStep",
         "name": "Sauté Aromatics",
-        "text": "Heat oil in a large heavy-bottomed pot or pressure cooker over medium heat. Add the sliced onions and fry until they turn golden brown and caramelized. This step is crucial for the depth of flavor. Add the ginger-garlic paste, whole green cardamom pods, cloves, cinnamon stick, and bay leaf. Sauté for 2-3 minutes until fragrant."
+        "text": "In a large pressure cooker or heavy-bottomed pot, heat oil over medium heat. Add the sliced onions and fry until they turn golden brown. Then add the ginger-garlic paste and sauté for another 2 minutes until fragrant."
       },
       {
         "@type": "HowToStep",
-        "name": "Brown Paya and Spices",
-        "text": "Add the cleaned trotters to the pot. Cook on medium-high heat for 7-10 minutes, turning occasionally, until the trotters change color and are lightly seared. Stir in the red chili powder, turmeric powder, coriander powder, cumin powder, and salt. Cook for another 5 minutes, stirring well to ensure the trotters are thoroughly coated with the spices."
+        "name": "Add Spices and Trotters",
+        "text": "Stir in turmeric powder, red chili powder, coriander powder, cumin powder, black cardamoms, cinnamon stick, cloves, black peppercorns, and bay leaf. Cook for 1 minute, stirring constantly. Add the pre-boiled trotters and whisked yogurt. Sear the trotters with the spices for 5-7 minutes, ensuring they are well coated."
       },
       {
         "@type": "HowToStep",
-        "name": "Slow Cook to Tenderness",
-        "text": "Pour in 8-10 cups of water, ensuring the trotters are fully submerged. Bring the mixture to a rolling boil, then reduce the heat to very low. Cover the pot tightly and simmer for 3-4 hours, or until the trotters are extremely tender and the meat is falling off the bone. If using a pressure cooker, cook for 45-60 minutes after reaching full pressure, then let the pressure release naturally."
+        "name": "Pressure Cook",
+        "text": "Pour in 8-10 cups of water and add salt to taste. Bring the mixture to a boil. If using a pressure cooker, close the lid and cook for 45-60 minutes after the first whistle, or until the trotters are extremely tender. If using a regular pot, cover and simmer on low heat for 3-4 hours, checking water levels and stirring occasionally."
       },
       {
         "@type": "HowToStep",
-        "name": "Finish and Adjust Seasoning",
-        "text": "Once the trotters are tender, stir in the garam masala powder. Taste the soup and adjust the salt if needed. Allow the soup to simmer uncovered for another 10-15 minutes to allow the flavors to meld and the broth to thicken slightly to your desired consistency."
+        "name": "Final Simmer and Seasoning",
+        "text": "Once the trotters are tender and the gravy has thickened to your desired consistency, open the pressure cooker or remove the lid from the pot. Stir in the garam masala powder. Taste and adjust salt or spices if needed. Allow it to simmer gently for another 10-15 minutes without the lid to deepen the flavors."
       },
       {
         "@type": "HowToStep",
-        "name": "Garnish and Serve",
-        "text": "Ladle the hot Paya soup into individual serving bowls. Garnish generously with fresh chopped coriander, sliced green chilies, and julienned ginger. Serve immediately with fresh lemon wedges on the side, and accompany with hot naan, tandoori roti, or plain rice for a complete and satisfying meal."
+        "name": "Serve Hot",
+        "text": "Ladle the hot Paya Soup into serving bowls. Garnish generously with fresh chopped coriander, sliced green chilies, and julienned ginger. Serve immediately with naan, roti, or plain rice for a complete and satisfying meal."
       }
     ]
   },
-  "publishedAt": "2026-11-18T05:30:24.832Z"
+  "publishedAt": "2026-11-25T02:01:00.338Z"
 }
